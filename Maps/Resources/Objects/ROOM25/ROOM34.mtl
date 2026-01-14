@@ -1,0 +1,42 @@
+newmtl m_h06_tap_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_h06_tap_1.png
+map_d m_h06_tap_1.png
+newmtl m_h06_yuka_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_h06_yuka_1.png
+map_d m_h06_yuka_1.png
+newmtl m_h06_yuka2_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_h06_yuka2_1.png
+map_d m_h06_yuka2_1.png
+newmtl m_h06_counter_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_h06_counter_1.png
+map_d m_h06_counter_1.png
+newmtl m_h06_mat_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_h06_mat_1.png
+map_d m_h06_mat_1.png
+newmtl m_h06_tap2_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_h06_tap2_1.png
+map_d m_h06_tap2_1.png
+newmtl m_h06_kabe_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_h06_kabe_1.png
+map_d m_h06_kabe_1.png

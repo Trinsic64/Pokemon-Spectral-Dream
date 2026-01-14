@@ -1,0 +1,35 @@
+﻿/build/
+/dist/
+/tmp/
+/roms/
+/secrets/
+**/.cache/
+**/.temp/
+*.nds
+*.gba
+*.3ds
+*.cia
+*.sav
+*.dsv
+*.srm
+*.zip
+*.7z
+*.rar
+src/**/Maps/**/exports/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ROM/NDS binaries (do not commit)
+src/Spectral-Dream/ROM/Pokemon-Spetral-Dream.nds
+src/Heart-Gold/ROM/Pokemon-Heart-Gold.nds
+# Large map files (exceeds GitHub's 100 MB file size limit)
+Maps/Overworld-Maps/Asteria/Asteria.imd
+Maps/Overworld-Maps/Asteria/Asteria.obj
+Maps/Overworld-Maps/Asteria/Asteria.pdsmap
+src/Spectral-Dream/Maps/Asteria/Overworld/Overworld.pdsmap
+
+# Large ROM data files
+ROM/Pokemon-Spectral-Dream_DSPRE_contents/data/a/0/6/5
+src/Spectral-Dream/ROM/Pokemon-Spectral-Dream_DSPRE_contents/data/a/0/6/5

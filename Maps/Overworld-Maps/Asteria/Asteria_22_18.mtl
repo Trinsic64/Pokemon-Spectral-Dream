@@ -1,0 +1,48 @@
+newmtl rock01
+map_Kd rock01.png
+map_d rock01.png
+
+newmtl kusa_ec3
+map_Kd kusa_ec3.png
+map_d kusa_ec3.png
+
+newmtl kusa_ec1
+map_Kd kusa_ec1.png
+map_d kusa_ec1.png
+
+newmtl kusa_ec2
+map_Kd kusa_ec2.png
+map_d kusa_ec2.png
+
+newmtl yamasaba01
+map_Kd yamasaba01.png
+map_d yamasaba01.png
+
+newmtl sabaku_el_1
+map_Kd sabaku_el_1.png
+map_d sabaku_el_1.png
+
+newmtl ga_s01a
+map_Kd ga_s01a.png
+map_d ga_s01a.png
+
+newmtl ga_s1_0
+map_Kd ga_s1_0.png
+map_d ga_s1_0.png
+
+newmtl yamaga_s01
+map_Kd yamaga_s01.png
+map_d yamaga_s01.png
+
+newmtl sabaku_e01
+map_Kd sabaku_e01.png
+map_d sabaku_e01.png
+
+newmtl sabaku01
+map_Kd sabaku01.png
+map_d sabaku01.png
+
+newmtl ga_s_futa
+map_Kd ga_s_futa.png
+map_d ga_s_futa.png
+

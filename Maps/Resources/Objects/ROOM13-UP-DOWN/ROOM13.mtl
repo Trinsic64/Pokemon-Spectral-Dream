@@ -1,0 +1,60 @@
+newmtl c__yuka
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd c__yuka.png
+map_d c__yuka.png
+newmtl black
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd black.png
+map_d black.png
+newmtl b06_yuka4
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd b06_yuka4.png
+map_d b06_yuka4.png
+newmtl chip_mat_lm1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd chip_mat_lm1.png
+map_d chip_mat_lm1.png
+newmtl b06_kabe7
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd b06_kabe7.png
+map_d b06_kabe7.png
+newmtl kabe
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd kabe.png
+map_d kabe.png
+newmtl h_kage
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_kage.png
+map_d h_kage.png
+newmtl c__chip_kabe_lm1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd c__chip_kabe_lm1.png
+map_d c__chip_kabe_lm1.png
+newmtl black
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd black.png
+map_d black.png
+newmtl b06_kabe9
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd b06_kabe9.png
+map_d b06_kabe9.png

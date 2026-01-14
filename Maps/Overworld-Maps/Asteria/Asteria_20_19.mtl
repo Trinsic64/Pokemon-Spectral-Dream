@@ -1,0 +1,132 @@
+newmtl ki02ax
+map_Kd ki02ax.png
+map_d ki02ax.png
+
+newmtl ki02c
+map_Kd ki02c.png
+map_d ki02c.png
+
+newmtl ki02bx
+map_Kd ki02bx.png
+map_d ki02bx.png
+
+newmtl kaidan01a
+map_Kd kaidan01a.png
+map_d kaidan01a.png
+
+newmtl egrass_u
+map_Kd egrass_u.png
+map_d egrass_u.png
+
+newmtl egrass_v
+map_Kd egrass_v.png
+map_d egrass_v.png
+
+newmtl egrass_ro
+map_Kd egrass_ro.png
+map_d egrass_ro.png
+
+newmtl egrass_ri
+map_Kd egrass_ri.png
+map_d egrass_ri.png
+
+newmtl egrass
+map_Kd egrass.png
+map_d egrass.png
+
+newmtl file1Material
+map_Kd file1Material.png
+map_d file1Material.png
+
+newmtl file2Material
+map_Kd file2Material.png
+map_d file2Material.png
+
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl ki02DARKax
+map_Kd ki02DARKax.png
+map_d ki02DARKax.png
+
+newmtl ki02DARKbx
+map_Kd ki02DARKbx.png
+map_d ki02DARKbx.png
+
+newmtl ki02DARKdx
+map_Kd ki02DARKdx.png
+map_d ki02DARKdx.png
+
+newmtl saku01a
+map_Kd saku01a.png
+map_d saku01a.png
+
+newmtl ngrass_lm61
+map_Kd ngrass_lm61.png
+map_d ngrass_lm61.png
+
+newmtl hanger_lm21
+map_Kd hanger_lm21.png
+map_d hanger_lm21.png
+
+newmtl blueglayp_lm50
+map_Kd blueglayp_lm50.png
+map_d blueglayp_lm50.png
+
+newmtl ms04_2
+map_Kd ms04_2.png
+map_d ms04_2.png
+
+newmtl ms09_07
+map_Kd ms09_07.png
+map_d ms09_07.png
+
+newmtl numa_f2b
+map_Kd numa_f2b.png
+map_d numa_f2b.png
+
+newmtl numa_f2c
+map_Kd numa_f2c.png
+map_d numa_f2c.png
+
+newmtl numa_f2de
+map_Kd numa_f2de.png
+map_d numa_f2de.png
+
+newmtl ms09_01
+map_Kd ms09_01.png
+map_d ms09_01.png
+
+newmtl TRANSPARENT
+map_Kd TRANSPARENT.png
+map_d TRANSPARENT.png
+
+newmtl dtf_f01
+map_Kd dtf_f01.png
+map_d dtf_f01.png
+
+newmtl dtf_f03
+map_Kd dtf_f03.png
+map_d dtf_f03.png
+
+newmtl dtf_f06
+map_Kd dtf_f06.png
+map_d dtf_f06.png
+
+newmtl dtf_f07
+map_Kd dtf_f07.png
+map_d dtf_f07.png
+
+newmtl dtf_f05
+map_Kd dtf_f05.png
+map_d dtf_f05.png
+
+newmtl Grass_ms09_021
+map_Kd Grass_ms09_021.png
+map_d Grass_ms09_021.png
+
+newmtl blueglay_lm38
+map_Kd blueglay_lm38.png
+map_d blueglay_lm38.png
+

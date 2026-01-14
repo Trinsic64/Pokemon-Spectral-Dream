@@ -1,0 +1,96 @@
+newmtl in40_tana01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_tana01.png
+map_d in40_tana01.png
+newmtl in40_yuka01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_yuka01.png
+map_d in40_yuka01.png
+newmtl in40_kaidan01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_kaidan01.png
+map_d in40_kaidan01.png
+newmtl in40_kabe01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_kabe01.png
+map_d in40_kabe01.png
+newmtl in40_kabe02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_kabe02.png
+map_d in40_kabe02.png
+newmtl in40_yuka05
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_yuka05.png
+map_d in40_yuka05.png
+newmtl in40_yuka02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_yuka02.png
+map_d in40_yuka02.png
+newmtl in40_yuka3
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_yuka3.png
+map_d in40_yuka3.png
+newmtl in40_yuka2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_yuka2.png
+map_d in40_yuka2.png
+newmtl in40_yuka03
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_yuka03.png
+map_d in40_yuka03.png
+newmtl in40_yuka04
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_yuka04.png
+map_d in40_yuka04.png
+newmtl h_mado
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_mado.png
+map_d h_mado.png
+newmtl idr_win01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd idr_win01.png
+map_d idr_win01.png
+newmtl h_kage
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_kage.png
+map_d h_kage.png
+newmtl in40_table
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_table.png
+map_d in40_table.png
+newmtl in40_kabe03
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in40_kabe03.png
+map_d in40_kabe03.png

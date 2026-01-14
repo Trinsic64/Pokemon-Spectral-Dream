@@ -1,0 +1,82 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl esp_colum1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd esp_colum1.png
+map_d esp_colum1.png
+
+newmtl esp_colum1_1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd esp_colum1.png
+map_d esp_colum1.png
+
+newmtl esp_hoshi01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd esp_hoshi01.png
+map_d esp_hoshi01.png
+
+newmtl esp_hoshi03
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd esp_hoshi03.png
+map_d esp_hoshi03.png
+
+newmtl esp_hoshi04
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd esp_hoshi04.png
+map_d esp_hoshi04.png
+
+newmtl esp_kabe01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd esp_kabe01.png
+map_d esp_kabe01.png
+
+newmtl esp_kabe01_2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd esp_kabe01.png
+map_d esp_kabe01.png
+
+newmtl esp_stage01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd esp_stage01.png
+map_d esp_stage01.png

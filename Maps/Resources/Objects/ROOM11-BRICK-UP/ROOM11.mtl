@@ -1,0 +1,60 @@
+newmtl m_whouse04
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_whouse04.png
+map_d m_whouse04.png
+newmtl m_whouse03
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_whouse03.png
+map_d m_whouse03.png
+newmtl m_whouse01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_whouse01.png
+map_d m_whouse01.png
+newmtl m_whouse06
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_whouse06.png
+map_d m_whouse06.png
+newmtl m_whouse07
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_whouse07.png
+map_d m_whouse07.png
+newmtl m_whouse08
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_whouse08.png
+map_d m_whouse08.png
+newmtl m_whouse02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_whouse02.png
+map_d m_whouse02.png
+newmtl black
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd black.png
+map_d black.png
+newmtl chip_ent
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd chip_ent.png
+map_d chip_ent.png
+newmtl m_whouse05
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_whouse05.png
+map_d m_whouse05.png

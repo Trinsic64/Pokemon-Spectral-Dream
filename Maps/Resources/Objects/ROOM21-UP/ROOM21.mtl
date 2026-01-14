@@ -1,0 +1,72 @@
+newmtl in33b_yuka
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_yuka.png
+map_d in33b_yuka.png
+newmtl in33b_kabe4
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_kabe4.png
+map_d in33b_kabe4.png
+newmtl in33b_table
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_table.png
+map_d in33b_table.png
+newmtl in33b_mdo
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_mdo.png
+map_d in33b_mdo.png
+newmtl in33b_isu
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_isu.png
+map_d in33b_isu.png
+newmtl in33b_desk
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_desk.png
+map_d in33b_desk.png
+newmtl in33kage
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33kage.png
+map_d in33kage.png
+newmtl in33b_mat
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_mat.png
+map_d in33b_mat.png
+newmtl in33b_shelf1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_shelf1.png
+map_d in33b_shelf1.png
+newmtl in33b_shelf5
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_shelf5.png
+map_d in33b_shelf5.png
+newmtl in33b_mat3
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33b_mat3.png
+map_d in33b_mat3.png
+newmtl in33_sink2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in33_sink2.png
+map_d in33_sink2.png

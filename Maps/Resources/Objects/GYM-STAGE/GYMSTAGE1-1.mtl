@@ -1,0 +1,112 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl c4g_kabe01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_kabe01.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_kabe01.png
+
+newmtl c4g_kabe02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_kabe02.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_kabe02.png
+
+newmtl c4g_kaidan1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_kaidan1.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_kaidan1.png
+
+newmtl c4g_light02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_light02.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_light02.png
+
+newmtl c4g_saku01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_saku01.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_saku01.png
+
+newmtl c4g_stage1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_stage1.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_stage1.png
+
+newmtl c4g_stage1b
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_stage1b.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_stage1b.png
+
+newmtl c4g_stage1c
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_stage1c.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_stage1c.png
+
+newmtl c4g_tou01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_tou01.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_tou01.png
+
+newmtl c4g_yuka01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_yuka01.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_yuka01.png
+
+newmtl c4g_yuka02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_yuka02.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/GYM-WALKWAY/c4g_yuka02.png

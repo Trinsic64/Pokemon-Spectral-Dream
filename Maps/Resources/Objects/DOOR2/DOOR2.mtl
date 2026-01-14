@@ -1,0 +1,22 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl m_dun26_23_lm3
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/GALACTIC HQ/GALHQ1/569 -   m_dun2608_01_00c/m_dun26_23.png
+
+newmtl m_dun26_24_lm3
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/GALACTIC HQ/GALHQ1/569 -   m_dun2608_01_00c/m_dun26_24.png

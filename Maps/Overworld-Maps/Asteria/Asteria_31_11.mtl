@@ -1,0 +1,156 @@
+newmtl sea_mizu1_1
+map_Kd sea_mizu1_1.png
+map_d sea_mizu1_1.png
+
+newmtl kawa01b
+map_Kd kawa01b.png
+map_d kawa01b.png
+
+newmtl ki02c
+map_Kd ki02c.png
+map_d ki02c.png
+
+newmtl ki03ax
+map_Kd ki03ax.png
+map_d ki03ax.png
+
+newmtl ki03dx
+map_Kd ki03dx.png
+map_d ki03dx.png
+
+newmtl ki03bx
+map_Kd ki03bx.png
+map_d ki03bx.png
+
+newmtl gake01
+map_Kd gake01.png
+map_d gake01.png
+
+newmtl gake01a2
+map_Kd gake01a2.png
+map_d gake01a2.png
+
+newmtl gake1_1
+map_Kd gake1_1.png
+map_d gake1_1.png
+
+newmtl gake1_3
+map_Kd gake1_3.png
+map_d gake1_3.png
+
+newmtl yamagake01
+map_Kd yamagake01.png
+map_d yamagake01.png
+
+newmtl hashi01a
+map_Kd hashi01a.png
+map_d hashi01a.png
+
+newmtl kusa_ec3
+map_Kd kusa_ec3.png
+map_d kusa_ec3.png
+
+newmtl gake_michi
+map_Kd gake_michi.png
+map_d gake_michi.png
+
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl michi01b
+map_Kd michi01b.png
+map_d michi01b.png
+
+newmtl kusa_ec1
+map_Kd kusa_ec1.png
+map_d kusa_ec1.png
+
+newmtl kusa_ec2
+map_Kd kusa_ec2.png
+map_d kusa_ec2.png
+
+newmtl d0yuka_002
+map_Kd d0yuka_002.png
+map_d d0yuka_002.png
+
+newmtl d0gake_001b
+map_Kd d0gake_001b.png
+map_d d0gake_001b.png
+
+newmtl d0gake_001
+map_Kd d0gake_001.png
+map_d d0gake_001.png
+
+newmtl d0gake_002b
+map_Kd d0gake_002b.png
+map_d d0gake_002b.png
+
+newmtl r206_cy6_lm1
+map_Kd r206_cy6_lm1.png
+map_d r206_cy6_lm1.png
+
+newmtl h_kage_lm1
+map_Kd h_kage_lm1.png
+map_d h_kage_lm1.png
+
+newmtl lambert13
+map_Kd lambert13.png
+map_d lambert13.png
+
+newmtl lambert14
+map_Kd lambert14.png
+map_d lambert14.png
+
+newmtl A1_r206_cy5_lm2
+map_Kd A1_r206_cy5_lm2.png
+map_d A1_r206_cy5_lm2.png
+
+newmtl A1_r206_cy3_lm2
+map_Kd A1_r206_cy3_lm2.png
+map_d A1_r206_cy3_lm2.png
+
+newmtl A1_r206_cy1_lm2
+map_Kd A1_r206_cy1_lm2.png
+map_d A1_r206_cy1_lm2.png
+
+newmtl A1_r206_cy2_lm2
+map_Kd A1_r206_cy2_lm2.png
+map_d A1_r206_cy2_lm2.png
+
+newmtl A1_r206_cy5c_lm2
+map_Kd A1_r206_cy5c_lm2.png
+map_d A1_r206_cy5c_lm2.png
+
+newmtl A1_r206_cy3c_lm2
+map_Kd A1_r206_cy3c_lm2.png
+map_d A1_r206_cy3c_lm2.png
+
+newmtl A1_r206_cy1b_lm2
+map_Kd A1_r206_cy1b_lm2.png
+map_d A1_r206_cy1b_lm2.png
+
+newmtl A1_r206_cy2b_lm2
+map_Kd A1_r206_cy2b_lm2.png
+map_d A1_r206_cy2b_lm2.png
+
+newmtl A1_r206_cy4b_lm2
+map_Kd A1_r206_cy4b_lm2.png
+map_d A1_r206_cy4b_lm2.png
+
+newmtl A1_r206_cy5b_lm2
+map_Kd A1_r206_cy5b_lm2.png
+map_d A1_r206_cy5b_lm2.png
+
+newmtl A1_r206_cy3b_lm2
+map_Kd A1_r206_cy3b_lm2.png
+map_d A1_r206_cy3b_lm2.png
+
+newmtl A1_r206_pol2_lm1
+map_Kd A1_r206_pol2_lm1.png
+map_d A1_r206_pol2_lm1.png
+
+newmtl A1_r206_pol1_lm1
+map_Kd A1_r206_pol1_lm1.png
+map_d A1_r206_pol1_lm1.png
+

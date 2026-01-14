@@ -1,0 +1,138 @@
+newmtl in57_kabe01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_kabe01.png
+map_d in57_kabe01.png
+newmtl in57_yuka01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_yuka01.png
+map_d in57_yuka01.png
+newmtl in57_mado01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_mado01.png
+map_d in57_mado01.png
+newmtl in20desk_01_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in20desk_01_1.png
+map_d in20desk_01_1.png
+newmtl in20desk_01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in20desk_01.png
+map_d in20desk_01.png
+newmtl in57_book01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_book01.png
+map_d in57_book01.png
+newmtl in57_book02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_book02.png
+map_d in57_book02.png
+newmtl in57_book04
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_book04.png
+map_d in57_book04.png
+newmtl in57_book05
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_book05.png
+map_d in57_book05.png
+newmtl in57_book06
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_book06.png
+map_d in57_book06.png
+newmtl in57_book07
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_book07.png
+map_d in57_book07.png
+newmtl in57_table01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_table01.png
+map_d in57_table01.png
+newmtl in57_tana01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_tana01.png
+map_d in57_tana01.png
+newmtl in57_book03
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_book03.png
+map_d in57_book03.png
+newmtl h_kage
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_kage.png
+map_d h_kage.png
+newmtl in57_gf01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_gf01.png
+map_d in57_gf01.png
+newmtl in57_gf02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_gf02.png
+map_d in57_gf02.png
+newmtl h_mado
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_mado.png
+map_d h_mado.png
+newmtl in57_mado02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_mado02.png
+map_d in57_mado02.png
+newmtl in57_mat01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_mat01.png
+map_d in57_mat01.png
+newmtl in57_yuka02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_yuka02.png
+map_d in57_yuka02.png
+newmtl in57_step01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in57_step01.png
+map_d in57_step01.png
+newmtl step
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd step.png
+map_d step.png

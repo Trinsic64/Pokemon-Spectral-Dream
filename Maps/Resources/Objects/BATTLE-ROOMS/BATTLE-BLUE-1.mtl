@@ -1,0 +1,102 @@
+newmtl in74_saku02_3
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_saku02_3.png
+map_d in74_saku02_3.png
+newmtl in74_001c_1
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_001c_1.png
+map_d in74_001c_1.png
+newmtl in74_009_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_009_1.png
+map_d in74_009_1.png
+newmtl in74_005_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_005_1.png
+map_d in74_005_1.png
+newmtl in74_007_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_007_1.png
+map_d in74_007_1.png
+newmtl in74_008_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_008_1.png
+map_d in74_008_1.png
+newmtl in74_006_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_006_1.png
+map_d in74_006_1.png
+newmtl in74_mark_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 0.6129
+map_Kd in74_mark_1.png
+map_d in74_mark_1.png
+newmtl in74_saku02_2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_saku02_2.png
+map_d in74_saku02_2.png
+newmtl in74_saku01_2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_saku01_2.png
+map_d in74_saku01_2.png
+newmtl in74_saku01_5
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_saku01_5.png
+map_d in74_saku01_5.png
+newmtl in74_tyu01_2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_tyu01_2.png
+map_d in74_tyu01_2.png
+newmtl in74_tyu01_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_tyu01_1.png
+map_d in74_tyu01_1.png
+newmtl in74_saku01_4
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_saku01_4.png
+map_d in74_saku01_4.png
+newmtl in74_saku01_6
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_saku01_6.png
+map_d in74_saku01_6.png
+newmtl in74_001b_1
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_001b_1.png
+map_d in74_001b_1.png
+newmtl in74_002_1
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in74_002_1.png
+map_d in74_002_1.png

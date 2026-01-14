@@ -1,0 +1,142 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl h_kage
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/h_kage.png
+
+newmtl h_mado
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/h_mado.png
+
+newmtl idr_win01
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/idr_win01.png
+
+newmtl in40_kabe01
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_kabe01.png
+
+newmtl in40_kabe02
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_kabe02.png
+
+newmtl in40_kabe03
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_kabe03.png
+
+newmtl in40_kaidan01
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_kaidan01.png
+
+newmtl in40_table
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_table.png
+
+newmtl in40_tana01
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_tana01.png
+
+newmtl in40_yuka01
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_yuka01.png
+
+newmtl in40_yuka03
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_yuka03.png
+
+newmtl in40_yuka04
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_yuka04.png
+
+newmtl in40_yuka2
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_yuka2.png
+
+newmtl in40_yuka3
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Export/Maps/Hotel-Basement/DAE/2347 -   Indoor-All-v2_06/in40_yuka3.png

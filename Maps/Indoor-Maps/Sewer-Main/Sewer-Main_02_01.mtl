@@ -1,0 +1,104 @@
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl black
+map_Kd black.png
+map_d black.png
+
+newmtl 17coad
+map_Kd 17coad.png
+map_d 17coad.png
+
+newmtl 17hole
+map_Kd 17hole.png
+map_d 17hole.png
+
+newmtl 17kabe00
+map_Kd 17kabe00.png
+map_d 17kabe00.png
+
+newmtl 17kabe01
+map_Kd 17kabe01.png
+map_d 17kabe01.png
+
+newmtl 17kaidan00
+map_Kd 17kaidan00.png
+map_d 17kaidan00.png
+
+newmtl 17light
+map_Kd 17light.png
+map_d 17light.png
+
+newmtl 17miti00
+map_Kd 17miti00.png
+map_d 17miti00.png
+
+newmtl 17miti01
+map_Kd 17miti01.png
+map_d 17miti01.png
+
+newmtl 17miti02
+map_Kd 17miti02.png
+map_d 17miti02.png
+
+newmtl 17mon
+map_Kd 17mon.png
+map_d 17mon.png
+
+newmtl 17palp
+map_Kd 17palp.png
+map_d 17palp.png
+
+newmtl 17saku
+map_Kd 17saku.png
+map_d 17saku.png
+
+newmtl 17simi00
+map_Kd 17simi00.png
+map_d 17simi00.png
+
+newmtl 17simi01
+map_Kd 17simi01.png
+map_d 17simi01.png
+
+newmtl 17simi02
+map_Kd 17simi02.png
+map_d 17simi02.png
+
+newmtl 17simi03
+map_Kd 17simi03.png
+map_d 17simi03.png
+
+newmtl 17sizuku00
+map_Kd 17sizuku00.png
+map_d 17sizuku00.png
+
+newmtl 17sizuku01
+map_Kd 17sizuku01.png
+map_d 17sizuku01.png
+
+newmtl 17suiro
+map_Kd 17suiro.png
+map_d 17suiro.png
+
+newmtl 17kabe03
+map_Kd 17kabe03.png
+map_d 17kabe03.png
+
+newmtl 17miti2_00
+map_Kd 17miti2_00.png
+map_d 17miti2_00.png
+
+newmtl 17miti2_01
+map_Kd 17miti2_01.png
+map_d 17miti2_01.png
+
+newmtl 17wood
+map_Kd 17wood.png
+map_d 17wood.png
+
+newmtl 17suiro01
+map_Kd 17suiro01.png
+map_d 17suiro01.png
+

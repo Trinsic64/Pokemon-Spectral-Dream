@@ -1,0 +1,92 @@
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl n_jyu_fuch
+map_Kd n_jyu_fuch.png
+map_d n_jyu_fuch.png
+
+newmtl black
+map_Kd black.png
+map_d black.png
+
+newmtl in39_hokori2
+map_Kd in39_hokori2.png
+map_d in39_hokori2.png
+
+newmtl 17coad
+map_Kd 17coad.png
+map_d 17coad.png
+
+newmtl 17light
+map_Kd 17light.png
+map_d 17light.png
+
+newmtl 17machine
+map_Kd 17machine.png
+map_d 17machine.png
+
+newmtl 17palp
+map_Kd 17palp.png
+map_d 17palp.png
+
+newmtl 17simi01
+map_Kd 17simi01.png
+map_d 17simi01.png
+
+newmtl 17simi03
+map_Kd 17simi03.png
+map_d 17simi03.png
+
+newmtl 17palp1
+map_Kd 17palp1.png
+map_d 17palp1.png
+
+newmtl 17balb
+map_Kd 17balb.png
+map_d 17balb.png
+
+newmtl in09_yuka1
+map_Kd in09_yuka1.png
+map_d in09_yuka1.png
+
+newmtl in64_lab03_09
+map_Kd in64_lab03_09.png
+map_d in64_lab03_09.png
+
+newmtl in64_lab03_11
+map_Kd in64_lab03_11.png
+map_d in64_lab03_11.png
+
+newmtl m_l04a
+map_Kd m_l04a.png
+map_d m_l04a.png
+
+newmtl idr_mat01
+map_Kd idr_mat01.png
+map_d idr_mat01.png
+
+newmtl 01WALL
+map_Kd 01WALL.png
+map_d 01WALL.png
+
+newmtl 01SHADOW
+map_Kd 01SHADOW.png
+map_d 01SHADOW.png
+
+newmtl 01SHADOW
+map_Kd 01SHADOW.png
+map_d 01SHADOW.png
+
+newmtl 01SHADOW
+map_Kd 01SHADOW.png
+map_d 01SHADOW.png
+
+newmtl 01SHADOW
+map_Kd 01SHADOW.png
+map_d 01SHADOW.png
+
+newmtl 01SHADOW
+map_Kd 01SHADOW.png
+map_d 01SHADOW.png
+

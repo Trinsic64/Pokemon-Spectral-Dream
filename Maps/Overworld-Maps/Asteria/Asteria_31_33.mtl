@@ -1,0 +1,124 @@
+newmtl lav
+map_Kd lav.png
+map_d lav.png
+
+newmtl kawa01g
+map_Kd kawa01g.png
+map_d kawa01g.png
+
+newmtl kawa01c
+map_Kd kawa01c.png
+map_d kawa01c.png
+
+newmtl kawa01d
+map_Kd kawa01d.png
+map_d kawa01d.png
+
+newmtl kawa01f
+map_Kd kawa01f.png
+map_d kawa01f.png
+
+newmtl kawa01b
+map_Kd kawa01b.png
+map_d kawa01b.png
+
+newmtl lav2
+map_Kd lav2.png
+map_d lav2.png
+
+newmtl ki02c
+map_Kd ki02c.png
+map_d ki02c.png
+
+newmtl ki03ax
+map_Kd ki03ax.png
+map_d ki03ax.png
+
+newmtl ki03dx
+map_Kd ki03dx.png
+map_d ki03dx.png
+
+newmtl ki03bx
+map_Kd ki03bx.png
+map_d ki03bx.png
+
+newmtl gake01
+map_Kd gake01.png
+map_d gake01.png
+
+newmtl gake01a2
+map_Kd gake01a2.png
+map_d gake01a2.png
+
+newmtl gake1_0
+map_Kd gake1_0.png
+map_d gake1_0.png
+
+newmtl gake1_1
+map_Kd gake1_1.png
+map_d gake1_1.png
+
+newmtl yamagake01
+map_Kd yamagake01.png
+map_d yamagake01.png
+
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl michi01a
+map_Kd michi01a.png
+map_d michi01a.png
+
+newmtl michi01b
+map_Kd michi01b.png
+map_d michi01b.png
+
+newmtl kawasoko_isi
+map_Kd kawasoko_isi.png
+map_d kawasoko_isi.png
+
+newmtl kaidan01a
+map_Kd kaidan01a.png
+map_d kaidan01a.png
+
+newmtl egrass_u
+map_Kd egrass_u.png
+map_d egrass_u.png
+
+newmtl egrass_v
+map_Kd egrass_v.png
+map_d egrass_v.png
+
+newmtl egrass_ro
+map_Kd egrass_ro.png
+map_d egrass_ro.png
+
+newmtl egrass_ri
+map_Kd egrass_ri.png
+map_d egrass_ri.png
+
+newmtl egrass
+map_Kd egrass.png
+map_d egrass.png
+
+newmtl bridge_b
+map_Kd bridge_b.png
+map_d bridge_b.png
+
+newmtl bridge_c
+map_Kd bridge_c.png
+map_d bridge_c.png
+
+newmtl gake01a
+map_Kd gake01a.png
+map_d gake01a.png
+
+newmtl TRANSPARENT
+map_Kd TRANSPARENT.png
+map_d TRANSPARENT.png
+
+newmtl rkage
+map_Kd rkage.png
+map_d rkage.png
+

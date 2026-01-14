@@ -1,0 +1,60 @@
+newmtl sea_jimen
+map_Kd sea_jimen.png
+map_d sea_jimen.png
+
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl kaidan01a
+map_Kd kaidan01a.png
+map_d kaidan01a.png
+
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl kage_out
+map_Kd kage_out.png
+map_d kage_out.png
+
+newmtl plant01
+map_Kd plant01.png
+map_d plant01.png
+
+newmtl saku
+map_Kd saku.png
+map_d saku.png
+
+newmtl j
+map_Kd j.png
+map_d j.png
+
+newmtl h
+map_Kd h.png
+map_d h.png
+
+newmtl i
+map_Kd i.png
+map_d i.png
+
+newmtl n
+map_Kd n.png
+map_d n.png
+
+newmtl c07_criffp_lm1
+map_Kd c07_criffp_lm1.png
+map_d c07_criffp_lm1.png
+
+newmtl C12_tile
+map_Kd C12_tile.png
+map_d C12_tile.png
+
+newmtl sand_and_grass
+map_Kd sand_and_grass.png
+map_d sand_and_grass.png
+
+newmtl sea_jimen2
+map_Kd sea_jimen2.png
+map_d sea_jimen2.png
+

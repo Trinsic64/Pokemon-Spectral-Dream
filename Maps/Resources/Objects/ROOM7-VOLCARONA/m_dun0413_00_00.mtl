@@ -1,0 +1,55 @@
+newmtl in10_kabe06
+map_Kd in10_kabe06.png
+map_d in10_kabe06.png
+
+newmtl in10_tile07
+map_Kd in10_tile07.png
+map_d in10_tile07.png
+
+newmtl in10_hekiga
+map_Kd in10_hekiga.png
+map_d in10_hekiga.png
+
+newmtl lambert1
+Ka 1.0 1.0 1.0
+
+newmtl in10_tile06
+map_Kd in10_tile06.png
+map_d in10_tile06.png
+
+newmtl in45_gate01
+map_Kd in45_gate01.png
+map_d in45_gate01.png
+
+newmtl in10_tile03
+map_Kd in10_tile03.png
+map_d in10_tile03.png
+
+newmtl in10_tile04
+map_Kd in10_tile04.png
+map_d in10_tile04.png
+
+newmtl in10_kabe09
+map_Kd in10_kabe09.png
+map_d in10_kabe09.png
+
+newmtl in10_kabe08
+map_Kd in10_kabe08.png
+map_d in10_kabe08.png
+
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl in10_tile05
+map_Kd in10_tile05.png
+map_d in10_tile05.png
+
+newmtl in10_kabe05
+map_Kd in10_kabe05.png
+map_d in10_kabe05.png
+
+newmtl in10_has01
+map_Kd in10_has01.png
+map_d in10_has01.png
+

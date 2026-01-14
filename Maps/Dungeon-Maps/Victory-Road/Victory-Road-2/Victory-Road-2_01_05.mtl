@@ -1,0 +1,48 @@
+newmtl kaidan01a
+map_Kd kaidan01a.png
+map_d kaidan01a.png
+
+newmtl d0yuka_002
+map_Kd d0yuka_002.png
+map_d d0yuka_002.png
+
+newmtl d0gake_001b
+map_Kd d0gake_001b.png
+map_d d0gake_001b.png
+
+newmtl d0gake_002
+map_Kd d0gake_002.png
+map_d d0gake_002.png
+
+newmtl d0gake_001
+map_Kd d0gake_001.png
+map_d d0gake_001.png
+
+newmtl d0gake_002b
+map_Kd d0gake_002b.png
+map_d d0gake_002b.png
+
+newmtl d0gake_heri
+map_Kd d0gake_heri.png
+map_d d0gake_heri.png
+
+newmtl d0ana_001b
+map_Kd d0ana_001b.png
+map_d d0ana_001b.png
+
+newmtl d0ana_002b
+map_Kd d0ana_002b.png
+map_d d0ana_002b.png
+
+newmtl yuka_001
+map_Kd yuka_001.png
+map_d yuka_001.png
+
+newmtl A0GROUND
+map_Kd A0GROUND.png
+map_d A0GROUND.png
+
+newmtl A0MTCLIFF
+map_Kd A0MTCLIFF.png
+map_d A0MTCLIFF.png
+

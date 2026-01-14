@@ -1,0 +1,144 @@
+newmtl sea_mizu1_1
+map_Kd sea_mizu1_1.png
+map_d sea_mizu1_1.png
+
+newmtl kawa01b
+map_Kd kawa01b.png
+map_d kawa01b.png
+
+newmtl ki02c
+map_Kd ki02c.png
+map_d ki02c.png
+
+newmtl ki03ax
+map_Kd ki03ax.png
+map_d ki03ax.png
+
+newmtl ki03dx
+map_Kd ki03dx.png
+map_d ki03dx.png
+
+newmtl ki03bx
+map_Kd ki03bx.png
+map_d ki03bx.png
+
+newmtl gake01
+map_Kd gake01.png
+map_d gake01.png
+
+newmtl gake01a2
+map_Kd gake01a2.png
+map_d gake01a2.png
+
+newmtl gake1_1
+map_Kd gake1_1.png
+map_d gake1_1.png
+
+newmtl gake1_3
+map_Kd gake1_3.png
+map_d gake1_3.png
+
+newmtl yamagake01
+map_Kd yamagake01.png
+map_d yamagake01.png
+
+newmtl hashi01a
+map_Kd hashi01a.png
+map_d hashi01a.png
+
+newmtl kusa_ec3
+map_Kd kusa_ec3.png
+map_d kusa_ec3.png
+
+newmtl gake_michi
+map_Kd gake_michi.png
+map_d gake_michi.png
+
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl michi01a
+map_Kd michi01a.png
+map_d michi01a.png
+
+newmtl michi01b
+map_Kd michi01b.png
+map_d michi01b.png
+
+newmtl kusa_ec1
+map_Kd kusa_ec1.png
+map_d kusa_ec1.png
+
+newmtl kusa_ec2
+map_Kd kusa_ec2.png
+map_d kusa_ec2.png
+
+newmtl egrass_u
+map_Kd egrass_u.png
+map_d egrass_u.png
+
+newmtl egrass_v
+map_Kd egrass_v.png
+map_d egrass_v.png
+
+newmtl egrass_ro
+map_Kd egrass_ro.png
+map_d egrass_ro.png
+
+newmtl egrass_ri
+map_Kd egrass_ri.png
+map_d egrass_ri.png
+
+newmtl egrass
+map_Kd egrass.png
+map_d egrass.png
+
+newmtl lambert13
+map_Kd lambert13.png
+map_d lambert13.png
+
+newmtl lambert14
+map_Kd lambert14.png
+map_d lambert14.png
+
+newmtl r206_cy5c_lm4
+map_Kd r206_cy5c_lm4.png
+map_d r206_cy5c_lm4.png
+
+newmtl r206_cy2b_lm4
+map_Kd r206_cy2b_lm4.png
+map_d r206_cy2b_lm4.png
+
+newmtl r206_cy2_lm5
+map_Kd r206_cy2_lm5.png
+map_d r206_cy2_lm5.png
+
+newmtl r206_cy4b_lm4
+map_Kd r206_cy4b_lm4.png
+map_d r206_cy4b_lm4.png
+
+newmtl r206_cy4_lm3
+map_Kd r206_cy4_lm3.png
+map_d r206_cy4_lm3.png
+
+newmtl r206_cy5b_lm4
+map_Kd r206_cy5b_lm4.png
+map_d r206_cy5b_lm4.png
+
+newmtl r206_cy6_lm3
+map_Kd r206_cy6_lm3.png
+map_d r206_cy6_lm3.png
+
+newmtl r206_pol2_lm3
+map_Kd r206_pol2_lm3.png
+map_d r206_pol2_lm3.png
+
+newmtl r206_pol1_lm3
+map_Kd r206_pol1_lm3.png
+map_d r206_pol1_lm3.png
+
+newmtl lambert15
+map_Kd lambert15.png
+map_d lambert15.png
+

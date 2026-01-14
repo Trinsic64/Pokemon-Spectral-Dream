@@ -1,0 +1,8 @@
+newmtl black
+map_Kd black.png
+map_d black.png
+
+newmtl azt_wall02_1
+map_Kd azt_wall02_1.png
+map_d azt_wall02_1.png
+

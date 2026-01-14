@@ -1,0 +1,44 @@
+newmtl in39_ray03
+map_Kd in39_ray03.png
+map_d in39_ray03.png
+
+newmtl n_kon
+map_Kd n_kon.png
+map_d n_kon.png
+
+newmtl in39_gare02
+map_Kd in39_gare02.png
+map_d in39_gare02.png
+
+newmtl n_kaidan
+map_Kd n_kaidan.png
+map_d n_kaidan.png
+
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl n_kabe
+map_Kd n_kabe.png
+map_d n_kabe.png
+
+newmtl n_yuka1
+map_Kd n_yuka1.png
+map_d n_yuka1.png
+
+newmtl n_fuch3
+map_Kd n_fuch3.png
+map_d n_fuch3.png
+
+newmtl in39_yuka3
+map_Kd in39_yuka3.png
+map_d in39_yuka3.png
+
+newmtl n_colum_a
+map_Kd n_colum_a.png
+map_d n_colum_a.png
+
+newmtl n_kabe3
+map_Kd n_kabe3.png
+map_d n_kabe3.png
+

@@ -1,0 +1,60 @@
+newmtl drock01
+map_Kd drock01.png
+map_d drock01.png
+
+newmtl d7bedrock4
+map_Kd d7bedrock4.png
+map_d d7bedrock4.png
+
+newmtl d0gake_heri
+map_Kd d0gake_heri.png
+map_d d0gake_heri.png
+
+newmtl droad01
+map_Kd droad01.png
+map_d droad01.png
+
+newmtl dcliff01
+map_Kd dcliff01.png
+map_d dcliff01.png
+
+newmtl drock01s
+map_Kd drock01s.png
+map_d drock01s.png
+
+newmtl dcliff01_r
+map_Kd dcliff01_r.png
+map_d dcliff01_r.png
+
+newmtl dwall01_n
+map_Kd dwall01_n.png
+map_d dwall01_n.png
+
+newmtl dwall_wn
+map_Kd dwall_wn.png
+map_d dwall_wn.png
+
+newmtl droad01_r
+map_Kd droad01_r.png
+map_d droad01_r.png
+
+newmtl dwall_ne
+map_Kd dwall_ne.png
+map_d dwall_ne.png
+
+newmtl dwall01_s
+map_Kd dwall01_s.png
+map_d dwall01_s.png
+
+newmtl chole_out
+map_Kd chole_out.png
+map_d chole_out.png
+
+newmtl d_light
+map_Kd d_light.png
+map_d d_light.png
+
+newmtl chole_light
+map_Kd chole_light.png
+map_d chole_light.png
+

@@ -1,0 +1,84 @@
+newmtl in51_futi
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_futi.png
+map_d in51_futi.png
+newmtl d0ana_002
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd d0ana_002.png
+map_d d0ana_002.png
+newmtl in51_ana1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_ana1.png
+map_d in51_ana1.png
+newmtl in51_gake2b
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_gake2b.png
+map_d in51_gake2b.png
+newmtl in51_gake1b
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_gake1b.png
+map_d in51_gake1b.png
+newmtl in51_futa
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_futa.png
+map_d in51_futa.png
+newmtl in51_gake2
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_gake2.png
+map_d in51_gake2.png
+newmtl in51_gake1
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_gake1.png
+map_d in51_gake1.png
+newmtl in51_ike2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_ike2.png
+map_d in51_ike2.png
+newmtl in51_gake1c
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_gake1c.png
+map_d in51_gake1c.png
+newmtl d0yuka_001
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd d0yuka_001.png
+map_d d0yuka_001.png
+newmtl in51_ike
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_ike.png
+map_d in51_ike.png
+newmtl in51_gakeher
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_gakeher.png
+map_d in51_gakeher.png
+newmtl in51_yuka2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in51_yuka2.png
+map_d in51_yuka2.png

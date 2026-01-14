@@ -1,0 +1,168 @@
+newmtl in48_tile01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_tile01.png
+map_d in48_tile01.png
+newmtl in48_tile03
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_tile03.png
+map_d in48_tile03.png
+newmtl in48_line01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_line01.png
+map_d in48_line01.png
+newmtl in48_dan01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_dan01.png
+map_d in48_dan01.png
+newmtl in48_tile02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_tile02.png
+map_d in48_tile02.png
+newmtl in48_step
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_step.png
+map_d in48_step.png
+newmtl in48_tkabe01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_tkabe01.png
+map_d in48_tkabe01.png
+newmtl in48_mado01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_mado01.png
+map_d in48_mado01.png
+newmtl in48_mat01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_mat01.png
+map_d in48_mat01.png
+newmtl in48_sof01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_sof01.png
+map_d in48_sof01.png
+newmtl in48_mado
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_mado.png
+map_d in48_mado.png
+newmtl fh_bbed01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fh_bbed01.png
+map_d fh_bbed01.png
+newmtl fh_bramp
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fh_bramp.png
+map_d fh_bramp.png
+newmtl in48_bed01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_bed01.png
+map_d in48_bed01.png
+newmtl h_kage
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_kage.png
+map_d h_kage.png
+newmtl in48_table01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_table01.png
+map_d in48_table01.png
+newmtl in48_case01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_case01.png
+map_d in48_case01.png
+newmtl in48_table02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_table02.png
+map_d in48_table02.png
+newmtl in48_che01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_che01.png
+map_d in48_che01.png
+newmtl in48_case02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_case02.png
+map_d in48_case02.png
+newmtl cafe_art02a
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_art02a.png
+map_d cafe_art02a.png
+newmtl in48_table03
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_table03.png
+map_d in48_table03.png
+newmtl in48_lig01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_lig01.png
+map_d in48_lig01.png
+newmtl in48_kom01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_kom01.png
+map_d in48_kom01.png
+newmtl in48_kom02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_kom02.png
+map_d in48_kom02.png
+newmtl kabin
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd kabin.png
+map_d kabin.png
+newmtl h_kage_2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_kage_2.png
+map_d h_kage_2.png
+newmtl in48_isu01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in48_isu01.png
+map_d in48_isu01.png

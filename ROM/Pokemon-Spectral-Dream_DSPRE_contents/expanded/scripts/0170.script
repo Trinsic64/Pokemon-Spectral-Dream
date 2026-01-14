@@ -1,0 +1,19 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream
+ * Game: HGSS
+ * File: 0170
+ * Generated: 16/12/2025 8:40:51 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	SetTextBoard 2 0
+	ShowBoard 3
+	WaitBoard
+	BoardMessage 0 0x800C
+	CommonScript 2000
+End
+
+//===== FUNCTIONS =====//
+//===== ACTIONS =====//

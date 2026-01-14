@@ -1,0 +1,52 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl h06ashi01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06ashi01.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06ashi01.png
+
+newmtl h06michi01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06michi01.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06michi01.png
+
+newmtl h06tutu01
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06tutu01.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06tutu01.png
+
+newmtl h06tutu01h
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06tutu01h.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06tutu01h.png
+
+newmtl h06tutu02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06tutu02.png
+map_d C:/Pokemon-Spectral-Dream/07_Export/Maps/PACK 3/MARINE1-1/h06tutu02.png

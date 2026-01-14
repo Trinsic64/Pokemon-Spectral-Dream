@@ -1,0 +1,20 @@
+newmtl m_lab01_03
+map_Kd m_lab01_03.png
+map_d m_lab01_03.png
+
+newmtl m_lab01_04
+map_Kd m_lab01_04.png
+map_d m_lab01_04.png
+
+newmtl h_mado
+map_Kd h_mado.png
+map_d h_mado.png
+
+newmtl m_lab01_05
+map_Kd m_lab01_05.png
+map_d m_lab01_05.png
+
+newmtl m_lab01_06
+map_Kd m_lab01_06.png
+map_d m_lab01_06.png
+

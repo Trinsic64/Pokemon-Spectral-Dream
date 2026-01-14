@@ -1,0 +1,8 @@
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl idr_stair_u01
+map_Kd idr_stair_u01.png
+map_d idr_stair_u01.png
+

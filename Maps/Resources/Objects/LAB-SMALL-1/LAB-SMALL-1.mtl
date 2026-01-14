@@ -1,0 +1,100 @@
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl cafe_art02a
+map_Kd cafe_art02a.png
+map_d cafe_art02a.png
+
+newmtl fh_bbed01
+map_Kd fh_bbed01.png
+map_d fh_bbed01.png
+
+newmtl fh_bramp
+map_Kd fh_bramp.png
+map_d fh_bramp.png
+
+newmtl h_kage_2
+map_Kd h_kage_2.png
+map_d h_kage_2.png
+
+newmtl in48_bed01
+map_Kd in48_bed01.png
+map_d in48_bed01.png
+
+newmtl in48_case01
+map_Kd in48_case01.png
+map_d in48_case01.png
+
+newmtl in48_case02
+map_Kd in48_case02.png
+map_d in48_case02.png
+
+newmtl in48_che01
+map_Kd in48_che01.png
+map_d in48_che01.png
+
+newmtl in48_isu01
+map_Kd in48_isu01.png
+map_d in48_isu01.png
+
+newmtl in48_kom01
+map_Kd in48_kom01.png
+map_d in48_kom01.png
+
+newmtl in48_kom02
+map_Kd in48_kom02.png
+map_d in48_kom02.png
+
+newmtl in48_lig01
+map_Kd in48_lig01.png
+map_d in48_lig01.png
+
+newmtl in48_mado01
+map_Kd in48_mado01.png
+map_d in48_mado01.png
+
+newmtl in48_sof01
+map_Kd in48_sof01.png
+map_d in48_sof01.png
+
+newmtl in48_step
+map_Kd in48_step.png
+map_d in48_step.png
+
+newmtl in48_table01
+map_Kd in48_table01.png
+map_d in48_table01.png
+
+newmtl in48_table02
+map_Kd in48_table02.png
+map_d in48_table02.png
+
+newmtl in48_table03
+map_Kd in48_table03.png
+map_d in48_table03.png
+
+newmtl in48_tile01
+map_Kd in48_tile01.png
+map_d in48_tile01.png
+
+newmtl in48_tile02
+map_Kd in48_tile02.png
+map_d in48_tile02.png
+
+newmtl in48_tile03
+map_Kd in48_tile03.png
+map_d in48_tile03.png
+
+newmtl in48_tkabe01
+map_Kd in48_tkabe01.png
+map_d in48_tkabe01.png
+
+newmtl kabin
+map_Kd kabin.png
+map_d kabin.png
+
+newmtl in48_mado
+map_Kd in48_mado.png
+map_d in48_mado.png
+

@@ -1,0 +1,12 @@
+mtllib MMDL1.mtl
+o mmdl_plane_mesh
+v -16.0 0.0 0.0
+v 16.0 0.0 0.0
+v 16.0 32.0 0.0
+v -16.0 32.0 0.0
+vt 0.0 0.0
+vt 1.0 0.0
+vt 1.0 1.0
+vt 0.0 1.0
+usemtl VMoveModel_Material
+f 1/1 2/2 3/3 4/4

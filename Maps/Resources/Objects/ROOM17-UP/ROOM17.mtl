@@ -1,0 +1,42 @@
+newmtl fhgenkan_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fhgenkan_1.png
+map_d fhgenkan_1.png
+newmtl fhyuka_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fhyuka_1.png
+map_d fhyuka_1.png
+newmtl fhkabe2_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fhkabe2_1.png
+map_d fhkabe2_1.png
+newmtl fhkabe_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fhkabe_1.png
+map_d fhkabe_1.png
+newmtl fhkabe3_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fhkabe3_1.png
+map_d fhkabe3_1.png
+newmtl m_h01_06_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd m_h01_06_1.png
+map_d m_h01_06_1.png
+newmtl hshiki_lm1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd hshiki_lm1.png
+map_d hshiki_lm1.png

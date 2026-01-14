@@ -1,0 +1,54 @@
+newmtl in86_ka01
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in86_ka01.png
+map_d in86_ka01.png
+newmtl in86_yu02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in86_yu02.png
+map_d in86_yu02.png
+newmtl in86_yu03
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in86_yu03.png
+map_d in86_yu03.png
+newmtl in86_ka02
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in86_ka02.png
+map_d in86_ka02.png
+newmtl in86_yu01
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in86_yu01.png
+map_d in86_yu01.png
+newmtl in86_yu04
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in86_yu04.png
+map_d in86_yu04.png
+newmtl in86_obj01
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in86_obj01.png
+map_d in86_obj01.png
+newmtl in86_yu05
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in86_yu05.png
+map_d in86_yu05.png
+newmtl in86_ka03
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in86_ka03.png
+map_d in86_ka03.png

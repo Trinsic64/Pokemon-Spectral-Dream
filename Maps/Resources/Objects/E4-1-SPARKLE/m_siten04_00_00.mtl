@@ -1,0 +1,32 @@
+newmtl esp_stage01
+map_Kd esp_stage01.png
+map_d esp_stage01.png
+
+newmtl esp_kabe01_2
+map_Kd esp_kabe01.png
+map_d esp_kabe01.png
+
+newmtl esp_hoshi04
+map_Kd esp_hoshi04.png
+map_d esp_hoshi04.png
+
+newmtl esp_hoshi01
+map_Kd esp_hoshi01.png
+map_d esp_hoshi01.png
+
+newmtl esp_colum1_1
+map_Kd esp_colum1.png
+map_d esp_colum1.png
+
+newmtl esp_hoshi03
+map_Kd esp_hoshi03.png
+map_d esp_hoshi03.png
+
+newmtl esp_kabe01
+map_Kd esp_kabe01.png
+map_d esp_kabe01.png
+
+newmtl esp_colum1
+map_Kd esp_colum1.png
+map_d esp_colum1.png
+

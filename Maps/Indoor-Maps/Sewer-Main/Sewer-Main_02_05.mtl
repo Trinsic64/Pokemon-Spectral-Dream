@@ -1,0 +1,44 @@
+newmtl kusa_ec3
+map_Kd kusa_ec3.png
+map_d kusa_ec3.png
+
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl black
+map_Kd black.png
+map_d black.png
+
+newmtl in39_hokori2
+map_Kd in39_hokori2.png
+map_d in39_hokori2.png
+
+newmtl 17light
+map_Kd 17light.png
+map_d 17light.png
+
+newmtl 17palp
+map_Kd 17palp.png
+map_d 17palp.png
+
+newmtl 17simi01
+map_Kd 17simi01.png
+map_d 17simi01.png
+
+newmtl in09_yuka1
+map_Kd in09_yuka1.png
+map_d in09_yuka1.png
+
+newmtl c3_g_dust2
+map_Kd c3_g_dust2.png
+map_d c3_g_dust2.png
+
+newmtl idr_mat01
+map_Kd idr_mat01.png
+map_d idr_mat01.png
+
+newmtl 01WALL
+map_Kd 01WALL.png
+map_d 01WALL.png
+

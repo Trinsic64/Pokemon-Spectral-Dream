@@ -1,0 +1,78 @@
+newmtl in55yuka_01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55yuka_01.png
+map_d in55yuka_01.png
+newmtl in55yuka_3
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55yuka_3.png
+map_d in55yuka_3.png
+newmtl in55yuka_02
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55yuka_02.png
+map_d in55yuka_02.png
+newmtl in55_kabe
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55_kabe.png
+map_d in55_kabe.png
+newmtl in55_desk01
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55_desk01.png
+map_d in55_desk01.png
+newmtl in55_isu01
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55_isu01.png
+map_d in55_isu01.png
+newmtl in55kage
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55kage.png
+map_d in55kage.png
+newmtl in55book_02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55book_02.png
+map_d in55book_02.png
+newmtl in55tana_01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55tana_01.png
+map_d in55tana_01.png
+newmtl in55book_08
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55book_08.png
+map_d in55book_08.png
+newmtl in55_plate
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55_plate.png
+map_d in55_plate.png
+newmtl in55kaiga_01
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55kaiga_01.png
+map_d in55kaiga_01.png
+newmtl in55kaiga_02
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in55kaiga_02.png
+map_d in55kaiga_02.png

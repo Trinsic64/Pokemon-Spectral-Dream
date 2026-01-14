@@ -1,0 +1,52 @@
+newmtl ki02c
+map_Kd ki02c.png
+map_d ki02c.png
+
+newmtl ki03ax
+map_Kd ki03ax.png
+map_d ki03ax.png
+
+newmtl ki03bx
+map_Kd ki03bx.png
+map_d ki03bx.png
+
+newmtl gake01
+map_Kd gake01.png
+map_d gake01.png
+
+newmtl gake1_0
+map_Kd gake1_0.png
+map_d gake1_0.png
+
+newmtl gake1_1
+map_Kd gake1_1.png
+map_d gake1_1.png
+
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl s_snow04_lm2
+map_Kd s_snow04_lm2.png
+map_d s_snow04_lm2.png
+
+newmtl ngrass_lm35
+map_Kd ngrass_lm35.png
+map_d ngrass_lm35.png
+
+newmtl gake1_5
+map_Kd gake1_5.png
+map_d gake1_5.png
+
+newmtl snow_ki03ax_4
+map_Kd snow_ki03ax_4.png
+map_d snow_ki03ax_4.png
+
+newmtl snow_ki03bx_4
+map_Kd snow_ki03bx_4.png
+map_d snow_ki03bx_4.png
+
+newmtl Grass_Snow_michi01a
+map_Kd Grass_Snow_michi01a.png
+map_d Grass_Snow_michi01a.png
+

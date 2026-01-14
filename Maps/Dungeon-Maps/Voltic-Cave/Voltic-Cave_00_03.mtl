@@ -1,0 +1,40 @@
+newmtl sea_mizu1_1
+map_Kd sea_mizu1_1.png
+map_d sea_mizu1_1.png
+
+newmtl d0gake_heri
+map_Kd d0gake_heri.png
+map_d d0gake_heri.png
+
+newmtl d0dan_001
+map_Kd d0dan_001.png
+map_d d0dan_001.png
+
+newmtl d6yuka_001
+map_Kd d6yuka_001.png
+map_d d6yuka_001.png
+
+newmtl yuka_001
+map_Kd yuka_001.png
+map_d yuka_001.png
+
+newmtl d6gake_06
+map_Kd d6gake_06.png
+map_d d6gake_06.png
+
+newmtl d6gake_007
+map_Kd d6gake_007.png
+map_d d6gake_007.png
+
+newmtl d6gake_002
+map_Kd d6gake_002.png
+map_d d6gake_002.png
+
+newmtl d6gake_03
+map_Kd d6gake_03.png
+map_d d6gake_03.png
+
+newmtl d6gake_004
+map_Kd d6gake_004.png
+map_d d6gake_004.png
+

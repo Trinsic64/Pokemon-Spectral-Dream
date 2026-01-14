@@ -1,0 +1,186 @@
+newmtl black
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd black.png
+map_d black.png
+newmtl labo04_yuka_4
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_yuka_4.png
+map_d labo04_yuka_4.png
+newmtl labo04_yuka_3
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_yuka_3.png
+map_d labo04_yuka_3.png
+newmtl in04_kage
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in04_kage.png
+map_d in04_kage.png
+newmtl lab02_tesu2
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd lab02_tesu2.png
+map_d lab02_tesu2.png
+newmtl lab02_tesu
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd lab02_tesu.png
+map_d lab02_tesu.png
+newmtl lab2_bed01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd lab2_bed01.png
+map_d lab2_bed01.png
+newmtl c09_04_bed
+Ka 0.9725 0.9725 0.9725
+Kd 0.0000 0.0000 0.0000
+d 1.0000
+map_Kd c09_04_bed.png
+map_d c09_04_bed.png
+newmtl b06_sora1
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd b06_sora1.png
+map_d b06_sora1.png
+newmtl b06_kabe2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd b06_kabe2.png
+map_d b06_kabe2.png
+newmtl b06_kabe2_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd b06_kabe2_1.png
+map_d b06_kabe2_1.png
+newmtl black
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd black.png
+map_d black.png
+newmtl b06_kabe1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd b06_kabe1.png
+map_d b06_kabe1.png
+newmtl labo04_yuka_1
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_yuka_1.png
+map_d labo04_yuka_1.png
+newmtl labo04_yuka_2
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_yuka_2.png
+map_d labo04_yuka_2.png
+newmtl labo04_co_a
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_co_a.png
+map_d labo04_co_a.png
+newmtl labo04_code
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_code.png
+map_d labo04_code.png
+newmtl labo04_co_1_1
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_co_1_1.png
+map_d labo04_co_1_1.png
+newmtl labo04_co_1_2
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_co_1_2.png
+map_d labo04_co_1_2.png
+newmtl labo04_code_1
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_code_1.png
+map_d labo04_code_1.png
+newmtl meka
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd meka.png
+map_d meka.png
+newmtl meka_monitor
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd meka_monitor.png
+map_d meka_monitor.png
+newmtl in40_kage
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+d 1.0000
+map_Kd in40_kage.png
+map_d in40_kage.png
+newmtl labo04_co_1
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_co_1.png
+map_d labo04_co_1.png
+newmtl labo04_hana
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_hana.png
+map_d labo04_hana.png
+newmtl in04meka2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in04meka2.png
+map_d in04meka2.png
+newmtl in04meka
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in04meka.png
+map_d in04meka.png
+newmtl in04mizu
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in04mizu.png
+map_d in04mizu.png
+newmtl in04meka4
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in04meka4.png
+map_d in04meka4.png
+newmtl labo04_kage_2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_kage_2.png
+map_d labo04_kage_2.png
+newmtl labo04_yuka_5
+Ka 0.7843 0.7843 0.7843
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd labo04_yuka_5.png
+map_d labo04_yuka_5.png

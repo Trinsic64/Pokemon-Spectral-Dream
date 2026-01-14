@@ -1,0 +1,42 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl black
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd black.png
+map_d black.png
+
+newmtl in48_hkabe1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd in48_hkabe1.png
+map_d in48_hkabe1.png
+
+newmtl labo04_yuka_1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd labo04_yuka_1.png
+map_d labo04_yuka_1.png
+
+newmtl m_dun26_23
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd m_dun26_23.png
+map_d m_dun26_23.png

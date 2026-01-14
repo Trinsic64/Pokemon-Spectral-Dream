@@ -1,0 +1,16 @@
+newmtl d7bedrock4
+map_Kd d7bedrock4.png
+map_d d7bedrock4.png
+
+newmtl dcliff01_r
+map_Kd dcliff01_r.png
+map_d dcliff01_r.png
+
+newmtl dwall01_n
+map_Kd dwall01_n.png
+map_d dwall01_n.png
+
+newmtl dwall_ne
+map_Kd dwall_ne.png
+map_d dwall_ne.png
+

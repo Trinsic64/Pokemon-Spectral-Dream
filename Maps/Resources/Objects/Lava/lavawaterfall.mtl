@@ -1,0 +1,40 @@
+newmtl in81_magu00
+map_Kd in81_magu00.png
+map_d in81_magu00.png
+
+newmtl A0_lava_1
+map_Kd A0_lava_1.png
+map_d A0_lava_1.png
+
+newmtl A0_lava_2
+map_Kd A0_lava_2.png
+map_d A0_lava_2.png
+
+newmtl in81_magu03
+map_Kd in81_magu03.png
+map_d in81_magu03.png
+
+newmtl A0_lava_3
+map_Kd A0_lava_3.png
+map_d A0_lava_3.png
+
+newmtl in81_magu04
+map_Kd in81_magu04.png
+map_d in81_magu04.png
+
+newmtl in81_gake_c
+map_Kd in81_gake_c.png
+map_d in81_gake_c.png
+
+newmtl in81_gake_d
+map_Kd in81_gake_d.png
+map_d in81_gake_d.png
+
+newmtl in81_gake_a
+map_Kd in81_gake_a.png
+map_d in81_gake_a.png
+
+newmtl TRANSPARENT
+map_Kd TRANSPARENT.png
+map_d TRANSPARENT.png
+

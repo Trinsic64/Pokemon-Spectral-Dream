@@ -1,0 +1,84 @@
+newmtl fh_wshiki2_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fh_wshiki2_1.png
+map_d fh_wshiki2_1.png
+newmtl hkabeue_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd hkabeue_1.png
+map_d hkabeue_1.png
+newmtl fhkabe2_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fhkabe2_1.png
+map_d fhkabe2_1.png
+newmtl fhyuka_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fhyuka_1.png
+map_d fhyuka_1.png
+newmtl fhkabe_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fhkabe_1.png
+map_d fhkabe_1.png
+newmtl fh_wcurtain_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fh_wcurtain_1.png
+map_d fh_wcurtain_1.png
+newmtl idr_win01_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd idr_win01_1.png
+map_d idr_win01_1.png
+newmtl h_mado_1
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_mado_1.png
+map_d h_mado_1.png
+newmtl fh_wbed01_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fh_wbed01_1.png
+map_d fh_wbed01_1.png
+newmtl fh_wcushion_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fh_wcushion_1.png
+map_d fh_wcushion_1.png
+newmtl fh_wflower_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fh_wflower_1.png
+map_d fh_wflower_1.png
+newmtl fh_wtable_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fh_wtable_1.png
+map_d fh_wtable_1.png
+newmtl fh_wshiki3_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd fh_wshiki3_1.png
+map_d fh_wshiki3_1.png
+newmtl h_kage_1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_kage_1.png
+map_d h_kage_1.png

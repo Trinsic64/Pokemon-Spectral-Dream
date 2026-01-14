@@ -1,0 +1,16 @@
+newmtl lav
+map_Kd lav.png
+map_d lav.png
+
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl rkage
+map_Kd rkage.png
+map_d rkage.png
+
+newmtl grass02ax
+map_Kd grass02ax.png
+map_d grass02ax.png
+

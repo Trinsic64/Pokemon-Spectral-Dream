@@ -1,0 +1,116 @@
+newmtl ki02ax
+map_Kd ki02ax.png
+map_d ki02ax.png
+
+newmtl ki02c
+map_Kd ki02c.png
+map_d ki02c.png
+
+newmtl ki02dx
+map_Kd ki02dx.png
+map_d ki02dx.png
+
+newmtl ki02bx
+map_Kd ki02bx.png
+map_d ki02bx.png
+
+newmtl ki03ax
+map_Kd ki03ax.png
+map_d ki03ax.png
+
+newmtl ki03dx
+map_Kd ki03dx.png
+map_d ki03dx.png
+
+newmtl ki03bx
+map_Kd ki03bx.png
+map_d ki03bx.png
+
+newmtl gake01
+map_Kd gake01.png
+map_d gake01.png
+
+newmtl gake1_1
+map_Kd gake1_1.png
+map_d gake1_1.png
+
+newmtl yamagake01
+map_Kd yamagake01.png
+map_d yamagake01.png
+
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl michi01a
+map_Kd michi01a.png
+map_d michi01a.png
+
+newmtl michi01b
+map_Kd michi01b.png
+map_d michi01b.png
+
+newmtl kaidan01a
+map_Kd kaidan01a.png
+map_d kaidan01a.png
+
+newmtl egrass_u
+map_Kd egrass_u.png
+map_d egrass_u.png
+
+newmtl egrass_v
+map_Kd egrass_v.png
+map_d egrass_v.png
+
+newmtl egrass_ro
+map_Kd egrass_ro.png
+map_d egrass_ro.png
+
+newmtl egrass_ri
+map_Kd egrass_ri.png
+map_d egrass_ri.png
+
+newmtl egrass
+map_Kd egrass.png
+map_d egrass.png
+
+newmtl a8_sora_e_lm1
+map_Kd a8_sora_e_lm1.png
+map_d a8_sora_e_lm1.png
+
+newmtl a8_sora_h_lm1
+map_Kd a8_sora_h_lm1.png
+map_d a8_sora_h_lm1.png
+
+newmtl a8_sora_b__lm1
+map_Kd a8_sora_b__lm1.png
+map_d a8_sora_b__lm1.png
+
+newmtl a8_sora_b_lm1
+map_Kd a8_sora_b_lm1.png
+map_d a8_sora_b_lm1.png
+
+newmtl a8_sora_g_lm1
+map_Kd a8_sora_g_lm1.png
+map_d a8_sora_g_lm1.png
+
+newmtl a8_sora_f_lm1
+map_Kd a8_sora_f_lm1.png
+map_d a8_sora_f_lm1.png
+
+newmtl a8_sora_c_lm1
+map_Kd a8_sora_c_lm1.png
+map_d a8_sora_c_lm1.png
+
+newmtl a8_sora_i_lm1
+map_Kd a8_sora_i_lm1.png
+map_d a8_sora_i_lm1.png
+
+newmtl a8_sora_a_lm1
+map_Kd a8_sora_a_lm1.png
+map_d a8_sora_a_lm1.png
+
+newmtl gake01a
+map_Kd gake01a.png
+map_d gake01a.png
+

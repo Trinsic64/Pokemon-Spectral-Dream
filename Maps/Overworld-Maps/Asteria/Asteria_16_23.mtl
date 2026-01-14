@@ -1,0 +1,84 @@
+newmtl ki02c
+map_Kd ki02c.png
+map_d ki02c.png
+
+newmtl kaidan01a
+map_Kd kaidan01a.png
+map_d kaidan01a.png
+
+newmtl egrass_u
+map_Kd egrass_u.png
+map_d egrass_u.png
+
+newmtl egrass_v
+map_Kd egrass_v.png
+map_d egrass_v.png
+
+newmtl egrass_ro
+map_Kd egrass_ro.png
+map_d egrass_ro.png
+
+newmtl egrass_ri
+map_Kd egrass_ri.png
+map_d egrass_ri.png
+
+newmtl egrass
+map_Kd egrass.png
+map_d egrass.png
+
+newmtl ki02DARKax
+map_Kd ki02DARKax.png
+map_d ki02DARKax.png
+
+newmtl ki02DARKbx
+map_Kd ki02DARKbx.png
+map_d ki02DARKbx.png
+
+newmtl ki02DARKdx
+map_Kd ki02DARKdx.png
+map_d ki02DARKdx.png
+
+newmtl ms04_2
+map_Kd ms04_2.png
+map_d ms04_2.png
+
+newmtl ms09_2
+map_Kd ms09_2.png
+map_d ms09_2.png
+
+newmtl ms09_07
+map_Kd ms09_07.png
+map_d ms09_07.png
+
+newmtl numa_f2b
+map_Kd numa_f2b.png
+map_d numa_f2b.png
+
+newmtl numa_f2c
+map_Kd numa_f2c.png
+map_d numa_f2c.png
+
+newmtl numa_f2de
+map_Kd numa_f2de.png
+map_d numa_f2de.png
+
+newmtl ms09_01
+map_Kd ms09_01.png
+map_d ms09_01.png
+
+newmtl dtf_f01
+map_Kd dtf_f01.png
+map_d dtf_f01.png
+
+newmtl dtf_f03
+map_Kd dtf_f03.png
+map_d dtf_f03.png
+
+newmtl dtf_f05
+map_Kd dtf_f05.png
+map_d dtf_f05.png
+
+newmtl Grass_ms09_021
+map_Kd Grass_ms09_021.png
+map_d Grass_ms09_021.png
+

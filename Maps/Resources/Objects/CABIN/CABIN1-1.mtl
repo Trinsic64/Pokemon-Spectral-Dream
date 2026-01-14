@@ -1,0 +1,54 @@
+newmtl in77room_01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in77room_01.png
+map_d in77room_01.png
+newmtl in77_ph04
+Ka 0.9725 0.9725 0.9725
+Kd 0.0000 0.0000 0.0000
+d 1.0000
+map_Kd in77_ph04.png
+map_d in77_ph04.png
+newmtl in77room_pa
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in77room_pa.png
+map_d in77room_pa.png
+newmtl in77room_02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in77room_02.png
+map_d in77room_02.png
+newmtl in77room_pa2
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in77room_pa2.png
+map_d in77room_pa2.png
+newmtl in77_ph05
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in77_ph05.png
+map_d in77_ph05.png
+newmtl in77room_k
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in77room_k.png
+map_d in77room_k.png
+newmtl in77room_m1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd in77room_m1.png
+map_d in77room_m1.png
+newmtl h_mado
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_mado.png
+map_d h_mado.png

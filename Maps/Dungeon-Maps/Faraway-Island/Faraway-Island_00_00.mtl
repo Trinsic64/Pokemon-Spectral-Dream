@@ -1,0 +1,12 @@
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl g1_treeb_lm1
+map_Kd g1_treeb_lm1.png
+map_d g1_treeb_lm1.png
+
+newmtl g1_treea_lm1
+map_Kd g1_treea_lm1.png
+map_d g1_treea_lm1.png
+

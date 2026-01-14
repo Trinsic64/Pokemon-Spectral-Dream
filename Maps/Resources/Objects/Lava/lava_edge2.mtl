@@ -1,0 +1,42 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl in81_gake_c
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd in81_gake_c.png
+map_d in81_gake_c.png
+
+newmtl in81_magu07
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd in81_magu07.png
+map_d in81_magu07.png
+
+newmtl in81_mizuga1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd in81_mizuga1.png
+map_d in81_mizuga1.png
+
+newmtl in81_mizugiwa
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd in81_mizugiwa.png
+map_d in81_mizugiwa.png

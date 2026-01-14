@@ -1,0 +1,22 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl mg14_r13.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd mg14_r13.png
+map_d mg14_r13.png
+
+newmtl mg14_r19.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 1
+map_Kd mg14_r19.png
+map_d mg14_r19.png

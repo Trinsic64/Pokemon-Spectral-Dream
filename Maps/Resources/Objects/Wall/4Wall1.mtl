@@ -1,0 +1,22 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl azt_wall02_1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Indoor-Main/Indoor-Universal-Tileset-1/Map Objects/Map/azt_wall02_1.png
+map_d C:/Pokemon-Spectral-Dream/04_Maps/Indoor-Main/Indoor-Universal-Tileset-1/Map Objects/Map/azt_wall02_1.png
+
+newmtl black
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/04_Maps/Indoor-Main/Indoor-Universal-Tileset-1/Map Objects/Map/black.png
+map_d C:/Pokemon-Spectral-Dream/04_Maps/Indoor-Main/Indoor-Universal-Tileset-1/Map Objects/Map/black.png

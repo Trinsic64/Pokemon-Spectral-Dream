@@ -1,0 +1,112 @@
+newmtl lambert1
+Ka 0.0000 0.0000 0.0000
+Kd 0.3765 0.3765 0.3765
+d 1.0000
+newmtl cafe_kabe01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_kabe01.png
+map_d cafe_kabe01.png
+newmtl cafe_tile01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_tile01.png
+map_d cafe_tile01.png
+newmtl cafe_win01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_win01.png
+map_d cafe_win01.png
+newmtl cafe_kabe02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_kabe02.png
+map_d cafe_kabe02.png
+newmtl cafe_mat01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_mat01.png
+map_d cafe_mat01.png
+newmtl cafe_cnt02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_cnt02.png
+map_d cafe_cnt02.png
+newmtl cafe_cnt01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_cnt01.png
+map_d cafe_cnt01.png
+newmtl h_kage
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd h_kage.png
+map_d h_kage.png
+newmtl cafe_tile02
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_tile02.png
+map_d cafe_tile02.png
+newmtl cafe_step01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_step01.png
+map_d cafe_step01.png
+newmtl cafe_tile03
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_tile03.png
+map_d cafe_tile03.png
+newmtl cafe_tes01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_tes01.png
+map_d cafe_tes01.png
+newmtl cafe_glow
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_glow.png
+map_d cafe_glow.png
+newmtl cafe_sink01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_sink01.png
+map_d cafe_sink01.png
+newmtl cafe_art01a
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_art01a.png
+map_d cafe_art01a.png
+newmtl cafe_art02a
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_art02a.png
+map_d cafe_art02a.png
+newmtl cafe_lig01
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_lig01.png
+map_d cafe_lig01.png
+newmtl cafe_cup
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd cafe_cup.png
+map_d cafe_cup.png

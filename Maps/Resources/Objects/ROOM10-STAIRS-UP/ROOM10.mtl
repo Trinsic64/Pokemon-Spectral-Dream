@@ -1,0 +1,30 @@
+newmtl mono_mat1_3_lm1
+Ka 0.9725 0.9725 0.9725
+Kd 0.0000 0.0000 0.0000
+d 1.0000
+map_Kd mono_mat1_3_lm1.png
+map_d mono_mat1_3_lm1.png
+newmtl b01_yuka_lm2
+Ka 0.9725 0.9725 0.9725
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd b01_yuka_lm2.png
+map_d b01_yuka_lm2.png
+newmtl b01_yuka_lm1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd b01_yuka_lm1.png
+map_d b01_yuka_lm1.png
+newmtl chip_kabe_lm1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd chip_kabe_lm1.png
+map_d chip_kabe_lm1.png
+newmtl chip_kabe2_lm1
+Ka 0.0000 0.0000 0.0000
+Kd 0.7843 0.7843 0.7843
+d 1.0000
+map_Kd chip_kabe2_lm1.png
+map_d chip_kabe2_lm1.png

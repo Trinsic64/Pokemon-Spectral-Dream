@@ -1,0 +1,16 @@
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl 17door
+map_Kd 17door.png
+map_d 17door.png
+
+newmtl 17kabe00
+map_Kd 17kabe00.png
+map_d 17kabe00.png
+
+newmtl 17light
+map_Kd 17light.png
+map_d 17light.png
+

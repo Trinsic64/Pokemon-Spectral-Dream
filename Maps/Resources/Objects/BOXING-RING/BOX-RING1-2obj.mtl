@@ -1,0 +1,72 @@
+# Blender 4.0.0 MTL File: 'None'
+# www.blender.org
+
+newmtl kage
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.322581
+illum 1
+
+newmtl kaidan
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PLAT-FIGHT-GYM/235 -   m_gym07_00_00c/gym07step.png
+
+newmtl lambert14
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PLAT-FIGHT-GYM/235 -   m_gym07_00_00c/gym0ringb.png
+
+newmtl lambert18
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PLAT-FIGHT-GYM/235 -   m_gym07_00_00c/gym07ring2.png
+
+newmtl ring
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PLAT-FIGHT-GYM/235 -   m_gym07_00_00c/gym07ring.png
+
+newmtl ringcorner
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PLAT-FIGHT-GYM/235 -   m_gym07_00_00c/gym07ringc.png
+
+newmtl rope
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Pokemon-Spectral-Dream/07_Export/Maps/PLAT-FIGHT-GYM/235 -   m_gym07_00_00c/gym07rope.png

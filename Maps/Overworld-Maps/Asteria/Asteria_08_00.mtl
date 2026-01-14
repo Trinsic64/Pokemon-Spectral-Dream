@@ -1,0 +1,8 @@
+newmtl sea_zanami2
+map_Kd sea_zanami2.png
+map_d sea_zanami2.png
+
+newmtl file2Material
+map_Kd file2Material.png
+map_d file2Material.png
+

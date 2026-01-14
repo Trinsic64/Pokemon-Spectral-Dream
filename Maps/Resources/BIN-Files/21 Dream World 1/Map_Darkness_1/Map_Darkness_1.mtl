@@ -1,0 +1,8 @@
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl f_kage
+map_Kd f_kage.png
+map_d f_kage.png
+

@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <created>2025-12-06T16:12:32Z</created>
+    <modified>2025-12-06T16:12:32Z</modified>
+  </asset>
+  <library_images>
+    <image id="image-m_4ten_3a2">
+      <init_from>m_4ten_3a2.png</init_from>
+    </image>
+    <image id="image-m_4ten_3a">
+      <init_from>m_4ten_3a.png</init_from>
+    </image>
+    <image id="image-m_4ten_b">
+      <init_from>m_4ten_b.png</init_from>
+    </image>
+    <image id="image-m_4ten_b03">
+      <init_from>m_4ten_b03.png</init_from>
+    </image>
+    <image id="image-m_4ten_3c">
+      <init_from>m_4ten_3c.png</init_from>
+    </image>
+    <image id="image-m_4ten_sen">
+      <init_from>m_4ten_sen.png</init_from>
+    </image>
+    <image id="image-m_4ten_siro">
+      <init_from>m_4ten_siro.png</init_from>
+    </image>
+    <image id="image-m_4ten_3b">
+      <init_from>m_4ten_3b.png</init_from>
+    </image>
+    <image id="image-m_4ten_hi_1">
+      <init_from>m_4ten_hi_1.png</init_from>
+    </image>
+    <image id="image-m_4ten_top">
+      <init_from>m_4ten_top.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="material0" name="lambert19">
+      <instance_effect url="#effect0"/>
+    </material>
+    <material id="material1" name="m_4ten_3a_lm4">
+      <instance_effect url="#effect1"/>
+    </material>
+    <material id="material2" name="m_4ten_3b_lm4">
+      <instance_effect url="#effect2"/>
+    </material>
+    <material id="material3" name="m_4ten_3c_lm4">
+      <instance_effect url="#effect3"/>
+    </material>
+    <material id="material4" name="m_4ten_b03_lm2">
+      <instance_effect url="#effect4"/>
+    </material>
+    <material id="material5" name="m_4ten_b_lm4">
+      <instance_effect url="#effect5"/>
+    </material>
+    <material id="material6" name="m_4ten_hi_lm1">
+      <instance_effect url="#effect6"/>
+    </material>
+    <material id="material7" name="m_4ten_hi_lm2">
+      <instance_effect url="#effect7"/>
+    </material>
+    <material id="material8" name="m_4ten_hi_lm3">
+      <instance_effect url="#effect8"/>
+    </material>
+    <material id="material9" name="m_4ten_hi_lm4">
+      <instance_effect url="#effect9"/>
+    </material>
+    <material id="material10" name="m_4ten_hi_lm5">
+      <instance_effect url="#effect10"/>
+    </material>
+    <material id="material11" name="m_4ten_sen_lm4">
+      <instance_effect url="#effect11"/>
+    </material>
+    <material id="material12" name="m_4ten_siro_lm2">
+      <instance_effect url="#effect12"/>
+    </material>
+    <material id="material13" name="m_4ten_top_lm4">
+      <instance_effect url="#effect13"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="effect0" name="lambert19">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_3a2</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect1" name="m_4ten_3a_lm4">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_3a</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect2" name="m_4ten_3b_lm4">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_3b</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect3" name="m_4ten_3c_lm4">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_3c</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect4" name="m_4ten_b03_lm2">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_b03</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect5" name="m_4ten_b_lm4">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_b</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect6" name="m_4ten_hi_lm1">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_hi_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <transparent>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </transparent>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect7" name="m_4ten_hi_lm2">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_hi_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <transparent>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </transparent>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect8" name="m_4ten_hi_lm3">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_hi_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <transparent>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </transparent>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect9" name="m_4ten_hi_lm4">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_hi_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <transparent>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </transparent>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect10" name="m_4ten_hi_lm5">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_hi_1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <transparent>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </transparent>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect11" name="m_4ten_sen_lm4">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_sen</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect12" name="m_4ten_siro_lm2">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_siro</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect13" name="m_4ten_top_lm4">
+      <profile_COMMON>
+        <newparam sid="Image-surface">
+          <surface type="2D">
+            <init_from>image-m_4ten_top</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Image-sampler">
+          <sampler2D>
+            <source>Image-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NEAREST</minfilter>
+            <magfilter>NEAREST</magfilter>
+            <mipfilter>NEAREST</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Image-sampler" texcoord="tc"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="geometry" name="m_siten03_00_00c">
+      <mesh>
+        <source id="positions">
+          <float_array id="positions-array" count="2139">-240 -72 -188 0 -72 -188 0 -28 -208 -240 -28 -208 -240 -72 -164 0 -72 -164 0 -28 -184 -240 -28 -184 -240 -72 -140 0 -72 -140 0 -28 -160 -240 -28 -160 -240 -72 -116 0 -72 -116 0 -28 -136 -240 -28 -136 -240 -72 -92 0 -72 -92 0 -28 -112 -240 -28 -112 -208 -2 -64 -208 -28 -64 -208 -2 -144 -208 -28 -144 -208 -2 -200 -208 -28 -200 -224 -2 -200 -240 -2 -216 -240 -28 -216 -224 -28 -200 0 -2 -216 -16 -2 -200 -16 -28 -200 0 -28 -216 -191.5 -2 -216 -208 -2 -200 -208 -28 -200 -191.5 -28 -216 -32 -2 -64 -32 -2 -144 -32 -28 -144 -32 -28 -64 -32 -2 -144 -32 -2 -200 -32 -28 -200 -32 -28 -144 -32 -2 -200 -48.5 -2 -216 -48.5 -28 -216 -32 -28 -200 -47.5 -2 -216 -64 -2 -200 -64 -28 -200 -47.5 -28 -216 -176 -2 -200 -192.5 -2 -216 -192.5 -28 -216 -176 -28 -200 -103.953125 0 -136 -93.953125 0 -136 -104.5 0 -140.15625 -94.84375 0 -142.73438 -106.109375 0 -144.01563 -97.453125 0 -149.01563 -108.65625 0 -147.34375 -101.578125 0 -154.42188 -111.984375 0 -149.89063 -106.984375 0 -158.54688 -115.84375 0 -151.5 -113.265625 0 -161.15625 -120 0 -152.04688 -120 0 -162.04688 -124.15625 0 -151.5 -126.734375 0 -161.15625 -128.01563 0 -149.89063 -133.01563 0 -158.54688 -131.34375 0 -147.34375 -138.42188 0 -154.42188 -133.89063 0 -144.01563 -142.54688 0 -149.01563 -135.5 0 -140.15625 -145.15625 0 -142.73438 -136.04688 0 -136 -146.04688 0 -136 -93.953125 0 -136 -103.953125 0 -136 -94.84375 0 -129.26563 -104.5 0 -131.84375 -97.453125 0 -122.984375 -106.109375 0 -127.984375 -101.578125 0 -117.578125 -108.65625 0 -124.65625 -106.984375 0 -113.453125 -111.984375 0 -122.109375 -113.265625 0 -110.84375 -115.84375 0 -120.5 -120 0 -109.953125 -120 0 -119.953125 -126.734375 0 -110.84375 -124.15625 0 -120.5 -133.01563 0 -113.453125 -128.01563 0 -122.109375 -138.42188 0 -117.578125 -131.34375 0 -124.65625 -142.54688 0 -122.984375 -133.89063 0 -127.984375 -145.15625 0 -129.26563 -135.5 0 -131.84375 -146.04688 0 -136 -136.04688 0 -136 0 -2 -216 0 48 -216 -64 -2 -216 -64 48 -216 -88 -2 -216 -88 48 -216 -92 -2 -216 -92 36 -216 -152 -2 -216 -152 48 -216 -176 -2 -216 -176 48 -216 -224 -2 -216 -224 48 -216 -240 -2 -216 -240 48 -216 0 48 -216 0 -2 -216 0 48 -200 0 -2 -200 0 48 -144 0 -2 -144 0 48 -64 0 -2 -64 -240 -2 -216 -240 48 -216 -240 -2 -144 -240 48 -144 -240 -2 -64 -240 48 -64 -92 36 -216 -88 48 -216 -148 36 -216 -152 48 -216 -148 -2 -216 -152 -2 -216 0 48 -216 8 48 -224 -64 48 -216 -64 48 -224 -88 48 -216 -88 48 -224 -152 48 -216 -152 48 -224 -176 48 -216 -176 48 -224 -224 48 -216 -224 48 -224 -248 48 -56 -248 48 -64 -262.8125 48 -64 -262.8125 48 -56 8 48 -64 8 48 -56 18.859375 48 -56 18.859375 48 -64 8 48 -200 8 48 -144 18.859375 48 -144 18.859375 48 -200 8 48 -224 8 48 -200 18.859375 48 -200 18.859375 48 -224 8 48 -144 8 48 -64 18.859375 48 -64 18.859375 48 -144 -248 48 -144 -248 48 -224 -262.8125 48 -224 -262.8125 48 -144 -248 48 -64 -248 48 -144 -262.8125 48 -144 -262.8125 48 -64 -240 48 -56 -240 48 -64 -248 48 -64 -248 48 -56 0 48 -64 0 48 -56 8 48 -56 8 48 -64 -240 48 -144 -240 48 -216 -248 48 -224 -248 48 -144 0 48 -200 0 48 -144 8 48 -144 8 48 -200 -152 48 -216 -88 48 -216 -88 48 -224 -152 48 -224 -240 48 -216 -224 48 -216 -224 48 -224 -248 48 -224 0 48 -216 0 48 -200 8 48 -200 8 48 -224 -240 48 -64 -240 48 -144 -248 48 -144 -248 48 -64 0 48 -144 0 48 -64 8 48 -64 8 48 -144 -224 48 -64 -240 48 -64 -240 48 -56 -224 48 -56 0 48 -64 -88 48 -64 -88 48 -56 0 48 -56 -88 48 -64 -152 48 -64 -152 48 -56 -88 48 -56 -152 48 -64 -224 48 -64 -224 48 -56 -152 48 -56 -136 -2 -56 -104 -2 -56 -104 -2 -64 -136 -2 -64 -224 -2 -64 -208 -2 -64 -224 -2 -144 -208 -2 -144 -224 -2 -200 -208 -2 -200 -224 -2 -216 -208 -2 -216 -32 -2 -64 -16 -2 -64 -32 -2 -144 -16 -2 -144 -32 -2 -200 -16 -2 -200 -32 -2 -216 -16 -2 -216 -176 -2 -200 -176 -2 -144 -152 -2 -200 -152 -2 -144 -88 -2 -200 -88 -2 -144 -64 -2 -200 -64 -2 -144 -176 -2 -144 -176 -2 -64 -152 -2 -144 -152 -2 -64 -88 -2 -144 -88 -2 -64 -64 -2 -144 -64 -2 -64 -92 -2 -216 -92 -2 -213 -88 -2 -216 -88 -2 -200 -64 -2 -216 -64 -2 -200 -148 -2 -213 -148 -2 -216 -152 -2 -200 -152 -2 -216 -176 -2 -200 -176 -2 -216 -104 -2 -213 -136 -2 -213 -152 -2 -200 -88 -2 -200 -136 -2 -216 -136 -2 -213 -104 -2 -213 -104 -2 -216 -136 -2 -216 -104 -2 -216 -104 -2 -226 -136 -2 -226 -224 -2 -200 -224 -2 -216 -240 -2 -216 -16 -2 -216 -16 -2 -200 0 -2 -216 -208 -2 -216 -208 -2 -200 -191.5 -2 -216 -32 -2 -200 -32 -2 -216 -48.5 -2 -216 -64 -2 -216 -64 -2 -200 -47.5 -2 -216 -176 -2 -200 -176 -2 -216 -192.5 -2 -216 -148 -2 -213 -152 -2 -200 -136 -2 -213 -88 -2 -200 -92 -2 -213 -104 -2 -213 0 -84 -64 0 -34.84375 -64 0 -84 -144 0 -34.84375 -144 0 -84 -200 0 -34.84375 -200 0 -84 -216 0 -34.84375 -216 -88 -84 -216 -88 -34.84375 -216 -92 -84 -216 -92 -34.84375 -216 -92 -84 -213 -92 -34.84375 -213 0 -34.84375 -64 0 -2 -64 0 -34.84375 -144 0 -2 -144 0 -34.84375 -200 0 -2 -200 0 -34.84375 -216 0 -2 -216 -88 -34.84375 -216 -88 -2 -216 -92 -34.84375 -216 -92 -2 -216 -92 -34.84375 -213 -92 -2 -213 -240 -34.84375 -64 -240 -84 -64 -240 -34.84375 -144 -240 -84 -144 -240 -34.84375 -216 -240 -84 -216 -224 -34.84375 -216 -224 -84 -216 -152 -34.84375 -216 -152 -84 -216 -148 -34.84375 -216 -148 -84 -216 -148 -34.84375 -213 -148 -84 -213 -240 -2 -64 -240 -34.84375 -64 -240 -2 -144 -240 -34.84375 -144 -240 -2 -216 -240 -34.84375 -216 -224 -2 -216 -224 -34.84375 -216 -152 -2 -216 -152 -34.84375 -216 -148 -2 -216 -148 -34.84375 -216 -148 -2 -213 -148 -34.84375 -213 -104 -2 -213 -136 -2 -213 -92 -34.84375 -213 -148 -34.84375 -213 -92 -84 -213 -148 -84 -213 -240 -84 -64 0 -84 -64 -240 -84 -144 0 -84 -144 -148 -84 -213 -92 -84 -213 0 -84 -216 -88 -84 -216 0 -84 -200 0 -84 -144 -92 -84 -216 -92 -84 -213 -88 -84 -216 0 -84 -144 -148 -84 -213 -152 -84 -216 -224 -84 -216 -240 -84 -144 -92 -34.84375 -213 -92 -2 -213 -104 -2 -213 -240 -84 -144 -224 -84 -216 -240 -84 -216 -148 -84 -213 -148 -84 -216 -152 -84 -216 -148 -34.84375 -213 -136 -2 -213 -148 -2 -213 -140 -2 -53 -136 -2 -53 -140 36 -53 -136 32 -53 -100 36 -53 -104 32 -53 -100 -2 -53 -104 -2 -53 -240 48 -56 -240 -2 -56 -224 48 -56 -224 -2 -56 -152 48 -56 -152 -2 -56 -140 36 -56 -140 -2 -56 -148 -2 -213 -136 -2 -213 -148 36 -213 -136 32 -213 -92 36 -213 -104 32 -213 -92 -2 -213 -104 -2 -213 -152 48 -56 -140 36 -56 -88 48 -56 -100 36 -56 -88 -2 -56 -100 -2 -56 -240 -4 -58 -248 -4 -58 8 -4 -58 8 -86 -58 -152 -2 -56 -224 -2 -56 -224 -84 -56 -152 -84 -56 0 -2 -56 -88 -2 -56 -88 -84 -56 0 -84 -56 -240 48 -56 -248 48 -56 -248 -2 -56 -240 -2 -56 8 48 -56 0 48 -56 0 -2 -56 8 -2 -56 -140 36 -56 -140 36 -53 -100 36 -53 -100 36 -56 -136 32 -56 -136 -2 -56 -136 -2 -64 -136 32 -64 -104 32 -56 -136 32 -56 -136 32 -64 -104 32 -64 -104 -2 -56 -104 32 -56 -104 32 -64 -104 -2 -64 -136 -2 -56 -136 32 -56 -136 32 -53 -136 -2 -53 -140 36 -56 -140 -2 -56 -140 -2 -53 -140 36 -53 -136 32 -56 -104 32 -56 -104 32 -53 -136 32 -53 -104 32 -56 -104 -2 -56 -104 -2 -53 -104 32 -53 -100 -2 -56 -100 36 -56 -100 36 -53 -100 -2 -53 -240 -2 -56 -248 -2 -56 -248 -84 -56 -240 -84 -56 8 -2 -56 0 -2 -56 0 -84 -56 8 -84 -56 -88 -2 -56 -120 -2 -56 -120 -84 -56 -88 -84 -56 0 -2 -56 0 48 -56 -88 48 -56 -88 -2 -56 -148 36 -216 -148 36 -213 -92 36 -213 -92 36 -216 -136 32 -216 -136 -2 -216 -136 -2 -226 -136 32 -226 -104 32 -216 -136 32 -216 -136 32 -226 -104 32 -226 -104 -2 -216 -104 32 -216 -104 32 -226 -104 -2 -226 -136 -2 -216 -136 32 -216 -136 32 -213 -136 -2 -213 -148 36 -216 -148 -2 -216 -148 -2 -213 -148 36 -213 -136 32 -216 -104 32 -216 -104 32 -213 -136 32 -213 -104 32 -216 -104 -2 -216 -104 -2 -213 -104 32 -213 -92 -2 -216 -92 36 -216 -92 36 -213 -92 -2 -213 -120 -2 -56 -152 -2 -56 -152 -84 -56 -120 -84 -56 -136 -2 -226 -104 -2 -226 -104 32 -226 -136 32 -226 -224 -2 -56 -240 -2 -56 -240 -84 -56 -224 -84 -56 -248 -86 -58 8 -86 -58 -248 -4 -58 -106.109375 0 -144.01563 -108.484375 0 -142.65625 -104.5 0 -140.15625 -107.15625 0 -139.4375 -103.953125 0 -136 -106.703125 0 -136 -104.5 0 -131.84375 -107.15625 0 -132.5625 -106.109375 0 -127.984375 -108.484375 0 -129.34375 -108.65625 0 -124.65625 -110.59375 0 -126.59375 -111.984375 0 -122.109375 -113.34375 0 -124.484375 -115.84375 0 -120.5 -116.5625 0 -123.15625 -120 0 -119.953125 -120 0 -122.703125 -124.15625 0 -120.5 -123.4375 0 -123.15625 -128.01563 0 -122.109375 -126.65625 0 -124.484375 -131.34375 0 -124.65625 -129.40625 0 -126.59375 -133.89063 0 -127.984375 -131.51563 0 -129.34375 -135.5 0 -131.84375 -132.84375 0 -132.5625 -136.04688 0 -136 -133.29688 0 -136 -135.5 0 -140.15625 -132.84375 0 -139.4375 -133.89063 0 -144.01563 -131.51563 0 -142.65625 -131.34375 0 -147.34375 -129.40625 0 -145.40625 -128.01563 0 -149.89063 -126.65625 0 -147.51563 -124.15625 0 -151.5 -123.4375 0 -148.84375 -120 0 -152.04688 -120 0 -149.29688 -115.84375 0 -151.5 -116.5625 0 -148.84375 -111.984375 0 -149.89063 -113.34375 0 -147.51563 -108.65625 0 -147.34375 -110.59375 0 -145.40625 -106.109375 0 -144.01563 -108.484375 0 -142.65625 -95.359375 0 -150.21875 -97.453125 0 -149.01563 -92.515625 0 -143.35938 -94.84375 0 -142.73438 -91.546875 0 -136 -93.953125 0 -136 -92.515625 0 -128.64063 -94.84375 0 -129.26563 -95.359375 0 -121.78125 -97.453125 0 -122.984375 -99.875 0 -115.875 -101.578125 0 -117.578125 -105.78125 0 -111.359375 -106.984375 0 -113.453125 -112.640625 0 -108.515625 -113.265625 0 -110.84375 -120 0 -107.546875 -120 0 -109.953125 -127.359375 0 -108.515625 -126.734375 0 -110.84375 -134.21875 0 -111.359375 -133.01563 0 -113.453125 -140.125 0 -115.875 -138.42188 0 -117.578125 -144.64063 0 -121.78125 -142.54688 0 -122.984375 -147.48438 0 -128.64063 -145.15625 0 -129.26563 -148.45313 0 -136 -146.04688 0 -136 -147.48438 0 -143.35938 -145.15625 0 -142.73438 -144.64063 0 -150.21875 -142.54688 0 -149.01563 -140.125 0 -156.125 -138.42188 0 -154.42188 -134.21875 0 -160.64063 -133.01563 0 -158.54688 -127.359375 0 -163.48438 -126.734375 0 -161.15625 -120 0 -164.45313 -120 0 -162.04688 -112.640625 0 -163.48438 -113.265625 0 -161.15625 -105.78125 0 -160.64063 -106.984375 0 -158.54688 -99.875 0 -156.125 -101.578125 0 -154.42188 -95.359375 0 -150.21875 -97.453125 0 -149.01563 -164 1 -189 -167 1 -189 -164 1 -138 -167 1 -138 -164 1 -134 -167 1 -134 -164 1 -84 -167 1 -84 -164 1 -81 -166 1 -82 -76 1 -189 -76 1 -192 -120 1 -189 -120 1 -192 -164 1 -189 -164 1 -192 -167 1 -189 -166 1 -191 -106 1 -138 -106 1 -134 -76 1 -138 -76 1 -134 -73 1 -138 -73 1 -134 -76 1 -138 -73 1 -138 -76 1 -189 -73 1 -189 -76 1 -192 -74 1 -191 -73 1 -134 -76 1 -134 -73 1 -84 -76 1 -84 -74 1 -82 -76 1 -81 -76 1 -81 -76 1 -84 -120 1 -81 -120 1 -84 -164 1 -81 -164 1 -84 -164 1 -134 -134 1 -134 -134 1 -138 -164 1 -138 </float_array>
+          <technique_common>
+            <accessor source="#positions-array" count="713" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="texcoords">
+          <float_array id="texcoords-array" count="1426">-7 0 1 0 1 1 -7 1 -7.482422 0 0.5175781 0 0.5175781 1 -7.482422 1 -7 0 1 0 1 1 -7 1 -7.482422 0 0.5175781 0 0.5175781 1 -7.482422 1 -7 0 1 0 1 1 -7 1 6.5 1 6.5 0 11.5 1 11.5 0 8 1 8 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 8.5 1 13.5 1 13.5 0 8.5 0 8.5 1 12 1 12 0 8.5 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 1.5039063 0.5 2.1289063 0.5 1.46875 0.7578125 2.0703125 0.921875 1.3671875 1 1.9101563 1.3125 1.2070313 1.2070313 1.6523438 1.6523438 1 1.3671875 1.3125 1.9101563 0.7578125 1.46875 0.921875 2.0703125 0.5 1.5039063 0.5 2.1289063 0.2421875 1.46875 0.078125 2.0703125 0 1.3671875 -0.3125 1.9101563 -0.20703125 1.2070313 -0.65234375 1.6523438 -0.3671875 1 -0.91015625 1.3125 -0.46875 0.7578125 -1.0703125 0.921875 -0.50390625 0.5 -1.1289063 0.5 2.1289063 0.5 1.5039063 0.5 2.0703125 0.078125 1.46875 0.2421875 1.9101563 -0.3125 1.3671875 0 1.6523438 -0.65234375 1.2070313 -0.20703125 1.3125 -0.91015625 1 -0.3671875 0.921875 -1.0703125 0.7578125 -0.46875 0.5 -1.1289063 0.5 -0.50390625 0.078125 -1.0703125 0.2421875 -0.46875 -0.3125 -0.91015625 0 -0.3671875 -0.65234375 -0.65234375 -0.20703125 -0.20703125 -0.91015625 -0.3125 -0.3671875 0 -1.0703125 0.078125 -0.46875 0.2421875 -1.1289063 0.5 -0.50390625 0.5 4.25 0 4.25 1 2.25 0 2.25 1 1.5 0 1.5 1 1.375 0 1.375 0.7597656 -0.5 0 -0.5 1 -1.25 0 -1.25 1 -2.75 0 -2.75 1 -3.25 0 -3.25 1 1.9375 1 1.9375 0 1.6875 1 1.6875 0 0.8125 1 0.8125 0 -0.4375 1 -0.4375 0 1.9375 0 1.9375 1 0.8125 0 0.8125 1 -0.4375 0 -0.4375 1 1.375 0.7597656 1.5 1 -0.375 0.7597656 -0.5 1 -0.375 0 -0.5 0 1 0 1 1 0.3515625 0 0.359375 1 0.21875 0 0.21875 1 1 0 1 1 0.75 0 0.75 1 0.21875 0 0.21875 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 0.21875 0 1 0 1 1 0.21875 1 -0.296875 0.859375 -0.2265625 0.859375 -0.2265625 0.9609375 -0.296875 0.9609375 3 -4 4 -4 3 1 4 1 3 4.5 4 4.5 3 5.5 4 5.5 -3 -4 -2 -4 -3 1 -2 1 -3 4.5 -2 4.5 -3 5.5 -2 5.5 -3 4.5 -3 1 -1.5 4.5 -1.5 1 2.5 4.5 2.5 1 4 4.5 4 1 -3 1 -3 -4 -1.5 1 -1.5 -4 2.5 1 2.5 -4 4 1 4 -4 2.25 5.5 2.25 5.3125 2.5 5.5 2.5 4.5 4 5.5 4 4.5 -1.25 5.3125 -1.25 5.5 -1.5 4.5 -1.5 5.5 -3 4.5 -3 5.5 1.5 5.3125 -0.5 5.3125 -1.5 4.5 2.5 4.5 -0.25 5.375 -0.25 5.1875 1.25 5.1875 1.25 5.375 -0.25 5.375 1.25 5.375 1.25 6 -0.25 6 0 -5.5 1 -5.5 1 -4.5 1 -5.5 0 -5.5 1 -4.5 1 -5.5 0 -5.5 1 -4.5 0 -5.5 1 -5.5 1 -4.5 1 -5.5 0 -5.5 1 -4.5 0 -5.5 1 -5.5 1 -4.5 -1.25 5.3125 -1.5 4.5 -0.5 5.3125 2.5 4.5 2.25 5.3125 1.5 5.3125 5.5 -15.5 5.5 -13 8 -15.5 8 -13 9.5 -15.5 9.5 -13 10 -15.5 10 -13 13 -15.5 13 -13 13 -15.5 13 -13 13 -15.5 13 -13 5.5 -13 5.5 -11 8 -13 8 -11 9.5 -13 9.5 -11 10 -13 10 -11 13 -13 13 -11 13 -13 13 -11 13 -13 13 -11 5.5 -13 5.5 -15.5 8 -13 8 -15.5 10 -13 10 -15.5 10.5 -13 10.5 -15.5 13 -13 13 -15.5 13 -13 13 -15.5 13 -13 13 -15.5 5.5 -11 5.5 -13 8 -11 8 -13 10 -11 10 -13 10.5 -11 10.5 -13 13 -11 13 -13 13 -11 13 -13 13 -11 13 -13 13 -11 13 -11 13 -13 13 -13 13 -15.5 13 -15.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 13 -13 13 -11 13 -11 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 -0.5 -1.5 13 -13 13 -11 13 -11 1.890625 0 1.890625 0 1.890625 0.7597656 1.890625 0.6796875 1.890625 0.7597656 1.890625 0.6796875 1.890625 0 1.890625 0 -3.25 1 -3.25 0 -2.75 1 -2.75 0 -0.5 1 -0.5 0 -0.125 0.7597656 -0.125 0 1.890625 0 1.890625 0 1.890625 0.7597656 1.890625 0.6796875 1.890625 0.7597656 1.890625 0.6796875 1.890625 0 1.890625 0 -0.5 1 -0.125 0.7597656 1.5 1 1.125 0.7597656 1.5 0 1.125 0 0 0.140625 1 0.140625 0 0.140625 0 1 0 0.140625 1 0.140625 1 1 0 1 0 0.140625 1 0.140625 1 1 0 1 0.21679688 1 0.31445313 1 0.31445313 0 0.21679688 0 0.21679688 1 0.33007813 1 0.33007813 0 0.21679688 0 0.98046875 0.4140625 0.9707031 0.4140625 0.9707031 0.4453125 0.98046875 0.4453125 0.9042969 0.38671875 0.9042969 0.359375 0.91015625 0.359375 0.91015625 0.38671875 0.8984375 0.36132813 0.8984375 0.37890625 0.890625 0.37890625 0.890625 0.36132813 0.91796875 0.359375 0.91796875 0.38671875 0.91015625 0.38671875 0.91015625 0.359375 0.9785156 0.3828125 0.9785156 0.41015625 0.9785156 0.41015625 0.9785156 0.3828125 0.9707031 0.38476563 0.9707031 0.35546875 0.97265625 0.35546875 0.97265625 0.38476563 0.9785156 0.8105469 0.9785156 0.7949219 0.98046875 0.7949219 0.98046875 0.8105469 0.9921875 0.41015625 0.9921875 0.3828125 0.9941406 0.3828125 0.9941406 0.41015625 0.9746094 0.35546875 0.9746094 0.38476563 0.97265625 0.38476563 0.97265625 0.35546875 0 0.140625 1 0.140625 1 1 0 1 0 0.140625 1 0.140625 1 1 0 1 0 0.140625 1 0.140625 1 1 0 1 4.25 0 4.25 1 1.5 1 1.5 0 0.98046875 0.4140625 0.9707031 0.4140625 0.9707031 0.4453125 0.98046875 0.4453125 0.9042969 0.38671875 0.9042969 0.359375 0.91015625 0.359375 0.91015625 0.38671875 0.8984375 0.36132813 0.8984375 0.37890625 0.890625 0.37890625 0.890625 0.36132813 0.91796875 0.359375 0.91796875 0.38671875 0.91015625 0.38671875 0.91015625 0.359375 0.9785156 0.3828125 0.9785156 0.41015625 0.9785156 0.41015625 0.9785156 0.3828125 0.9707031 0.38476563 0.9707031 0.35546875 0.97265625 0.35546875 0.97265625 0.38476563 0.9785156 0.8105469 0.9785156 0.7949219 0.98046875 0.7949219 0.98046875 0.8105469 0.9921875 0.41015625 0.9921875 0.3828125 0.9941406 0.3828125 0.9941406 0.41015625 0.9746094 0.35546875 0.9746094 0.38476563 0.97265625 0.38476563 0.97265625 0.35546875 0 0.140625 1 0.140625 1 1 0 1 0.9003906 0.26171875 0.9121094 0.26171875 0.9121094 0.2890625 0.9003906 0.2890625 0 0.140625 1 0.140625 1 1 0 1 1 1 0 1 1 0.140625 1 0.3984375 1 0.3984375 0.9609375 0.3984375 0.9609375 0.3984375 0.9140625 0.3984375 0.9140625 0.3984375 0.875 0.3984375 0.875 0.3984375 0.8359375 0.3984375 0.8359375 0.3984375 0.7890625 0.3984375 0.7890625 0.3984375 0.75 0.3984375 0.75 0.3984375 0.7109375 0.3984375 0.7109375 0.3984375 0.6640625 0.3984375 0.6640625 0.3984375 0.625 0.3984375 0.625 0.3984375 0.5859375 0.3984375 0.5859375 0.3984375 0.5390625 0.3984375 0.5390625 0.3984375 0.5 0.3984375 0.5 0.3984375 0.4609375 0.3984375 0.4609375 0.3984375 0.4140625 0.3984375 0.4140625 0.3984375 0.375 0.3984375 0.375 0.3984375 0.3359375 0.3984375 0.3359375 0.3984375 0.2890625 0.3984375 0.2890625 0.3984375 0.25 0.3984375 0.25 0.3984375 0.2109375 0.3984375 0.2109375 0.3984375 0.1640625 0.3984375 0.1640625 0.3984375 0.125 0.3984375 0.125 0.3984375 0.0859375 0.3984375 0.0859375 0.3984375 0.0390625 0.3984375 0.0390625 0.3984375 0 0.3984375 0 0.3984375 1 0.3984375 1 0.3984375 0.9609375 0.3984375 0.9609375 0.3984375 0.9140625 0.3984375 0.9140625 0.3984375 0.875 0.3984375 0.875 0.3984375 0.8359375 0.3984375 0.8359375 0.3984375 0.7890625 0.3984375 0.7890625 0.3984375 0.75 0.3984375 0.75 0.3984375 0.7109375 0.3984375 0.7109375 0.3984375 0.6640625 0.3984375 0.6640625 0.3984375 0.625 0.3984375 0.625 0.3984375 0.5859375 0.3984375 0.5859375 0.3984375 0.5390625 0.3984375 0.5390625 0.3984375 0.5 0.3984375 0.5 0.3984375 0.4609375 0.3984375 0.4609375 0.3984375 0.4140625 0.3984375 0.4140625 0.3984375 0.375 0.3984375 0.375 0.3984375 0.3359375 0.3984375 0.3359375 0.3984375 0.2890625 0.3984375 0.2890625 0.3984375 0.25 0.3984375 0.25 0.3984375 0.2109375 0.3984375 0.2109375 0.3984375 0.1640625 0.3984375 0.1640625 0.3984375 0.125 0.3984375 0.125 0.3984375 0.0859375 0.3984375 0.0859375 0.3984375 0.0390625 0.3984375 0.0390625 0.3984375 0 0.3984375 0 0.3984375 0.25 1.796875 0 1.796875 0.25 1.6015625 0 1.6015625 0.25 1.3984375 0 1.3984375 0.25 1.203125 0 1.203125 0.25 1 0 1 0.75 1.796875 0.75 2 0.5 1.796875 0.5 2 0.25 1.796875 0.25 2 0 1.796875 0 2 0.5 1.6015625 0.5 1.3984375 0.75 1.6015625 0.75 1.3984375 1 1.6015625 1 1.3984375 0.75 1.6015625 1 1.6015625 0.75 1.796875 1 1.796875 0.75 2 1 2 1 1.3984375 0.75 1.3984375 1 1.203125 0.75 1.203125 1 1 0.75 1 0.75 1 0.75 1.203125 0.5 1 0.5 1.203125 0.25 1 0.25 1.203125 0.25 1.3984375 0.5 1.3984375 0.5 1.6015625 0.25 1.6015625 </float_array>
+          <technique_common>
+            <accessor source="#texcoords-array" count="713" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="colors">
+          <float_array id="colors-array" count="2139">1 1 0.4516129 1 1 0.4516129 1 0.2580645 0.22580644 1 0.2580645 0.22580644 1 1 0.4516129 1 1 0.4516129 1 0.2580645 0.22580644 1 0.2580645 0.22580644 1 1 0.4516129 1 1 0.4516129 1 0.2580645 0.22580644 1 0.2580645 0.22580644 1 1 0.4516129 1 1 0.4516129 1 0.2580645 0.22580644 1 0.2580645 0.22580644 1 1 0.4516129 1 1 0.4516129 1 0.2580645 0.22580644 1 0.2580645 0.22580644 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 1 0.7419355 0.3548387 0.7096774 0.5483871 0.516129 0.7096774 0.5483871 0.516129 1 0.7419355 0.3548387 1 0.7419355 0.3548387 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.2580645 0.22580644 1 0.83870965 0.83870965 1 0.2580645 0.22580644 1 0.83870965 0.83870965 1 0.2580645 0.22580644 1 0.83870965 0.83870965 1 0.2580645 0.22580644 1 0.83870965 0.83870965 1 0.2580645 0.22580644 1 0.83870965 0.83870965 1 0.2580645 0.22580644 1 0.83870965 0.83870965 1 0.2580645 0.22580644 1 0.83870965 0.83870965 1 0.2580645 0.22580644 1 0.83870965 0.83870965 1 0.61290324 0.58064514 1 0.2580645 0.22580644 1 0.61290324 0.58064514 1 0.2580645 0.22580644 1 0.61290324 0.58064514 1 0.2580645 0.22580644 1 0.61290324 0.58064514 1 0.2580645 0.22580644 1 0.2580645 0.22580644 1 0.61290324 0.58064514 1 0.2580645 0.22580644 1 0.61290324 0.58064514 1 0.2580645 0.22580644 1 0.61290324 0.58064514 1 0.83870965 0.83870965 1 0.83870965 0.83870965 1 0.83870965 0.83870965 1 0.83870965 0.83870965 1 0.2580645 0.22580644 1 0.2580645 0.22580644 1 1 1 0.8064516 0.8064516 0.8064516 1 1 1 0.8064516 0.8064516 0.8064516 1 1 1 0.8064516 0.8064516 0.8064516 1 1 1 0.8064516 0.8064516 0.8064516 1 1 1 0.8064516 0.8064516 0.8064516 1 1 1 0.8064516 0.8064516 0.8064516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.8064516 0.8064516 0.8064516 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.38709676 0.38709676 0.38709676 0.38709676 0.38709676 0.38709676 0.38709676 0.38709676 0.38709676 0.38709676 0.38709676 0.38709676 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.61290324 0.61290324 0.61290324 0.61290324 0.61290324 0.61290324 0.61290324 0.61290324 0.61290324 0.61290324 0.61290324 0.61290324 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0 0 0 0 0 0 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.516129 0.22580644 1 1 0.4516129 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.2580645 0.22580644 1 0.516129 0.22580644 1 0.516129 0.22580644 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.2580645 0.22580644 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 1 0.4516129 1 0.516129 0.22580644 1 0.2580645 0.22580644 1 0.2580645 0.22580644 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 1 1 1 1 1 1 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0 0 0 0 0 0 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0 0 0 0 0 0 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0 0 0 0 0 0 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 1 1 1 1 1 1 1 1 1 1 1 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0 0 0 0 0 0 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0 0 0 0 0 0 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0 0 0 0 0 0 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 0.2580645 0.22580644 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.516129 0.516129 0.516129 0.516129 0.516129 0.516129 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 1 0.2580645 0.22580644 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0.8064516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </float_array>
+          <technique_common>
+            <accessor source="#colors-array" count="713" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vertices">
+          <input semantic="POSITION" source="#positions"/>
+          <input semantic="TEXCOORD" source="#texcoords"/>
+          <input semantic="COLOR" source="#colors"/>
+        </vertices>
+        <polylist material="material6" count="1">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 </vcount>
+          <p>0 1 2 3 </p>
+        </polylist>
+        <polylist material="material7" count="1">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 </vcount>
+          <p>4 5 6 7 </p>
+        </polylist>
+        <polylist material="material8" count="1">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 </vcount>
+          <p>8 9 10 11 </p>
+        </polylist>
+        <polylist material="material9" count="1">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 </vcount>
+          <p>12 13 14 15 </p>
+        </polylist>
+        <polylist material="material10" count="1">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 </vcount>
+          <p>16 17 18 19 </p>
+        </polylist>
+        <polylist material="material0" count="10">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>20 21 23 22 22 23 25 24 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 </p>
+        </polylist>
+        <polylist material="material2" count="12">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>58 59 61 60 60 61 63 62 62 63 65 64 64 65 67 66 66 67 69 68 68 69 71 70 70 71 73 72 72 73 75 74 74 75 77 76 76 77 79 78 78 79 81 80 80 81 83 82 </p>
+        </polylist>
+        <polylist material="material3" count="12">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>84 85 87 86 86 87 89 88 88 89 91 90 90 91 93 92 92 93 95 94 94 95 97 96 96 97 99 98 98 99 101 100 100 101 103 102 102 103 105 104 104 105 107 106 106 107 109 108 </p>
+        </polylist>
+        <polylist material="material4" count="13">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>110 111 113 112 112 113 115 114 114 115 117 116 118 119 121 120 120 121 123 122 122 123 125 124 126 127 129 128 128 129 131 130 130 131 133 132 134 135 137 136 136 137 139 138 140 141 143 142 142 143 145 144 </p>
+        </polylist>
+        <polylist material="material13" count="25">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>146 147 149 148 148 149 151 150 152 153 155 154 154 155 157 156 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 </p>
+        </polylist>
+        <polylist material="material1" count="27">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 </vcount>
+          <p>242 243 245 244 244 245 247 246 246 247 249 248 250 251 253 252 252 253 255 254 254 255 257 256 258 259 261 260 260 261 263 262 262 263 265 264 266 267 269 268 268 269 271 270 270 271 273 272 274 275 277 276 276 277 279 278 280 281 283 282 282 283 285 284 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 316 317 318 319 320 321 </p>
+        </polylist>
+        <polylist material="material12" count="37">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 3 3 3 3 4 3 3 3 3 </vcount>
+          <p>322 323 325 324 324 325 327 326 326 327 329 328 328 329 331 330 330 331 333 332 332 333 335 334 336 337 339 338 338 339 341 340 340 341 343 342 342 343 345 344 344 345 347 346 346 347 349 348 350 351 353 352 352 353 355 354 354 355 357 356 356 357 359 358 358 359 361 360 360 361 363 362 364 365 367 366 366 367 369 368 368 369 371 370 370 371 373 372 372 373 375 374 374 375 377 376 378 379 381 380 380 381 383 382 384 385 387 386 386 387 389 388 390 391 392 391 393 392 394 395 396 395 397 396 398 399 400 401 402 403 404 405 406 407 408 409 410 411 412 413 </p>
+        </polylist>
+        <polylist material="material5" count="43">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 3 </vcount>
+          <p>414 415 417 416 416 417 419 418 418 419 421 420 422 423 425 424 424 425 427 426 426 427 429 428 430 431 433 432 432 433 435 434 434 435 437 436 438 439 441 440 440 441 443 442 444 445 446 445 447 446 448 449 450 451 452 453 454 455 456 457 458 459 460 461 462 463 464 465 466 467 468 469 470 471 472 473 474 475 476 477 478 479 480 481 482 483 484 485 486 487 488 489 490 491 492 493 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 510 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 527 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 </p>
+        </polylist>
+        <polylist material="material11" count="64">
+          <input semantic="VERTEX" source="#vertices" offset="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>567 568 570 569 569 570 572 571 571 572 574 573 573 574 576 575 575 576 578 577 577 578 580 579 579 580 582 581 581 582 584 583 583 584 586 585 585 586 588 587 587 588 590 589 589 590 592 591 591 592 594 593 593 594 596 595 595 596 598 597 597 598 600 599 599 600 602 601 601 602 604 603 603 604 606 605 605 606 608 607 607 608 610 609 609 610 612 611 611 612 614 613 613 614 616 615 617 618 620 619 619 620 622 621 621 622 624 623 623 624 626 625 625 626 628 627 627 628 630 629 629 630 632 631 631 632 634 633 633 634 636 635 635 636 638 637 637 638 640 639 639 640 642 641 641 642 644 643 643 644 646 645 645 646 648 647 647 648 650 649 649 650 652 651 651 652 654 653 653 654 656 655 655 656 658 657 657 658 660 659 659 660 662 661 661 662 664 663 663 664 666 665 667 668 670 669 669 670 672 671 671 672 674 673 673 674 676 675 677 678 680 679 679 680 682 681 681 682 684 683 685 686 688 687 687 688 690 689 691 692 694 693 693 694 696 695 697 698 700 699 699 700 702 701 703 704 706 705 705 706 708 707 709 710 711 712 </p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="controller">
+      <skin source="#geometry">
+        <source id="controller-joints">
+          <Name_array id="controller-joints-array" count="1">joint0 </Name_array>
+          <technique_common>
+            <accessor source="#controller-joints-array" count="1">
+              <param name="JOINT" type="Name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="controller-bind-poses">
+          <float_array id="controller-bind-poses-array" count="16">1 -0 0 -0 -0 1 -0 0 0 -0 1 -0 -0 0 -0 1 </float_array>
+          <technique_common>
+            <accessor source="#controller-bind-poses-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="controller-weights">
+          <float_array id="controller-weights-array" count="1">1 </float_array>
+          <technique_common>
+            <accessor source="#controller-weights-array" count="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#controller-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#controller-bind-poses"/>
+        </joints>
+        <vertex_weights count="713">
+          <input semantic="JOINT" source="#controller-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#controller-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="scene0" name="m_siten03_00_00c">
+      <node id="joint0" sid="joint0" name="polySurface20" type="JOINT">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+      </node>
+      <node id="node" name="m_siten03_00_00c" type="NODE">
+        <instance_controller url="#controller">
+          <skeleton>#joint0</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material0" target="#material0">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material1" target="#material1">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material2" target="#material2">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material3" target="#material3">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material4" target="#material4">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material5" target="#material5">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material6" target="#material6">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material7" target="#material7">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material8" target="#material8">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material9" target="#material9">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material10" target="#material10">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material11" target="#material11">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material12" target="#material12">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+              <instance_material symbol="material13" target="#material13">
+                <bind_vertex_input semantic="tc" input_semantic="TEXCOORD"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#scene0"/>
+  </scene>
+</COLLADA>
