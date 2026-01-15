@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DISCHARGE",
+        "SHIFT_GEAR",
+        "ZAP_CANNON",
+        "MIRROR_SHOT"
+      ],
+      "species": "KLINKLANG",
+      "species_token": "SPECIES_KLINKLANG"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "FUTURE_SIGHT",
+        "EXTRASENSORY",
+        "IRON_DEFENSE",
+        "GYRO_BALL"
+      ],
+      "species": "BRONZONG",
+      "species_token": "SPECIES_BRONZONG"
+    },
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "SMACK_DOWN",
+        "ROCK_POLISH"
+      ],
+      "species": "COALOSSAL",
+      "species_token": "SPECIES_COALOSSAL"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_DEFENSE",
+        "MUD_SLAP",
+        "ROCK_SLIDE"
+      ],
+      "species": "GIGALITH",
+      "species_token": "SPECIES_GIGALITH"
+    },
+    {
+      "ability": "WANDERING_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "EARTHQUAKE",
+        "SHADOW_BALL",
+        "CURSE",
+        "SHADOW_CLAW"
+      ],
+      "species": "RUNERIGUS",
+      "species_token": "SPECIES_RUNERIGUS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 724,
+  "trainer_id": 724,
+  "trainer_name": "Nash",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

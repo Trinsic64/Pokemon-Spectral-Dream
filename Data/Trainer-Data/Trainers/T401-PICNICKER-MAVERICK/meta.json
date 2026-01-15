@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GOOEY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "SAND_ATTACK",
+        "SLAM",
+        "HEADBUTT",
+        "WATER_PULSE"
+      ],
+      "species": "WUGTRIO",
+      "species_token": "SPECIES_WUGTRIO"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "GIGA_DRAIN",
+        "ANCIENT_POWER",
+        "KNOCK_OFF",
+        "MEGA_DRAIN"
+      ],
+      "species": "TANGELA",
+      "species_token": "SPECIES_TANGELA"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "HYPER_VOICE",
+        "PLAY_ROUGH",
+        "BODY_SLAM",
+        "REST"
+      ],
+      "species": "WIGGLYTUFF",
+      "species_token": "SPECIES_WIGGLYTUFF"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "HONE_CLAWS",
+        "SLASH",
+        "ASSURANCE",
+        "PURSUIT"
+      ],
+      "species": "LIEPARD",
+      "species_token": "SPECIES_LIEPARD"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 401,
+  "trainer_id": 401,
+  "trainer_name": "Maverick",
+  "trainerclass": "TRAINERCLASS_PICNICKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

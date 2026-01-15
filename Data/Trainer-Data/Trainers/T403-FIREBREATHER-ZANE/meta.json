@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "CRUNCH",
+        "HOWL",
+        "FIRE_FANG",
+        "RETALIATE"
+      ],
+      "species": "GROWLITHE",
+      "species_token": "SPECIES_GROWLITHE"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "LEECH_LIFE",
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "FLAME_WHEEL"
+      ],
+      "species": "LARVESTA",
+      "species_token": "SPECIES_LARVESTA"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "ERUPTION",
+        "ROCK_SLIDE",
+        "FOCUS_ENERGY",
+        "EARTH_POWER"
+      ],
+      "species": "CAMERUPT",
+      "species_token": "SPECIES_CAMERUPT"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "FLAMETHROWER",
+        "WORK_UP",
+        "HEADBUTT",
+        "FIRE_FANG"
+      ],
+      "species": "LITLEO",
+      "species_token": "SPECIES_LITLEO"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 403,
+  "trainer_id": 403,
+  "trainer_name": "Zane",
+  "trainerclass": "TRAINERCLASS_FIREBREATHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

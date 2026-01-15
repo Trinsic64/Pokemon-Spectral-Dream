@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "SKY_UPPERCUT",
+        "X_SCISSOR",
+        "SLASH",
+        "ACROBATICS"
+      ],
+      "species": "GLIGAR",
+      "species_token": "SPECIES_GLIGAR"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "UPROAR",
+        "FOCUS_PUNCH",
+        "FOCUS_ENERGY",
+        "SLASH"
+      ],
+      "species": "VIGOROTH",
+      "species_token": "SPECIES_VIGOROTH"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTH_POWER",
+        "ROCK_TOMB",
+        "EXTRASENSORY",
+        "COSMIC_POWER"
+      ],
+      "species": "CLAYDOL",
+      "species_token": "SPECIES_CLAYDOL"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "X_SCISSOR",
+        "ROCK_POLISH",
+        "ROCK_SLIDE",
+        "SAND_ATTACK"
+      ],
+      "species": "CRUSTLE",
+      "species_token": "SPECIES_CRUSTLE"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_DEFENSE",
+        "MUD_SLAP",
+        "ROCK_SLIDE"
+      ],
+      "species": "GIGALITH",
+      "species_token": "SPECIES_GIGALITH"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "HONE_CLAWS",
+        "FOUL_PLAY",
+        "SANDSTORM"
+      ],
+      "species": "KROOKODILE",
+      "species_token": "SPECIES_KROOKODILE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 460,
+  "trainer_id": 460,
+  "trainer_name": "Rolf",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

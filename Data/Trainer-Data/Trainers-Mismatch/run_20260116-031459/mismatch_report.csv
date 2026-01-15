@@ -1,0 +1,452 @@
+TrainerID,Folder,Reasons
+15,T15-PKMN_TRAINER_DAWN_PT-LYRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+16,T16-PKMN_TRAINER_LUCAS_PT-ELIO,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+20,T20-BUG_CATCHER-SOFIA,species_list_diff
+26,T26-PKMN_TRAINER_DAWN_PT-DAWN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+27,T27-PKMN_TRAINER_DAWN_PT-MAY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+41,T41-PKMN_TRAINER_LUCAS_PT-HUGH,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+42,T42-PKMN_TRAINER_LUCAS_PT-SILVER,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+46,T46-TEAM_ROCKET_F-CYRA,species_list_diff
+51,T51-PKMN_TRAINER_LUCAS_PT-BARRY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+52,T52-PKMN_TRAINER_LUCAS_PT-HOP,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+54,T54-BUG_CATCHER-MILA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+55,T55-BUG_CATCHER-SAMANTHA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+60,T60-LEADER_FALKNER-FALKNER,species_list_diff
+61,T61-HIKER-CHARLES,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+62,T62-HIKER-LANDON,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+66,T66-HIKER-EZRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+67,T67-HIKER-ISABELLA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+71,T71-YOUNGSTER-ANNA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+72,T72-YOUNGSTER-ANGEL,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+79,T79-TEAM_ROCKET_F-FLINT,species_list_diff
+80,T80-TEAM_ROCKET-GAVRIC,species_list_diff
+81,T81-TEAM_ROCKET-HALE,species_list_diff
+82,T82-TEAM_ROCKET_F-VERRA,species_list_diff
+83,T83-TEAM_ROCKET-CHARA,species_list_diff
+85,T85-TEAM_ROCKET_F-WRYNN,species_list_diff
+90,T90-PKMN_TRAINER_DAWN_PT-SELENE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+91,T91-PKMN_TRAINER_LUCAS_PT-CALEM,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+94,T94-TEAM_ROCKET-ETTA,species_list_diff
+96,T96-FISHERMAN-ISAIAH,species_list_diff
+98,T98-BLACK_BELT-CAMERON,species_list_diff
+99,T99-HIKER-EMILIA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+100,T100-FISHERMAN-SANTIAGO,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+101,T101-PSYCHIC_M-MAYA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+102,T102-PSYCHIC_F-ARIANA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+103,T103-IDOL-SERENITY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+104,T104-IDOL-JOHN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+105,T105-BEAUTY-ELIJAH,species_list_diff
+117,T117-TEAM_ROCKET_F-ZINNIA,species_list_diff
+125,T125-ARTIST-JONATHAN,species_list_diff
+132,T132-LEADER_BUGSY-BUGSY,species_list_diff
+133,T133-LEADER_BUGSY-BUGSY,species_list_diff
+137,T137-HIKER-ASHER,species_list_diff
+138,T138-PKMN_TRAINER_LUCAS_PT-HOP,species_list_diff
+140,T140-PKMN_TRAINER_DAWN_PT-SERENA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+141,T141-PKMN_TRAINER_DAWN_PT-GLORIA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+142,T142-HIKER-AALIYAH,species_list_diff
+147,T147-MEDIUM-CORA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+148,T148-MEDIUM-ANNA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+154,T154-PKMN_RANGER_M-YANIN,species_list_diff
+157,T157-BIRD_KEEPER-AXEL,"class_diff(csv=TRAINERCLASS_YOUNGSTER, s=TRAINERCLASS_BIRD_KEEPER)"
+158,T158-FISHERMAN-JOHN,species_list_diff
+163,T163-RUIN_MANIAC-EVAN,"class_diff(csv=TRAINERCLASS_YOUNGSTER, s=TRAINERCLASS_RUIN_MANIAC)"
+166,T166-PKMN_TRAINER_LUCAS_PT-ETHAN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+167,T167-PKMN_TRAINER_LUCAS_PT-NATE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+170,T170-PSYCHIC_F-KENNEDY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+171,T171-PSYCHIC_M-COOPER,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+177,T177-TEAM_ROCKET_F-AXELA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+178,T178-TEAM_ROCKET_F-BLYTHEA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+179,T179-TEAM_ROCKET-HEDRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+180,T180-TEAM_ROCKET_F-ISKRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+181,T181-TEAM_ROCKET-JETT,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+182,T182-TEAM_ROCKET_F-KOVA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+183,T183-TEAM_ROCKET-LENNOX,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+184,T184-TEAM_ROCKET_F-MIRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+185,T185-PARASOL_LADY-SAMANTHA,species_list_diff
+186,T186-PSYCHIC_F-ARIA,species_list_diff
+192,T192-PKMN_RANGER_M-ZADIE,species_list_diff
+193,T193-PKMN_RANGER_M-FIORA,species_list_diff
+206,T206-AROMA_LADY-QUINN,species_list_diff
+207,T207-LEADER_WHITNEY-WHITNEY,species_list_diff
+208,T208-LEADER_WHITNEY-WHITNEY,species_list_diff
+213,T213-PSYCHIC_M-ELEANOR,species_list_diff
+214,T214-MEDIUM-SAVANNAH,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+215,T215-MEDIUM-CATHERINE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+220,T220-PSYCHIC_F-AMELIA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+221,T221-PSYCHIC_M-SKYLAR,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+222,T222-PKMN_RANGER_F-HELENA,species_list_diff
+224,T224-PKMN_RANGER_M-AILAA,species_list_diff
+226,T226-PSYCHIC_F-LIAM,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+227,T227-PSYCHIC_M-STELLA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+230,T230-PKMN_RANGER_F-ZANDER,species_list_diff
+231,T231-MEDIUM-HENRY,species_list_diff
+232,T232-BUG_CATCHER-GENESIS,species_list_diff
+235,T235-PKMN_RANGER_F-BASTIAN,species_list_diff
+236,T236-PSYCHIC_F-CONNOR,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+237,T237-PSYCHIC_M-ALEXANDER,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+240,T240-BLACK_BELT-LOGAN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+241,T241-BLACK_BELT-MATTHEW,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+243,T243-HIKER-CHRISTIAN,species_list_diff
+244,T244-TEAM_ROCKET-IRIS,species_list_diff
+251,T251-BUG_CATCHER-CONNOR,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+252,T252-BUG_CATCHER-HUDSON,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+257,T257-PKMN_BREEDER_M-HENRY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+258,T258-ROUGHNECK-ADDISON,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+260,T260-WORKER-THOMAS,species_list_diff
+261,T261-PKMN_TRAINER_DAWN_PT-MAY,species_list_diff
+274,T274-LEADER_MORTY-MORTY,species_list_diff
+275,T275-LEADER_MORTY-MORTY,species_list_diff
+282,T282-PKMN_TRAINER_DAWN_PT-LYRA,species_list_diff
+288,T288-AROMA_LADY-VICTORIA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+289,T289-PKMN_BREEDER_M-EDDY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+297,T297-PSYCHIC_M-ELLA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+298,T298-FISHERMAN-KINSLEY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+299,T299-PKMN_TRAINER_LUCAS_PT-NATE,species_list_diff
+303,T303-PKMN_BREEDER_M-JACK,species_list_diff
+307,T307-POKE_MANIAC-LAYLA,species_list_diff
+313,T313-BIKER-THOMAS,species_list_diff
+322,T322-BIKER-GENESIS,species_list_diff
+324,T324-CAMPER-GIANNA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+325,T325-PICNICKER-ISAAC,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+328,T328-PICNICKER-ISABELLA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+329,T329-PICNICKER-VALENTINA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+330,T330-ACE_TRAINER_M-MATEO,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+331,T331-ACE_TRAINER_F-LEAH,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+332,T332-ACE_TRAINER_F-SARAH,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+333,T333-ACE_TRAINER_M-AARON,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+334,T334-ACE_TRAINER_M-LIAM,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+335,T335-ACE_TRAINER_F-ALLY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+336,T336-ACE_TRAINER_M-KENNEDY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+337,T337-ACE_TRAINER_F-MAISY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+338,T338-ACE_TRAINER_M-RANDY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+339,T339-ACE_TRAINER_M-EASTON,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+343,T343-PICNICKER-ELENA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+345,T345-CAMPER-EVELYN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+349,T349-BIRD_KEEPER-ELLA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+350,T350-PSYCHIC_F-SAMANTHA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+353,T353-BUG_CATCHER-ISAIAH,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+354,T354-HIKER-CAROLINE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+356,T356-TEAM_ROCKET_F-FLINTA,species_list_diff
+357,T357-TEAM_ROCKET_F-GAVRICA,species_list_diff
+358,T358-TEAM_ROCKET-MARLOW,species_list_diff
+359,T359-TEAM_ROCKET_F-HALEA,species_list_diff
+361,T361-TEAM_ROCKET_F-NOX,species_list_diff
+362,T362-TEAM_ROCKET-ORION,species_list_diff
+364,T364-TEAM_ROCKET-QUILL,species_list_diff
+366,T366-TEAM_ROCKET-ORRYX,species_list_diff
+375,T375-TEAM_ROCKET-TALON,species_list_diff
+377,T377-FIREBREATHER-JEREMIAH,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+378,T378-HIKER-AVERY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+385,T385-PKMN_RANGER_F-DAELIA,species_list_diff
+393,T393-PKMN_RANGER_M-KAELAN,species_list_diff
+395,T395-PKMN_RANGER_M-MERRIN,species_list_diff
+398,T398-PICNICKER-ZOEY,species_list_diff
+400,T400-AROMA_LADY-JOSIAH,species_list_diff
+408,T408-LEADER_PRYCE-PRYCE,species_list_diff
+409,T409-LEADER_PRYCE-PRYCE,species_list_diff
+411,T411-BOARDER-GRAYSON,species_list_diff
+414,T414-SKIER-ISLA,species_list_diff
+415,T415-SKIER-EVERLY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+416,T416-BOARDER-DYLAN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+417,T417-BOARDER-ASHER,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+418,T418-SKIER-GABRIEL,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+419,T419-BOARDER-LUCAS,species_list_diff
+422,T422-BOARDER-MATTHEW,species_list_diff
+423,T423-SKIER-ALICE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+424,T424-BOARDER-MILO,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+426,T426-SKIER-BROOKLYN,species_list_diff
+427,T427-SKIER-CORA,species_list_diff
+430,T430-ACE_TRAINER_F_GS-SOFIA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+431,T431-ACE_TRAINER_M_GS-GENESIS,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+432,T432-ACE_TRAINER_M_GS-EASTON,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+433,T433-ACE_TRAINER_M_GS-WILLIAM,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+434,T434-ACE_TRAINER_F_GS-AURORA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+435,T435-ACE_TRAINER_M_GS-EZEKIEL,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+436,T436-ACE_TRAINER_M_GS-THEODORE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+437,T437-ACE_TRAINER_M_GS-RYAN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+438,T438-GUITARIST-IMOGEN,species_list_diff
+443,T443-LEADER_JASMINE-JASMINE,species_list_diff
+444,T444-LEADER_JASMINE-JASMINE,species_list_diff
+445,T445-RUIN_MANIAC-EVAN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+446,T446-RUIN_MANIAC-COOPER,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+447,T447-RUIN_MANIAC-LUKE,species_list_diff
+449,T449-RUIN_MANIAC-LEON,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+450,T450-LASS-AVA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+452,T452-LASS-OLIVIA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+453,T453-LASS-EMMA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+454,T454-RUIN_MANIAC-LEE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+455,T455-RUIN_MANIAC-JOSEPH,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+456,T456-ACE_TRAINER_M-TERRA,species_list_diff
+458,T458-ACE_TRAINER_F-DARCIE,species_list_diff
+462,T462-ACE_TRAINER_M-JACE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+463,T463-ACE_TRAINER_F-LUNA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+464,T464-ACE_TRAINER_M-ZANE,species_list_diff
+466,T466-FIREBREATHER-PYRO,species_list_diff
+469,T469-ACE_TRAINER_F-MIRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+470,T470-ACE_TRAINER_M-NOLAN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+471,T471-ACE_TRAINER_F-LIRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+472,T472-ACE_TRAINER_M-WADE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+478,T478-ACE_TRAINER_F-EMBER,species_list_diff
+483,T483-TEAM_ROCKET_F-ZAYNE,species_list_diff
+484,T484-TEAM_ROCKET-ASHLYN,species_list_diff
+485,T485-TEAM_ROCKET_F-BRAX,species_list_diff
+488,T488-TEAM_ROCKET-EMBER,species_list_diff
+494,T494-PKMN_RANGER_F-HOLLIS,species_list_diff
+495,T495-PKMN_RANGER_M-JORAHA,species_list_diff
+502,T502-PKMN_RANGER_M-MERRINA,species_list_diff
+504,T504-PKMN_RANGER_M-NIALLAA,species_list_diff
+508,T508-ACE_TRAINER_F-ZARA,species_list_diff
+510,T510-ACE_TRAINER_F-BIANCA,species_list_diff
+514,T514-ACE_TRAINER_F-ROSA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+515,T515-ACE_TRAINER_M-NYX,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+516,T516-ACE_TRAINER_F-VERA,species_list_diff
+518,T518-ACE_TRAINER_F-SORA,species_list_diff
+519,T519-ACE_TRAINER_M-RYU,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+520,T520-ACE_TRAINER_F-IRIS,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+522,T522-ACE_TRAINER_F-LYRA,species_list_diff
+523,T523-PKMN_TRAINER_LUCAS_PT-RED,species_list_diff
+526,T526-PKMN_TRAINER_LUCAS_PT-ETHAN,species_list_diff
+528,T528-PKMN_TRAINER_DAWN_PT-LYRA,species_list_diff
+531,T531-PKMN_TRAINER_DAWN_PT-MAY,species_list_diff
+532,T532-PKMN_TRAINER_LUCAS_PT-LUCAS,species_list_diff
+533,T533-PKMN_TRAINER_DAWN_PT-DAWN,species_list_diff
+535,T535-PKMN_TRAINER_LUCAS_PT-NATE,species_list_diff
+536,T536-PKMN_TRAINER_DAWN_PT-ROSA,species_list_diff
+541,T541-PKMN_TRAINER_LUCAS_PT-ELIO,species_list_diff
+543,T543-PKMN_TRAINER_LUCAS_PT-HAU,species_list_diff
+546,T546-PKMN_TRAINER_LUCAS_PT-HOP,species_list_diff
+550,T550-ACE_TRAINER_M-LEO,species_list_diff
+553,T553-ACE_TRAINER_F-MAYA,species_list_diff
+573,T573-ACE_TRAINER_F-ZARA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+574,T574-ACE_TRAINER_F-LILY,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+576,T576-ACE_TRAINER_M-WADE,species_list_diff
+582,T582-TEAM_ROCKET-PRYNN,species_list_diff
+584,T584-TEAM_ROCKET-QUESTA,species_list_diff
+587,T587-PKMN_RANGER_M-ORINA,species_list_diff
+588,T588-PKMN_RANGER_M-PETRAA,species_list_diff
+590,T590-PKMN_RANGER_M-QUENA,species_list_diff
+591,T591-PKMN_RANGER_F-PERRIN,species_list_diff
+593,T593-PKMN_RANGER_F-QUELLA,species_list_diff
+602,T602-ACE_TRAINER_F-JADE,species_list_diff
+604,T604-ACE_TRAINER_M-ROWAN,species_list_diff
+605,T605-ACE_TRAINER_M-HUGO,species_list_diff
+606,T606-ACE_TRAINER_F-TERRA,species_list_diff
+609,T609-ACE_TRAINER_M-REX,species_list_diff
+611,T611-ACE_TRAINER_M-KAI,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+612,T612-ACE_TRAINER_F-JASMINE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+624,T624-TEAM_ROCKET_F-LENNOXA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+625,T625-TEAM_ROCKET-ROOK,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+638,T638-ACE_TRAINER_M-ROOK,species_list_diff
+639,T639-ACE_TRAINER_F-LYRA,species_list_diff
+640,T640-ACE_TRAINER_M-JACE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+641,T641-ACE_TRAINER_M-NOLAN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+643,T643-ACE_TRAINER_M-SOREN,species_list_diff
+670,T670-ACE_TRAINER_M-BRUNO,species_list_diff
+675,T675-ACE_TRAINER_M-FLINT,species_list_diff
+676,T676-ACE_TRAINER_M-NASH,species_list_diff
+684,T684-ACE_TRAINER_M-BRUNO,species_list_diff
+685,T685-ACE_TRAINER_M-ORION,species_list_diff
+686,T686-ACE_TRAINER_F-JADE,species_list_diff
+687,T687-ACE_TRAINER_M-AXEL,species_list_diff
+688,T688-ACE_TRAINER_M-ZANE,species_list_diff
+689,T689-ACE_TRAINER_M-BRAM,species_list_diff
+690,T690-TEAM_ROCKET-SELENE,species_list_diff
+692,T692-TEAM_ROCKET_F-MIRAA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+693,T693-TEAM_ROCKET-ULRIC,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+697,T697-BIRD_KEEPER-UMA,species_list_diff
+699,T699-LEADER_CHUCK-CHUCK,species_list_diff
+700,T700-LEADER_CHUCK-CHUCK,species_list_diff
+706,T706-ACE_TRAINER_F-LYRA,species_list_diff
+708,T708-ACE_TRAINER_F-ROSA,species_list_diff
+709,T709-ACE_TRAINER_M-NOIR,species_list_diff
+718,T718-ACE_TRAINER_F-IRIS,species_list_diff
+725,T725-ACE_TRAINER_F-SELENE,species_list_diff
+728,T728-ACE_TRAINER_F-MAREN,species_list_diff
+734,T734-ACE_TRAINER_M-VERO,species_list_diff
+740,T740-ACE_TRAINER_M-JETT,species_list_diff
+742,T742-TEAM_ROCKET-IVARA,species_list_diff
+744,T744-TEAM_ROCKET-KESTREL,species_list_diff
+748,T748-TEAM_ROCKET_F-ONYX,species_list_diff
+752,T752-PKMN_RANGER_M-PETRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+754,T754-PKMN_RANGER_F-RISA,species_list_diff
+755,T755-PKMN_RANGER_M-SORREL,species_list_diff
+756,T756-PKMN_RANGER_F-TAMSIN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+757,T757-PKMN_RANGER_M-ULRIC,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+758,T758-PKMN_RANGER_F-VELA,species_list_diff
+761,T761-MEDIUM-CYRUS,species_list_diff
+762,T762-MEDIUM-DELLA,species_list_diff
+764,T764-MEDIUM-FIONA,species_list_diff
+765,T765-MEDIUM-GRAYSON,species_list_diff
+767,T767-LEADER_CLAIR-CLAIR,species_list_diff
+768,T768-LEADER_CLAIR-CLAIR,species_list_diff
+770,T770-ACE_TRAINER_M-JULES,species_list_diff
+771,T771-ACE_TRAINER_F-MARA,species_list_diff
+772,T772-ACE_TRAINER_M-CORVUS,species_list_diff
+773,T773-ACE_TRAINER_M-BLAZE,species_list_diff
+774,T774-ACE_TRAINER_M-COLE,species_list_diff
+775,T775-ACE_TRAINER_M-KAEL,species_list_diff
+776,T776-ACE_TRAINER_F-IRIS,species_list_diff
+777,T777-ACE_TRAINER_F-SOLANA,species_list_diff
+778,T778-ACE_TRAINER_F-NYLA,species_list_diff
+779,T779-ACE_TRAINER_M-CORIN,species_list_diff
+780,T780-ACE_TRAINER_M-MASON,species_list_diff
+781,T781-ACE_TRAINER_F-YARA,species_list_diff
+782,T782-ACE_TRAINER_M-BRUNO,species_list_diff
+783,T783-ACE_TRAINER_F-THALIA,species_list_diff
+785,T785-ACE_TRAINER_M-BRAM,species_list_diff
+786,T786-ACE_TRAINER_M-HUGO,species_list_diff
+787,T787-ACE_TRAINER_F-VERA,species_list_diff
+788,T788-ACE_TRAINER_M-OTTO,species_list_diff
+789,T789-ACE_TRAINER_F-NOVA,species_list_diff
+791,T791-ACE_TRAINER_M-RYU,species_list_diff
+793,T793-ACE_TRAINER_M-RYE,species_list_diff
+794,T794-ACE_TRAINER_M-ZEDD,species_list_diff
+796,T796-ACE_TRAINER_M-NERO,species_list_diff
+800,T800-ACE_TRAINER_M-GRANT,species_list_diff
+802,T802-ACE_TRAINER_F-NAOMI,species_list_diff
+803,T803-ACE_TRAINER_M-ROLF,species_list_diff
+804,T804-ACE_TRAINER_M-KANO,species_list_diff
+805,T805-ACE_TRAINER_M-JASPER,species_list_diff
+812,T812-ACE_TRAINER_M-WADE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+813,T813-ACE_TRAINER_M-KAI,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+815,T815-ACE_TRAINER_F-LINDA,species_list_diff
+819,T819-ACE_TRAINER_M-ORION,species_list_diff
+820,T820-TEAM_ROCKET_F-SLATE,species_list_diff
+822,T822-TEAM_ROCKET_F-UMBER,species_list_diff
+823,T823-TEAM_ROCKET-VESPER,species_list_diff
+824,T824-TEAM_ROCKET-WYATT,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+825,T825-TEAM_ROCKET_F-XYRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+826,T826-TEAM_ROCKET-YSERA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+827,T827-TEAM_ROCKET_F-ZAIRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+828,T828-TEAM_ROCKET-ARLEN,species_list_diff
+829,T829-TEAM_ROCKET_F-BRASK,species_list_diff
+830,T830-TEAM_ROCKET-CORIN,species_list_diff
+831,T831-TEAM_ROCKET_F-DARYA,species_list_diff
+832,T832-PKMN_RANGER_F-YORICK,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+834,T834-PKMN_RANGER_F-ALISTAIR,species_list_diff
+835,T835-PKMN_RANGER_M-BRIONY,species_list_diff
+836,T836-PKMN_RANGER_F-CAIUS,species_list_diff
+839,T839-PKMN_RANGER_M-FENRIS,species_list_diff
+840,T840-PKMN_RANGER_F-GISELLE,species_list_diff
+841,T841-PKMN_RANGER_F-HADRIAN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+842,T842-PKMN_RANGER_M-IRIS,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+843,T843-PKMN_RANGER_F-JASPER,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+845,T845-PKMN_TRAINER_DAWN_PT-GLORIA,species_list_diff
+846,T846-PKMN_TRAINER_LUCAS_PT-HOP,species_list_diff
+847,T847-PKMN_TRAINER_LUCAS_PT-ELIO,species_list_diff
+849,T849-PKMN_TRAINER_LUCAS_PT-HAU,species_list_diff
+850,T850-PKMN_TRAINER_LUCAS_PT-CALEM,species_list_diff
+853,T853-PKMN_TRAINER_LUCAS_PT-NATE,species_list_diff
+856,T856-PKMN_TRAINER_LUCAS_PT-LUCAS,species_list_diff
+857,T857-PKMN_TRAINER_DAWN_PT-DAWN,species_list_diff
+858,T858-PKMN_TRAINER_LUCAS_PT-BARRY,species_list_diff
+859,T859-PKMN_TRAINER_LUCAS_PT-WALY,species_list_diff
+860,T860-PKMN_TRAINER_LUCAS_PT-BRANDON,species_list_diff
+861,T861-PKMN_TRAINER_DAWN_PT-MAY,species_list_diff
+862,T862-PKMN_TRAINER_LUCAS_PT-ETHAN,species_list_diff
+863,T863-PKMN_TRAINER_LUCAS_PT-SILVER,species_list_diff
+864,T864-PKMN_TRAINER_DAWN_PT-LYRA,species_list_diff
+865,T865-PKMN_TRAINER_LUCAS_PT-RED,species_list_diff
+866,T866-LEADER_BLUE-BLUE,species_list_diff
+867,T867-PKMN_TRAINER_DAWN_PT-GREEN,species_list_diff
+868,T868-TEAM_ROCKET-ERIS,species_list_diff
+869,T869-TEAM_ROCKET_F-FARIS,species_list_diff
+870,T870-TEAM_ROCKET-GALE,species_list_diff
+871,T871-TEAM_ROCKET_F-HELIX,species_list_diff
+872,T872-TEAM_ROCKET-IONE,species_list_diff
+873,T873-TEAM_ROCKET_F-JORIN,species_list_diff
+874,T874-TEAM_ROCKET-KIRO,species_list_diff
+875,T875-TEAM_ROCKET_F-LUMEN,species_list_diff
+876,T876-TEAM_ROCKET-MORIN,species_list_diff
+877,T877-TEAM_ROCKET_F-NYSA,species_list_diff
+878,T878-TEAM_ROCKET-ORRIN,species_list_diff
+879,T879-TEAM_ROCKET_F-PHAROS,species_list_diff
+880,T880-TEAM_ROCKET_F-QUORIN,species_list_diff
+881,T881-TEAM_ROCKET_F-RAZE,species_list_diff
+882,T882-TEAM_ROCKET-SOREN,species_list_diff
+883,T883-TEAM_ROCKET_F-TARYN,species_list_diff
+884,T884-TEAM_ROCKET-URIAH,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+885,T885-TEAM_ROCKET_F-VALKO,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+886,T886-TEAM_ROCKET-WYNNE,species_list_diff
+887,T887-TEAM_ROCKET_F-XAN,species_list_diff
+888,T888-TEAM_ROCKET-YLVA,species_list_diff
+889,T889-TEAM_ROCKET_F-ZAREK,species_list_diff
+890,T890-TEAM_ROCKET_F-ANSEL,species_list_diff
+891,T891-TEAM_ROCKET-BRONT,species_list_diff
+892,T892-PKMN_RANGER_F-KIERA,species_list_diff
+893,T893-PKMN_RANGER_M-LEORIC,species_list_diff
+894,T894-PKMN_RANGER_F-MAERA,species_list_diff
+895,T895-PKMN_RANGER_M-NOLAN,species_list_diff
+896,T896-PKMN_RANGER_F-OLETTE,species_list_diff
+897,T897-PKMN_RANGER_M-PERCIVAL,species_list_diff
+898,T898-PKMN_RANGER_F-ROWAN,species_list_diff
+899,T899-PKMN_RANGER_M-SYLAS,species_list_diff
+900,T900-PKMN_RANGER_F-THALIA,species_list_diff
+901,T901-PKMN_RANGER_M-URIEL,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+902,T902-PKMN_RANGER_F-VESPER,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE)"
+903,T903-PKMN_RANGER_M-WREN,species_list_diff
+904,T904-PKMN_RANGER_F-YSOLDA,species_list_diff
+905,T905-PKMN_RANGER_M-ZEPHYR,species_list_diff
+906,T906-PKMN_RANGER_F-AUBIN,species_list_diff
+907,T907-PKMN_RANGER_M-BELLAMY,species_list_diff
+908,T908-PKMN_RANGER_F-CORALINE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+909,T909-PKMN_RANGER_F-DARION,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+910,T910-PKMN_RANGER_F-ELORA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+911,T911-PKMN_RANGER_M-FAELAN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+912,T912-PKMN_RANGER_F-GRIER,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+913,T913-PKMN_RANGER_M-HYACINTH,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+914,T914-PKMN_RANGER_F-ISOLDE,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+915,T915-PKMN_RANGER_M-JAXEN,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+916,T916-PKMN_RANGER_F-KERRA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+917,T917-PKMN_RANGER_M-LYSANDER,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+918,T918-PKMN_RANGER_F-MIREILLE,species_list_diff
+919,T919-PKMN_RANGER_F-NERYS,species_list_diff
+920,T920-PKMN_RANGER_F-OBERON,species_list_diff
+921,T921-PKMN_RANGER_M-PHAEDRA,species_list_diff
+922,T922-PKMN_RANGER_F-QUORIN,species_list_diff
+923,T923-ELITE_FOUR_BRUNO-BRUNO,species_list_diff
+924,T924-ELITE_FOUR_BRUNO-BRUNO,species_list_diff
+925,T925-ELITE_FOUR_KAREN-KAREN,species_list_diff
+926,T926-ELITE_FOUR_KAREN-KAREN,species_list_diff
+927,T927-ELITE_FOUR_KOGA-KOGA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+928,T928-ELITE_FOUR_KOGA-KOGA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+929,T929-ELITE_FOUR_KOGA-KOGA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+930,T930-ELITE_FOUR_KOGA-KOGA,"battle_type_diff(csv=DOUBLE_BATTLE, s=SINGLE_BATTLE);species_list_diff"
+931,T931-ELITE_FOUR_WILL-WILL,species_list_diff
+932,T932-ELITE_FOUR_WILL-WILL,species_list_diff
+935,T935-CHAMPION-FINN,species_list_diff
+936,T936-CHAMPION-FINN,species_list_diff
+937,T937-CHAMPION-FINN,species_list_diff
+940,T940-LEADER_FALKNER-FALKNER,species_list_diff
+941,T941-LEADER_FALKNER-FALKNER,species_list_diff
+942,T942-LEADER_BUGSY-BUGSY,species_list_diff
+943,T943-LEADER_BUGSY-BUGSY,species_list_diff
+944,T944-LEADER_BUGSY-BUGSY,species_list_diff
+945,T945-LEADER_BUGSY-BUGSY,species_list_diff
+946,T946-LEADER_MORTY-MORTY,species_list_diff
+947,T947-LEADER_MORTY-MORTY,species_list_diff
+948,T948-LEADER_MORTY-MORTY,species_list_diff
+949,T949-LEADER_MORTY-MORTY,species_list_diff
+950,T950-LEADER_JASMINE-JASMINE,species_list_diff
+951,T951-LEADER_JASMINE-JASMINE,species_list_diff
+952,T952-LEADER_CHUCK-CHUCK,species_list_diff
+953,T953-LEADER_CHUCK-CHUCK,species_list_diff
+954,T954-LEADER_CHUCK-CHUCK,species_list_diff
+955,T955-LEADER_CHUCK-CHUCK,species_list_diff
+956,T956-LEADER_CLAIR-CLAIR,species_list_diff
+957,T957-LEADER_CLAIR-CLAIR,species_list_diff
+958,T958-LEADER_CLAIR-CLAIR,species_list_diff
+959,T959-LEADER_CLAIR-CLAIR,species_list_diff
+960,T960-ELITE_FOUR_BRUNO-BRUNO,species_list_diff
+961,T961-ELITE_FOUR_BRUNO-BRUNO,species_list_diff
+962,T962-ELITE_FOUR_BRUNO-BRUNO,species_list_diff
+963,T963-ELITE_FOUR_BRUNO-BRUNO,species_list_diff
+964,T964-ELITE_FOUR_KAREN-KAREN,species_list_diff
+965,T965-ELITE_FOUR_KAREN-KAREN,species_list_diff
+966,T966-ELITE_FOUR_KAREN-KAREN,species_list_diff
+967,T967-ELITE_FOUR_KAREN-KAREN,species_list_diff
+968,T968-ELITE_FOUR_WILL-WILL,species_list_diff
+969,T969-ELITE_FOUR_WILL-WILL,species_list_diff
+970,T970-ELITE_FOUR_WILL-WILL,species_list_diff
+971,T971-ELITE_FOUR_WILL-WILL,species_list_diff

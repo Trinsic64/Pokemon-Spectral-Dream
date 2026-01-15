@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "UNAWARE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "AIR_SLASH",
+        "AMNESIA",
+        "AIR_CUTTER",
+        "HEART_STAMP"
+      ],
+      "species": "SWOOBAT",
+      "species_token": "SPECIES_SWOOBAT"
+    },
+    {
+      "ability": "CHEEK_POUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "CHARGE",
+        "VOLT_SWITCH",
+        "PARABOLIC_CHARGE",
+        "REST"
+      ],
+      "species": "DEDENNE",
+      "species_token": "SPECIES_DEDENNE"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "METAL_CLAW",
+        "HONE_CLAWS"
+      ],
+      "species": "PERRSERKER",
+      "species_token": "SPECIES_PERRSERKER"
+    },
+    {
+      "ability": "COLOR_CHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "PSYBEAM",
+        "TAIL_WHIP",
+        "SLASH",
+        "SHADOW_CLAW"
+      ],
+      "species": "KECLEON",
+      "species_token": "SPECIES_KECLEON"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 396,
+  "trainer_id": 396,
+  "trainer_name": "Caroline",
+  "trainerclass": "TRAINERCLASS_CAMPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

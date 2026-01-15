@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "TAIL_WHIP",
+        "ICY_WIND",
+        "PAYBACK",
+        "POWDER_SNOW"
+      ],
+      "species": "VULPIX",
+      "species_token": "SPECIES_VULPIX"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "FAIRY_WIND",
+        "DRAINING_KISS",
+        "ECHOED_VOICE",
+        "SWEET_SCENT"
+      ],
+      "species": "SPRITZEE",
+      "species_token": "SPECIES_SPRITZEE"
+    },
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "ABSORB",
+        "STRUGGLE_BUG",
+        "SILVER_WIND",
+        "DRAINING_KISS"
+      ],
+      "species": "CUTIEFLY",
+      "species_token": "SPECIES_CUTIEFLY"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "LEER",
+        "WATER_GUN",
+        "TWISTER",
+        "BUBBLE"
+      ],
+      "species": "HORSEA",
+      "species_token": "SPECIES_HORSEA"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "PLAY_NICE",
+        "PSYBEAM",
+        "CONFUSION",
+        "POUND"
+      ],
+      "species": "GOTHITA",
+      "species_token": "SPECIES_GOTHITA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 193,
+  "trainer_id": 193,
+  "trainer_name": "Fiora",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

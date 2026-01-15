@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "EARLY_BIRD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "LAST_RESORT",
+        "OUTRAGE",
+        "FOCUS_ENERGY",
+        "MEGA_PUNCH"
+      ],
+      "species": "KANGASKHAN",
+      "species_token": "SPECIES_KANGASKHAN"
+    },
+    {
+      "ability": "SAND_RUSH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "PLAY_ROUGH",
+        "GROWL",
+        "PHANTOM_FORCE",
+        "CRUNCH"
+      ],
+      "species": "HOUNDSTONE",
+      "species_token": "SPECIES_HOUNDSTONE"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "X_SCISSOR",
+        "AIR_SLASH",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "SCIZOR",
+      "species_token": "SPECIES_SCIZOR"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "LEAF_BLADE",
+        "NASTY_PLOT",
+        "HURRICANE",
+        "SUCKER_PUNCH"
+      ],
+      "species": "SHIFTRY",
+      "species_token": "SPECIES_SHIFTRY"
+    },
+    {
+      "ability": "WATER_BUBBLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "LIQUIDATION",
+        "CRUNCH",
+        "BUBBLE_BEAM",
+        "LUNGE"
+      ],
+      "species": "ARAQUANID",
+      "species_token": "SPECIES_ARAQUANID"
+    },
+    {
+      "ability": "LIQUID_OOZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "BELCH",
+        "BODY_SLAM",
+        "AMNESIA",
+        "GUNK_SHOT"
+      ],
+      "species": "SWALOT",
+      "species_token": "SPECIES_SWALOT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 746,
+  "trainer_id": 746,
+  "trainer_name": "Mave",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

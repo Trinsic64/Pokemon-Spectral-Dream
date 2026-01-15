@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "FLAMETHROWER",
+        "WORK_UP",
+        "HEADBUTT",
+        "FIRE_FANG"
+      ],
+      "species": "PYROAR",
+      "species_token": "SPECIES_PYROAR"
+    },
+    {
+      "ability": "CORROSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "FIRE_LASH",
+        "INCINERATE",
+        "FLAME_BURST",
+        "VENOSHOCK"
+      ],
+      "species": "SALAZZLE",
+      "species_token": "SPECIES_SALAZZLE"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "MEGAHORN",
+        "SMART_STRIKE",
+        "POISON_JAB",
+        "FLAME_WHEEL"
+      ],
+      "species": "RAPIDASH",
+      "species_token": "SPECIES_RAPIDASH"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 407,
+  "trainer_id": 407,
+  "trainer_name": "Dorian",
+  "trainerclass": "TRAINERCLASS_FIREBREATHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

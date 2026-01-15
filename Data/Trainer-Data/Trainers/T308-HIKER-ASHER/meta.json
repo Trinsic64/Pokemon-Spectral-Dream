@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TOUGH_CLAWS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "CLAMP",
+        "ROCK_POLISH",
+        "SLASH",
+        "ANCIENT_POWER"
+      ],
+      "species": "BINACLE",
+      "species_token": "SPECIES_BINACLE"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "HEX",
+        "CONFUSE_RAY",
+        "FEINT_ATTACK",
+        "BRANCH_POKE"
+      ],
+      "species": "PHANTUMP",
+      "species_token": "SPECIES_PHANTUMP"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "UPROAR",
+        "ACUPRESSURE",
+        "PLUCK",
+        "QUICK_ATTACK"
+      ],
+      "species": "DODUO",
+      "species_token": "SPECIES_DODUO"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "FIRE_PUNCH",
+        "UPROAR",
+        "INCINERATE",
+        "FIRE_FANG"
+      ],
+      "species": "DARUMAKA",
+      "species_token": "SPECIES_DARUMAKA"
+    },
+    {
+      "ability": "SAND_SPIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "SAND_ATTACK",
+        "HEADBUTT",
+        "BULLDOZE",
+        "BRUTAL_SWING"
+      ],
+      "species": "SILICOBRA",
+      "species_token": "SPECIES_SILICOBRA"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "DRAGON_CLAW",
+        "CRUNCH",
+        "DUAL_CHOP",
+        "DRAGON_DANCE"
+      ],
+      "species": "AXEW",
+      "species_token": "SPECIES_AXEW"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 308,
+  "trainer_id": 308,
+  "trainer_name": "Asher",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

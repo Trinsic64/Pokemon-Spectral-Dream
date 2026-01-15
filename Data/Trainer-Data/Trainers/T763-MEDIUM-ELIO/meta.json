@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "SHADOW_BALL",
+        "KNOCK_OFF",
+        "SUCKER_PUNCH",
+        "HEX"
+      ],
+      "species": "BANETTE",
+      "species_token": "SPECIES_BANETTE"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "EARTHQUAKE",
+        "FOCUS_PUNCH",
+        "DYNAMIC_PUNCH",
+        "PHANTOM_FORCE"
+      ],
+      "species": "GOLURK",
+      "species_token": "SPECIES_GOLURK"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "SEED_BOMB",
+        "MOONBLAST",
+        "CONFUSE_RAY",
+        "SHADOW_BALL"
+      ],
+      "species": "GOURGEIST",
+      "species_token": "SPECIES_GOURGEIST"
+    },
+    {
+      "ability": "SAND_RUSH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "PLAY_ROUGH",
+        "CRUNCH",
+        "HEADBUTT",
+        "PHANTOM_FORCE"
+      ],
+      "species": "HOUNDSTONE",
+      "species_token": "SPECIES_HOUNDSTONE"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "WATER_SPOUT",
+        "SHADOW_BALL",
+        "HEX",
+        "ACID_ARMOR"
+      ],
+      "species": "JELLICENT",
+      "species_token": "SPECIES_JELLICENT"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 763,
+  "trainer_id": 763,
+  "trainer_name": "Elio",
+  "trainerclass": "TRAINERCLASS_MEDIUM",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

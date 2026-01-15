@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RATTLED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "ASTONISH",
+        "TACKLE",
+        "ASTONISH",
+        "ASTONISH"
+      ],
+      "species": "GIMMIGHOUL",
+      "species_token": "SPECIES_GIMMIGHOUL"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "FOCUS_ENERGY",
+        "BITE",
+        "TACKLE",
+        "QUICK_ATTACK"
+      ],
+      "species": "RATTATA",
+      "species_token": "SPECIES_RATTATA"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "BITE",
+        "TACKLE",
+        "WATER_GUN",
+        "BITE"
+      ],
+      "species": "CHEWTLE",
+      "species_token": "SPECIES_CHEWTLE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 94,
+  "trainer_id": 94,
+  "trainer_name": "Etta",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

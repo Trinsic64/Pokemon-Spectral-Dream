@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "LIQUIDATION",
+        "AIR_SLASH",
+        "LOW_SWEEP",
+        "WORK_UP"
+      ],
+      "species": "QUAXWELL",
+      "species_token": "SPECIES_QUAXWELL"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "LIQUIDATION",
+        "AIR_SLASH",
+        "WING_ATTACK",
+        "COUNTER"
+      ],
+      "species": "QUAQUAVAL",
+      "species_token": "SPECIES_QUAQUAVAL"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "FLASH_CANNON",
+        "AQUA_TAIL",
+        "SHELL_SMASH"
+      ],
+      "species": "BLASTOISE",
+      "species_token": "SPECIES_BLASTOISE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "AGILITY",
+        "BRINE",
+        "HURRICANE"
+      ],
+      "species": "PELIPPER",
+      "species_token": "SPECIES_PELIPPER"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "PLAY_ROUGH",
+        "WATER_SPORT",
+        "BOUNCE"
+      ],
+      "species": "AZUMARILL",
+      "species_token": "SPECIES_AZUMARILL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 634,
+  "trainer_id": 634,
+  "trainer_name": "Elsie",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

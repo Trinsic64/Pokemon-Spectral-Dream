@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "BULLDOZE",
+        "GROWL",
+        "ROCK_SMASH",
+        "TACKLE"
+      ],
+      "species": "CUFANT",
+      "species_token": "SPECIES_CUFANT"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "FIRE_FANG",
+        "CHARM",
+        "ICE_FANG",
+        "THUNDER_FANG"
+      ],
+      "species": "SNUBBULL",
+      "species_token": "SPECIES_SNUBBULL"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "POISON_GAS",
+        "SLUDGE",
+        "POUND",
+        "HARDEN"
+      ],
+      "species": "GRIMER",
+      "species_token": "SPECIES_GRIMER"
+    },
+    {
+      "ability": "STICKY_HOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "MUD_BOMB",
+        "MUD_SPORT",
+        "WATER_PULSE",
+        "WATER_GUN"
+      ],
+      "species": "SHELLOS",
+      "species_token": "SPECIES_SHELLOS"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 143,
+  "trainer_id": 143,
+  "trainer_name": "Trevor",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

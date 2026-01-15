@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "COVET",
+        "POUND",
+        "ECHOED_VOICE",
+        "DISARMING_VOICE"
+      ],
+      "species": "JIGGLYPUFF",
+      "species_token": "SPECIES_JIGGLYPUFF"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "CHARM",
+        "DISARMING_VOICE",
+        "POUND",
+        "COPYCAT"
+      ],
+      "species": "CLEFAIRY",
+      "species_token": "SPECIES_CLEFAIRY"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "CONFUSION",
+        "DOUBLE_TEAM",
+        "DISARMING_VOICE",
+        "TELEPORT"
+      ],
+      "species": "KIRLIA",
+      "species_token": "SPECIES_KIRLIA"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "FOCUS_ENERGY",
+        "WING_ATTACK",
+        "QUICK_ATTACK",
+        "PECK"
+      ],
+      "species": "TAILLOW",
+      "species_token": "SPECIES_TAILLOW"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 107,
+  "trainer_id": 107,
+  "trainer_name": "Uria",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

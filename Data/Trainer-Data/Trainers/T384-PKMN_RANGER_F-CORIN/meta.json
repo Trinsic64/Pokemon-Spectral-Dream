@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "MOONBLAST",
+        "DRAINING_KISS",
+        "ECHOED_VOICE",
+        "CALM_MIND"
+      ],
+      "species": "AROMATISSE",
+      "species_token": "SPECIES_AROMATISSE"
+    },
+    {
+      "ability": "COTTON_DOWN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "HYPER_VOICE",
+        "RAPID_SPIN",
+        "LEAF_TORNADO",
+        "ROUND"
+      ],
+      "species": "ELDEGOSS",
+      "species_token": "SPECIES_ELDEGOSS"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "GIGA_DRAIN",
+        "INGRAIN",
+        "MEGA_DRAIN",
+        "STRENGTH_SAP"
+      ],
+      "species": "SHIINOTIC",
+      "species_token": "SPECIES_SHIINOTIC"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "SWIFT",
+        "CHARGE_BEAM"
+      ],
+      "species": "ELECTRODE",
+      "species_token": "SPECIES_ELECTRODE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 384,
+  "trainer_id": 384,
+  "trainer_name": "Corin",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

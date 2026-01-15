@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DRAGON_PULSE",
+        "MUDDY_WATER",
+        "WATER_PULSE",
+        "IRON_HEAD"
+      ],
+      "species": "SLIGGOO",
+      "species_token": "SPECIES_SLIGGOO"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "OUTRAGE",
+        "DRAGON_CLAW",
+        "FOCUS_ENERGY",
+        "FLAMETHROWER"
+      ],
+      "species": "SHELGON",
+      "species_token": "SPECIES_SHELGON"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "CRUNCH",
+        "BODY_SLAM",
+        "NASTY_PLOT",
+        "DRAGON_RUSH"
+      ],
+      "species": "ZWEILOUS",
+      "species_token": "SPECIES_ZWEILOUS"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "BRINE",
+        "ANCIENT_POWER"
+      ],
+      "species": "OMASTAR",
+      "species_token": "SPECIES_OMASTAR"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "HORN_LEECH",
+        "CONFUSE_RAY",
+        "PHANTOM_FORCE",
+        "SHADOW_CLAW"
+      ],
+      "species": "TREVENANT",
+      "species_token": "SPECIES_TREVENANT"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 522,
+  "trainer_id": 522,
+  "trainer_name": "Lyra",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

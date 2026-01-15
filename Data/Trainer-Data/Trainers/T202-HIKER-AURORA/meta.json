@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "GROWL",
+        "FLAME_WHEEL",
+        "FLAME_CHARGE",
+        "TACKLE"
+      ],
+      "species": "PONYTA",
+      "species_token": "SPECIES_PONYTA"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "LICK",
+        "COVET",
+        "CONFUSION",
+        "POWDER_SNOW"
+      ],
+      "species": "SMOOCHUM",
+      "species_token": "SPECIES_SMOOCHUM"
+    },
+    {
+      "ability": "SOLID_ROCK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "AQUA_JET",
+        "WITHDRAW",
+        "BITE",
+        "SMACK_DOWN"
+      ],
+      "species": "TIRTOUGA",
+      "species_token": "SPECIES_TIRTOUGA"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "DETECT",
+        "POUND",
+        "FAKE_OUT",
+        "MEDITATE"
+      ],
+      "species": "MIENFOO",
+      "species_token": "SPECIES_MIENFOO"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 202,
+  "trainer_id": 202,
+  "trainer_name": "Aurora",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

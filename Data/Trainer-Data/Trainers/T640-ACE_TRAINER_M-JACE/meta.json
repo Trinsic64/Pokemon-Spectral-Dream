@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GOOEY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "LIQUIDATION",
+        "THROAT_CHOP",
+        "SAND_ATTACK",
+        "DIG"
+      ],
+      "species": "WUGTRIO",
+      "species_token": "SPECIES_WUGTRIO"
+    },
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "ICICLE_CRASH",
+        "IRON_DEFENSE",
+        "ICE_BEAM"
+      ],
+      "species": "CLOYSTER",
+      "species_token": "SPECIES_CLOYSTER"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "EXTRASENSORY",
+        "GROWL",
+        "NIGHT_SLASH",
+        "WATER_PULSE"
+      ],
+      "species": "GRENINJA",
+      "species_token": "SPECIES_GRENINJA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 640,
+  "trainer_id": 640,
+  "trainer_name": "Jace",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "FAIRY_WIND",
+        "ECHOED_VOICE",
+        "SWEET_SCENT",
+        "ODOR_SLEUTH"
+      ],
+      "species": "SPRITZEE",
+      "species_token": "SPECIES_SPRITZEE"
+    },
+    {
+      "ability": "MYCELIUM_MIGHT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "MUD_SLAP",
+        "STUN_SPORE",
+        "ABSORB",
+        "POISON_POWDER"
+      ],
+      "species": "TOEDSCOOL",
+      "species_token": "SPECIES_TOEDSCOOL"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "PLAY_NICE",
+        "SWEET_SCENT",
+        "CHARM",
+        "TACKLE"
+      ],
+      "species": "ILLUMISE",
+      "species_token": "SPECIES_ILLUMISE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 104,
+  "trainer_id": 104,
+  "trainer_name": "John",
+  "trainerclass": "TRAINERCLASS_IDOL",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

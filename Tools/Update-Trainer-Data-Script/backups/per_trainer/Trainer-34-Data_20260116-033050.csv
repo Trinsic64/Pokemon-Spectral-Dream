@@ -1,0 +1,9 @@
+Trainer 34,Pokemon 1,Pokemon 2,Pokemon 3,Pokemon 4,Pokemon 5,Pokemon 6
+Species,SEWADDLE,TYMPOLE,TEPIG,NONE,NONE,NONE
+Level,8,8,8,,,
+Ability,SWARM,SWIFT_SWIM,BLAZE,,,
+Held Item,NONE,NONE,NONE,,,
+Move,STRING_SHOT,ACID,TAIL_WHIP,,,
+Move,BUG_BITE,GROWL,EMBER,,,
+Move,TACKLE,ECHOED_VOICE,TACKLE,,,
+Move,BUG_BITE,BUBBLE,EMBER,,,

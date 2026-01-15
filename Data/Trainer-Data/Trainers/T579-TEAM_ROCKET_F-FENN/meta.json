@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "CONFUSE_RAY",
+        "DARK_PULSE"
+      ],
+      "species": "HAUNTER",
+      "species_token": "SPECIES_HAUNTER"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "NIGHT_SLASH",
+        "SLASH"
+      ],
+      "species": "BISHARP",
+      "species_token": "SPECIES_BISHARP"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "X_SCISSOR",
+        "THRASH",
+        "SUPERPOWER",
+        "FOCUS_ENERGY"
+      ],
+      "species": "PINSIR",
+      "species_token": "SPECIES_PINSIR"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "CROSS_CHOP",
+        "STRENGTH",
+        "BULK_UP",
+        "KNOCK_OFF"
+      ],
+      "species": "MACHOKE",
+      "species_token": "SPECIES_MACHOKE"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "STOMPING_TANTRUM",
+        "THRASH",
+        "FOCUS_ENERGY",
+        "HEADBUTT"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 579,
+  "trainer_id": 579,
+  "trainer_name": "Fenn",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

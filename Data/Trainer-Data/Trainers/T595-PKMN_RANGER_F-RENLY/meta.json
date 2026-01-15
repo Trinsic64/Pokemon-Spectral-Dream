@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FRIEND_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "HYPER_VOICE",
+        "PLAY_ROUGH",
+        "FOLLOW_ME",
+        "POUND"
+      ],
+      "species": "MAUSHOLD",
+      "species_token": "SPECIES_MAUSHOLD"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BUG_BUZZ",
+        "LUNGE",
+        "BUG_BITE",
+        "PSYCHIC"
+      ],
+      "species": "RABSCA",
+      "species_token": "SPECIES_RABSCA"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SHADOW_BALL",
+        "CRUNCH",
+        "WAKE_UP_SLAP",
+        "ICE_FANG"
+      ],
+      "species": "FROSLASS",
+      "species_token": "SPECIES_FROSLASS"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "MOONBLAST",
+        "COSMIC_POWER",
+        "STORED_POWER",
+        "METEOR_MASH"
+      ],
+      "species": "CLEFABLE",
+      "species_token": "SPECIES_CLEFABLE"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "EARTHQUAKE",
+        "STONE_EDGE",
+        "ROCK_POLISH",
+        "STEAMROLLER"
+      ],
+      "species": "GOLEM",
+      "species_token": "SPECIES_GOLEM"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DISCHARGE",
+        "LAST_RESORT",
+        "THUNDER",
+        "AGILITY"
+      ],
+      "species": "JOLTEON",
+      "species_token": "SPECIES_JOLTEON"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 595,
+  "trainer_id": 595,
+  "trainer_name": "Renly",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

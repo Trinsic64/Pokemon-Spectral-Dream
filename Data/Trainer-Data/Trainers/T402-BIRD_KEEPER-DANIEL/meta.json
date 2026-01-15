@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "DRILL_PECK",
+        "HONE_CLAWS",
+        "PLUCK",
+        "PECK"
+      ],
+      "species": "CORVISQUIRE",
+      "species_token": "SPECIES_CORVISQUIRE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "CALM_MIND",
+        "STOMP",
+        "TACKLE"
+      ],
+      "species": "STANTLER",
+      "species_token": "SPECIES_STANTLER"
+    },
+    {
+      "ability": "LIQUID_OOZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "GUNK_SHOT",
+        "BODY_SLAM",
+        "AMNESIA",
+        "SLUDGE_BOMB"
+      ],
+      "species": "SWALOT",
+      "species_token": "SPECIES_SWALOT"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "RAZOR_SHELL",
+        "MUD_SHOT",
+        "HARDEN",
+        "STOMP"
+      ],
+      "species": "KINGLER",
+      "species_token": "SPECIES_KINGLER"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 402,
+  "trainer_id": 402,
+  "trainer_name": "Daniel",
+  "trainerclass": "TRAINERCLASS_BIRD_KEEPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

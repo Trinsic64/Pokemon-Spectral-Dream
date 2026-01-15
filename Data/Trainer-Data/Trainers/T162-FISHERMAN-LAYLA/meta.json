@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "WATER_PULSE",
+        "TOXIC_SPIKES",
+        "WATER_GUN",
+        "ACID"
+      ],
+      "species": "TENTACOOL",
+      "species_token": "SPECIES_TENTACOOL"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "PECK",
+        "WATER_SPORT",
+        "HORN_ATTACK",
+        "WATER_PULSE"
+      ],
+      "species": "GOLDEEN",
+      "species_token": "SPECIES_GOLDEEN"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "RAIN_DANCE",
+        "WATER_GUN",
+        "POUND",
+        "ATTRACT"
+      ],
+      "species": "FINNEON",
+      "species_token": "SPECIES_FINNEON"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "AURORA_BEAM",
+        "FOCUS_ENERGY",
+        "WATER_PULSE",
+        "PSYBEAM"
+      ],
+      "species": "REMORAID",
+      "species_token": "SPECIES_REMORAID"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "HARDEN",
+        "BUBBLE_BEAM",
+        "VICE_GRIP",
+        "WATER_GUN"
+      ],
+      "species": "CORPHISH",
+      "species_token": "SPECIES_CORPHISH"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 162,
+  "trainer_id": 162,
+  "trainer_name": "Layla",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

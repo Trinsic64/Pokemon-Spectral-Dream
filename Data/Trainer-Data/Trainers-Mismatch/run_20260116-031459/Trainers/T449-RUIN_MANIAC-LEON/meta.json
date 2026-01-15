@@ -1,0 +1,54 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "PSYSHOCK",
+        "SUCKER_PUNCH",
+        "COVET",
+        "PSYBEAM"
+      ],
+      "species": "MEOWSTIC",
+      "species_token": "SPECIES_MEOWSTIC"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "BODY_SLAM",
+        "BULK_UP",
+        "VITAL_THROW",
+        "WIDE_GUARD"
+      ],
+      "species": "THROH",
+      "species_token": "SPECIES_THROH"
+    }
+  ],
+  "nummons": 2,
+  "party_id": 449,
+  "trainer_id": 449,
+  "trainer_name": "Leon",
+  "trainerclass": "TRAINERCLASS_RUIN_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

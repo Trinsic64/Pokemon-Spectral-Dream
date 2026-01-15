@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "RAPID_SPIN",
+        "BITE",
+        "ICY_WIND",
+        "TACKLE"
+      ],
+      "species": "BERGMITE",
+      "species_token": "SPECIES_BERGMITE"
+    },
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "GUST",
+        "SWEET_SCENT"
+      ],
+      "species": "COMBEE",
+      "species_token": "SPECIES_COMBEE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "THUNDER_WAVE",
+        "SPARK",
+        "CHARGE_BEAM",
+        "TACKLE"
+      ],
+      "species": "TYNAMO",
+      "species_token": "SPECIES_TYNAMO"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "TOXIC_SPIKES",
+        "POISON_TAIL",
+        "MUD_SHOT",
+        "TACKLE"
+      ],
+      "species": "WOOPER",
+      "species_token": "SPECIES_WOOPER"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 125,
+  "trainer_id": 125,
+  "trainer_name": "Jonathan",
+  "trainerclass": "TRAINERCLASS_ARTIST",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

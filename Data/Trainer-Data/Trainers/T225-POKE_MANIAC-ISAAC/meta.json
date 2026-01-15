@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "RAPID_SPIN",
+        "BUBBLE_BEAM",
+        "SWIFT",
+        "WATER_GUN"
+      ],
+      "species": "STARYU",
+      "species_token": "SPECIES_STARYU"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "PSYBEAM",
+        "COPYCAT",
+        "FEINT_ATTACK",
+        "TACKLE"
+      ],
+      "species": "SPINDA",
+      "species_token": "SPECIES_SPINDA"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "SHADOW_PUNCH",
+        "CONFUSE_RAY",
+        "PAYBACK",
+        "SPITE"
+      ],
+      "species": "HAUNTER",
+      "species_token": "SPECIES_HAUNTER"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "CRUNCH",
+        "THUNDER_WAVE",
+        "SPARK",
+        "HEADBUTT"
+      ],
+      "species": "EELEKTRIK",
+      "species_token": "SPECIES_EELEKTRIK"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "GROWL",
+        "PSYBEAM",
+        "STOMP",
+        "CONFUSION"
+      ],
+      "species": "GIRAFARIG",
+      "species_token": "SPECIES_GIRAFARIG"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 225,
+  "trainer_id": 225,
+  "trainer_name": "Isaac",
+  "trainerclass": "TRAINERCLASS_POKE_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

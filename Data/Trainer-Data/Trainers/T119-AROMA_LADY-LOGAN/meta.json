@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "ABSORB",
+        "STUN_SPORE",
+        "SCRATCH",
+        "POISON_POWDER"
+      ],
+      "species": "PARAS",
+      "species_token": "SPECIES_PARAS"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "WORK_UP",
+        "BITE",
+        "TACKLE",
+        "LEER"
+      ],
+      "species": "LILLIPUP",
+      "species_token": "SPECIES_LILLIPUP"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "AROMATIC_MIST",
+        "SWEET_SCENT",
+        "SWEET_KISS",
+        "TACKLE"
+      ],
+      "species": "MILCERY",
+      "species_token": "SPECIES_MILCERY"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "LEER",
+        "RAZOR_LEAF",
+        "BITE",
+        "LEAFAGE"
+      ],
+      "species": "CAPSAKID",
+      "species_token": "SPECIES_CAPSAKID"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 119,
+  "trainer_id": 119,
+  "trainer_name": "Logan",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

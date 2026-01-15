@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "CRUNCH",
+        "BODY_SLAM",
+        "FOCUS_ENERGY",
+        "DRAGON_RUSH"
+      ],
+      "species": "ZWEILOUS",
+      "species_token": "SPECIES_ZWEILOUS"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "SWORDS_DANCE",
+        "HAMMER_ARM",
+        "BULLDOZE",
+        "TAKE_DOWN"
+      ],
+      "species": "DIGGERSBY",
+      "species_token": "SPECIES_DIGGERSBY"
+    },
+    {
+      "ability": "UNAWARE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "FUTURE_SIGHT",
+        "ASSURANCE",
+        "PSYCHIC",
+        "AIR_SLASH"
+      ],
+      "species": "SWOOBAT",
+      "species_token": "SPECIES_SWOOBAT"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "IRON_TAIL",
+        "ROCK_SLIDE"
+      ],
+      "species": "LAIRON",
+      "species_token": "SPECIES_LAIRON"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "HONE_CLAWS",
+        "METAL_CLAW",
+        "ICY_WIND",
+        "BEAT_UP"
+      ],
+      "species": "SNEASEL",
+      "species_token": "SPECIES_SNEASEL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 507,
+  "trainer_id": 507,
+  "trainer_name": "Theo",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

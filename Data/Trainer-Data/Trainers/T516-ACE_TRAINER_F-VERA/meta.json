@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "BUG_BUZZ",
+        "QUIVER_DANCE",
+        "AIR_SLASH",
+        "SLEEP_POWDER"
+      ],
+      "species": "BUTTERFREE",
+      "species_token": "SPECIES_BUTTERFREE"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "THUNDERBOLT",
+        "AGILITY",
+        "THUNDER",
+        "DISCHARGE"
+      ],
+      "species": "RAICHU",
+      "species_token": "SPECIES_RAICHU"
+    },
+    {
+      "ability": "ZERO_TO_HERO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "HYDRO_PUMP",
+        "FOCUS_ENERGY",
+        "ACROBATICS",
+        "AQUA_TAIL"
+      ],
+      "species": "PALAFIN",
+      "species_token": "SPECIES_PALAFIN"
+    },
+    {
+      "ability": "IMMUNITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "CRUSH_CLAW",
+        "X_SCISSOR",
+        "SWORDS_DANCE",
+        "SLASH"
+      ],
+      "species": "ZANGOOSE",
+      "species_token": "SPECIES_ZANGOOSE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 516,
+  "trainer_id": 516,
+  "trainer_name": "Vera",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "SEED_BOMB",
+        "BULLDOZE",
+        "BULK_UP",
+        "RAZOR_LEAF"
+      ],
+      "species": "SKIDDO",
+      "species_token": "SPECIES_SKIDDO"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "MAGICAL_LEAF",
+        "FAIRY_WIND",
+        "ANCIENT_POWER",
+        "POUND"
+      ],
+      "species": "TOGETIC",
+      "species_token": "SPECIES_TOGETIC"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "PLAY_ROUGH",
+        "GROWL",
+        "POWER_GEM",
+        "SWIFT"
+      ],
+      "species": "PERSIAN",
+      "species_token": "SPECIES_PERSIAN"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER_PUNCH",
+        "SHOCK_WAVE"
+      ],
+      "species": "ELEKID",
+      "species_token": "SPECIES_ELEKID"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "LAVA_PLUME",
+        "LOW_KICK",
+        "LEER",
+        "FIRE_PUNCH"
+      ],
+      "species": "MAGBY",
+      "species_token": "SPECIES_MAGBY"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 390,
+  "trainer_id": 390,
+  "trainer_name": "GalenA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

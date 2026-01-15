@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "SAND_ATTACK",
+        "TACKLE",
+        "HARDEN",
+        "TACKLE"
+      ],
+      "species": "ROGGENROLA",
+      "species_token": "SPECIES_ROGGENROLA"
+    },
+    {
+      "ability": "WATER_BUBBLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "WATER_GUN",
+        "WATER_SPORT",
+        "BUG_BITE",
+        "SPIDER_WEB"
+      ],
+      "species": "DEWPIDER",
+      "species_token": "SPECIES_DEWPIDER"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "FOCUS_ENERGY",
+        "BITE",
+        "TACKLE",
+        "QUICK_ATTACK"
+      ],
+      "species": "RATTATA",
+      "species_token": "SPECIES_RATTATA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 92,
+  "trainer_id": 92,
+  "trainer_name": "Gianna",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

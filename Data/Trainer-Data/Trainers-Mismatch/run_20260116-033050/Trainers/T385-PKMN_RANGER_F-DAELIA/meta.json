@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "WORK_UP",
+        "HEADBUTT",
+        "FIRE_FANG",
+        "EMBER"
+      ],
+      "species": "LITLEO",
+      "species_token": "SPECIES_LITLEO"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "ENERGY_BALL",
+        "ROLLOUT",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "VOLTORB",
+      "species_token": "SPECIES_VOLTORB"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "WATER_SPORT",
+        "SWIFT",
+        "WATER_GUN",
+        "AQUA_JET"
+      ],
+      "species": "BUIZEL",
+      "species_token": "SPECIES_BUIZEL"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "SLASH",
+        "FEINT_ATTACK",
+        "ASSURANCE",
+        "METAL_CLAW"
+      ],
+      "species": "PAWNIARD",
+      "species_token": "SPECIES_PAWNIARD"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "MOONBLAST",
+        "DRAINING_KISS",
+        "ECHOED_VOICE",
+        "CALM_MIND"
+      ],
+      "species": "SPRITZEE",
+      "species_token": "SPECIES_SPRITZEE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 385,
+  "trainer_id": 385,
+  "trainer_name": "Daelia",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

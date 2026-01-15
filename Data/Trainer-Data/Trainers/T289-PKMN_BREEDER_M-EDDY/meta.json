@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "COVET",
+        "HEADBUTT",
+        "TACKLE",
+        "REST"
+      ],
+      "species": "ZIGZAGOON",
+      "species_token": "SPECIES_ZIGZAGOON"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "MIRROR_SHOT",
+        "SPARK",
+        "MAGNET_BOMB",
+        "LIGHT_SCREEN"
+      ],
+      "species": "MAGNEMITE",
+      "species_token": "SPECIES_MAGNEMITE"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "FURY_CUTTER",
+        "RAPID_SPIN",
+        "SLASH",
+        "BULLDOZE"
+      ],
+      "species": "SANDSHREW",
+      "species_token": "SPECIES_SANDSHREW"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 289,
+  "trainer_id": 289,
+  "trainer_name": "Eddy",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

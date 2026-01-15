@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "FOCUS_PUNCH",
+        "DYNAMIC_PUNCH",
+        "SHADOW_BALL"
+      ],
+      "species": "GOLURK",
+      "species_token": "SPECIES_GOLURK"
+    },
+    {
+      "ability": "WANDERING_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "SHADOW_BALL",
+        "CURSE",
+        "SHADOW_CLAW"
+      ],
+      "species": "RUNERIGUS",
+      "species_token": "SPECIES_RUNERIGUS"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTH_POWER",
+        "ROCK_TOMB",
+        "EXTRASENSORY",
+        "COSMIC_POWER"
+      ],
+      "species": "CLAYDOL",
+      "species_token": "SPECIES_CLAYDOL"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "SCARY_FACE",
+        "ROCK_WRECKER"
+      ],
+      "species": "RHYPERIOR",
+      "species_token": "SPECIES_RHYPERIOR"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "STRENGTH",
+        "IRON_DEFENSE",
+        "SUPERPOWER"
+      ],
+      "species": "MUDSDALE",
+      "species_token": "SPECIES_MUDSDALE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 673,
+  "trainer_id": 673,
+  "trainer_name": "Roark",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

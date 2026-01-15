@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TECHNICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "LAST_RESORT",
+        "AGILITY",
+        "SWIFT",
+        "SCRATCH"
+      ],
+      "species": "AMBIPOM",
+      "species_token": "SPECIES_AMBIPOM"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "BUG_BUZZ",
+        "AGILITY",
+        "ABSORB",
+        "DISCHARGE"
+      ],
+      "species": "GALVANTULA",
+      "species_token": "SPECIES_GALVANTULA"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "LAST_RESORT",
+        "CALM_MIND",
+        "PSYCHIC",
+        "PSYBEAM"
+      ],
+      "species": "INDEEDEE",
+      "species_token": "SPECIES_INDEEDEE"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "BELCH",
+        "THRASH",
+        "AQUA_TAIL"
+      ],
+      "species": "WHISCASH",
+      "species_token": "SPECIES_WHISCASH"
+    },
+    {
+      "ability": "WHITE_SMOKE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "HEAT_WAVE",
+        "BODY_SLAM",
+        "INFERNO",
+        "IRON_DEFENSE"
+      ],
+      "species": "TORKOAL",
+      "species_token": "SPECIES_TORKOAL"
+    },
+    {
+      "ability": "POWER_SPOT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "ROCK_SLIDE",
+        "BODY_SLAM",
+        "ROCK_POLISH",
+        "GRAVITY"
+      ],
+      "species": "STONJOURNER",
+      "species_token": "SPECIES_STONJOURNER"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 753,
+  "trainer_id": 753,
+  "trainer_name": "Quen",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

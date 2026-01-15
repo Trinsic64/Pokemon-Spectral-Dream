@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "COMMANDER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "MUDDY_WATER",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "WATER_PULSE"
+      ],
+      "species": "TATSUGIRI",
+      "species_token": "SPECIES_TATSUGIRI"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "ENERGY_BALL",
+        "FAIRY_WIND",
+        "PLAY_ROUGH",
+        "ROUND"
+      ],
+      "species": "SLURPUFF",
+      "species_token": "SPECIES_SLURPUFF"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BRICK_BREAK",
+        "BULK_UP",
+        "OCTAZOOKA",
+        "TAUNT"
+      ],
+      "species": "GRAPPLOCT",
+      "species_token": "SPECIES_GRAPPLOCT"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "POISON_JAB",
+        "SLASH",
+        "SWORDS_DANCE",
+        "BRAVE_BIRD"
+      ],
+      "species": "FARFETCHD",
+      "species_token": "SPECIES_FARFETCHD"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "PSYCHIC",
+        "BODY_SLAM",
+        "WAKE_UP_SLAP",
+        "ICE_PUNCH"
+      ],
+      "species": "JYNX",
+      "species_token": "SPECIES_JYNX"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "PETAL_DANCE",
+        "QUIVER_DANCE",
+        "ENERGY_BALL",
+        "SUNNY_DAY"
+      ],
+      "species": "LILLIGANT",
+      "species_token": "SPECIES_LILLIGANT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 594,
+  "trainer_id": 594,
+  "trainer_name": "SorrelA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

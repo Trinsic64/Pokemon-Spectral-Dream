@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WONDER_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "SHADOW_CLAW",
+        "CONFUSE_RAY",
+        "METAL_CLAW",
+        "SHADOW_SNEAK"
+      ],
+      "species": "SHEDINJA",
+      "species_token": "SPECIES_SHEDINJA"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "TRANSFORM",
+        "TRANSFORM",
+        "TRANSFORM",
+        "TRANSFORM"
+      ],
+      "species": "DITTO",
+      "species_token": "SPECIES_DITTO"
+    },
+    {
+      "ability": "TRUANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "COVET",
+        "CHIP_AWAY",
+        "FEINT_ATTACK",
+        "AMNESIA"
+      ],
+      "species": "SLAKOTH",
+      "species_token": "SPECIES_SLAKOTH"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "LAST_RESORT",
+        "ASTONISH",
+        "GROWL",
+        "CONFUSION"
+      ],
+      "species": "CHINGLING",
+      "species_token": "SPECIES_CHINGLING"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "SEED_BOMB",
+        "ACROBATICS",
+        "LEECH_SEED",
+        "BITE"
+      ],
+      "species": "PANSAGE",
+      "species_token": "SPECIES_PANSAGE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 301,
+  "trainer_id": 301,
+  "trainer_name": "Benjamin",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

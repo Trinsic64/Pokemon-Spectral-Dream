@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "PSYCHIC",
+        "EXTREME_SPEED",
+        "KNOCK_OFF",
+        "AGILITY"
+      ],
+      "species": "DEOXYS_SPEED",
+      "species_token": "SPECIES_DEOXYS_SPEED"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "FLAMETHROWER",
+        "PLAY_ROUGH",
+        "AGILITY",
+        "REVERSAL"
+      ],
+      "species": "ARCANINE",
+      "species_token": "SPECIES_ARCANINE"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "ROAR_OF_TIME",
+        "EARTH_POWER",
+        "SCARY_FACE",
+        "IRON_TAIL"
+      ],
+      "species": "DIALGA",
+      "species_token": "SPECIES_DIALGA"
+    },
+    {
+      "ability": "AS_ONE_SPECTRIER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 3,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "ASTRAL_BARRAGE",
+        "THRASH",
+        "AGILITY",
+        "PSYCHIC"
+      ],
+      "species": "CALYREX",
+      "species_token": "SPECIES_CALYREX"
+    },
+    {
+      "ability": "MAGICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "HYPERSPACE_FURY",
+        "SHADOW_BALL",
+        "NASTY_PLOT",
+        "PSYCHIC"
+      ],
+      "species": "HOOPA",
+      "species_token": "SPECIES_HOOPA"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "DRAGON_CLAW",
+        "SAND_ATTACK",
+        "DRAGON_RUSH",
+        "DIG"
+      ],
+      "species": "GARCHOMP",
+      "species_token": "SPECIES_GARCHOMP"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 888,
+  "trainer_id": 888,
+  "trainer_name": "Ylva",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

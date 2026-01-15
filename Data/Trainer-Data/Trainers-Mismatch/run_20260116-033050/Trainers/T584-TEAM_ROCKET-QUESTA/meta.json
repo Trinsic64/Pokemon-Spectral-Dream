@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DAZZLING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SYNCHRONOISE",
+        "CRUNCH",
+        "PSYCHIC_FANGS",
+        "AQUA_TAIL"
+      ],
+      "species": "BRUXISH",
+      "species_token": "SPECIES_BRUXISH"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "EARTHQUAKE",
+        "STONE_EDGE",
+        "ROCK_POLISH",
+        "STEAMROLLER"
+      ],
+      "species": "GOLEM",
+      "species_token": "SPECIES_GOLEM"
+    },
+    {
+      "ability": "POISON_TOUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "GUNK_SHOT",
+        "BELCH",
+        "CRUNCH",
+        "ACID_ARMOR"
+      ],
+      "species": "MUK",
+      "species_token": "SPECIES_MUK"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SHADOW_BALL",
+        "SPITE",
+        "HEX",
+        "PSYBEAM"
+      ],
+      "species": "MISDREAVUS",
+      "species_token": "SPECIES_MISDREAVUS"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "IRON_HEAD",
+        "THRASH",
+        "IRON_DEFENSE",
+        "SLASH"
+      ],
+      "species": "PERRSERKER",
+      "species_token": "SPECIES_PERRSERKER"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "UPROAR",
+        "DREAM_EATER",
+        "MOONBLAST",
+        "SKY_ATTACK"
+      ],
+      "species": "NOCTOWL",
+      "species_token": "SPECIES_NOCTOWL"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 584,
+  "trainer_id": 584,
+  "trainer_name": "Questa",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

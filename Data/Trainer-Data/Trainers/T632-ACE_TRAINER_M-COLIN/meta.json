@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "LIQUIDATION",
+        "CRUNCH",
+        "ROCK_POLISH",
+        "ROCK_TOMB"
+      ],
+      "species": "DREDNAW",
+      "species_token": "SPECIES_DREDNAW"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "X_SCISSOR",
+        "ROCK_POLISH",
+        "ROCK_SLIDE",
+        "SAND_ATTACK"
+      ],
+      "species": "CRUSTLE",
+      "species_token": "SPECIES_CRUSTLE"
+    },
+    {
+      "ability": "ANGER_SHELL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "ROCK_SLIDE",
+        "HIGH_HORSEPOWER",
+        "SWORDS_DANCE",
+        "X_SCISSOR"
+      ],
+      "species": "KLAWF",
+      "species_token": "SPECIES_KLAWF"
+    },
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "SMACK_DOWN",
+        "ROCK_POLISH"
+      ],
+      "species": "COALOSSAL",
+      "species_token": "SPECIES_COALOSSAL"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "THUNDERBOLT",
+        "MUDDY_WATER",
+        "DISCHARGE",
+        "MUD_BOMB"
+      ],
+      "species": "STUNFISK",
+      "species_token": "SPECIES_STUNFISK"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 632,
+  "trainer_id": 632,
+  "trainer_name": "Colin",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

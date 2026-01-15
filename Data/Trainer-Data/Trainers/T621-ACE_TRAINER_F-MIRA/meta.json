@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "METEOR_MASH",
+        "MIRACLE_EYE",
+        "HAMMER_ARM",
+        "PSYCHIC"
+      ],
+      "species": "METAGROSS",
+      "species_token": "SPECIES_METAGROSS"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LAST_RESORT",
+        "COVET",
+        "BITE"
+      ],
+      "species": "ESPEON",
+      "species_token": "SPECIES_ESPEON"
+    },
+    {
+      "ability": "OVERCOAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "FUTURE_SIGHT",
+        "REFLECT",
+        "HAMMER_ARM",
+        "PSYCHIC"
+      ],
+      "species": "REUNICLUS",
+      "species_token": "SPECIES_REUNICLUS"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "SYNCHRONOISE",
+        "CALM_MIND",
+        "PSYCHIC",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "BEHEEYEM",
+      "species_token": "SPECIES_BEHEEYEM"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "FUTURE_SIGHT",
+        "CALM_MIND",
+        "PSYCHIC",
+        "PSYSHOCK"
+      ],
+      "species": "ALAKAZAM",
+      "species_token": "SPECIES_ALAKAZAM"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 621,
+  "trainer_id": 621,
+  "trainer_name": "Mira",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

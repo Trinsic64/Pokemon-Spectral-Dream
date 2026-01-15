@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "REFRIGERATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "FREEZE_DRY",
+        "MIST",
+        "AURORA_BEAM",
+        "ANCIENT_POWER"
+      ],
+      "species": "AURORUS",
+      "species_token": "SPECIES_AURORUS"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "DRAGON_BREATH",
+        "STOMP",
+        "BRUTAL_SWING",
+        "WATER_GUN"
+      ],
+      "species": "DRACOVISH",
+      "species_token": "SPECIES_DRACOVISH"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "HEADBUTT",
+        "CHIP_AWAY",
+        "ANCIENT_POWER"
+      ],
+      "species": "RAMPARDOS",
+      "species_token": "SPECIES_RAMPARDOS"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 455,
+  "trainer_id": 455,
+  "trainer_name": "Joseph",
+  "trainerclass": "TRAINERCLASS_RUIN_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "ROCK_POLISH",
+        "STEAMROLLER",
+        "ROCK_THROW"
+      ],
+      "species": "GOLEM",
+      "species_token": "SPECIES_GOLEM"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "STONE_EDGE",
+        "SCARY_FACE",
+        "ROCK_WRECKER"
+      ],
+      "species": "RHYPERIOR",
+      "species_token": "SPECIES_RHYPERIOR"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_POLISH",
+        "DIG",
+        "IRON_TAIL"
+      ],
+      "species": "STEELIX",
+      "species_token": "SPECIES_STEELIX"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SKY_UPPERCUT",
+        "FIRE_FANG",
+        "POISON_JAB",
+        "ACROBATICS"
+      ],
+      "species": "GLISCOR",
+      "species_token": "SPECIES_GLISCOR"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_DEFENSE",
+        "MUD_SLAP",
+        "ROCK_SLIDE"
+      ],
+      "species": "GIGALITH",
+      "species_token": "SPECIES_GIGALITH"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 598,
+  "trainer_id": 598,
+  "trainer_name": "Brody",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "BUG_BUZZ",
+        "PSYCHIC",
+        "PSYBEAM",
+        "AGILITY"
+      ],
+      "species": "ORBEETLE",
+      "species_token": "SPECIES_ORBEETLE"
+    },
+    {
+      "ability": "RIPEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "GRAV_APPLE",
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "DRAGON_RUSH"
+      ],
+      "species": "FLAPPLE",
+      "species_token": "SPECIES_FLAPPLE"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LIQUIDATION",
+        "CRUNCH",
+        "ROCK_POLISH",
+        "ROCK_TOMB"
+      ],
+      "species": "DREDNAW",
+      "species_token": "SPECIES_DREDNAW"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FOUL_PLAY",
+        "PLAY_ROUGH",
+        "NASTY_PLOT",
+        "DARK_PULSE"
+      ],
+      "species": "MORGREM",
+      "species_token": "SPECIES_MORGREM"
+    },
+    {
+      "ability": "RATTLED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "BELCH",
+        "ACID",
+        "TEARFUL_LOOK",
+        "NUZZLE"
+      ],
+      "species": "TOXEL",
+      "species_token": "SPECIES_TOXEL"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PYRO_BALL",
+        "AGILITY",
+        "DOUBLE_KICK",
+        "HEADBUTT"
+      ],
+      "species": "CINDERACE",
+      "species_token": "SPECIES_CINDERACE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 544,
+  "trainer_id": 544,
+  "trainer_name": "Victor",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

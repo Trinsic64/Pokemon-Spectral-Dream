@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DISGUISE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "PLAY_ROUGH",
+        "DOUBLE_TEAM",
+        "SHADOW_CLAW",
+        "SLASH"
+      ],
+      "species": "MIMIKYU",
+      "species_token": "SPECIES_MIMIKYU"
+    },
+    {
+      "ability": "AFTERMATH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SHADOW_BALL",
+        "PHANTOM_FORCE",
+        "HEX",
+        "GUST"
+      ],
+      "species": "DRIFBLIM",
+      "species_token": "SPECIES_DRIFBLIM"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SHADOW_BALL",
+        "CRUNCH",
+        "WAKE_UP_SLAP",
+        "BLIZZARD"
+      ],
+      "species": "FROSLASS",
+      "species_token": "SPECIES_FROSLASS"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SEED_BOMB",
+        "MOONBLAST",
+        "CONFUSE_RAY",
+        "PHANTOM_FORCE"
+      ],
+      "species": "GOURGEIST",
+      "species_token": "SPECIES_GOURGEIST"
+    },
+    {
+      "ability": "STEELWORKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "POWER_WHIP",
+        "ANCHOR_SHOT",
+        "RAPID_SPIN",
+        "PHANTOM_FORCE"
+      ],
+      "species": "DHELMISE",
+      "species_token": "SPECIES_DHELMISE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 720,
+  "trainer_id": 720,
+  "trainer_name": "Corin",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

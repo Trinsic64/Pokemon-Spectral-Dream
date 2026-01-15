@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "DIG",
+        "IRON_DEFENSE",
+        "STOMP",
+        "BULLDOZE"
+      ],
+      "species": "CUFANT",
+      "species_token": "SPECIES_CUFANT"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "CRUNCH",
+        "BITE",
+        "ASSURANCE",
+        "DIG"
+      ],
+      "species": "KROKOROK",
+      "species_token": "SPECIES_KROKOROK"
+    },
+    {
+      "ability": "SNOW_WARNING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "RAZOR_LEAF",
+        "SWAGGER",
+        "ICY_WIND",
+        "POWDER_SNOW"
+      ],
+      "species": "SNOVER",
+      "species_token": "SPECIES_SNOVER"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "BUBBLE_BEAM",
+        "ACID_ARMOR",
+        "WATER_PULSE",
+        "ACID"
+      ],
+      "species": "TENTACOOL",
+      "species_token": "SPECIES_TENTACOOL"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 365,
+  "trainer_id": 365,
+  "trainer_name": "IskraA",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

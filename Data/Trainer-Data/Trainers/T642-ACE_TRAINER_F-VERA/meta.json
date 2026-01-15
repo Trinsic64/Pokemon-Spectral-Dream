@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "ZEN_HEADBUTT",
+        "AMNESIA",
+        "AQUA_TAIL"
+      ],
+      "species": "GOLDUCK",
+      "species_token": "SPECIES_GOLDUCK"
+    },
+    {
+      "ability": "MYCELIUM_MIGHT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "EARTH_POWER",
+        "SPORE",
+        "MUD_SHOT",
+        "GIGA_DRAIN"
+      ],
+      "species": "TOEDSCRUEL",
+      "species_token": "SPECIES_TOEDSCRUEL"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "EARTHQUAKE",
+        "BELCH",
+        "THRASH",
+        "AQUA_TAIL"
+      ],
+      "species": "WHISCASH",
+      "species_token": "SPECIES_WHISCASH"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "WATER_SPORT",
+        "WAKE_UP_SLAP",
+        "BRINE"
+      ],
+      "species": "ALOMOMOLA",
+      "species_token": "SPECIES_ALOMOMOLA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 642,
+  "trainer_id": 642,
+  "trainer_name": "Vera",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

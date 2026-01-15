@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "ROCK_POLISH",
+        "BULLDOZE",
+        "ROCK_THROW"
+      ],
+      "species": "GRAVELER",
+      "species_token": "SPECIES_GRAVELER"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "ROCK_POLISH",
+        "STEAMROLLER",
+        "ROCK_THROW"
+      ],
+      "species": "GOLEM",
+      "species_token": "SPECIES_GOLEM"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTH_POWER",
+        "ROCK_TOMB",
+        "EXTRASENSORY",
+        "COSMIC_POWER"
+      ],
+      "species": "CLAYDOL",
+      "species_token": "SPECIES_CLAYDOL"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_POLISH",
+        "DIG",
+        "IRON_TAIL"
+      ],
+      "species": "STEELIX",
+      "species_token": "SPECIES_STEELIX"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "STONE_EDGE",
+        "EARTH_POWER",
+        "SANDSTORM",
+        "ZAP_CANNON"
+      ],
+      "species": "NOSEPASS",
+      "species_token": "SPECIES_NOSEPASS"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "X_SCISSOR",
+        "ROCK_POLISH",
+        "ROCK_SLIDE",
+        "SAND_ATTACK"
+      ],
+      "species": "CRUSTLE",
+      "species_token": "SPECIES_CRUSTLE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 505,
+  "trainer_id": 505,
+  "trainer_name": "Lance",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

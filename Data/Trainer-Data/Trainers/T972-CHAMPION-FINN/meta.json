@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "AURA_BREAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "OUTRAGE",
+        "CORE_ENFORCER",
+        "DRAGON_PULSE",
+        "EARTHQUAKE"
+      ],
+      "species": "ZYGARDE",
+      "species_token": "SPECIES_ZYGARDE"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "ETERNABEAM",
+        "DYNAMAX_CANNON",
+        "FLAMETHROWER",
+        "CROSS_POISON"
+      ],
+      "species": "ETERNATUS",
+      "species_token": "SPECIES_ETERNATUS"
+    },
+    {
+      "ability": "AIR_LOCK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "DRAGON_ASCENT",
+        "OUTRAGE",
+        "DRAGON_DANCE",
+        "DRAGON_PULSE"
+      ],
+      "species": "RAYQUAZA",
+      "species_token": "SPECIES_RAYQUAZA"
+    },
+    {
+      "ability": "TERA_SHIFT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "TERA_STARSTORM",
+        "EARTH_POWER",
+        "TRI_ATTACK",
+        "ROCK_POLISH"
+      ],
+      "species": "TERAPAGOS",
+      "species_token": "SPECIES_TERAPAGOS"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "AURA_SPHERE",
+        "AMNESIA",
+        "ANCIENT_POWER",
+        "NASTY_PLOT"
+      ],
+      "species": "MEW",
+      "species_token": "SPECIES_MEW"
+    },
+    {
+      "ability": "MULTITYPE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "HYPER_VOICE",
+        "FUTURE_SIGHT",
+        "COSMIC_POWER",
+        "EARTH_POWER"
+      ],
+      "species": "ARCEUS",
+      "species_token": "SPECIES_ARCEUS"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 972,
+  "trainer_id": 972,
+  "trainer_name": "FINN",
+  "trainerclass": "TRAINERCLASS_CHAMPION",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "MEGAHORN",
+        "THRASH",
+        "THROAT_CHOP",
+        "CLOSE_COMBAT"
+      ],
+      "species": "HERACROSS",
+      "species_token": "SPECIES_HERACROSS"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "FUTURE_SIGHT",
+        "DREAM_EATER",
+        "CALM_MIND",
+        "PSYCHIC"
+      ],
+      "species": "GARDEVOIR",
+      "species_token": "SPECIES_GARDEVOIR"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "OUTRAGE",
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "SLUDGE_BOMB"
+      ],
+      "species": "DRAGALGE",
+      "species_token": "SPECIES_DRAGALGE"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HYDRO_PUMP",
+        "ICE_BEAM",
+        "MIST",
+        "BRINE"
+      ],
+      "species": "LAPRAS",
+      "species_token": "SPECIES_LAPRAS"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "FLASH_CANNON",
+        "TRI_ATTACK",
+        "BARRIER",
+        "ZAP_CANNON"
+      ],
+      "species": "MAGNEZONE",
+      "species_token": "SPECIES_MAGNEZONE"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "STONE_EDGE",
+        "THRASH",
+        "EARTHQUAKE",
+        "CRUNCH"
+      ],
+      "species": "TYRANITAR",
+      "species_token": "SPECIES_TYRANITAR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 788,
+  "trainer_id": 788,
+  "trainer_name": "Otto",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

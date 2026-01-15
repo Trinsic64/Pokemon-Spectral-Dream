@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "HYPER_VOICE",
+        "PLAY_ROUGH",
+        "BODY_SLAM",
+        "REST"
+      ],
+      "species": "WIGGLYTUFF",
+      "species_token": "SPECIES_WIGGLYTUFF"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "PSYSHOCK",
+        "SUCKER_PUNCH",
+        "COVET",
+        "PSYBEAM"
+      ],
+      "species": "MEOWSTIC",
+      "species_token": "SPECIES_MEOWSTIC"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "FIRST_IMPRESSION",
+        "KNOCK_OFF",
+        "BRUTAL_SWING",
+        "ROCK_SMASH"
+      ],
+      "species": "SIRFETCHD",
+      "species_token": "SPECIES_SIRFETCHD"
+    },
+    {
+      "ability": "TECHNICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "AGILITY",
+        "SWIFT",
+        "SCRATCH",
+        "DOUBLE_HIT"
+      ],
+      "species": "AMBIPOM",
+      "species_token": "SPECIES_AMBIPOM"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "AQUA_TAIL",
+        "PLAY_ROUGH",
+        "BOUNCE",
+        "WATER_SPORT"
+      ],
+      "species": "AZUMARILL",
+      "species_token": "SPECIES_AZUMARILL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 387,
+  "trainer_id": 387,
+  "trainer_name": "FioraA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

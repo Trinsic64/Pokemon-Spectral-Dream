@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "FAIRY_WIND",
+        "MAGICAL_LEAF",
+        "RAZOR_LEAF",
+        "VINE_WHIP"
+      ],
+      "species": "FLOETTE",
+      "species_token": "SPECIES_FLOETTE"
+    },
+    {
+      "ability": "DRY_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "THUNDERBOLT",
+        "THUNDER",
+        "DISCHARGE",
+        "RAZOR_WIND"
+      ],
+      "species": "HELIOLISK",
+      "species_token": "SPECIES_HELIOLISK"
+    },
+    {
+      "ability": "CONTRARY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "FOUL_PLAY",
+        "PLUCK",
+        "SWAGGER",
+        "PSYBEAM"
+      ],
+      "species": "INKAY",
+      "species_token": "SPECIES_INKAY"
+    },
+    {
+      "ability": "MEGA_LAUNCHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "HONE_CLAWS",
+        "BUBBLE_BEAM",
+        "VICE_GRIP",
+        "SMACK_DOWN"
+      ],
+      "species": "CLAUNCHER",
+      "species_token": "SPECIES_CLAUNCHER"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "ROLLOUT",
+        "LEECH_SEED",
+        "NEEDLE_ARM",
+        "BITE"
+      ],
+      "species": "QUILLADIN",
+      "species_token": "SPECIES_QUILLADIN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 316,
+  "trainer_id": 316,
+  "trainer_name": "Shauna",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

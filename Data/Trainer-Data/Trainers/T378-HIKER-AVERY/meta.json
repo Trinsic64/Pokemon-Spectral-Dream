@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "HIGH_HORSEPOWER",
+        "STRENGTH",
+        "ROCK_SMASH",
+        "IRON_DEFENSE"
+      ],
+      "species": "MUDBRAY",
+      "species_token": "SPECIES_MUDBRAY"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "POISON_JAB",
+        "SLASH",
+        "NIGHT_SLASH",
+        "BRAVE_BIRD"
+      ],
+      "species": "FARFETCHD",
+      "species_token": "SPECIES_FARFETCHD"
+    },
+    {
+      "ability": "ICE_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "UPROAR",
+        "MIRROR_SHOT",
+        "ACID_ARMOR",
+        "ICY_WIND"
+      ],
+      "species": "VANILLISH",
+      "species_token": "SPECIES_VANILLISH"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 378,
+  "trainer_id": 378,
+  "trainer_name": "Avery",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

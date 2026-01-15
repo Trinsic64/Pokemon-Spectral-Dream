@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "PETAL_DANCE",
+        "QUIVER_DANCE",
+        "ENERGY_BALL",
+        "SUNNY_DAY"
+      ],
+      "species": "LILLIGANT",
+      "species_token": "SPECIES_LILLIGANT"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FUTURE_SIGHT",
+        "HEAL_BLOCK",
+        "FEINT_ATTACK",
+        "PSYCHIC"
+      ],
+      "species": "GOTHITELLE",
+      "species_token": "SPECIES_GOTHITELLE"
+    },
+    {
+      "ability": "SOLAR_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FLAMETHROWER",
+        "NASTY_PLOT",
+        "INFERNO",
+        "FOUL_PLAY"
+      ],
+      "species": "HOUNDOOM",
+      "species_token": "SPECIES_HOUNDOOM"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 625,
+  "trainer_id": 625,
+  "trainer_name": "Rook",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

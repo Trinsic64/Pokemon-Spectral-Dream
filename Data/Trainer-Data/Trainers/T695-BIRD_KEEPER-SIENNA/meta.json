@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "HYDRO_PUMP",
+        "SIGNAL_BEAM",
+        "BUBBLE_BEAM",
+        "AIR_SLASH"
+      ],
+      "species": "MANTINE",
+      "species_token": "SPECIES_MANTINE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DRILL_PECK",
+        "IRON_DEFENSE",
+        "STEEL_WING",
+        "SAND_ATTACK"
+      ],
+      "species": "SKARMORY",
+      "species_token": "SPECIES_SKARMORY"
+    },
+    {
+      "ability": "WIND_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "VOLT_SWITCH",
+        "PLUCK"
+      ],
+      "species": "KILOWATTREL",
+      "species_token": "SPECIES_KILOWATTREL"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "UPROAR",
+        "JUMP_KICK",
+        "ACUPRESSURE",
+        "DRILL_PECK"
+      ],
+      "species": "DODRIO",
+      "species_token": "SPECIES_DODRIO"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BUG_BUZZ",
+        "UPROAR",
+        "ANCIENT_POWER",
+        "AIR_SLASH"
+      ],
+      "species": "YANMEGA",
+      "species_token": "SPECIES_YANMEGA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 695,
+  "trainer_id": 695,
+  "trainer_name": "Sienna",
+  "trainerclass": "TRAINERCLASS_BIRD_KEEPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

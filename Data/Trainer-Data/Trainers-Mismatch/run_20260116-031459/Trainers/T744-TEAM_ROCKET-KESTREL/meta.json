@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "HYDRO_PUMP",
+        "AQUA_TAIL",
+        "DIVE",
+        "HEAD_SMASH"
+      ],
+      "species": "RELICANTH",
+      "species_token": "SPECIES_RELICANTH"
+    },
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "ROCK_SLIDE",
+        "KNOCK_OFF",
+        "WING_ATTACK",
+        "HONE_CLAWS"
+      ],
+      "species": "BOMBIRDIER",
+      "species_token": "SPECIES_BOMBIRDIER"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "AIR_SLASH",
+        "LEECH_LIFE",
+        "BITE",
+        "VENOSHOCK"
+      ],
+      "species": "GOLBAT",
+      "species_token": "SPECIES_GOLBAT"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "ICICLE_CRASH",
+        "BLIZZARD",
+        "IRON_HEAD",
+        "IRON_DEFENSE"
+      ],
+      "species": "SANDSLASH",
+      "species_token": "SPECIES_SANDSLASH"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "OUTRAGE",
+        "CHARM",
+        "FIRE_FANG",
+        "PLAY_ROUGH"
+      ],
+      "species": "GRANBULL",
+      "species_token": "SPECIES_GRANBULL"
+    },
+    {
+      "ability": "WHITE_SMOKE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "HEAT_WAVE",
+        "BODY_SLAM",
+        "INFERNO",
+        "IRON_DEFENSE"
+      ],
+      "species": "TORKOAL",
+      "species_token": "SPECIES_TORKOAL"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 744,
+  "trainer_id": 744,
+  "trainer_name": "Kestrel",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

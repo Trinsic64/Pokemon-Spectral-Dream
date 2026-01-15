@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "STONE_EDGE",
+        "COPYCAT",
+        "WOOD_HAMMER",
+        "ROCK_SLIDE"
+      ],
+      "species": "SUDOWOODO",
+      "species_token": "SPECIES_SUDOWOODO"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "STONE_EDGE",
+        "SCARY_FACE",
+        "HAMMER_ARM"
+      ],
+      "species": "RHYDON",
+      "species_token": "SPECIES_RHYDON"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_DEFENSE",
+        "MUD_SLAP",
+        "ROCK_SLIDE"
+      ],
+      "species": "GIGALITH",
+      "species_token": "SPECIES_GIGALITH"
+    },
+    {
+      "ability": "SAND_SPIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "COIL",
+        "SLAM",
+        "HEADBUTT",
+        "BULLDOZE"
+      ],
+      "species": "SANDACONDA",
+      "species_token": "SPECIES_SANDACONDA"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "KNOCK_OFF",
+        "FIRE_FANG",
+        "SLAM"
+      ],
+      "species": "DONPHAN",
+      "species_token": "SPECIES_DONPHAN"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "ROCK_POLISH",
+        "STEAMROLLER",
+        "ROCK_THROW"
+      ],
+      "species": "GOLEM",
+      "species_token": "SPECIES_GOLEM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 511,
+  "trainer_id": 511,
+  "trainer_name": "Corin",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

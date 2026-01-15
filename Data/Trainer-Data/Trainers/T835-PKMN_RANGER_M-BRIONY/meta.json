@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PURIFYING_SALT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "STONE_EDGE",
+        "EARTHQUAKE",
+        "ROCK_POLISH",
+        "HAMMER_ARM"
+      ],
+      "species": "GARGANACL",
+      "species_token": "SPECIES_GARGANACL"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "CRUNCH",
+        "OUTRAGE",
+        "HONE_CLAWS",
+        "JAW_LOCK"
+      ],
+      "species": "MABOSSTIFF",
+      "species_token": "SPECIES_MABOSSTIFF"
+    },
+    {
+      "ability": "PUNK_ROCK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "BELCH",
+        "BOOMBURST",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "TOXTRICITY",
+      "species_token": "SPECIES_TOXTRICITY"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "DRAGON_CLAW",
+        "DRAGON_PULSE",
+        "DRAGON_RUSH",
+        "DOUBLE_EDGE"
+      ],
+      "species": "CYCLIZAR",
+      "species_token": "SPECIES_CYCLIZAR"
+    },
+    {
+      "ability": "UNBURDEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "GUNK_SHOT",
+        "U_TURN",
+        "POISON_JAB",
+        "SLASH"
+      ],
+      "species": "GRAFAIAI",
+      "species_token": "SPECIES_GRAFAIAI"
+    },
+    {
+      "ability": "TECHNICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "X_SCISSOR",
+        "AIR_SLASH",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "SCIZOR",
+      "species_token": "SPECIES_SCIZOR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 835,
+  "trainer_id": 835,
+  "trainer_name": "Briony",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

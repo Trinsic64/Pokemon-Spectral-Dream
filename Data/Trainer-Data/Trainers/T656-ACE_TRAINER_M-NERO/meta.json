@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "X_SCISSOR",
+        "AIR_SLASH",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "SCIZOR",
+      "species_token": "SPECIES_SCIZOR"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "BUG_BUZZ",
+        "UPROAR",
+        "ANCIENT_POWER",
+        "AIR_SLASH"
+      ],
+      "species": "YANMEGA",
+      "species_token": "SPECIES_YANMEGA"
+    },
+    {
+      "ability": "HYDRATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "BUG_BUZZ",
+        "BODY_SLAM",
+        "GIGA_DRAIN",
+        "ACID_ARMOR"
+      ],
+      "species": "ACCELGOR",
+      "species_token": "SPECIES_ACCELGOR"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "CRUNCH",
+        "X_SCISSOR",
+        "ICE_FANG",
+        "CROSS_POISON"
+      ],
+      "species": "DRAPION",
+      "species_token": "SPECIES_DRAPION"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "DISCHARGE",
+        "AGILITY",
+        "ABSORB",
+        "SIGNAL_BEAM"
+      ],
+      "species": "GALVANTULA",
+      "species_token": "SPECIES_GALVANTULA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 656,
+  "trainer_id": 656,
+  "trainer_name": "Nero",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

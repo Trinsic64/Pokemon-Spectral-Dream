@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "HYDRO_PUMP",
+        "PLAY_ROUGH",
+        "WATER_SPORT",
+        "BOUNCE"
+      ],
+      "species": "AZUMARILL",
+      "species_token": "SPECIES_AZUMARILL"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "DRAGON_PULSE",
+        "CHARGE",
+        "ZAP_CANNON",
+        "COTTON_SPORE"
+      ],
+      "species": "AMPHAROS",
+      "species_token": "SPECIES_AMPHAROS"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FLAMETHROWER",
+        "SUNNY_DAY",
+        "LOW_KICK",
+        "LAVA_PLUME"
+      ],
+      "species": "MAGMAR",
+      "species_token": "SPECIES_MAGMAR"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LAST_RESORT",
+        "FAIRY_WIND",
+        "MAGICAL_LEAF",
+        "ANCIENT_POWER"
+      ],
+      "species": "TOGETIC",
+      "species_token": "SPECIES_TOGETIC"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "CALM_MIND",
+        "STOMP",
+        "TACKLE"
+      ],
+      "species": "STANTLER",
+      "species_token": "SPECIES_STANTLER"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PETAL_DANCE",
+        "BODY_SLAM",
+        "PETAL_BLIZZARD",
+        "REFLECT"
+      ],
+      "species": "MEGANIUM",
+      "species_token": "SPECIES_MEGANIUM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 528,
+  "trainer_id": 528,
+  "trainer_name": "Lyra",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

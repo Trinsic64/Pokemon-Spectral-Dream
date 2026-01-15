@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ICE_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "ICE_BEAM",
+        "UPROAR",
+        "MIRROR_SHOT",
+        "ACID_ARMOR"
+      ],
+      "species": "VANILLISH",
+      "species_token": "SPECIES_VANILLISH"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "ICE_FANG",
+        "MUD_SPORT",
+        "MUD_BOMB",
+        "ICY_WIND"
+      ],
+      "species": "PILOSWINE",
+      "species_token": "SPECIES_PILOSWINE"
+    },
+    {
+      "ability": "FORECAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "FIRE_BLAST",
+        "WEATHER_BALL",
+        "BLIZZARD",
+        "HYDRO_PUMP"
+      ],
+      "species": "CASTFORM",
+      "species_token": "SPECIES_CASTFORM"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "JUMP_KICK",
+        "U_TURN",
+        "HONE_CLAWS",
+        "DRAIN_PUNCH"
+      ],
+      "species": "MIENSHAO",
+      "species_token": "SPECIES_MIENSHAO"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 425,
+  "trainer_id": 425,
+  "trainer_name": "Harper",
+  "trainerclass": "TRAINERCLASS_SKIER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "POWER_WHIP",
+        "HIGH_JUMP_KICK",
+        "TROP_KICK",
+        "SWAGGER"
+      ],
+      "species": "TSAREENA",
+      "species_token": "SPECIES_TSAREENA"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_CLIMB",
+        "DOUBLE_TEAM",
+        "QUICK_GUARD"
+      ],
+      "species": "LYCANROC",
+      "species_token": "SPECIES_LYCANROC"
+    },
+    {
+      "ability": "CORROSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FLAMETHROWER",
+        "DRAGON_PULSE",
+        "KNOCK_OFF",
+        "VENOSHOCK"
+      ],
+      "species": "SALAZZLE",
+      "species_token": "SPECIES_SALAZZLE"
+    },
+    {
+      "ability": "WATER_COMPACTION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "EARTH_POWER",
+        "SHADOW_BALL",
+        "IRON_DEFENSE",
+        "GIGA_DRAIN"
+      ],
+      "species": "PALOSSAND",
+      "species_token": "SPECIES_PALOSSAND"
+    },
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "ZING_ZAP",
+        "CHARGE",
+        "ROLLOUT",
+        "DISCHARGE"
+      ],
+      "species": "TOGEDEMARU",
+      "species_token": "SPECIES_TOGEDEMARU"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "HYDRO_PUMP",
+        "MOONBLAST",
+        "SPARKLING_ARIA",
+        "ICY_WIND"
+      ],
+      "species": "PRIMARINA",
+      "species_token": "SPECIES_PRIMARINA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 848,
+  "trainer_id": 848,
+  "trainer_name": "Selene",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "RAZOR_LEAF",
+        "STRING_SHOT",
+        "BUG_BITE",
+        "TACKLE"
+      ],
+      "species": "SWADLOON",
+      "species_token": "SPECIES_SWADLOON"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "UPROAR",
+        "ACID",
+        "BUBBLE_BEAM",
+        "MUD_SHOT"
+      ],
+      "species": "PALPITOAD",
+      "species_token": "SPECIES_PALPITOAD"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "HELPING_HAND",
+        "SWIFT",
+        "POUND",
+        "ECHOED_VOICE"
+      ],
+      "species": "MINCCINO",
+      "species_token": "SPECIES_MINCCINO"
+    },
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "CHARGE",
+        "GEAR_GRIND",
+        "VICE_GRIP",
+        "CHARGE_BEAM"
+      ],
+      "species": "KLINK",
+      "species_token": "SPECIES_KLINK"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "PSYSHOCK",
+        "FEINT_ATTACK",
+        "PLAY_NICE",
+        "PSYBEAM"
+      ],
+      "species": "GOTHITA",
+      "species_token": "SPECIES_GOTHITA"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "ROLLOUT",
+        "FLAME_CHARGE",
+        "EMBER",
+        "ARM_THRUST"
+      ],
+      "species": "PIGNITE",
+      "species_token": "SPECIES_PIGNITE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 300,
+  "trainer_id": 300,
+  "trainer_name": "Rosa",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

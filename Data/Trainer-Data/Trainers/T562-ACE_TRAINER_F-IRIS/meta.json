@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PETAL_DANCE",
+        "QUIVER_DANCE",
+        "ENERGY_BALL",
+        "SUNNY_DAY"
+      ],
+      "species": "LILLIGANT",
+      "species_token": "SPECIES_LILLIGANT"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PETAL_DANCE",
+        "MOONBLAST",
+        "QUIVER_DANCE",
+        "SUNNY_DAY"
+      ],
+      "species": "BELLOSSOM",
+      "species_token": "SPECIES_BELLOSSOM"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LEAF_BLADE",
+        "LAST_RESORT",
+        "SWORDS_DANCE",
+        "SAND_ATTACK"
+      ],
+      "species": "LEAFEON",
+      "species_token": "SPECIES_LEAFEON"
+    },
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "POLLEN_PUFF",
+        "DAZZLING_GLEAM",
+        "STRUGGLE_BUG",
+        "ABSORB"
+      ],
+      "species": "RIBOMBEE",
+      "species_token": "SPECIES_RIBOMBEE"
+    },
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PETAL_DANCE",
+        "AROMATHERAPY",
+        "MOONBLAST",
+        "PETAL_BLIZZARD"
+      ],
+      "species": "FLORGES",
+      "species_token": "SPECIES_FLORGES"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 562,
+  "trainer_id": 562,
+  "trainer_name": "Iris",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

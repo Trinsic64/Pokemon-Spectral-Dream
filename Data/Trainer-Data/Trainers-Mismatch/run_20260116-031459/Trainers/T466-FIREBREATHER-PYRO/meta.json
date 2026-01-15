@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "FLAMETHROWER",
+        "SUNNY_DAY",
+        "LOW_KICK",
+        "LAVA_PLUME"
+      ],
+      "species": "MAGMAR",
+      "species_token": "SPECIES_MAGMAR"
+    },
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "SHADOW_BONE",
+        "THRASH",
+        "STOMPING_TANTRUM",
+        "FLAME_WHEEL"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    },
+    {
+      "ability": "WHITE_SMOKE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "HEAT_WAVE",
+        "BODY_SLAM",
+        "FLAMETHROWER",
+        "IRON_DEFENSE"
+      ],
+      "species": "TORKOAL",
+      "species_token": "SPECIES_TORKOAL"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "ERUPTION",
+        "ROCK_SLIDE",
+        "FOCUS_ENERGY",
+        "EARTHQUAKE"
+      ],
+      "species": "CAMERUPT",
+      "species_token": "SPECIES_CAMERUPT"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "FIRE_BLAST",
+        "MEGAHORN",
+        "AGILITY",
+        "SMART_STRIKE"
+      ],
+      "species": "RAPIDASH",
+      "species_token": "SPECIES_RAPIDASH"
+    },
+    {
+      "ability": "EARLY_BIRD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "FLAMETHROWER",
+        "NASTY_PLOT",
+        "INFERNO",
+        "FOUL_PLAY"
+      ],
+      "species": "HOUNDOOM",
+      "species_token": "SPECIES_HOUNDOOM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 466,
+  "trainer_id": 466,
+  "trainer_name": "Pyro",
+  "trainerclass": "TRAINERCLASS_FIREBREATHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "ROCK_SLIDE",
+        "SPARK",
+        "HARDEN",
+        "ROCK_THROW"
+      ],
+      "species": "NOSEPASS",
+      "species_token": "SPECIES_NOSEPASS"
+    },
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "FAIRY_WIND",
+        "RAZOR_LEAF",
+        "VINE_WHIP",
+        "TACKLE"
+      ],
+      "species": "FLOETTE",
+      "species_token": "SPECIES_FLOETTE"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "CHARGE",
+        "THUNDER_SHOCK",
+        "THUNDER_WAVE",
+        "COTTON_SPORE"
+      ],
+      "species": "FLAAFFY",
+      "species_token": "SPECIES_FLAAFFY"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "DRAGON_TAIL",
+        "AGILITY",
+        "TWISTER",
+        "LEER"
+      ],
+      "species": "DRATINI",
+      "species_token": "SPECIES_DRATINI"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "ROCK_THROW",
+        "BULK_UP",
+        "WAKE_UP_SLAP",
+        "POUND"
+      ],
+      "species": "TIMBURR",
+      "species_token": "SPECIES_TIMBURR"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 223,
+  "trainer_id": 223,
+  "trainer_name": "Yvette",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

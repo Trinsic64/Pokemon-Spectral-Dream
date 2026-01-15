@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DOUBLE_TEAM",
+        "CLOSE_COMBAT",
+        "AERIAL_ACE",
+        "TAKE_DOWN"
+      ],
+      "species": "STARAPTOR",
+      "species_token": "SPECIES_STARAPTOR"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "FIRE_BLAST",
+        "MEGAHORN",
+        "AGILITY",
+        "SMART_STRIKE"
+      ],
+      "species": "RAPIDASH",
+      "species_token": "SPECIES_RAPIDASH"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "HYDRO_PUMP",
+        "AQUA_TAIL",
+        "DIVE",
+        "HEAD_SMASH"
+      ],
+      "species": "RELICANTH",
+      "species_token": "SPECIES_RELICANTH"
+    },
+    {
+      "ability": "FOREWARN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "FUTURE_SIGHT",
+        "MOONBLAST",
+        "CALM_MIND",
+        "DREAM_EATER"
+      ],
+      "species": "MUSHARNA",
+      "species_token": "SPECIES_MUSHARNA"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "PLAY_ROUGH",
+        "CHARGE",
+        "CRUNCH",
+        "SPARK"
+      ],
+      "species": "BOLTUND",
+      "species_token": "SPECIES_BOLTUND"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 760,
+  "trainer_id": 760,
+  "trainer_name": "Xanthe",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

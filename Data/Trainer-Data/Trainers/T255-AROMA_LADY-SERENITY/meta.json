@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "GIGA_DRAIN",
+        "PECK",
+        "COTTON_GUARD",
+        "NEEDLE_ARM"
+      ],
+      "species": "MARACTUS",
+      "species_token": "SPECIES_MARACTUS"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "JUMP_KICK",
+        "DEFENSE_CURL",
+        "POUND",
+        "QUICK_ATTACK"
+      ],
+      "species": "BUNEARY",
+      "species_token": "SPECIES_BUNEARY"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "INGRAIN",
+        "BITE",
+        "VINE_WHIP",
+        "GROWTH"
+      ],
+      "species": "CARNIVINE",
+      "species_token": "SPECIES_CARNIVINE"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "MACH_PUNCH",
+        "LIGHT_SCREEN",
+        "SILVER_WIND",
+        "SWIFT"
+      ],
+      "species": "LEDIAN",
+      "species_token": "SPECIES_LEDIAN"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 255,
+  "trainer_id": 255,
+  "trainer_name": "Serenity",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

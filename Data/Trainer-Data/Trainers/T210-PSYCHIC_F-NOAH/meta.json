@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "IMPRISON",
+        "CONFUSION",
+        "TACKLE",
+        "CONFUSE_RAY"
+      ],
+      "species": "BRONZOR",
+      "species_token": "SPECIES_BRONZOR"
+    },
+    {
+      "ability": "ICE_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "UPROAR",
+        "MIST",
+        "ICY_WIND",
+        "AVALANCHE"
+      ],
+      "species": "VANILLITE",
+      "species_token": "SPECIES_VANILLITE"
+    },
+    {
+      "ability": "UNAWARE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "ASSURANCE",
+        "IMPRISON",
+        "AIR_CUTTER",
+        "CONFUSION"
+      ],
+      "species": "WOOBAT",
+      "species_token": "SPECIES_WOOBAT"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "SHADOW_PUNCH",
+        "POUND",
+        "ASTONISH",
+        "MUD_SLAP"
+      ],
+      "species": "GOLETT",
+      "species_token": "SPECIES_GOLETT"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 210,
+  "trainer_id": 210,
+  "trainer_name": "Noah",
+  "trainerclass": "TRAINERCLASS_PSYCHIC_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

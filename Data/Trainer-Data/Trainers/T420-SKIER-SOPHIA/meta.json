@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNARDS_OUT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "WATER_SPORT",
+        "BATON_PASS",
+        "HARDEN",
+        "MUD_SPORT"
+      ],
+      "species": "PYUKUMUKU",
+      "species_token": "SPECIES_PYUKUMUKU"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "METAL_CLAW",
+        "HONE_CLAWS"
+      ],
+      "species": "PERRSERKER",
+      "species_token": "SPECIES_PERRSERKER"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "DRILL_RUN",
+        "FOCUS_ENERGY",
+        "AERIAL_ACE",
+        "FURY_ATTACK"
+      ],
+      "species": "FEAROW",
+      "species_token": "SPECIES_FEAROW"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "CRUSH_CLAW",
+        "RAPID_SPIN",
+        "SLASH",
+        "DIG"
+      ],
+      "species": "SANDSLASH",
+      "species_token": "SPECIES_SANDSLASH"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 420,
+  "trainer_id": 420,
+  "trainer_name": "Sophia",
+  "trainerclass": "TRAINERCLASS_SKIER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

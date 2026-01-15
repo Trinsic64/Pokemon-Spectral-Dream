@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "POWER_WHIP",
+        "ROCK_CLIMB",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "FERROTHORN",
+      "species_token": "SPECIES_FERROTHORN"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SYNCHRONOISE",
+        "CALM_MIND",
+        "PSYCHIC",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "BEHEEYEM",
+      "species_token": "SPECIES_BEHEEYEM"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "HYDRO_PUMP",
+        "PSYCHIC",
+        "AGILITY",
+        "COIL"
+      ],
+      "species": "GOREBYSS",
+      "species_token": "SPECIES_GOREBYSS"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_CLIMB",
+        "DOUBLE_TEAM",
+        "QUICK_GUARD"
+      ],
+      "species": "LYCANROC",
+      "species_token": "SPECIES_LYCANROC"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "BEAK_BLAST",
+        "GROWL",
+        "ROCK_SMASH",
+        "HYPER_VOICE"
+      ],
+      "species": "TOUCANNON",
+      "species_token": "SPECIES_TOUCANNON"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 759,
+  "trainer_id": 759,
+  "trainer_name": "Wystan",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

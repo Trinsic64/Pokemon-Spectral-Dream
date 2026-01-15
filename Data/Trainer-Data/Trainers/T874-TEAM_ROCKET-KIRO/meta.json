@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PUNK_ROCK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "BELCH",
+        "BOOMBURST",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "TOXTRICITY",
+      "species_token": "SPECIES_TOXTRICITY"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "DRAGON_CLAW",
+        "FLAMETHROWER",
+        "DRAGON_RUSH",
+        "NIGHT_SLASH"
+      ],
+      "species": "ROARING_MOON",
+      "species_token": "SPECIES_ROARING_MOON"
+    },
+    {
+      "ability": "EMERGENCY_EXIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "FIRST_IMPRESSION",
+        "LIQUIDATION",
+        "RAZOR_SHELL",
+        "IRON_DEFENSE"
+      ],
+      "species": "GOLISOPOD",
+      "species_token": "SPECIES_GOLISOPOD"
+    },
+    {
+      "ability": "MOTOR_DRIVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "THUNDERBOLT",
+        "FIRE_PUNCH",
+        "CHARGE",
+        "THUNDER"
+      ],
+      "species": "ELECTIVIRE",
+      "species_token": "SPECIES_ELECTIVIRE"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "DRAGON_RUSH",
+        "SUCKER_PUNCH",
+        "U_TURN",
+        "PHANTOM_FORCE"
+      ],
+      "species": "DRAGAPULT",
+      "species_token": "SPECIES_DRAGAPULT"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_POLISH",
+        "DIG",
+        "IRON_TAIL"
+      ],
+      "species": "STEELIX",
+      "species_token": "SPECIES_STEELIX"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 874,
+  "trainer_id": 874,
+  "trainer_name": "Kiro",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

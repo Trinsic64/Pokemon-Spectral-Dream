@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "AQUA_TAIL",
+        "BRINE",
+        "POISON_JAB"
+      ],
+      "species": "QWILFISH",
+      "species_token": "SPECIES_QWILFISH"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "EARTHQUAKE",
+        "AMNESIA",
+        "AQUA_TAIL",
+        "HAZE"
+      ],
+      "species": "QUAGSIRE",
+      "species_token": "SPECIES_QUAGSIRE"
+    },
+    {
+      "ability": "MERCILESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "LIQUIDATION",
+        "BANEFUL_BUNKER",
+        "BITE",
+        "POISON_JAB"
+      ],
+      "species": "TOXAPEX",
+      "species_token": "SPECIES_TOXAPEX"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "MUDDY_WATER",
+        "UPROAR",
+        "ACID",
+        "MUD_SHOT"
+      ],
+      "species": "SEISMITOAD",
+      "species_token": "SPECIES_SEISMITOAD"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "SLUDGE_BOMB",
+        "HYDRO_PUMP",
+        "DOUBLE_TEAM",
+        "DRAGON_PULSE"
+      ],
+      "species": "DRAGALGE",
+      "species_token": "SPECIES_DRAGALGE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 647,
+  "trainer_id": 647,
+  "trainer_name": "Wade",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

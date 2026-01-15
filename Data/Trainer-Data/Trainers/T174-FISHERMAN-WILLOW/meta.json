@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "MUD_SHOT",
+        "GROWL",
+        "BUBBLE_BEAM",
+        "ROUND"
+      ],
+      "species": "TYMPOLE",
+      "species_token": "SPECIES_TYMPOLE"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "GROWL",
+        "QUICK_ATTACK",
+        "PECK",
+        "PURSUIT"
+      ],
+      "species": "DODUO",
+      "species_token": "SPECIES_DODUO"
+    },
+    {
+      "ability": "WATER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "FOCUS_ENERGY",
+        "WATER_GUN",
+        "AQUA_JET",
+        "SUPERSONIC"
+      ],
+      "species": "FINIZEN",
+      "species_token": "SPECIES_FINIZEN"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "LEECH_SEED",
+        "VINE_WHIP",
+        "SCRATCH",
+        "PLAY_NICE"
+      ],
+      "species": "PANSAGE",
+      "species_token": "SPECIES_PANSAGE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 174,
+  "trainer_id": 174,
+  "trainer_name": "Willow",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

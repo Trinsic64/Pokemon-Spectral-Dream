@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "REFRIGERATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "FREEZE_DRY",
+        "MIST",
+        "AURORA_BEAM",
+        "ANCIENT_POWER"
+      ],
+      "species": "AURORUS",
+      "species_token": "SPECIES_AURORUS"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "ROCK_SLIDE",
+        "CRUNCH",
+        "BLIZZARD",
+        "RAPID_SPIN"
+      ],
+      "species": "AVALUGG",
+      "species_token": "SPECIES_AVALUGG"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "BUG_BUZZ",
+        "BLIZZARD",
+        "STRUGGLE_BUG",
+        "AURORA_BEAM"
+      ],
+      "species": "FROSMOTH",
+      "species_token": "SPECIES_FROSMOTH"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 435,
+  "trainer_id": 435,
+  "trainer_name": "Ezekiel",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M_GS",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

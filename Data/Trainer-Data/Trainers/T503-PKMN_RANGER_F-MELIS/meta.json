@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "AIR_SLASH",
+        "FOCUS_ENERGY",
+        "WING_ATTACK",
+        "QUICK_ATTACK"
+      ],
+      "species": "SWELLOW",
+      "species_token": "SPECIES_SWELLOW"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "DISCHARGE",
+        "SIGNAL_BEAM",
+        "CHARGE",
+        "BUBBLE_BEAM"
+      ],
+      "species": "LANTURN",
+      "species_token": "SPECIES_LANTURN"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "CROSS_CHOP",
+        "THRASH",
+        "FOCUS_ENERGY",
+        "ASSURANCE"
+      ],
+      "species": "PRIMEAPE",
+      "species_token": "SPECIES_PRIMEAPE"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "IRON_HEAD",
+        "NIGHT_SLASH",
+        "SLASH",
+        "SHADOW_SNEAK"
+      ],
+      "species": "DOUBLADE",
+      "species_token": "SPECIES_DOUBLADE"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "PSYCHIC",
+        "BODY_SLAM",
+        "WAKE_UP_SLAP",
+        "ICE_PUNCH"
+      ],
+      "species": "JYNX",
+      "species_token": "SPECIES_JYNX"
+    },
+    {
+      "ability": "POWER_SPOT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "ROCK_SLIDE",
+        "BODY_SLAM",
+        "ROCK_POLISH",
+        "GRAVITY"
+      ],
+      "species": "STONJOURNER",
+      "species_token": "SPECIES_STONJOURNER"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 503,
+  "trainer_id": 503,
+  "trainer_name": "Melis",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

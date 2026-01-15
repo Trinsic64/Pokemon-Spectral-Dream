@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "WAVE_CRASH",
+        "THRASH",
+        "SOAK",
+        "PHANTOM_FORCE"
+      ],
+      "species": "BASCULEGION",
+      "species_token": "SPECIES_BASCULEGION"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "CRUNCH",
+        "BRINE",
+        "BITE",
+        "BARB_BARRAGE"
+      ],
+      "species": "OVERQWIL",
+      "species_token": "SPECIES_OVERQWIL"
+    },
+    {
+      "ability": "MYCELIUM_MIGHT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "POWER_WHIP",
+        "EARTH_POWER",
+        "SPORE",
+        "MUD_SHOT"
+      ],
+      "species": "TOEDSCRUEL",
+      "species_token": "SPECIES_TOEDSCRUEL"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "BODY_SLAM",
+        "SWAGGER",
+        "SLASH",
+        "HYPNOSIS"
+      ],
+      "species": "PURUGLY",
+      "species_token": "SPECIES_PURUGLY"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "CRUNCH",
+        "X_SCISSOR",
+        "ICE_FANG",
+        "CROSS_POISON"
+      ],
+      "species": "DRAPION",
+      "species_token": "SPECIES_DRAPION"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "FIRE_PUNCH",
+        "THRASH",
+        "SUPERPOWER",
+        "SWAGGER"
+      ],
+      "species": "DARMANITAN",
+      "species_token": "SPECIES_DARMANITAN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 747,
+  "trainer_id": 747,
+  "trainer_name": "Nero",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

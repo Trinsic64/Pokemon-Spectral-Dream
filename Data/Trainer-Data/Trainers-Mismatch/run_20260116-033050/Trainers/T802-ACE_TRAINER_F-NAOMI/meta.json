@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "OUTRAGE",
+        "DRAGON_CLAW",
+        "FLAMETHROWER",
+        "FLY"
+      ],
+      "species": "SALAMENCE",
+      "species_token": "SPECIES_SALAMENCE"
+    },
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "POWER_WHIP",
+        "ROCK_CLIMB",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "FERROTHORN",
+      "species_token": "SPECIES_FERROTHORN"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "HYDRO_PUMP",
+        "ICE_BEAM",
+        "MIST",
+        "BRINE"
+      ],
+      "species": "LAPRAS",
+      "species_token": "SPECIES_LAPRAS"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "FLAMETHROWER",
+        "PLAY_ROUGH",
+        "AGILITY",
+        "REVERSAL"
+      ],
+      "species": "ARCANINE",
+      "species_token": "SPECIES_ARCANINE"
+    },
+    {
+      "ability": "MARVEL_SCALE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "AQUA_TAIL",
+        "COIL"
+      ],
+      "species": "MILOTIC",
+      "species_token": "SPECIES_MILOTIC"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "DRAGON_RUSH",
+        "SUCKER_PUNCH",
+        "U_TURN",
+        "PHANTOM_FORCE"
+      ],
+      "species": "DRAGAPULT",
+      "species_token": "SPECIES_DRAGAPULT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 802,
+  "trainer_id": 802,
+  "trainer_name": "Naomi",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

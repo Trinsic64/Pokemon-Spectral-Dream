@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "CONFUSION",
+        "DOUBLE_TEAM",
+        "DISARMING_VOICE",
+        "GROWL"
+      ],
+      "species": "RALTS",
+      "species_token": "SPECIES_RALTS"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "WORRY_SEED",
+        "ABSORB",
+        "GROWTH",
+        "WATER_SPORT"
+      ],
+      "species": "BUDEW",
+      "species_token": "SPECIES_BUDEW"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "GROWL",
+        "EMBER",
+        "SCRATCH",
+        "EMBER"
+      ],
+      "species": "TORCHIC",
+      "species_token": "SPECIES_TORCHIC"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 27,
+  "trainer_id": 27,
+  "trainer_name": "May",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

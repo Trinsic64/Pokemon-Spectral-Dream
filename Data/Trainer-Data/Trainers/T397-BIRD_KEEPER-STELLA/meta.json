@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "BUBBLE_BEAM",
+        "CHARGE",
+        "SPARK",
+        "THUNDER_SHOCK"
+      ],
+      "species": "PINCURCHIN",
+      "species_token": "SPECIES_PINCURCHIN"
+    },
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "MIRROR_SHOT",
+        "GEAR_GRIND"
+      ],
+      "species": "KLANG",
+      "species_token": "SPECIES_KLANG"
+    },
+    {
+      "ability": "SHIELDS_DOWN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "ANCIENT_POWER",
+        "COSMIC_POWER",
+        "SWIFT",
+        "TACKLE"
+      ],
+      "species": "MINIOR",
+      "species_token": "SPECIES_MINIOR"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "KNOCK_OFF",
+        "SLASH",
+        "U_TURN",
+        "ACROBATICS"
+      ],
+      "species": "GLIGAR",
+      "species_token": "SPECIES_GLIGAR"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 397,
+  "trainer_id": 397,
+  "trainer_name": "Stella",
+  "trainerclass": "TRAINERCLASS_BIRD_KEEPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

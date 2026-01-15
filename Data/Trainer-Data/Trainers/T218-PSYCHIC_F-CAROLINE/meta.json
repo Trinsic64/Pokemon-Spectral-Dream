@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHADOW_TAG",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "AMNESIA",
+        "CHARM",
+        "ENCORE",
+        "MIRROR_COAT"
+      ],
+      "species": "WOBBUFFET",
+      "species_token": "SPECIES_WOBBUFFET"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "ATTRACT",
+        "FAKE_OUT",
+        "SING",
+        "DOUBLE_SLAP"
+      ],
+      "species": "DELCATTY",
+      "species_token": "SPECIES_DELCATTY"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "CHARGE",
+        "SHOCK_WAVE",
+        "SWIFT",
+        "THUNDER_SHOCK"
+      ],
+      "species": "ELEKID",
+      "species_token": "SPECIES_ELEKID"
+    },
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "FAIRY_WIND",
+        "RAZOR_LEAF",
+        "VINE_WHIP",
+        "LUCKY_CHANT"
+      ],
+      "species": "FLOETTE",
+      "species_token": "SPECIES_FLOETTE"
+    },
+    {
+      "ability": "RECKLESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "AQUA_TAIL",
+        "CRUNCH",
+        "TAIL_WHIP",
+        "UPROAR"
+      ],
+      "species": "BASCULIN",
+      "species_token": "SPECIES_BASCULIN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 218,
+  "trainer_id": 218,
+  "trainer_name": "Caroline",
+  "trainerclass": "TRAINERCLASS_PSYCHIC_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

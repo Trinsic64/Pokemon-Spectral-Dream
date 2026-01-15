@@ -1,0 +1,54 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 3,
+      "moves": [
+        "GROWL",
+        "TACKLE",
+        "TACKLE",
+        "TACKLE"
+      ],
+      "species": "ZIGZAGOON",
+      "species_token": "SPECIES_ZIGZAGOON"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 3,
+      "moves": [
+        "CHARM",
+        "COPYCAT",
+        "SPLASH",
+        "POUND"
+      ],
+      "species": "CLEFFA",
+      "species_token": "SPECIES_CLEFFA"
+    }
+  ],
+  "nummons": 2,
+  "party_id": 2,
+  "trainer_id": 2,
+  "trainer_name": "Marty",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

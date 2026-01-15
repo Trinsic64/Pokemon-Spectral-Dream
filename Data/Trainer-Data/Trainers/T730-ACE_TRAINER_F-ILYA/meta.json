@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "MEGAHORN",
+        "ROCK_CLIMB",
+        "STEAMROLLER",
+        "VENOSHOCK"
+      ],
+      "species": "SCOLIPEDE",
+      "species_token": "SPECIES_SCOLIPEDE"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "POISON_JAB",
+        "PSYCHIC",
+        "SUCKER_PUNCH",
+        "BUG_BITE"
+      ],
+      "species": "ARIADOS",
+      "species_token": "SPECIES_ARIADOS"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "BUG_BUZZ",
+        "PSYCHIC",
+        "SIGNAL_BEAM",
+        "POISON_FANG"
+      ],
+      "species": "VENOMOTH",
+      "species_token": "SPECIES_VENOMOTH"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "BUG_BUZZ",
+        "QUIVER_DANCE",
+        "SILVER_WIND",
+        "VENOSHOCK"
+      ],
+      "species": "DUSTOX",
+      "species_token": "SPECIES_DUSTOX"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "BUG_BUZZ",
+        "AGILITY",
+        "ABSORB",
+        "DISCHARGE"
+      ],
+      "species": "GALVANTULA",
+      "species_token": "SPECIES_GALVANTULA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 730,
+  "trainer_id": 730,
+  "trainer_name": "Ilya",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

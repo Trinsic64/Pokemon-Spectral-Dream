@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "SHINX",
+      "species_token": "SPECIES_SHINX"
+    },
+    {
+      "ability": "CHEEK_POUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "TAIL_WHIP",
+        "BITE",
+        "TACKLE",
+        "STUFF_CHEEKS"
+      ],
+      "species": "SKWOVET",
+      "species_token": "SPECIES_SKWOVET"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "PURSUIT",
+        "ROLLOUT",
+        "PROTECT",
+        "POISON_STING"
+      ],
+      "species": "VENIPEDE",
+      "species_token": "SPECIES_VENIPEDE"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "LICK",
+        "CONFUSION",
+        "POWDER_SNOW",
+        "POUND"
+      ],
+      "species": "SMOOCHUM",
+      "species_token": "SPECIES_SMOOCHUM"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 120,
+  "trainer_id": 120,
+  "trainer_name": "Elena",
+  "trainerclass": "TRAINERCLASS_GUITARIST",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

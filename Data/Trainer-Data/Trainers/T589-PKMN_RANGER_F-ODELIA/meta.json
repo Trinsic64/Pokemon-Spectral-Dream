@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FLASH_CANNON",
+        "LAST_RESORT",
+        "FOUL_PLAY",
+        "SPIKES"
+      ],
+      "species": "KLEFKI",
+      "species_token": "SPECIES_KLEFKI"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FUTURE_SIGHT",
+        "OMINOUS_WIND",
+        "PSYCHIC",
+        "AIR_SLASH"
+      ],
+      "species": "XATU",
+      "species_token": "SPECIES_XATU"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FOCUS_PUNCH",
+        "MEGA_PUNCH",
+        "AGILITY",
+        "ICE_PUNCH"
+      ],
+      "species": "HITMONCHAN",
+      "species_token": "SPECIES_HITMONCHAN"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "HYDRO_PUMP",
+        "WATER_SPORT",
+        "WAKE_UP_SLAP",
+        "BRINE"
+      ],
+      "species": "ALOMOMOLA",
+      "species_token": "SPECIES_ALOMOMOLA"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "THUNDERBOLT",
+        "MUDDY_WATER",
+        "DISCHARGE",
+        "MUD_BOMB"
+      ],
+      "species": "STUNFISK",
+      "species_token": "SPECIES_STUNFISK"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "PETAL_BLIZZARD",
+        "X_SCISSOR",
+        "LEAF_BLADE",
+        "SUNNY_DAY"
+      ],
+      "species": "LURANTIS",
+      "species_token": "SPECIES_LURANTIS"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 589,
+  "trainer_id": 589,
+  "trainer_name": "Odelia",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

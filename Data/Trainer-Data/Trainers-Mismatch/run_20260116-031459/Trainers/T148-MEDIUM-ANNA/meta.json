@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "ASTONISH",
+        "CONFUSE_RAY",
+        "RAZOR_LEAF",
+        "TRICK_OR_TREAT"
+      ],
+      "species": "PUMPKABOO",
+      "species_token": "SPECIES_PUMPKABOO"
+    },
+    {
+      "ability": "WANDERING_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "ASTONISH",
+        "PROTECT",
+        "HAZE",
+        "DISABLE"
+      ],
+      "species": "YAMASK",
+      "species_token": "SPECIES_YAMASK"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "SHADOW_PUNCH",
+        "POUND",
+        "ASTONISH",
+        "MUD_SLAP"
+      ],
+      "species": "GOLETT",
+      "species_token": "SPECIES_GOLETT"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 148,
+  "trainer_id": 148,
+  "trainer_name": "Anna",
+  "trainerclass": "TRAINERCLASS_MEDIUM",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

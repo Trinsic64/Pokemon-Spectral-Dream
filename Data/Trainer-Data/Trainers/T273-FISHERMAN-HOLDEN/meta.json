@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ROUGH_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "ICE_FANG",
+        "BITE",
+        "ASSURANCE",
+        "AQUA_JET"
+      ],
+      "species": "CARVANHA",
+      "species_token": "SPECIES_CARVANHA"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "SIGNAL_BEAM",
+        "BUBBLE_BEAM",
+        "THUNDER_WAVE",
+        "SPARK"
+      ],
+      "species": "CHINCHOU",
+      "species_token": "SPECIES_CHINCHOU"
+    },
+    {
+      "ability": "GOOEY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "SAND_ATTACK",
+        "SLAM",
+        "HEADBUTT",
+        "WATER_PULSE"
+      ],
+      "species": "WUGTRIO",
+      "species_token": "SPECIES_WUGTRIO"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "GROWL",
+        "WATER_PULSE",
+        "ROUND",
+        "BUBBLE"
+      ],
+      "species": "FROGADIER",
+      "species_token": "SPECIES_FROGADIER"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 273,
+  "trainer_id": 273,
+  "trainer_name": "Holden",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

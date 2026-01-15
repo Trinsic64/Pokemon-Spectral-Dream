@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "GROWL",
+        "ICY_WIND",
+        "POWDER_SNOW",
+        "ENDURE"
+      ],
+      "species": "CUBCHOO",
+      "species_token": "SPECIES_CUBCHOO"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "VICE_GRIP",
+        "METAL_CLAW",
+        "WATER_GUN",
+        "MUD_SPORT"
+      ],
+      "species": "KRABBY",
+      "species_token": "SPECIES_KRABBY"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "LEER",
+        "ROCK_SMASH",
+        "FEINT",
+        "BIND"
+      ],
+      "species": "CLOBBOPUS",
+      "species_token": "SPECIES_CLOBBOPUS"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "HELPING_HAND",
+        "POUND",
+        "DOUBLE_HIT",
+        "ECHOED_VOICE"
+      ],
+      "species": "TANDEMAUS",
+      "species_token": "SPECIES_TANDEMAUS"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 134,
+  "trainer_id": 134,
+  "trainer_name": "Gerald",
+  "trainerclass": "TRAINERCLASS_POKE_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

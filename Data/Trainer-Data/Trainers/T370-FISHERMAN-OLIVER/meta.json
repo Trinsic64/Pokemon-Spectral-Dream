@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "RAPID_SPIN",
+        "BUBBLE_BEAM",
+        "BRINE",
+        "PSYBEAM"
+      ],
+      "species": "STARYU",
+      "species_token": "SPECIES_STARYU"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "SLASH",
+        "FEINT_ATTACK",
+        "ASSURANCE",
+        "METAL_CLAW"
+      ],
+      "species": "PAWNIARD",
+      "species_token": "SPECIES_PAWNIARD"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "AERIAL_ACE",
+        "QUICK_ATTACK"
+      ],
+      "species": "STARAVIA",
+      "species_token": "SPECIES_STARAVIA"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "HEAL_BLOCK",
+        "PSYBEAM",
+        "HIDDEN_POWER",
+        "HEADBUTT"
+      ],
+      "species": "ELGYEM",
+      "species_token": "SPECIES_ELGYEM"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BUG_BITE",
+        "SUCKER_PUNCH",
+        "FELL_STINGER",
+        "POISON_STING"
+      ],
+      "species": "ARIADOS",
+      "species_token": "SPECIES_ARIADOS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 370,
+  "trainer_id": 370,
+  "trainer_name": "Oliver",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

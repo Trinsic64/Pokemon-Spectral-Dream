@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "KNOCK_OFF",
+        "VITAL_THROW",
+        "WAKE_UP_SLAP",
+        "FOCUS_ENERGY"
+      ],
+      "species": "HARIYAMA",
+      "species_token": "SPECIES_HARIYAMA"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "LEAF_BLADE",
+        "LEAF_STORM",
+        "X_SCISSOR",
+        "SWORDS_DANCE"
+      ],
+      "species": "LEAVANNY",
+      "species_token": "SPECIES_LEAVANNY"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "X_SCISSOR",
+        "ROCK_POLISH",
+        "ROCK_SLIDE",
+        "SAND_ATTACK"
+      ],
+      "species": "CRUSTLE",
+      "species_token": "SPECIES_CRUSTLE"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "EARTHQUAKE",
+        "CRUNCH",
+        "SAND_ATTACK",
+        "FIRE_FANG"
+      ],
+      "species": "HIPPOWDON",
+      "species_token": "SPECIES_HIPPOWDON"
+    },
+    {
+      "ability": "FLUFFY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "LAST_RESORT",
+        "HEADBUTT",
+        "TACKLE",
+        "GUARD_SPLIT"
+      ],
+      "species": "DUBWOOL",
+      "species_token": "SPECIES_DUBWOOL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 569,
+  "trainer_id": 569,
+  "trainer_name": "Kenji",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

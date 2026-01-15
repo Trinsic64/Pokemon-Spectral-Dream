@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "METEOR_MASH",
+        "NASTY_PLOT",
+        "BONE_RUSH",
+        "AURA_SPHERE"
+      ],
+      "species": "LUCARIO",
+      "species_token": "SPECIES_LUCARIO"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "JUMP_KICK",
+        "HONE_CLAWS",
+        "U_TURN",
+        "DRAIN_PUNCH"
+      ],
+      "species": "MIENSHAO",
+      "species_token": "SPECIES_MIENSHAO"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SLUDGE_BOMB",
+        "SUCKER_PUNCH",
+        "POISON_JAB",
+        "REVENGE"
+      ],
+      "species": "TOXICROAK",
+      "species_token": "SPECIES_TOXICROAK"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "VITAL_THROW",
+        "WAKE_UP_SLAP",
+        "FOCUS_ENERGY",
+        "KNOCK_OFF"
+      ],
+      "species": "HARIYAMA",
+      "species_token": "SPECIES_HARIYAMA"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SKY_UPPERCUT",
+        "BODY_SLAM",
+        "BULLET_PUNCH",
+        "CRUNCH"
+      ],
+      "species": "PANGORO",
+      "species_token": "SPECIES_PANGORO"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 662,
+  "trainer_id": 662,
+  "trainer_name": "Jin",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

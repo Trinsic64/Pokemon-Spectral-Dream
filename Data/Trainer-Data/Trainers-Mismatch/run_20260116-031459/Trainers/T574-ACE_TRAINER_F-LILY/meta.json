@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "ZING_ZAP",
+        "POISON_JAB",
+        "CHARGE",
+        "BUBBLE_BEAM"
+      ],
+      "species": "PINCURCHIN",
+      "species_token": "SPECIES_PINCURCHIN"
+    },
+    {
+      "ability": "MINUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER",
+        "SPARK"
+      ],
+      "species": "MINUN",
+      "species_token": "SPECIES_MINUN"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "DISCHARGE",
+        "LAST_RESORT",
+        "THUNDER_WAVE",
+        "HYPER_FANG"
+      ],
+      "species": "PACHIRISU",
+      "species_token": "SPECIES_PACHIRISU"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 574,
+  "trainer_id": 574,
+  "trainer_name": "Lily",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

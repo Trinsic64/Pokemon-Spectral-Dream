@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DEFEATIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "ROCK_SLIDE",
+        "THRASH",
+        "ANCIENT_POWER",
+        "WING_ATTACK"
+      ],
+      "species": "ARCHEN",
+      "species_token": "SPECIES_ARCHEN"
+    },
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "POLLEN_PUFF",
+        "DAZZLING_GLEAM",
+        "ABSORB",
+        "STRUGGLE_BUG"
+      ],
+      "species": "RIBOMBEE",
+      "species_token": "SPECIES_RIBOMBEE"
+    },
+    {
+      "ability": "SERENE_GRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "HYPER_DRILL",
+        "COIL",
+        "DRAGON_RUSH",
+        "ROOST"
+      ],
+      "species": "DUNSPARCE",
+      "species_token": "SPECIES_DUNSPARCE"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "STOMPING_TANTRUM",
+        "THRASH",
+        "FOCUS_ENERGY",
+        "HEADBUTT"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "FLASH_CANNON",
+        "FOUL_PLAY",
+        "PLAY_ROUGH",
+        "SPIKES"
+      ],
+      "species": "KLEFKI",
+      "species_token": "SPECIES_KLEFKI"
+    },
+    {
+      "ability": "GOOEY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "THROAT_CHOP",
+        "DIG",
+        "SLAM",
+        "WATER_PULSE"
+      ],
+      "species": "WUGTRIO",
+      "species_token": "SPECIES_WUGTRIO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 493,
+  "trainer_id": 493,
+  "trainer_name": "IantheA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

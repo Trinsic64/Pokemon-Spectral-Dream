@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "POWER_GEM",
+        "MAGIC_COAT",
+        "PSYBEAM"
+      ],
+      "species": "SPOINK",
+      "species_token": "SPECIES_SPOINK"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "AQUA_TAIL",
+        "AMNESIA",
+        "SLAM",
+        "MUD_BOMB"
+      ],
+      "species": "WOOPER",
+      "species_token": "SPECIES_WOOPER"
+    },
+    {
+      "ability": "EARLY_BIRD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "HOWL",
+        "FIRE_FANG",
+        "BITE",
+        "EMBER"
+      ],
+      "species": "HOUNDOUR",
+      "species_token": "SPECIES_HOUNDOUR"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "BUG_BITE",
+        "DEFENSE_CURL",
+        "VENOSHOCK",
+        "POISON_TAIL"
+      ],
+      "species": "VENIPEDE",
+      "species_token": "SPECIES_VENIPEDE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 290,
+  "trainer_id": 290,
+  "trainer_name": "Ella",
+  "trainerclass": "TRAINERCLASS_PSYCHIC_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

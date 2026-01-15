@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SNOW_WARNING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "ICE_PUNCH",
+        "SWAGGER",
+        "WOOD_HAMMER",
+        "BLIZZARD"
+      ],
+      "species": "ABOMASNOW",
+      "species_token": "SPECIES_ABOMASNOW"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "BUG_BUZZ",
+        "BLIZZARD",
+        "AURORA_BEAM",
+        "QUIVER_DANCE"
+      ],
+      "species": "FROSMOTH",
+      "species_token": "SPECIES_FROSMOTH"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "EARTHQUAKE",
+        "THRASH",
+        "AMNESIA",
+        "BLIZZARD"
+      ],
+      "species": "MAMOSWINE",
+      "species_token": "SPECIES_MAMOSWINE"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "DARK_PULSE",
+        "REVENGE",
+        "NIGHT_SLASH",
+        "ICY_WIND"
+      ],
+      "species": "WEAVILE",
+      "species_token": "SPECIES_WEAVILE"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "SURF",
+        "BODY_SLAM",
+        "SWAGGER",
+        "BLIZZARD"
+      ],
+      "species": "WALREIN",
+      "species_token": "SPECIES_WALREIN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 737,
+  "trainer_id": 737,
+  "trainer_name": "Freya",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

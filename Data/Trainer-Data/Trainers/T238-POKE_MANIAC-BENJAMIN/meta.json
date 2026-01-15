@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "MAGICAL_LEAF",
+        "MEGA_DRAIN",
+        "LEECH_SEED",
+        "POISON_STING"
+      ],
+      "species": "ROSELIA",
+      "species_token": "SPECIES_ROSELIA"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "BELCH",
+        "MAGIC_COAT",
+        "PSYBEAM",
+        "CONFUSE_RAY"
+      ],
+      "species": "GRUMPIG",
+      "species_token": "SPECIES_GRUMPIG"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "SHADOW_PUNCH",
+        "CONFUSE_RAY",
+        "PAYBACK",
+        "SPITE"
+      ],
+      "species": "HAUNTER",
+      "species_token": "SPECIES_HAUNTER"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "DRAGON_TAIL",
+        "STEALTH_ROCK",
+        "STOMP",
+        "ANCIENT_POWER"
+      ],
+      "species": "TYRUNT",
+      "species_token": "SPECIES_TYRUNT"
+    },
+    {
+      "ability": "PURE_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "FIRE_PUNCH",
+        "ICE_PUNCH",
+        "FORCE_PALM"
+      ],
+      "species": "MEDICHAM",
+      "species_token": "SPECIES_MEDICHAM"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 238,
+  "trainer_id": 238,
+  "trainer_name": "Benjamin",
+  "trainerclass": "TRAINERCLASS_POKE_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "AGILITY",
+        "AERIAL_ACE",
+        "ACROBATICS",
+        "FLAME_CHARGE"
+      ],
+      "species": "TALONFLAME",
+      "species_token": "SPECIES_TALONFLAME"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PSYCHIC",
+        "COVET",
+        "SUCKER_PUNCH",
+        "PSYSHOCK"
+      ],
+      "species": "MEOWSTIC",
+      "species_token": "SPECIES_MEOWSTIC"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SLUDGE_BOMB",
+        "HYDRO_PUMP",
+        "DOUBLE_TEAM",
+        "DRAGON_PULSE"
+      ],
+      "species": "DRAGALGE",
+      "species_token": "SPECIES_DRAGALGE"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FLAMETHROWER",
+        "CRUNCH",
+        "HYPER_VOICE",
+        "WORK_UP"
+      ],
+      "species": "LITLEO",
+      "species_token": "SPECIES_LITLEO"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FLASH_CANNON",
+        "LAST_RESORT",
+        "FOUL_PLAY",
+        "SPIKES"
+      ],
+      "species": "KLEFKI",
+      "species_token": "SPECIES_KLEFKI"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EXTRASENSORY",
+        "GROWL",
+        "NIGHT_SLASH",
+        "WATER_PULSE"
+      ],
+      "species": "GRENINJA",
+      "species_token": "SPECIES_GRENINJA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 538,
+  "trainer_id": 538,
+  "trainer_name": "Calem",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

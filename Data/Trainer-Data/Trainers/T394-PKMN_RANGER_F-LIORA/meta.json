@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WELL_BAKED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "PLAY_ROUGH",
+        "COVET",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "DACHSBUN",
+      "species_token": "SPECIES_DACHSBUN"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "IRON_HEAD",
+        "PLAY_ROUGH",
+        "IRON_DEFENSE",
+        "CRUNCH"
+      ],
+      "species": "MAWILE",
+      "species_token": "SPECIES_MAWILE"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "AGILITY",
+        "SWIFT",
+        "SCRATCH",
+        "DOUBLE_HIT"
+      ],
+      "species": "AIPOM",
+      "species_token": "SPECIES_AIPOM"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "POWER_GEM",
+        "CHARGE",
+        "THUNDER_SHOCK",
+        "COTTON_SPORE"
+      ],
+      "species": "FLAAFFY",
+      "species_token": "SPECIES_FLAAFFY"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "DAZZLING_GLEAM",
+        "BRUTAL_SWING",
+        "CALM_MIND",
+        "PSYBEAM"
+      ],
+      "species": "HATTREM",
+      "species_token": "SPECIES_HATTREM"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "AGILITY",
+        "FLAME_WHEEL",
+        "STOMP",
+        "FLAME_CHARGE"
+      ],
+      "species": "PONYTA",
+      "species_token": "SPECIES_PONYTA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 394,
+  "trainer_id": 394,
+  "trainer_name": "Liora",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

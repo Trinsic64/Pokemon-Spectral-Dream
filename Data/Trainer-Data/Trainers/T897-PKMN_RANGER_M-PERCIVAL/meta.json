@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ADAPTABILITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "TRI_ATTACK",
+        "DISCHARGE",
+        "NASTY_PLOT",
+        "PSYBEAM"
+      ],
+      "species": "PORYGON_Z",
+      "species_token": "SPECIES_PORYGON_Z"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "PYRO_BALL",
+        "AGILITY",
+        "DOUBLE_KICK",
+        "HEADBUTT"
+      ],
+      "species": "CINDERACE",
+      "species_token": "SPECIES_CINDERACE"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "DRUM_BEATING",
+        "BOOMBURST",
+        "KNOCK_OFF",
+        "UPROAR"
+      ],
+      "species": "RILLABOOM",
+      "species_token": "SPECIES_RILLABOOM"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "FLASH_CANNON",
+        "TRI_ATTACK",
+        "BARRIER",
+        "ZAP_CANNON"
+      ],
+      "species": "MAGNEZONE",
+      "species_token": "SPECIES_MAGNEZONE"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "CROSS_CHOP",
+        "STRENGTH",
+        "BULK_UP",
+        "KNOCK_OFF"
+      ],
+      "species": "MACHAMP",
+      "species_token": "SPECIES_MACHAMP"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "HEAT_WAVE",
+        "DRAGON_CLAW",
+        "GROWL",
+        "DRAGON_BREATH"
+      ],
+      "species": "CHARIZARD",
+      "species_token": "SPECIES_CHARIZARD"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 897,
+  "trainer_id": 897,
+  "trainer_name": "Percival",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STICKY_HOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "MUDDY_WATER",
+        "BODY_SLAM",
+        "MUD_SPORT",
+        "EARTH_POWER"
+      ],
+      "species": "GASTRODON",
+      "species_token": "SPECIES_GASTRODON"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "DARK_PULSE",
+        "NASTY_PLOT"
+      ],
+      "species": "SPIRITOMB",
+      "species_token": "SPECIES_SPIRITOMB"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "IRON_TAIL",
+        "ROCK_SLIDE"
+      ],
+      "species": "LAIRON",
+      "species_token": "SPECIES_LAIRON"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "UPROAR",
+        "FOCUS_PUNCH",
+        "FOCUS_ENERGY",
+        "SLASH"
+      ],
+      "species": "VIGOROTH",
+      "species_token": "SPECIES_VIGOROTH"
+    },
+    {
+      "ability": "HUNGER_SWITCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "CRUNCH",
+        "AGILITY",
+        "BULLET_SEED",
+        "SPARK"
+      ],
+      "species": "MORPEKO",
+      "species_token": "SPECIES_MORPEKO"
+    },
+    {
+      "ability": "SHIELDS_DOWN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "POWER_GEM",
+        "COSMIC_POWER",
+        "ANCIENT_POWER",
+        "SWIFT"
+      ],
+      "species": "MINIOR",
+      "species_token": "SPECIES_MINIOR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 583,
+  "trainer_id": 583,
+  "trainer_name": "JettA",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

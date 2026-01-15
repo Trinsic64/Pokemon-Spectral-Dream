@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "GIGA_DRAIN",
+        "SYNTHESIS",
+        "FEINT_ATTACK",
+        "CLEAR_SMOG"
+      ],
+      "species": "AMOONGUSS",
+      "species_token": "SPECIES_AMOONGUSS"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "SPARK",
+        "SWIFT"
+      ],
+      "species": "ELECTRODE",
+      "species_token": "SPECIES_ELECTRODE"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "STONE_EDGE",
+        "THRASH",
+        "EARTHQUAKE",
+        "CRUNCH"
+      ],
+      "species": "TYRANITAR",
+      "species_token": "SPECIES_TYRANITAR"
+    },
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "PETAL_DANCE",
+        "AROMATHERAPY",
+        "MOONBLAST",
+        "PETAL_BLIZZARD"
+      ],
+      "species": "FLORGES",
+      "species_token": "SPECIES_FLORGES"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "PETAL_DANCE",
+        "PETAL_BLIZZARD",
+        "GIGA_DRAIN",
+        "POISON_STING"
+      ],
+      "species": "ROSERADE",
+      "species_token": "SPECIES_ROSERADE"
+    },
+    {
+      "ability": "EARLY_BIRD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "LAST_RESORT",
+        "OUTRAGE",
+        "FOCUS_ENERGY",
+        "MEGA_PUNCH"
+      ],
+      "species": "KANGASKHAN",
+      "species_token": "SPECIES_KANGASKHAN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 814,
+  "trainer_id": 814,
+  "trainer_name": "Flora",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

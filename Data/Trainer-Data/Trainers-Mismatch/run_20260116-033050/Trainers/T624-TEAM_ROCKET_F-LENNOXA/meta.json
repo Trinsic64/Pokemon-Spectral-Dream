@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "WATER_SPOUT",
+        "SHADOW_BALL",
+        "HEX",
+        "ACID_ARMOR"
+      ],
+      "species": "JELLICENT",
+      "species_token": "SPECIES_JELLICENT"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "POISON_JAB",
+        "ASSURANCE",
+        "VENOSHOCK",
+        "FELL_STINGER"
+      ],
+      "species": "BEEDRILL",
+      "species_token": "SPECIES_BEEDRILL"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BUG_BUZZ",
+        "PSYCHIC",
+        "QUIVER_DANCE",
+        "IRON_HEAD"
+      ],
+      "species": "WORMADAM_TRASHY",
+      "species_token": "SPECIES_WORMADAM_TRASHY"
+    },
+    {
+      "ability": "PURE_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "CALM_MIND",
+        "ICE_PUNCH",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "MEDICHAM",
+      "species_token": "SPECIES_MEDICHAM"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "POISON_JAB",
+        "BRICK_BREAK",
+        "SLASH",
+        "HONE_CLAWS"
+      ],
+      "species": "SNEASEL",
+      "species_token": "SPECIES_SNEASEL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 624,
+  "trainer_id": 624,
+  "trainer_name": "LennoxA",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

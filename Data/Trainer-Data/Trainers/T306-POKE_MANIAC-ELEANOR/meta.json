@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "UNBURDEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "POISON_JAB",
+        "U_TURN",
+        "LEER",
+        "SLASH"
+      ],
+      "species": "SHROODLE",
+      "species_token": "SPECIES_SHROODLE"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "STOMPING_TANTRUM",
+        "MEGA_PUNCH",
+        "SHADOW_PUNCH",
+        "IRON_DEFENSE"
+      ],
+      "species": "GOLETT",
+      "species_token": "SPECIES_GOLETT"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ROCK_SLIDE",
+        "ROCK_THROW",
+        "BULK_UP",
+        "DYNAMIC_PUNCH"
+      ],
+      "species": "TIMBURR",
+      "species_token": "SPECIES_TIMBURR"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "COIL",
+        "SLAM",
+        "FLAME_WHEEL",
+        "BUG_BITE"
+      ],
+      "species": "SIZZLIPEDE",
+      "species_token": "SPECIES_SIZZLIPEDE"
+    },
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "IRON_HEAD",
+        "ROLLOUT",
+        "IRON_DEFENSE",
+        "MIRROR_SHOT"
+      ],
+      "species": "FERROSEED",
+      "species_token": "SPECIES_FERROSEED"
+    },
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "RAZOR_SHELL",
+        "AURORA_BEAM",
+        "WITHDRAW",
+        "CLAMP"
+      ],
+      "species": "SHELLDER",
+      "species_token": "SPECIES_SHELLDER"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 306,
+  "trainer_id": 306,
+  "trainer_name": "Eleanor",
+  "trainerclass": "TRAINERCLASS_POKE_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SOLID_ROCK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "AQUA_TAIL",
+        "CRUNCH",
+        "BRINE",
+        "ROCK_SLIDE"
+      ],
+      "species": "CARRACOSTA",
+      "species_token": "SPECIES_CARRACOSTA"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "FREEZE_DRY",
+        "CHARGE",
+        "AVALANCHE",
+        "THUNDER_SHOCK"
+      ],
+      "species": "ARCTOZOLT",
+      "species_token": "SPECIES_ARCTOZOLT"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "DRAGON_CLAW",
+        "THRASH",
+        "ROCK_SLIDE",
+        "STEALTH_ROCK"
+      ],
+      "species": "TYRANTRUM",
+      "species_token": "SPECIES_TYRANTRUM"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 454,
+  "trainer_id": 454,
+  "trainer_name": "Lee",
+  "trainerclass": "TRAINERCLASS_RUIN_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "AMNESIA",
+        "SLUDGE_WAVE"
+      ],
+      "species": "CLODSIRE",
+      "species_token": "SPECIES_CLODSIRE"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "MEGAHORN",
+        "THRASH",
+        "THROAT_CHOP",
+        "CLOSE_COMBAT"
+      ],
+      "species": "HERACROSS",
+      "species_token": "SPECIES_HERACROSS"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "UPROAR",
+        "DREAM_EATER",
+        "MOONBLAST",
+        "SKY_ATTACK"
+      ],
+      "species": "NOCTOWL",
+      "species_token": "SPECIES_NOCTOWL"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "DRAGON_PULSE",
+        "MUDDY_WATER",
+        "PROTECT",
+        "DRAGON_BREATH"
+      ],
+      "species": "SLIGGOO",
+      "species_token": "SPECIES_SLIGGOO"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "SLUDGE_BOMB",
+        "HYDRO_PUMP",
+        "DOUBLE_TEAM",
+        "DRAGON_PULSE"
+      ],
+      "species": "DRAGALGE",
+      "species_token": "SPECIES_DRAGALGE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 727,
+  "trainer_id": 727,
+  "trainer_name": "Lyle",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

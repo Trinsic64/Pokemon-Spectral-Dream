@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "CROSS_CHOP",
+        "STRENGTH",
+        "BULK_UP",
+        "KNOCK_OFF"
+      ],
+      "species": "MACHAMP",
+      "species_token": "SPECIES_MACHAMP"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "HYDRO_PUMP",
+        "THRASH",
+        "AQUA_TAIL",
+        "HURRICANE"
+      ],
+      "species": "GYARADOS",
+      "species_token": "SPECIES_GYARADOS"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "DRAGON_RUSH",
+        "SUCKER_PUNCH",
+        "U_TURN",
+        "PHANTOM_FORCE"
+      ],
+      "species": "DRAGAPULT",
+      "species_token": "SPECIES_DRAGAPULT"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "GUNK_SHOT",
+        "ACID_ARMOR",
+        "FLING",
+        "BELCH"
+      ],
+      "species": "MUK",
+      "species_token": "SPECIES_MUK"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "PETAL_DANCE",
+        "MOONBLAST",
+        "QUIVER_DANCE",
+        "SUNNY_DAY"
+      ],
+      "species": "BELLOSSOM",
+      "species_token": "SPECIES_BELLOSSOM"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "PSYCHIC",
+        "MEGAHORN",
+        "AGILITY",
+        "PSYCHO_CUT"
+      ],
+      "species": "RAPIDASH",
+      "species_token": "SPECIES_RAPIDASH"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 819,
+  "trainer_id": 819,
+  "trainer_name": "Orion",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

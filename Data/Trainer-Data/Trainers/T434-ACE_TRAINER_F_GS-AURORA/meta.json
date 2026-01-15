@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THERMAL_EXCHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "ICE_BEAM",
+        "DRAGON_CLAW",
+        "ICE_FANG",
+        "FOCUS_ENERGY"
+      ],
+      "species": "FRIGIBAX",
+      "species_token": "SPECIES_FRIGIBAX"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "BODY_SLAM",
+        "CRUNCH",
+        "ICE_FANG",
+        "IRON_DEFENSE"
+      ],
+      "species": "AVALUGG",
+      "species_token": "SPECIES_AVALUGG"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "REVENGE",
+        "SLASH",
+        "ASSURANCE",
+        "ICY_WIND"
+      ],
+      "species": "WEAVILE",
+      "species_token": "SPECIES_WEAVILE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 434,
+  "trainer_id": 434,
+  "trainer_name": "Aurora",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F_GS",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

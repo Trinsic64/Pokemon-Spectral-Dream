@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "MOUNTAIN_GALE",
+        "CRUNCH",
+        "BLIZZARD",
+        "STONE_EDGE"
+      ],
+      "species": "AVALUGG",
+      "species_token": "SPECIES_AVALUGG"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "SCARY_FACE",
+        "ROCK_WRECKER"
+      ],
+      "species": "RHYPERIOR",
+      "species_token": "SPECIES_RHYPERIOR"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_POLISH",
+        "DIG",
+        "IRON_TAIL"
+      ],
+      "species": "STEELIX",
+      "species_token": "SPECIES_STEELIX"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 823,
+  "trainer_id": 823,
+  "trainer_name": "Vesper",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAND_SPIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "COIL",
+        "SLAM",
+        "HEADBUTT",
+        "BULLDOZE"
+      ],
+      "species": "SANDACONDA",
+      "species_token": "SPECIES_SANDACONDA"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTH_POWER",
+        "ROCK_TOMB",
+        "EXTRASENSORY",
+        "COSMIC_POWER"
+      ],
+      "species": "CLAYDOL",
+      "species_token": "SPECIES_CLAYDOL"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "STONE_EDGE",
+        "ROCK_POLISH",
+        "STEAMROLLER"
+      ],
+      "species": "GOLEM",
+      "species_token": "SPECIES_GOLEM"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "KNOCK_OFF",
+        "FIRE_FANG",
+        "SLAM"
+      ],
+      "species": "DONPHAN",
+      "species_token": "SPECIES_DONPHAN"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_POLISH",
+        "DIG",
+        "IRON_TAIL"
+      ],
+      "species": "STEELIX",
+      "species_token": "SPECIES_STEELIX"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 680,
+  "trainer_id": 680,
+  "trainer_name": "Cole",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

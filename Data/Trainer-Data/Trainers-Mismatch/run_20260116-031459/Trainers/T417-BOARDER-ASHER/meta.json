@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "PSYCHIC",
+        "TELEPORT",
+        "PSYSHOCK",
+        "PSYBEAM"
+      ],
+      "species": "KADABRA",
+      "species_token": "SPECIES_KADABRA"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "CRUNCH",
+        "PSYBEAM",
+        "STOMP"
+      ],
+      "species": "GIRAFARIG",
+      "species_token": "SPECIES_GIRAFARIG"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "BULLDOZE",
+        "ROCK_POLISH",
+        "ROCK_THROW",
+        "SMACK_DOWN"
+      ],
+      "species": "GRAVELER",
+      "species_token": "SPECIES_GRAVELER"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 417,
+  "trainer_id": 417,
+  "trainer_name": "Asher",
+  "trainerclass": "TRAINERCLASS_BOARDER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

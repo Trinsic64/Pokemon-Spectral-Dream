@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 85,
+      "moves": [
+        "EARTHQUAKE",
+        "THRASH",
+        "AMNESIA",
+        "BLIZZARD"
+      ],
+      "species": "MAMOSWINE",
+      "species_token": "SPECIES_MAMOSWINE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 85,
+      "moves": [
+        "THRASH",
+        "HONE_CLAWS",
+        "OUTRAGE",
+        "FOUL_PLAY"
+      ],
+      "species": "KROOKODILE",
+      "species_token": "SPECIES_KROOKODILE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 85,
+      "moves": [
+        "BOOMBURST",
+        "DRAGON_DANCE",
+        "SUPERPOWER",
+        "DRAGON_RUSH"
+      ],
+      "species": "FLYGON",
+      "species_token": "SPECIES_FLYGON"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 85,
+      "moves": [
+        "EARTHQUAKE",
+        "STRENGTH",
+        "IRON_DEFENSE",
+        "SUPERPOWER"
+      ],
+      "species": "MUDSDALE",
+      "species_token": "SPECIES_MUDSDALE"
+    },
+    {
+      "ability": "SAND_SPIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 85,
+      "moves": [
+        "COIL",
+        "SLAM",
+        "HEADBUTT",
+        "BULLDOZE"
+      ],
+      "species": "SANDACONDA",
+      "species_token": "SPECIES_SANDACONDA"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 85,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_POLISH",
+        "DIG",
+        "IRON_TAIL"
+      ],
+      "species": "STEELIX",
+      "species_token": "SPECIES_STEELIX"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 964,
+  "trainer_id": 964,
+  "trainer_name": "KAREN",
+  "trainerclass": "TRAINERCLASS_ELITE_FOUR_KAREN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

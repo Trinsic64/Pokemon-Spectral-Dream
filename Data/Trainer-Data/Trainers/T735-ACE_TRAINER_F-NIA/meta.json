@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "EARTHQUAKE",
+        "AMNESIA",
+        "AQUA_TAIL",
+        "HAZE"
+      ],
+      "species": "QUAGSIRE",
+      "species_token": "SPECIES_QUAGSIRE"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "HYDRO_PUMP",
+        "UPROAR",
+        "ACID",
+        "MUD_SHOT"
+      ],
+      "species": "SEISMITOAD",
+      "species_token": "SPECIES_SEISMITOAD"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "EARTHQUAKE",
+        "AMNESIA"
+      ],
+      "species": "SWAMPERT",
+      "species_token": "SPECIES_SWAMPERT"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "BODY_SLAM",
+        "HIGH_HORSEPOWER",
+        "GROWL",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "MILTANK",
+      "species_token": "SPECIES_MILTANK"
+    },
+    {
+      "ability": "FLUFFY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "LAST_RESORT",
+        "HEADBUTT",
+        "TACKLE",
+        "GUARD_SPLIT"
+      ],
+      "species": "DUBWOOL",
+      "species_token": "SPECIES_DUBWOOL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 735,
+  "trainer_id": 735,
+  "trainer_name": "Nia",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

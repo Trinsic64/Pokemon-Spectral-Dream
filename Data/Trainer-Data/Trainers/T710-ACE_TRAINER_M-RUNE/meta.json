@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "PHANTOM_FORCE",
+        "U_TURN"
+      ],
+      "species": "DRAKLOAK",
+      "species_token": "SPECIES_DRAKLOAK"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "DARK_PULSE",
+        "NASTY_PLOT"
+      ],
+      "species": "SPIRITOMB",
+      "species_token": "SPECIES_SPIRITOMB"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "HEX",
+        "CHARGE"
+      ],
+      "species": "ROTOM",
+      "species_token": "SPECIES_ROTOM"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "CONFUSE_RAY",
+        "HEX",
+        "INFERNO"
+      ],
+      "species": "CHANDELURE",
+      "species_token": "SPECIES_CHANDELURE"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "IRON_HEAD",
+        "SACRED_SWORD",
+        "NIGHT_SLASH",
+        "SHADOW_SNEAK"
+      ],
+      "species": "DOUBLADE",
+      "species_token": "SPECIES_DOUBLADE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 710,
+  "trainer_id": 710,
+  "trainer_name": "Rune",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

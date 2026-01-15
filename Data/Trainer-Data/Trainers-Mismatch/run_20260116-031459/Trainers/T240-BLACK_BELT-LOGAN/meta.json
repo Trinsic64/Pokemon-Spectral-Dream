@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "KNOCK_OFF",
+        "LOW_SWEEP",
+        "VITAL_THROW",
+        "REVENGE"
+      ],
+      "species": "MACHOKE",
+      "species_token": "SPECIES_MACHOKE"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "TAIL_GLOW",
+        "STRUGGLE_BUG",
+        "DOUBLE_TEAM",
+        "TACKLE"
+      ],
+      "species": "VOLBEAT",
+      "species_token": "SPECIES_VOLBEAT"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "POISON_JAB",
+        "SLAM",
+        "POISON_TAIL",
+        "MUD_SHOT"
+      ],
+      "species": "CLODSIRE",
+      "species_token": "SPECIES_CLODSIRE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 240,
+  "trainer_id": 240,
+  "trainer_name": "Logan",
+  "trainerclass": "TRAINERCLASS_BLACK_BELT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

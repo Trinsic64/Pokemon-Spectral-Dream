@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "FIRE_BLAST",
+        "EXTRASENSORY",
+        "INFERNO",
+        "NASTY_PLOT"
+      ],
+      "species": "NINETALES",
+      "species_token": "SPECIES_NINETALES"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "PETAL_DANCE",
+        "PETAL_BLIZZARD",
+        "GIGA_DRAIN",
+        "POISON_STING"
+      ],
+      "species": "ROSELIA",
+      "species_token": "SPECIES_ROSELIA"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "POWER_WHIP",
+        "HIGH_JUMP_KICK",
+        "TROP_KICK",
+        "SWAGGER"
+      ],
+      "species": "TSAREENA",
+      "species_token": "SPECIES_TSAREENA"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HEAT_WAVE",
+        "DRAGON_CLAW",
+        "FLAMETHROWER",
+        "AIR_SLASH"
+      ],
+      "species": "CHARIZARD",
+      "species_token": "SPECIES_CHARIZARD"
+    },
+    {
+      "ability": "EARLY_BIRD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "FLAMETHROWER",
+        "NASTY_PLOT",
+        "INFERNO",
+        "FOUL_PLAY"
+      ],
+      "species": "HOUNDOOM",
+      "species_token": "SPECIES_HOUNDOOM"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 618,
+  "trainer_id": 618,
+  "trainer_name": "Ember",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FUR_COAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "PLAY_ROUGH",
+        "POWER_GEM",
+        "QUASH",
+        "BITE"
+      ],
+      "species": "PERSIAN",
+      "species_token": "SPECIES_PERSIAN"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "BODY_SLAM",
+        "BULK_UP",
+        "VITAL_THROW",
+        "WIDE_GUARD"
+      ],
+      "species": "THROH",
+      "species_token": "SPECIES_THROH"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "CRUSH_CLAW",
+        "RAPID_SPIN",
+        "SLASH",
+        "DIG"
+      ],
+      "species": "SANDSLASH",
+      "species_token": "SPECIES_SANDSLASH"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 416,
+  "trainer_id": 416,
+  "trainer_name": "Dylan",
+  "trainerclass": "TRAINERCLASS_BOARDER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

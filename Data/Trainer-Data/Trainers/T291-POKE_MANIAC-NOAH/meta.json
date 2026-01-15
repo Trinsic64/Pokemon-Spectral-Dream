@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "EXTRASENSORY",
+        "ROCK_TOMB",
+        "PSYBEAM",
+        "MUD_SLAP"
+      ],
+      "species": "BALTOY",
+      "species_token": "SPECIES_BALTOY"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "SUCKER_PUNCH",
+        "CONFUSE_RAY",
+        "SPITE",
+        "LICK"
+      ],
+      "species": "GASTLY",
+      "species_token": "SPECIES_GASTLY"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "GIGA_DRAIN",
+        "TOXIC",
+        "ACID",
+        "MEGA_DRAIN"
+      ],
+      "species": "ODDISH",
+      "species_token": "SPECIES_ODDISH"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 291,
+  "trainer_id": 291,
+  "trainer_name": "Noah",
+  "trainerclass": "TRAINERCLASS_POKE_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "LEECH_SEED",
+        "LEAF_TORNADO",
+        "VINE_WHIP",
+        "TACKLE"
+      ],
+      "species": "SNIVY",
+      "species_token": "SPECIES_SNIVY"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "KNOCK_OFF",
+        "WATER_GUN",
+        "MEGA_DRAIN",
+        "MIST"
+      ],
+      "species": "LOMBRE",
+      "species_token": "SPECIES_LOMBRE"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "GROWTH",
+        "ACID",
+        "MEGA_DRAIN",
+        "ABSORB"
+      ],
+      "species": "GLOOM",
+      "species_token": "SPECIES_GLOOM"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 205,
+  "trainer_id": 205,
+  "trainer_name": "Parker",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

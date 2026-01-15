@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "CHARM",
+        "DISARMING_VOICE",
+        "POUND",
+        "COPYCAT"
+      ],
+      "species": "CLEFFA",
+      "species_token": "SPECIES_CLEFFA"
+    },
+    {
+      "ability": "SHADOW_TAG",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "AMNESIA",
+        "CHARM",
+        "ENCORE",
+        "MIRROR_COAT"
+      ],
+      "species": "WYNAUT",
+      "species_token": "SPECIES_WYNAUT"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "CHARGE",
+        "SCRATCH",
+        "QUICK_ATTACK",
+        "THUNDER_SHOCK"
+      ],
+      "species": "PAWMI",
+      "species_token": "SPECIES_PAWMI"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "PLAY_NICE",
+        "CONFUSION",
+        "DISARMING_VOICE",
+        "LIFE_DEW"
+      ],
+      "species": "HATENNA",
+      "species_token": "SPECIES_HATENNA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 149,
+  "trainer_id": 149,
+  "trainer_name": "Tarian",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

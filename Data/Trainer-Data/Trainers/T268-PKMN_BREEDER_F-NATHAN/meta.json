@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "COVET",
+        "ECHOED_VOICE",
+        "DISARMING_VOICE",
+        "POUND"
+      ],
+      "species": "CHANSEY",
+      "species_token": "SPECIES_CHANSEY"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "KNOCK_OFF",
+        "SPITE",
+        "HEX",
+        "FEINT_ATTACK"
+      ],
+      "species": "BANETTE",
+      "species_token": "SPECIES_BANETTE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "SUCKER_PUNCH",
+        "RAPID_SPIN",
+        "REVENGE",
+        "ROLLING_KICK"
+      ],
+      "species": "HITMONTOP",
+      "species_token": "SPECIES_HITMONTOP"
+    },
+    {
+      "ability": "SOLID_ROCK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "CRUNCH",
+        "BRINE",
+        "BITE",
+        "SMACK_DOWN"
+      ],
+      "species": "TIRTOUGA",
+      "species_token": "SPECIES_TIRTOUGA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 268,
+  "trainer_id": 268,
+  "trainer_name": "Nathan",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

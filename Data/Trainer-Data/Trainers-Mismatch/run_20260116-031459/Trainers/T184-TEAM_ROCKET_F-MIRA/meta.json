@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HONE_CLAWS",
+        "BITE",
+        "ASSURANCE",
+        "SAND_TOMB"
+      ],
+      "species": "KROKOROK",
+      "species_token": "SPECIES_KROKOROK"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "BITE",
+        "SWAGGER",
+        "VENOSHOCK",
+        "POISON_TAIL"
+      ],
+      "species": "SEVIPER",
+      "species_token": "SPECIES_SEVIPER"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "FOCUS_ENERGY",
+        "FORCE_PALM",
+        "BRINE",
+        "TACKLE"
+      ],
+      "species": "HARIYAMA",
+      "species_token": "SPECIES_HARIYAMA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 184,
+  "trainer_id": 184,
+  "trainer_name": "Mira",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

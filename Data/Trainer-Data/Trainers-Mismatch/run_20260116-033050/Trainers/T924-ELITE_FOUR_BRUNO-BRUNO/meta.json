@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STAMINA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 87,
+      "moves": [
+        "FLASH_CANNON",
+        "IRON_DEFENSE",
+        "DRAGON_CLAW",
+        "BREAKING_SWIPE"
+      ],
+      "species": "ARCHALUDON",
+      "species_token": "SPECIES_ARCHALUDON"
+    },
+    {
+      "ability": "STANCE_CHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 87,
+      "moves": [
+        "IRON_HEAD",
+        "SACRED_SWORD",
+        "HEAD_SMASH",
+        "SHADOW_SNEAK"
+      ],
+      "species": "AEGISLASH",
+      "species_token": "SPECIES_AEGISLASH"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 87,
+      "moves": [
+        "DRILL_PECK",
+        "IRON_DEFENSE",
+        "STEEL_WING",
+        "PLUCK"
+      ],
+      "species": "CORVIKNIGHT",
+      "species_token": "SPECIES_CORVIKNIGHT"
+    },
+    {
+      "ability": "QUARK_DRIVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 87,
+      "moves": [
+        "STONE_EDGE",
+        "EARTHQUAKE",
+        "CHARGE",
+        "WILD_CHARGE"
+      ],
+      "species": "IRON_THORNS",
+      "species_token": "SPECIES_IRON_THORNS"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 87,
+      "moves": [
+        "FLASH_CANNON",
+        "MEGA_PUNCH",
+        "ACID_ARMOR",
+        "DYNAMIC_PUNCH"
+      ],
+      "species": "MELMETAL",
+      "species_token": "SPECIES_MELMETAL"
+    },
+    {
+      "ability": "ADAPTABILITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 87,
+      "moves": [
+        "METEOR_MASH",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "CLOSE_COMBAT"
+      ],
+      "species": "LUCARIO",
+      "species_token": "SPECIES_LUCARIO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 924,
+  "trainer_id": 924,
+  "trainer_name": "BRUNO",
+  "trainerclass": "TRAINERCLASS_ELITE_FOUR_BRUNO",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

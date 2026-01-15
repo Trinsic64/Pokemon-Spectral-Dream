@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNARDS_OUT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "WATER_SPORT",
+        "SOAK",
+        "HARDEN",
+        "MUD_SPORT"
+      ],
+      "species": "PYUKUMUKU",
+      "species_token": "SPECIES_PYUKUMUKU"
+    },
+    {
+      "ability": "WELL_BAKED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "PLAY_ROUGH",
+        "CRUNCH",
+        "BITE",
+        "WORK_UP"
+      ],
+      "species": "DACHSBUN",
+      "species_token": "SPECIES_DACHSBUN"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "IRON_TAIL",
+        "ROCK_SLIDE"
+      ],
+      "species": "LAIRON",
+      "species_token": "SPECIES_LAIRON"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "AMNESIA",
+        "SLUDGE_WAVE"
+      ],
+      "species": "CLODSIRE",
+      "species_token": "SPECIES_CLODSIRE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "SHADOW_BALL",
+        "SPITE",
+        "HEX",
+        "PSYBEAM"
+      ],
+      "species": "MISDREAVUS",
+      "species_token": "SPECIES_MISDREAVUS"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "PLAY_ROUGH",
+        "NASTY_PLOT",
+        "POWER_GEM",
+        "SLASH"
+      ],
+      "species": "PERSIAN",
+      "species_token": "SPECIES_PERSIAN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 496,
+  "trainer_id": 496,
+  "trainer_name": "Idris",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

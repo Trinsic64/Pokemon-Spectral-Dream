@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "LEAF_BLADE",
+        "LEAF_STORM",
+        "X_SCISSOR",
+        "SWORDS_DANCE"
+      ],
+      "species": "LEAVANNY",
+      "species_token": "SPECIES_LEAVANNY"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "HYDRO_PUMP",
+        "UPROAR",
+        "ACID",
+        "MUD_SHOT"
+      ],
+      "species": "SEISMITOAD",
+      "species_token": "SPECIES_SEISMITOAD"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "LAST_RESORT",
+        "AFTER_YOU",
+        "HYPER_VOICE",
+        "SLAM"
+      ],
+      "species": "CINCCINO",
+      "species_token": "SPECIES_CINCCINO"
+    },
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "DISCHARGE",
+        "SHIFT_GEAR",
+        "ZAP_CANNON",
+        "MIRROR_SHOT"
+      ],
+      "species": "KLINKLANG",
+      "species_token": "SPECIES_KLINKLANG"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FUTURE_SIGHT",
+        "HEAL_BLOCK",
+        "FEINT_ATTACK",
+        "PSYCHIC"
+      ],
+      "species": "GOTHITELLE",
+      "species_token": "SPECIES_GOTHITELLE"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FLAMETHROWER",
+        "HEAD_SMASH",
+        "ASSURANCE",
+        "HAMMER_ARM"
+      ],
+      "species": "EMBOAR",
+      "species_token": "SPECIES_EMBOAR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 854,
+  "trainer_id": 854,
+  "trainer_name": "Rosa",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "CRUNCH",
+        "CHARGE",
+        "SPARK",
+        "THUNDER_FANG"
+      ],
+      "species": "LUXRAY",
+      "species_token": "SPECIES_LUXRAY"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "AQUA_TAIL",
+        "CRUNCH",
+        "AGILITY",
+        "ICE_FANG"
+      ],
+      "species": "FLOATZEL",
+      "species_token": "SPECIES_FLOATZEL"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "METEOR_MASH",
+        "NASTY_PLOT",
+        "BONE_RUSH",
+        "AURA_SPHERE"
+      ],
+      "species": "LUCARIO",
+      "species_token": "SPECIES_LUCARIO"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SHADOW_BALL",
+        "FUTURE_SIGHT",
+        "CONFUSE_RAY",
+        "SHADOW_PUNCH"
+      ],
+      "species": "DUSCLOPS",
+      "species_token": "SPECIES_DUSCLOPS"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SKY_UPPERCUT",
+        "X_SCISSOR",
+        "SLASH",
+        "ACROBATICS"
+      ],
+      "species": "GLIGAR",
+      "species_token": "SPECIES_GLIGAR"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "CRUNCH",
+        "LEECH_SEED",
+        "GIGA_DRAIN"
+      ],
+      "species": "TORTERRA",
+      "species_token": "SPECIES_TORTERRA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 534,
+  "trainer_id": 534,
+  "trainer_name": "Barry",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

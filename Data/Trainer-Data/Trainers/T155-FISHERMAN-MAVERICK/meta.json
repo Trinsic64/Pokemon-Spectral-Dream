@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "WATER_SPORT",
+        "WATER_GUN",
+        "QUICK_ATTACK",
+        "GROWL"
+      ],
+      "species": "BUIZEL",
+      "species_token": "SPECIES_BUIZEL"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "ABSORB",
+        "SPIDER_WEB",
+        "ELECTROWEB",
+        "BUG_BITE"
+      ],
+      "species": "JOLTIK",
+      "species_token": "SPECIES_JOLTIK"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "QUICK_ATTACK",
+        "TACKLE"
+      ],
+      "species": "STARAVIA",
+      "species_token": "SPECIES_STARAVIA"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "SPLASH",
+        "PSYBEAM",
+        "ODOR_SLEUTH",
+        "PSYCH_UP"
+      ],
+      "species": "SPOINK",
+      "species_token": "SPECIES_SPOINK"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 155,
+  "trainer_id": 155,
+  "trainer_name": "Maverick",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

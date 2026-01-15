@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "CALM_MIND",
+        "FLAME_WHEEL",
+        "ACROBATICS",
+        "CLOSE_COMBAT"
+      ],
+      "species": "INFERNAPE",
+      "species_token": "SPECIES_INFERNAPE"
+    },
+    {
+      "ability": "RECKLESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "CROSS_CHOP",
+        "HONE_CLAWS",
+        "HEADBUTT",
+        "NIGHT_SLASH"
+      ],
+      "species": "OBSTAGOON",
+      "species_token": "SPECIES_OBSTAGOON"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "HEX",
+        "CHARGE"
+      ],
+      "species": "ROTOM_WASH",
+      "species_token": "SPECIES_ROTOM_WASH"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "AIR_SLASH",
+        "THRASH",
+        "SWAGGER",
+        "HAMMER_ARM"
+      ],
+      "species": "TORNADUS",
+      "species_token": "SPECIES_TORNADUS"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "OUTRAGE",
+        "NASTY_PLOT",
+        "DRAGON_RUSH",
+        "CRUNCH"
+      ],
+      "species": "HYDREIGON",
+      "species_token": "SPECIES_HYDREIGON"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FOUL_PLAY",
+        "POWER_GEM",
+        "KNOCK_OFF",
+        "SHADOW_BALL"
+      ],
+      "species": "SABLEYE",
+      "species_token": "SPECIES_SABLEYE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 831,
+  "trainer_id": 831,
+  "trainer_name": "Darya",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

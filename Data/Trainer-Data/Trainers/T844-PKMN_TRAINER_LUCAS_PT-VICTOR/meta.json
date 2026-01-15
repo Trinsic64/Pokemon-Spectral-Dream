@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "BUG_BUZZ",
+        "PSYCHIC",
+        "PSYBEAM",
+        "AGILITY"
+      ],
+      "species": "ORBEETLE",
+      "species_token": "SPECIES_ORBEETLE"
+    },
+    {
+      "ability": "RIPEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "GRAV_APPLE",
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "DRAGON_RUSH"
+      ],
+      "species": "FLAPPLE",
+      "species_token": "SPECIES_FLAPPLE"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "LIQUIDATION",
+        "BODY_SLAM",
+        "ROCK_POLISH",
+        "HEAD_SMASH"
+      ],
+      "species": "DREDNAW",
+      "species_token": "SPECIES_DREDNAW"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FOUL_PLAY",
+        "PLAY_ROUGH",
+        "NASTY_PLOT",
+        "HAMMER_ARM"
+      ],
+      "species": "GRIMMSNARL",
+      "species_token": "SPECIES_GRIMMSNARL"
+    },
+    {
+      "ability": "PUNK_ROCK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "BELCH",
+        "BOOMBURST",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "TOXTRICITY",
+      "species_token": "SPECIES_TOXTRICITY"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "PYRO_BALL",
+        "AGILITY",
+        "DOUBLE_KICK",
+        "HEADBUTT"
+      ],
+      "species": "CINDERACE",
+      "species_token": "SPECIES_CINDERACE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 844,
+  "trainer_id": 844,
+  "trainer_name": "Victor",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DRY_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "VOLT_SWITCH",
+        "PARABOLIC_CHARGE",
+        "BULLDOZE",
+        "RAZOR_WIND"
+      ],
+      "species": "HELIOPTILE",
+      "species_token": "SPECIES_HELIOPTILE"
+    },
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "GEAR_GRIND",
+        "VICE_GRIP"
+      ],
+      "species": "KLINK",
+      "species_token": "SPECIES_KLINK"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ICE_BEAM",
+        "SIGNAL_BEAM",
+        "FOCUS_ENERGY",
+        "BUBBLE_BEAM"
+      ],
+      "species": "REMORAID",
+      "species_token": "SPECIES_REMORAID"
+    },
+    {
+      "ability": "LIQUID_OOZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "SLUDGE_BOMB",
+        "AMNESIA",
+        "SLUDGE",
+        "STOCKPILE"
+      ],
+      "species": "GULPIN",
+      "species_token": "SPECIES_GULPIN"
+    },
+    {
+      "ability": "MUMMY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "HEX",
+        "OMINOUS_WIND",
+        "CURSE",
+        "PROTECT"
+      ],
+      "species": "YAMASK",
+      "species_token": "SPECIES_YAMASK"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "STRENGTH",
+        "KNOCK_OFF",
+        "LOW_SWEEP",
+        "VITAL_THROW"
+      ],
+      "species": "MACHOP",
+      "species_token": "SPECIES_MACHOP"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 305,
+  "trainer_id": 305,
+  "trainer_name": "Jacob",
+  "trainerclass": "TRAINERCLASS_GUITARIST",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "LIGHT_SCREEN",
+        "SWIFT",
+        "REFLECT",
+        "SAFEGUARD"
+      ],
+      "species": "LEDYBA",
+      "species_token": "SPECIES_LEDYBA"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "WATER_SPORT",
+        "WATER_PULSE",
+        "CONFUSION",
+        "WATER_GUN"
+      ],
+      "species": "PSYDUCK",
+      "species_token": "SPECIES_PSYDUCK"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "GROWTH",
+        "ACID",
+        "SWEET_SCENT",
+        "ABSORB"
+      ],
+      "species": "ODDISH",
+      "species_token": "SPECIES_ODDISH"
+    },
+    {
+      "ability": "WIND_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "GROWL",
+        "PLUCK",
+        "THUNDER_SHOCK",
+        "PECK"
+      ],
+      "species": "WATTREL",
+      "species_token": "SPECIES_WATTREL"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 127,
+  "trainer_id": 127,
+  "trainer_name": "Penelope",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

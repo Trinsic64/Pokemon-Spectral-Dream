@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "MOONBLAST",
+        "STORED_POWER",
+        "COSMIC_POWER",
+        "METEOR_MASH"
+      ],
+      "species": "CLEFABLE",
+      "species_token": "SPECIES_CLEFABLE"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "FIRST_IMPRESSION",
+        "BULK_UP",
+        "HEADBUTT",
+        "ROCK_SMASH"
+      ],
+      "species": "FALINKS",
+      "species_token": "SPECIES_FALINKS"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "RAGING_BULL",
+        "ZEN_HEADBUTT",
+        "WORK_UP",
+        "HORN_ATTACK"
+      ],
+      "species": "TAUROS",
+      "species_token": "SPECIES_TAUROS"
+    },
+    {
+      "ability": "FOREWARN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "FUTURE_SIGHT",
+        "MOONBLAST",
+        "CALM_MIND",
+        "DREAM_EATER"
+      ],
+      "species": "MUSHARNA",
+      "species_token": "SPECIES_MUSHARNA"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "HYDRO_PUMP",
+        "WATER_SPORT",
+        "WAKE_UP_SLAP",
+        "WATER_PULSE"
+      ],
+      "species": "ALOMOMOLA",
+      "species_token": "SPECIES_ALOMOMOLA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 391,
+  "trainer_id": 391,
+  "trainer_name": "Ianthe",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

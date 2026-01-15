@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLUFFY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "STRENGTH",
+        "BRUTAL_SWING",
+        "PAYBACK",
+        "HAMMER_ARM"
+      ],
+      "species": "STUFFUL",
+      "species_token": "SPECIES_STUFFUL"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "MEGA_DRAIN",
+        "FAIRY_WIND",
+        "ACROBATICS",
+        "TACKLE"
+      ],
+      "species": "SKIPLOOM",
+      "species_token": "SPECIES_SKIPLOOM"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "RAPID_SPIN",
+        "BUBBLE_BEAM",
+        "BRINE",
+        "PSYBEAM"
+      ],
+      "species": "STARYU",
+      "species_token": "SPECIES_STARYU"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "HEAL_BLOCK",
+        "PSYBEAM",
+        "HIDDEN_POWER"
+      ],
+      "species": "ELGYEM",
+      "species_token": "SPECIES_ELGYEM"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "ENERGY_BALL",
+        "FAIRY_WIND",
+        "ROUND",
+        "DRAINING_KISS"
+      ],
+      "species": "SWIRLIX",
+      "species_token": "SPECIES_SWIRLIX"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 386,
+  "trainer_id": 386,
+  "trainer_name": "EamonA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

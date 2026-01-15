@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "FLAMETHROWER",
+        "THRASH",
+        "CROSS_CHOP",
+        "DARKEST_LARIAT"
+      ],
+      "species": "INCINEROAR",
+      "species_token": "SPECIES_INCINEROAR"
+    },
+    {
+      "ability": "UNNERVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "ENERGY_BALL",
+        "PSYCHIC",
+        "AROMATHERAPY",
+        "PSYSHOCK"
+      ],
+      "species": "CALYREX",
+      "species_token": "SPECIES_CALYREX"
+    },
+    {
+      "ability": "GOOD_AS_GOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "MAKE_IT_RAIN",
+        "SHADOW_BALL",
+        "NASTY_PLOT",
+        "POWER_GEM"
+      ],
+      "species": "GHOLDENGO",
+      "species_token": "SPECIES_GHOLDENGO"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "EARTH_POWER",
+        "DISCHARGE",
+        "ELECTRIC_TERRAIN",
+        "SPARK"
+      ],
+      "species": "SANDY_SHOCKS",
+      "species_token": "SPECIES_SANDY_SHOCKS"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "DOUBLE_TEAM",
+        "CLOSE_COMBAT",
+        "AERIAL_ACE",
+        "TAKE_DOWN"
+      ],
+      "species": "STARAPTOR",
+      "species_token": "SPECIES_STARAPTOR"
+    },
+    {
+      "ability": "ADAPTABILITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "POISON_JAB",
+        "ASSURANCE",
+        "VENOSHOCK",
+        "FELL_STINGER"
+      ],
+      "species": "BEEDRILL",
+      "species_token": "SPECIES_BEEDRILL"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 871,
+  "trainer_id": 871,
+  "trainer_name": "Helix",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "SCARY_FACE",
+        "STONE_EDGE"
+      ],
+      "species": "RHYDON",
+      "species_token": "SPECIES_RHYDON"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "CRUNCH",
+        "SAND_ATTACK",
+        "FIRE_FANG"
+      ],
+      "species": "HIPPOWDON",
+      "species_token": "SPECIES_HIPPOWDON"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "STRENGTH",
+        "IRON_DEFENSE",
+        "SUPERPOWER"
+      ],
+      "species": "MUDSDALE",
+      "species_token": "SPECIES_MUDSDALE"
+    },
+    {
+      "ability": "SAND_SPIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "COIL",
+        "SLAM",
+        "HEADBUTT",
+        "BULLDOZE"
+      ],
+      "species": "SANDACONDA",
+      "species_token": "SPECIES_SANDACONDA"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "KNOCK_OFF",
+        "FIRE_FANG",
+        "SLAM"
+      ],
+      "species": "DONPHAN",
+      "species_token": "SPECIES_DONPHAN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 674,
+  "trainer_id": 674,
+  "trainer_name": "Terra",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

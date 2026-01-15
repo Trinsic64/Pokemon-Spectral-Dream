@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "WATER_SPORT",
+        "WATER_GUN",
+        "SCRATCH",
+        "PLAY_NICE"
+      ],
+      "species": "PANPOUR",
+      "species_token": "SPECIES_PANPOUR"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "SHADOW_SNEAK",
+        "CONFUSE_RAY",
+        "RAZOR_LEAF",
+        "ASTONISH"
+      ],
+      "species": "PUMPKABOO",
+      "species_token": "SPECIES_PUMPKABOO"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "ASTONISH",
+        "CONFUSE_RAY",
+        "BRANCH_POKE",
+        "TACKLE"
+      ],
+      "species": "PHANTUMP",
+      "species_token": "SPECIES_PHANTUMP"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "FOCUS_ENERGY",
+        "SCRATCH",
+        "ACID_SPRAY",
+        "POISON_GAS"
+      ],
+      "species": "STUNKY",
+      "species_token": "SPECIES_STUNKY"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 176,
+  "trainer_id": 176,
+  "trainer_name": "Jayden",
+  "trainerclass": "TRAINERCLASS_PARASOL_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

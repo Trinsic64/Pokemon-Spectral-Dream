@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "FOCUS_ENERGY",
+        "PECK",
+        "POISON_STING",
+        "LEER"
+      ],
+      "species": "NIDORAN_M",
+      "species_token": "SPECIES_NIDORAN_M"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "LICK",
+        "CONFUSE_RAY",
+        "MEAN_LOOK",
+        "HYPNOSIS"
+      ],
+      "species": "GASTLY",
+      "species_token": "SPECIES_GASTLY"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "WITHDRAW",
+        "WATER_GUN",
+        "TACKLE",
+        "TAIL_WHIP"
+      ],
+      "species": "SQUIRTLE",
+      "species_token": "SPECIES_SQUIRTLE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 5,
+  "trainer_id": 5,
+  "trainer_name": "Blue",
+  "trainerclass": "TRAINERCLASS_LEADER_BLUE",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

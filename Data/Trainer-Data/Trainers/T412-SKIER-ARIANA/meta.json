@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STICKY_HOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "MUDDY_WATER",
+        "BODY_SLAM",
+        "MUD_SPORT",
+        "MUD_BOMB"
+      ],
+      "species": "GASTRODON",
+      "species_token": "SPECIES_GASTRODON"
+    },
+    {
+      "ability": "FUR_COAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "GROWL",
+        "HEADBUTT",
+        "RETALIATE",
+        "BITE"
+      ],
+      "species": "FURFROU",
+      "species_token": "SPECIES_FURFROU"
+    },
+    {
+      "ability": "OVERCOAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "PSYSHOCK",
+        "ROLLOUT",
+        "REFLECT",
+        "PSYBEAM"
+      ],
+      "species": "DUOSION",
+      "species_token": "SPECIES_DUOSION"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "HYPER_FANG",
+        "CRUNCH",
+        "FOCUS_ENERGY",
+        "HYPNOSIS"
+      ],
+      "species": "WATCHOG",
+      "species_token": "SPECIES_WATCHOG"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 412,
+  "trainer_id": 412,
+  "trainer_name": "Ariana",
+  "trainerclass": "TRAINERCLASS_SKIER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

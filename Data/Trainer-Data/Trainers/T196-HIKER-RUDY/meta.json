@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "DOUBLE_KICK",
+        "CAMOUFLAGE",
+        "FEINT_ATTACK",
+        "TACKLE"
+      ],
+      "species": "DEERLING",
+      "species_token": "SPECIES_DEERLING"
+    },
+    {
+      "ability": "SIMPLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "HYPER_FANG",
+        "HEADBUTT",
+        "AQUA_JET",
+        "ROTOTILLER"
+      ],
+      "species": "BIBAREL",
+      "species_token": "SPECIES_BIBAREL"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "STRUGGLE_BUG",
+        "LIGHT_SCREEN",
+        "CONFUSION",
+        "REFLECT"
+      ],
+      "species": "DOTTLER",
+      "species_token": "SPECIES_DOTTLER"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "ICE_SHARD",
+        "TACKLE",
+        "POWDER_SNOW",
+        "REST"
+      ],
+      "species": "CETODDLE",
+      "species_token": "SPECIES_CETODDLE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 196,
+  "trainer_id": 196,
+  "trainer_name": "Rudy",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

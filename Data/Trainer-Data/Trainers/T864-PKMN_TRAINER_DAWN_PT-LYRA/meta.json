@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "HYDRO_PUMP",
+        "PLAY_ROUGH",
+        "WATER_SPORT",
+        "BOUNCE"
+      ],
+      "species": "AZUMARILL",
+      "species_token": "SPECIES_AZUMARILL"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "DRAGON_PULSE",
+        "POWER_GEM",
+        "CHARGE",
+        "ZAP_CANNON"
+      ],
+      "species": "AMPHAROS",
+      "species_token": "SPECIES_AMPHAROS"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FIRE_BLAST",
+        "THUNDER_PUNCH",
+        "SUNNY_DAY",
+        "LOW_KICK"
+      ],
+      "species": "MAGMORTAR",
+      "species_token": "SPECIES_MAGMORTAR"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "AIR_SLASH",
+        "LAST_RESORT",
+        "FAIRY_WIND",
+        "AURA_SPHERE"
+      ],
+      "species": "TOGEKISS",
+      "species_token": "SPECIES_TOGEKISS"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "MEGAHORN",
+        "PSYSHIELD_BASH",
+        "DOUBLE_EDGE"
+      ],
+      "species": "WYRDEER",
+      "species_token": "SPECIES_WYRDEER"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "PETAL_DANCE",
+        "BODY_SLAM",
+        "PETAL_BLIZZARD",
+        "REFLECT"
+      ],
+      "species": "MEGANIUM",
+      "species_token": "SPECIES_MEGANIUM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 864,
+  "trainer_id": 864,
+  "trainer_name": "Lyra",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FAIRY_WIND",
+        "MEGA_DRAIN",
+        "U_TURN",
+        "ACROBATICS"
+      ],
+      "species": "JUMPLUFF",
+      "species_token": "SPECIES_JUMPLUFF"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FIRE_PUNCH",
+        "THRASH",
+        "SUPERPOWER",
+        "SWAGGER"
+      ],
+      "species": "DARMANITAN",
+      "species_token": "SPECIES_DARMANITAN"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SUCKER_PUNCH",
+        "REVENGE",
+        "ROLLING_KICK",
+        "FOCUS_ENERGY"
+      ],
+      "species": "HITMONTOP",
+      "species_token": "SPECIES_HITMONTOP"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "X_SCISSOR",
+        "CRUNCH",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "DURANT",
+      "species_token": "SPECIES_DURANT"
+    },
+    {
+      "ability": "COMATOSE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "THRASH",
+        "SLAM",
+        "SUCKER_PUNCH",
+        "STOCKPILE"
+      ],
+      "species": "KOMALA",
+      "species_token": "SPECIES_KOMALA"
+    },
+    {
+      "ability": "REFRIGERATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "CRUNCH",
+        "DOUBLE_TEAM",
+        "FREEZE_DRY",
+        "ICE_FANG"
+      ],
+      "species": "GLALIE",
+      "species_token": "SPECIES_GLALIE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 593,
+  "trainer_id": 593,
+  "trainer_name": "Quella",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

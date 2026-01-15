@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "IRON_DEFENSE",
+        "WATER_GUN",
+        "WHIRLPOOL",
+        "CLAMP"
+      ],
+      "species": "CLAMPERL",
+      "species_token": "SPECIES_CLAMPERL"
+    },
+    {
+      "ability": "SUCTION_CUPS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "GIGA_DRAIN",
+        "ANCIENT_POWER",
+        "AMNESIA",
+        "BRINE"
+      ],
+      "species": "LILEEP",
+      "species_token": "SPECIES_LILEEP"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "STRUGGLE_BUG",
+        "LIGHT_SCREEN",
+        "CONFUSION",
+        "REFLECT"
+      ],
+      "species": "DOTTLER",
+      "species_token": "SPECIES_DOTTLER"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "ROLLOUT",
+        "DEFENSE_CURL",
+        "SLAM",
+        "TACKLE"
+      ],
+      "species": "PHANPY",
+      "species_token": "SPECIES_PHANPY"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "NIGHT_SLASH",
+        "SLASH",
+        "RETALIATE",
+        "SHADOW_SNEAK"
+      ],
+      "species": "HONEDGE",
+      "species_token": "SPECIES_HONEDGE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 326,
+  "trainer_id": 326,
+  "trainer_name": "Penelope",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

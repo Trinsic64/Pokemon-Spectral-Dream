@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "SIGNAL_BEAM",
+        "BUBBLE_BEAM",
+        "CHARGE"
+      ],
+      "species": "LANTURN",
+      "species_token": "SPECIES_LANTURN"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "THUNDERBOLT",
+        "AGILITY",
+        "THUNDER",
+        "DISCHARGE"
+      ],
+      "species": "RAICHU",
+      "species_token": "SPECIES_RAICHU"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "CRUNCH",
+        "THUNDER_WAVE",
+        "SPARK"
+      ],
+      "species": "EELEKTRIK",
+      "species_token": "SPECIES_EELEKTRIK"
+    },
+    {
+      "ability": "DRY_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "THUNDERBOLT",
+        "THUNDER",
+        "DISCHARGE",
+        "RAZOR_WIND"
+      ],
+      "species": "HELIOLISK",
+      "species_token": "SPECIES_HELIOLISK"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 439,
+  "trainer_id": 439,
+  "trainer_name": "Julian",
+  "trainerclass": "TRAINERCLASS_GUITARIST",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

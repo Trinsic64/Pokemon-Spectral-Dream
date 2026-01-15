@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "RAZOR_SHELL",
+        "KNOCK_OFF",
+        "NIGHT_SLASH",
+        "BUBBLE_BEAM"
+      ],
+      "species": "CORPHISH",
+      "species_token": "SPECIES_CORPHISH"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ROUND",
+        "DRAGON_BREATH",
+        "PECK",
+        "COTTON_GUARD"
+      ],
+      "species": "SWABLU",
+      "species_token": "SPECIES_SWABLU"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "STOMPING_TANTRUM",
+        "FOCUS_ENERGY",
+        "BONE_CLUB",
+        "HEADBUTT"
+      ],
+      "species": "CUBONE",
+      "species_token": "SPECIES_CUBONE"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "CRUNCH",
+        "FOCUS_ENERGY",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "WATCHOG",
+      "species_token": "SPECIES_WATCHOG"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ENERGY_BALL",
+        "FAIRY_WIND",
+        "ROUND",
+        "DRAINING_KISS"
+      ],
+      "species": "SWIRLIX",
+      "species_token": "SPECIES_SWIRLIX"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 310,
+  "trainer_id": 310,
+  "trainer_name": "Ezra",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

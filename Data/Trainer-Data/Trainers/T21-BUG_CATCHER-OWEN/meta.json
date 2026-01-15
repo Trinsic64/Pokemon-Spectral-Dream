@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "GUST",
+        "SWEET_SCENT"
+      ],
+      "species": "COMBEE",
+      "species_token": "SPECIES_COMBEE"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "SAND_ATTACK",
+        "SCRATCH",
+        "HARDEN",
+        "SCRATCH"
+      ],
+      "species": "NINCADA",
+      "species_token": "SPECIES_NINCADA"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "WORRY_SEED",
+        "ABSORB",
+        "GROWTH",
+        "STUN_SPORE"
+      ],
+      "species": "BUDEW",
+      "species_token": "SPECIES_BUDEW"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 21,
+  "trainer_id": 21,
+  "trainer_name": "Owen",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

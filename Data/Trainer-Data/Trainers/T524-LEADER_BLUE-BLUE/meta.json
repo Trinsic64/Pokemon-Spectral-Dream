@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTH_POWER",
+        "MEGAHORN",
+        "FOCUS_ENERGY",
+        "POISON_JAB"
+      ],
+      "species": "NIDOKING",
+      "species_token": "SPECIES_NIDOKING"
+    },
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "CONFUSE_RAY",
+        "DARK_PULSE"
+      ],
+      "species": "GENGAR",
+      "species_token": "SPECIES_GENGAR"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "STONE_EDGE",
+        "SCARY_FACE",
+        "HAMMER_ARM"
+      ],
+      "species": "RHYDON",
+      "species_token": "SPECIES_RHYDON"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PETAL_BLIZZARD",
+        "MOONBLAST",
+        "TOXIC",
+        "ACID"
+      ],
+      "species": "GLOOM",
+      "species_token": "SPECIES_GLOOM"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FLAMETHROWER",
+        "PLAY_ROUGH",
+        "HOWL",
+        "REVERSAL"
+      ],
+      "species": "GROWLITHE",
+      "species_token": "SPECIES_GROWLITHE"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "AQUA_TAIL",
+        "FLASH_CANNON",
+        "WATER_PULSE",
+        "SHELL_SMASH"
+      ],
+      "species": "BLASTOISE",
+      "species_token": "SPECIES_BLASTOISE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 524,
+  "trainer_id": 524,
+  "trainer_name": "Blue",
+  "trainerclass": "TRAINERCLASS_LEADER_BLUE",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

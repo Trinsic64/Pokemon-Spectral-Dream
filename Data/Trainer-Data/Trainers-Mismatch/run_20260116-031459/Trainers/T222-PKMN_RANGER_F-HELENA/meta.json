@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "PLAY_ROUGH",
+        "COVET",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "FIDOUGH",
+      "species_token": "SPECIES_FIDOUGH"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "CHARGE",
+        "THUNDER_SHOCK",
+        "THUNDER_WAVE",
+        "COTTON_SPORE"
+      ],
+      "species": "FLAAFFY",
+      "species_token": "SPECIES_FLAAFFY"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "AGILITY",
+        "CONFUSION",
+        "TACKLE",
+        "FAIRY_WIND"
+      ],
+      "species": "PONYTA",
+      "species_token": "SPECIES_PONYTA"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "GIGA_DRAIN",
+        "INGRAIN",
+        "RAZOR_LEAF",
+        "MEGA_DRAIN"
+      ],
+      "species": "SUNFLORA",
+      "species_token": "SPECIES_SUNFLORA"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "COVET",
+        "METAL_CLAW",
+        "ROCK_SMASH",
+        "DRAINING_KISS"
+      ],
+      "species": "TINKATINK",
+      "species_token": "SPECIES_TINKATINK"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 222,
+  "trainer_id": 222,
+  "trainer_name": "Helena",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

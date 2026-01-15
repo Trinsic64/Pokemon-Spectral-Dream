@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FUTURE_SIGHT",
+        "DREAM_EATER",
+        "CALM_MIND",
+        "PSYCHIC"
+      ],
+      "species": "GARDEVOIR",
+      "species_token": "SPECIES_GARDEVOIR"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "PETAL_DANCE",
+        "PETAL_BLIZZARD",
+        "GIGA_DRAIN",
+        "POISON_STING"
+      ],
+      "species": "ROSERADE",
+      "species_token": "SPECIES_ROSERADE"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "DRAGON_PULSE",
+        "MOONBLAST",
+        "DRAGON_BREATH",
+        "SKY_ATTACK"
+      ],
+      "species": "ALTARIA",
+      "species_token": "SPECIES_ALTARIA"
+    },
+    {
+      "ability": "RECKLESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "CROSS_CHOP",
+        "HONE_CLAWS",
+        "HEADBUTT",
+        "NIGHT_SLASH"
+      ],
+      "species": "OBSTAGOON",
+      "species_token": "SPECIES_OBSTAGOON"
+    },
+    {
+      "ability": "MARVEL_SCALE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "AQUA_TAIL",
+        "COIL"
+      ],
+      "species": "MILOTIC",
+      "species_token": "SPECIES_MILOTIC"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BULK_UP",
+        "BLAZE_KICK",
+        "SKY_UPPERCUT"
+      ],
+      "species": "BLAZIKEN",
+      "species_token": "SPECIES_BLAZIKEN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 861,
+  "trainer_id": 861,
+  "trainer_name": "May",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

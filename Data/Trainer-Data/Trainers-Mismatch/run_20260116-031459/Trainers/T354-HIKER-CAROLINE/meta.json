@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "REFRIGERATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "AURORA_BEAM",
+        "MIST",
+        "ICY_WIND",
+        "ANCIENT_POWER"
+      ],
+      "species": "AMAURA",
+      "species_token": "SPECIES_AMAURA"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "POWER_GEM",
+        "MOONBLAST",
+        "ROCK_SLIDE",
+        "PSYSHOCK"
+      ],
+      "species": "LUNATONE",
+      "species_token": "SPECIES_LUNATONE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "ROCK_SLIDE",
+        "ROCK_THROW",
+        "ROCK_POLISH"
+      ],
+      "species": "SOLROCK",
+      "species_token": "SPECIES_SOLROCK"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 354,
+  "trainer_id": 354,
+  "trainer_name": "Caroline",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

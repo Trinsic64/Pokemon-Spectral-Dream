@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "RAPID_SPIN",
+        "BITE",
+        "ICY_WIND",
+        "TACKLE"
+      ],
+      "species": "BERGMITE",
+      "species_token": "SPECIES_BERGMITE"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "AMNESIA",
+        "MUD_BOMB",
+        "WATER_PULSE",
+        "SNORE"
+      ],
+      "species": "BARBOACH",
+      "species_token": "SPECIES_BARBOACH"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "HELPING_HAND",
+        "POUND",
+        "BABY_DOLL_EYES",
+        "SING"
+      ],
+      "species": "MINCCINO",
+      "species_token": "SPECIES_MINCCINO"
+    },
+    {
+      "ability": "COTTON_DOWN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "RAPID_SPIN",
+        "RAZOR_LEAF",
+        "ROUND",
+        "LEAFAGE"
+      ],
+      "species": "GOSSIFLEUR",
+      "species_token": "SPECIES_GOSSIFLEUR"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 165,
+  "trainer_id": 165,
+  "trainer_name": "Wyatt",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

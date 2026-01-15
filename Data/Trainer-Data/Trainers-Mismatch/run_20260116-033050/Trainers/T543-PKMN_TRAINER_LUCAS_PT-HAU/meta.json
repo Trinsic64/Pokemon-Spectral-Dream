@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "BEAK_BLAST",
+        "GROWL",
+        "ROCK_SMASH",
+        "HYPER_VOICE"
+      ],
+      "species": "TOUCANNON",
+      "species_token": "SPECIES_TOUCANNON"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "ROCK_SLIDE",
+        "ROCK_CLIMB",
+        "DOUBLE_TEAM",
+        "COUNTER"
+      ],
+      "species": "LYCANROC",
+      "species_token": "SPECIES_LYCANROC"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PETAL_BLIZZARD",
+        "X_SCISSOR",
+        "LEAF_BLADE",
+        "SUNNY_DAY"
+      ],
+      "species": "LURANTIS",
+      "species_token": "SPECIES_LURANTIS"
+    },
+    {
+      "ability": "WIMP_OUT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "STRUGGLE_BUG",
+        "DEFENSE_CURL",
+        "SAND_ATTACK",
+        "STRUGGLE_BUG"
+      ],
+      "species": "WIMPOD",
+      "species_token": "SPECIES_WIMPOD"
+    },
+    {
+      "ability": "DISGUISE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PLAY_ROUGH",
+        "DOUBLE_TEAM",
+        "SHADOW_CLAW",
+        "SLASH"
+      ],
+      "species": "MIMIKYU",
+      "species_token": "SPECIES_MIMIKYU"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FLAMETHROWER",
+        "THRASH",
+        "CROSS_CHOP",
+        "DARKEST_LARIAT"
+      ],
+      "species": "INCINEROAR",
+      "species_token": "SPECIES_INCINEROAR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 543,
+  "trainer_id": 543,
+  "trainer_name": "Hau",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

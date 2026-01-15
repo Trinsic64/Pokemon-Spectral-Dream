@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "CHARGE",
+        "SHOCK_WAVE",
+        "FLAME_CHARGE",
+        "QUICK_ATTACK"
+      ],
+      "species": "BLITZLE",
+      "species_token": "SPECIES_BLITZLE"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "KNOCK_OFF",
+        "SPITE",
+        "SHADOW_SNEAK",
+        "SCREECH"
+      ],
+      "species": "SHUPPET",
+      "species_token": "SPECIES_SHUPPET"
+    },
+    {
+      "ability": "STAKEOUT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "LEER",
+        "TACKLE",
+        "PURSUIT",
+        "ODOR_SLEUTH"
+      ],
+      "species": "GUMSHOOS",
+      "species_token": "SPECIES_GUMSHOOS"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 181,
+  "trainer_id": 181,
+  "trainer_name": "Jett",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

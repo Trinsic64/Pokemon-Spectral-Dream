@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TOXIC_CHAIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "POISON_JAB",
+        "CRUNCH",
+        "BULK_UP",
+        "SUPERPOWER"
+      ],
+      "species": "OKIDOGI",
+      "species_token": "SPECIES_OKIDOGI"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "THRASH",
+        "PLAY_ROUGH",
+        "HAMMER_ARM",
+        "HEADLONG_RUSH"
+      ],
+      "species": "URSALUNA",
+      "species_token": "SPECIES_URSALUNA"
+    },
+    {
+      "ability": "DISGUISE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "PLAY_ROUGH",
+        "DOUBLE_TEAM",
+        "SHADOW_CLAW",
+        "SLASH"
+      ],
+      "species": "MIMIKYU",
+      "species_token": "SPECIES_MIMIKYU"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "CALM_MIND",
+        "PSYBEAM"
+      ],
+      "species": "HATTERENE",
+      "species_token": "SPECIES_HATTERENE"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "POWER_WHIP",
+        "HIGH_JUMP_KICK",
+        "TROP_KICK",
+        "SWAGGER"
+      ],
+      "species": "TSAREENA",
+      "species_token": "SPECIES_TSAREENA"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "FOUL_PLAY",
+        "PLAY_ROUGH",
+        "NASTY_PLOT",
+        "HAMMER_ARM"
+      ],
+      "species": "GRIMMSNARL",
+      "species_token": "SPECIES_GRIMMSNARL"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 808,
+  "trainer_id": 808,
+  "trainer_name": "Fenn",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

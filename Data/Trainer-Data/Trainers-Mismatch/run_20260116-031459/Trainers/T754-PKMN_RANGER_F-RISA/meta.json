@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "MOONBLAST",
+        "PSYCHIC",
+        "DRAINING_KISS",
+        "CALM_MIND"
+      ],
+      "species": "AROMATISSE",
+      "species_token": "SPECIES_AROMATISSE"
+    },
+    {
+      "ability": "MIMICRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "MUDDY_WATER",
+        "BOUNCE",
+        "SUCKER_PUNCH",
+        "METAL_CLAW"
+      ],
+      "species": "STUNFISK",
+      "species_token": "SPECIES_STUNFISK"
+    },
+    {
+      "ability": "COTTON_DOWN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "HYPER_VOICE",
+        "RAPID_SPIN",
+        "LEAF_TORNADO",
+        "ROUND"
+      ],
+      "species": "ELDEGOSS",
+      "species_token": "SPECIES_ELDEGOSS"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "THUNDERBOLT",
+        "AGILITY",
+        "THUNDER",
+        "DISCHARGE"
+      ],
+      "species": "RAICHU",
+      "species_token": "SPECIES_RAICHU"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "AQUA_TAIL",
+        "ICE_BEAM",
+        "AQUA_RING",
+        "DIVE"
+      ],
+      "species": "DEWGONG",
+      "species_token": "SPECIES_DEWGONG"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "FUTURE_SIGHT",
+        "NASTY_PLOT",
+        "WAKE_UP_SLAP",
+        "SYNCHRONOISE"
+      ],
+      "species": "HYPNO",
+      "species_token": "SPECIES_HYPNO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 754,
+  "trainer_id": 754,
+  "trainer_name": "Risa",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

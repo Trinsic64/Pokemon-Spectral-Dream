@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "STRING_SHOT",
+        "POISON_STING",
+        "POISON_STING",
+        "POISON_STING"
+      ],
+      "species": "WEEDLE",
+      "species_token": "SPECIES_WEEDLE"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "STUN_SPORE",
+        "SCRATCH",
+        "POISON_POWDER",
+        "SCRATCH"
+      ],
+      "species": "PARAS",
+      "species_token": "SPECIES_PARAS"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "ABSORB",
+        "STRING_SHOT",
+        "POISON_STING",
+        "CONSTRICT"
+      ],
+      "species": "SPINARAK",
+      "species_token": "SPECIES_SPINARAK"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "STRING_SHOT",
+        "TACKLE",
+        "POISON_STING",
+        "TACKLE"
+      ],
+      "species": "WURMPLE",
+      "species_token": "SPECIES_WURMPLE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 38,
+  "trainer_id": 38,
+  "trainer_name": "Caleb",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

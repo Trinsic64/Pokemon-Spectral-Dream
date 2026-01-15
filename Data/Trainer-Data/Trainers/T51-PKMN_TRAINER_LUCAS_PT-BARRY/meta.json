@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "CHARGE",
+        "TACKLE",
+        "THUNDER_SHOCK",
+        "LEER"
+      ],
+      "species": "SHINX",
+      "species_token": "SPECIES_SHINX"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "WATER_SPORT",
+        "GROWL",
+        "SONIC_BOOM",
+        "SONIC_BOOM"
+      ],
+      "species": "BUIZEL",
+      "species_token": "SPECIES_BUIZEL"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "WITHDRAW",
+        "TACKLE",
+        "TACKLE",
+        "TACKLE"
+      ],
+      "species": "TURTWIG",
+      "species_token": "SPECIES_TURTWIG"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 51,
+  "trainer_id": 51,
+  "trainer_name": "Barry",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

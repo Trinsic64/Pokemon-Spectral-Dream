@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "IRON_HEAD",
+        "SEED_BOMB",
+        "SMACK_DOWN",
+        "AIR_SLASH"
+      ],
+      "species": "CELESTEELA",
+      "species_token": "SPECIES_CELESTEELA"
+    },
+    {
+      "ability": "JUSTIFIED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "HYDRO_PUMP",
+        "WORK_UP",
+        "SECRET_SWORD",
+        "AQUA_TAIL"
+      ],
+      "species": "KELDEO",
+      "species_token": "SPECIES_KELDEO"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "FIRE_BLAST",
+        "FUTURE_SIGHT",
+        "CALM_MIND",
+        "BRAVE_BIRD"
+      ],
+      "species": "HO_OH",
+      "species_token": "SPECIES_HO_OH"
+    },
+    {
+      "ability": "FAIRY_AURA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "MEGAHORN",
+        "AROMATHERAPY",
+        "CLOSE_COMBAT",
+        "MOONBLAST"
+      ],
+      "species": "XERNEAS",
+      "species_token": "SPECIES_XERNEAS"
+    },
+    {
+      "ability": "HADRON_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "OUTRAGE",
+        "DRAGON_PULSE",
+        "CHARGE",
+        "ELECTRO_DRIFT"
+      ],
+      "species": "MIRAIDON",
+      "species_token": "SPECIES_MIRAIDON"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "METEOR_MASH",
+        "AGILITY",
+        "HAMMER_ARM",
+        "PSYCHIC"
+      ],
+      "species": "METAGROSS",
+      "species_token": "SPECIES_METAGROSS"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 919,
+  "trainer_id": 919,
+  "trainer_name": "Nerys",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

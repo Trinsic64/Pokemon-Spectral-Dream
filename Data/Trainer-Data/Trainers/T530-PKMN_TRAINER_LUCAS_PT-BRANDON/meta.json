@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "DISCHARGE",
+        "LAST_RESORT",
+        "CHARGE",
+        "THUNDER"
+      ],
+      "species": "PLUSLE",
+      "species_token": "SPECIES_PLUSLE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "DRAGON_CLAW",
+        "DRAGON_DANCE",
+        "SUPERPOWER"
+      ],
+      "species": "FLYGON",
+      "species_token": "SPECIES_FLYGON"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "AIR_SLASH",
+        "FOCUS_ENERGY",
+        "WING_ATTACK",
+        "QUICK_ATTACK"
+      ],
+      "species": "SWELLOW",
+      "species_token": "SPECIES_SWELLOW"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SURF",
+        "BODY_SLAM",
+        "SWAGGER",
+        "BLIZZARD"
+      ],
+      "species": "SEALEO",
+      "species_token": "SPECIES_SEALEO"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "FOCUS_ENERGY",
+        "EARTH_POWER",
+        "FLAMETHROWER"
+      ],
+      "species": "NUMEL",
+      "species_token": "SPECIES_NUMEL"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "ENERGY_BALL",
+        "X_SCISSOR",
+        "AGILITY",
+        "LEAF_BLADE"
+      ],
+      "species": "SCEPTILE",
+      "species_token": "SPECIES_SCEPTILE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 530,
+  "trainer_id": 530,
+  "trainer_name": "Brandon",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

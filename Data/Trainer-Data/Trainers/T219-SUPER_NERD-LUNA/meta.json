@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "PSYBEAM",
+        "AGILITY",
+        "THUNDER_SHOCK",
+        "TACKLE"
+      ],
+      "species": "PORYGON",
+      "species_token": "SPECIES_PORYGON"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "COVET",
+        "METAL_CLAW",
+        "ROCK_SMASH",
+        "DRAINING_KISS"
+      ],
+      "species": "TINKATUFF",
+      "species_token": "SPECIES_TINKATUFF"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "CHARGE",
+        "DOUBLE_TEAM",
+        "THUNDER_SHOCK",
+        "QUICK_ATTACK"
+      ],
+      "species": "EMOLGA",
+      "species_token": "SPECIES_EMOLGA"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "HEAL_BLOCK",
+        "PSYBEAM",
+        "CONFUSION",
+        "MIRACLE_EYE"
+      ],
+      "species": "ELGYEM",
+      "species_token": "SPECIES_ELGYEM"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "WATER_GUN",
+        "WITHDRAW",
+        "BITE",
+        "ROLLOUT"
+      ],
+      "species": "OMANYTE",
+      "species_token": "SPECIES_OMANYTE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 219,
+  "trainer_id": 219,
+  "trainer_name": "Luna",
+  "trainerclass": "TRAINERCLASS_SUPER_NERD",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

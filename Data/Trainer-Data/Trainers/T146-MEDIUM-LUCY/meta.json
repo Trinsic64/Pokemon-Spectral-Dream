@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "AFTERMATH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "PAYBACK",
+        "FOCUS_ENERGY",
+        "GUST",
+        "ASTONISH"
+      ],
+      "species": "DRIFLOON",
+      "species_token": "SPECIES_DRIFLOON"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "BITE",
+        "HEADBUTT",
+        "TACKLE",
+        "LICK"
+      ],
+      "species": "GREAVARD",
+      "species_token": "SPECIES_GREAVARD"
+    },
+    {
+      "ability": "WATER_COMPACTION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "ASTONISH",
+        "SAND_ATTACK",
+        "HARDEN",
+        "SAND_TOMB"
+      ],
+      "species": "SANDYGAST",
+      "species_token": "SPECIES_SANDYGAST"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "ASTONISH",
+        "CONFUSE_RAY",
+        "EMBER",
+        "MINIMIZE"
+      ],
+      "species": "LITWICK",
+      "species_token": "SPECIES_LITWICK"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 146,
+  "trainer_id": 146,
+  "trainer_name": "Lucy",
+  "trainerclass": "TRAINERCLASS_MEDIUM",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

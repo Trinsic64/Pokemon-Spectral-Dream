@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "SKY_UPPERCUT",
+        "BODY_SLAM",
+        "BULLET_PUNCH",
+        "CRUNCH"
+      ],
+      "species": "PANGORO",
+      "species_token": "SPECIES_PANGORO"
+    },
+    {
+      "ability": "SAND_RUSH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "EARTHQUAKE",
+        "DRILL_RUN",
+        "DIG",
+        "METAL_CLAW"
+      ],
+      "species": "EXCADRILL",
+      "species_token": "SPECIES_EXCADRILL"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "SHADOW_BALL",
+        "CRUNCH",
+        "WAKE_UP_SLAP",
+        "BLIZZARD"
+      ],
+      "species": "FROSLASS",
+      "species_token": "SPECIES_FROSLASS"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "ACID_ARMOR",
+        "SLUDGE_WAVE"
+      ],
+      "species": "TENTACRUEL",
+      "species_token": "SPECIES_TENTACRUEL"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "BUG_BUZZ",
+        "UPROAR",
+        "ANCIENT_POWER",
+        "AIR_SLASH"
+      ],
+      "species": "YANMEGA",
+      "species_token": "SPECIES_YANMEGA"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "DRAGON_PULSE",
+        "BOOMBURST",
+        "DOUBLE_TEAM",
+        "HURRICANE"
+      ],
+      "species": "NOIVERN",
+      "species_token": "SPECIES_NOIVERN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 821,
+  "trainer_id": 821,
+  "trainer_name": "Thorne",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

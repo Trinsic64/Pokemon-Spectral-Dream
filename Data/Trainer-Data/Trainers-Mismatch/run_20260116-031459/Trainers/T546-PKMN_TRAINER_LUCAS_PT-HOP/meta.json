@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "DRILL_PECK",
+        "IRON_DEFENSE",
+        "STEEL_WING",
+        "PLUCK"
+      ],
+      "species": "CORVIKNIGHT",
+      "species_token": "SPECIES_CORVIKNIGHT"
+    },
+    {
+      "ability": "RIPEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "ENERGY_BALL",
+        "DRAGON_PULSE",
+        "IRON_DEFENSE",
+        "APPLE_ACID"
+      ],
+      "species": "APPLETUN",
+      "species_token": "SPECIES_APPLETUN"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "CRUNCH",
+        "CHARGE",
+        "SPARK",
+        "BITE"
+      ],
+      "species": "BOLTUND",
+      "species_token": "SPECIES_BOLTUND"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FIRE_LASH",
+        "CRUNCH",
+        "COIL",
+        "LUNGE"
+      ],
+      "species": "SIZZLIPEDE",
+      "species_token": "SPECIES_SIZZLIPEDE"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "X_SCISSOR",
+        "DOUBLE_TEAM",
+        "ROCK_SLIDE",
+        "SLASH"
+      ],
+      "species": "KLEAVOR",
+      "species_token": "SPECIES_KLEAVOR"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SNIPE_SHOT",
+        "SOAK",
+        "U_TURN",
+        "LIQUIDATION"
+      ],
+      "species": "INTELEON",
+      "species_token": "SPECIES_INTELEON"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 546,
+  "trainer_id": 546,
+  "trainer_name": "Hop",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "LAST_RESORT",
+        "BODY_SLAM",
+        "CHIP_AWAY",
+        "AMNESIA"
+      ],
+      "species": "MUNCHLAX",
+      "species_token": "SPECIES_MUNCHLAX"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "MEGA_DRAIN",
+        "MORNING_SUN",
+        "SILVER_WIND",
+        "AIR_CUTTER"
+      ],
+      "species": "BEAUTIFLY",
+      "species_token": "SPECIES_BEAUTIFLY"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "PURSUIT",
+        "DIZZY_PUNCH",
+        "BUBBLE_BEAM",
+        "ROCK_SMASH"
+      ],
+      "species": "CRABRAWLER",
+      "species_token": "SPECIES_CRABRAWLER"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 269,
+  "trainer_id": 269,
+  "trainer_name": "Anna",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

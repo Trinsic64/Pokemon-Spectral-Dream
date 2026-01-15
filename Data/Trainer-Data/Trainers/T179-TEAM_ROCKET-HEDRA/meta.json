@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HAZE",
+        "WING_ATTACK",
+        "PURSUIT",
+        "PECK"
+      ],
+      "species": "MURKROW",
+      "species_token": "SPECIES_MURKROW"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "BUG_BITE",
+        "FELL_STINGER",
+        "SWORDS_DANCE",
+        "POISON_STING"
+      ],
+      "species": "ARIADOS",
+      "species_token": "SPECIES_ARIADOS"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HOWL",
+        "BITE",
+        "ECHOED_VOICE",
+        "POUND"
+      ],
+      "species": "LOUDRED",
+      "species_token": "SPECIES_LOUDRED"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 179,
+  "trainer_id": 179,
+  "trainer_name": "Hedra",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

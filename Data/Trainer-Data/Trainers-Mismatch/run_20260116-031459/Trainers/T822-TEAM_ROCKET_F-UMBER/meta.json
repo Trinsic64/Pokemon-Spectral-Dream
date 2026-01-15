@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "EARTH_POWER",
+        "MEGAHORN",
+        "FOCUS_ENERGY",
+        "POISON_JAB"
+      ],
+      "species": "NIDOKING",
+      "species_token": "SPECIES_NIDOKING"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "SHADOW_BALL",
+        "FUTURE_SIGHT",
+        "CONFUSE_RAY",
+        "SHADOW_PUNCH"
+      ],
+      "species": "DUSKNOIR",
+      "species_token": "SPECIES_DUSKNOIR"
+    },
+    {
+      "ability": "TANGLED_FEET",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "SUCKER_PUNCH",
+        "FREEZE_DRY"
+      ],
+      "species": "MR_RIME",
+      "species_token": "SPECIES_MR_RIME"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "ICICLE_CRASH",
+        "THRASH",
+        "WORK_UP",
+        "SUPERPOWER"
+      ],
+      "species": "DARMANITAN",
+      "species_token": "SPECIES_DARMANITAN"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "FOUL_PLAY",
+        "NIGHT_SLASH",
+        "SUCKER_PUNCH",
+        "WING_ATTACK"
+      ],
+      "species": "HONCHKROW",
+      "species_token": "SPECIES_HONCHKROW"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "OUTRAGE",
+        "DRAGON_CLAW",
+        "DRAGON_DANCE",
+        "DRAGON_PULSE"
+      ],
+      "species": "HAXORUS",
+      "species_token": "SPECIES_HAXORUS"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 822,
+  "trainer_id": 822,
+  "trainer_name": "Umber",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

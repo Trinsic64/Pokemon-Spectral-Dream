@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "SMACK_DOWN",
+        "ROCK_POLISH"
+      ],
+      "species": "COALOSSAL",
+      "species_token": "SPECIES_COALOSSAL"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_DEFENSE",
+        "ZAP_CANNON",
+        "MAGNET_BOMB"
+      ],
+      "species": "PROBOPASS",
+      "species_token": "SPECIES_PROBOPASS"
+    },
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "DISCHARGE",
+        "SHIFT_GEAR",
+        "MIRROR_SHOT",
+        "VICE_GRIP"
+      ],
+      "species": "KLINKLANG",
+      "species_token": "SPECIES_KLINKLANG"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "FUTURE_SIGHT",
+        "EXTRASENSORY",
+        "IRON_DEFENSE",
+        "GYRO_BALL"
+      ],
+      "species": "BRONZONG",
+      "species_token": "SPECIES_BRONZONG"
+    },
+    {
+      "ability": "LIGHT_METAL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "FLASH_CANNON",
+        "IRON_DEFENSE",
+        "DRAGON_CLAW",
+        "BREAKING_SWIPE"
+      ],
+      "species": "DURALUDON",
+      "species_token": "SPECIES_DURALUDON"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 615,
+  "trainer_id": 615,
+  "trainer_name": "Flint",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "COVET",
+        "METAL_CLAW",
+        "ROCK_SMASH",
+        "ASTONISH"
+      ],
+      "species": "TINKATINK",
+      "species_token": "SPECIES_TINKATINK"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "CONFUSION",
+        "TACKLE",
+        "ECHOED_VOICE",
+        "PECK"
+      ],
+      "species": "HOOTHOOT",
+      "species_token": "SPECIES_HOOTHOOT"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "ASSURANCE",
+        "TACKLE"
+      ],
+      "species": "TAROUNTULA",
+      "species_token": "SPECIES_TAROUNTULA"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "RAPID_SPIN",
+        "RAZOR_LEAF",
+        "SPLASH",
+        "PLAY_NICE"
+      ],
+      "species": "BOUNSWEET",
+      "species_token": "SPECIES_BOUNSWEET"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 123,
+  "trainer_id": 123,
+  "trainer_name": "Nova",
+  "trainerclass": "TRAINERCLASS_BEAUTY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

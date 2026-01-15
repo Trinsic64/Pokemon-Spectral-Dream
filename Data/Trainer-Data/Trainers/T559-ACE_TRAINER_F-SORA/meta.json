@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SKY_UPPERCUT",
+        "LEECH_SEED",
+        "DYNAMIC_PUNCH",
+        "SEED_BOMB"
+      ],
+      "species": "BRELOOM",
+      "species_token": "SPECIES_BRELOOM"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SKY_UPPERCUT",
+        "FIRE_FANG",
+        "POISON_JAB",
+        "ACROBATICS"
+      ],
+      "species": "GLISCOR",
+      "species_token": "SPECIES_GLISCOR"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SLUDGE_BOMB",
+        "SUCKER_PUNCH",
+        "POISON_JAB",
+        "REVENGE"
+      ],
+      "species": "TOXICROAK",
+      "species_token": "SPECIES_TOXICROAK"
+    },
+    {
+      "ability": "WATER_BUBBLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LUNGE",
+        "CRUNCH",
+        "SOAK",
+        "BUBBLE_BEAM"
+      ],
+      "species": "ARAQUANID",
+      "species_token": "SPECIES_ARAQUANID"
+    },
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "DARK_PULSE",
+        "AIR_SLASH",
+        "NASTY_PLOT",
+        "IRON_DEFENSE"
+      ],
+      "species": "MANDIBUZZ",
+      "species_token": "SPECIES_MANDIBUZZ"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 559,
+  "trainer_id": 559,
+  "trainer_name": "Sora",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

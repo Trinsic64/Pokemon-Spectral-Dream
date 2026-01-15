@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DISCHARGE",
+        "BITE",
+        "SLAM",
+        "CLOSE_COMBAT"
+      ],
+      "species": "PAWMOT",
+      "species_token": "SPECIES_PAWMOT"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DISCHARGE",
+        "VOLT_SWITCH",
+        "SPARK",
+        "ACROBATICS"
+      ],
+      "species": "EMOLGA",
+      "species_token": "SPECIES_EMOLGA"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "THUNDERBOLT",
+        "AGILITY",
+        "THUNDER",
+        "DISCHARGE"
+      ],
+      "species": "RAICHU",
+      "species_token": "SPECIES_RAICHU"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DISCHARGE",
+        "LAST_RESORT",
+        "THUNDER",
+        "AGILITY"
+      ],
+      "species": "JOLTEON",
+      "species_token": "SPECIES_JOLTEON"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "FLASH_CANNON",
+        "TRI_ATTACK",
+        "BARRIER",
+        "ZAP_CANNON"
+      ],
+      "species": "MAGNEZONE",
+      "species_token": "SPECIES_MAGNEZONE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 509,
+  "trainer_id": 509,
+  "trainer_name": "Elric",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

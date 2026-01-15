@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "REFRIGERATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "FREEZE_DRY",
+        "AURORA_BEAM",
+        "AVALANCHE",
+        "ANCIENT_POWER"
+      ],
+      "species": "AMAURA",
+      "species_token": "SPECIES_AMAURA"
+    },
+    {
+      "ability": "TANGLED_FEET",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "DAZZLING_GLEAM",
+        "SUCKER_PUNCH",
+        "PSYBEAM",
+        "ICY_WIND"
+      ],
+      "species": "MR_RIME",
+      "species_token": "SPECIES_MR_RIME"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "SIGNAL_BEAM",
+        "AURORA_BEAM",
+        "AQUA_RING",
+        "BRINE"
+      ],
+      "species": "DEWGONG",
+      "species_token": "SPECIES_DEWGONG"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 430,
+  "trainer_id": 430,
+  "trainer_name": "Sofia",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F_GS",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "HYDRO_PUMP",
+        "AGILITY",
+        "BRINE",
+        "HURRICANE"
+      ],
+      "species": "PELIPPER",
+      "species_token": "SPECIES_PELIPPER"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "FOCUS_ENERGY",
+        "BUBBLE_BEAM"
+      ],
+      "species": "SEADRA",
+      "species_token": "SPECIES_SEADRA"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "OUTRAGE",
+        "CHARM",
+        "FIRE_FANG",
+        "PLAY_ROUGH"
+      ],
+      "species": "GRANBULL",
+      "species_token": "SPECIES_GRANBULL"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "FLASH_CANNON",
+        "TRI_ATTACK",
+        "ZAP_CANNON",
+        "LIGHT_SCREEN"
+      ],
+      "species": "MAGNETON",
+      "species_token": "SPECIES_MAGNETON"
+    },
+    {
+      "ability": "WATER_BUBBLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "LUNGE",
+        "CRUNCH",
+        "SOAK",
+        "BUBBLE_BEAM"
+      ],
+      "species": "ARAQUANID",
+      "species_token": "SPECIES_ARAQUANID"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "SOAK",
+        "U_TURN",
+        "WATER_PULSE",
+        "WATER_GUN"
+      ],
+      "species": "LUMINEON",
+      "species_token": "SPECIES_LUMINEON"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 501,
+  "trainer_id": 501,
+  "trainer_name": "Lucan",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

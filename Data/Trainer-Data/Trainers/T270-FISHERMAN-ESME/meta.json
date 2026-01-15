@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "AGILITY",
+        "WATER_PULSE",
+        "DRAINING_KISS",
+        "HEART_STAMP"
+      ],
+      "species": "LUVDISC",
+      "species_token": "SPECIES_LUVDISC"
+    },
+    {
+      "ability": "SIMPLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "HYPER_FANG",
+        "CRUNCH",
+        "HEADBUTT",
+        "AQUA_JET"
+      ],
+      "species": "BIBAREL",
+      "species_token": "SPECIES_BIBAREL"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "SCALD",
+        "LEER",
+        "LICK",
+        "FURY_SWIPES"
+      ],
+      "species": "SIMIPOUR",
+      "species_token": "SPECIES_SIMIPOUR"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "MEGAHORN",
+        "POISON_JAB",
+        "HORN_ATTACK",
+        "WATER_PULSE"
+      ],
+      "species": "SEAKING",
+      "species_token": "SPECIES_SEAKING"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 270,
+  "trainer_id": 270,
+  "trainer_name": "Esme",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

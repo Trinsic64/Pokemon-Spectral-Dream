@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "BITE",
+        "INFESTATION",
+        "QUICK_ATTACK",
+        "ASTONISH"
+      ],
+      "species": "DREEPY",
+      "species_token": "SPECIES_DREEPY"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "DRAGON_PULSE",
+        "U_TURN",
+        "AGILITY",
+        "HEX"
+      ],
+      "species": "DRAKLOAK",
+      "species_token": "SPECIES_DRAKLOAK"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "DRAGON_PULSE",
+        "FELL_STINGER",
+        "NASTY_PLOT",
+        "VENOSHOCK"
+      ],
+      "species": "POIPOLE",
+      "species_token": "SPECIES_POIPOLE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 332,
+  "trainer_id": 332,
+  "trainer_name": "Sarah",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

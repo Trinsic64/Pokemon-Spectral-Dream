@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "NASTY_PLOT",
+        "SPARK",
+        "THUNDER_SHOCK",
+        "DOUBLE_TEAM"
+      ],
+      "species": "PIKACHU",
+      "species_token": "SPECIES_PIKACHU"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "TACKLE",
+        "QUICK_ATTACK",
+        "GUST",
+        "SAND_ATTACK"
+      ],
+      "species": "PIDGEOTTO",
+      "species_token": "SPECIES_PIDGEOTTO"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "UPROAR",
+        "CONFUSION",
+        "REFLECT",
+        "MEGA_DRAIN"
+      ],
+      "species": "EXEGGCUTE",
+      "species_token": "SPECIES_EXEGGCUTE"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "LAST_RESORT",
+        "BODY_SLAM",
+        "CHIP_AWAY",
+        "AMNESIA"
+      ],
+      "species": "MUNCHLAX",
+      "species_token": "SPECIES_MUNCHLAX"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "GROWL",
+        "FIRE_FANG",
+        "DRAGON_BREATH",
+        "EMBER"
+      ],
+      "species": "CHARMELEON",
+      "species_token": "SPECIES_CHARMELEON"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 283,
+  "trainer_id": 283,
+  "trainer_name": "Red",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

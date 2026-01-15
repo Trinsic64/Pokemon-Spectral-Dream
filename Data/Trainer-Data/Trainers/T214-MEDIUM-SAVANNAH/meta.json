@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ILLUSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "HONE_CLAWS",
+        "FEINT_ATTACK",
+        "PURSUIT",
+        "TORMENT"
+      ],
+      "species": "ZORUA",
+      "species_token": "SPECIES_ZORUA"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "TELEPORT",
+        "TELEPORT",
+        "TELEPORT",
+        "TELEPORT"
+      ],
+      "species": "ABRA",
+      "species_token": "SPECIES_ABRA"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "SHADOW_SNEAK",
+        "SWORDS_DANCE",
+        "AERIAL_ACE",
+        "FURY_CUTTER"
+      ],
+      "species": "HONEDGE",
+      "species_token": "SPECIES_HONEDGE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 214,
+  "trainer_id": 214,
+  "trainer_name": "Savannah",
+  "trainerclass": "TRAINERCLASS_MEDIUM",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

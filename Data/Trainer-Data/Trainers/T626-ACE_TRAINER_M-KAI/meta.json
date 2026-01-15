@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "AQUA_TAIL",
+        "BRINE",
+        "POISON_JAB"
+      ],
+      "species": "QWILFISH",
+      "species_token": "SPECIES_QWILFISH"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "ACID_ARMOR",
+        "SLUDGE_WAVE"
+      ],
+      "species": "TENTACRUEL",
+      "species_token": "SPECIES_TENTACRUEL"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "SIGNAL_BEAM",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "LANTURN",
+      "species_token": "SPECIES_LANTURN"
+    },
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "ICICLE_CRASH",
+        "IRON_DEFENSE",
+        "ICE_BEAM"
+      ],
+      "species": "CLOYSTER",
+      "species_token": "SPECIES_CLOYSTER"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "CRABHAMMER",
+        "CRUNCH",
+        "RAZOR_SHELL",
+        "SWORDS_DANCE"
+      ],
+      "species": "CRAWDAUNT",
+      "species_token": "SPECIES_CRAWDAUNT"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 626,
+  "trainer_id": 626,
+  "trainer_name": "Kai",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

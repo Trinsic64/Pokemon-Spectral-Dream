@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "AIR_SLASH",
+        "DEFOG",
+        "BUBBLE_BEAM",
+        "HURRICANE"
+      ],
+      "species": "SWANNA",
+      "species_token": "SPECIES_SWANNA"
+    },
+    {
+      "ability": "STICKY_HOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "MUDDY_WATER",
+        "BODY_SLAM",
+        "MUD_SPORT",
+        "EARTH_POWER"
+      ],
+      "species": "GASTRODON",
+      "species_token": "SPECIES_GASTRODON"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "AQUA_TAIL",
+        "ICE_BEAM",
+        "AQUA_RING",
+        "DIVE"
+      ],
+      "species": "DEWGONG",
+      "species_token": "SPECIES_DEWGONG"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "CRABHAMMER",
+        "CRUNCH",
+        "RAZOR_SHELL",
+        "SWORDS_DANCE"
+      ],
+      "species": "CRAWDAUNT",
+      "species_token": "SPECIES_CRAWDAUNT"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "FOCUS_ENERGY",
+        "BUBBLE_BEAM"
+      ],
+      "species": "SEADRA",
+      "species_token": "SPECIES_SEADRA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 645,
+  "trainer_id": 645,
+  "trainer_name": "Iris",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

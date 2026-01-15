@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "DRILL_PECK",
+        "GROWL",
+        "PLUCK",
+        "ECHOED_VOICE"
+      ],
+      "species": "TRUMBEAK",
+      "species_token": "SPECIES_TRUMBEAK"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "STONE_EDGE",
+        "LOW_KICK",
+        "COPYCAT",
+        "ROCK_SLIDE"
+      ],
+      "species": "SUDOWOODO",
+      "species_token": "SPECIES_SUDOWOODO"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "ZAP_CANNON",
+        "BUG_BITE",
+        "MIRROR_SHOT",
+        "SPIKES"
+      ],
+      "species": "FORRETRESS",
+      "species_token": "SPECIES_FORRETRESS"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "FEINT_ATTACK",
+        "FAKE_OUT",
+        "SCRATCH",
+        "HYPNOSIS"
+      ],
+      "species": "GLAMEOW",
+      "species_token": "SPECIES_GLAMEOW"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_SLIDE",
+        "ROCK_THROW",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "SOLROCK",
+      "species_token": "SPECIES_SOLROCK"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 341,
+  "trainer_id": 341,
+  "trainer_name": "Santiago",
+  "trainerclass": "TRAINERCLASS_PICNICKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

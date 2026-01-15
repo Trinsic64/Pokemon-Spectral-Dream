@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "PECK",
+        "WATER_SPORT",
+        "HORN_ATTACK",
+        "WATER_PULSE"
+      ],
+      "species": "GOLDEEN",
+      "species_token": "SPECIES_GOLDEEN"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "COVET",
+        "TACKLE",
+        "QUICK_ATTACK",
+        "GROWL"
+      ],
+      "species": "EEVEE",
+      "species_token": "SPECIES_EEVEE"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "COPYCAT",
+        "ROCK_THROW",
+        "FAKE_TEARS",
+        "MIMIC"
+      ],
+      "species": "BONSLY",
+      "species_token": "SPECIES_BONSLY"
+    },
+    {
+      "ability": "POISON_TOUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "POISON_GAS",
+        "BITE",
+        "POUND",
+        "ACID_SPRAY"
+      ],
+      "species": "GRIMER",
+      "species_token": "SPECIES_GRIMER"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 158,
+  "trainer_id": 158,
+  "trainer_name": "John",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

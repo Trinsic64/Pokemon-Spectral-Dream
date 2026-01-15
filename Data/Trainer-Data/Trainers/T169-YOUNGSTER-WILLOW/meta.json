@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "ABSORB",
+        "FAIRY_WIND",
+        "SILVER_WIND",
+        "SWEET_SCENT"
+      ],
+      "species": "CUTIEFLY",
+      "species_token": "SPECIES_CUTIEFLY"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "ROCK_SLIDE",
+        "SAND_ATTACK",
+        "BULLDOZE",
+        "BITE"
+      ],
+      "species": "TRAPINCH",
+      "species_token": "SPECIES_TRAPINCH"
+    },
+    {
+      "ability": "WATER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "SPLASH",
+        "WATER_GUN",
+        "GROWL",
+        "ASTONISH"
+      ],
+      "species": "WAILMER",
+      "species_token": "SPECIES_WAILMER"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "GROWL",
+        "FAKE_OUT",
+        "SCRATCH",
+        "HYPNOSIS"
+      ],
+      "species": "GLAMEOW",
+      "species_token": "SPECIES_GLAMEOW"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 169,
+  "trainer_id": 169,
+  "trainer_name": "Willow",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

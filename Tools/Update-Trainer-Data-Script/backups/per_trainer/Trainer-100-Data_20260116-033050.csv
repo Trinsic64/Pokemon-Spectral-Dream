@@ -1,0 +1,9 @@
+Trainer 100,Pokemon 1,Pokemon 2,Pokemon 3,Pokemon 4,Pokemon 5,Pokemon 6
+Species,WIGLETT,SANDSHREW,NONE,NONE,NONE,NONE
+Level,13,13,,,,
+Ability,GOOEY,SNOW_CLOAK,,,,
+Held Item,NONE,NONE,,,,
+Move,MUD_SLAP,ICE_BALL,,,,
+Move,SAND_ATTACK,RAPID_SPIN,,,,
+Move,AQUA_JET,SCRATCH,,,,
+Move,WATER_GUN,FURY_CUTTER,,,,

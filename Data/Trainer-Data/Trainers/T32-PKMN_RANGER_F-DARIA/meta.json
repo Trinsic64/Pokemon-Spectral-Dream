@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "METAL_CLAW",
+        "ENDURE",
+        "QUICK_ATTACK",
+        "FEINT"
+      ],
+      "species": "RIOLU",
+      "species_token": "SPECIES_RIOLU"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "FAIRY_WIND",
+        "METAL_CLAW",
+        "ASTONISH",
+        "BABY_DOLL_EYES"
+      ],
+      "species": "TINKATINK",
+      "species_token": "SPECIES_TINKATINK"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "CONFUSION",
+        "DOUBLE_TEAM",
+        "DISARMING_VOICE",
+        "GROWL"
+      ],
+      "species": "RALTS",
+      "species_token": "SPECIES_RALTS"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 32,
+  "trainer_id": 32,
+  "trainer_name": "Daria",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "FUTURE_SIGHT",
+        "CALM_MIND",
+        "PSYCHIC",
+        "PSYSHOCK"
+      ],
+      "species": "ALAKAZAM",
+      "species_token": "SPECIES_ALAKAZAM"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LEAF_BLADE",
+        "NIGHT_SLASH",
+        "CLOSE_COMBAT"
+      ],
+      "species": "GALLADE",
+      "species_token": "SPECIES_GALLADE"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "FUTURE_SIGHT",
+        "DREAM_EATER",
+        "CALM_MIND",
+        "PSYCHIC"
+      ],
+      "species": "GARDEVOIR",
+      "species_token": "SPECIES_GARDEVOIR"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "FUTURE_SIGHT",
+        "EXTRASENSORY",
+        "IRON_DEFENSE",
+        "GYRO_BALL"
+      ],
+      "species": "BRONZONG",
+      "species_token": "SPECIES_BRONZONG"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "FUTURE_SIGHT",
+        "SHADOW_BALL",
+        "HOWL",
+        "FLAMETHROWER"
+      ],
+      "species": "DELPHOX",
+      "species_token": "SPECIES_DELPHOX"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 572,
+  "trainer_id": 572,
+  "trainer_name": "Orion",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

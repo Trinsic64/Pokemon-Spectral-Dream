@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DEFEATIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "ROCK_SLIDE",
+        "THRASH",
+        "ANCIENT_POWER",
+        "WING_ATTACK"
+      ],
+      "species": "ARCHEOPS",
+      "species_token": "SPECIES_ARCHEOPS"
+    },
+    {
+      "ability": "WEAK_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "POWER_GEM",
+        "SPITE",
+        "HEX",
+        "ANCIENT_POWER"
+      ],
+      "species": "CURSOLA",
+      "species_token": "SPECIES_CURSOLA"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "AQUA_TAIL",
+        "THRASH",
+        "AGILITY",
+        "ICE_FANG"
+      ],
+      "species": "FERALIGATR",
+      "species_token": "SPECIES_FERALIGATR"
+    },
+    {
+      "ability": "SUPERSWEET_SYRUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "ENERGY_BALL",
+        "DRAGON_PULSE",
+        "RECYCLE",
+        "FICKLE_BEAM"
+      ],
+      "species": "HYDRAPPLE",
+      "species_token": "SPECIES_HYDRAPPLE"
+    },
+    {
+      "ability": "SERENE_GRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "HYPER_VOICE",
+        "PSYCHIC",
+        "U_TURN",
+        "WAKE_UP_SLAP"
+      ],
+      "species": "MELOETTA",
+      "species_token": "SPECIES_MELOETTA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 827,
+  "trainer_id": 827,
+  "trainer_name": "Zaira",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

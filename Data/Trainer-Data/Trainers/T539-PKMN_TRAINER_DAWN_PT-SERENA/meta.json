@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "BUG_BUZZ",
+        "HURRICANE",
+        "QUIVER_DANCE",
+        "AROMATHERAPY"
+      ],
+      "species": "VIVILLON",
+      "species_token": "SPECIES_VIVILLON"
+    },
+    {
+      "ability": "CHEEK_POUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "DISCHARGE",
+        "PLAY_ROUGH",
+        "CHARGE",
+        "REST"
+      ],
+      "species": "DEDENNE",
+      "species_token": "SPECIES_DEDENNE"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "IRON_HEAD",
+        "NIGHT_SLASH",
+        "SLASH",
+        "SHADOW_SNEAK"
+      ],
+      "species": "DOUBLADE",
+      "species_token": "SPECIES_DOUBLADE"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LEAF_BLADE",
+        "BULK_UP",
+        "BULLDOZE",
+        "SEED_BOMB"
+      ],
+      "species": "SKIDDO",
+      "species_token": "SPECIES_SKIDDO"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "FLYING_PRESS",
+        "SUBMISSION",
+        "SKY_ATTACK"
+      ],
+      "species": "HAWLUCHA",
+      "species_token": "SPECIES_HAWLUCHA"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FUTURE_SIGHT",
+        "SHADOW_BALL",
+        "HOWL",
+        "FLAMETHROWER"
+      ],
+      "species": "DELPHOX",
+      "species_token": "SPECIES_DELPHOX"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 539,
+  "trainer_id": 539,
+  "trainer_name": "Serena",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

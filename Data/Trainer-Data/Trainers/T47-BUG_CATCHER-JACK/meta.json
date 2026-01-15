@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "GROWTH",
+        "VINE_WHIP",
+        "VINE_WHIP",
+        "VINE_WHIP"
+      ],
+      "species": "BELLSPROUT",
+      "species_token": "SPECIES_BELLSPROUT"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "SAND_ATTACK",
+        "FURY_CUTTER",
+        "WITHDRAW",
+        "FURY_CUTTER"
+      ],
+      "species": "DWEBBLE",
+      "species_token": "SPECIES_DWEBBLE"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "ABSORB",
+        "SPIDER_WEB",
+        "FURY_CUTTER",
+        "STRING_SHOT"
+      ],
+      "species": "JOLTIK",
+      "species_token": "SPECIES_JOLTIK"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 47,
+  "trainer_id": 47,
+  "trainer_name": "Jack",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

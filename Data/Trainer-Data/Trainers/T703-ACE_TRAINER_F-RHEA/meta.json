@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "KNOCK_OFF",
+        "PHANTOM_FORCE",
+        "SUCKER_PUNCH"
+      ],
+      "species": "BANETTE",
+      "species_token": "SPECIES_BANETTE"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "PHANTOM_FORCE",
+        "U_TURN"
+      ],
+      "species": "DRAKLOAK",
+      "species_token": "SPECIES_DRAKLOAK"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "DRAGON_DANCE",
+        "PHANTOM_FORCE",
+        "U_TURN",
+        "DRAGON_BREATH"
+      ],
+      "species": "DRAGAPULT",
+      "species_token": "SPECIES_DRAGAPULT"
+    },
+    {
+      "ability": "STEELWORKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "ENERGY_BALL",
+        "ANCHOR_SHOT",
+        "RAPID_SPIN",
+        "PHANTOM_FORCE"
+      ],
+      "species": "DHELMISE",
+      "species_token": "SPECIES_DHELMISE"
+    },
+    {
+      "ability": "DISGUISE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "PLAY_ROUGH",
+        "DOUBLE_TEAM",
+        "SHADOW_CLAW",
+        "SLASH"
+      ],
+      "species": "MIMIKYU",
+      "species_token": "SPECIES_MIMIKYU"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 703,
+  "trainer_id": 703,
+  "trainer_name": "Rhea",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

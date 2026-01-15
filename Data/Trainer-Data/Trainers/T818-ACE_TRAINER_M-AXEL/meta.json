@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "MEGAHORN",
+        "ROCK_CLIMB",
+        "STEAMROLLER",
+        "VENOSHOCK"
+      ],
+      "species": "SCOLIPEDE",
+      "species_token": "SPECIES_SCOLIPEDE"
+    },
+    {
+      "ability": "AFTERMATH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "SHADOW_BALL",
+        "PHANTOM_FORCE",
+        "HEX",
+        "GUST"
+      ],
+      "species": "DRIFBLIM",
+      "species_token": "SPECIES_DRIFBLIM"
+    },
+    {
+      "ability": "RECEIVER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "THRASH",
+        "BULK_UP",
+        "BEAT_UP",
+        "ROCK_SMASH"
+      ],
+      "species": "PASSIMIAN",
+      "species_token": "SPECIES_PASSIMIAN"
+    },
+    {
+      "ability": "ROUGH_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "LIQUIDATION",
+        "FOCUS_ENERGY",
+        "ICE_FANG",
+        "CRUNCH"
+      ],
+      "species": "SHARPEDO",
+      "species_token": "SPECIES_SHARPEDO"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "SOLAR_BLADE",
+        "X_SCISSOR",
+        "PETAL_BLIZZARD",
+        "SUNNY_DAY"
+      ],
+      "species": "LURANTIS",
+      "species_token": "SPECIES_LURANTIS"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 72,
+      "moves": [
+        "EARTHQUAKE",
+        "CRUNCH",
+        "SAND_ATTACK",
+        "FIRE_FANG"
+      ],
+      "species": "HIPPOWDON",
+      "species_token": "SPECIES_HIPPOWDON"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 818,
+  "trainer_id": 818,
+  "trainer_name": "Axel",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

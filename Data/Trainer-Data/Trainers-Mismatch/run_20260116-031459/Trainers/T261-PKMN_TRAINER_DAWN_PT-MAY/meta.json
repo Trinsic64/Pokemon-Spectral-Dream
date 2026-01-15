@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "PSYBEAM",
+        "DOUBLE_TEAM",
+        "MAGICAL_LEAF",
+        "CONFUSION"
+      ],
+      "species": "KIRLIA",
+      "species_token": "SPECIES_KIRLIA"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "GIGA_DRAIN",
+        "MAGICAL_LEAF",
+        "MEGA_DRAIN",
+        "POISON_STING"
+      ],
+      "species": "ROSELIA",
+      "species_token": "SPECIES_ROSELIA"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "GROWL",
+        "ROUND",
+        "DRAGON_BREATH",
+        "PECK"
+      ],
+      "species": "SWABLU",
+      "species_token": "SPECIES_SWABLU"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "HEADBUTT",
+        "SNARL",
+        "TACKLE",
+        "REST"
+      ],
+      "species": "ZIGZAGOON",
+      "species_token": "SPECIES_ZIGZAGOON"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "FLAMETHROWER",
+        "DETECT",
+        "FLAME_CHARGE",
+        "DOUBLE_KICK"
+      ],
+      "species": "COMBUSKEN",
+      "species_token": "SPECIES_COMBUSKEN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 261,
+  "trainer_id": 261,
+  "trainer_name": "May",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "ROLLOUT",
+        "HARDEN",
+        "METAL_CLAW",
+        "TACKLE"
+      ],
+      "species": "FERROSEED",
+      "species_token": "SPECIES_FERROSEED"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "FEINT_ATTACK",
+        "GROWTH",
+        "MEGA_DRAIN",
+        "STUN_SPORE"
+      ],
+      "species": "FOONGUS",
+      "species_token": "SPECIES_FOONGUS"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "RAZOR_LEAF",
+        "STRING_SHOT",
+        "BUG_BITE",
+        "TACKLE"
+      ],
+      "species": "SWADLOON",
+      "species_token": "SPECIES_SWADLOON"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "BULLET_SEED",
+        "FAIRY_WIND",
+        "TACKLE",
+        "SYNTHESIS"
+      ],
+      "species": "SKIPLOOM",
+      "species_token": "SPECIES_SKIPLOOM"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 203,
+  "trainer_id": 203,
+  "trainer_name": "Noah",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

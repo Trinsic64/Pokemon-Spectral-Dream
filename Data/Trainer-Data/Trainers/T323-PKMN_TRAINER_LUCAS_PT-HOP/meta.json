@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "HONE_CLAWS",
+        "PLUCK",
+        "PECK",
+        "LEER"
+      ],
+      "species": "CORVISQUIRE",
+      "species_token": "SPECIES_CORVISQUIRE"
+    },
+    {
+      "ability": "RIPEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "APPLE_ACID",
+        "LEECH_SEED",
+        "HEADBUTT",
+        "STOMP"
+      ],
+      "species": "APPLETUN",
+      "species_token": "SPECIES_APPLETUN"
+    },
+    {
+      "ability": "BALL_FETCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "TAIL_WHIP",
+        "SPARK",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "YAMPER",
+      "species_token": "SPECIES_YAMPER"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "COIL",
+        "FLAME_WHEEL",
+        "BUG_BITE",
+        "BITE"
+      ],
+      "species": "SIZZLIPEDE",
+      "species_token": "SPECIES_SIZZLIPEDE"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "GROWL",
+        "WATER_PULSE",
+        "SUCKER_PUNCH",
+        "WATER_GUN"
+      ],
+      "species": "DRIZZILE",
+      "species_token": "SPECIES_DRIZZILE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 323,
+  "trainer_id": 323,
+  "trainer_name": "Hop",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

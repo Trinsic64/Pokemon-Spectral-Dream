@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "CALM_MIND",
+        "PSYBEAM"
+      ],
+      "species": "HATTERENE",
+      "species_token": "SPECIES_HATTERENE"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "FOUL_PLAY",
+        "PLAY_ROUGH",
+        "NASTY_PLOT",
+        "POWER_UP_PUNCH"
+      ],
+      "species": "GRIMMSNARL",
+      "species_token": "SPECIES_GRIMMSNARL"
+    },
+    {
+      "ability": "DISGUISE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "PLAY_ROUGH",
+        "DOUBLE_TEAM",
+        "SHADOW_CLAW",
+        "SLASH"
+      ],
+      "species": "MIMIKYU",
+      "species_token": "SPECIES_MIMIKYU"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "DARK_PULSE",
+        "NASTY_PLOT"
+      ],
+      "species": "SPIRITOMB",
+      "species_token": "SPECIES_SPIRITOMB"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "AIR_SLASH",
+        "LAST_RESORT",
+        "FAIRY_WIND",
+        "AURA_SPHERE"
+      ],
+      "species": "TOGEKISS",
+      "species_token": "SPECIES_TOGEKISS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 717,
+  "trainer_id": 717,
+  "trainer_name": "Solana",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "OUTRAGE",
+        "DRAGON_CLAW",
+        "FLAMETHROWER",
+        "FLY"
+      ],
+      "species": "SALAMENCE",
+      "species_token": "SPECIES_SALAMENCE"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "OUTRAGE",
+        "AQUA_TAIL",
+        "DRAGON_RUSH",
+        "HURRICANE"
+      ],
+      "species": "DRAGONITE",
+      "species_token": "SPECIES_DRAGONITE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "OUTRAGE",
+        "NASTY_PLOT",
+        "DRAGON_RUSH",
+        "CRUNCH"
+      ],
+      "species": "HYDREIGON",
+      "species_token": "SPECIES_HYDREIGON"
+    },
+    {
+      "ability": "BULLETPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "OUTRAGE",
+        "CLANGING_SCALES",
+        "DRAGON_DANCE",
+        "CLOSE_COMBAT"
+      ],
+      "species": "KOMMO_O",
+      "species_token": "SPECIES_KOMMO_O"
+    },
+    {
+      "ability": "THERMAL_EXCHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "GLAIVE_RUSH",
+        "ICICLE_CRASH",
+        "FOCUS_ENERGY",
+        "ICE_BEAM"
+      ],
+      "species": "BAXCALIBUR",
+      "species_token": "SPECIES_BAXCALIBUR"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "DRAGON_CLAW",
+        "CRUNCH",
+        "SAND_ATTACK",
+        "DIG"
+      ],
+      "species": "GARCHOMP",
+      "species_token": "SPECIES_GARCHOMP"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 810,
+  "trainer_id": 810,
+  "trainer_name": "Soren",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

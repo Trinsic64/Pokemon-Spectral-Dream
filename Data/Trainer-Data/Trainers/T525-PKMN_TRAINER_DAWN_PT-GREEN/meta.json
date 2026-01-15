@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTH_POWER",
+        "TOXIC",
+        "SUPERPOWER",
+        "POISON_STING"
+      ],
+      "species": "NIDOQUEEN",
+      "species_token": "SPECIES_NIDOQUEEN"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FUTURE_SIGHT",
+        "CALM_MIND",
+        "PSYCHIC",
+        "PSYSHOCK"
+      ],
+      "species": "ALAKAZAM",
+      "species_token": "SPECIES_ALAKAZAM"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FIRE_BLAST",
+        "EXTRASENSORY",
+        "INFERNO",
+        "NASTY_PLOT"
+      ],
+      "species": "NINETALES",
+      "species_token": "SPECIES_NINETALES"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "HYDRO_PUMP",
+        "PSYCHIC",
+        "COSMIC_POWER",
+        "POWER_GEM"
+      ],
+      "species": "STARMIE",
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "THRASH",
+        "ZEN_HEADBUTT",
+        "WORK_UP",
+        "RAGING_BULL"
+      ],
+      "species": "TAUROS",
+      "species_token": "SPECIES_TAUROS"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PETAL_DANCE",
+        "LEECH_SEED",
+        "PETAL_BLIZZARD",
+        "SEED_BOMB"
+      ],
+      "species": "VENUSAUR",
+      "species_token": "SPECIES_VENUSAUR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 525,
+  "trainer_id": 525,
+  "trainer_name": "Green",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "LEECH_SEED",
+        "MAGICAL_LEAF",
+        "LEAFAGE",
+        "SUNNY_DAY"
+      ],
+      "species": "CHERUBI",
+      "species_token": "SPECIES_CHERUBI"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "IRON_HEAD",
+        "HARDEN",
+        "ROCK_SLIDE",
+        "HEADBUTT"
+      ],
+      "species": "ARON",
+      "species_token": "SPECIES_ARON"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "THUNDER_FANG",
+        "VOLT_SWITCH"
+      ],
+      "species": "SHINX",
+      "species_token": "SPECIES_SHINX"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "AIR_SLASH",
+        "BUBBLE_BEAM",
+        "WATER_SPORT",
+        "WING_ATTACK"
+      ],
+      "species": "DUCKLETT",
+      "species_token": "SPECIES_DUCKLETT"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 287,
+  "trainer_id": 287,
+  "trainer_name": "Evelyn",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

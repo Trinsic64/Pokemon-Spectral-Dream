@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BERSERK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "OUTRAGE",
+        "DRAGON_PULSE",
+        "PLAY_NICE",
+        "HYPER_VOICE"
+      ],
+      "species": "DRAMPA",
+      "species_token": "SPECIES_DRAMPA"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "SCARY_FACE",
+        "ROCK_WRECKER"
+      ],
+      "species": "RHYPERIOR",
+      "species_token": "SPECIES_RHYPERIOR"
+    },
+    {
+      "ability": "MUMMY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "OMINOUS_WIND",
+        "HEX"
+      ],
+      "species": "COFAGRIGUS",
+      "species_token": "SPECIES_COFAGRIGUS"
+    },
+    {
+      "ability": "WHITE_SMOKE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "ERUPTION",
+        "BODY_SLAM",
+        "INFERNO",
+        "IRON_DEFENSE"
+      ],
+      "species": "TORKOAL",
+      "species_token": "SPECIES_TORKOAL"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "POWER_WHIP",
+        "KNOCK_OFF",
+        "ANCIENT_POWER",
+        "GIGA_DRAIN"
+      ],
+      "species": "TANGROWTH",
+      "species_token": "SPECIES_TANGROWTH"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "ERUPTION",
+        "ROCK_SLIDE",
+        "FOCUS_ENERGY",
+        "EARTHQUAKE"
+      ],
+      "species": "CAMERUPT",
+      "species_token": "SPECIES_CAMERUPT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 782,
+  "trainer_id": 782,
+  "trainer_name": "Bruno",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

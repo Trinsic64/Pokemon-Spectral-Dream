@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "LAST_RESORT",
+        "MOONBLAST",
+        "SWIFT",
+        "SAND_ATTACK"
+      ],
+      "species": "SYLVEON",
+      "species_token": "SPECIES_SYLVEON"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "MIST_BALL",
+        "DRAGON_PULSE",
+        "HEAL_PULSE",
+        "DRAGON_BREATH"
+      ],
+      "species": "LATIAS",
+      "species_token": "SPECIES_LATIAS"
+    },
+    {
+      "ability": "RKS_SYSTEM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "MULTI_ATTACK",
+        "IRON_HEAD",
+        "SCARY_FACE",
+        "AIR_SLASH"
+      ],
+      "species": "SILVALLY",
+      "species_token": "SPECIES_SILVALLY"
+    },
+    {
+      "ability": "QUARK_DRIVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "EARTHQUAKE",
+        "STOMPING_TANTRUM",
+        "WILD_CHARGE",
+        "IRON_HEAD"
+      ],
+      "species": "IRON_TREADS",
+      "species_token": "SPECIES_IRON_TREADS"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "HEAT_WAVE",
+        "SOLAR_BEAM",
+        "HURRICANE",
+        "AGILITY"
+      ],
+      "species": "MOLTRES",
+      "species_token": "SPECIES_MOLTRES"
+    },
+    {
+      "ability": "TECHNICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "X_SCISSOR",
+        "AIR_SLASH",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "SCIZOR",
+      "species_token": "SPECIES_SCIZOR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 899,
+  "trainer_id": 899,
+  "trainer_name": "Sylas",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "HIDDEN_POWER",
+        "SUCKER_PUNCH",
+        "BUG_BITE",
+        "RAZOR_LEAF"
+      ],
+      "species": "WORMADAM",
+      "species_token": "SPECIES_WORMADAM"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "QUIVER_DANCE",
+        "MIRROR_SHOT",
+        "SUCKER_PUNCH",
+        "BUG_BITE"
+      ],
+      "species": "WORMADAM_TRASHY",
+      "species_token": "SPECIES_WORMADAM_TRASHY"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "ROCK_BLAST",
+        "QUIVER_DANCE",
+        "SUCKER_PUNCH",
+        "BUG_BITE"
+      ],
+      "species": "WORMADAM_SANDY",
+      "species_token": "SPECIES_WORMADAM_SANDY"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "QUIVER_DANCE",
+        "BUG_BITE",
+        "HIDDEN_POWER",
+        "GUST"
+      ],
+      "species": "MOTHIM",
+      "species_token": "SPECIES_MOTHIM"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 259,
+  "trainer_id": 259,
+  "trainer_name": "Aiden",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

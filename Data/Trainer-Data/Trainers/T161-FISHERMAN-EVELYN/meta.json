@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "WATER_GUN",
+        "GROWL",
+        "WING_ATTACK",
+        "SUPERSONIC"
+      ],
+      "species": "WINGULL",
+      "species_token": "SPECIES_WINGULL"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "WATER_PULSE",
+        "WATER_SPORT",
+        "WING_ATTACK",
+        "AERIAL_ACE"
+      ],
+      "species": "DUCKLETT",
+      "species_token": "SPECIES_DUCKLETT"
+    },
+    {
+      "ability": "ROUGH_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "FOCUS_ENERGY",
+        "BITE",
+        "ASSURANCE",
+        "AQUA_JET"
+      ],
+      "species": "CARVANHA",
+      "species_token": "SPECIES_CARVANHA"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "WATER_SPORT",
+        "POUND",
+        "WATER_GUN",
+        "HYPNOSIS"
+      ],
+      "species": "POLIWAG",
+      "species_token": "SPECIES_POLIWAG"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "AMNESIA",
+        "MUD_BOMB",
+        "WATER_PULSE",
+        "SNORE"
+      ],
+      "species": "BARBOACH",
+      "species_token": "SPECIES_BARBOACH"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 161,
+  "trainer_id": 161,
+  "trainer_name": "Evelyn",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

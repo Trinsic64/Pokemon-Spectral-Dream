@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "AGILITY",
+        "ACROBATICS",
+        "FLAME_CHARGE",
+        "PECK"
+      ],
+      "species": "FLETCHINDER",
+      "species_token": "SPECIES_FLETCHINDER"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "X_SCISSOR",
+        "ABSORB",
+        "FOCUS_ENERGY",
+        "SLASH"
+      ],
+      "species": "KRICKETUNE",
+      "species_token": "SPECIES_KRICKETUNE"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "KNOCK_OFF",
+        "STOMP",
+        "DEFENSE_CURL",
+        "DISABLE"
+      ],
+      "species": "LICKITUNG",
+      "species_token": "SPECIES_LICKITUNG"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 377,
+  "trainer_id": 377,
+  "trainer_name": "Jeremiah",
+  "trainerclass": "TRAINERCLASS_FIREBREATHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

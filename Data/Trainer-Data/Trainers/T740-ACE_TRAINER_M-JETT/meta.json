@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "EMERGENCY_EXIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "FIRST_IMPRESSION",
+        "LIQUIDATION",
+        "RAZOR_SHELL",
+        "IRON_DEFENSE"
+      ],
+      "species": "GOLISOPOD",
+      "species_token": "SPECIES_GOLISOPOD"
+    },
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "BURN_UP",
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "ROCK_POLISH"
+      ],
+      "species": "COALOSSAL",
+      "species_token": "SPECIES_COALOSSAL"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "CRUNCH",
+        "X_SCISSOR",
+        "ICE_FANG",
+        "CROSS_POISON"
+      ],
+      "species": "DRAPION",
+      "species_token": "SPECIES_DRAPION"
+    },
+    {
+      "ability": "MIMICRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "MUDDY_WATER",
+        "BOUNCE",
+        "SUCKER_PUNCH",
+        "METAL_CLAW"
+      ],
+      "species": "STUNFISK",
+      "species_token": "SPECIES_STUNFISK"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "EARTHQUAKE",
+        "FOCUS_PUNCH",
+        "DYNAMIC_PUNCH",
+        "PHANTOM_FORCE"
+      ],
+      "species": "GOLURK",
+      "species_token": "SPECIES_GOLURK"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 740,
+  "trainer_id": 740,
+  "trainer_name": "Jett",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

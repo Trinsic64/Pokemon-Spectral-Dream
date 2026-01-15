@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "ICE_BEAM",
+        "DAZZLING_GLEAM",
+        "EXTRASENSORY",
+        "NASTY_PLOT"
+      ],
+      "species": "NINETALES",
+      "species_token": "SPECIES_NINETALES"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "BUBBLE_BEAM",
+        "CHARGE",
+        "SPARK",
+        "THUNDER_SHOCK"
+      ],
+      "species": "PINCURCHIN",
+      "species_token": "SPECIES_PINCURCHIN"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "ESPER_WING",
+        "SUPERPOWER",
+        "SLASH",
+        "SKY_ATTACK"
+      ],
+      "species": "BRAVIARY",
+      "species_token": "SPECIES_BRAVIARY"
+    },
+    {
+      "ability": "FLUFFY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "STRENGTH",
+        "BRUTAL_SWING",
+        "PAYBACK",
+        "HAMMER_ARM"
+      ],
+      "species": "BEWEAR",
+      "species_token": "SPECIES_BEWEAR"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "DRAGON_PULSE",
+        "DRAGON_BREATH",
+        "DRAGON_DANCE",
+        "PLUCK"
+      ],
+      "species": "ALTARIA",
+      "species_token": "SPECIES_ALTARIA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 395,
+  "trainer_id": 395,
+  "trainer_name": "Merrin",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

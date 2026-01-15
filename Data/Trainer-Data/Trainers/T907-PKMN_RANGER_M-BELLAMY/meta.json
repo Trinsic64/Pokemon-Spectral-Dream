@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "FLAMETHROWER",
+        "PLAY_ROUGH",
+        "AGILITY",
+        "REVERSAL"
+      ],
+      "species": "ARCANINE",
+      "species_token": "SPECIES_ARCANINE"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "ENERGY_BALL",
+        "LEECH_SEED",
+        "MAGICAL_LEAF",
+        "SYNTHESIS"
+      ],
+      "species": "SHAYMIN",
+      "species_token": "SPECIES_SHAYMIN"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LAST_RESORT",
+        "NASTY_PLOT",
+        "PSYCHIC"
+      ],
+      "species": "AZELF",
+      "species_token": "SPECIES_AZELF"
+    },
+    {
+      "ability": "MARVEL_SCALE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "AQUA_TAIL",
+        "COIL"
+      ],
+      "species": "MILOTIC",
+      "species_token": "SPECIES_MILOTIC"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "DISCHARGE",
+        "ANCIENT_POWER",
+        "THUNDER",
+        "DRILL_PECK"
+      ],
+      "species": "ZAPDOS",
+      "species_token": "SPECIES_ZAPDOS"
+    },
+    {
+      "ability": "ADAPTABILITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "METEOR_MASH",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "CLOSE_COMBAT"
+      ],
+      "species": "LUCARIO",
+      "species_token": "SPECIES_LUCARIO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 907,
+  "trainer_id": 907,
+  "trainer_name": "Bellamy",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

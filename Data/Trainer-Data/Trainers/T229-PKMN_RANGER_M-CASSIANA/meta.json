@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "SHADOW_SNEAK",
+        "SWORDS_DANCE",
+        "AERIAL_ACE",
+        "FURY_CUTTER"
+      ],
+      "species": "HONEDGE",
+      "species_token": "SPECIES_HONEDGE"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "COVET",
+        "BITE",
+        "SWIFT",
+        "TACKLE"
+      ],
+      "species": "EEVEE",
+      "species_token": "SPECIES_EEVEE"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "HEX",
+        "CONFUSE_RAY",
+        "FLAME_BURST",
+        "EMBER"
+      ],
+      "species": "LAMPENT",
+      "species_token": "SPECIES_LAMPENT"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "SAND_ATTACK",
+        "BITE",
+        "SAND_TOMB",
+        "TACKLE"
+      ],
+      "species": "HIPPOPOTAS",
+      "species_token": "SPECIES_HIPPOPOTAS"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "MEDITATE",
+        "HEADBUTT",
+        "CONFUSION",
+        "POUND"
+      ],
+      "species": "DROWZEE",
+      "species_token": "SPECIES_DROWZEE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 229,
+  "trainer_id": 229,
+  "trainer_name": "CassianA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "METEOR_MASH",
+        "IRON_DEFENSE",
+        "PURSUIT",
+        "PSYCHIC"
+      ],
+      "species": "METANG",
+      "species_token": "SPECIES_METANG"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FUTURE_SIGHT",
+        "EXTRASENSORY",
+        "IRON_DEFENSE",
+        "GYRO_BALL"
+      ],
+      "species": "BRONZONG",
+      "species_token": "SPECIES_BRONZONG"
+    },
+    {
+      "ability": "OVERCOAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FUTURE_SIGHT",
+        "REFLECT",
+        "HAMMER_ARM",
+        "PSYCHIC"
+      ],
+      "species": "REUNICLUS",
+      "species_token": "SPECIES_REUNICLUS"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SYNCHRONOISE",
+        "CALM_MIND",
+        "ZEN_HEADBUTT",
+        "PSYBEAM"
+      ],
+      "species": "BEHEEYEM",
+      "species_token": "SPECIES_BEHEEYEM"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FUTURE_SIGHT",
+        "MOONBLAST",
+        "CALM_MIND",
+        "PSYCHIC"
+      ],
+      "species": "GARDEVOIR",
+      "species_token": "SPECIES_GARDEVOIR"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 665,
+  "trainer_id": 665,
+  "trainer_name": "Noelle",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

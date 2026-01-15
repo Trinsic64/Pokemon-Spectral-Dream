@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LAVA_PLUME",
+        "LAST_RESORT",
+        "FIRE_FANG",
+        "SAND_ATTACK"
+      ],
+      "species": "FLAREON",
+      "species_token": "SPECIES_FLAREON"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LEER",
+        "FLAME_BURST",
+        "LICK",
+        "FURY_SWIPES"
+      ],
+      "species": "SIMISEAR",
+      "species_token": "SPECIES_SIMISEAR"
+    },
+    {
+      "ability": "WHITE_SMOKE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "HEAT_WAVE",
+        "BODY_SLAM",
+        "FLAMETHROWER",
+        "IRON_DEFENSE"
+      ],
+      "species": "TORKOAL",
+      "species_token": "SPECIES_TORKOAL"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "DRAGON_CLAW",
+        "DRAGON_DANCE",
+        "SUPERPOWER"
+      ],
+      "species": "FLYGON",
+      "species_token": "SPECIES_FLYGON"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "AGILITY",
+        "AERIAL_ACE",
+        "ACROBATICS",
+        "FLAME_CHARGE"
+      ],
+      "species": "TALONFLAME",
+      "species_token": "SPECIES_TALONFLAME"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 610,
+  "trainer_id": 610,
+  "trainer_name": "Natasha",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

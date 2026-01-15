@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "HYDRO_PUMP",
+        "SIGNAL_BEAM",
+        "BUBBLE_BEAM",
+        "BOUNCE"
+      ],
+      "species": "MANTINE",
+      "species_token": "SPECIES_MANTINE"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FUTURE_SIGHT",
+        "DREAM_EATER",
+        "CALM_MIND",
+        "PSYCHIC"
+      ],
+      "species": "GARDEVOIR",
+      "species_token": "SPECIES_GARDEVOIR"
+    },
+    {
+      "ability": "SCRAPPY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BOUNCE",
+        "JUMP_KICK",
+        "HEADBUTT"
+      ],
+      "species": "LOPUNNY",
+      "species_token": "SPECIES_LOPUNNY"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 841,
+  "trainer_id": 841,
+  "trainer_name": "Hadrian",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "STRUGGLE_BUG",
+        "TACKLE",
+        "STRING_SHOT",
+        "STRUGGLE_BUG"
+      ],
+      "species": "TAROUNTULA",
+      "species_token": "SPECIES_TAROUNTULA"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "STRING_SHOT",
+        "TACKLE",
+        "TACKLE",
+        "TACKLE"
+      ],
+      "species": "SEWADDLE",
+      "species_token": "SPECIES_SEWADDLE"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "SAND_ATTACK",
+        "FURY_CUTTER",
+        "WITHDRAW",
+        "FURY_CUTTER"
+      ],
+      "species": "DWEBBLE",
+      "species_token": "SPECIES_DWEBBLE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 35,
+  "trainer_id": 35,
+  "trainer_name": "Hazel",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

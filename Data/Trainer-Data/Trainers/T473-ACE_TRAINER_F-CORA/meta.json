@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLUFFY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "HEADBUTT",
+        "TACKLE",
+        "DOUBLE_KICK",
+        "GUARD_SPLIT"
+      ],
+      "species": "DUBWOOL",
+      "species_token": "SPECIES_DUBWOOL"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "MEGAHORN",
+        "JUMP_KICK",
+        "TAKE_DOWN",
+        "ENERGY_BALL"
+      ],
+      "species": "SAWSBUCK",
+      "species_token": "SPECIES_SAWSBUCK"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "BRICK_BREAK",
+        "BULK_UP",
+        "OCTAZOOKA",
+        "TAUNT"
+      ],
+      "species": "GRAPPLOCT",
+      "species_token": "SPECIES_GRAPPLOCT"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "EARTHQUAKE",
+        "STONE_EDGE",
+        "HAMMER_ARM",
+        "SCARY_FACE"
+      ],
+      "species": "RHYDON",
+      "species_token": "SPECIES_RHYDON"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 473,
+  "trainer_id": 473,
+  "trainer_name": "Cora",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

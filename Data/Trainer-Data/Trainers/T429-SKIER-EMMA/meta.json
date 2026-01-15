@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "BRINE",
+        "HAIL",
+        "BLIZZARD",
+        "SLASH"
+      ],
+      "species": "CUBCHOO",
+      "species_token": "SPECIES_CUBCHOO"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "ICE_PUNCH",
+        "AVALANCHE",
+        "DIZZY_PUNCH",
+        "ROCK_SMASH"
+      ],
+      "species": "CRABOMINABLE",
+      "species_token": "SPECIES_CRABOMINABLE"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "ICICLE_CRASH",
+        "THRASH",
+        "BRINE",
+        "SWAGGER"
+      ],
+      "species": "BEARTIC",
+      "species_token": "SPECIES_BEARTIC"
+    },
+    {
+      "ability": "SNOW_WARNING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "ICE_PUNCH",
+        "ICY_WIND",
+        "SWAGGER",
+        "RAZOR_LEAF"
+      ],
+      "species": "ABOMASNOW",
+      "species_token": "SPECIES_ABOMASNOW"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 429,
+  "trainer_id": 429,
+  "trainer_name": "Emma",
+  "trainerclass": "TRAINERCLASS_SKIER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

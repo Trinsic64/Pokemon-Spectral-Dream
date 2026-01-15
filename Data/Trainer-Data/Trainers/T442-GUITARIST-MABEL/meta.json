@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "SIGNAL_BEAM",
+        "AGILITY",
+        "SLASH",
+        "ELECTROWEB"
+      ],
+      "species": "GALVANTULA",
+      "species_token": "SPECIES_GALVANTULA"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "SPARK",
+        "STOMP"
+      ],
+      "species": "ZEBSTRIKA",
+      "species_token": "SPECIES_ZEBSTRIKA"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER_PUNCH",
+        "SHOCK_WAVE"
+      ],
+      "species": "ELECTABUZZ",
+      "species_token": "SPECIES_ELECTABUZZ"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "THUNDER_FANG",
+        "VOLT_SWITCH"
+      ],
+      "species": "LUXRAY",
+      "species_token": "SPECIES_LUXRAY"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "FLASH_CANNON",
+        "TRI_ATTACK",
+        "ZAP_CANNON",
+        "LIGHT_SCREEN"
+      ],
+      "species": "MAGNETON",
+      "species_token": "SPECIES_MAGNETON"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 442,
+  "trainer_id": 442,
+  "trainer_name": "Mabel",
+  "trainerclass": "TRAINERCLASS_GUITARIST",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

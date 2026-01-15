@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SERENE_GRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LAST_RESORT",
+        "COSMIC_POWER",
+        "METEOR_MASH"
+      ],
+      "species": "JIRACHI",
+      "species_token": "SPECIES_JIRACHI"
+    },
+    {
+      "ability": "SHADOW_SHIELD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "MOONGEIST_BEAM",
+        "MOONBLAST",
+        "COSMIC_POWER",
+        "DREAM_EATER"
+      ],
+      "species": "LUNALA",
+      "species_token": "SPECIES_LUNALA"
+    },
+    {
+      "ability": "ELECTRIC_SURGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "SPARK",
+        "AGILITY"
+      ],
+      "species": "TAPU_KOKO",
+      "species_token": "SPECIES_TAPU_KOKO"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "STEAM_ERUPTION",
+        "HYDRO_PUMP",
+        "INCINERATE",
+        "SCALD"
+      ],
+      "species": "VOLCANION",
+      "species_token": "SPECIES_VOLCANION"
+    },
+    {
+      "ability": "SERENE_GRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "ENERGY_BALL",
+        "LEECH_SEED",
+        "MAGICAL_LEAF",
+        "AIR_SLASH"
+      ],
+      "species": "SHAYMIN_SKY",
+      "species_token": "SPECIES_SHAYMIN_SKY"
+    },
+    {
+      "ability": "MAGIC_BOUNCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "DIAMOND_STORM",
+        "MOONBLAST",
+        "ROCK_POLISH",
+        "STONE_EDGE"
+      ],
+      "species": "DIANCIE",
+      "species_token": "SPECIES_DIANCIE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 920,
+  "trainer_id": 920,
+  "trainer_name": "Oberon",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

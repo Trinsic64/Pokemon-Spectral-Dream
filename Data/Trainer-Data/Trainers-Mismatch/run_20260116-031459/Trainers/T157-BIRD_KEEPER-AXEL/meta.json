@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "DISABLE",
+        "TACKLE",
+        "CONFUSION",
+        "FORESIGHT"
+      ],
+      "species": "VENONAT",
+      "species_token": "SPECIES_VENONAT"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "ABSORB",
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "GUST"
+      ],
+      "species": "NOIBAT",
+      "species_token": "SPECIES_NOIBAT"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "HONE_CLAWS",
+        "PLUCK",
+        "PECK",
+        "LEER"
+      ],
+      "species": "ROOKIDEE",
+      "species_token": "SPECIES_ROOKIDEE"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "GROWL",
+        "BITE",
+        "FAKE_OUT",
+        "SCRATCH"
+      ],
+      "species": "MEOWTH",
+      "species_token": "SPECIES_MEOWTH"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "INGRAIN",
+        "RAZOR_LEAF",
+        "LEAFAGE",
+        "FURY_CUTTER"
+      ],
+      "species": "FOMANTIS",
+      "species_token": "SPECIES_FOMANTIS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 157,
+  "trainer_id": 157,
+  "trainer_name": "Axel",
+  "trainerclass": "TRAINERCLASS_BIRD_KEEPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

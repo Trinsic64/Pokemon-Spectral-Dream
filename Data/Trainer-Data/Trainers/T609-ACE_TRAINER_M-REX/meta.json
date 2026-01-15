@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FLAMETHROWER",
+        "PLAY_ROUGH",
+        "HOWL",
+        "REVERSAL"
+      ],
+      "species": "GROWLITHE",
+      "species_token": "SPECIES_GROWLITHE"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FLAMETHROWER",
+        "CRUNCH",
+        "HYPER_VOICE",
+        "WORK_UP"
+      ],
+      "species": "PYROAR",
+      "species_token": "SPECIES_PYROAR"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "THRASH",
+        "RAGING_BULL",
+        "ZEN_HEADBUTT",
+        "FLAME_CHARGE"
+      ],
+      "species": "TAUROS",
+      "species_token": "SPECIES_TAUROS"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "THRASH",
+        "IRON_DEFENSE",
+        "STONE_EDGE"
+      ],
+      "species": "PUPITAR",
+      "species_token": "SPECIES_PUPITAR"
+    },
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SHELL_TRAP",
+        "DRAGON_PULSE",
+        "FLAMETHROWER",
+        "IRON_DEFENSE"
+      ],
+      "species": "TURTONATOR",
+      "species_token": "SPECIES_TURTONATOR"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 609,
+  "trainer_id": 609,
+  "trainer_name": "Rex",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

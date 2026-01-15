@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "THUNDERBOLT",
+        "AIR_SLASH",
+        "DIG",
+        "BUG_BUZZ"
+      ],
+      "species": "VIKAVOLT",
+      "species_token": "SPECIES_VIKAVOLT"
+    },
+    {
+      "ability": "ADAPTABILITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "TRI_ATTACK",
+        "DISCHARGE",
+        "NASTY_PLOT",
+        "PSYBEAM"
+      ],
+      "species": "PORYGON_Z",
+      "species_token": "SPECIES_PORYGON_Z"
+    },
+    {
+      "ability": "DEFEATIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "ROCK_SLIDE",
+        "THRASH",
+        "ANCIENT_POWER",
+        "WING_ATTACK"
+      ],
+      "species": "ARCHEOPS",
+      "species_token": "SPECIES_ARCHEOPS"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HYDRO_PUMP",
+        "PSYCHIC",
+        "COSMIC_POWER",
+        "POWER_GEM"
+      ],
+      "species": "STARMIE",
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "OUTRAGE",
+        "POWER_WHIP",
+        "PROTECT",
+        "DRAGON_PULSE"
+      ],
+      "species": "GOODRA",
+      "species_token": "SPECIES_GOODRA"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LEAF_BLADE",
+        "NIGHT_SLASH",
+        "CLOSE_COMBAT"
+      ],
+      "species": "GALLADE",
+      "species_token": "SPECIES_GALLADE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 789,
+  "trainer_id": 789,
+  "trainer_name": "Nova",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

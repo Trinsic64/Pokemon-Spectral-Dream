@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "GROWL",
+        "BITE",
+        "FAKE_OUT",
+        "SCRATCH"
+      ],
+      "species": "MEOWTH",
+      "species_token": "SPECIES_MEOWTH"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "DEFENSE_CURL",
+        "POUND",
+        "FORESIGHT",
+        "SPLASH"
+      ],
+      "species": "BUNEARY",
+      "species_token": "SPECIES_BUNEARY"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "GROWL",
+        "WING_ATTACK",
+        "TACKLE",
+        "QUICK_ATTACK"
+      ],
+      "species": "STARLY",
+      "species_token": "SPECIES_STARLY"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "COVET",
+        "TACKLE",
+        "QUICK_ATTACK",
+        "GROWL"
+      ],
+      "species": "EEVEE",
+      "species_token": "SPECIES_EEVEE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 939,
+  "trainer_id": 939,
+  "trainer_name": "FALKNER",
+  "trainerclass": "TRAINERCLASS_LEADER_FALKNER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

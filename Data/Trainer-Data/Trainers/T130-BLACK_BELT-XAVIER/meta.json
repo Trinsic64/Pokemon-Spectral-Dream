@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "KARATE_CHOP",
+        "TACKLE",
+        "ARM_THRUST",
+        "TAUNT"
+      ],
+      "species": "PANCHAM",
+      "species_token": "SPECIES_PANCHAM"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "ROCK_THROW",
+        "FOCUS_ENERGY",
+        "POUND",
+        "LOW_KICK"
+      ],
+      "species": "TIMBURR",
+      "species_token": "SPECIES_TIMBURR"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "LOW_SWEEP",
+        "REVENGE",
+        "KARATE_CHOP",
+        "FOCUS_ENERGY"
+      ],
+      "species": "MACHOP",
+      "species_token": "SPECIES_MACHOP"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "CHARGE",
+        "SCRATCH",
+        "QUICK_ATTACK",
+        "THUNDER_SHOCK"
+      ],
+      "species": "PAWMI",
+      "species_token": "SPECIES_PAWMI"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 130,
+  "trainer_id": 130,
+  "trainer_name": "Xavier",
+  "trainerclass": "TRAINERCLASS_BLACK_BELT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

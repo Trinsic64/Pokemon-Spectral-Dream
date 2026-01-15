@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "ROCK_THROW",
+        "LEER",
+        "CHIP_AWAY",
+        "BITE"
+      ],
+      "species": "LARVITAR",
+      "species_token": "SPECIES_LARVITAR"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "DRAGON_BREATH",
+        "FOCUS_ENERGY",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "DEINO",
+      "species_token": "SPECIES_DEINO"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "BITE",
+        "INFESTATION",
+        "QUICK_ATTACK",
+        "ASTONISH"
+      ],
+      "species": "DREEPY",
+      "species_token": "SPECIES_DREEPY"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "HEAL_BLOCK",
+        "CONFUSION",
+        "MIRACLE_EYE",
+        "TELEPORT"
+      ],
+      "species": "ELGYEM",
+      "species_token": "SPECIES_ELGYEM"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 118,
+  "trainer_id": 118,
+  "trainer_name": "Grynn",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

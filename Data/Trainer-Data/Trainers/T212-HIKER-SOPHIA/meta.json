@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TOUGH_CLAWS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "CLAMP",
+        "SHELL_SMASH",
+        "SCRATCH",
+        "WATER_GUN"
+      ],
+      "species": "BINACLE",
+      "species_token": "SPECIES_BINACLE"
+    },
+    {
+      "ability": "PURE_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "MEDITATE",
+        "FORCE_PALM",
+        "HIDDEN_POWER",
+        "CONFUSION"
+      ],
+      "species": "MEDITITE",
+      "species_token": "SPECIES_MEDITITE"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "STRUGGLE_BUG",
+        "LIGHT_SCREEN",
+        "CONFUSION",
+        "REFLECT"
+      ],
+      "species": "DOTTLER",
+      "species_token": "SPECIES_DOTTLER"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "SWAGGER",
+        "BITE",
+        "ASSURANCE",
+        "FLATTER"
+      ],
+      "species": "IMPIDIMP",
+      "species_token": "SPECIES_IMPIDIMP"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "IRON_DEFENSE",
+        "METAL_SOUND",
+        "TACKLE",
+        "PROTECT"
+      ],
+      "species": "SHIELDON",
+      "species_token": "SPECIES_SHIELDON"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 212,
+  "trainer_id": 212,
+  "trainer_name": "Sophia",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

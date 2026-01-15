@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "DRAGON_CLAW",
+        "SAND_ATTACK",
+        "SLASH",
+        "DIG"
+      ],
+      "species": "GIBLE",
+      "species_token": "SPECIES_GIBLE"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "DRAGON_BREATH",
+        "SAND_ATTACK",
+        "SLASH",
+        "BULLDOZE"
+      ],
+      "species": "GABITE",
+      "species_token": "SPECIES_GABITE"
+    },
+    {
+      "ability": "OVERCOAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "IRON_HEAD",
+        "SWAGGER",
+        "POISON_JAB",
+        "HEADBUTT"
+      ],
+      "species": "VAROOM",
+      "species_token": "SPECIES_VAROOM"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 337,
+  "trainer_id": 337,
+  "trainer_name": "Maisy",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

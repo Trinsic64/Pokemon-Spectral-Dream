@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LAST_RESORT",
+        "COVET",
+        "EGG_BOMB",
+        "HEAL_PULSE"
+      ],
+      "species": "CHANSEY",
+      "species_token": "SPECIES_CHANSEY"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LAST_RESORT",
+        "COVET",
+        "EGG_BOMB",
+        "HEAL_PULSE"
+      ],
+      "species": "BLISSEY",
+      "species_token": "SPECIES_BLISSEY"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "BODY_SLAM",
+        "PLAY_ROUGH",
+        "GROWL",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "MILTANK",
+      "species_token": "SPECIES_MILTANK"
+    },
+    {
+      "ability": "RECKLESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "HEAD_CHARGE",
+        "MEGAHORN",
+        "FOCUS_ENERGY",
+        "THRASH"
+      ],
+      "species": "BOUFFALANT",
+      "species_token": "SPECIES_BOUFFALANT"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "GIGA_DRAIN",
+        "SYNTHESIS",
+        "FEINT_ATTACK",
+        "CLEAR_SMOG"
+      ],
+      "species": "AMOONGUSS",
+      "species_token": "SPECIES_AMOONGUSS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 664,
+  "trainer_id": 664,
+  "trainer_name": "Lila",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

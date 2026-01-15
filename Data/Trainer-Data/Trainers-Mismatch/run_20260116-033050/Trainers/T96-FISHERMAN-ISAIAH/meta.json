@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "MUD_SHOT",
+        "ROUND",
+        "ECHOED_VOICE",
+        "BUBBLE"
+      ],
+      "species": "TYMPOLE",
+      "species_token": "SPECIES_TYMPOLE"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "BITE",
+        "TACKLE",
+        "WATER_GUN",
+        "BITE"
+      ],
+      "species": "CHEWTLE",
+      "species_token": "SPECIES_CHEWTLE"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "TAIL_WHIP",
+        "POWDER_SNOW",
+        "ICE_SHARD",
+        "DISABLE"
+      ],
+      "species": "VULPIX",
+      "species_token": "SPECIES_VULPIX"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "CHARGE",
+        "SCRATCH",
+        "QUICK_ATTACK",
+        "THUNDER_SHOCK"
+      ],
+      "species": "PAWMI",
+      "species_token": "SPECIES_PAWMI"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 96,
+  "trainer_id": 96,
+  "trainer_name": "Isaiah",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

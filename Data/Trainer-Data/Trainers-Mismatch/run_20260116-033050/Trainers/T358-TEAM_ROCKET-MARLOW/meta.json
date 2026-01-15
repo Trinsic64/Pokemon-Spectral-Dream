@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "POISON_JAB",
+        "BRICK_BREAK",
+        "METAL_CLAW",
+        "TAUNT"
+      ],
+      "species": "SNEASEL",
+      "species_token": "SPECIES_SNEASEL"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "HEAT_WAVE",
+        "ASSURANCE",
+        "POISON_GAS",
+        "SLUDGE"
+      ],
+      "species": "WEEZING",
+      "species_token": "SPECIES_WEEZING"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "BRICK_BREAK",
+        "HEADBUTT",
+        "CHIP_AWAY",
+        "FEINT_ATTACK"
+      ],
+      "species": "SCRAFTY",
+      "species_token": "SPECIES_SCRAFTY"
+    },
+    {
+      "ability": "WONDER_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "MIRACLE_EYE",
+        "PSYBEAM",
+        "AIR_CUTTER",
+        "CONFUSION"
+      ],
+      "species": "SIGILYPH",
+      "species_token": "SPECIES_SIGILYPH"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "HOWL",
+        "STOMP",
+        "BITE",
+        "REST"
+      ],
+      "species": "LOUDRED",
+      "species_token": "SPECIES_LOUDRED"
+    },
+    {
+      "ability": "WATER_BUBBLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "BUBBLE_BEAM",
+        "SOAK",
+        "HEADBUTT",
+        "BUG_BITE"
+      ],
+      "species": "ARAQUANID",
+      "species_token": "SPECIES_ARAQUANID"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 358,
+  "trainer_id": 358,
+  "trainer_name": "Marlow",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

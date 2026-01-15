@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ILLUSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "HONE_CLAWS",
+        "SCRATCH",
+        "SHADOW_SNEAK",
+        "LEER"
+      ],
+      "species": "ZORUA",
+      "species_token": "SPECIES_ZORUA"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "DOUBLE_KICK",
+        "CAMOUFLAGE",
+        "TACKLE",
+        "GROWL"
+      ],
+      "species": "DEERLING",
+      "species_token": "SPECIES_DEERLING"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "WORK_UP",
+        "HEADBUTT",
+        "EMBER",
+        "TACKLE"
+      ],
+      "species": "LITLEO",
+      "species_token": "SPECIES_LITLEO"
+    },
+    {
+      "ability": "SCRAPPY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "BOUNCE",
+        "DEFENSE_CURL",
+        "POUND",
+        "FORESIGHT"
+      ],
+      "species": "LOPUNNY",
+      "species_token": "SPECIES_LOPUNNY"
+    },
+    {
+      "ability": "DRY_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "CHARGE",
+        "THUNDER_SHOCK",
+        "POUND",
+        "QUICK_ATTACK"
+      ],
+      "species": "HELIOPTILE",
+      "species_token": "SPECIES_HELIOPTILE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 940,
+  "trainer_id": 940,
+  "trainer_name": "FALKNER",
+  "trainerclass": "TRAINERCLASS_LEADER_FALKNER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

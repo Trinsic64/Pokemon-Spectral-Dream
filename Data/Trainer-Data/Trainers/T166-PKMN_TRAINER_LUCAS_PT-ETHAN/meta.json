@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "TAIL_WHIP",
+        "SCRATCH",
+        "ASTONISH",
+        "BATON_PASS"
+      ],
+      "species": "AIPOM",
+      "species_token": "SPECIES_AIPOM"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "ABSORB",
+        "FAIRY_WIND",
+        "TACKLE",
+        "SYNTHESIS"
+      ],
+      "species": "HOPPIP",
+      "species_token": "SPECIES_HOPPIP"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "LEER",
+        "EMBER",
+        "TACKLE",
+        "QUICK_ATTACK"
+      ],
+      "species": "CYNDAQUIL",
+      "species_token": "SPECIES_CYNDAQUIL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 166,
+  "trainer_id": 166,
+  "trainer_name": "Ethan",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "X_SCISSOR",
+        "AGILITY",
+        "IRON_HEAD",
+        "DIG"
+      ],
+      "species": "DURANT",
+      "species_token": "SPECIES_DURANT"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "BELCH",
+        "POWER_GEM",
+        "MAGIC_COAT"
+      ],
+      "species": "GRUMPIG",
+      "species_token": "SPECIES_GRUMPIG"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "AQUA_TAIL",
+        "WATER_GUN",
+        "HARDEN",
+        "ROCK_TOMB"
+      ],
+      "species": "RELICANTH",
+      "species_token": "SPECIES_RELICANTH"
+    },
+    {
+      "ability": "STAKEOUT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "LEER",
+        "BITE",
+        "TACKLE",
+        "PURSUIT"
+      ],
+      "species": "GUMSHOOS",
+      "species_token": "SPECIES_GUMSHOOS"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 410,
+  "trainer_id": 410,
+  "trainer_name": "Lucas",
+  "trainerclass": "TRAINERCLASS_BOARDER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

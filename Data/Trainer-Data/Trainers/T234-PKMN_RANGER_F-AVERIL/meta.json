@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "COVET",
+        "SLASH",
+        "PAYBACK",
+        "SCRATCH"
+      ],
+      "species": "TEDDIURSA",
+      "species_token": "SPECIES_TEDDIURSA"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "PRESENT",
+        "PRESENT",
+        "PRESENT",
+        "PRESENT"
+      ],
+      "species": "DELIBIRD",
+      "species_token": "SPECIES_DELIBIRD"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "FOCUS_ENERGY",
+        "PECK",
+        "DOUBLE_KICK",
+        "POISON_STING"
+      ],
+      "species": "NIDORINO",
+      "species_token": "SPECIES_NIDORINO"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "AGILITY",
+        "WATER_PULSE",
+        "DRAINING_KISS",
+        "HEART_STAMP"
+      ],
+      "species": "LUVDISC",
+      "species_token": "SPECIES_LUVDISC"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "JUMP_KICK",
+        "CAMOUFLAGE",
+        "FEINT_ATTACK",
+        "TAKE_DOWN"
+      ],
+      "species": "DEERLING",
+      "species_token": "SPECIES_DEERLING"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 234,
+  "trainer_id": 234,
+  "trainer_name": "Averil",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

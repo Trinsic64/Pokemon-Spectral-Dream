@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "COVET",
+        "ECHOED_VOICE",
+        "DISARMING_VOICE",
+        "HEAL_PULSE"
+      ],
+      "species": "CHANSEY",
+      "species_token": "SPECIES_CHANSEY"
+    },
+    {
+      "ability": "FLOWER_GIFT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "PETAL_DANCE",
+        "MAGICAL_LEAF",
+        "LEAFAGE",
+        "SUNNY_DAY"
+      ],
+      "species": "CHERRIM",
+      "species_token": "SPECIES_CHERRIM"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "OUTRAGE",
+        "FIRE_FANG",
+        "CHARM",
+        "HEADBUTT"
+      ],
+      "species": "GRANBULL",
+      "species_token": "SPECIES_GRANBULL"
+    },
+    {
+      "ability": "SUCTION_CUPS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "GUNK_SHOT",
+        "ICE_BEAM",
+        "SIGNAL_BEAM",
+        "OCTAZOOKA"
+      ],
+      "species": "OCTILLERY",
+      "species_token": "SPECIES_OCTILLERY"
+    },
+    {
+      "ability": "WELL_BAKED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "PLAY_ROUGH",
+        "COVET",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "DACHSBUN",
+      "species_token": "SPECIES_DACHSBUN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 392,
+  "trainer_id": 392,
+  "trainer_name": "Jorah",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

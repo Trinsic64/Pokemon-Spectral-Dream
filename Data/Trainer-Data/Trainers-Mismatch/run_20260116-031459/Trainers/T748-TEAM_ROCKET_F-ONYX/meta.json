@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ILLUSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SHADOW_BALL",
+        "FOUL_PLAY",
+        "U_TURN",
+        "SCRATCH"
+      ],
+      "species": "ZOROARK",
+      "species_token": "SPECIES_ZOROARK"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "ICE_BEAM",
+        "SOLAR_BEAM",
+        "FREEZE_DRY",
+        "ACID_ARMOR"
+      ],
+      "species": "CRYOGONAL",
+      "species_token": "SPECIES_CRYOGONAL"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "LEAF_BLADE",
+        "LAST_RESORT",
+        "SWORDS_DANCE",
+        "SAND_ATTACK"
+      ],
+      "species": "LEAFEON",
+      "species_token": "SPECIES_LEAFEON"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_DEFENSE",
+        "ZAP_CANNON",
+        "MAGNET_BOMB"
+      ],
+      "species": "PROBOPASS",
+      "species_token": "SPECIES_PROBOPASS"
+    },
+    {
+      "ability": "POISON_TOUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "GUNK_SHOT",
+        "BELCH",
+        "CRUNCH",
+        "ACID_ARMOR"
+      ],
+      "species": "MUK",
+      "species_token": "SPECIES_MUK"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DARK_PULSE",
+        "LAST_RESORT",
+        "BITE",
+        "GUARD_SWAP"
+      ],
+      "species": "UMBREON",
+      "species_token": "SPECIES_UMBREON"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 748,
+  "trainer_id": 748,
+  "trainer_name": "Onyx",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

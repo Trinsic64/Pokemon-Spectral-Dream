@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_COMPACTION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "MEGA_DRAIN",
+        "SAND_ATTACK",
+        "HARDEN",
+        "SAND_TOMB"
+      ],
+      "species": "SANDYGAST",
+      "species_token": "SPECIES_SANDYGAST"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "ICY_WIND",
+        "WATER_SPORT",
+        "HEADBUTT",
+        "ICE_SHARD"
+      ],
+      "species": "SEEL",
+      "species_token": "SPECIES_SEEL"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "LEER",
+        "FLAME_WHEEL",
+        "FEINT_ATTACK",
+        "CLEAR_SMOG"
+      ],
+      "species": "MAGBY",
+      "species_token": "SPECIES_MAGBY"
+    },
+    {
+      "ability": "DEFEATIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "ROCK_THROW",
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "PLUCK"
+      ],
+      "species": "ARCHEN",
+      "species_token": "SPECIES_ARCHEN"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 198,
+  "trainer_id": 198,
+  "trainer_name": "Santiago",
+  "trainerclass": "TRAINERCLASS_MEDIUM",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

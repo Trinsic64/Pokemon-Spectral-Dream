@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "POWER_WHIP",
+        "ROCK_CLIMB",
+        "IRON_DEFENSE",
+        "MIRROR_SHOT"
+      ],
+      "species": "FERROTHORN",
+      "species_token": "SPECIES_FERROTHORN"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "METAL_CLAW",
+        "FAKE_OUT"
+      ],
+      "species": "PERRSERKER",
+      "species_token": "SPECIES_PERRSERKER"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "BULLET_PUNCH",
+        "LOW_SWEEP",
+        "NIGHT_SLASH",
+        "VITAL_THROW"
+      ],
+      "species": "PANGORO",
+      "species_token": "SPECIES_PANGORO"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "LEAF_BLADE",
+        "HURRICANE",
+        "NASTY_PLOT",
+        "SUCKER_PUNCH"
+      ],
+      "species": "SHIFTRY",
+      "species_token": "SPECIES_SHIFTRY"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "BRINE",
+        "HARDEN",
+        "BITE",
+        "BARB_BARRAGE"
+      ],
+      "species": "QWILFISH",
+      "species_token": "SPECIES_QWILFISH"
+    },
+    {
+      "ability": "ADAPTABILITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "ASSURANCE",
+        "VENOSHOCK",
+        "PURSUIT",
+        "TWINEEDLE"
+      ],
+      "species": "BEEDRILL",
+      "species_token": "SPECIES_BEEDRILL"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 366,
+  "trainer_id": 366,
+  "trainer_name": "Orryx",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "DISCHARGE",
+        "POWER_GEM",
+        "CHARGE",
+        "COTTON_SPORE"
+      ],
+      "species": "MAREEP",
+      "species_token": "SPECIES_MAREEP"
+    },
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "AGILITY",
+        "AERIAL_ACE",
+        "ACROBATICS",
+        "RAZOR_WIND"
+      ],
+      "species": "FLETCHLING",
+      "species_token": "SPECIES_FLETCHLING"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "FOCUS_ENERGY",
+        "BUBBLE_BEAM",
+        "BRINE",
+        "DRAGON_BREATH"
+      ],
+      "species": "HORSEA",
+      "species_token": "SPECIES_HORSEA"
+    },
+    {
+      "ability": "RATTLED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ASTONISH",
+        "TACKLE",
+        "ASTONISH",
+        "ASTONISH"
+      ],
+      "species": "GIMMIGHOUL",
+      "species_token": "SPECIES_GIMMIGHOUL"
+    },
+    {
+      "ability": "OVERCOAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "IRON_HEAD",
+        "SWAGGER",
+        "HEADBUTT",
+        "SLUDGE"
+      ],
+      "species": "VAROOM",
+      "species_token": "SPECIES_VAROOM"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "LEER",
+        "HEADBUTT",
+        "RAZOR_LEAF"
+      ],
+      "species": "CAPSAKID",
+      "species_token": "SPECIES_CAPSAKID"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 304,
+  "trainer_id": 304,
+  "trainer_name": "Bella",
+  "trainerclass": "TRAINERCLASS_GUITARIST",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "CHARM",
+        "POUND",
+        "COPYCAT",
+        "SPLASH"
+      ],
+      "species": "CLEFFA",
+      "species_token": "SPECIES_CLEFFA"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "STRUGGLE_BUG",
+        "STRUGGLE_BUG",
+        "STRUGGLE_BUG",
+        "STRUGGLE_BUG"
+      ],
+      "species": "BLIPBUG",
+      "species_token": "SPECIES_BLIPBUG"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "WATER_SPORT",
+        "WATER_GUN",
+        "SPLASH",
+        "TAIL_WHIP"
+      ],
+      "species": "AZURILL",
+      "species_token": "SPECIES_AZURILL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 29,
+  "trainer_id": 29,
+  "trainer_name": "Aila",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "ABSORB",
+        "SYNTHESIS",
+        "SPLASH",
+        "TAIL_WHIP"
+      ],
+      "species": "HOPPIP",
+      "species_token": "SPECIES_HOPPIP"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "ROLLOUT",
+        "DEFENSE_CURL",
+        "POISON_STING",
+        "ROLLOUT"
+      ],
+      "species": "VENIPEDE",
+      "species_token": "SPECIES_VENIPEDE"
+    },
+    {
+      "ability": "WIMP_OUT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "STRUGGLE_BUG",
+        "DEFENSE_CURL",
+        "SAND_ATTACK",
+        "STRUGGLE_BUG"
+      ],
+      "species": "WIMPOD",
+      "species_token": "SPECIES_WIMPOD"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 33,
+  "trainer_id": 33,
+  "trainer_name": "Isla",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

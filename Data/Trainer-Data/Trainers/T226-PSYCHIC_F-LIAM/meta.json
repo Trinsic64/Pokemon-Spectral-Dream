@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "MUD_SHOT",
+        "WATER_SPORT",
+        "BUBBLE_BEAM",
+        "POUND"
+      ],
+      "species": "POLIWHIRL",
+      "species_token": "SPECIES_POLIWHIRL"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "CONFUSION",
+        "BARRIER",
+        "MAGICAL_LEAF",
+        "GUARD_SWAP"
+      ],
+      "species": "MR_MIME",
+      "species_token": "SPECIES_MR_MIME"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "BULLDOZE",
+        "ROCK_POLISH",
+        "ROCK_THROW",
+        "SMACK_DOWN"
+      ],
+      "species": "GRAVELER",
+      "species_token": "SPECIES_GRAVELER"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 226,
+  "trainer_id": 226,
+  "trainer_name": "Liam",
+  "trainerclass": "TRAINERCLASS_PSYCHIC_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

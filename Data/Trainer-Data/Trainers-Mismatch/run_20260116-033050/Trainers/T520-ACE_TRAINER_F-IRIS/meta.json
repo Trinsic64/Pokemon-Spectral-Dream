@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "BARRIER",
+        "PSYBEAM"
+      ],
+      "species": "MR_MIME",
+      "species_token": "SPECIES_MR_MIME"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "SUCKER_PUNCH",
+        "FREEZE_DRY"
+      ],
+      "species": "MR_MIME",
+      "species_token": "SPECIES_MR_MIME"
+    },
+    {
+      "ability": "TANGLED_FEET",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "SUCKER_PUNCH",
+        "FREEZE_DRY"
+      ],
+      "species": "MR_RIME",
+      "species_token": "SPECIES_MR_RIME"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 520,
+  "trainer_id": 520,
+  "trainer_name": "Iris",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FORECAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "WEATHER_BALL",
+        "HEADBUTT",
+        "TACKLE",
+        "EMBER"
+      ],
+      "species": "CASTFORM",
+      "species_token": "SPECIES_CASTFORM"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "EARTH_POWER",
+        "INCINERATE",
+        "FLAME_BURST",
+        "ANCIENT_POWER"
+      ],
+      "species": "MAGCARGO",
+      "species_token": "SPECIES_MAGCARGO"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "FIRE_BLAST",
+        "EXTRASENSORY",
+        "INCINERATE",
+        "INFERNO"
+      ],
+      "species": "NINETALES",
+      "species_token": "SPECIES_NINETALES"
+    },
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "FLAME_CHARGE",
+        "SMACK_DOWN"
+      ],
+      "species": "COALOSSAL",
+      "species_token": "SPECIES_COALOSSAL"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "DISCHARGE",
+        "SHOCK_WAVE",
+        "CHARGE",
+        "THUNDER_SHOCK"
+      ],
+      "species": "ROTOM_HEAT",
+      "species_token": "SPECIES_ROTOM_HEAT"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 549,
+  "trainer_id": 549,
+  "trainer_name": "Flint",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

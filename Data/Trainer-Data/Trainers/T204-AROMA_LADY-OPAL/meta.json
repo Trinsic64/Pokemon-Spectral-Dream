@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "KNOCK_OFF",
+        "RAZOR_LEAF",
+        "BRANCH_POKE",
+        "SCRATCH"
+      ],
+      "species": "GROOKEY",
+      "species_token": "SPECIES_GROOKEY"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "AIR_CUTTER",
+        "SWAGGER",
+        "RAZOR_LEAF",
+        "FAKE_OUT"
+      ],
+      "species": "NUZLEAF",
+      "species_token": "SPECIES_NUZLEAF"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "GROWTH",
+        "VINE_WHIP",
+        "SLEEP_POWDER",
+        "POISON_POWDER"
+      ],
+      "species": "WEEPINBELL",
+      "species_token": "SPECIES_WEEPINBELL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 204,
+  "trainer_id": 204,
+  "trainer_name": "Opal",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

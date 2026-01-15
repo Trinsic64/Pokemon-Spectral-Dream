@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "ABSORB",
+        "FOCUS_ENERGY",
+        "SLASH",
+        "FURY_CUTTER"
+      ],
+      "species": "KRICKETUNE",
+      "species_token": "SPECIES_KRICKETUNE"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "HEADBUTT",
+        "FEINT_ATTACK",
+        "PAYBACK",
+        "LOW_KICK"
+      ],
+      "species": "SCRAGGY",
+      "species_token": "SPECIES_SCRAGGY"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "FEINT_ATTACK",
+        "CONFUSION",
+        "PAYBACK",
+        "GYRO_BALL"
+      ],
+      "species": "BRONZOR",
+      "species_token": "SPECIES_BRONZOR"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "STOCKPILE",
+        "SLUDGE",
+        "CLEAR_SMOG",
+        "POUND"
+      ],
+      "species": "TRUBBISH",
+      "species_token": "SPECIES_TRUBBISH"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 249,
+  "trainer_id": 249,
+  "trainer_name": "Lazlo",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

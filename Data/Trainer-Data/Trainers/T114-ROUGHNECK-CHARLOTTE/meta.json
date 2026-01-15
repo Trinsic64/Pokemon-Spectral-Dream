@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CONTRARY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "REFLECT",
+        "TACKLE",
+        "HYPNOSIS",
+        "PSYWAVE"
+      ],
+      "species": "INKAY",
+      "species_token": "SPECIES_INKAY"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "BITE",
+        "LEER",
+        "GLARE",
+        "POISON_STING"
+      ],
+      "species": "EKANS",
+      "species_token": "SPECIES_EKANS"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "GROWL",
+        "FAKE_OUT",
+        "TACKLE",
+        "TAIL_WHIP"
+      ],
+      "species": "SKITTY",
+      "species_token": "SPECIES_SKITTY"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "POWDER_SNOW",
+        "MUD_SPORT",
+        "TACKLE",
+        "MUD_SLAP"
+      ],
+      "species": "SWINUB",
+      "species_token": "SPECIES_SWINUB"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 114,
+  "trainer_id": 114,
+  "trainer_name": "Charlotte",
+  "trainerclass": "TRAINERCLASS_ROUGHNECK",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

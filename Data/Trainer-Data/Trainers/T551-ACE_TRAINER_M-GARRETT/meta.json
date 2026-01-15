@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "DRUM_BEATING",
+        "KNOCK_OFF",
+        "RAZOR_LEAF",
+        "BRANCH_POKE"
+      ],
+      "species": "RILLABOOM",
+      "species_token": "SPECIES_RILLABOOM"
+    },
+    {
+      "ability": "FLOWER_GIFT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "PETAL_DANCE",
+        "MAGICAL_LEAF",
+        "LEAFAGE",
+        "SUNNY_DAY"
+      ],
+      "species": "CHERRIM",
+      "species_token": "SPECIES_CHERRIM"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "FLAME_WHEEL",
+        "EMBER",
+        "MACH_PUNCH",
+        "TAUNT"
+      ],
+      "species": "INFERNAPE",
+      "species_token": "SPECIES_INFERNAPE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "CLOSE_COMBAT",
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "QUICK_ATTACK"
+      ],
+      "species": "STARAPTOR",
+      "species_token": "SPECIES_STARAPTOR"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "LEAF_BLADE",
+        "HURRICANE",
+        "NASTY_PLOT",
+        "SUCKER_PUNCH"
+      ],
+      "species": "SHIFTRY",
+      "species_token": "SPECIES_SHIFTRY"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "KNOCK_OFF",
+        "BITE",
+        "FIRE_FANG",
+        "VENOSHOCK"
+      ],
+      "species": "DRAPION",
+      "species_token": "SPECIES_DRAPION"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 551,
+  "trainer_id": 551,
+  "trainer_name": "Garrett",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

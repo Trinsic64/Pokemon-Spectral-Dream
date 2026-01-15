@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 88,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "BRICK_BREAK",
+        "HEAD_SMASH"
+      ],
+      "species": "GREAT_TUSK",
+      "species_token": "SPECIES_GREAT_TUSK"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 88,
+      "moves": [
+        "EARTH_POWER",
+        "DISCHARGE",
+        "ELECTRIC_TERRAIN",
+        "ZAP_CANNON"
+      ],
+      "species": "SANDY_SHOCKS",
+      "species_token": "SPECIES_SANDY_SHOCKS"
+    },
+    {
+      "ability": "MYCELIUM_MIGHT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 88,
+      "moves": [
+        "POWER_WHIP",
+        "EARTH_POWER",
+        "SPORE",
+        "MUD_SHOT"
+      ],
+      "species": "TOEDSCRUEL",
+      "species_token": "SPECIES_TOEDSCRUEL"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 88,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "SCARY_FACE",
+        "ROCK_WRECKER"
+      ],
+      "species": "RHYPERIOR",
+      "species_token": "SPECIES_RHYPERIOR"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 88,
+      "moves": [
+        "THRASH",
+        "PLAY_ROUGH",
+        "HAMMER_ARM",
+        "HEADLONG_RUSH"
+      ],
+      "species": "URSALUNA",
+      "species_token": "SPECIES_URSALUNA"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 88,
+      "moves": [
+        "DRAGON_CLAW",
+        "SAND_ATTACK",
+        "DRAGON_RUSH",
+        "DIG"
+      ],
+      "species": "GARCHOMP",
+      "species_token": "SPECIES_GARCHOMP"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 967,
+  "trainer_id": 967,
+  "trainer_name": "KAREN",
+  "trainerclass": "TRAINERCLASS_ELITE_FOUR_KAREN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

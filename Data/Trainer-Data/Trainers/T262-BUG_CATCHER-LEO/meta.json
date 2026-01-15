@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "UPROAR",
+        "DOUBLE_TEAM",
+        "FORESIGHT",
+        "DETECT"
+      ],
+      "species": "YANMA",
+      "species_token": "SPECIES_YANMA"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "GIGA_DRAIN",
+        "PECK",
+        "COTTON_GUARD",
+        "NEEDLE_ARM"
+      ],
+      "species": "MARACTUS",
+      "species_token": "SPECIES_MARACTUS"
+    },
+    {
+      "ability": "LIQUID_OOZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "GUNK_SHOT",
+        "BODY_SLAM",
+        "AMNESIA",
+        "SLUDGE"
+      ],
+      "species": "SWALOT",
+      "species_token": "SPECIES_SWALOT"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "COUNTER",
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "ASSURANCE"
+      ],
+      "species": "SPIDOPS",
+      "species_token": "SPECIES_SPIDOPS"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 262,
+  "trainer_id": 262,
+  "trainer_name": "Leo",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

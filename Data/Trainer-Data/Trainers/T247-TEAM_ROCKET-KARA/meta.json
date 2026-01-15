@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "GROWTH",
+        "VINE_WHIP",
+        "ACID",
+        "SLEEP_POWDER"
+      ],
+      "species": "BELLSPROUT",
+      "species_token": "SPECIES_BELLSPROUT"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "TORMENT",
+        "FEINT_ATTACK",
+        "METAL_CLAW",
+        "SCRATCH"
+      ],
+      "species": "PAWNIARD",
+      "species_token": "SPECIES_PAWNIARD"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "ROCK_TOMB",
+        "PSYBEAM",
+        "ANCIENT_POWER",
+        "MUD_SLAP"
+      ],
+      "species": "BALTOY",
+      "species_token": "SPECIES_BALTOY"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "LOW_SWEEP",
+        "SLASH",
+        "CIRCLE_THROW",
+        "TAUNT"
+      ],
+      "species": "PANCHAM",
+      "species_token": "SPECIES_PANCHAM"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 247,
+  "trainer_id": 247,
+  "trainer_name": "Kara",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

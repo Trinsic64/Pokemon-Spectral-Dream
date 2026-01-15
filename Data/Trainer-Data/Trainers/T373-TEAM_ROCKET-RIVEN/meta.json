@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "EARTH_POWER",
+        "CRUNCH",
+        "SUPERPOWER",
+        "DRAGON_TAIL"
+      ],
+      "species": "VIBRAVA",
+      "species_token": "SPECIES_VIBRAVA"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "PAYBACK",
+        "DIZZY_PUNCH",
+        "BUBBLE_BEAM",
+        "ROCK_SMASH"
+      ],
+      "species": "CRABRAWLER",
+      "species_token": "SPECIES_CRABRAWLER"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "SLUDGE_BOMB",
+        "ASSURANCE",
+        "POISON_GAS",
+        "SLUDGE"
+      ],
+      "species": "KOFFING",
+      "species_token": "SPECIES_KOFFING"
+    },
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "IRON_DEFENSE",
+        "WATER_GUN",
+        "WHIRLPOOL",
+        "CLAMP"
+      ],
+      "species": "CLAMPERL",
+      "species_token": "SPECIES_CLAMPERL"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 373,
+  "trainer_id": 373,
+  "trainer_name": "Riven",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

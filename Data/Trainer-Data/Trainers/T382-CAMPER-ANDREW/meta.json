@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "PSYBEAM",
+        "COPYCAT",
+        "DIZZY_PUNCH",
+        "SUCKER_PUNCH"
+      ],
+      "species": "SPINDA",
+      "species_token": "SPECIES_SPINDA"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "ABSORB",
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "FLAME_CHARGE"
+      ],
+      "species": "LARVESTA",
+      "species_token": "SPECIES_LARVESTA"
+    },
+    {
+      "ability": "MYCELIUM_MIGHT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "SEED_BOMB",
+        "MUD_SHOT",
+        "SCREECH",
+        "HEX"
+      ],
+      "species": "TOEDSCOOL",
+      "species_token": "SPECIES_TOEDSCOOL"
+    },
+    {
+      "ability": "DEFEATIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "ROCK_SLIDE",
+        "CRUNCH",
+        "ROCK_THROW",
+        "WING_ATTACK"
+      ],
+      "species": "ARCHEN",
+      "species_token": "SPECIES_ARCHEN"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "THUNDER_WAVE",
+        "SPARK",
+        "SWIFT",
+        "QUICK_ATTACK"
+      ],
+      "species": "PACHIRISU",
+      "species_token": "SPECIES_PACHIRISU"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 382,
+  "trainer_id": 382,
+  "trainer_name": "Andrew",
+  "trainerclass": "TRAINERCLASS_CAMPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

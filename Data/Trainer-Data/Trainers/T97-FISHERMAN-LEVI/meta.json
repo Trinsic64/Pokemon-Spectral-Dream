@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "LEER",
+        "WATER_GUN",
+        "TWISTER",
+        "SMOKESCREEN"
+      ],
+      "species": "HORSEA",
+      "species_token": "SPECIES_HORSEA"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "TACKLE",
+        "QUICK_ATTACK"
+      ],
+      "species": "STARLY",
+      "species_token": "SPECIES_STARLY"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "POWDER_SNOW",
+        "DEFENSE_CURL",
+        "WATER_GUN",
+        "GROWL"
+      ],
+      "species": "SPHEAL",
+      "species_token": "SPECIES_SPHEAL"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "GROWL",
+        "BONE_CLUB",
+        "HEADBUTT",
+        "TAIL_WHIP"
+      ],
+      "species": "CUBONE",
+      "species_token": "SPECIES_CUBONE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 97,
+  "trainer_id": 97,
+  "trainer_name": "Levi",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

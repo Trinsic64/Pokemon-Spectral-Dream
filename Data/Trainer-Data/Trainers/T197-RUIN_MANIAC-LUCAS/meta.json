@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "GUST",
+        "RAIN_DANCE",
+        "WATER_GUN",
+        "POUND"
+      ],
+      "species": "FINNEON",
+      "species_token": "SPECIES_FINNEON"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "PURSUIT",
+        "TWINEEDLE",
+        "RAGE",
+        "FURY_ATTACK"
+      ],
+      "species": "BEEDRILL",
+      "species_token": "SPECIES_BEEDRILL"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "COVET",
+        "PAYBACK",
+        "SCRATCH",
+        "SWEET_SCENT"
+      ],
+      "species": "TEDDIURSA",
+      "species_token": "SPECIES_TEDDIURSA"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "PRESENT",
+        "PRESENT",
+        "PRESENT",
+        "PRESENT"
+      ],
+      "species": "DELIBIRD",
+      "species_token": "SPECIES_DELIBIRD"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 197,
+  "trainer_id": 197,
+  "trainer_name": "Lucas",
+  "trainerclass": "TRAINERCLASS_RUIN_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

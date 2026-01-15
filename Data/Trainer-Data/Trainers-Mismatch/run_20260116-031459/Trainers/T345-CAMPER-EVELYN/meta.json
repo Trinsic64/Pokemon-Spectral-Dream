@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "SEED_BOMB",
+        "HONE_CLAWS",
+        "U_TURN",
+        "SLASH"
+      ],
+      "species": "FLORAGATO",
+      "species_token": "SPECIES_FLORAGATO"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "FLAMETHROWER",
+        "INCINERATE",
+        "ROUND",
+        "SNARL"
+      ],
+      "species": "CROCALOR",
+      "species_token": "SPECIES_CROCALOR"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "AIR_SLASH",
+        "WING_ATTACK",
+        "LOW_SWEEP",
+        "AQUA_CUTTER"
+      ],
+      "species": "QUAXWELL",
+      "species_token": "SPECIES_QUAXWELL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 345,
+  "trainer_id": 345,
+  "trainer_name": "Evelyn",
+  "trainerclass": "TRAINERCLASS_CAMPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

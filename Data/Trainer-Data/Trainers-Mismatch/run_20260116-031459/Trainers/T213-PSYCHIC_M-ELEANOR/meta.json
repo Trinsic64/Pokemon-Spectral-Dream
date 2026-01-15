@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "UPROAR",
+        "REFLECT",
+        "MEGA_DRAIN",
+        "LEECH_SEED"
+      ],
+      "species": "EXEGGCUTE",
+      "species_token": "SPECIES_EXEGGCUTE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "HIDDEN_POWER",
+        "HIDDEN_POWER",
+        "HIDDEN_POWER",
+        "HIDDEN_POWER"
+      ],
+      "species": "UNOWN",
+      "species_token": "SPECIES_UNOWN"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "ROCK_TOMB",
+        "PSYBEAM",
+        "ANCIENT_POWER",
+        "MUD_SLAP"
+      ],
+      "species": "BALTOY",
+      "species_token": "SPECIES_BALTOY"
+    },
+    {
+      "ability": "RATTLED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "ASTONISH",
+        "TACKLE",
+        "ASTONISH",
+        "ASTONISH"
+      ],
+      "species": "GIMMIGHOUL",
+      "species_token": "SPECIES_GIMMIGHOUL"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 213,
+  "trainer_id": 213,
+  "trainer_name": "Eleanor",
+  "trainerclass": "TRAINERCLASS_PSYCHIC_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

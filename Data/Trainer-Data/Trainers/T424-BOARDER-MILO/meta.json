@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "DOUBLE_TEAM",
+        "ICE_FANG",
+        "HEADBUTT",
+        "FROST_BREATH"
+      ],
+      "species": "SNORUNT",
+      "species_token": "SPECIES_SNORUNT"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "NIGHT_SLASH",
+        "SLASH",
+        "RETALIATE",
+        "SHADOW_SNEAK"
+      ],
+      "species": "DOUBLADE",
+      "species_token": "SPECIES_DOUBLADE"
+    },
+    {
+      "ability": "ICE_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "ICE_BEAM",
+        "UPROAR",
+        "MIRROR_SHOT",
+        "ACID_ARMOR"
+      ],
+      "species": "VANILLITE",
+      "species_token": "SPECIES_VANILLITE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 424,
+  "trainer_id": 424,
+  "trainer_name": "Milo",
+  "trainerclass": "TRAINERCLASS_BOARDER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

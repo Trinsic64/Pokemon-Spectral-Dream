@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IMMUNITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "CRUSH_CLAW",
+        "X_SCISSOR",
+        "SWORDS_DANCE",
+        "SLASH"
+      ],
+      "species": "ZANGOOSE",
+      "species_token": "SPECIES_ZANGOOSE"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "AQUA_TAIL",
+        "SIGNAL_BEAM",
+        "DIVE",
+        "AURORA_BEAM"
+      ],
+      "species": "DEWGONG",
+      "species_token": "SPECIES_DEWGONG"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SKY_UPPERCUT",
+        "LEECH_SEED",
+        "DYNAMIC_PUNCH",
+        "SEED_BOMB"
+      ],
+      "species": "BRELOOM",
+      "species_token": "SPECIES_BRELOOM"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "LEECH_LIFE",
+        "BITE",
+        "WING_ATTACK",
+        "VENOSHOCK"
+      ],
+      "species": "GOLBAT",
+      "species_token": "SPECIES_GOLBAT"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER",
+        "SHOCK_WAVE"
+      ],
+      "species": "MANECTRIC",
+      "species_token": "SPECIES_MANECTRIC"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BUG_BUZZ",
+        "BLIZZARD",
+        "AURORA_BEAM",
+        "QUIVER_DANCE"
+      ],
+      "species": "FROSMOTH",
+      "species_token": "SPECIES_FROSMOTH"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 592,
+  "trainer_id": 592,
+  "trainer_name": "RisaA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

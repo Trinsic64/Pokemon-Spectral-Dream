@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "LEAF_BLADE",
+        "EARTHQUAKE",
+        "BULK_UP",
+        "AERIAL_ACE"
+      ],
+      "species": "GOGOAT",
+      "species_token": "SPECIES_GOGOAT"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "KOWTOW_CLEAVE",
+        "IRON_DEFENSE",
+        "IRON_HEAD",
+        "NIGHT_SLASH"
+      ],
+      "species": "KINGAMBIT",
+      "species_token": "SPECIES_KINGAMBIT"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "DRAGON_RUSH",
+        "SUCKER_PUNCH",
+        "U_TURN",
+        "PHANTOM_FORCE"
+      ],
+      "species": "DRAGAPULT",
+      "species_token": "SPECIES_DRAGAPULT"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "AIR_SLASH",
+        "LEECH_LIFE",
+        "BITE",
+        "CROSS_POISON"
+      ],
+      "species": "CROBAT",
+      "species_token": "SPECIES_CROBAT"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HYDRO_PUMP",
+        "SIGNAL_BEAM",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "LANTURN",
+      "species_token": "SPECIES_LANTURN"
+    },
+    {
+      "ability": "MARVEL_SCALE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "AQUA_TAIL",
+        "COIL"
+      ],
+      "species": "MILOTIC",
+      "species_token": "SPECIES_MILOTIC"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 792,
+  "trainer_id": 792,
+  "trainer_name": "Selene",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

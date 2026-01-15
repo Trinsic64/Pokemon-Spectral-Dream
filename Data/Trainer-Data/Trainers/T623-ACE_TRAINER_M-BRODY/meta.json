@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "STONE_EDGE",
+        "COPYCAT",
+        "WOOD_HAMMER",
+        "ROCK_SLIDE"
+      ],
+      "species": "SUDOWOODO",
+      "species_token": "SPECIES_SUDOWOODO"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "X_SCISSOR",
+        "ROCK_POLISH",
+        "ROCK_SLIDE",
+        "SAND_ATTACK"
+      ],
+      "species": "CRUSTLE",
+      "species_token": "SPECIES_CRUSTLE"
+    },
+    {
+      "ability": "ANGER_SHELL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "ROCK_SLIDE",
+        "HIGH_HORSEPOWER",
+        "SWORDS_DANCE",
+        "X_SCISSOR"
+      ],
+      "species": "KLAWF",
+      "species_token": "SPECIES_KLAWF"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "IRON_TAIL",
+        "ROCK_SLIDE"
+      ],
+      "species": "ARON",
+      "species_token": "SPECIES_ARON"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "IRON_TAIL",
+        "ROCK_SLIDE"
+      ],
+      "species": "AGGRON",
+      "species_token": "SPECIES_AGGRON"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 623,
+  "trainer_id": 623,
+  "trainer_name": "Brody",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

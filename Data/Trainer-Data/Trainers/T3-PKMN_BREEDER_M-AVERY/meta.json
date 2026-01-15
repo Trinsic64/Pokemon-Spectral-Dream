@@ -1,0 +1,54 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 4,
+      "moves": [
+        "AGILITY",
+        "TACKLE",
+        "LEER",
+        "MUD_SLAP"
+      ],
+      "species": "BUNNELBY",
+      "species_token": "SPECIES_BUNNELBY"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 4,
+      "moves": [
+        "TAIL_WHIP",
+        "WATER_GUN",
+        "WATER_GUN",
+        "WATER_GUN"
+      ],
+      "species": "WOOPER",
+      "species_token": "SPECIES_WOOPER"
+    }
+  ],
+  "nummons": 2,
+  "party_id": 3,
+  "trainer_id": 3,
+  "trainer_name": "Avery",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

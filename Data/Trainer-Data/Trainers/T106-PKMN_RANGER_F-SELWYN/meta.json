@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BALL_FETCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "TAIL_WHIP",
+        "BITE",
+        "TACKLE",
+        "NUZZLE"
+      ],
+      "species": "YAMPER",
+      "species_token": "SPECIES_YAMPER"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "COVET",
+        "BITE",
+        "TACKLE",
+        "LICK"
+      ],
+      "species": "FIDOUGH",
+      "species_token": "SPECIES_FIDOUGH"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "SKETCH",
+        "SKETCH",
+        "SKETCH",
+        "SKETCH"
+      ],
+      "species": "SMEARGLE",
+      "species_token": "SPECIES_SMEARGLE"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "BITE",
+        "TACKLE",
+        "WATER_GUN",
+        "BITE"
+      ],
+      "species": "CHEWTLE",
+      "species_token": "SPECIES_CHEWTLE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 106,
+  "trainer_id": 106,
+  "trainer_name": "Selwyn",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

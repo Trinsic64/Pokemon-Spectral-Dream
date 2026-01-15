@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "DRAGON_PULSE",
+        "MOONBLAST",
+        "DRAGON_BREATH",
+        "SKY_ATTACK"
+      ],
+      "species": "ALTARIA",
+      "species_token": "SPECIES_ALTARIA"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "EARTHQUAKE",
+        "DRAGON_CLAW",
+        "DRAGON_DANCE",
+        "SUPERPOWER"
+      ],
+      "species": "FLYGON",
+      "species_token": "SPECIES_FLYGON"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "SLUDGE_BOMB",
+        "HYDRO_PUMP",
+        "DOUBLE_TEAM",
+        "DRAGON_PULSE"
+      ],
+      "species": "DRAGALGE",
+      "species_token": "SPECIES_DRAGALGE"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "DRAGON_PULSE",
+        "BOOMBURST",
+        "DOUBLE_TEAM",
+        "HURRICANE"
+      ],
+      "species": "NOIVERN",
+      "species_token": "SPECIES_NOIVERN"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "OUTRAGE",
+        "MUDDY_WATER",
+        "PROTECT",
+        "DRAGON_PULSE"
+      ],
+      "species": "GOODRA",
+      "species_token": "SPECIES_GOODRA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 652,
+  "trainer_id": 652,
+  "trainer_name": "Lyra",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "REFRIGERATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "ICE_BEAM",
+        "FREEZE_DRY",
+        "AURORA_BEAM",
+        "ANCIENT_POWER"
+      ],
+      "species": "AMAURA",
+      "species_token": "SPECIES_AMAURA"
+    },
+    {
+      "ability": "CHEEK_POUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "DISCHARGE",
+        "PLAY_ROUGH",
+        "CHARGE",
+        "REST"
+      ],
+      "species": "DEDENNE",
+      "species_token": "SPECIES_DEDENNE"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "MUDDY_WATER",
+        "UPROAR",
+        "ACID",
+        "MUD_SHOT"
+      ],
+      "species": "PALPITOAD",
+      "species_token": "SPECIES_PALPITOAD"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "LAST_RESORT",
+        "BODY_SLAM",
+        "CHIP_AWAY",
+        "AMNESIA"
+      ],
+      "species": "MUNCHLAX",
+      "species_token": "SPECIES_MUNCHLAX"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "FUTURE_SIGHT",
+        "TELEPORT",
+        "PSYCHIC",
+        "PSYSHOCK"
+      ],
+      "species": "KADABRA",
+      "species_token": "SPECIES_KADABRA"
+    },
+    {
+      "ability": "WATER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "WATER_SPOUT",
+        "BODY_SLAM",
+        "BOUNCE",
+        "AMNESIA"
+      ],
+      "species": "WAILMER",
+      "species_token": "SPECIES_WAILMER"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 490,
+  "trainer_id": 490,
+  "trainer_name": "Orin",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

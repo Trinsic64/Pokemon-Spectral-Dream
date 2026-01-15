@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "POWER_GEM",
+        "CHARGE",
+        "THUNDER_SHOCK",
+        "COTTON_SPORE"
+      ],
+      "species": "FLAAFFY",
+      "species_token": "SPECIES_FLAAFFY"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "DRILL_PECK",
+        "GROWL",
+        "PLUCK",
+        "ECHOED_VOICE"
+      ],
+      "species": "TRUMBEAK",
+      "species_token": "SPECIES_TRUMBEAK"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "BITE",
+        "TOXIC_SPIKES",
+        "SCRATCH",
+        "POISON_STING"
+      ],
+      "species": "NIDORINA",
+      "species_token": "SPECIES_NIDORINA"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "WORK_UP",
+        "HEADBUTT",
+        "FIRE_FANG",
+        "EMBER"
+      ],
+      "species": "LITLEO",
+      "species_token": "SPECIES_LITLEO"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 376,
+  "trainer_id": 376,
+  "trainer_name": "Umbra",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

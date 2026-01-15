@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "CRUSH_CLAW",
+        "SUPERPOWER",
+        "SLASH",
+        "SKY_ATTACK"
+      ],
+      "species": "BRAVIARY",
+      "species_token": "SPECIES_BRAVIARY"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "HYDRO_PUMP",
+        "SIGNAL_BEAM",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "LANTURN",
+      "species_token": "SPECIES_LANTURN"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "ENERGY_BALL",
+        "MOONBLAST",
+        "HURRICANE",
+        "SUNNY_DAY"
+      ],
+      "species": "WHIMSICOTT",
+      "species_token": "SPECIES_WHIMSICOTT"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "BRICK_BREAK",
+        "FIRST_IMPRESSION",
+        "KNOCK_OFF",
+        "IRON_DEFENSE"
+      ],
+      "species": "SIRFETCHD",
+      "species_token": "SPECIES_SIRFETCHD"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "FLASH_CANNON",
+        "MEGA_PUNCH",
+        "ACID_ARMOR",
+        "THUNDER_PUNCH"
+      ],
+      "species": "MELMETAL",
+      "species_token": "SPECIES_MELMETAL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 838,
+  "trainer_id": 838,
+  "trainer_name": "Eira",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

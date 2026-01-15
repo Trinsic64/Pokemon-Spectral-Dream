@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "PROTECT",
+        "TACKLE",
+        "TACKLE",
+        "TACKLE"
+      ],
+      "species": "BURMY",
+      "species_token": "SPECIES_BURMY"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "HOWL",
+        "POUND",
+        "ECHOED_VOICE",
+        "ASTONISH"
+      ],
+      "species": "WHISMUR",
+      "species_token": "SPECIES_WHISMUR"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "SAND_ATTACK",
+        "SCRATCH",
+        "ASTONISH",
+        "MUD_SLAP"
+      ],
+      "species": "DIGLETT",
+      "species_token": "SPECIES_DIGLETT"
+    },
+    {
+      "ability": "LIQUID_OOZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "AMNESIA",
+        "SLUDGE",
+        "POISON_GAS",
+        "POUND"
+      ],
+      "species": "GULPIN",
+      "species_token": "SPECIES_GULPIN"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 115,
+  "trainer_id": 115,
+  "trainer_name": "Naomi",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

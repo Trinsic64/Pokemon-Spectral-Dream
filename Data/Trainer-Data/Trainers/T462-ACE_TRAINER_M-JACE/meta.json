@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "FOUL_PLAY",
+        "ZEN_HEADBUTT",
+        "KNOCK_OFF",
+        "SHADOW_BALL"
+      ],
+      "species": "SABLEYE",
+      "species_token": "SPECIES_SABLEYE"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "PLAY_ROUGH",
+        "SLASH",
+        "HEADBUTT",
+        "REST"
+      ],
+      "species": "LINOONE",
+      "species_token": "SPECIES_LINOONE"
+    },
+    {
+      "ability": "RIPEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "GRAV_APPLE",
+        "DRAGON_PULSE",
+        "DRAGON_RUSH",
+        "DRAGON_DANCE"
+      ],
+      "species": "FLAPPLE",
+      "species_token": "SPECIES_FLAPPLE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 462,
+  "trainer_id": 462,
+  "trainer_name": "Jace",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

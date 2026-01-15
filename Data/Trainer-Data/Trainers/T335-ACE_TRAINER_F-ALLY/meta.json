@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THERMAL_EXCHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "DRAGON_CLAW",
+        "ICE_FANG",
+        "FOCUS_ENERGY",
+        "DRAGON_TAIL"
+      ],
+      "species": "FRIGIBAX",
+      "species_token": "SPECIES_FRIGIBAX"
+    },
+    {
+      "ability": "THERMAL_EXCHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "DRAGON_CLAW",
+        "ICE_FANG",
+        "FOCUS_ENERGY",
+        "DRAGON_TAIL"
+      ],
+      "species": "ARCTIBAX",
+      "species_token": "SPECIES_ARCTIBAX"
+    },
+    {
+      "ability": "TOXIC_DEBRIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "ROCK_SLIDE",
+        "ROCK_POLISH",
+        "VENOSHOCK",
+        "ANCIENT_POWER"
+      ],
+      "species": "GLIMMET",
+      "species_token": "SPECIES_GLIMMET"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 335,
+  "trainer_id": 335,
+  "trainer_name": "Ally",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

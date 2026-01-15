@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "BULLDOZE",
+        "ROCK_POLISH",
+        "ROCK_THROW",
+        "SMACK_DOWN"
+      ],
+      "species": "GEODUDE",
+      "species_token": "SPECIES_GEODUDE"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "KNOCK_OFF",
+        "GROWTH",
+        "VINE_WHIP",
+        "ACID"
+      ],
+      "species": "BELLSPROUT",
+      "species_token": "SPECIES_BELLSPROUT"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "AQUA_TAIL",
+        "ZEN_HEADBUTT",
+        "WATER_SPORT",
+        "WATER_PULSE"
+      ],
+      "species": "PSYDUCK",
+      "species_token": "SPECIES_PSYDUCK"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 288,
+  "trainer_id": 288,
+  "trainer_name": "Victoria",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

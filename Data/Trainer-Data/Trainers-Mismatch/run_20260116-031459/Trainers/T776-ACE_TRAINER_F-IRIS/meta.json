@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "WATER_SPOUT",
+        "SHADOW_BALL",
+        "HEX",
+        "ACID_ARMOR"
+      ],
+      "species": "JELLICENT",
+      "species_token": "SPECIES_JELLICENT"
+    },
+    {
+      "ability": "SAND_RUSH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "EARTHQUAKE",
+        "DRILL_RUN",
+        "DIG",
+        "METAL_CLAW"
+      ],
+      "species": "EXCADRILL",
+      "species_token": "SPECIES_EXCADRILL"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "POWER_WHIP",
+        "KNOCK_OFF",
+        "ANCIENT_POWER",
+        "GIGA_DRAIN"
+      ],
+      "species": "TANGROWTH",
+      "species_token": "SPECIES_TANGROWTH"
+    },
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "CONFUSE_RAY",
+        "DARK_PULSE"
+      ],
+      "species": "GENGAR",
+      "species_token": "SPECIES_GENGAR"
+    },
+    {
+      "ability": "AFTERMATH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "SHADOW_BALL",
+        "PHANTOM_FORCE",
+        "HEX",
+        "GUST"
+      ],
+      "species": "DRIFBLIM",
+      "species_token": "SPECIES_DRIFBLIM"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "EARTHQUAKE",
+        "AMNESIA"
+      ],
+      "species": "SWAMPERT",
+      "species_token": "SPECIES_SWAMPERT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 776,
+  "trainer_id": 776,
+  "trainer_name": "Iris",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

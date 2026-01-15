@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "UPROAR",
+        "FOCUS_PUNCH",
+        "FOCUS_ENERGY",
+        "SLASH"
+      ],
+      "species": "VIGOROTH",
+      "species_token": "SPECIES_VIGOROTH"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "HIGH_HORSEPOWER",
+        "PLAY_ROUGH",
+        "SLASH",
+        "REST"
+      ],
+      "species": "URSARING",
+      "species_token": "SPECIES_URSARING"
+    },
+    {
+      "ability": "FLUFFY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "HEADBUTT",
+        "TACKLE",
+        "DOUBLE_KICK",
+        "GUARD_SPLIT"
+      ],
+      "species": "DUBWOOL",
+      "species_token": "SPECIES_DUBWOOL"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "BODY_SLAM",
+        "PLAY_ROUGH",
+        "GROWL",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "MILTANK",
+      "species_token": "SPECIES_MILTANK"
+    },
+    {
+      "ability": "RECKLESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "HEAD_CHARGE",
+        "MEGAHORN",
+        "FOCUS_ENERGY",
+        "THRASH"
+      ],
+      "species": "BOUFFALANT",
+      "species_token": "SPECIES_BOUFFALANT"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 512,
+  "trainer_id": 512,
+  "trainer_name": "Owen",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

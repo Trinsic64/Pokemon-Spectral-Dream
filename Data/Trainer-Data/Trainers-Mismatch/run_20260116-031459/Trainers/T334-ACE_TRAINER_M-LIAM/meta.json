@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BULLETPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "DRAGON_CLAW",
+        "DRAGON_TAIL",
+        "WORK_UP",
+        "HEADBUTT"
+      ],
+      "species": "JANGMO_O",
+      "species_token": "SPECIES_JANGMO_O"
+    },
+    {
+      "ability": "BULLETPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "SKY_UPPERCUT",
+        "DRAGON_TAIL",
+        "WORK_UP",
+        "HEADBUTT"
+      ],
+      "species": "HAKAMO_O",
+      "species_token": "SPECIES_HAKAMO_O"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "BODY_SLAM",
+        "BOUNCE",
+        "GROWL",
+        "AVALANCHE"
+      ],
+      "species": "CETODDLE",
+      "species_token": "SPECIES_CETODDLE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 334,
+  "trainer_id": 334,
+  "trainer_name": "Liam",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

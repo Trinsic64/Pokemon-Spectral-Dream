@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LAST_RESORT",
+        "COVET",
+        "BITE"
+      ],
+      "species": "ESPEON",
+      "species_token": "SPECIES_ESPEON"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "DAZZLING_GLEAM",
+        "ACID_ARMOR",
+        "DRAINING_KISS",
+        "TACKLE"
+      ],
+      "species": "ALCREMIE",
+      "species_token": "SPECIES_ALCREMIE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PSYCHIC",
+        "COVET",
+        "SUCKER_PUNCH",
+        "PSYSHOCK"
+      ],
+      "species": "MEOWSTIC",
+      "species_token": "SPECIES_MEOWSTIC"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "CALM_MIND",
+        "PSYBEAM"
+      ],
+      "species": "HATTERENE",
+      "species_token": "SPECIES_HATTERENE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "POWER_GEM",
+        "SPITE",
+        "PHANTOM_FORCE",
+        "MYSTICAL_FIRE"
+      ],
+      "species": "MISMAGIUS",
+      "species_token": "SPECIES_MISMAGIUS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 563,
+  "trainer_id": 563,
+  "trainer_name": "Elena",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

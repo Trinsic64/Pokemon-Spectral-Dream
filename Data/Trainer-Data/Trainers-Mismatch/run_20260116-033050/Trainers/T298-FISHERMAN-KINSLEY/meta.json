@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "SURF",
+        "HEADBUTT",
+        "CURSE"
+      ],
+      "species": "SLOWPOKE",
+      "species_token": "SPECIES_SLOWPOKE"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "ICE_PUNCH",
+        "WORK_UP",
+        "ICE_FANG",
+        "HEADBUTT"
+      ],
+      "species": "DARUMAKA",
+      "species_token": "SPECIES_DARUMAKA"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "SWIFT",
+        "CHARGE_BEAM"
+      ],
+      "species": "VOLTORB",
+      "species_token": "SPECIES_VOLTORB"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 298,
+  "trainer_id": 298,
+  "trainer_name": "Kinsley",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

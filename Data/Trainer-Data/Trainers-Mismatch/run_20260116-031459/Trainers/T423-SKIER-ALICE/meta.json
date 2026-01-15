@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "ICE_BEAM",
+        "EXTRASENSORY",
+        "MIST",
+        "AURORA_BEAM"
+      ],
+      "species": "VULPIX",
+      "species_token": "SPECIES_VULPIX"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "KNOCK_OFF",
+        "SLAM",
+        "CHIP_AWAY",
+        "STOMP"
+      ],
+      "species": "LICKITUNG",
+      "species_token": "SPECIES_LICKITUNG"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "CRUNCH",
+        "BLIZZARD",
+        "ICE_FANG",
+        "IRON_DEFENSE"
+      ],
+      "species": "BERGMITE",
+      "species_token": "SPECIES_BERGMITE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 423,
+  "trainer_id": 423,
+  "trainer_name": "Alice",
+  "trainerclass": "TRAINERCLASS_SKIER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

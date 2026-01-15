@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HONE_CLAWS",
+        "PLUCK",
+        "PECK",
+        "LEER"
+      ],
+      "species": "CORVISQUIRE",
+      "species_token": "SPECIES_CORVISQUIRE"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "FAIRY_WIND",
+        "ROUND",
+        "TACKLE",
+        "SWEET_SCENT"
+      ],
+      "species": "SWIRLIX",
+      "species_token": "SPECIES_SWIRLIX"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "FALSE_SURRENDER",
+        "FLATTER",
+        "BITE",
+        "ASSURANCE"
+      ],
+      "species": "MORGREM",
+      "species_token": "SPECIES_MORGREM"
+    },
+    {
+      "ability": "OVERCOAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "ROLLOUT",
+        "REFLECT",
+        "PSYBEAM",
+        "HIDDEN_POWER"
+      ],
+      "species": "SOLOSIS",
+      "species_token": "SPECIES_SOLOSIS"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HELPING_HAND",
+        "POUND",
+        "BABY_DOLL_EYES",
+        "DOUBLE_SLAP"
+      ],
+      "species": "MINCCINO",
+      "species_token": "SPECIES_MINCCINO"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 194,
+  "trainer_id": 194,
+  "trainer_name": "Winslow",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

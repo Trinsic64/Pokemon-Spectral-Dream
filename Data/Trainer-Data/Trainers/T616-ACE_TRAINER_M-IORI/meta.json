@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "STONE_EDGE",
+        "BULK_UP",
+        "ROCK_SLIDE",
+        "DYNAMIC_PUNCH"
+      ],
+      "species": "CONKELDURR",
+      "species_token": "SPECIES_CONKELDURR"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "JUMP_KICK",
+        "HONE_CLAWS",
+        "U_TURN",
+        "DRAIN_PUNCH"
+      ],
+      "species": "MIENSHAO",
+      "species_token": "SPECIES_MIENSHAO"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "METEOR_MASH",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "AURA_SPHERE"
+      ],
+      "species": "LUCARIO",
+      "species_token": "SPECIES_LUCARIO"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "KNOCK_OFF",
+        "VITAL_THROW",
+        "WAKE_UP_SLAP",
+        "FOCUS_ENERGY"
+      ],
+      "species": "HARIYAMA",
+      "species_token": "SPECIES_HARIYAMA"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LEAF_BLADE",
+        "NIGHT_SLASH",
+        "CLOSE_COMBAT"
+      ],
+      "species": "GALLADE",
+      "species_token": "SPECIES_GALLADE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 616,
+  "trainer_id": 616,
+  "trainer_name": "Iori",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

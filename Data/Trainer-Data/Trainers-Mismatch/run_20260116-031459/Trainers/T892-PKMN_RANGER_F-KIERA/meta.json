@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "FLASH_CANNON",
+        "LAST_RESORT",
+        "FOUL_PLAY",
+        "SPIKES"
+      ],
+      "species": "KLEFKI",
+      "species_token": "SPECIES_KLEFKI"
+    },
+    {
+      "ability": "ZERO_TO_HERO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "WAVE_CRASH",
+        "FOCUS_PUNCH",
+        "FOCUS_ENERGY",
+        "ACROBATICS"
+      ],
+      "species": "PALAFIN",
+      "species_token": "SPECIES_PALAFIN"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "MEGAHORN",
+        "JUMP_KICK",
+        "DOUBLE_EDGE",
+        "SOLAR_BEAM"
+      ],
+      "species": "SAWSBUCK",
+      "species_token": "SPECIES_SAWSBUCK"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "DRAGON_PULSE",
+        "MOONBLAST",
+        "DRAGON_BREATH",
+        "SKY_ATTACK"
+      ],
+      "species": "ALTARIA",
+      "species_token": "SPECIES_ALTARIA"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "DISCHARGE",
+        "LAST_RESORT",
+        "THUNDER",
+        "AGILITY"
+      ],
+      "species": "JOLTEON",
+      "species_token": "SPECIES_JOLTEON"
+    },
+    {
+      "ability": "PURE_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "CALM_MIND",
+        "ICE_PUNCH",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "MEDICHAM",
+      "species_token": "SPECIES_MEDICHAM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 892,
+  "trainer_id": 892,
+  "trainer_name": "Kiera",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "MOONBLAST",
+        "PHANTOM_FORCE",
+        "CONFUSE_RAY",
+        "RAZOR_LEAF"
+      ],
+      "species": "GOURGEIST",
+      "species_token": "SPECIES_GOURGEIST"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "HORN_LEECH",
+        "SHADOW_CLAW",
+        "CONFUSE_RAY",
+        "HEX"
+      ],
+      "species": "TREVENANT",
+      "species_token": "SPECIES_TREVENANT"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "PLAY_ROUGH",
+        "GROWL",
+        "POWER_GEM",
+        "SWIFT"
+      ],
+      "species": "PERSIAN",
+      "species_token": "SPECIES_PERSIAN"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "SUCKER_PUNCH",
+        "SWAGGER",
+        "REVENGE",
+        "VENOSHOCK"
+      ],
+      "species": "TOXICROAK",
+      "species_token": "SPECIES_TOXICROAK"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "KNOCK_OFF",
+        "NIGHT_SLASH",
+        "BUBBLE_BEAM",
+        "VICE_GRIP"
+      ],
+      "species": "CRAWDAUNT",
+      "species_token": "SPECIES_CRAWDAUNT"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 363,
+  "trainer_id": 363,
+  "trainer_name": "Pyra",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

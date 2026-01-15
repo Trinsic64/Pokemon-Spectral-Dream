@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "GROWL",
+        "AIR_CUTTER",
+        "QUICK_ATTACK",
+        "GUST"
+      ],
+      "species": "PIDOVE",
+      "species_token": "SPECIES_PIDOVE"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "MUD_SLAP",
+        "SAND_ATTACK",
+        "TACKLE",
+        "HARDEN"
+      ],
+      "species": "ROGGENROLA",
+      "species_token": "SPECIES_ROGGENROLA"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "FOCUS_ENERGY",
+        "WATER_GUN",
+        "TACKLE",
+        "WATER_SPORT"
+      ],
+      "species": "OSHAWOTT",
+      "species_token": "SPECIES_OSHAWOTT"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 167,
+  "trainer_id": 167,
+  "trainer_name": "Nate",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

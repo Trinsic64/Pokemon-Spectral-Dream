@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "SMACK_DOWN",
+        "ROCK_POLISH"
+      ],
+      "species": "CARKOL",
+      "species_token": "SPECIES_CARKOL"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "OUTRAGE",
+        "CHARM",
+        "FIRE_FANG",
+        "PLAY_ROUGH"
+      ],
+      "species": "GRANBULL",
+      "species_token": "SPECIES_GRANBULL"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "STONE_EDGE",
+        "COPYCAT",
+        "WOOD_HAMMER",
+        "ROCK_SLIDE"
+      ],
+      "species": "SUDOWOODO",
+      "species_token": "SPECIES_SUDOWOODO"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "MOONBLAST",
+        "PSYCHIC",
+        "DRAINING_KISS",
+        "CALM_MIND"
+      ],
+      "species": "AROMATISSE",
+      "species_token": "SPECIES_AROMATISSE"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DISCHARGE",
+        "VOLT_SWITCH",
+        "SPARK",
+        "ACROBATICS"
+      ],
+      "species": "EMOLGA",
+      "species_token": "SPECIES_EMOLGA"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "POISON_JAB",
+        "BRICK_BREAK",
+        "SLASH",
+        "HONE_CLAWS"
+      ],
+      "species": "SNEASEL",
+      "species_token": "SPECIES_SNEASEL"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 495,
+  "trainer_id": 495,
+  "trainer_name": "JorahA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

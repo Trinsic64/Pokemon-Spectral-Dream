@@ -1,0 +1,54 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "SPLASH",
+        "PLAY_NICE",
+        "SPLASH",
+        "SPLASH"
+      ],
+      "species": "BOUNSWEET",
+      "species_token": "SPECIES_BOUNSWEET"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "BUBBLE",
+        "QUICK_ATTACK",
+        "BUBBLE",
+        "BUBBLE"
+      ],
+      "species": "SURSKIT",
+      "species_token": "SPECIES_SURSKIT"
+    }
+  ],
+  "nummons": 2,
+  "party_id": 19,
+  "trainer_id": 19,
+  "trainer_name": "Aaliyah",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

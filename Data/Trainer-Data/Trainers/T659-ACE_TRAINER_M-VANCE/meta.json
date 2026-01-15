@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "DRAGON_CLAW",
+        "THRASH",
+        "STEALTH_ROCK",
+        "HEAD_SMASH"
+      ],
+      "species": "TYRANTRUM",
+      "species_token": "SPECIES_TYRANTRUM"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_HEAD",
+        "ROCK_SLIDE",
+        "WING_ATTACK"
+      ],
+      "species": "AERODACTYL",
+      "species_token": "SPECIES_AERODACTYL"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "IRON_TAIL",
+        "ROCK_SLIDE"
+      ],
+      "species": "AGGRON",
+      "species_token": "SPECIES_AGGRON"
+    },
+    {
+      "ability": "LIGHT_METAL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "FLASH_CANNON",
+        "IRON_DEFENSE",
+        "DRAGON_CLAW",
+        "BREAKING_SWIPE"
+      ],
+      "species": "DURALUDON",
+      "species_token": "SPECIES_DURALUDON"
+    },
+    {
+      "ability": "STAMINA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "FLASH_CANNON",
+        "IRON_DEFENSE",
+        "DRAGON_CLAW",
+        "BREAKING_SWIPE"
+      ],
+      "species": "ARCHALUDON",
+      "species_token": "SPECIES_ARCHALUDON"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 659,
+  "trainer_id": 659,
+  "trainer_name": "Vance",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

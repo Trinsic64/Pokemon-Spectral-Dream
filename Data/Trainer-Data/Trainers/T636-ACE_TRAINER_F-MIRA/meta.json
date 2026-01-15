@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "WATER_SPORT",
+        "WAKE_UP_SLAP",
+        "BRINE"
+      ],
+      "species": "ALOMOMOLA",
+      "species_token": "SPECIES_ALOMOMOLA"
+    },
+    {
+      "ability": "GULP_MISSILE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "DRILL_PECK",
+        "BELCH",
+        "STOCKPILE",
+        "DIVE"
+      ],
+      "species": "CRAMORANT",
+      "species_token": "SPECIES_CRAMORANT"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "POWER_GEM",
+        "EARTH_POWER",
+        "IRON_DEFENSE",
+        "BUBBLE_BEAM"
+      ],
+      "species": "CORSOLA",
+      "species_token": "SPECIES_CORSOLA"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "PSYCHIC",
+        "COSMIC_POWER",
+        "POWER_GEM"
+      ],
+      "species": "STARMIE",
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "FUTURE_SIGHT",
+        "PSYCHIC",
+        "AMNESIA",
+        "SURF"
+      ],
+      "species": "SLOWBRO",
+      "species_token": "SPECIES_SLOWBRO"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 636,
+  "trainer_id": 636,
+  "trainer_name": "Mira",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

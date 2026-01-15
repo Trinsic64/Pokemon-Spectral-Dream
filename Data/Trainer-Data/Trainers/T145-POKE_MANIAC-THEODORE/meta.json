@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "GROWL",
+        "QUICK_ATTACK",
+        "PECK",
+        "PURSUIT"
+      ],
+      "species": "DODUO",
+      "species_token": "SPECIES_DODUO"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "MORNING_SUN",
+        "LEAFAGE",
+        "GROWTH",
+        "HELPING_HAND"
+      ],
+      "species": "CHERUBI",
+      "species_token": "SPECIES_CHERUBI"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "PRESENT",
+        "PRESENT",
+        "PRESENT",
+        "PRESENT"
+      ],
+      "species": "DELIBIRD",
+      "species_token": "SPECIES_DELIBIRD"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "CHARGE",
+        "THUNDER_SHOCK",
+        "THUNDER_WAVE",
+        "COTTON_SPORE"
+      ],
+      "species": "MAREEP",
+      "species_token": "SPECIES_MAREEP"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 145,
+  "trainer_id": 145,
+  "trainer_name": "Theodore",
+  "trainerclass": "TRAINERCLASS_POKE_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

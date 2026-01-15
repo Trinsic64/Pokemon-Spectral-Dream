@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "CRABHAMMER",
+        "SWORDS_DANCE",
+        "MUD_SHOT",
+        "RAZOR_SHELL"
+      ],
+      "species": "KINGLER",
+      "species_token": "SPECIES_KINGLER"
+    },
+    {
+      "ability": "WATER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "WATER_SPOUT",
+        "BODY_SLAM",
+        "AMNESIA",
+        "BOUNCE"
+      ],
+      "species": "WAILORD",
+      "species_token": "SPECIES_WAILORD"
+    },
+    {
+      "ability": "STICKY_HOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "MUDDY_WATER",
+        "BODY_SLAM",
+        "MUD_SPORT",
+        "EARTH_POWER"
+      ],
+      "species": "GASTRODON",
+      "species_token": "SPECIES_GASTRODON"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "ICE_PUNCH",
+        "IRON_DEFENSE",
+        "CLOSE_COMBAT",
+        "DYNAMIC_PUNCH"
+      ],
+      "species": "CRABOMINABLE",
+      "species_token": "SPECIES_CRABOMINABLE"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "AQUA_TAIL",
+        "ICE_BEAM",
+        "AQUA_RING",
+        "DIVE"
+      ],
+      "species": "DEWGONG",
+      "species_token": "SPECIES_DEWGONG"
+    },
+    {
+      "ability": "DAZZLING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "SYNCHRONOISE",
+        "CRUNCH",
+        "PSYCHIC_FANGS",
+        "AQUA_TAIL"
+      ],
+      "species": "BRUXISH",
+      "species_token": "SPECIES_BRUXISH"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 635,
+  "trainer_id": 635,
+  "trainer_name": "Wade",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

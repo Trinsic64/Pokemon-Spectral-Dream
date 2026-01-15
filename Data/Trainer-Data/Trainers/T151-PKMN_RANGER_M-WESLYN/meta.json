@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "COPYCAT",
+        "DISARMING_VOICE",
+        "POUND",
+        "DEFENSE_CURL"
+      ],
+      "species": "IGGLYBUFF",
+      "species_token": "SPECIES_IGGLYBUFF"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "CONFUSION",
+        "BARRIER",
+        "MEDITATE",
+        "POUND"
+      ],
+      "species": "MIMEJR",
+      "species_token": "SPECIES_MIMEJR"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "AROMATIC_MIST",
+        "DRAINING_KISS",
+        "TACKLE",
+        "SWEET_SCENT"
+      ],
+      "species": "MILCERY",
+      "species_token": "SPECIES_MILCERY"
+    },
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "GROWL",
+        "AIR_CUTTER",
+        "QUICK_ATTACK",
+        "GUST"
+      ],
+      "species": "PIDOVE",
+      "species_token": "SPECIES_PIDOVE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 151,
+  "trainer_id": 151,
+  "trainer_name": "Weslyn",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

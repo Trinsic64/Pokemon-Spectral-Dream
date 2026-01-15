@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "UNAWARE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "PSYCHIC",
+        "ASSURANCE",
+        "AMNESIA",
+        "AIR_SLASH"
+      ],
+      "species": "SWOOBAT",
+      "species_token": "SPECIES_SWOOBAT"
+    },
+    {
+      "ability": "SERENE_GRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "HYPER_DRILL",
+        "DRILL_RUN",
+        "DRAGON_RUSH",
+        "ROOST"
+      ],
+      "species": "DUNSPARCE",
+      "species_token": "SPECIES_DUNSPARCE"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "BRICK_BREAK",
+        "KNOCK_OFF",
+        "DETECT",
+        "BRUTAL_SWING"
+      ],
+      "species": "FARFETCHD",
+      "species_token": "SPECIES_FARFETCHD"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 40,
+      "moves": [
+        "HONE_CLAWS",
+        "SLASH",
+        "ASSURANCE",
+        "PURSUIT"
+      ],
+      "species": "LIEPARD",
+      "species_token": "SPECIES_LIEPARD"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 419,
+  "trainer_id": 419,
+  "trainer_name": "Lucas",
+  "trainerclass": "TRAINERCLASS_BOARDER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHADOW_TAG",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "AMNESIA",
+        "CHARM",
+        "ENCORE",
+        "MIRROR_COAT"
+      ],
+      "species": "WYNAUT",
+      "species_token": "SPECIES_WYNAUT"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "INCINERATE",
+        "SCRATCH",
+        "PLAY_NICE",
+        "LEER"
+      ],
+      "species": "PANSEAR",
+      "species_token": "SPECIES_PANSEAR"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "ABSORB",
+        "SYNTHESIS",
+        "TACKLE",
+        "FAIRY_WIND"
+      ],
+      "species": "SKIPLOOM",
+      "species_token": "SPECIES_SKIPLOOM"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "POWDER_SNOW",
+        "STRUGGLE_BUG",
+        "POWDER_SNOW",
+        "POWDER_SNOW"
+      ],
+      "species": "SNOM",
+      "species_token": "SPECIES_SNOM"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 187,
+  "trainer_id": 187,
+  "trainer_name": "Jacob",
+  "trainerclass": "TRAINERCLASS_PSYCHIC_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

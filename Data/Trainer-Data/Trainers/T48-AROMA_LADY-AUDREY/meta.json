@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "FAIRY_WIND",
+        "HELPING_HAND",
+        "STUN_SPORE",
+        "ABSORB"
+      ],
+      "species": "COTTONEE",
+      "species_token": "SPECIES_COTTONEE"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "STUN_SPORE",
+        "SCRATCH",
+        "POISON_POWDER",
+        "SCRATCH"
+      ],
+      "species": "PARAS",
+      "species_token": "SPECIES_PARAS"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "STRUGGLE_BUG",
+        "TACKLE",
+        "DEFENSE_CURL",
+        "SAND_ATTACK"
+      ],
+      "species": "RELLOR",
+      "species_token": "SPECIES_RELLOR"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 48,
+  "trainer_id": 48,
+  "trainer_name": "Audrey",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

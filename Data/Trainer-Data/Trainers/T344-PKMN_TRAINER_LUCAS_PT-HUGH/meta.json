@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "CRUNCH",
+        "WORK_UP",
+        "RETALIATE",
+        "BITE"
+      ],
+      "species": "HERDIER",
+      "species_token": "SPECIES_HERDIER"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "BUG_BITE",
+        "IRON_DEFENSE",
+        "VENOSHOCK",
+        "POISON_TAIL"
+      ],
+      "species": "WHIRLIPEDE",
+      "species_token": "SPECIES_WHIRLIPEDE"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "FIRE_PUNCH",
+        "UPROAR",
+        "INCINERATE",
+        "FIRE_FANG"
+      ],
+      "species": "DARUMAKA",
+      "species_token": "SPECIES_DARUMAKA"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "CRUNCH",
+        "BITE",
+        "ASSURANCE",
+        "DIG"
+      ],
+      "species": "SANDILE",
+      "species_token": "SPECIES_SANDILE"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "DRAGON_CLAW",
+        "CRUNCH",
+        "DUAL_CHOP",
+        "DRAGON_DANCE"
+      ],
+      "species": "AXEW",
+      "species_token": "SPECIES_AXEW"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "LEECH_SEED",
+        "LEAF_TORNADO",
+        "SLAM",
+        "VINE_WHIP"
+      ],
+      "species": "SERVINE",
+      "species_token": "SPECIES_SERVINE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 344,
+  "trainer_id": 344,
+  "trainer_name": "Hugh",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "AURORA_BEAM",
+        "WATER_SPORT",
+        "BRINE",
+        "HEADBUTT"
+      ],
+      "species": "SEEL",
+      "species_token": "SPECIES_SEEL"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "STOMPING_TANTRUM",
+        "FOCUS_ENERGY",
+        "BONE_CLUB",
+        "HEADBUTT"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "HONE_CLAWS",
+        "WING_ATTACK",
+        "AERIAL_ACE",
+        "PECK"
+      ],
+      "species": "RUFFLET",
+      "species_token": "SPECIES_RUFFLET"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BRINE",
+        "SLASH",
+        "BUG_BITE",
+        "SMACK_DOWN"
+      ],
+      "species": "ANORITH",
+      "species_token": "SPECIES_ANORITH"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "TELEPORT",
+        "TELEPORT",
+        "TELEPORT",
+        "TELEPORT"
+      ],
+      "species": "ABRA",
+      "species_token": "SPECIES_ABRA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 315,
+  "trainer_id": 315,
+  "trainer_name": "Luke",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

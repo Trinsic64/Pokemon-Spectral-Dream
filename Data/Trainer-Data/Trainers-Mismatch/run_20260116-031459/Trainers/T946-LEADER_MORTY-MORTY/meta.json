@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STICKY_HOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "BODY_SLAM",
+        "MUD_SPORT",
+        "MUD_BOMB",
+        "WATER_PULSE"
+      ],
+      "species": "GASTRODON",
+      "species_token": "SPECIES_GASTRODON"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "AGILITY",
+        "WATER_PULSE",
+        "CONFUSION",
+        "DRAINING_KISS"
+      ],
+      "species": "GOREBYSS",
+      "species_token": "SPECIES_GOREBYSS"
+    },
+    {
+      "ability": "MEGA_LAUNCHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "HONE_CLAWS",
+        "WATER_PULSE",
+        "BUBBLE_BEAM",
+        "VICE_GRIP"
+      ],
+      "species": "CLAUNCHER",
+      "species_token": "SPECIES_CLAUNCHER"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "RAZOR_SHELL",
+        "CRUNCH",
+        "ROCK_POLISH",
+        "ROCK_TOMB"
+      ],
+      "species": "DREDNAW",
+      "species_token": "SPECIES_DREDNAW"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "AQUA_TAIL",
+        "THRASH",
+        "ICE_FANG",
+        "CRUNCH"
+      ],
+      "species": "GYARADOS",
+      "species_token": "SPECIES_GYARADOS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 946,
+  "trainer_id": 946,
+  "trainer_name": "MORTY",
+  "trainerclass": "TRAINERCLASS_LEADER_MORTY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

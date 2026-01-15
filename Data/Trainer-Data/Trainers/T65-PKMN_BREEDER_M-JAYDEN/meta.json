@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STAKEOUT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 9,
+      "moves": [
+        "LEER",
+        "TACKLE",
+        "PURSUIT",
+        "TACKLE"
+      ],
+      "species": "YUNGOOS",
+      "species_token": "SPECIES_YUNGOOS"
+    },
+    {
+      "ability": "GOOEY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 9,
+      "moves": [
+        "MUD_SLAP",
+        "SAND_ATTACK",
+        "WATER_GUN",
+        "WRAP"
+      ],
+      "species": "WIGLETT",
+      "species_token": "SPECIES_WIGLETT"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 9,
+      "moves": [
+        "STRUGGLE_BUG",
+        "GROWL",
+        "BIDE",
+        "STRUGGLE_BUG"
+      ],
+      "species": "KRICKETOT",
+      "species_token": "SPECIES_KRICKETOT"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 65,
+  "trainer_id": 65,
+  "trainer_name": "Jayden",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

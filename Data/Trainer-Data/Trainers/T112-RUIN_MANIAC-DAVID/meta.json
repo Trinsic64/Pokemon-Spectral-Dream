@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "DOUBLE_TEAM",
+        "POWDER_SNOW",
+        "ICE_SHARD",
+        "LEER"
+      ],
+      "species": "SNORUNT",
+      "species_token": "SPECIES_SNORUNT"
+    },
+    {
+      "ability": "CORROSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "POISON_GAS",
+        "EMBER",
+        "SMOG",
+        "SWEET_SCENT"
+      ],
+      "species": "SALANDIT",
+      "species_token": "SPECIES_SALANDIT"
+    },
+    {
+      "ability": "SAND_RUSH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "RAPID_SPIN",
+        "HONE_CLAWS",
+        "MUD_SPORT",
+        "MUD_SLAP"
+      ],
+      "species": "DRILBUR",
+      "species_token": "SPECIES_DRILBUR"
+    },
+    {
+      "ability": "WIND_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "GROWL",
+        "PLUCK",
+        "THUNDER_SHOCK",
+        "PECK"
+      ],
+      "species": "WATTREL",
+      "species_token": "SPECIES_WATTREL"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 112,
+  "trainer_id": 112,
+  "trainer_name": "David",
+  "trainerclass": "TRAINERCLASS_RUIN_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

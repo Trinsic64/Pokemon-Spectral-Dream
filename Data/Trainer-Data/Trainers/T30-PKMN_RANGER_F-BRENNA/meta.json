@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "AROMATIC_MIST",
+        "TACKLE",
+        "SWEET_KISS",
+        "TACKLE"
+      ],
+      "species": "MILCERY",
+      "species_token": "SPECIES_MILCERY"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "INGRAIN",
+        "GROWTH",
+        "ABSORB",
+        "GRASS_WHISTLE"
+      ],
+      "species": "SUNKERN",
+      "species_token": "SPECIES_SUNKERN"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "WATER_SPORT",
+        "WATER_GUN",
+        "SPLASH",
+        "TAIL_WHIP"
+      ],
+      "species": "AZURILL",
+      "species_token": "SPECIES_AZURILL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 30,
+  "trainer_id": 30,
+  "trainer_name": "Brenna",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

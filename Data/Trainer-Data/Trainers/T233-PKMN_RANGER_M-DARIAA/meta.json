@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "ATTRACT",
+        "FAKE_OUT",
+        "SING",
+        "DOUBLE_SLAP"
+      ],
+      "species": "DELCATTY",
+      "species_token": "SPECIES_DELCATTY"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "CHARGE",
+        "SHOCK_WAVE",
+        "SWIFT",
+        "THUNDER_SHOCK"
+      ],
+      "species": "ELEKID",
+      "species_token": "SPECIES_ELEKID"
+    },
+    {
+      "ability": "TRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "PSYBEAM",
+        "AGILITY",
+        "THUNDER_SHOCK",
+        "TACKLE"
+      ],
+      "species": "PORYGON",
+      "species_token": "SPECIES_PORYGON"
+    },
+    {
+      "ability": "SNOW_WARNING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "RAZOR_LEAF",
+        "SWAGGER",
+        "ICY_WIND",
+        "POWDER_SNOW"
+      ],
+      "species": "SNOVER",
+      "species_token": "SPECIES_SNOVER"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "MACH_PUNCH",
+        "LIGHT_SCREEN",
+        "SILVER_WIND",
+        "SWIFT"
+      ],
+      "species": "LEDIAN",
+      "species_token": "SPECIES_LEDIAN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 233,
+  "trainer_id": 233,
+  "trainer_name": "DariaA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "FOCUS_ENERGY",
+        "PECK",
+        "DOUBLE_KICK",
+        "POISON_STING"
+      ],
+      "species": "NIDORINO",
+      "species_token": "SPECIES_NIDORINO"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "TELEPORT",
+        "PSYBEAM",
+        "PSYCHO_CUT",
+        "CONFUSION"
+      ],
+      "species": "KADABRA",
+      "species_token": "SPECIES_KADABRA"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "INCINERATE",
+        "HEX",
+        "FEINT_ATTACK",
+        "EMBER"
+      ],
+      "species": "VULPIX",
+      "species_token": "SPECIES_VULPIX"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "RAPID_SPIN",
+        "BUBBLE_BEAM",
+        "PSYBEAM",
+        "SWIFT"
+      ],
+      "species": "STARYU",
+      "species_token": "SPECIES_STARYU"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "SEED_BOMB",
+        "LEECH_SEED",
+        "RAZOR_LEAF",
+        "VINE_WHIP"
+      ],
+      "species": "IVYSAUR",
+      "species_token": "SPECIES_IVYSAUR"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 284,
+  "trainer_id": 284,
+  "trainer_name": "Green",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

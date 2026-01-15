@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "STONE_EDGE",
+        "EARTH_POWER",
+        "ZAP_CANNON",
+        "SANDSTORM"
+      ],
+      "species": "NOSEPASS",
+      "species_token": "SPECIES_NOSEPASS"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "HYPER_VOICE",
+        "PLAY_ROUGH",
+        "BODY_SLAM",
+        "REST"
+      ],
+      "species": "WIGGLYTUFF",
+      "species_token": "SPECIES_WIGGLYTUFF"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "AGILITY",
+        "AERIAL_ACE",
+        "ACROBATICS",
+        "FLAME_CHARGE"
+      ],
+      "species": "FLETCHINDER",
+      "species_token": "SPECIES_FLETCHINDER"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "PETAL_BLIZZARD",
+        "GIGA_DRAIN",
+        "MAGICAL_LEAF",
+        "POISON_STING"
+      ],
+      "species": "ROSELIA",
+      "species_token": "SPECIES_ROSELIA"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "STRENGTH",
+        "KNOCK_OFF",
+        "LOW_SWEEP",
+        "VITAL_THROW"
+      ],
+      "species": "MACHOKE",
+      "species_token": "SPECIES_MACHOKE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "THUNDERBOLT",
+        "CRUNCH",
+        "THUNDER_WAVE",
+        "DISCHARGE"
+      ],
+      "species": "EELEKTRIK",
+      "species_token": "SPECIES_EELEKTRIK"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 491,
+  "trainer_id": 491,
+  "trainer_name": "HelenaA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

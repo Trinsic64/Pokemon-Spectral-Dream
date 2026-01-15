@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TERAVOLT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 0,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "OUTRAGE",
+        "FUSION_BOLT",
+        "NOBLE_ROAR",
+        "FREEZE_SHOCK"
+      ],
+      "species": "KYUREM",
+      "species_token": "SPECIES_KYUREM"
+    },
+    {
+      "ability": "NEUROFORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 4,
+      "index": 1,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "PHOTON_GEYSER",
+        "POWER_GEM",
+        "IRON_DEFENSE",
+        "NIGHT_SLASH"
+      ],
+      "species": "NECROZMA",
+      "species_token": "SPECIES_NECROZMA"
+    },
+    {
+      "ability": "DESOLATE_LAND",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "PRECIPICE_BLADES",
+        "BULK_UP",
+        "SOLAR_BEAM",
+        "FIRE_BLAST"
+      ],
+      "species": "GROUDON",
+      "species_token": "SPECIES_GROUDON"
+    },
+    {
+      "ability": "DAUNTLESS_SHIELD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "IRON_HEAD",
+        "MOONBLAST",
+        "IRON_DEFENSE",
+        "CLOSE_COMBAT"
+      ],
+      "species": "ZAMAZENTA",
+      "species_token": "SPECIES_ZAMAZENTA"
+    },
+    {
+      "ability": "BAD_DREAMS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "DREAM_EATER",
+        "OMINOUS_WIND",
+        "FEINT_ATTACK",
+        "NASTY_PLOT"
+      ],
+      "species": "DARKRAI",
+      "species_token": "SPECIES_DARKRAI"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 5,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "FUTURE_SIGHT",
+        "AURA_SPHERE",
+        "AMNESIA",
+        "ANCIENT_POWER"
+      ],
+      "species": "MEWTWO",
+      "species_token": "SPECIES_MEWTWO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 891,
+  "trainer_id": 891,
+  "trainer_name": "Bront",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

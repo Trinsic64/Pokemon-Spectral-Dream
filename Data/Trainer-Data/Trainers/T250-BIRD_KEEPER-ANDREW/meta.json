@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "HYPER_VOICE",
+        "CONFIDE",
+        "CHATTER",
+        "GROWL"
+      ],
+      "species": "CHATOT",
+      "species_token": "SPECIES_CHATOT"
+    },
+    {
+      "ability": "SHIELDS_DOWN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "ANCIENT_POWER",
+        "STEALTH_ROCK",
+        "SWIFT",
+        "TACKLE"
+      ],
+      "species": "MINIOR",
+      "species_token": "SPECIES_MINIOR"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "HYDRO_PUMP",
+        "FELL_STINGER",
+        "TACKLE",
+        "POISON_STING"
+      ],
+      "species": "QWILFISH",
+      "species_token": "SPECIES_QWILFISH"
+    },
+    {
+      "ability": "FLOWER_GIFT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "PETAL_DANCE",
+        "MAGICAL_LEAF",
+        "LEAFAGE",
+        "SUNNY_DAY"
+      ],
+      "species": "CHERRIM",
+      "species_token": "SPECIES_CHERRIM"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 250,
+  "trainer_id": 250,
+  "trainer_name": "Andrew",
+  "trainerclass": "TRAINERCLASS_BIRD_KEEPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

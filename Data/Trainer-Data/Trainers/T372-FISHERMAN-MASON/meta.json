@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BRINE",
+        "WATER_PULSE",
+        "WATER_GUN",
+        "MIST"
+      ],
+      "species": "WAILMER",
+      "species_token": "SPECIES_WAILMER"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ROCK_SLIDE",
+        "ROCK_TOMB",
+        "SLAM",
+        "SAND_TOMB"
+      ],
+      "species": "ONIX",
+      "species_token": "SPECIES_ONIX"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "RAZOR_LEAF",
+        "STRING_SHOT",
+        "BUG_BITE",
+        "TACKLE"
+      ],
+      "species": "SWADLOON",
+      "species_token": "SPECIES_SWADLOON"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 372,
+  "trainer_id": 372,
+  "trainer_name": "Mason",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

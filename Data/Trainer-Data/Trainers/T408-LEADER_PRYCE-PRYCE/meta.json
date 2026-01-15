@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "FIRE_BLAST",
+        "EXTRASENSORY",
+        "INCINERATE",
+        "INFERNO"
+      ],
+      "species": "NINETALES",
+      "species_token": "SPECIES_NINETALES"
+    },
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "SHADOW_BONE",
+        "STOMPING_TANTRUM",
+        "BONE_CLUB",
+        "FLAME_WHEEL"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "FIRE_PUNCH",
+        "THRASH",
+        "HAMMER_ARM",
+        "INCINERATE"
+      ],
+      "species": "DARMANITAN",
+      "species_token": "SPECIES_DARMANITAN"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "FLAMETHROWER",
+        "PLAY_ROUGH",
+        "REVERSAL",
+        "AGILITY"
+      ],
+      "species": "ARCANINE",
+      "species_token": "SPECIES_ARCANINE"
+    },
+    {
+      "ability": "SOLAR_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "NASTY_PLOT",
+        "INFERNO",
+        "FIRE_FANG",
+        "BITE"
+      ],
+      "species": "HOUNDOOM",
+      "species_token": "SPECIES_HOUNDOOM"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 408,
+  "trainer_id": 408,
+  "trainer_name": "Pryce",
+  "trainerclass": "TRAINERCLASS_LEADER_PRYCE",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "GIGA_DRAIN",
+        "FEINT_ATTACK",
+        "SYNTHESIS",
+        "CLEAR_SMOG"
+      ],
+      "species": "AMOONGUSS",
+      "species_token": "SPECIES_AMOONGUSS"
+    },
+    {
+      "ability": "SCHOOLING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "UPROAR",
+        "AQUA_RING",
+        "BRINE",
+        "FEINT_ATTACK"
+      ],
+      "species": "WISHIWASHI",
+      "species_token": "SPECIES_WISHIWASHI"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "HYDRO_PUMP",
+        "BRINE",
+        "AGILITY",
+        "HURRICANE"
+      ],
+      "species": "PELIPPER",
+      "species_token": "SPECIES_PELIPPER"
+    },
+    {
+      "ability": "SOLID_ROCK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ROCK_SLIDE",
+        "CRUNCH",
+        "BRINE",
+        "IRON_DEFENSE"
+      ],
+      "species": "TIRTOUGA",
+      "species_token": "SPECIES_TIRTOUGA"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "HELPING_HAND",
+        "WAKE_UP_SLAP",
+        "SWIFT",
+        "POUND"
+      ],
+      "species": "MINCCINO",
+      "species_token": "SPECIES_MINCCINO"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 314,
+  "trainer_id": 314,
+  "trainer_name": "Aria",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

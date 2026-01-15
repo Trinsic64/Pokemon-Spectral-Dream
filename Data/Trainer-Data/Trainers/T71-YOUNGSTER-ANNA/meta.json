@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "INCINERATE",
+        "SCRATCH",
+        "PLAY_NICE",
+        "LEER"
+      ],
+      "species": "PANSEAR",
+      "species_token": "SPECIES_PANSEAR"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "PLAY_NICE",
+        "VINE_WHIP",
+        "SCRATCH",
+        "LEER"
+      ],
+      "species": "PANSAGE",
+      "species_token": "SPECIES_PANSAGE"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "PLAY_NICE",
+        "WATER_GUN",
+        "SCRATCH",
+        "LEER"
+      ],
+      "species": "PANPOUR",
+      "species_token": "SPECIES_PANPOUR"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 71,
+  "trainer_id": 71,
+  "trainer_name": "Anna",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

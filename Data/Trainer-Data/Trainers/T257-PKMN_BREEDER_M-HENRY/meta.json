@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "HYPER_FANG",
+        "CRUNCH",
+        "FOCUS_ENERGY",
+        "BITE"
+      ],
+      "species": "RATICATE",
+      "species_token": "SPECIES_RATICATE"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "ROTOTILLER",
+        "NIGHT_SLASH",
+        "SUCKER_PUNCH",
+        "BULLDOZE"
+      ],
+      "species": "DUGTRIO",
+      "species_token": "SPECIES_DUGTRIO"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "BUBBLE_BEAM",
+        "TOXIC_SPIKES",
+        "WATER_PULSE",
+        "ACID"
+      ],
+      "species": "TENTACOOL",
+      "species_token": "SPECIES_TENTACOOL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 257,
+  "trainer_id": 257,
+  "trainer_name": "Henry",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

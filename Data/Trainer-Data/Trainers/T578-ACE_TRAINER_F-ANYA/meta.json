@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "BUG_BUZZ",
+        "QUIVER_DANCE",
+        "AIR_SLASH",
+        "SLEEP_POWDER"
+      ],
+      "species": "BUTTERFREE",
+      "species_token": "SPECIES_BUTTERFREE"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "X_SCISSOR",
+        "DOUBLE_TEAM",
+        "AIR_SLASH",
+        "SLASH"
+      ],
+      "species": "SCYTHER",
+      "species_token": "SPECIES_SCYTHER"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "MEGAHORN",
+        "THRASH",
+        "THROAT_CHOP",
+        "CLOSE_COMBAT"
+      ],
+      "species": "HERACROSS",
+      "species_token": "SPECIES_HERACROSS"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "POISON_JAB",
+        "ASSURANCE",
+        "VENOSHOCK",
+        "FELL_STINGER"
+      ],
+      "species": "BEEDRILL",
+      "species_token": "SPECIES_BEEDRILL"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "BUG_BUZZ",
+        "HURRICANE",
+        "QUIVER_DANCE",
+        "AROMATHERAPY"
+      ],
+      "species": "VIVILLON",
+      "species_token": "SPECIES_VIVILLON"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 578,
+  "trainer_id": 578,
+  "trainer_name": "Anya",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

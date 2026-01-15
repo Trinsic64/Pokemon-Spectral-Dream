@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "MUD_SHOT",
+        "LEER",
+        "STOMP",
+        "BUBBLE_BEAM"
+      ],
+      "species": "KRABBY",
+      "species_token": "SPECIES_KRABBY"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "AIR_CUTTER",
+        "SWAGGER",
+        "FEINT_ATTACK",
+        "RAZOR_LEAF"
+      ],
+      "species": "NUZLEAF",
+      "species_token": "SPECIES_NUZLEAF"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "ICE_PUNCH",
+        "WORK_UP",
+        "ICE_FANG",
+        "HEADBUTT"
+      ],
+      "species": "DARUMAKA",
+      "species_token": "SPECIES_DARUMAKA"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "BRICK_BREAK",
+        "HEADBUTT",
+        "CHIP_AWAY",
+        "FEINT_ATTACK"
+      ],
+      "species": "SCRAGGY",
+      "species_token": "SPECIES_SCRAGGY"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 356,
+  "trainer_id": 356,
+  "trainer_name": "FlintA",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

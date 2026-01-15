@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAND_RUSH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "EARTHQUAKE",
+        "CRUSH_CLAW",
+        "ROCK_SLIDE",
+        "RAPID_SPIN"
+      ],
+      "species": "DRILBUR",
+      "species_token": "SPECIES_DRILBUR"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "GUNK_SHOT",
+        "BODY_SLAM",
+        "STOCKPILE",
+        "BELCH"
+      ],
+      "species": "GARBODOR",
+      "species_token": "SPECIES_GARBODOR"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "SEED_BOMB",
+        "LEER",
+        "LICK",
+        "FURY_SWIPES"
+      ],
+      "species": "SIMISAGE",
+      "species_token": "SPECIES_SIMISAGE"
+    },
+    {
+      "ability": "GULP_MISSILE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "DRILL_PECK",
+        "BELCH",
+        "DIVE",
+        "STOCKPILE"
+      ],
+      "species": "CRAMORANT",
+      "species_token": "SPECIES_CRAMORANT"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 474,
+  "trainer_id": 474,
+  "trainer_name": "Grant",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

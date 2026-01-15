@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "HOWL",
+        "THUNDER_WAVE",
+        "LEER",
+        "TACKLE"
+      ],
+      "species": "ELECTRIKE",
+      "species_token": "SPECIES_ELECTRIKE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "HONE_CLAWS",
+        "PECK",
+        "LEER",
+        "POWER_TRIP"
+      ],
+      "species": "ROOKIDEE",
+      "species_token": "SPECIES_ROOKIDEE"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "MUD_SPORT",
+        "MUD_SHOT",
+        "WATER_GUN",
+        "TAIL_WHIP"
+      ],
+      "species": "WOOPER",
+      "species_token": "SPECIES_WOOPER"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "POWDER_SNOW",
+        "STRUGGLE_BUG",
+        "POWDER_SNOW",
+        "POWDER_SNOW"
+      ],
+      "species": "SNOM",
+      "species_token": "SPECIES_SNOM"
+    },
+    {
+      "ability": "RATTLED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "BELCH",
+        "ACID",
+        "TEARFUL_LOOK",
+        "NUZZLE"
+      ],
+      "species": "TOXEL",
+      "species_token": "SPECIES_TOXEL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 87,
+  "trainer_id": 87,
+  "trainer_name": "Lucy",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

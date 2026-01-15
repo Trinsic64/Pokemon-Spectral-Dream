@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNARDS_OUT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "WATER_SPORT",
+        "SOAK",
+        "HARDEN",
+        "MUD_SPORT"
+      ],
+      "species": "PYUKUMUKU",
+      "species_token": "SPECIES_PYUKUMUKU"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "WATERFALL",
+        "MEGAHORN",
+        "AGILITY",
+        "POISON_JAB"
+      ],
+      "species": "SEAKING",
+      "species_token": "SPECIES_SEAKING"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "LIQUIDATION",
+        "CRUNCH",
+        "ROCK_POLISH",
+        "ROCK_TOMB"
+      ],
+      "species": "DREDNAW",
+      "species_token": "SPECIES_DREDNAW"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "HYDRO_PUMP",
+        "ICE_BEAM",
+        "MIST",
+        "BRINE"
+      ],
+      "species": "LAPRAS",
+      "species_token": "SPECIES_LAPRAS"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "EARTHQUAKE",
+        "AMNESIA",
+        "AQUA_TAIL",
+        "HAZE"
+      ],
+      "species": "QUAGSIRE",
+      "species_token": "SPECIES_QUAGSIRE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 628,
+  "trainer_id": 628,
+  "trainer_name": "Benoit",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "GROWTH",
+        "ABSORB",
+        "ABSORB",
+        "ABSORB"
+      ],
+      "species": "PETILIL",
+      "species_token": "SPECIES_PETILIL"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "DISABLE",
+        "TACKLE",
+        "FORESIGHT",
+        "SUPERSONIC"
+      ],
+      "species": "VENONAT",
+      "species_token": "SPECIES_VENONAT"
+    },
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "ABSORB",
+        "FAIRY_WIND",
+        "STUN_SPORE",
+        "ABSORB"
+      ],
+      "species": "CUTIEFLY",
+      "species_token": "SPECIES_CUTIEFLY"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 43,
+  "trainer_id": 43,
+  "trainer_name": "Nova",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

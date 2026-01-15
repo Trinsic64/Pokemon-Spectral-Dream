@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "ROCK_SLIDE",
+        "IRON_TAIL",
+        "SLAM",
+        "DIG"
+      ],
+      "species": "ONIX",
+      "species_token": "SPECIES_ONIX"
+    },
+    {
+      "ability": "FUR_COAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "PLAY_ROUGH",
+        "POWER_GEM",
+        "NASTY_PLOT",
+        "BITE"
+      ],
+      "species": "PERSIAN",
+      "species_token": "SPECIES_PERSIAN"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "DIG",
+        "SLASH",
+        "AERIAL_ACE",
+        "BUG_BITE"
+      ],
+      "species": "NINJASK",
+      "species_token": "SPECIES_NINJASK"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "FUTURE_SIGHT",
+        "FEINT_ATTACK",
+        "HEAL_BLOCK",
+        "PSYCHIC"
+      ],
+      "species": "GOTHORITA",
+      "species_token": "SPECIES_GOTHORITA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 483,
+  "trainer_id": 483,
+  "trainer_name": "Zayne",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

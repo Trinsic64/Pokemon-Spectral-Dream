@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BATTERY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "X_SCISSOR",
+        "CRUNCH",
+        "CHARGE",
+        "SPARK"
+      ],
+      "species": "CHARJABUG",
+      "species_token": "SPECIES_CHARJABUG"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "DRILL_RUN",
+        "BULLDOZE",
+        "CHIP_AWAY",
+        "SMACK_DOWN"
+      ],
+      "species": "RHYHORN",
+      "species_token": "SPECIES_RHYHORN"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "ATTRACT",
+        "FAKE_OUT",
+        "SING",
+        "DOUBLE_SLAP"
+      ],
+      "species": "DELCATTY",
+      "species_token": "SPECIES_DELCATTY"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "BITE",
+        "TOXIC_SPIKES",
+        "SCRATCH",
+        "POISON_STING"
+      ],
+      "species": "NIDORINA",
+      "species_token": "SPECIES_NIDORINA"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "AGILITY",
+        "STOMP",
+        "PSYBEAM",
+        "CONFUSION"
+      ],
+      "species": "PONYTA",
+      "species_token": "SPECIES_PONYTA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 322,
+  "trainer_id": 322,
+  "trainer_name": "Genesis",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

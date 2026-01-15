@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "HEX",
+        "CHARGE"
+      ],
+      "species": "ROTOM",
+      "species_token": "SPECIES_ROTOM"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "SHOCK_WAVE",
+        "CHARGE"
+      ],
+      "species": "ROTOM_HEAT",
+      "species_token": "SPECIES_ROTOM_HEAT"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "HEX",
+        "CHARGE"
+      ],
+      "species": "ROTOM_WASH",
+      "species_token": "SPECIES_ROTOM_WASH"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "CHARGE",
+        "TRICK"
+      ],
+      "species": "ROTOM_FROST",
+      "species_token": "SPECIES_ROTOM_FROST"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "CHARGE",
+        "TRICK"
+      ],
+      "species": "ROTOM_MOW",
+      "species_token": "SPECIES_ROTOM_MOW"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 726,
+  "trainer_id": 726,
+  "trainer_name": "Nyx",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

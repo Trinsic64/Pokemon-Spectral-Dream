@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "PETAL_BLIZZARD",
+        "X_SCISSOR",
+        "INGRAIN",
+        "NIGHT_SLASH"
+      ],
+      "species": "LURANTIS",
+      "species_token": "SPECIES_LURANTIS"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "MEGAHORN",
+        "PSYCHO_CUT",
+        "AGILITY",
+        "PSYBEAM"
+      ],
+      "species": "RAPIDASH",
+      "species_token": "SPECIES_RAPIDASH"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "POWER_WHIP",
+        "RAPID_SPIN",
+        "TROP_KICK",
+        "RAZOR_LEAF"
+      ],
+      "species": "TSAREENA",
+      "species_token": "SPECIES_TSAREENA"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "AURA_SPHERE",
+        "DETECT",
+        "FORCE_PALM",
+        "SWIFT"
+      ],
+      "species": "MIENSHAO",
+      "species_token": "SPECIES_MIENSHAO"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "MACH_PUNCH",
+        "LEECH_SEED",
+        "HEADBUTT",
+        "MEGA_DRAIN"
+      ],
+      "species": "BRELOOM",
+      "species_token": "SPECIES_BRELOOM"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 553,
+  "trainer_id": 553,
+  "trainer_name": "Maya",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

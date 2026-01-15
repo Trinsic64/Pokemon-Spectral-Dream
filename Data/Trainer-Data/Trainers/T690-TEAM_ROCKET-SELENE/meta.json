@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "HEX",
+        "CHARGE"
+      ],
+      "species": "ROTOM",
+      "species_token": "SPECIES_ROTOM"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "HONE_CLAWS",
+        "NIGHT_SLASH",
+        "HEADBUTT",
+        "REST"
+      ],
+      "species": "LINOONE",
+      "species_token": "SPECIES_LINOONE"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BODY_SLAM",
+        "BULK_UP",
+        "VITAL_THROW",
+        "WIDE_GUARD"
+      ],
+      "species": "THROH",
+      "species_token": "SPECIES_THROH"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "EARTHQUAKE",
+        "TRI_ATTACK",
+        "EARTH_POWER",
+        "SANDSTORM"
+      ],
+      "species": "DUGTRIO",
+      "species_token": "SPECIES_DUGTRIO"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "UPROAR",
+        "JUMP_KICK",
+        "ACUPRESSURE",
+        "DRILL_PECK"
+      ],
+      "species": "DODRIO",
+      "species_token": "SPECIES_DODRIO"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 690,
+  "trainer_id": 690,
+  "trainer_name": "Selene",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

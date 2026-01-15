@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "COVET",
+        "PAYBACK",
+        "SCRATCH",
+        "BABY_DOLL_EYES"
+      ],
+      "species": "TEDDIURSA",
+      "species_token": "SPECIES_TEDDIURSA"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "WATER_SPORT",
+        "POUND",
+        "WATER_GUN",
+        "HYPNOSIS"
+      ],
+      "species": "POLIWAG",
+      "species_token": "SPECIES_POLIWAG"
+    },
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "FLATTER",
+        "PLUCK",
+        "GUST",
+        "LEER"
+      ],
+      "species": "VULLABY",
+      "species_token": "SPECIES_VULLABY"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "RAPID_SPIN",
+        "RAZOR_LEAF",
+        "PLAY_NICE",
+        "SPLASH"
+      ],
+      "species": "STEENEE",
+      "species_token": "SPECIES_STEENEE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 173,
+  "trainer_id": 173,
+  "trainer_name": "Evelyn",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

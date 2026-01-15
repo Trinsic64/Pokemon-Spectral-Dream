@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "COPYCAT",
+        "DISARMING_VOICE",
+        "POUND",
+        "MINIMIZE"
+      ],
+      "species": "HAPPINY",
+      "species_token": "SPECIES_HAPPINY"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "MUD_SLAP",
+        "STRING_SHOT",
+        "BUG_BITE",
+        "BITE"
+      ],
+      "species": "GRUBBIN",
+      "species_token": "SPECIES_GRUBBIN"
+    },
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "GUST",
+        "SWEET_SCENT"
+      ],
+      "species": "COMBEE",
+      "species_token": "SPECIES_COMBEE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 108,
+  "trainer_id": 108,
+  "trainer_name": "Emily",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

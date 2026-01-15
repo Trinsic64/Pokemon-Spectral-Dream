@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "ENERGY_BALL",
+        "MOONBLAST",
+        "HURRICANE",
+        "SUNNY_DAY"
+      ],
+      "species": "WHIMSICOTT",
+      "species_token": "SPECIES_WHIMSICOTT"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "SHOCK_WAVE",
+        "TRICK"
+      ],
+      "species": "ROTOM_MOW",
+      "species_token": "SPECIES_ROTOM_MOW"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "EARTHQUAKE",
+        "AERIAL_ACE",
+        "LEECH_SEED",
+        "RAZOR_LEAF"
+      ],
+      "species": "GOGOAT",
+      "species_token": "SPECIES_GOGOAT"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "SUBMISSION",
+        "HONE_CLAWS",
+        "WING_ATTACK",
+        "AERIAL_ACE"
+      ],
+      "species": "HAWLUCHA",
+      "species_token": "SPECIES_HAWLUCHA"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "HYDRO_PUMP",
+        "ZEN_HEADBUTT",
+        "KNOCK_OFF",
+        "ENERGY_BALL"
+      ],
+      "species": "LUDICOLO",
+      "species_token": "SPECIES_LUDICOLO"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 552,
+  "trainer_id": 552,
+  "trainer_name": "Fern",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

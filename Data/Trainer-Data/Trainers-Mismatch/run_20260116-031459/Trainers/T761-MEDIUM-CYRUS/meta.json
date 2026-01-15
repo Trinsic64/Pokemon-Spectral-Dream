@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 63,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "CONFUSE_RAY",
+        "DARK_PULSE"
+      ],
+      "species": "HAUNTER",
+      "species_token": "SPECIES_HAUNTER"
+    },
+    {
+      "ability": "WONDER_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 63,
+      "moves": [
+        "SHADOW_BALL",
+        "CONFUSE_RAY",
+        "SHADOW_CLAW",
+        "METAL_CLAW"
+      ],
+      "species": "SHEDINJA",
+      "species_token": "SPECIES_SHEDINJA"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 63,
+      "moves": [
+        "HORN_LEECH",
+        "CONFUSE_RAY",
+        "SHADOW_CLAW",
+        "HEX"
+      ],
+      "species": "TREVENANT",
+      "species_token": "SPECIES_TREVENANT"
+    },
+    {
+      "ability": "MUMMY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 63,
+      "moves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "OMINOUS_WIND",
+        "HEX"
+      ],
+      "species": "COFAGRIGUS",
+      "species_token": "SPECIES_COFAGRIGUS"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 63,
+      "moves": [
+        "POWER_GEM",
+        "SPITE",
+        "ASTONISH",
+        "MYSTICAL_FIRE"
+      ],
+      "species": "MISMAGIUS",
+      "species_token": "SPECIES_MISMAGIUS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 761,
+  "trainer_id": 761,
+  "trainer_name": "Cyrus",
+  "trainerclass": "TRAINERCLASS_MEDIUM",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

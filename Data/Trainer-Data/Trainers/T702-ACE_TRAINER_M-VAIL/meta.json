@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "FOUL_PLAY",
+        "TAUNT",
+        "SUCKER_PUNCH",
+        "WING_ATTACK"
+      ],
+      "species": "MURKROW",
+      "species_token": "SPECIES_MURKROW"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "FOUL_PLAY",
+        "NIGHT_SLASH",
+        "SUCKER_PUNCH",
+        "WING_ATTACK"
+      ],
+      "species": "HONCHKROW",
+      "species_token": "SPECIES_HONCHKROW"
+    },
+    {
+      "ability": "AFTERMATH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "PHANTOM_FORCE",
+        "HEX",
+        "GUST"
+      ],
+      "species": "DRIFBLIM",
+      "species_token": "SPECIES_DRIFBLIM"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "DARK_PULSE",
+        "NASTY_PLOT"
+      ],
+      "species": "SPIRITOMB",
+      "species_token": "SPECIES_SPIRITOMB"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SEED_BOMB",
+        "MOONBLAST",
+        "CONFUSE_RAY",
+        "PHANTOM_FORCE"
+      ],
+      "species": "GOURGEIST",
+      "species_token": "SPECIES_GOURGEIST"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 702,
+  "trainer_id": 702,
+  "trainer_name": "Vail",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

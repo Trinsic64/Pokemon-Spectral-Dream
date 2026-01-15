@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ILLUSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "KNOCK_OFF",
+        "FEINT_ATTACK",
+        "HONE_CLAWS",
+        "PURSUIT"
+      ],
+      "species": "ZORUA",
+      "species_token": "SPECIES_ZORUA"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "FEINT_ATTACK",
+        "SWAGGER",
+        "REVENGE",
+        "POISON_STING"
+      ],
+      "species": "CROAGUNK",
+      "species_token": "SPECIES_CROAGUNK"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "KNOCK_OFF",
+        "SPITE",
+        "HEX",
+        "FEINT_ATTACK"
+      ],
+      "species": "SHUPPET",
+      "species_token": "SPECIES_SHUPPET"
+    },
+    {
+      "ability": "SAND_RUSH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "CRUSH_CLAW",
+        "RAPID_SPIN",
+        "SLASH",
+        "DIG"
+      ],
+      "species": "DRILBUR",
+      "species_token": "SPECIES_DRILBUR"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 245,
+  "trainer_id": 245,
+  "trainer_name": "CyraA",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

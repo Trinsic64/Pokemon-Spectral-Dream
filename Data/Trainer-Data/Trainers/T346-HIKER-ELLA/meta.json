@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "SHOCK_WAVE",
+        "ACROBATICS"
+      ],
+      "species": "EMOLGA",
+      "species_token": "SPECIES_EMOLGA"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "ROCK_BLAST",
+        "QUIVER_DANCE",
+        "SUCKER_PUNCH",
+        "BUG_BITE"
+      ],
+      "species": "WORMADAM_SANDY",
+      "species_token": "SPECIES_WORMADAM_SANDY"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "IRON_HEAD",
+        "HARDEN",
+        "ROCK_SLIDE",
+        "HEADBUTT"
+      ],
+      "species": "LAIRON",
+      "species_token": "SPECIES_LAIRON"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "AQUA_TAIL",
+        "SLAM",
+        "MUD_BOMB",
+        "HAZE"
+      ],
+      "species": "QUAGSIRE",
+      "species_token": "SPECIES_QUAGSIRE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 346,
+  "trainer_id": 346,
+  "trainer_name": "Ella",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

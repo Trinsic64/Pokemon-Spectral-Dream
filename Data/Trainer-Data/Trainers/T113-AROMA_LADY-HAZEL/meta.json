@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "LEECH_SEED",
+        "MEGA_DRAIN",
+        "TACKLE",
+        "STUN_SPORE"
+      ],
+      "species": "SHROOMISH",
+      "species_token": "SPECIES_SHROOMISH"
+    },
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "FAIRY_WIND",
+        "VINE_WHIP",
+        "LUCKY_CHANT",
+        "TACKLE"
+      ],
+      "species": "FLABEBE",
+      "species_token": "SPECIES_FLABEBE"
+    },
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "GROWL",
+        "TACKLE",
+        "QUICK_ATTACK",
+        "PECK"
+      ],
+      "species": "FLETCHLING",
+      "species_token": "SPECIES_FLETCHLING"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "YAWN",
+        "EMBER",
+        "ROCK_THROW",
+        "HARDEN"
+      ],
+      "species": "SLUGMA",
+      "species_token": "SPECIES_SLUGMA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 113,
+  "trainer_id": 113,
+  "trainer_name": "Hazel",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

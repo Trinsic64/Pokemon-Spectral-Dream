@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "CRUNCH",
+        "DIG",
+        "BUG_BITE",
+        "METAL_CLAW"
+      ],
+      "species": "DURANT",
+      "species_token": "SPECIES_DURANT"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "REVENGE",
+        "SPIKY_SHIELD",
+        "NEEDLE_ARM",
+        "FEINT_ATTACK"
+      ],
+      "species": "CACTURNE",
+      "species_token": "SPECIES_CACTURNE"
+    },
+    {
+      "ability": "WEAK_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "HEX",
+        "SPITE",
+        "ANCIENT_POWER",
+        "TACKLE"
+      ],
+      "species": "CORSOLA",
+      "species_token": "SPECIES_CORSOLA"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "HEAL_BLOCK",
+        "PSYBEAM",
+        "HIDDEN_POWER",
+        "HEADBUTT"
+      ],
+      "species": "ELGYEM",
+      "species_token": "SPECIES_ELGYEM"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "HONE_CLAWS",
+        "HEADBUTT",
+        "BITE",
+        "PAYBACK"
+      ],
+      "species": "MASCHIFF",
+      "species_token": "SPECIES_MASCHIFF"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 359,
+  "trainer_id": 359,
+  "trainer_name": "HaleA",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

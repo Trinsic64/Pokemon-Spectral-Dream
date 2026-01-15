@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "GROWTH",
+        "VINE_WHIP",
+        "ACID",
+        "SLEEP_POWDER"
+      ],
+      "species": "WEEPINBELL",
+      "species_token": "SPECIES_WEEPINBELL"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "ABSORB",
+        "FOCUS_ENERGY",
+        "SLASH",
+        "FURY_CUTTER"
+      ],
+      "species": "KRICKETUNE",
+      "species_token": "SPECIES_KRICKETUNE"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "LEAF_TORNADO",
+        "MAGICAL_LEAF",
+        "STOMP",
+        "GUST"
+      ],
+      "species": "TROPIUS",
+      "species_token": "SPECIES_TROPIUS"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "BUG_BITE",
+        "IRON_DEFENSE",
+        "VENOSHOCK",
+        "POISON_TAIL"
+      ],
+      "species": "WHIRLIPEDE",
+      "species_token": "SPECIES_WHIRLIPEDE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 254,
+  "trainer_id": 254,
+  "trainer_name": "Jaxon",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

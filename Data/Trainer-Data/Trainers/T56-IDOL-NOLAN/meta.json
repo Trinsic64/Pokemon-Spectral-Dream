@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "COPYCAT",
+        "POUND",
+        "DEFENSE_CURL",
+        "CHARM"
+      ],
+      "species": "IGGLYBUFF",
+      "species_token": "SPECIES_IGGLYBUFF"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "COPYCAT",
+        "POUND",
+        "MINIMIZE",
+        "DEFENSE_CURL"
+      ],
+      "species": "HAPPINY",
+      "species_token": "SPECIES_HAPPINY"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "WATER_SPORT",
+        "WATER_GUN",
+        "SPLASH",
+        "TAIL_WHIP"
+      ],
+      "species": "AZURILL",
+      "species_token": "SPECIES_AZURILL"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "CHARM",
+        "POUND",
+        "GROWL",
+        "LIFE_DEW"
+      ],
+      "species": "TOGEPI",
+      "species_token": "SPECIES_TOGEPI"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 56,
+  "trainer_id": 56,
+  "trainer_name": "Nolan",
+  "trainerclass": "TRAINERCLASS_IDOL",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

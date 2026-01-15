@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "COLOR_CHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "PSYBEAM",
+        "TAIL_WHIP",
+        "SLASH",
+        "SHADOW_CLAW"
+      ],
+      "species": "KECLEON",
+      "species_token": "SPECIES_KECLEON"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BRINE",
+        "SLASH",
+        "BUG_BITE",
+        "SMACK_DOWN"
+      ],
+      "species": "ANORITH",
+      "species_token": "SPECIES_ANORITH"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BUG_BITE",
+        "SUCKER_PUNCH",
+        "FELL_STINGER",
+        "POISON_STING"
+      ],
+      "species": "ARIADOS",
+      "species_token": "SPECIES_ARIADOS"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "HEAL_BLOCK",
+        "PSYBEAM",
+        "HIDDEN_POWER",
+        "HEADBUTT"
+      ],
+      "species": "ELGYEM",
+      "species_token": "SPECIES_ELGYEM"
+    },
+    {
+      "ability": "DEFEATIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ROCK_SLIDE",
+        "CRUNCH",
+        "ROCK_THROW",
+        "WING_ATTACK"
+      ],
+      "species": "ARCHEN",
+      "species_token": "SPECIES_ARCHEN"
+    },
+    {
+      "ability": "CORROSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "INCINERATE",
+        "FLAME_BURST",
+        "EMBER",
+        "POISON_FANG"
+      ],
+      "species": "SALANDIT",
+      "species_token": "SPECIES_SALANDIT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 318,
+  "trainer_id": 318,
+  "trainer_name": "Jeremiah",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

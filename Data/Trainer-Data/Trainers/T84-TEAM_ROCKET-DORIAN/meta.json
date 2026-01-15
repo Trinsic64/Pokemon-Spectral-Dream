@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "CONFUSION",
+        "TACKLE",
+        "ECHOED_VOICE",
+        "PECK"
+      ],
+      "species": "HOOTHOOT",
+      "species_token": "SPECIES_HOOTHOOT"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "FLATTER",
+        "BITE",
+        "FAKE_TEARS",
+        "CONFIDE"
+      ],
+      "species": "IMPIDIMP",
+      "species_token": "SPECIES_IMPIDIMP"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "SAND_ATTACK",
+        "BITE",
+        "FEINT_ATTACK",
+        "MUD_SLAP"
+      ],
+      "species": "TRAPINCH",
+      "species_token": "SPECIES_TRAPINCH"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 84,
+  "trainer_id": 84,
+  "trainer_name": "Dorian",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

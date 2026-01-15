@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "FAIRY_WIND",
+        "GROWTH",
+        "STUN_SPORE",
+        "ABSORB"
+      ],
+      "species": "COTTONEE",
+      "species_token": "SPECIES_COTTONEE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "GROWL",
+        "PECK",
+        "LEER",
+        "FURY_ATTACK"
+      ],
+      "species": "SPEAROW",
+      "species_token": "SPECIES_SPEAROW"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "HARDEN",
+        "HARDEN",
+        "HARDEN",
+        "HARDEN"
+      ],
+      "species": "METAPOD",
+      "species_token": "SPECIES_METAPOD"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "POWDER_SNOW",
+        "MUD_SPORT",
+        "TACKLE",
+        "MUD_SLAP"
+      ],
+      "species": "SWINUB",
+      "species_token": "SPECIES_SWINUB"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 75,
+  "trainer_id": 75,
+  "trainer_name": "Lily",
+  "trainerclass": "TRAINERCLASS_BEAUTY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

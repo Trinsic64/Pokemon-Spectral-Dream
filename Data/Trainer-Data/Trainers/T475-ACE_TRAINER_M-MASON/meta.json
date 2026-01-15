@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "STONE_EDGE",
+        "EARTH_POWER",
+        "ZAP_CANNON",
+        "SANDSTORM"
+      ],
+      "species": "NOSEPASS",
+      "species_token": "SPECIES_NOSEPASS"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "ENERGY_BALL",
+        "REVENGE",
+        "SPIKY_SHIELD",
+        "SUCKER_PUNCH"
+      ],
+      "species": "CACTURNE",
+      "species_token": "SPECIES_CACTURNE"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "BODY_SLAM",
+        "PLAY_ROUGH",
+        "ZEN_HEADBUTT",
+        "GROWL"
+      ],
+      "species": "MILTANK",
+      "species_token": "SPECIES_MILTANK"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "FOCUS_PUNCH",
+        "MEGA_PUNCH",
+        "ICE_PUNCH",
+        "AGILITY"
+      ],
+      "species": "HITMONCHAN",
+      "species_token": "SPECIES_HITMONCHAN"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 475,
+  "trainer_id": 475,
+  "trainer_name": "Mason",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "WORRY_SEED",
+        "GROWTH",
+        "WATER_SPORT",
+        "ABSORB"
+      ],
+      "species": "BUDEW",
+      "species_token": "SPECIES_BUDEW"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "FOCUS_ENERGY",
+        "QUICK_ATTACK",
+        "PECK",
+        "GROWL"
+      ],
+      "species": "TAILLOW",
+      "species_token": "SPECIES_TAILLOW"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "HARDEN",
+        "HARDEN",
+        "HARDEN",
+        "HARDEN"
+      ],
+      "species": "KAKUNA",
+      "species_token": "SPECIES_KAKUNA"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "GROWL",
+        "FAKE_OUT",
+        "SCRATCH",
+        "FAKE_OUT"
+      ],
+      "species": "GLAMEOW",
+      "species_token": "SPECIES_GLAMEOW"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 74,
+  "trainer_id": 74,
+  "trainer_name": "Gianna",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

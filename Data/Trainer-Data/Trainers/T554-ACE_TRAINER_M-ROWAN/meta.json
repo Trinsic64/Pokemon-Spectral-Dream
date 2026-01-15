@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "AIR_SLASH",
+        "LAST_RESORT",
+        "AURA_SPHERE",
+        "FAIRY_WIND"
+      ],
+      "species": "TOGEKISS",
+      "species_token": "SPECIES_TOGEKISS"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "AIR_SLASH",
+        "EXTRASENSORY",
+        "GROWL",
+        "ECHOED_VOICE"
+      ],
+      "species": "NOCTOWL",
+      "species_token": "SPECIES_NOCTOWL"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "RAZOR_LEAF",
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "SLASH"
+      ],
+      "species": "LEAVANNY",
+      "species_token": "SPECIES_LEAVANNY"
+    },
+    {
+      "ability": "BERSERK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "DRAGON_BREATH",
+        "PLAY_NICE",
+        "ECHOED_VOICE",
+        "TWISTER"
+      ],
+      "species": "DRAMPA",
+      "species_token": "SPECIES_DRAMPA"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "OUTRAGE",
+        "AQUA_TAIL",
+        "DRAGON_BREATH",
+        "PROTECT"
+      ],
+      "species": "GOODRA",
+      "species_token": "SPECIES_GOODRA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 554,
+  "trainer_id": 554,
+  "trainer_name": "Rowan",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

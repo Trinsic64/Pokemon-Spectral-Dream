@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "COMATOSE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "THRASH",
+        "SLAM",
+        "SUCKER_PUNCH",
+        "STOCKPILE"
+      ],
+      "species": "KOMALA",
+      "species_token": "SPECIES_KOMALA"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "HYDRO_PUMP",
+        "LAST_RESORT",
+        "AURORA_BEAM",
+        "ACID_ARMOR"
+      ],
+      "species": "VAPOREON",
+      "species_token": "SPECIES_VAPOREON"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "GIGA_DRAIN",
+        "DREAM_EATER",
+        "INGRAIN",
+        "MOONBLAST"
+      ],
+      "species": "SHIINOTIC",
+      "species_token": "SPECIES_SHIINOTIC"
+    },
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SHELL_TRAP",
+        "DRAGON_PULSE",
+        "FLAMETHROWER",
+        "IRON_DEFENSE"
+      ],
+      "species": "TURTONATOR",
+      "species_token": "SPECIES_TURTONATOR"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "KNOCK_OFF",
+        "VITAL_THROW",
+        "WAKE_UP_SLAP",
+        "FOCUS_ENERGY"
+      ],
+      "species": "HARIYAMA",
+      "species_token": "SPECIES_HARIYAMA"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "EARTHQUAKE",
+        "FOCUS_PUNCH",
+        "DYNAMIC_PUNCH",
+        "PHANTOM_FORCE"
+      ],
+      "species": "GOLURK",
+      "species_token": "SPECIES_GOLURK"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 757,
+  "trainer_id": 757,
+  "trainer_name": "Ulric",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

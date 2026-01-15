@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "LEER",
+        "PECK",
+        "PECK",
+        "PECK"
+      ],
+      "species": "KARRABLAST",
+      "species_token": "SPECIES_KARRABLAST"
+    },
+    {
+      "ability": "HYDRATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "ABSORB",
+        "PROTECT",
+        "ACID",
+        "ABSORB"
+      ],
+      "species": "SHELMET",
+      "species_token": "SPECIES_SHELMET"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "ASTONISH",
+        "GROWTH",
+        "ABSORB",
+        "ASTONISH"
+      ],
+      "species": "FOONGUS",
+      "species_token": "SPECIES_FOONGUS"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 28,
+  "trainer_id": 28,
+  "trainer_name": "Sophia",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

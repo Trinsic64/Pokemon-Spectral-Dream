@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "OMINOUS_WIND",
+        "TELEPORT",
+        "LUCKY_CHANT",
+        "PECK"
+      ],
+      "species": "NATU",
+      "species_token": "SPECIES_NATU"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "SPARK",
+        "HARDEN",
+        "ROCK_THROW",
+        "TACKLE"
+      ],
+      "species": "NOSEPASS",
+      "species_token": "SPECIES_NOSEPASS"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "BUBBLE_BEAM",
+        "THUNDER_WAVE",
+        "WATER_GUN",
+        "ELECTRO_BALL"
+      ],
+      "species": "CHINCHOU",
+      "species_token": "SPECIES_CHINCHOU"
+    },
+    {
+      "ability": "WEAK_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "ASTONISH",
+        "WITHDRAW",
+        "MEGA_DRAIN",
+        "AROMATIC_MIST"
+      ],
+      "species": "SINISTEA",
+      "species_token": "SPECIES_SINISTEA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 209,
+  "trainer_id": 209,
+  "trainer_name": "Aaliyah",
+  "trainerclass": "TRAINERCLASS_PSYCHIC_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

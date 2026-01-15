@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "WAKE_UP_SLAP",
+        "CHARM",
+        "DISARMING_VOICE",
+        "POUND"
+      ],
+      "species": "CLEFAIRY",
+      "species_token": "SPECIES_CLEFAIRY"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "GROWL",
+        "PSYBEAM",
+        "STOMP",
+        "CONFUSION"
+      ],
+      "species": "GIRAFARIG",
+      "species_token": "SPECIES_GIRAFARIG"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "PLAY_ROUGH",
+        "COVET",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "FIDOUGH",
+      "species_token": "SPECIES_FIDOUGH"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "DEFENSE_CURL",
+        "SUPERSONIC",
+        "ROLLOUT",
+        "WRAP"
+      ],
+      "species": "LICKITUNG",
+      "species_token": "SPECIES_LICKITUNG"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "BUBBLE_BEAM",
+        "HARDEN",
+        "ANCIENT_POWER",
+        "WATER_GUN"
+      ],
+      "species": "CORSOLA",
+      "species_token": "SPECIES_CORSOLA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 228,
+  "trainer_id": 228,
+  "trainer_name": "BrennaA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

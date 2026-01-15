@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DANCER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "AIR_SLASH",
+        "FEATHER_DANCE",
+        "AIR_CUTTER",
+        "PECK"
+      ],
+      "species": "ORICORIO",
+      "species_token": "SPECIES_ORICORIO"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "DOUBLE_KICK",
+        "SWAGGER",
+        "FIRE_FANG",
+        "BITE"
+      ],
+      "species": "TORRACAT",
+      "species_token": "SPECIES_TORRACAT"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "AGILITY",
+        "FLAME_WHEEL",
+        "STOMP",
+        "FLAME_CHARGE"
+      ],
+      "species": "PONYTA",
+      "species_token": "SPECIES_PONYTA"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "INCINERATE",
+        "FLAME_BURST",
+        "SLASH",
+        "BUG_BITE"
+      ],
+      "species": "HEATMOR",
+      "species_token": "SPECIES_HEATMOR"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 406,
+  "trainer_id": 406,
+  "trainer_name": "Clara",
+  "trainerclass": "TRAINERCLASS_FIREBREATHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

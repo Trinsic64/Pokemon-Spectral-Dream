@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ANGER_SHELL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "ROCK_SLIDE",
+        "HIGH_HORSEPOWER",
+        "SWORDS_DANCE",
+        "X_SCISSOR"
+      ],
+      "species": "KLAWF",
+      "species_token": "SPECIES_KLAWF"
+    },
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "PETAL_DANCE",
+        "FLOWER_SHIELD",
+        "PETAL_BLIZZARD",
+        "PLAY_ROUGH"
+      ],
+      "species": "COMFEY",
+      "species_token": "SPECIES_COMFEY"
+    },
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "ZING_ZAP",
+        "CHARGE",
+        "ROLLOUT",
+        "DISCHARGE"
+      ],
+      "species": "TOGEDEMARU",
+      "species_token": "SPECIES_TOGEDEMARU"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "POWER_WHIP",
+        "CRUNCH",
+        "STOCKPILE",
+        "LEAF_TORNADO"
+      ],
+      "species": "CARNIVINE",
+      "species_token": "SPECIES_CARNIVINE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DRILL_PECK",
+        "DRILL_RUN",
+        "FOCUS_ENERGY",
+        "FURY_ATTACK"
+      ],
+      "species": "FEAROW",
+      "species_token": "SPECIES_FEAROW"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 499,
+  "trainer_id": 499,
+  "trainer_name": "Kaida",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

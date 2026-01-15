@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "COMMANDER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "MUDDY_WATER",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "WATER_PULSE"
+      ],
+      "species": "TATSUGIRI",
+      "species_token": "SPECIES_TATSUGIRI"
+    },
+    {
+      "ability": "COMMANDER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "MUDDY_WATER",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "WATER_PULSE"
+      ],
+      "species": "TATSUGIRI",
+      "species_token": "SPECIES_TATSUGIRI"
+    },
+    {
+      "ability": "COMMANDER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "MUDDY_WATER",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "WATER_PULSE"
+      ],
+      "species": "TATSUGIRI",
+      "species_token": "SPECIES_TATSUGIRI"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "DRAGON_DANCE",
+        "PHANTOM_FORCE",
+        "U_TURN",
+        "DRAGON_BREATH"
+      ],
+      "species": "DRAGAPULT",
+      "species_token": "SPECIES_DRAGAPULT"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "OUTRAGE",
+        "MUDDY_WATER",
+        "PROTECT",
+        "DRAGON_PULSE"
+      ],
+      "species": "GOODRA",
+      "species_token": "SPECIES_GOODRA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 643,
+  "trainer_id": 643,
+  "trainer_name": "Soren",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

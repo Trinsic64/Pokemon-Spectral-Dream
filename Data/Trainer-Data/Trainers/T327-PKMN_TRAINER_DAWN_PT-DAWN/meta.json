@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "PSYBEAM",
+        "CALM_MIND",
+        "MAGICAL_LEAF",
+        "CONFUSION"
+      ],
+      "species": "KIRLIA",
+      "species_token": "SPECIES_KIRLIA"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "POWER_GEM",
+        "SLASH",
+        "BUG_BITE",
+        "GUST"
+      ],
+      "species": "VESPIQUEN",
+      "species_token": "SPECIES_VESPIQUEN"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "JUMP_KICK",
+        "DEFENSE_CURL",
+        "POUND",
+        "QUICK_ATTACK"
+      ],
+      "species": "BUNEARY",
+      "species_token": "SPECIES_BUNEARY"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "MUD_BOMB",
+        "MUD_SPORT",
+        "ICY_WIND",
+        "ICE_SHARD"
+      ],
+      "species": "SWINUB",
+      "species_token": "SPECIES_SWINUB"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "PECK",
+        "WATER_SPORT",
+        "BUBBLE_BEAM",
+        "METAL_CLAW"
+      ],
+      "species": "PRINPLUP",
+      "species_token": "SPECIES_PRINPLUP"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 327,
+  "trainer_id": 327,
+  "trainer_name": "Dawn",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

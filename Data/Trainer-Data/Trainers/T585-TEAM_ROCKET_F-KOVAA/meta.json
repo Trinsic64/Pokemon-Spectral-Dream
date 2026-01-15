@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "GUNK_SHOT",
+        "BODY_SLAM",
+        "STOCKPILE",
+        "BELCH"
+      ],
+      "species": "GARBODOR",
+      "species_token": "SPECIES_GARBODOR"
+    },
+    {
+      "ability": "TOUGH_CLAWS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "STONE_EDGE",
+        "CROSS_CHOP",
+        "ROCK_POLISH",
+        "RAZOR_SHELL"
+      ],
+      "species": "BARBARACLE",
+      "species_token": "SPECIES_BARBARACLE"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SKY_UPPERCUT",
+        "BODY_SLAM",
+        "BULLET_PUNCH",
+        "CRUNCH"
+      ],
+      "species": "PANGORO",
+      "species_token": "SPECIES_PANGORO"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DRILL_PECK",
+        "DRILL_RUN",
+        "FOCUS_ENERGY",
+        "FURY_ATTACK"
+      ],
+      "species": "FEAROW",
+      "species_token": "SPECIES_FEAROW"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "IRON_HEAD",
+        "SACRED_SWORD",
+        "NIGHT_SLASH",
+        "SHADOW_SNEAK"
+      ],
+      "species": "DOUBLADE",
+      "species_token": "SPECIES_DOUBLADE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BUG_BUZZ",
+        "AIR_SLASH",
+        "QUIVER_DANCE",
+        "WATER_SPORT"
+      ],
+      "species": "MASQUERAIN",
+      "species_token": "SPECIES_MASQUERAIN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 585,
+  "trainer_id": 585,
+  "trainer_name": "KovaA",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

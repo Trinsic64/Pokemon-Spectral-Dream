@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "MIST_BALL",
+        "DRAGON_PULSE",
+        "HEAL_PULSE",
+        "DRAGON_BREATH"
+      ],
+      "species": "LATIAS",
+      "species_token": "SPECIES_LATIAS"
+    },
+    {
+      "ability": "PRISM_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "PHOTON_GEYSER",
+        "POWER_GEM",
+        "IRON_DEFENSE",
+        "NIGHT_SLASH"
+      ],
+      "species": "NECROZMA",
+      "species_token": "SPECIES_NECROZMA"
+    },
+    {
+      "ability": "VICTORY_STAR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "SEARING_SHOT",
+        "INFERNO",
+        "FOCUS_ENERGY",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "VICTINI",
+      "species_token": "SPECIES_VICTINI"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 915,
+  "trainer_id": 915,
+  "trainer_name": "Jaxen",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

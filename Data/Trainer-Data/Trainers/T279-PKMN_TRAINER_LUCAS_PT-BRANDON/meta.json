@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "THUNDER_WAVE",
+        "SPARK",
+        "SWIFT",
+        "QUICK_ATTACK"
+      ],
+      "species": "PLUSLE",
+      "species_token": "SPECIES_PLUSLE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "CRUNCH",
+        "SUPERPOWER",
+        "DIG",
+        "DRAGON_TAIL"
+      ],
+      "species": "VIBRAVA",
+      "species_token": "SPECIES_VIBRAVA"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "FOCUS_ENERGY",
+        "WING_ATTACK",
+        "AERIAL_ACE",
+        "QUICK_ATTACK"
+      ],
+      "species": "TAILLOW",
+      "species_token": "SPECIES_TAILLOW"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "BRINE",
+        "DEFENSE_CURL",
+        "AURORA_BEAM",
+        "SNORE"
+      ],
+      "species": "SPHEAL",
+      "species_token": "SPECIES_SPHEAL"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "ENERGY_BALL",
+        "X_SCISSOR",
+        "GIGA_DRAIN",
+        "DETECT"
+      ],
+      "species": "GROVYLE",
+      "species_token": "SPECIES_GROVYLE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 279,
+  "trainer_id": 279,
+  "trainer_name": "Brandon",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

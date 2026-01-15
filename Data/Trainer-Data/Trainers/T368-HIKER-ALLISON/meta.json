@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "CRUNCH",
+        "BITE",
+        "ASSURANCE",
+        "DIG"
+      ],
+      "species": "KROKOROK",
+      "species_token": "SPECIES_KROKOROK"
+    },
+    {
+      "ability": "RECKLESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "AQUA_TAIL",
+        "CRUNCH",
+        "SOAK",
+        "UPROAR"
+      ],
+      "species": "BASCULIN",
+      "species_token": "SPECIES_BASCULIN"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "POISON_JAB",
+        "NIGHT_SLASH",
+        "SWAGGER",
+        "VENOSHOCK"
+      ],
+      "species": "SEVIPER",
+      "species_token": "SPECIES_SEVIPER"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "GIGA_DRAIN",
+        "PECK",
+        "COTTON_GUARD",
+        "SUCKER_PUNCH"
+      ],
+      "species": "MARACTUS",
+      "species_token": "SPECIES_MARACTUS"
+    },
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "SWAGGER",
+        "AIR_CUTTER",
+        "QUICK_ATTACK",
+        "DETECT"
+      ],
+      "species": "TRANQUILL",
+      "species_token": "SPECIES_TRANQUILL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 368,
+  "trainer_id": 368,
+  "trainer_name": "Allison",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

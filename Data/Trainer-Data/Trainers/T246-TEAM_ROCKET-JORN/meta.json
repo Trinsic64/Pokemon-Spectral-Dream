@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "PSYSHOCK",
+        "FEINT_ATTACK",
+        "PLAY_NICE",
+        "PSYBEAM"
+      ],
+      "species": "GOTHITA",
+      "species_token": "SPECIES_GOTHITA"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "HONE_CLAWS",
+        "ASSURANCE",
+        "PURSUIT",
+        "SCRATCH"
+      ],
+      "species": "PURRLOIN",
+      "species_token": "SPECIES_PURRLOIN"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "FOCUS_ENERGY",
+        "SLASH",
+        "BITE",
+        "VENOSHOCK"
+      ],
+      "species": "STUNKY",
+      "species_token": "SPECIES_STUNKY"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "NEEDLE_ARM",
+        "FEINT_ATTACK",
+        "PAYBACK",
+        "SAND_ATTACK"
+      ],
+      "species": "CACNEA",
+      "species_token": "SPECIES_CACNEA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 246,
+  "trainer_id": 246,
+  "trainer_name": "Jorn",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

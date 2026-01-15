@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "LAST_RESORT",
+        "COVET",
+        "EGG_BOMB",
+        "HEAL_PULSE"
+      ],
+      "species": "BLISSEY",
+      "species_token": "SPECIES_BLISSEY"
+    },
+    {
+      "ability": "SEED_SOWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "PETAL_DANCE",
+        "SAFEGUARD",
+        "ENERGY_BALL",
+        "TERRAIN_PULSE"
+      ],
+      "species": "ARBOLIVA",
+      "species_token": "SPECIES_ARBOLIVA"
+    },
+    {
+      "ability": "SCRAPPY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "AIR_SLASH",
+        "THROAT_CHOP",
+        "PAYBACK",
+        "DOUBLE_KICK"
+      ],
+      "species": "FLAMIGO",
+      "species_token": "SPECIES_FLAMIGO"
+    },
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "PETAL_DANCE",
+        "FLOWER_SHIELD",
+        "PETAL_BLIZZARD",
+        "PLAY_ROUGH"
+      ],
+      "species": "COMFEY",
+      "species_token": "SPECIES_COMFEY"
+    },
+    {
+      "ability": "WIND_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "AGILITY",
+        "HURRICANE"
+      ],
+      "species": "KILOWATTREL",
+      "species_token": "SPECIES_KILOWATTREL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 833,
+  "trainer_id": 833,
+  "trainer_name": "Zara",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

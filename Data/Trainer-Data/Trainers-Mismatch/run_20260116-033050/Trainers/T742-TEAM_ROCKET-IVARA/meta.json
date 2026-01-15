@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ANGER_SHELL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "ROCK_SLIDE",
+        "HIGH_HORSEPOWER",
+        "SWORDS_DANCE",
+        "X_SCISSOR"
+      ],
+      "species": "KLAWF",
+      "species_token": "SPECIES_KLAWF"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "PSYCHIC",
+        "CALM_MIND",
+        "PSYBEAM",
+        "DISARMING_VOICE"
+      ],
+      "species": "INDEEDEE",
+      "species_token": "SPECIES_INDEEDEE"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "BUG_BUZZ",
+        "PSYCHIC",
+        "SIGNAL_BEAM",
+        "POISON_FANG"
+      ],
+      "species": "VENOMOTH",
+      "species_token": "SPECIES_VENOMOTH"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "THRASH",
+        "AMNESIA",
+        "BLIZZARD"
+      ],
+      "species": "PILOSWINE",
+      "species_token": "SPECIES_PILOSWINE"
+    },
+    {
+      "ability": "GULP_MISSILE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "HYDRO_PUMP",
+        "BELCH",
+        "DIVE",
+        "DRILL_PECK"
+      ],
+      "species": "CRAMORANT",
+      "species_token": "SPECIES_CRAMORANT"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "PLAY_ROUGH",
+        "NASTY_PLOT",
+        "POWER_GEM",
+        "SLASH"
+      ],
+      "species": "PERSIAN",
+      "species_token": "SPECIES_PERSIAN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 742,
+  "trainer_id": 742,
+  "trainer_name": "Ivara",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

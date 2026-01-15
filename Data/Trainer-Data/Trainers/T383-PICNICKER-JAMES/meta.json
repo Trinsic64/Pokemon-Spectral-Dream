@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHADOW_TAG",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "AMNESIA",
+        "CHARM",
+        "ENCORE",
+        "MIRROR_COAT"
+      ],
+      "species": "WOBBUFFET",
+      "species_token": "SPECIES_WOBBUFFET"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "COUNTER",
+        "STRUGGLE_BUG",
+        "HEADBUTT",
+        "BUG_BITE"
+      ],
+      "species": "SPIDOPS",
+      "species_token": "SPECIES_SPIDOPS"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "DISCHARGE",
+        "CRUNCH",
+        "THUNDER_WAVE",
+        "SPARK"
+      ],
+      "species": "EELEKTRIK",
+      "species_token": "SPECIES_EELEKTRIK"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "TAUNT",
+        "WING_ATTACK",
+        "ASSURANCE",
+        "FEINT_ATTACK"
+      ],
+      "species": "MURKROW",
+      "species_token": "SPECIES_MURKROW"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 383,
+  "trainer_id": 383,
+  "trainer_name": "James",
+  "trainerclass": "TRAINERCLASS_PICNICKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

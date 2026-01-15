@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "CRABHAMMER",
+        "PAYBACK",
+        "DIZZY_PUNCH",
+        "ROCK_SMASH"
+      ],
+      "species": "CRABRAWLER",
+      "species_token": "SPECIES_CRABRAWLER"
+    },
+    {
+      "ability": "SIMPLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "HYPER_FANG",
+        "CRUNCH",
+        "HEADBUTT",
+        "AQUA_JET"
+      ],
+      "species": "BIBAREL",
+      "species_token": "SPECIES_BIBAREL"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "CRUNCH",
+        "ICE_FANG",
+        "FIRE_FANG",
+        "ACID"
+      ],
+      "species": "ARBOK",
+      "species_token": "SPECIES_ARBOK"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "BUG_BITE",
+        "SILVER_WIND",
+        "PSYBEAM",
+        "GUST"
+      ],
+      "species": "MOTHIM",
+      "species_token": "SPECIES_MOTHIM"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "EARTHQUAKE",
+        "STRENGTH",
+        "ROCK_SMASH",
+        "IRON_DEFENSE"
+      ],
+      "species": "MUDBRAY",
+      "species_token": "SPECIES_MUDBRAY"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 413,
+  "trainer_id": 413,
+  "trainer_name": "Noah",
+  "trainerclass": "TRAINERCLASS_BOARDER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

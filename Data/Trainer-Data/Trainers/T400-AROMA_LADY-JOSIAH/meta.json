@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WEAK_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "HEX",
+        "SPITE",
+        "ANCIENT_POWER",
+        "CURSE"
+      ],
+      "species": "CORSOLA",
+      "species_token": "SPECIES_CORSOLA"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "AGILITY",
+        "SLAM",
+        "SUCKER_PUNCH",
+        "QUICK_ATTACK"
+      ],
+      "species": "FURRET",
+      "species_token": "SPECIES_FURRET"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "AGILITY",
+        "FLAME_WHEEL",
+        "STOMP",
+        "FLAME_CHARGE"
+      ],
+      "species": "PONYTA",
+      "species_token": "SPECIES_PONYTA"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "EARTH_POWER",
+        "TRI_ATTACK",
+        "BULLDOZE",
+        "IRON_HEAD"
+      ],
+      "species": "DUGTRIO",
+      "species_token": "SPECIES_DUGTRIO"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 400,
+  "trainer_id": 400,
+  "trainer_name": "Josiah",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

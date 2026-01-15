@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "BRINE",
+        "NIGHT_SLASH",
+        "SLASH",
+        "ANCIENT_POWER"
+      ],
+      "species": "KABUTOPS",
+      "species_token": "SPECIES_KABUTOPS"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "HYDRO_PUMP",
+        "CRUNCH",
+        "BRINE",
+        "ANCIENT_POWER"
+      ],
+      "species": "OMASTAR",
+      "species_token": "SPECIES_OMASTAR"
+    },
+    {
+      "ability": "DEFEATIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "ROCK_SLIDE",
+        "CRUNCH",
+        "ANCIENT_POWER",
+        "WING_ATTACK"
+      ],
+      "species": "ARCHEN",
+      "species_token": "SPECIES_ARCHEN"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 453,
+  "trainer_id": 453,
+  "trainer_name": "Emma",
+  "trainerclass": "TRAINERCLASS_LASS",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

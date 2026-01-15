@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "LOW_SWEEP",
+        "VITAL_THROW",
+        "SLASH",
+        "TAUNT"
+      ],
+      "species": "PANCHAM",
+      "species_token": "SPECIES_PANCHAM"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "UPROAR",
+        "CONFUSION",
+        "REFLECT",
+        "MEGA_DRAIN"
+      ],
+      "species": "EXEGGCUTE",
+      "species_token": "SPECIES_EXEGGCUTE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "POISON_JAB",
+        "SLASH",
+        "NIGHT_SLASH",
+        "BRAVE_BIRD"
+      ],
+      "species": "FARFETCHD",
+      "species_token": "SPECIES_FARFETCHD"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BRINE",
+        "WITHDRAW",
+        "ANCIENT_POWER",
+        "MUD_SHOT"
+      ],
+      "species": "OMANYTE",
+      "species_token": "SPECIES_OMANYTE"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "MOONBLAST",
+        "CALM_MIND",
+        "DRAINING_KISS",
+        "FAIRY_WIND"
+      ],
+      "species": "SPRITZEE",
+      "species_token": "SPECIES_SPRITZEE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 309,
+  "trainer_id": 309,
+  "trainer_name": "Ryan",
+  "trainerclass": "TRAINERCLASS_BLACK_BELT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

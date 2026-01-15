@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "HYDRO_PUMP",
+        "BRINE",
+        "AGILITY",
+        "HURRICANE"
+      ],
+      "species": "PELIPPER",
+      "species_token": "SPECIES_PELIPPER"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "SEED_BOMB",
+        "EARTHQUAKE",
+        "AERIAL_ACE",
+        "BULK_UP"
+      ],
+      "species": "GOGOAT",
+      "species_token": "SPECIES_GOGOAT"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "FLASH_CANNON",
+        "FOUL_PLAY",
+        "PLAY_ROUGH",
+        "SPIKES"
+      ],
+      "species": "KLEFKI",
+      "species_token": "SPECIES_KLEFKI"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 472,
+  "trainer_id": 472,
+  "trainer_name": "Wade",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

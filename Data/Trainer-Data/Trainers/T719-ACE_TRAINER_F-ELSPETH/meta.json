@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MUMMY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "OMINOUS_WIND",
+        "HEX"
+      ],
+      "species": "COFAGRIGUS",
+      "species_token": "SPECIES_COFAGRIGUS"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "POWER_GEM",
+        "SPITE",
+        "PHANTOM_FORCE",
+        "MYSTICAL_FIRE"
+      ],
+      "species": "MISMAGIUS",
+      "species_token": "SPECIES_MISMAGIUS"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "DARK_PULSE",
+        "NASTY_PLOT"
+      ],
+      "species": "SPIRITOMB",
+      "species_token": "SPECIES_SPIRITOMB"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SHADOW_BALL",
+        "FUTURE_SIGHT",
+        "CONFUSE_RAY",
+        "SHADOW_PUNCH"
+      ],
+      "species": "DUSKNOIR",
+      "species_token": "SPECIES_DUSKNOIR"
+    },
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "CONFUSE_RAY",
+        "DARK_PULSE"
+      ],
+      "species": "GENGAR",
+      "species_token": "SPECIES_GENGAR"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 719,
+  "trainer_id": 719,
+  "trainer_name": "Elspeth",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

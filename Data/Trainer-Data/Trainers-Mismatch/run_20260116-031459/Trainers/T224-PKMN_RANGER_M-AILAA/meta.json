@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "PLAY_ROUGH",
+        "COVET",
+        "SLASH",
+        "HEADBUTT"
+      ],
+      "species": "LINOONE",
+      "species_token": "SPECIES_LINOONE"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "ATTRACT",
+        "FAKE_OUT",
+        "SING",
+        "DOUBLE_SLAP"
+      ],
+      "species": "DELCATTY",
+      "species_token": "SPECIES_DELCATTY"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "GROWL",
+        "SPARK",
+        "SWIFT",
+        "QUICK_ATTACK"
+      ],
+      "species": "PACHIRISU",
+      "species_token": "SPECIES_PACHIRISU"
+    },
+    {
+      "ability": "PURE_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "ICE_PUNCH",
+        "DETECT",
+        "FORCE_PALM"
+      ],
+      "species": "MEDICHAM",
+      "species_token": "SPECIES_MEDICHAM"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "MEGA_DRAIN",
+        "MORNING_SUN",
+        "AIR_CUTTER",
+        "GUST"
+      ],
+      "species": "BEAUTIFLY",
+      "species_token": "SPECIES_BEAUTIFLY"
+    },
+    {
+      "ability": "SURGE_SURFER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "AGILITY",
+        "THUNDER",
+        "THUNDERBOLT",
+        "PSYCHIC"
+      ],
+      "species": "RAICHU",
+      "species_token": "SPECIES_RAICHU"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 224,
+  "trainer_id": 224,
+  "trainer_name": "AilaA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

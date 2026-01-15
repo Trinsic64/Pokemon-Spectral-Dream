@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "ZING_ZAP",
+        "POISON_JAB",
+        "CHARGE",
+        "BUBBLE_BEAM"
+      ],
+      "species": "PINCURCHIN",
+      "species_token": "SPECIES_PINCURCHIN"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "DAZZLING_GLEAM",
+        "ACID_ARMOR",
+        "DRAINING_KISS",
+        "TACKLE"
+      ],
+      "species": "ALCREMIE",
+      "species_token": "SPECIES_ALCREMIE"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "UPROAR",
+        "FOCUS_PUNCH",
+        "FOCUS_ENERGY",
+        "SLASH"
+      ],
+      "species": "VIGOROTH",
+      "species_token": "SPECIES_VIGOROTH"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "POWER_GEM",
+        "ROCK_POLISH",
+        "ROCK_SLIDE",
+        "ANCIENT_POWER"
+      ],
+      "species": "CARBINK",
+      "species_token": "SPECIES_CARBINK"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "EARTHQUAKE",
+        "AMNESIA",
+        "ICE_FANG",
+        "MUD_BOMB"
+      ],
+      "species": "PILOSWINE",
+      "species_token": "SPECIES_PILOSWINE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 500,
+  "trainer_id": 500,
+  "trainer_name": "LioraA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

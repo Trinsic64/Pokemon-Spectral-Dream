@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "AGILITY",
+        "SWIFT",
+        "SCRATCH",
+        "DOUBLE_HIT"
+      ],
+      "species": "AIPOM",
+      "species_token": "SPECIES_AIPOM"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "UPROAR",
+        "ANCIENT_POWER",
+        "DOUBLE_TEAM",
+        "FORESIGHT"
+      ],
+      "species": "YANMA",
+      "species_token": "SPECIES_YANMA"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER_PUNCH",
+        "SHOCK_WAVE"
+      ],
+      "species": "ELEKID",
+      "species_token": "SPECIES_ELEKID"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 381,
+  "trainer_id": 381,
+  "trainer_name": "Grace",
+  "trainerclass": "TRAINERCLASS_PICNICKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

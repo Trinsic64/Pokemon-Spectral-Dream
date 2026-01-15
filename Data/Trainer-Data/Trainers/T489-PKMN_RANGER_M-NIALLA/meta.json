@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "UPROAR",
+        "HOWL",
+        "STOMP",
+        "REST"
+      ],
+      "species": "LOUDRED",
+      "species_token": "SPECIES_LOUDRED"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "HYDRO_PUMP",
+        "PLAY_ROUGH",
+        "BOUNCE",
+        "WATER_SPORT"
+      ],
+      "species": "AZUMARILL",
+      "species_token": "SPECIES_AZUMARILL"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "DRILL_PECK",
+        "HONE_CLAWS",
+        "PLUCK",
+        "PECK"
+      ],
+      "species": "CORVISQUIRE",
+      "species_token": "SPECIES_CORVISQUIRE"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "POISON_JAB",
+        "KNOCK_OFF",
+        "GASTRO_ACID",
+        "RAZOR_LEAF"
+      ],
+      "species": "WEEPINBELL",
+      "species_token": "SPECIES_WEEPINBELL"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "FUTURE_SIGHT",
+        "FEINT_ATTACK",
+        "HEAL_BLOCK",
+        "PSYCHIC"
+      ],
+      "species": "GOTHORITA",
+      "species_token": "SPECIES_GOTHORITA"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "BRICK_BREAK",
+        "IRON_HEAD",
+        "BULK_UP",
+        "DYNAMIC_PUNCH"
+      ],
+      "species": "KUBFU",
+      "species_token": "SPECIES_KUBFU"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 489,
+  "trainer_id": 489,
+  "trainer_name": "Nialla",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

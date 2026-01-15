@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TOXIC_DEBRIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "ROCK_POLISH",
+        "ANCIENT_POWER",
+        "ACID_SPRAY",
+        "ROCK_THROW"
+      ],
+      "species": "GLIMMET",
+      "species_token": "SPECIES_GLIMMET"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "ROCK_TOMB",
+        "PSYBEAM",
+        "ANCIENT_POWER",
+        "MUD_SLAP"
+      ],
+      "species": "BALTOY",
+      "species_token": "SPECIES_BALTOY"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "DETECT",
+        "POUND",
+        "FAKE_OUT",
+        "MEDITATE"
+      ],
+      "species": "MIENFOO",
+      "species_token": "SPECIES_MIENFOO"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "ABSORB",
+        "HARDEN",
+        "SCRATCH",
+        "LEER"
+      ],
+      "species": "KABUTO",
+      "species_token": "SPECIES_KABUTO"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 199,
+  "trainer_id": 199,
+  "trainer_name": "Olivia",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

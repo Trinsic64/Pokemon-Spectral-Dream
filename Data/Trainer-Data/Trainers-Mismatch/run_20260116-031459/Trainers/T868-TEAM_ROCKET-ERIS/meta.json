@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "FUTURE_SIGHT",
+        "EXTRASENSORY",
+        "IRON_DEFENSE",
+        "GYRO_BALL"
+      ],
+      "species": "BRONZONG",
+      "species_token": "SPECIES_BRONZONG"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "FIRE_BLAST",
+        "HYPER_VOICE",
+        "INCINERATE",
+        "HEX"
+      ],
+      "species": "SKELEDIRGE",
+      "species_token": "SPECIES_SKELEDIRGE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "HEX",
+        "CHARGE"
+      ],
+      "species": "ROTOM_FAN",
+      "species_token": "SPECIES_ROTOM_FAN"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "DIRE_CLAW",
+        "BRICK_BREAK",
+        "POISON_JAB",
+        "HONE_CLAWS"
+      ],
+      "species": "SNEASLER",
+      "species_token": "SPECIES_SNEASLER"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "GIGA_DRAIN",
+        "THRASH",
+        "CLEAR_SMOG",
+        "SUCKER_PUNCH"
+      ],
+      "species": "BRUTE_BONNET",
+      "species_token": "SPECIES_BRUTE_BONNET"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "SHADOW_BALL",
+        "KNOCK_OFF",
+        "PHANTOM_FORCE",
+        "SUCKER_PUNCH"
+      ],
+      "species": "BANETTE",
+      "species_token": "SPECIES_BANETTE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 868,
+  "trainer_id": 868,
+  "trainer_name": "Eris",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

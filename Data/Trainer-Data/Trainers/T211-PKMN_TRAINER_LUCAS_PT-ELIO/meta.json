@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BATTERY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "MUD_SLAP",
+        "CHARGE",
+        "SPARK",
+        "BUG_BITE"
+      ],
+      "species": "CHARJABUG",
+      "species_token": "SPECIES_CHARJABUG"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "DOUBLE_TEAM",
+        "BITE",
+        "ROCK_THROW",
+        "SAND_ATTACK"
+      ],
+      "species": "ROCKRUFF",
+      "species_token": "SPECIES_ROCKRUFF"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "STRENGTH",
+        "ROCK_SMASH",
+        "IRON_DEFENSE",
+        "BULLDOZE"
+      ],
+      "species": "MUDBRAY",
+      "species_token": "SPECIES_MUDBRAY"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "RAZOR_LEAF",
+        "OMINOUS_WIND",
+        "LEAFAGE",
+        "PECK"
+      ],
+      "species": "DARTRIX",
+      "species_token": "SPECIES_DARTRIX"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 211,
+  "trainer_id": 211,
+  "trainer_name": "Elio",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

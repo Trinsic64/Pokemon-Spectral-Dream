@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "IRON_HEAD",
+        "PLAY_ROUGH",
+        "IRON_DEFENSE",
+        "CRUNCH"
+      ],
+      "species": "MAWILE",
+      "species_token": "SPECIES_MAWILE"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "EARTHQUAKE",
+        "KNOCK_OFF",
+        "FIRE_FANG",
+        "SLAM"
+      ],
+      "species": "DONPHAN",
+      "species_token": "SPECIES_DONPHAN"
+    },
+    {
+      "ability": "WANDERING_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "EARTHQUAKE",
+        "SHADOW_BALL",
+        "CURSE",
+        "SHADOW_CLAW"
+      ],
+      "species": "RUNERIGUS",
+      "species_token": "SPECIES_RUNERIGUS"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "UPROAR",
+        "JUMP_KICK",
+        "ACUPRESSURE",
+        "DRILL_PECK"
+      ],
+      "species": "DODRIO",
+      "species_token": "SPECIES_DODRIO"
+    },
+    {
+      "ability": "SUCTION_CUPS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "HYDRO_PUMP",
+        "GUNK_SHOT",
+        "FOCUS_ENERGY",
+        "ICE_BEAM"
+      ],
+      "species": "OCTILLERY",
+      "species_token": "SPECIES_OCTILLERY"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 575,
+  "trainer_id": 575,
+  "trainer_name": "Bruno",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

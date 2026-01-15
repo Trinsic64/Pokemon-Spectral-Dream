@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "LEER",
+        "EMBER",
+        "SMOKESCREEN",
+        "SMOG"
+      ],
+      "species": "MAGBY",
+      "species_token": "SPECIES_MAGBY"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "FIRE_FANG",
+        "CHARM",
+        "ICE_FANG",
+        "THUNDER_FANG"
+      ],
+      "species": "SNUBBULL",
+      "species_token": "SPECIES_SNUBBULL"
+    },
+    {
+      "ability": "SIMPLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "GROWL",
+        "TACKLE",
+        "ROLLOUT",
+        "DEFENSE_CURL"
+      ],
+      "species": "BIDOOF",
+      "species_token": "SPECIES_BIDOOF"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 70,
+  "trainer_id": 70,
+  "trainer_name": "Tristan",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

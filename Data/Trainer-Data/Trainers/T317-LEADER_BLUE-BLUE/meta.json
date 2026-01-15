@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "TOXIC_SPIKES",
+        "SCRATCH",
+        "TAIL_WHIP",
+        "POISON_STING"
+      ],
+      "species": "NIDORINA",
+      "species_token": "SPECIES_NIDORINA"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "SHADOW_PUNCH",
+        "CONFUSE_RAY",
+        "PAYBACK",
+        "SPITE"
+      ],
+      "species": "HAUNTER",
+      "species_token": "SPECIES_HAUNTER"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "BULLDOZE",
+        "CHIP_AWAY",
+        "HORN_ATTACK",
+        "SMACK_DOWN"
+      ],
+      "species": "RHYHORN",
+      "species_token": "SPECIES_RHYHORN"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "GIGA_DRAIN",
+        "GROWTH",
+        "ACID",
+        "MEGA_DRAIN"
+      ],
+      "species": "ODDISH",
+      "species_token": "SPECIES_ODDISH"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "RAPID_SPIN",
+        "WATER_PULSE",
+        "BITE",
+        "WATER_GUN"
+      ],
+      "species": "WARTORTLE",
+      "species_token": "SPECIES_WARTORTLE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 317,
+  "trainer_id": 317,
+  "trainer_name": "Blue",
+  "trainerclass": "TRAINERCLASS_LEADER_BLUE",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

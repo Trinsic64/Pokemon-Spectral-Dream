@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HUNGER_SWITCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "FLATTER",
+        "BITE",
+        "QUICK_ATTACK",
+        "THUNDER_SHOCK"
+      ],
+      "species": "MORPEKO",
+      "species_token": "SPECIES_MORPEKO"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "HOWL",
+        "PSYBEAM",
+        "EMBER",
+        "FLAME_CHARGE"
+      ],
+      "species": "BRAIXEN",
+      "species_token": "SPECIES_BRAIXEN"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "LUXRAY",
+      "species_token": "SPECIES_LUXRAY"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "WORK_UP",
+        "HEADBUTT",
+        "FIRE_FANG",
+        "EMBER"
+      ],
+      "species": "PYROAR",
+      "species_token": "SPECIES_PYROAR"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "FEINT_ATTACK",
+        "SYNTHESIS",
+        "MEGA_DRAIN",
+        "INGRAIN"
+      ],
+      "species": "AMOONGUSS",
+      "species_token": "SPECIES_AMOONGUSS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 555,
+  "trainer_id": 555,
+  "trainer_name": "Faye",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

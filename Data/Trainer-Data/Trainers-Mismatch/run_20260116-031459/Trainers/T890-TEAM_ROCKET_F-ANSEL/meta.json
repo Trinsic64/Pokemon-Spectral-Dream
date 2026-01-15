@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TERAVOLT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "OUTRAGE",
+        "HYPER_VOICE",
+        "DRAGON_CLAW",
+        "THUNDER"
+      ],
+      "species": "ZEKROM",
+      "species_token": "SPECIES_ZEKROM"
+    },
+    {
+      "ability": "PRISM_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 1,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "PHOTON_GEYSER",
+        "POWER_GEM",
+        "IRON_DEFENSE",
+        "NIGHT_SLASH"
+      ],
+      "species": "NECROZMA",
+      "species_token": "SPECIES_NECROZMA"
+    },
+    {
+      "ability": "DROUGHT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "PRECIPICE_BLADES",
+        "FIRE_BLAST",
+        "BULK_UP",
+        "SOLAR_BEAM"
+      ],
+      "species": "GROUDON",
+      "species_token": "SPECIES_GROUDON"
+    },
+    {
+      "ability": "DAUNTLESS_SHIELD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "MOONBLAST",
+        "IRON_HEAD",
+        "CRUNCH",
+        "CLOSE_COMBAT"
+      ],
+      "species": "ZAMAZENTA",
+      "species_token": "SPECIES_ZAMAZENTA"
+    },
+    {
+      "ability": "BAD_DREAMS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "DREAM_EATER",
+        "OMINOUS_WIND",
+        "FEINT_ATTACK",
+        "NASTY_PLOT"
+      ],
+      "species": "DARKRAI",
+      "species_token": "SPECIES_DARKRAI"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "FUTURE_SIGHT",
+        "AURA_SPHERE",
+        "AMNESIA",
+        "ANCIENT_POWER"
+      ],
+      "species": "MEWTWO",
+      "species_token": "SPECIES_MEWTWO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 890,
+  "trainer_id": 890,
+  "trainer_name": "Ansel",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

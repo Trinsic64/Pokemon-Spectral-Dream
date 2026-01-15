@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_CLIMB",
+        "DOUBLE_TEAM",
+        "COUNTER"
+      ],
+      "species": "LYCANROC",
+      "species_token": "SPECIES_LYCANROC"
+    },
+    {
+      "ability": "CONTRARY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FOUL_PLAY",
+        "SWAGGER",
+        "PLUCK",
+        "PSYCHO_CUT"
+      ],
+      "species": "MALAMAR",
+      "species_token": "SPECIES_MALAMAR"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "CHARGE",
+        "TRICK"
+      ],
+      "species": "ROTOM_FROST",
+      "species_token": "SPECIES_ROTOM_FROST"
+    },
+    {
+      "ability": "SCHOOLING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "HYDRO_PUMP",
+        "UPROAR",
+        "AQUA_RING",
+        "AQUA_TAIL"
+      ],
+      "species": "WISHIWASHI",
+      "species_token": "SPECIES_WISHIWASHI"
+    },
+    {
+      "ability": "STEELWORKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "POWER_WHIP",
+        "ANCHOR_SHOT",
+        "RAPID_SPIN",
+        "PHANTOM_FORCE"
+      ],
+      "species": "DHELMISE",
+      "species_token": "SPECIES_DHELMISE"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "ERUPTION",
+        "ROCK_SLIDE",
+        "FOCUS_ENERGY",
+        "EARTHQUAKE"
+      ],
+      "species": "CAMERUPT",
+      "species_token": "SPECIES_CAMERUPT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 829,
+  "trainer_id": 829,
+  "trainer_name": "Brask",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

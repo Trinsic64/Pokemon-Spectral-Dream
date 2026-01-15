@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BALL_FETCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "TAIL_WHIP",
+        "BITE",
+        "TACKLE",
+        "NUZZLE"
+      ],
+      "species": "YAMPER",
+      "species_token": "SPECIES_YAMPER"
+    },
+    {
+      "ability": "UNBURDEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "BITE",
+        "LEER",
+        "POISON_FANG",
+        "SCRATCH"
+      ],
+      "species": "SHROODLE",
+      "species_token": "SPECIES_SHROODLE"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "HARDEN",
+        "HARDEN",
+        "HARDEN",
+        "HARDEN"
+      ],
+      "species": "METAPOD",
+      "species_token": "SPECIES_METAPOD"
+    },
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "GROWL",
+        "QUICK_ATTACK",
+        "GUST",
+        "LEER"
+      ],
+      "species": "PIDOVE",
+      "species_token": "SPECIES_PIDOVE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 122,
+  "trainer_id": 122,
+  "trainer_name": "Tom",
+  "trainerclass": "TRAINERCLASS_BEAUTY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,36 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 2,
+      "moves": [
+        "TACKLE",
+        "TACKLE",
+        "TACKLE",
+        "TACKLE"
+      ],
+      "species": "PATRAT",
+      "species_token": "SPECIES_PATRAT"
+    }
+  ],
+  "nummons": 1,
+  "party_id": 7,
+  "trainer_id": 7,
+  "trainer_name": "Cooper",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

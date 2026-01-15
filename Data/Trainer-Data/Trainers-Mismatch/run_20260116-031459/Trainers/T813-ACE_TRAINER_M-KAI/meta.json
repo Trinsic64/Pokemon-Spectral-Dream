@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "HYDRO_PUMP",
+        "EARTH_POWER",
+        "SWAGGER",
+        "BOUNCE"
+      ],
+      "species": "POLITOED",
+      "species_token": "SPECIES_POLITOED"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FUTURE_SIGHT",
+        "PSYCHIC",
+        "POWER_GEM",
+        "SURF"
+      ],
+      "species": "SLOWKING",
+      "species_token": "SPECIES_SLOWKING"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "HYDRO_PUMP",
+        "UPROAR",
+        "ACID",
+        "MUD_SHOT"
+      ],
+      "species": "SEISMITOAD",
+      "species_token": "SPECIES_SEISMITOAD"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 813,
+  "trainer_id": 813,
+  "trainer_name": "Kai",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

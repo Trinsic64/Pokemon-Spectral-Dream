@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "MUD_SPORT",
+        "MUD_SHOT",
+        "WATER_GUN",
+        "TAIL_WHIP"
+      ],
+      "species": "WOOPER",
+      "species_token": "SPECIES_WOOPER"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "WATER_GUN",
+        "THUNDER_WAVE",
+        "BUBBLE",
+        "ELECTRO_BALL"
+      ],
+      "species": "CHINCHOU",
+      "species_token": "SPECIES_CHINCHOU"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "SPLASH",
+        "SPLASH",
+        "SPLASH",
+        "SPLASH"
+      ],
+      "species": "MAGIKARP",
+      "species_token": "SPECIES_MAGIKARP"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "VICE_GRIP",
+        "METAL_CLAW",
+        "WATER_GUN",
+        "MUD_SPORT"
+      ],
+      "species": "KRABBY",
+      "species_token": "SPECIES_KRABBY"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 135,
+  "trainer_id": 135,
+  "trainer_name": "Mia",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

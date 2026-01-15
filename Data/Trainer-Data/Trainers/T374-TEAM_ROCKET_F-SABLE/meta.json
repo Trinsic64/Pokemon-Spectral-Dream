@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "DRILL_RUN",
+        "BULLDOZE",
+        "CHIP_AWAY",
+        "SMACK_DOWN"
+      ],
+      "species": "RHYHORN",
+      "species_token": "SPECIES_RHYHORN"
+    },
+    {
+      "ability": "FLUFFY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "STRENGTH",
+        "BRUTAL_SWING",
+        "PAYBACK",
+        "HAMMER_ARM"
+      ],
+      "species": "STUFFUL",
+      "species_token": "SPECIES_STUFFUL"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "AGILITY",
+        "TACKLE",
+        "QUICK_ATTACK",
+        "GUST"
+      ],
+      "species": "PIDGEOTTO",
+      "species_token": "SPECIES_PIDGEOTTO"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "ABSORB",
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "FLAME_CHARGE"
+      ],
+      "species": "LARVESTA",
+      "species_token": "SPECIES_LARVESTA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 374,
+  "trainer_id": 374,
+  "trainer_name": "Sable",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

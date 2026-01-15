@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "FOCUS_ENERGY",
+        "SCRATCH",
+        "FEINT",
+        "POISON_GAS"
+      ],
+      "species": "STUNKY",
+      "species_token": "SPECIES_STUNKY"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "GROWL",
+        "BITE",
+        "FAKE_OUT",
+        "SCRATCH"
+      ],
+      "species": "MEOWTH",
+      "species_token": "SPECIES_MEOWTH"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "LEER",
+        "EMBER",
+        "FIRE_SPIN",
+        "CLEAR_SMOG"
+      ],
+      "species": "CHARCADET",
+      "species_token": "SPECIES_CHARCADET"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 83,
+  "trainer_id": 83,
+  "trainer_name": "Chara",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "CRUSH_CLAW",
+        "SUPERPOWER",
+        "SLASH",
+        "SKY_ATTACK"
+      ],
+      "species": "BRAVIARY",
+      "species_token": "SPECIES_BRAVIARY"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "PSYCHIC",
+        "COVET",
+        "SUCKER_PUNCH",
+        "PSYSHOCK"
+      ],
+      "species": "MEOWSTIC",
+      "species_token": "SPECIES_MEOWSTIC"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "PLAY_ROUGH",
+        "WORK_UP",
+        "CRUNCH",
+        "RETALIATE"
+      ],
+      "species": "STOUTLAND",
+      "species_token": "SPECIES_STOUTLAND"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FLASH_CANNON",
+        "LAST_RESORT",
+        "FOUL_PLAY",
+        "SPIKES"
+      ],
+      "species": "KLEFKI",
+      "species_token": "SPECIES_KLEFKI"
+    },
+    {
+      "ability": "BULLETPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "CLANGING_SCALES",
+        "SKY_UPPERCUT",
+        "DRAGON_DANCE",
+        "DRAGON_CLAW"
+      ],
+      "species": "KOMMO_O",
+      "species_token": "SPECIES_KOMMO_O"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER",
+        "SHOCK_WAVE"
+      ],
+      "species": "MANECTRIC",
+      "species_token": "SPECIES_MANECTRIC"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 587,
+  "trainer_id": 587,
+  "trainer_name": "OrinA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

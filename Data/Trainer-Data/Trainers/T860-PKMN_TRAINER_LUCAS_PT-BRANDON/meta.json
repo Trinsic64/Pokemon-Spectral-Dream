@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "DISCHARGE",
+        "LAST_RESORT",
+        "CHARGE",
+        "THUNDER"
+      ],
+      "species": "PLUSLE",
+      "species_token": "SPECIES_PLUSLE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "BOOMBURST",
+        "DRAGON_DANCE",
+        "SUPERPOWER",
+        "DRAGON_RUSH"
+      ],
+      "species": "FLYGON",
+      "species_token": "SPECIES_FLYGON"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "AIR_SLASH",
+        "FOCUS_ENERGY",
+        "PLUCK",
+        "QUICK_ATTACK"
+      ],
+      "species": "SWELLOW",
+      "species_token": "SPECIES_SWELLOW"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "SURF",
+        "BODY_SLAM",
+        "SWAGGER",
+        "BLIZZARD"
+      ],
+      "species": "WALREIN",
+      "species_token": "SPECIES_WALREIN"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "ERUPTION",
+        "ROCK_SLIDE",
+        "FOCUS_ENERGY",
+        "EARTHQUAKE"
+      ],
+      "species": "CAMERUPT",
+      "species_token": "SPECIES_CAMERUPT"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "ENERGY_BALL",
+        "X_SCISSOR",
+        "AGILITY",
+        "DUAL_CHOP"
+      ],
+      "species": "SCEPTILE",
+      "species_token": "SPECIES_SCEPTILE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 860,
+  "trainer_id": 860,
+  "trainer_name": "Brandon",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

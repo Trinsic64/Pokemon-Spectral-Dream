@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "GEAR_GRIND",
+        "VICE_GRIP"
+      ],
+      "species": "KLANG",
+      "species_token": "SPECIES_KLANG"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "IRON_HEAD",
+        "TRI_ATTACK",
+        "BULLDOZE",
+        "ROTOTILLER"
+      ],
+      "species": "DUGTRIO",
+      "species_token": "SPECIES_DUGTRIO"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "FLASH_CANNON",
+        "COVET",
+        "SLAM",
+        "BRUTAL_SWING"
+      ],
+      "species": "TINKATUFF",
+      "species_token": "SPECIES_TINKATUFF"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "OMINOUS_WIND",
+        "CHARGE"
+      ],
+      "species": "ROTOM",
+      "species_token": "SPECIES_ROTOM"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "LAST_RESORT",
+        "ZEN_HEADBUTT",
+        "GROWL",
+        "HYPER_VOICE"
+      ],
+      "species": "AUDINO",
+      "species_token": "SPECIES_AUDINO"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "X_SCISSOR",
+        "ABSORB",
+        "FOCUS_ENERGY",
+        "SLASH"
+      ],
+      "species": "KRICKETUNE",
+      "species_token": "SPECIES_KRICKETUNE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 313,
+  "trainer_id": 313,
+  "trainer_name": "Thomas",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

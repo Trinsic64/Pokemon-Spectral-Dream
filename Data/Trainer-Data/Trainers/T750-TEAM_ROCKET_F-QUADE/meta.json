@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ILLUSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "FOUL_PLAY",
+        "NIGHT_DAZE",
+        "HONE_CLAWS",
+        "AGILITY"
+      ],
+      "species": "ZOROARK",
+      "species_token": "SPECIES_ZOROARK"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "ICICLE_CRASH",
+        "THRASH",
+        "SWAGGER",
+        "SUPERPOWER"
+      ],
+      "species": "BEARTIC",
+      "species_token": "SPECIES_BEARTIC"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "SHADOW_BALL",
+        "CONFUSE_RAY",
+        "HEX",
+        "INFERNO"
+      ],
+      "species": "CHANDELURE",
+      "species_token": "SPECIES_CHANDELURE"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_SLIDE",
+        "SHELL_SMASH",
+        "BUG_BITE"
+      ],
+      "species": "SHUCKLE",
+      "species_token": "SPECIES_SHUCKLE"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "DIRE_CLAW",
+        "BRICK_BREAK",
+        "POISON_JAB",
+        "HONE_CLAWS"
+      ],
+      "species": "SNEASLER",
+      "species_token": "SPECIES_SNEASLER"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "GUNK_SHOT",
+        "BODY_SLAM",
+        "STOCKPILE",
+        "BELCH"
+      ],
+      "species": "GARBODOR",
+      "species_token": "SPECIES_GARBODOR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 750,
+  "trainer_id": 750,
+  "trainer_name": "Quade",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "STRING_SHOT",
+        "TACKLE",
+        "STUN_SPORE",
+        "TACKLE"
+      ],
+      "species": "SCATTERBUG",
+      "species_token": "SPECIES_SCATTERBUG"
+    },
+    {
+      "ability": "CHEEK_POUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "CHARGE",
+        "THUNDER_SHOCK",
+        "TACKLE",
+        "TAIL_WHIP"
+      ],
+      "species": "DEDENNE",
+      "species_token": "SPECIES_DEDENNE"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "HOWL",
+        "EMBER",
+        "FLAME_CHARGE",
+        "SCRATCH"
+      ],
+      "species": "FENNEKIN",
+      "species_token": "SPECIES_FENNEKIN"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 140,
+  "trainer_id": 140,
+  "trainer_name": "Serena",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

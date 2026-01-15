@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "POLLEN_PUFF",
+        "DAZZLING_GLEAM",
+        "STRUGGLE_BUG",
+        "ABSORB"
+      ],
+      "species": "RIBOMBEE",
+      "species_token": "SPECIES_RIBOMBEE"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "KNOCK_OFF",
+        "VITAL_THROW",
+        "WAKE_UP_SLAP",
+        "FOCUS_ENERGY"
+      ],
+      "species": "HARIYAMA",
+      "species_token": "SPECIES_HARIYAMA"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "OUTRAGE",
+        "CHARM",
+        "FIRE_FANG",
+        "PLAY_ROUGH"
+      ],
+      "species": "GRANBULL",
+      "species_token": "SPECIES_GRANBULL"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "PSYCHIC",
+        "BELCH",
+        "MAGIC_COAT",
+        "POWER_GEM"
+      ],
+      "species": "GRUMPIG",
+      "species_token": "SPECIES_GRUMPIG"
+    },
+    {
+      "ability": "FRIEND_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "HYPER_VOICE",
+        "PLAY_ROUGH",
+        "FOLLOW_ME",
+        "POUND"
+      ],
+      "species": "MAUSHOLD",
+      "species_token": "SPECIES_MAUSHOLD"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "AGILITY",
+        "HURRICANE",
+        "WING_ATTACK",
+        "QUICK_ATTACK"
+      ],
+      "species": "PIDGEOT",
+      "species_token": "SPECIES_PIDGEOT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 588,
+  "trainer_id": 588,
+  "trainer_name": "PetraA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

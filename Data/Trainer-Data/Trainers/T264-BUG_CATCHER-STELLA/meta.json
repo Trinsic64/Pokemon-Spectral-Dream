@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "RAPID_SPIN",
+        "ZAP_CANNON",
+        "BUG_BITE",
+        "MIRROR_SHOT"
+      ],
+      "species": "FORRETRESS",
+      "species_token": "SPECIES_FORRETRESS"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "BUG_BUZZ",
+        "BUBBLE",
+        "OMINOUS_WIND",
+        "AIR_CUTTER"
+      ],
+      "species": "MASQUERAIN",
+      "species_token": "SPECIES_MASQUERAIN"
+    },
+    {
+      "ability": "SUCTION_CUPS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "ANCIENT_POWER",
+        "INGRAIN",
+        "BRINE",
+        "MEGA_DRAIN"
+      ],
+      "species": "LILEEP",
+      "species_token": "SPECIES_LILEEP"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 264,
+  "trainer_id": 264,
+  "trainer_name": "Stella",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

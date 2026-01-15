@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "SLASH",
+        "METAL_CLAW"
+      ],
+      "species": "PERRSERKER",
+      "species_token": "SPECIES_PERRSERKER"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "MOONBLAST",
+        "COSMIC_POWER",
+        "STORED_POWER",
+        "METEOR_MASH"
+      ],
+      "species": "CLEFABLE",
+      "species_token": "SPECIES_CLEFABLE"
+    },
+    {
+      "ability": "HUNGER_SWITCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "CRUNCH",
+        "AGILITY",
+        "BULLET_SEED",
+        "SPARK"
+      ],
+      "species": "MORPEKO",
+      "species_token": "SPECIES_MORPEKO"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "AMNESIA",
+        "AQUA_TAIL",
+        "HAZE"
+      ],
+      "species": "QUAGSIRE",
+      "species_token": "SPECIES_QUAGSIRE"
+    },
+    {
+      "ability": "SHIELDS_DOWN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "POWER_GEM",
+        "COSMIC_POWER",
+        "ANCIENT_POWER",
+        "SWIFT"
+      ],
+      "species": "MINIOR",
+      "species_token": "SPECIES_MINIOR"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "HYPER_VOICE",
+        "PLAY_ROUGH",
+        "STOCKPILE",
+        "REST"
+      ],
+      "species": "WIGGLYTUFF",
+      "species_token": "SPECIES_WIGGLYTUFF"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 498,
+  "trainer_id": 498,
+  "trainer_name": "KaelanA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

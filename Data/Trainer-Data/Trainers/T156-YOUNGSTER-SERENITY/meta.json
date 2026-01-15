@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "GROWL",
+        "PURSUIT",
+        "SCRATCH",
+        "FAKE_OUT"
+      ],
+      "species": "PURRLOIN",
+      "species_token": "SPECIES_PURRLOIN"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "POISON_GAS",
+        "POUND",
+        "ACID_SPRAY",
+        "TOXIC_SPIKES"
+      ],
+      "species": "TRUBBISH",
+      "species_token": "SPECIES_TRUBBISH"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "HAZE",
+        "WING_ATTACK",
+        "PURSUIT",
+        "PECK"
+      ],
+      "species": "MURKROW",
+      "species_token": "SPECIES_MURKROW"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "SLAM",
+        "BUBBLE_BEAM",
+        "WATER_GUN",
+        "BOUNCE"
+      ],
+      "species": "MARILL",
+      "species_token": "SPECIES_MARILL"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "SAND_ATTACK",
+        "FEINT_ATTACK",
+        "SMACK_DOWN",
+        "FURY_CUTTER"
+      ],
+      "species": "DWEBBLE",
+      "species_token": "SPECIES_DWEBBLE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 156,
+  "trainer_id": 156,
+  "trainer_name": "Serenity",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

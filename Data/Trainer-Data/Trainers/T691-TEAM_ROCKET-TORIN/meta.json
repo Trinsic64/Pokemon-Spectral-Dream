@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SHADOW_BALL",
+        "KNOCK_OFF",
+        "PHANTOM_FORCE",
+        "SUCKER_PUNCH"
+      ],
+      "species": "BANETTE",
+      "species_token": "SPECIES_BANETTE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DRILL_PECK",
+        "IRON_DEFENSE",
+        "STEEL_WING",
+        "SAND_ATTACK"
+      ],
+      "species": "SKARMORY",
+      "species_token": "SPECIES_SKARMORY"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SKY_UPPERCUT",
+        "LEECH_SEED",
+        "DYNAMIC_PUNCH",
+        "SEED_BOMB"
+      ],
+      "species": "BRELOOM",
+      "species_token": "SPECIES_BRELOOM"
+    },
+    {
+      "ability": "GOOEY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "LIQUIDATION",
+        "THROAT_CHOP",
+        "SAND_ATTACK",
+        "DIG"
+      ],
+      "species": "WUGTRIO",
+      "species_token": "SPECIES_WUGTRIO"
+    },
+    {
+      "ability": "IMMUNITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "CRUSH_CLAW",
+        "X_SCISSOR",
+        "SWORDS_DANCE",
+        "SLASH"
+      ],
+      "species": "ZANGOOSE",
+      "species_token": "SPECIES_ZANGOOSE"
+    },
+    {
+      "ability": "UNAWARE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FUTURE_SIGHT",
+        "ASSURANCE",
+        "PSYCHIC",
+        "AIR_SLASH"
+      ],
+      "species": "SWOOBAT",
+      "species_token": "SPECIES_SWOOBAT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 691,
+  "trainer_id": 691,
+  "trainer_name": "Torin",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

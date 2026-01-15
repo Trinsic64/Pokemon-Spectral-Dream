@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "GROWL",
+        "FAKE_OUT",
+        "TACKLE",
+        "TAIL_WHIP"
+      ],
+      "species": "SKITTY",
+      "species_token": "SPECIES_SKITTY"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "TRANSFORM",
+        "TRANSFORM",
+        "TRANSFORM",
+        "TRANSFORM"
+      ],
+      "species": "DITTO",
+      "species_token": "SPECIES_DITTO"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "SKETCH",
+        "SKETCH",
+        "SKETCH",
+        "SKETCH"
+      ],
+      "species": "SMEARGLE",
+      "species_token": "SPECIES_SMEARGLE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 58,
+  "trainer_id": 58,
+  "trainer_name": "Jonah",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

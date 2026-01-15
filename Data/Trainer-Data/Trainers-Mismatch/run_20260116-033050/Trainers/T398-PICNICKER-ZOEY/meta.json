@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "POISON_JAB",
+        "BRICK_BREAK",
+        "METAL_CLAW",
+        "HONE_CLAWS"
+      ],
+      "species": "SNEASEL",
+      "species_token": "SPECIES_SNEASEL"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "LAVA_PLUME",
+        "EARTH_POWER",
+        "FLAME_BURST",
+        "ROCK_SLIDE"
+      ],
+      "species": "MAGCARGO",
+      "species_token": "SPECIES_MAGCARGO"
+    },
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "ZING_ZAP",
+        "ROLLOUT",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "TOGEDEMARU",
+      "species_token": "SPECIES_TOGEDEMARU"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 37,
+      "moves": [
+        "STOMPING_TANTRUM",
+        "FOCUS_ENERGY",
+        "BONE_CLUB",
+        "HEADBUTT"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 398,
+  "trainer_id": 398,
+  "trainer_name": "Zoey",
+  "trainerclass": "TRAINERCLASS_PICNICKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

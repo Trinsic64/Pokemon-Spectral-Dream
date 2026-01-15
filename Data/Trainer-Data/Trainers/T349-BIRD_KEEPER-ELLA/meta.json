@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "POWER_GEM",
+        "MOONBLAST",
+        "ROCK_SLIDE",
+        "PSYSHOCK"
+      ],
+      "species": "LUNATONE",
+      "species_token": "SPECIES_LUNATONE"
+    },
+    {
+      "ability": "DANCER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "FEATHER_DANCE",
+        "AIR_CUTTER",
+        "GROWL",
+        "HELPING_HAND"
+      ],
+      "species": "ORICORIO",
+      "species_token": "SPECIES_ORICORIO"
+    },
+    {
+      "ability": "DANCER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 3,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "FEATHER_DANCE",
+        "AIR_CUTTER",
+        "GROWL",
+        "HELPING_HAND"
+      ],
+      "species": "ORICORIO",
+      "species_token": "SPECIES_ORICORIO"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 349,
+  "trainer_id": 349,
+  "trainer_name": "Ella",
+  "trainerclass": "TRAINERCLASS_BIRD_KEEPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,54 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 9,
+      "moves": [
+        "SAND_ATTACK",
+        "METAL_CLAW",
+        "ASTONISH",
+        "GROWL"
+      ],
+      "species": "DIGLETT",
+      "species_token": "SPECIES_DIGLETT"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 9,
+      "moves": [
+        "HARDEN",
+        "HARDEN",
+        "HARDEN",
+        "HARDEN"
+      ],
+      "species": "SILCOON",
+      "species_token": "SPECIES_SILCOON"
+    }
+  ],
+  "nummons": 2,
+  "party_id": 62,
+  "trainer_id": 62,
+  "trainer_name": "Landon",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

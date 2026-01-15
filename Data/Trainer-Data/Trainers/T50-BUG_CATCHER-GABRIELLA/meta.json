@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "HARDEN",
+        "TACKLE",
+        "ASTONISH",
+        "ABSORB"
+      ],
+      "species": "SEEDOT",
+      "species_token": "SPECIES_SEEDOT"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "SUPERSONIC",
+        "SWIFT",
+        "TACKLE",
+        "SWIFT"
+      ],
+      "species": "LEDYBA",
+      "species_token": "SPECIES_LEDYBA"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "HARDEN",
+        "PROTECT",
+        "HARDEN",
+        "HARDEN"
+      ],
+      "species": "SPEWPA",
+      "species_token": "SPECIES_SPEWPA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 50,
+  "trainer_id": 50,
+  "trainer_name": "Gabriella",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

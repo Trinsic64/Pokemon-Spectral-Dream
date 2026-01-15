@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "WATER_SPORT",
+        "WATER_PULSE",
+        "CONFUSION"
+      ],
+      "species": "PSYDUCK",
+      "species_token": "SPECIES_PSYDUCK"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "SYNCHRONOISE",
+        "ASTONISH",
+        "GROWL",
+        "CONFUSION"
+      ],
+      "species": "CHIMECHO",
+      "species_token": "SPECIES_CHIMECHO"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "THUNDER_WAVE",
+        "SPARK",
+        "MAGNET_BOMB",
+        "THUNDER_SHOCK"
+      ],
+      "species": "MAGNEMITE",
+      "species_token": "SPECIES_MAGNEMITE"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "TORMENT",
+        "FEINT_ATTACK",
+        "METAL_CLAW",
+        "SCRATCH"
+      ],
+      "species": "PAWNIARD",
+      "species_token": "SPECIES_PAWNIARD"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 216,
+  "trainer_id": 216,
+  "trainer_name": "Ryan",
+  "trainerclass": "TRAINERCLASS_BLACK_BELT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "CRUNCH",
+        "DRAGON_PULSE",
+        "DRAGON_BREATH",
+        "FOCUS_ENERGY"
+      ],
+      "species": "DEINO",
+      "species_token": "SPECIES_DEINO"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "CRUNCH",
+        "DRAGON_PULSE",
+        "DRAGON_BREATH",
+        "FOCUS_ENERGY"
+      ],
+      "species": "ZWEILOUS",
+      "species_token": "SPECIES_ZWEILOUS"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "LAVA_PLUME",
+        "INCINERATE",
+        "FLAME_CHARGE",
+        "EMBER"
+      ],
+      "species": "CHARCADET",
+      "species_token": "SPECIES_CHARCADET"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 330,
+  "trainer_id": 330,
+  "trainer_name": "Mateo",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

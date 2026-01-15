@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "PROTECT",
+        "PROTECT",
+        "PROTECT",
+        "PROTECT"
+      ],
+      "species": "BURMY",
+      "species_token": "SPECIES_BURMY"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "ABSORB",
+        "STRING_SHOT",
+        "POISON_STING",
+        "CONSTRICT"
+      ],
+      "species": "SPINARAK",
+      "species_token": "SPECIES_SPINARAK"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 7,
+      "moves": [
+        "ABSORB",
+        "SPIDER_WEB",
+        "FURY_CUTTER",
+        "STRING_SHOT"
+      ],
+      "species": "JOLTIK",
+      "species_token": "SPECIES_JOLTIK"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 37,
+  "trainer_id": 37,
+  "trainer_name": "Oliver",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

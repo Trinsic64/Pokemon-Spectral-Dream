@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "DRAGON_CLAW",
+        "CRUNCH",
+        "DRAGON_BREATH",
+        "FOCUS_ENERGY"
+      ],
+      "species": "BAGON",
+      "species_token": "SPECIES_BAGON"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "DRAGON_CLAW",
+        "CRUNCH",
+        "DRAGON_BREATH",
+        "FOCUS_ENERGY"
+      ],
+      "species": "SHELGON",
+      "species_token": "SPECIES_SHELGON"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "LEER",
+        "HEADBUTT",
+        "RAZOR_LEAF"
+      ],
+      "species": "CAPSAKID",
+      "species_token": "SPECIES_CAPSAKID"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 336,
+  "trainer_id": 336,
+  "trainer_name": "Kennedy",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

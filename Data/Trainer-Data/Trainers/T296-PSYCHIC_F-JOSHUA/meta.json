@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "SYNCHRONOISE",
+        "ASTONISH",
+        "GROWL",
+        "EXTRASENSORY"
+      ],
+      "species": "CHIMECHO",
+      "species_token": "SPECIES_CHIMECHO"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "SLUDGE_WAVE",
+        "POISON_JAB",
+        "SLAM",
+        "MUD_SHOT"
+      ],
+      "species": "CLODSIRE",
+      "species_token": "SPECIES_CLODSIRE"
+    },
+    {
+      "ability": "SERENE_GRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "DRILL_RUN",
+        "DEFENSE_CURL",
+        "GLARE",
+        "FLAIL"
+      ],
+      "species": "DUNSPARCE",
+      "species_token": "SPECIES_DUNSPARCE"
+    },
+    {
+      "ability": "WONDER_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "SHADOW_CLAW",
+        "CONFUSE_RAY",
+        "METAL_CLAW",
+        "SHADOW_SNEAK"
+      ],
+      "species": "SHEDINJA",
+      "species_token": "SPECIES_SHEDINJA"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "SCALD",
+        "ACROBATICS",
+        "WATER_SPORT",
+        "BITE"
+      ],
+      "species": "PANPOUR",
+      "species_token": "SPECIES_PANPOUR"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 296,
+  "trainer_id": 296,
+  "trainer_name": "Joshua",
+  "trainerclass": "TRAINERCLASS_PSYCHIC_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

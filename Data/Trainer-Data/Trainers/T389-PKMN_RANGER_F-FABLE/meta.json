@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "AERIAL_ACE",
+        "QUICK_ATTACK"
+      ],
+      "species": "STARAVIA",
+      "species_token": "SPECIES_STARAVIA"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "UPROAR",
+        "KNOCK_OFF",
+        "BUBBLE_BEAM",
+        "MEGA_DRAIN"
+      ],
+      "species": "LOMBRE",
+      "species_token": "SPECIES_LOMBRE"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "DRILL_RUN",
+        "BULLDOZE",
+        "CHIP_AWAY",
+        "SMACK_DOWN"
+      ],
+      "species": "RHYHORN",
+      "species_token": "SPECIES_RHYHORN"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "DRAIN_PUNCH",
+        "U_TURN",
+        "DETECT",
+        "FORCE_PALM"
+      ],
+      "species": "MIENFOO",
+      "species_token": "SPECIES_MIENFOO"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "PSYSHOCK",
+        "COVET",
+        "PSYBEAM",
+        "CONFUSION"
+      ],
+      "species": "ESPURR",
+      "species_token": "SPECIES_ESPURR"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "ABSORB",
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "FLAME_CHARGE"
+      ],
+      "species": "LARVESTA",
+      "species_token": "SPECIES_LARVESTA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 389,
+  "trainer_id": 389,
+  "trainer_name": "Fable",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "FAIRY_WIND",
+        "SWEET_SCENT",
+        "PLAY_NICE",
+        "FAKE_TEARS"
+      ],
+      "species": "SWIRLIX",
+      "species_token": "SPECIES_SWIRLIX"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "WATER_GUN",
+        "TOXIC_SPIKES",
+        "ACID",
+        "SUPERSONIC"
+      ],
+      "species": "TENTACOOL",
+      "species_token": "SPECIES_TENTACOOL"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "DOUBLE_TEAM",
+        "TACKLE",
+        "QUICK_ATTACK",
+        "FLASH"
+      ],
+      "species": "VOLBEAT",
+      "species_token": "SPECIES_VOLBEAT"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 103,
+  "trainer_id": 103,
+  "trainer_name": "Serenity",
+  "trainerclass": "TRAINERCLASS_IDOL",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "FOCUS_ENERGY",
+        "FAKE_OUT",
+        "TACKLE",
+        "FORESIGHT"
+      ],
+      "species": "TYROGUE",
+      "species_token": "SPECIES_TYROGUE"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "HOWL",
+        "SHOCK_WAVE",
+        "SPARK",
+        "THUNDER_FANG"
+      ],
+      "species": "ELECTRIKE",
+      "species_token": "SPECIES_ELECTRIKE"
+    },
+    {
+      "ability": "STICKY_HOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "BODY_SLAM",
+        "MUD_BOMB",
+        "MUD_SPORT",
+        "WATER_PULSE"
+      ],
+      "species": "SHELLOS",
+      "species_token": "SPECIES_SHELLOS"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 29,
+      "moves": [
+        "FOCUS_ENERGY",
+        "AERIAL_ACE",
+        "ASSURANCE",
+        "FURY_ATTACK"
+      ],
+      "species": "SPEAROW",
+      "species_token": "SPECIES_SPEAROW"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 292,
+  "trainer_id": 292,
+  "trainer_name": "Grace",
+  "trainerclass": "TRAINERCLASS_BLACK_BELT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

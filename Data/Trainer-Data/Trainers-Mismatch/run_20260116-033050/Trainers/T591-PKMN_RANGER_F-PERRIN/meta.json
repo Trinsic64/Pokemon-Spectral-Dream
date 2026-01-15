@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "KNOCK_OFF",
+        "VITAL_THROW",
+        "WAKE_UP_SLAP",
+        "FOCUS_ENERGY"
+      ],
+      "species": "HARIYAMA",
+      "species_token": "SPECIES_HARIYAMA"
+    },
+    {
+      "ability": "COMMANDER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "MUDDY_WATER",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "WATER_PULSE"
+      ],
+      "species": "TATSUGIRI",
+      "species_token": "SPECIES_TATSUGIRI"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "ATTACK_ORDER",
+        "POWER_GEM",
+        "AIR_SLASH",
+        "SWAGGER"
+      ],
+      "species": "VESPIQUEN",
+      "species_token": "SPECIES_VESPIQUEN"
+    },
+    {
+      "ability": "WATER_COMPACTION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "EARTH_POWER",
+        "SHADOW_BALL",
+        "IRON_DEFENSE",
+        "GIGA_DRAIN"
+      ],
+      "species": "PALOSSAND",
+      "species_token": "SPECIES_PALOSSAND"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "ENERGY_BALL",
+        "MOONBLAST",
+        "HURRICANE",
+        "SUNNY_DAY"
+      ],
+      "species": "WHIMSICOTT",
+      "species_token": "SPECIES_WHIMSICOTT"
+    },
+    {
+      "ability": "SCRAPPY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "JUMP_KICK",
+        "AGILITY",
+        "BOUNCE",
+        "HEADBUTT"
+      ],
+      "species": "LOPUNNY",
+      "species_token": "SPECIES_LOPUNNY"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 591,
+  "trainer_id": 591,
+  "trainer_name": "Perrin",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

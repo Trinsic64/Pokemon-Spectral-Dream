@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GRASSY_SURGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "HORN_LEECH",
+        "MEGAHORN",
+        "GRASSY_TERRAIN",
+        "SUPERPOWER"
+      ],
+      "species": "TAPU_BULU",
+      "species_token": "SPECIES_TAPU_BULU"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "LEAF_BLADE",
+        "COIL",
+        "GIGA_DRAIN",
+        "SLAM"
+      ],
+      "species": "SERPERIOR",
+      "species_token": "SPECIES_SERPERIOR"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "ENERGY_BALL",
+        "X_SCISSOR",
+        "AGILITY",
+        "DUAL_CHOP"
+      ],
+      "species": "SCEPTILE",
+      "species_token": "SPECIES_SCEPTILE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 910,
+  "trainer_id": 910,
+  "trainer_name": "Elora",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

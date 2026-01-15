@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "DRILL_PECK",
+        "HONE_CLAWS",
+        "PLUCK",
+        "PECK"
+      ],
+      "species": "CORVISQUIRE",
+      "species_token": "SPECIES_CORVISQUIRE"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "POISON_JAB",
+        "DRAGON_PULSE",
+        "FELL_STINGER",
+        "NASTY_PLOT"
+      ],
+      "species": "POIPOLE",
+      "species_token": "SPECIES_POIPOLE"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "FOCUS_ENERGY",
+        "HORN_ATTACK",
+        "PECK",
+        "POISON_STING"
+      ],
+      "species": "NIDORINO",
+      "species_token": "SPECIES_NIDORINO"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "SHADOW_BALL",
+        "HEX",
+        "CONFUSE_RAY",
+        "INFERNO"
+      ],
+      "species": "LAMPENT",
+      "species_token": "SPECIES_LAMPENT"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 479,
+  "trainer_id": 479,
+  "trainer_name": "Vex",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

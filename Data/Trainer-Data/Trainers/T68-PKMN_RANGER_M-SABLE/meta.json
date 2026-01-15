@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "YAWN",
+        "EMBER",
+        "ROCK_THROW",
+        "SMOG"
+      ],
+      "species": "SLUGMA",
+      "species_token": "SPECIES_SLUGMA"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "COPYCAT",
+        "POUND",
+        "DEFENSE_CURL",
+        "CHARM"
+      ],
+      "species": "IGGLYBUFF",
+      "species_token": "SPECIES_IGGLYBUFF"
+    },
+    {
+      "ability": "PURE_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "MEDITATE",
+        "CONFUSION",
+        "DETECT",
+        "BIDE"
+      ],
+      "species": "MEDITITE",
+      "species_token": "SPECIES_MEDITITE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 68,
+  "trainer_id": 68,
+  "trainer_name": "Sable",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LAST_RESORT",
+        "COVET",
+        "BITE"
+      ],
+      "species": "ESPEON",
+      "species_token": "SPECIES_ESPEON"
+    },
+    {
+      "ability": "RIPEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "GRAV_APPLE",
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "DRAGON_RUSH"
+      ],
+      "species": "FLAPPLE",
+      "species_token": "SPECIES_FLAPPLE"
+    },
+    {
+      "ability": "PARENTAL_BOND",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "LAST_RESORT",
+        "OUTRAGE",
+        "FOCUS_ENERGY",
+        "MEGA_PUNCH"
+      ],
+      "species": "KANGASKHAN",
+      "species_token": "SPECIES_KANGASKHAN"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 842,
+  "trainer_id": 842,
+  "trainer_name": "Iris",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

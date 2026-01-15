@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "FLAMETHROWER",
+        "SEED_BOMB",
+        "SPICY_EXTRACT",
+        "SOLAR_BEAM"
+      ],
+      "species": "SCOVILLAIN",
+      "species_token": "SPECIES_SCOVILLAIN"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "STONE_EDGE",
+        "THUNDER_PUNCH",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "GOLEM",
+      "species_token": "SPECIES_GOLEM"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "AIR_SLASH",
+        "LEECH_LIFE",
+        "BITE",
+        "CROSS_POISON"
+      ],
+      "species": "CROBAT",
+      "species_token": "SPECIES_CROBAT"
+    },
+    {
+      "ability": "ADAPTABILITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "TRI_ATTACK",
+        "DISCHARGE",
+        "NASTY_PLOT",
+        "PSYBEAM"
+      ],
+      "species": "PORYGON_Z",
+      "species_token": "SPECIES_PORYGON_Z"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "BODY_SLAM",
+        "BLIZZARD",
+        "CRUNCH",
+        "IRON_DEFENSE"
+      ],
+      "species": "AVALUGG",
+      "species_token": "SPECIES_AVALUGG"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "HYDRO_PUMP",
+        "BODY_SLAM",
+        "EARTH_POWER",
+        "DYNAMIC_PUNCH"
+      ],
+      "species": "POLIWRATH",
+      "species_token": "SPECIES_POLIWRATH"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 820,
+  "trainer_id": 820,
+  "trainer_name": "Slate",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "STRING_SHOT",
+        "TACKLE",
+        "STUN_SPORE",
+        "TACKLE"
+      ],
+      "species": "SCATTERBUG",
+      "species_token": "SPECIES_SCATTERBUG"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "INGRAIN",
+        "MEGA_DRAIN",
+        "GROWTH",
+        "GRASS_WHISTLE"
+      ],
+      "species": "SUNKERN",
+      "species_token": "SPECIES_SUNKERN"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "SAND_ATTACK",
+        "TACKLE",
+        "GUST",
+        "TACKLE"
+      ],
+      "species": "PIDGEY",
+      "species_token": "SPECIES_PIDGEY"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "FOCUS_ENERGY",
+        "TACKLE",
+        "FAKE_OUT",
+        "ARM_THRUST"
+      ],
+      "species": "MAKUHITA",
+      "species_token": "SPECIES_MAKUHITA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 76,
+  "trainer_id": 76,
+  "trainer_name": "Mila",
+  "trainerclass": "TRAINERCLASS_YOUNGSTER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

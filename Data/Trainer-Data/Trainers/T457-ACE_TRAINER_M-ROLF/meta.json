@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "GIGA_DRAIN",
+        "BODY_SLAM",
+        "MAGICAL_LEAF",
+        "REFLECT"
+      ],
+      "species": "BAYLEEF",
+      "species_token": "SPECIES_BAYLEEF"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DRAGON_CLAW",
+        "SAND_ATTACK",
+        "SLASH",
+        "DIG"
+      ],
+      "species": "GABITE",
+      "species_token": "SPECIES_GABITE"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "STONE_EDGE",
+        "COPYCAT",
+        "WOOD_HAMMER",
+        "ROCK_SLIDE"
+      ],
+      "species": "SUDOWOODO",
+      "species_token": "SPECIES_SUDOWOODO"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "STRENGTH",
+        "VITAL_THROW",
+        "BULK_UP",
+        "KNOCK_OFF"
+      ],
+      "species": "MACHOKE",
+      "species_token": "SPECIES_MACHOKE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DRILL_PECK",
+        "DRILL_RUN",
+        "FOCUS_ENERGY",
+        "FURY_ATTACK"
+      ],
+      "species": "FEAROW",
+      "species_token": "SPECIES_FEAROW"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 457,
+  "trainer_id": 457,
+  "trainer_name": "Rolf",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

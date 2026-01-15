@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "HARDEN",
+        "PROTECT",
+        "HARDEN",
+        "HARDEN"
+      ],
+      "species": "SPEWPA",
+      "species_token": "SPECIES_SPEWPA"
+    },
+    {
+      "ability": "CHEEK_POUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "CHARGE",
+        "PARABOLIC_CHARGE",
+        "THUNDER_SHOCK",
+        "TACKLE"
+      ],
+      "species": "DEDENNE",
+      "species_token": "SPECIES_DEDENNE"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "SHADOW_SNEAK",
+        "SWORDS_DANCE",
+        "SLASH",
+        "AERIAL_ACE"
+      ],
+      "species": "HONEDGE",
+      "species_token": "SPECIES_HONEDGE"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "LEECH_SEED",
+        "RAZOR_LEAF",
+        "VINE_WHIP",
+        "TACKLE"
+      ],
+      "species": "SKIDDO",
+      "species_token": "SPECIES_SKIDDO"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "HOWL",
+        "PSYBEAM",
+        "EMBER",
+        "FLAME_CHARGE"
+      ],
+      "species": "BRAIXEN",
+      "species_token": "SPECIES_BRAIXEN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 239,
+  "trainer_id": 239,
+  "trainer_name": "Serena",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

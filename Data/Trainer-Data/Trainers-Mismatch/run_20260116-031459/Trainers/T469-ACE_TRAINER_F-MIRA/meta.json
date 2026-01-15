@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "JUMP_KICK",
+        "BOUNCE",
+        "AGILITY",
+        "HEADBUTT"
+      ],
+      "species": "LOPUNNY",
+      "species_token": "SPECIES_LOPUNNY"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "ENERGY_BALL",
+        "MOONBLAST",
+        "HURRICANE",
+        "SUNNY_DAY"
+      ],
+      "species": "WHIMSICOTT",
+      "species_token": "SPECIES_WHIMSICOTT"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BRICK_BREAK",
+        "CRUNCH",
+        "HEADBUTT"
+      ],
+      "species": "SCRAFTY",
+      "species_token": "SPECIES_SCRAFTY"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 469,
+  "trainer_id": 469,
+  "trainer_name": "Mira",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

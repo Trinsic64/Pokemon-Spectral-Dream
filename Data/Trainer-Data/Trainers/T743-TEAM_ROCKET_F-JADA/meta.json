@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "HYDRO_PUMP",
+        "CRUNCH",
+        "COIL",
+        "ICE_FANG"
+      ],
+      "species": "HUNTAIL",
+      "species_token": "SPECIES_HUNTAIL"
+    },
+    {
+      "ability": "TELEPATHY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "SYNCHRONOISE",
+        "CALM_MIND",
+        "PSYCHIC",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "BEHEEYEM",
+      "species_token": "SPECIES_BEHEEYEM"
+    },
+    {
+      "ability": "UNBURDEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "GUNK_SHOT",
+        "U_TURN",
+        "POISON_JAB",
+        "SLASH"
+      ],
+      "species": "GRAFAIAI",
+      "species_token": "SPECIES_GRAFAIAI"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "FLASH_CANNON",
+        "TRI_ATTACK",
+        "ZAP_CANNON",
+        "LIGHT_SCREEN"
+      ],
+      "species": "MAGNETON",
+      "species_token": "SPECIES_MAGNETON"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "CRUSH_CLAW",
+        "SWORDS_DANCE",
+        "FURY_CUTTER"
+      ],
+      "species": "SANDSLASH",
+      "species_token": "SPECIES_SANDSLASH"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "PETAL_DANCE",
+        "ACUPRESSURE",
+        "PECK",
+        "PETAL_BLIZZARD"
+      ],
+      "species": "MARACTUS",
+      "species_token": "SPECIES_MARACTUS"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 743,
+  "trainer_id": 743,
+  "trainer_name": "Jada",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "LAST_RESORT",
+        "COVET",
+        "BLIZZARD",
+        "BARRIER"
+      ],
+      "species": "GLACEON",
+      "species_token": "SPECIES_GLACEON"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "DISCHARGE",
+        "LAST_RESORT",
+        "THUNDER",
+        "AGILITY"
+      ],
+      "species": "JOLTEON",
+      "species_token": "SPECIES_JOLTEON"
+    },
+    {
+      "ability": "LEAF_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "LEAF_BLADE",
+        "LAST_RESORT",
+        "SWORDS_DANCE",
+        "SAND_ATTACK"
+      ],
+      "species": "LEAFEON",
+      "species_token": "SPECIES_LEAFEON"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "LAST_RESORT",
+        "MOONBLAST",
+        "SWIFT",
+        "SAND_ATTACK"
+      ],
+      "species": "SYLVEON",
+      "species_token": "SPECIES_SYLVEON"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "DARK_PULSE",
+        "LAST_RESORT",
+        "BITE",
+        "GUARD_SWAP"
+      ],
+      "species": "UMBREON",
+      "species_token": "SPECIES_UMBREON"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FUTURE_SIGHT",
+        "PSYCHO_CUT",
+        "NIGHT_SLASH",
+        "DOUBLE_TEAM"
+      ],
+      "species": "ABSOL",
+      "species_token": "SPECIES_ABSOL"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 811,
+  "trainer_id": 811,
+  "trainer_name": "Jace",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

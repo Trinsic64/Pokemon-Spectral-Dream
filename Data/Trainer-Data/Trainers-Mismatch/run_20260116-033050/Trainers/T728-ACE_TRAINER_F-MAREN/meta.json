@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "CRUNCH",
+        "BRINE",
+        "BITE",
+        "BARB_BARRAGE"
+      ],
+      "species": "QWILFISH",
+      "species_token": "SPECIES_QWILFISH"
+    },
+    {
+      "ability": "MERCILESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "LIQUIDATION",
+        "BANEFUL_BUNKER",
+        "BITE",
+        "POISON_JAB"
+      ],
+      "species": "TOXAPEX",
+      "species_token": "SPECIES_TOXAPEX"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "EARTHQUAKE",
+        "AMNESIA"
+      ],
+      "species": "SWAMPERT",
+      "species_token": "SPECIES_SWAMPERT"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "HYDRO_PUMP",
+        "UPROAR",
+        "ACID",
+        "MUD_SHOT"
+      ],
+      "species": "SEISMITOAD",
+      "species_token": "SPECIES_SEISMITOAD"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "EARTHQUAKE",
+        "BELCH",
+        "THRASH",
+        "AQUA_TAIL"
+      ],
+      "species": "WHISCASH",
+      "species_token": "SPECIES_WHISCASH"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 728,
+  "trainer_id": 728,
+  "trainer_name": "Maren",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

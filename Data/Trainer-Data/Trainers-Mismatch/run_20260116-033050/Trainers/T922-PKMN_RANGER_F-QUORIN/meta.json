@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TURBOBLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "OUTRAGE",
+        "FUSION_FLARE",
+        "NOBLE_ROAR",
+        "ICE_BURN"
+      ],
+      "species": "KYUREM",
+      "species_token": "SPECIES_KYUREM"
+    },
+    {
+      "ability": "NEUROFORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 3,
+      "index": 1,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "PHOTON_GEYSER",
+        "POWER_GEM",
+        "IRON_DEFENSE",
+        "NIGHT_SLASH"
+      ],
+      "species": "NECROZMA",
+      "species_token": "SPECIES_NECROZMA"
+    },
+    {
+      "ability": "PRIMORDIAL_SEA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "ORIGIN_PULSE",
+        "ICE_BEAM",
+        "CALM_MIND",
+        "SHEER_COLD"
+      ],
+      "species": "KYOGRE",
+      "species_token": "SPECIES_KYOGRE"
+    },
+    {
+      "ability": "INTREPID_SWORD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "IRON_HEAD",
+        "SACRED_SWORD",
+        "HOWL",
+        "MOONBLAST"
+      ],
+      "species": "ZACIAN",
+      "species_token": "SPECIES_ZACIAN"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "FUTURE_SIGHT",
+        "MOONBLAST",
+        "DOUBLE_TEAM",
+        "PSYCHIC"
+      ],
+      "species": "CRESSELIA",
+      "species_token": "SPECIES_CRESSELIA"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "FUTURE_SIGHT",
+        "ANCIENT_POWER",
+        "PSYSTRIKE",
+        "AURA_SPHERE"
+      ],
+      "species": "MEWTWO",
+      "species_token": "SPECIES_MEWTWO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 922,
+  "trainer_id": 922,
+  "trainer_name": "Quorin",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

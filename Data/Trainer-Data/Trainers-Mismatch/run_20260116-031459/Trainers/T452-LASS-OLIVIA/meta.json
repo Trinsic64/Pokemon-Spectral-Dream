@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SUCTION_CUPS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "GIGA_DRAIN",
+        "ANCIENT_POWER",
+        "AMNESIA",
+        "BRINE"
+      ],
+      "species": "CRADILY",
+      "species_token": "SPECIES_CRADILY"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "CRUSH_CLAW",
+        "SLASH",
+        "ANCIENT_POWER",
+        "BUG_BITE"
+      ],
+      "species": "ARMALDO",
+      "species_token": "SPECIES_ARMALDO"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "IRON_DEFENSE",
+        "ANCIENT_POWER",
+        "SWAGGER",
+        "METAL_BURST"
+      ],
+      "species": "BASTIODON",
+      "species_token": "SPECIES_BASTIODON"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 452,
+  "trainer_id": 452,
+  "trainer_name": "Olivia",
+  "trainerclass": "TRAINERCLASS_LASS",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

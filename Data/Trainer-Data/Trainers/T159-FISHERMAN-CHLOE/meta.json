@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "BUBBLE_BEAM",
+        "CONFUSE_RAY",
+        "WATER_PULSE",
+        "WING_ATTACK"
+      ],
+      "species": "MANTYKE",
+      "species_token": "SPECIES_MANTYKE"
+    },
+    {
+      "ability": "FLUFFY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "BRUTAL_SWING",
+        "LEER",
+        "PAYBACK",
+        "TACKLE"
+      ],
+      "species": "STUFFUL",
+      "species_token": "SPECIES_STUFFUL"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "INCINERATE",
+        "EMBER",
+        "QUICK_ATTACK",
+        "TAIL_WHIP"
+      ],
+      "species": "VULPIX",
+      "species_token": "SPECIES_VULPIX"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "CHARGE",
+        "SHOCK_WAVE",
+        "QUICK_ATTACK",
+        "THUNDER_WAVE"
+      ],
+      "species": "BLITZLE",
+      "species_token": "SPECIES_BLITZLE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 159,
+  "trainer_id": 159,
+  "trainer_name": "Chloe",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

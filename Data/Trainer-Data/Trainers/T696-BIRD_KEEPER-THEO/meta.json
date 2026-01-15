@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "AIR_SLASH",
+        "SWAGGER",
+        "FACADE",
+        "DETECT"
+      ],
+      "species": "UNFEZANT",
+      "species_token": "SPECIES_UNFEZANT"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "AIR_SLASH",
+        "DEFOG",
+        "BUBBLE_BEAM",
+        "HURRICANE"
+      ],
+      "species": "SWANNA",
+      "species_token": "SPECIES_SWANNA"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "AIR_SLASH",
+        "FOCUS_ENERGY",
+        "WING_ATTACK",
+        "QUICK_ATTACK"
+      ],
+      "species": "SWELLOW",
+      "species_token": "SPECIES_SWELLOW"
+    },
+    {
+      "ability": "WONDER_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "SYNCHRONOISE",
+        "COSMIC_POWER",
+        "PSYCHIC",
+        "AIR_SLASH"
+      ],
+      "species": "SIGILYPH",
+      "species_token": "SPECIES_SIGILYPH"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 55,
+      "moves": [
+        "ATTACK_ORDER",
+        "POWER_GEM",
+        "AIR_SLASH",
+        "SWAGGER"
+      ],
+      "species": "VESPIQUEN",
+      "species_token": "SPECIES_VESPIQUEN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 696,
+  "trainer_id": 696,
+  "trainer_name": "Theo",
+  "trainerclass": "TRAINERCLASS_BIRD_KEEPER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

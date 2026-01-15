@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "ABSORB",
+        "HARDEN",
+        "SCRATCH",
+        "LEER"
+      ],
+      "species": "KABUTO",
+      "species_token": "SPECIES_KABUTO"
+    },
+    {
+      "ability": "SUCTION_CUPS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "ANCIENT_POWER",
+        "INGRAIN",
+        "ACID",
+        "CONFUSE_RAY"
+      ],
+      "species": "LILEEP",
+      "species_token": "SPECIES_LILEEP"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "METAL_SOUND",
+        "TACKLE",
+        "PROTECT",
+        "TAUNT"
+      ],
+      "species": "SHIELDON",
+      "species_token": "SPECIES_SHIELDON"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "ANCIENT_POWER",
+        "STEALTH_ROCK",
+        "STOMP",
+        "BITE"
+      ],
+      "species": "TYRUNT",
+      "species_token": "SPECIES_TYRUNT"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 189,
+  "trainer_id": 189,
+  "trainer_name": "Landon",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

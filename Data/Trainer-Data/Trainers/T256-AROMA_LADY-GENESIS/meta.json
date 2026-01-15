@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "BULLDOZE",
+        "LEECH_SEED",
+        "RAZOR_LEAF",
+        "VINE_WHIP"
+      ],
+      "species": "SKIDDO",
+      "species_token": "SPECIES_SKIDDO"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "BULLDOZE",
+        "CHIP_AWAY",
+        "HORN_ATTACK",
+        "SMACK_DOWN"
+      ],
+      "species": "RHYHORN",
+      "species_token": "SPECIES_RHYHORN"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "GROWL",
+        "PLUCK",
+        "PECK",
+        "ECHOED_VOICE"
+      ],
+      "species": "TRUMBEAK",
+      "species_token": "SPECIES_TRUMBEAK"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "GIGA_DRAIN",
+        "INGRAIN",
+        "RAZOR_LEAF",
+        "MEGA_DRAIN"
+      ],
+      "species": "SUNFLORA",
+      "species_token": "SPECIES_SUNFLORA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 256,
+  "trainer_id": 256,
+  "trainer_name": "Genesis",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

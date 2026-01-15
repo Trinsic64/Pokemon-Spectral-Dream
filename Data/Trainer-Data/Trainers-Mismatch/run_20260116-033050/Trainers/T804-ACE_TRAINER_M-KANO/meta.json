@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "CROSS_CHOP",
+        "THRASH",
+        "FOCUS_ENERGY",
+        "SHADOW_PUNCH"
+      ],
+      "species": "ANNIHILAPE",
+      "species_token": "SPECIES_ANNIHILAPE"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "DRAGON_PULSE",
+        "MUDDY_WATER",
+        "SHELTER",
+        "IRON_TAIL"
+      ],
+      "species": "GOODRA",
+      "species_token": "SPECIES_GOODRA"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "FIRE_PUNCH",
+        "THRASH",
+        "SUPERPOWER",
+        "SWAGGER"
+      ],
+      "species": "DARMANITAN",
+      "species_token": "SPECIES_DARMANITAN"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "FLYING_PRESS",
+        "SUBMISSION",
+        "SKY_ATTACK"
+      ],
+      "species": "HAWLUCHA",
+      "species_token": "SPECIES_HAWLUCHA"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "HONE_CLAWS",
+        "U_TURN",
+        "JUMP_KICK"
+      ],
+      "species": "MIENSHAO",
+      "species_token": "SPECIES_MIENSHAO"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "THRASH",
+        "PLAY_ROUGH",
+        "HAMMER_ARM",
+        "HEADLONG_RUSH"
+      ],
+      "species": "URSALUNA",
+      "species_token": "SPECIES_URSALUNA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 804,
+  "trainer_id": 804,
+  "trainer_name": "Kano",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

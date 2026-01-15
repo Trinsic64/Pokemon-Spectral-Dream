@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "FAIRY_WIND",
+        "RAZOR_LEAF",
+        "VINE_WHIP",
+        "TACKLE"
+      ],
+      "species": "FLOETTE",
+      "species_token": "SPECIES_FLOETTE"
+    },
+    {
+      "ability": "SAND_RUSH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "METAL_CLAW",
+        "RAPID_SPIN",
+        "SCRATCH",
+        "MUD_SLAP"
+      ],
+      "species": "DRILBUR",
+      "species_token": "SPECIES_DRILBUR"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "INCINERATE",
+        "FIRE_FANG",
+        "BITE",
+        "TACKLE"
+      ],
+      "species": "DARUMAKA",
+      "species_token": "SPECIES_DARUMAKA"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HELPING_HAND",
+        "POUND",
+        "DOUBLE_HIT",
+        "ECHOED_VOICE"
+      ],
+      "species": "TANDEMAUS",
+      "species_token": "SPECIES_TANDEMAUS"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "UPROAR",
+        "REFLECT",
+        "MEGA_DRAIN",
+        "ABSORB"
+      ],
+      "species": "EXEGGCUTE",
+      "species_token": "SPECIES_EXEGGCUTE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 195,
+  "trainer_id": 195,
+  "trainer_name": "Galen",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

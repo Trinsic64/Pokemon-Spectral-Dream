@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "POWER_WHIP",
+        "CRUNCH",
+        "STOCKPILE",
+        "LEAF_TORNADO"
+      ],
+      "species": "CARNIVINE",
+      "species_token": "SPECIES_CARNIVINE"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "FLASH_CANNON",
+        "PLAY_ROUGH",
+        "KNOCK_OFF",
+        "SLAM"
+      ],
+      "species": "TINKATUFF",
+      "species_token": "SPECIES_TINKATUFF"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "STONE_EDGE",
+        "THUNDER_PUNCH",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "GOLEM",
+      "species_token": "SPECIES_GOLEM"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "BUG_BUZZ",
+        "QUIVER_DANCE",
+        "AIR_SLASH",
+        "SLEEP_POWDER"
+      ],
+      "species": "BUTTERFREE",
+      "species_token": "SPECIES_BUTTERFREE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 56,
+      "moves": [
+        "SYNCHRONOISE",
+        "UPROAR",
+        "HEAL_PULSE",
+        "ASTONISH"
+      ],
+      "species": "CHIMECHO",
+      "species_token": "SPECIES_CHIMECHO"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 478,
+  "trainer_id": 478,
+  "trainer_name": "Ember",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

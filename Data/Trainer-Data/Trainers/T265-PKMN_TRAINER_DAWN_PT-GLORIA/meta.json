@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "FLAME_CHARGE",
+        "SMACK_DOWN"
+      ],
+      "species": "CARKOL",
+      "species_token": "SPECIES_CARKOL"
+    },
+    {
+      "ability": "HUNGER_SWITCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "FLATTER",
+        "BITE",
+        "QUICK_ATTACK",
+        "THUNDER_SHOCK"
+      ],
+      "species": "MORPEKO",
+      "species_token": "SPECIES_MORPEKO"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "POWDER_SNOW",
+        "STRUGGLE_BUG",
+        "POWDER_SNOW",
+        "POWDER_SNOW"
+      ],
+      "species": "SNOM",
+      "species_token": "SPECIES_SNOM"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "HEAL_PULSE",
+        "PSYBEAM",
+        "CONFUSION",
+        "DISARMING_VOICE"
+      ],
+      "species": "HATENNA",
+      "species_token": "SPECIES_HATENNA"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "KNOCK_OFF",
+        "RAZOR_LEAF",
+        "BRANCH_POKE",
+        "SCRATCH"
+      ],
+      "species": "THWACKEY",
+      "species_token": "SPECIES_THWACKEY"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 265,
+  "trainer_id": 265,
+  "trainer_name": "Gloria",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "HYDRO_PUMP",
+        "BODY_SLAM",
+        "EARTH_POWER",
+        "WATER_SPORT"
+      ],
+      "species": "POLIWHIRL",
+      "species_token": "SPECIES_POLIWHIRL"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "PSYBEAM",
+        "BARRIER"
+      ],
+      "species": "MR_MIME",
+      "species_token": "SPECIES_MR_MIME"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "BUG_BUZZ",
+        "QUIVER_DANCE",
+        "AIR_SLASH",
+        "SLEEP_POWDER"
+      ],
+      "species": "BUTTERFREE",
+      "species_token": "SPECIES_BUTTERFREE"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_SLIDE",
+        "BULK_UP",
+        "DYNAMIC_PUNCH"
+      ],
+      "species": "GURDURR",
+      "species_token": "SPECIES_GURDURR"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "HYPER_FANG",
+        "CRUNCH",
+        "FOCUS_ENERGY",
+        "SUCKER_PUNCH"
+      ],
+      "species": "RATICATE",
+      "species_token": "SPECIES_RATICATE"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "DISCHARGE",
+        "LAST_RESORT",
+        "THUNDER_WAVE",
+        "HYPER_FANG"
+      ],
+      "species": "PACHIRISU",
+      "species_token": "SPECIES_PACHIRISU"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 492,
+  "trainer_id": 492,
+  "trainer_name": "Greer",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

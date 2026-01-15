@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "EERIE_IMPULSE",
+        "TACKLE"
+      ],
+      "species": "VOLTORB",
+      "species_token": "SPECIES_VOLTORB"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "FAIRY_WIND",
+        "DRAINING_KISS",
+        "ECHOED_VOICE",
+        "SWEET_SCENT"
+      ],
+      "species": "SPRITZEE",
+      "species_token": "SPECIES_SPRITZEE"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "FAIRY_WIND",
+        "MEGA_DRAIN",
+        "HELPING_HAND",
+        "GROWTH"
+      ],
+      "species": "COTTONEE",
+      "species_token": "SPECIES_COTTONEE"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "AGILITY",
+        "DRAINING_KISS",
+        "WATER_GUN",
+        "TACKLE"
+      ],
+      "species": "LUVDISC",
+      "species_token": "SPECIES_LUVDISC"
+    },
+    {
+      "ability": "FOREWARN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "IMPRISON",
+        "PSYBEAM",
+        "STORED_POWER",
+        "DEFENSE_CURL"
+      ],
+      "species": "MUNNA",
+      "species_token": "SPECIES_MUNNA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 150,
+  "trainer_id": 150,
+  "trainer_name": "Valor",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

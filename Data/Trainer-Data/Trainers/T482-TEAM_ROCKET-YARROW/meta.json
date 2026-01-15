@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "PLAY_ROUGH",
+        "WORK_UP",
+        "CRUNCH",
+        "RETALIATE"
+      ],
+      "species": "HERDIER",
+      "species_token": "SPECIES_HERDIER"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "METAL_CLAW",
+        "HONE_CLAWS",
+        "ICY_WIND",
+        "BEAT_UP"
+      ],
+      "species": "SNEASEL",
+      "species_token": "SPECIES_SNEASEL"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "MUDDY_WATER",
+        "UPROAR",
+        "ACID",
+        "MUD_SHOT"
+      ],
+      "species": "PALPITOAD",
+      "species_token": "SPECIES_PALPITOAD"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "UPROAR",
+        "ANCIENT_POWER",
+        "DOUBLE_TEAM",
+        "WING_ATTACK"
+      ],
+      "species": "YANMA",
+      "species_token": "SPECIES_YANMA"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 482,
+  "trainer_id": 482,
+  "trainer_name": "Yarrow",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

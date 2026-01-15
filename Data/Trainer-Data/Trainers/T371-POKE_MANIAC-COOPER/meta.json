@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "POISON_JAB",
+        "BUBBLE_BEAM",
+        "ACID_ARMOR",
+        "WATER_PULSE"
+      ],
+      "species": "TENTACOOL",
+      "species_token": "SPECIES_TENTACOOL"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "EARTH_POWER",
+        "CRUNCH",
+        "ROCK_SLIDE",
+        "DRAGON_TAIL"
+      ],
+      "species": "VIBRAVA",
+      "species_token": "SPECIES_VIBRAVA"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "GIGA_DRAIN",
+        "MOONBLAST",
+        "TOXIC",
+        "ACID"
+      ],
+      "species": "GLOOM",
+      "species_token": "SPECIES_GLOOM"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 371,
+  "trainer_id": 371,
+  "trainer_name": "Cooper",
+  "trainerclass": "TRAINERCLASS_POKE_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

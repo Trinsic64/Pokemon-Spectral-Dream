@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "ROLLOUT",
+        "HARDEN",
+        "METAL_CLAW",
+        "TACKLE"
+      ],
+      "species": "FERROSEED",
+      "species_token": "SPECIES_FERROSEED"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HOWL",
+        "BITE",
+        "TACKLE",
+        "SAND_ATTACK"
+      ],
+      "species": "POOCHYENA",
+      "species_token": "SPECIES_POOCHYENA"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "CRUNCH",
+        "BITE",
+        "TACKLE",
+        "HYPNOSIS"
+      ],
+      "species": "WATCHOG",
+      "species_token": "SPECIES_WATCHOG"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 182,
+  "trainer_id": 182,
+  "trainer_name": "Kova",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

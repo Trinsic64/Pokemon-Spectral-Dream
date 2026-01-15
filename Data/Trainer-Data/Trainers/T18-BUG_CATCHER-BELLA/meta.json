@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "BUBBLE",
+        "QUICK_ATTACK",
+        "BUBBLE",
+        "BUBBLE"
+      ],
+      "species": "SURSKIT",
+      "species_token": "SPECIES_SURSKIT"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "PROTECT",
+        "TACKLE",
+        "SELF_DESTRUCT",
+        "TACKLE"
+      ],
+      "species": "PINECO",
+      "species_token": "SPECIES_PINECO"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "TAIL_WHIP",
+        "TACKLE",
+        "QUICK_ATTACK",
+        "TACKLE"
+      ],
+      "species": "RATTATA",
+      "species_token": "SPECIES_RATTATA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 18,
+  "trainer_id": 18,
+  "trainer_name": "Bella",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

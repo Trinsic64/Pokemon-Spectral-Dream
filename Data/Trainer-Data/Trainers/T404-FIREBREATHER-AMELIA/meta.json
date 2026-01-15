@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WHITE_SMOKE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "FLAMETHROWER",
+        "BODY_SLAM",
+        "LAVA_PLUME",
+        "IRON_DEFENSE"
+      ],
+      "species": "TORKOAL",
+      "species_token": "SPECIES_TORKOAL"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "LAVA_PLUME",
+        "LEER",
+        "FIRE_PUNCH",
+        "FLAME_BURST"
+      ],
+      "species": "MAGMAR",
+      "species_token": "SPECIES_MAGMAR"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "LAVA_PLUME",
+        "EARTH_POWER",
+        "FLAME_BURST",
+        "ROCK_SLIDE"
+      ],
+      "species": "MAGCARGO",
+      "species_token": "SPECIES_MAGCARGO"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "INCINERATE",
+        "FLAME_BURST",
+        "SLASH",
+        "BUG_BITE"
+      ],
+      "species": "HEATMOR",
+      "species_token": "SPECIES_HEATMOR"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 404,
+  "trainer_id": 404,
+  "trainer_name": "Amelia",
+  "trainerclass": "TRAINERCLASS_FIREBREATHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

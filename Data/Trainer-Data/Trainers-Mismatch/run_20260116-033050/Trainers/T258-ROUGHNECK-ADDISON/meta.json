@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "HYPER_FANG",
+        "FOCUS_ENERGY",
+        "CRUNCH",
+        "BITE"
+      ],
+      "species": "RATICATE",
+      "species_token": "SPECIES_RATICATE"
+    },
+    {
+      "ability": "GOOEY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "SAND_ATTACK",
+        "SLAM",
+        "HEADBUTT",
+        "WATER_PULSE"
+      ],
+      "species": "WUGTRIO",
+      "species_token": "SPECIES_WUGTRIO"
+    },
+    {
+      "ability": "MYCELIUM_MIGHT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "MUD_SHOT",
+        "SCREECH",
+        "MEGA_DRAIN",
+        "STUN_SPORE"
+      ],
+      "species": "TOEDSCOOL",
+      "species_token": "SPECIES_TOEDSCOOL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 258,
+  "trainer_id": 258,
+  "trainer_name": "Addison",
+  "trainerclass": "TRAINERCLASS_ROUGHNECK",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

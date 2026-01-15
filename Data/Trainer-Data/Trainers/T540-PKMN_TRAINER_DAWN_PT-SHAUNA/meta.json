@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PETAL_DANCE",
+        "AROMATHERAPY",
+        "MOONBLAST",
+        "PETAL_BLIZZARD"
+      ],
+      "species": "FLORGES",
+      "species_token": "SPECIES_FLORGES"
+    },
+    {
+      "ability": "DRY_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "THUNDERBOLT",
+        "THUNDER",
+        "DISCHARGE",
+        "RAZOR_WIND"
+      ],
+      "species": "HELIOLISK",
+      "species_token": "SPECIES_HELIOLISK"
+    },
+    {
+      "ability": "CONTRARY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FOUL_PLAY",
+        "SWAGGER",
+        "PLUCK",
+        "PSYCHO_CUT"
+      ],
+      "species": "MALAMAR",
+      "species_token": "SPECIES_MALAMAR"
+    },
+    {
+      "ability": "MEGA_LAUNCHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "CRABHAMMER",
+        "AURA_SPHERE",
+        "BOUNCE",
+        "HONE_CLAWS"
+      ],
+      "species": "CLAUNCHER",
+      "species_token": "SPECIES_CLAUNCHER"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "AIR_SLASH",
+        "DOUBLE_TEAM",
+        "ABSORB",
+        "AIR_CUTTER"
+      ],
+      "species": "NOIBAT",
+      "species_token": "SPECIES_NOIBAT"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SEED_BOMB",
+        "BULK_UP",
+        "HAMMER_ARM",
+        "NEEDLE_ARM"
+      ],
+      "species": "CHESNAUGHT",
+      "species_token": "SPECIES_CHESNAUGHT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 540,
+  "trainer_id": 540,
+  "trainer_name": "Shauna",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

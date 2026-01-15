@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "BUG_BUZZ",
+        "SIGNAL_BEAM",
+        "SILVER_WIND",
+        "QUIVER_DANCE"
+      ],
+      "species": "VENOMOTH",
+      "species_token": "SPECIES_VENOMOTH"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "SILVER_WIND",
+        "MOONLIGHT",
+        "VENOSHOCK",
+        "PSYBEAM"
+      ],
+      "species": "DUSTOX",
+      "species_token": "SPECIES_DUSTOX"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "ASSURANCE",
+        "FOCUS_ENERGY",
+        "VENOSHOCK",
+        "TWINEEDLE"
+      ],
+      "species": "BEEDRILL",
+      "species_token": "SPECIES_BEEDRILL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 252,
+  "trainer_id": 252,
+  "trainer_name": "Hudson",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

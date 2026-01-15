@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "COPYCAT",
+        "ROCK_THROW",
+        "FAKE_TEARS",
+        "FLAIL"
+      ],
+      "species": "BONSLY",
+      "species_token": "SPECIES_BONSLY"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "STRING_SHOT",
+        "BUG_BITE",
+        "TACKLE",
+        "BUG_BITE"
+      ],
+      "species": "SEWADDLE",
+      "species_token": "SPECIES_SEWADDLE"
+    },
+    {
+      "ability": "WIMP_OUT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "STRUGGLE_BUG",
+        "DEFENSE_CURL",
+        "SAND_ATTACK",
+        "STRUGGLE_BUG"
+      ],
+      "species": "WIMPOD",
+      "species_token": "SPECIES_WIMPOD"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "ROCK_SMASH",
+        "GROWL",
+        "PECK",
+        "ECHOED_VOICE"
+      ],
+      "species": "PIKIPEK",
+      "species_token": "SPECIES_PIKIPEK"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 121,
+  "trainer_id": 121,
+  "trainer_name": "Jason",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "FLASH_CANNON",
+        "IRON_DEFENSE",
+        "BULLDOZE",
+        "ZAP_CANNON"
+      ],
+      "species": "REGISTEEL",
+      "species_token": "SPECIES_REGISTEEL"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "FOUL_PLAY",
+        "PLAY_ROUGH",
+        "NASTY_PLOT",
+        "HAMMER_ARM"
+      ],
+      "species": "GRIMMSNARL",
+      "species_token": "SPECIES_GRIMMSNARL"
+    },
+    {
+      "ability": "MINDS_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "BLOOD_MOON",
+        "MOONBLAST",
+        "HAMMER_ARM",
+        "HEADLONG_RUSH"
+      ],
+      "species": "URSALUNA",
+      "species_token": "SPECIES_URSALUNA"
+    },
+    {
+      "ability": "MAGICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "PSYCHIC",
+        "SHADOW_BALL",
+        "NASTY_PLOT",
+        "PHANTOM_FORCE"
+      ],
+      "species": "HOOPA",
+      "species_token": "SPECIES_HOOPA"
+    },
+    {
+      "ability": "REGENERATOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "BLEAKWIND_STORM",
+        "THRASH",
+        "SWAGGER",
+        "HAMMER_ARM"
+      ],
+      "species": "TORNADUS",
+      "species_token": "SPECIES_TORNADUS"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "ENERGY_BALL",
+        "X_SCISSOR",
+        "AGILITY",
+        "DUAL_CHOP"
+      ],
+      "species": "SCEPTILE",
+      "species_token": "SPECIES_SCEPTILE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 880,
+  "trainer_id": 880,
+  "trainer_name": "Quorin",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

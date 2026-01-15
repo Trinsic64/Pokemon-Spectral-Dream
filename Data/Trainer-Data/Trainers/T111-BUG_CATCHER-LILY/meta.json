@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "HARDEN",
+        "HARDEN",
+        "HARDEN",
+        "HARDEN"
+      ],
+      "species": "CASCOON",
+      "species_token": "SPECIES_CASCOON"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "HARDEN",
+        "BUBBLE_BEAM",
+        "VICE_GRIP",
+        "WATER_GUN"
+      ],
+      "species": "CORPHISH",
+      "species_token": "SPECIES_CORPHISH"
+    },
+    {
+      "ability": "ICE_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "MIST",
+        "ICY_WIND",
+        "HARDEN",
+        "TAUNT"
+      ],
+      "species": "VANILLITE",
+      "species_token": "SPECIES_VANILLITE"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "CHARM",
+        "THUNDER_SHOCK",
+        "TAIL_WHIP",
+        "PLAY_NICE"
+      ],
+      "species": "PICHU",
+      "species_token": "SPECIES_PICHU"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 111,
+  "trainer_id": 111,
+  "trainer_name": "Lily",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

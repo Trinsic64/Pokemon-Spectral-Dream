@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "BURN_UP",
+        "CRUNCH",
+        "INFERNO",
+        "LUNGE"
+      ],
+      "species": "CENTISKORCH",
+      "species_token": "SPECIES_CENTISKORCH"
+    },
+    {
+      "ability": "SAND_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "EARTHQUAKE",
+        "OUTRAGE",
+        "LEER",
+        "STONE_EDGE"
+      ],
+      "species": "LANDORUS",
+      "species_token": "SPECIES_LANDORUS"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "DRAGON_PULSE",
+        "AIR_SLASH",
+        "DRAGON_RUSH",
+        "POISON_JAB"
+      ],
+      "species": "NAGANADEL",
+      "species_token": "SPECIES_NAGANADEL"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "DISCHARGE",
+        "LAST_RESORT",
+        "THUNDER",
+        "AGILITY"
+      ],
+      "species": "JOLTEON",
+      "species_token": "SPECIES_JOLTEON"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "CROSS_CHOP",
+        "THRASH",
+        "FOCUS_ENERGY",
+        "SHADOW_PUNCH"
+      ],
+      "species": "ANNIHILAPE",
+      "species_token": "SPECIES_ANNIHILAPE"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "LIQUIDATION",
+        "FOCUS_ENERGY",
+        "ICE_FANG",
+        "CRUNCH"
+      ],
+      "species": "SHARPEDO",
+      "species_token": "SPECIES_SHARPEDO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 872,
+  "trainer_id": 872,
+  "trainer_name": "Ione",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

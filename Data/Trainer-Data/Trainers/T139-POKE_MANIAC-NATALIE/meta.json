@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "POISON_GAS",
+        "POUND",
+        "ACID_SPRAY",
+        "TOXIC_SPIKES"
+      ],
+      "species": "TRUBBISH",
+      "species_token": "SPECIES_TRUBBISH"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "KNOCK_OFF",
+        "WATER_GUN",
+        "MEGA_DRAIN",
+        "MIST"
+      ],
+      "species": "LOMBRE",
+      "species_token": "SPECIES_LOMBRE"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "HOWL",
+        "POUND",
+        "ECHOED_VOICE",
+        "ASTONISH"
+      ],
+      "species": "WHISMUR",
+      "species_token": "SPECIES_WHISMUR"
+    },
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "CHARGE",
+        "VICE_GRIP",
+        "THUNDER_SHOCK",
+        "BIND"
+      ],
+      "species": "KLINK",
+      "species_token": "SPECIES_KLINK"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 139,
+  "trainer_id": 139,
+  "trainer_name": "Natalie",
+  "trainerclass": "TRAINERCLASS_POKE_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "WATER_SPORT",
+        "WATER_GUN",
+        "SPLASH",
+        "TAIL_WHIP"
+      ],
+      "species": "AZURILL",
+      "species_token": "SPECIES_AZURILL"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "THUNDER_WAVE",
+        "THUNDER_SHOCK",
+        "TACKLE",
+        "GROWL"
+      ],
+      "species": "MAREEP",
+      "species_token": "SPECIES_MAREEP"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "GROWL",
+        "RAZOR_LEAF",
+        "TACKLE",
+        "RAZOR_LEAF"
+      ],
+      "species": "CHIKORITA",
+      "species_token": "SPECIES_CHIKORITA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 15,
+  "trainer_id": 15,
+  "trainer_name": "Lyra",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

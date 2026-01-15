@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "THUNDER_WAVE",
+        "SPARK",
+        "QUICK_ATTACK",
+        "GROWL"
+      ],
+      "species": "PLUSLE",
+      "species_token": "SPECIES_PLUSLE"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "ROCK_SLIDE",
+        "SAND_ATTACK",
+        "BULLDOZE",
+        "BITE"
+      ],
+      "species": "TRAPINCH",
+      "species_token": "SPECIES_TRAPINCH"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "LEER",
+        "MEGA_DRAIN",
+        "LEAFAGE",
+        "ABSORB"
+      ],
+      "species": "TREECKO",
+      "species_token": "SPECIES_TREECKO"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 175,
+  "trainer_id": 175,
+  "trainer_name": "Brandon",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

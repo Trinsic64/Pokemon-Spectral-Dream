@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLUFFY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "STRENGTH",
+        "BRUTAL_SWING",
+        "PAYBACK",
+        "HAMMER_ARM"
+      ],
+      "species": "STUFFUL",
+      "species_token": "SPECIES_STUFFUL"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "SWORDS_DANCE",
+        "BULLDOZE",
+        "MUD_SHOT",
+        "TAKE_DOWN"
+      ],
+      "species": "DIGGERSBY",
+      "species_token": "SPECIES_DIGGERSBY"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "HEADBUTT",
+        "CHIP_AWAY",
+        "ASSURANCE",
+        "ANCIENT_POWER"
+      ],
+      "species": "CRANIDOS",
+      "species_token": "SPECIES_CRANIDOS"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "KNOCK_OFF",
+        "GROWTH",
+        "VINE_WHIP",
+        "ACID"
+      ],
+      "species": "WEEPINBELL",
+      "species_token": "SPECIES_WEEPINBELL"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "MAGICAL_LEAF",
+        "FAIRY_WIND",
+        "ANCIENT_POWER",
+        "CHARM"
+      ],
+      "species": "TOGETIC",
+      "species_token": "SPECIES_TOGETIC"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 320,
+  "trainer_id": 320,
+  "trainer_name": "Madelyn",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

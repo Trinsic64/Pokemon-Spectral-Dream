@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "AGILITY",
+        "FLAME_CHARGE",
+        "PECK",
+        "QUICK_ATTACK"
+      ],
+      "species": "FLETCHINDER",
+      "species_token": "SPECIES_FLETCHINDER"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "COVET",
+        "PSYBEAM",
+        "CONFUSION",
+        "QUICK_GUARD"
+      ],
+      "species": "MEOWSTIC",
+      "species_token": "SPECIES_MEOWSTIC"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "FEINT_ATTACK",
+        "SMOKESCREEN",
+        "WATER_GUN",
+        "ACID"
+      ],
+      "species": "SKRELP",
+      "species_token": "SPECIES_SKRELP"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "WORK_UP",
+        "HEADBUTT",
+        "EMBER",
+        "TACKLE"
+      ],
+      "species": "LITLEO",
+      "species_token": "SPECIES_LITLEO"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 21,
+      "moves": [
+        "GROWL",
+        "WATER_PULSE",
+        "BUBBLE",
+        "POUND"
+      ],
+      "species": "FROGADIER",
+      "species_token": "SPECIES_FROGADIER"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 217,
+  "trainer_id": 217,
+  "trainer_name": "Calem",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

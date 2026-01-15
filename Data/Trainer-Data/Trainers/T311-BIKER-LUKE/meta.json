@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "CROSS_CHOP",
+        "THRASH",
+        "ASSURANCE",
+        "COVET"
+      ],
+      "species": "MANKEY",
+      "species_token": "SPECIES_MANKEY"
+    },
+    {
+      "ability": "CHEEK_POUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BODY_SLAM",
+        "STOCKPILE",
+        "BITE",
+        "REST"
+      ],
+      "species": "SKWOVET",
+      "species_token": "SPECIES_SKWOVET"
+    },
+    {
+      "ability": "WEAK_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "SUCKER_PUNCH",
+        "MEGA_DRAIN",
+        "AROMATIC_MIST",
+        "ASTONISH"
+      ],
+      "species": "SINISTEA",
+      "species_token": "SPECIES_SINISTEA"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "PSYBEAM",
+        "BARRIER",
+        "CONFUSION",
+        "MEDITATE"
+      ],
+      "species": "MIMEJR",
+      "species_token": "SPECIES_MIMEJR"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "LEER",
+        "HEADBUTT",
+        "SLASH",
+        "FURY_CUTTER"
+      ],
+      "species": "KARRABLAST",
+      "species_token": "SPECIES_KARRABLAST"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "INCINERATE",
+        "FLAME_BURST",
+        "BITE",
+        "ACROBATICS"
+      ],
+      "species": "PANSEAR",
+      "species_token": "SPECIES_PANSEAR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 311,
+  "trainer_id": 311,
+  "trainer_name": "Luke",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

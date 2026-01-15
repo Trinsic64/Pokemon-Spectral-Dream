@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "MUDDY_WATER",
+        "BOUNCE",
+        "MUD_BOMB"
+      ],
+      "species": "STUNFISK",
+      "species_token": "SPECIES_STUNFISK"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "FLASH_CANNON",
+        "TRI_ATTACK",
+        "ZAP_CANNON",
+        "LIGHT_SCREEN"
+      ],
+      "species": "MAGNETON",
+      "species_token": "SPECIES_MAGNETON"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "VOLT_SWITCH",
+        "SPARK",
+        "SHOCK_WAVE",
+        "ACROBATICS"
+      ],
+      "species": "EMOLGA",
+      "species_token": "SPECIES_EMOLGA"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER_PUNCH",
+        "SHOCK_WAVE"
+      ],
+      "species": "ELECTABUZZ",
+      "species_token": "SPECIES_ELECTABUZZ"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "BUBBLE_BEAM",
+        "CHARGE",
+        "SPARK",
+        "THUNDER_SHOCK"
+      ],
+      "species": "PINCURCHIN",
+      "species_token": "SPECIES_PINCURCHIN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 440,
+  "trainer_id": 440,
+  "trainer_name": "Keira",
+  "trainerclass": "TRAINERCLASS_GUITARIST",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

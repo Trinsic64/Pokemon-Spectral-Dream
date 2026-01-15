@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "HEX",
+        "OMINOUS_WIND"
+      ],
+      "species": "ROTOM",
+      "species_token": "SPECIES_ROTOM"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "SHOCK_WAVE",
+        "OMINOUS_WIND"
+      ],
+      "species": "ROTOM_HEAT",
+      "species_token": "SPECIES_ROTOM_HEAT"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "OMINOUS_WIND",
+        "SHOCK_WAVE"
+      ],
+      "species": "ROTOM_FAN",
+      "species_token": "SPECIES_ROTOM_FAN"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "SHOCK_WAVE",
+        "TRICK"
+      ],
+      "species": "ROTOM_MOW",
+      "species_token": "SPECIES_ROTOM_MOW"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "SHOCK_WAVE",
+        "TRICK"
+      ],
+      "species": "ROTOM_FROST",
+      "species_token": "SPECIES_ROTOM_FROST"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "OMINOUS_WIND",
+        "SHOCK_WAVE"
+      ],
+      "species": "ROTOM_WASH",
+      "species_token": "SPECIES_ROTOM_WASH"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 441,
+  "trainer_id": 441,
+  "trainer_name": "Luca",
+  "trainerclass": "TRAINERCLASS_GUITARIST",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

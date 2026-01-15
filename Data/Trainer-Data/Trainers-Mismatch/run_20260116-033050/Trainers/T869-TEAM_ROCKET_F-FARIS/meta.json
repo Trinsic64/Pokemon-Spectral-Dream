@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "IMMUNITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "LAST_RESORT",
+        "BELCH",
+        "STOCKPILE",
+        "AMNESIA"
+      ],
+      "species": "SNORLAX",
+      "species_token": "SPECIES_SNORLAX"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "THRASH",
+        "HONE_CLAWS",
+        "OUTRAGE",
+        "FOUL_PLAY"
+      ],
+      "species": "KROOKODILE",
+      "species_token": "SPECIES_KROOKODILE"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "ICICLE_CRASH",
+        "THRASH",
+        "WORK_UP",
+        "SUPERPOWER"
+      ],
+      "species": "DARMANITAN",
+      "species_token": "SPECIES_DARMANITAN"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "FOCUS_PUNCH",
+        "STONE_EDGE",
+        "BULK_UP",
+        "ROCK_SLIDE"
+      ],
+      "species": "CONKELDURR",
+      "species_token": "SPECIES_CONKELDURR"
+    },
+    {
+      "ability": "POISON_PUPPETEER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "MALIGNANT_CHAIN",
+        "SHADOW_BALL",
+        "NASTY_PLOT",
+        "ASTONISH"
+      ],
+      "species": "PECHARUNT",
+      "species_token": "SPECIES_PECHARUNT"
+    },
+    {
+      "ability": "AERILATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "X_SCISSOR",
+        "THRASH",
+        "SUPERPOWER",
+        "FOCUS_ENERGY"
+      ],
+      "species": "PINSIR",
+      "species_token": "SPECIES_PINSIR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 869,
+  "trainer_id": 869,
+  "trainer_name": "Faris",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

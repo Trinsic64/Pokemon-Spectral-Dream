@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "WATER_SPOUT",
+        "BODY_SLAM",
+        "BOUNCE",
+        "AMNESIA"
+      ],
+      "species": "WAILMER",
+      "species_token": "SPECIES_WAILMER"
+    },
+    {
+      "ability": "CONTRARY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "FOUL_PLAY",
+        "PLUCK",
+        "SWAGGER",
+        "PSYCHO_CUT"
+      ],
+      "species": "MALAMAR",
+      "species_token": "SPECIES_MALAMAR"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "ZAP_CANNON",
+        "BUG_BITE",
+        "MIRROR_SHOT",
+        "SPIKES"
+      ],
+      "species": "FORRETRESS",
+      "species_token": "SPECIES_FORRETRESS"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "THUNDERBOLT",
+        "CRUNCH",
+        "THUNDER_WAVE",
+        "DISCHARGE"
+      ],
+      "species": "EELEKTRIK",
+      "species_token": "SPECIES_EELEKTRIK"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "POWER_GEM",
+        "EARTH_POWER",
+        "BUBBLE_BEAM",
+        "IRON_DEFENSE"
+      ],
+      "species": "CORSOLA",
+      "species_token": "SPECIES_CORSOLA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 487,
+  "trainer_id": 487,
+  "trainer_name": "Dusk",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

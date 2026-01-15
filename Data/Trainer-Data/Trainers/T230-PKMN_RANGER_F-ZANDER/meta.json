@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "AGILITY",
+        "QUICK_ATTACK",
+        "SCRATCH",
+        "COIL"
+      ],
+      "species": "FURRET",
+      "species_token": "SPECIES_FURRET"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "SHOCK_WAVE",
+        "THUNDER_SHOCK"
+      ],
+      "species": "EMOLGA",
+      "species_token": "SPECIES_EMOLGA"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "COVET",
+        "CONFUSION",
+        "HEART_STAMP",
+        "POWDER_SNOW"
+      ],
+      "species": "JYNX",
+      "species_token": "SPECIES_JYNX"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "GUST",
+        "SOAK",
+        "WATER_PULSE",
+        "WATER_GUN"
+      ],
+      "species": "LUMINEON",
+      "species_token": "SPECIES_LUMINEON"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "SILVER_WIND",
+        "PSYBEAM",
+        "BUG_BITE",
+        "GUST"
+      ],
+      "species": "BUTTERFREE",
+      "species_token": "SPECIES_BUTTERFREE"
+    },
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 22,
+      "moves": [
+        "ERUPTION",
+        "ROCK_SLIDE",
+        "LAVA_PLUME",
+        "MAGNITUDE"
+      ],
+      "species": "CAMERUPT",
+      "species_token": "SPECIES_CAMERUPT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 230,
+  "trainer_id": 230,
+  "trainer_name": "Zander",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

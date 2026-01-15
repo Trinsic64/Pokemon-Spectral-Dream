@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "HEADBUTT",
+        "FEINT_ATTACK",
+        "PAYBACK",
+        "LOW_KICK"
+      ],
+      "species": "SCRAGGY",
+      "species_token": "SPECIES_SCRAGGY"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "LEER",
+        "ROCK_SMASH",
+        "FEINT",
+        "BIND"
+      ],
+      "species": "CLOBBOPUS",
+      "species_token": "SPECIES_CLOBBOPUS"
+    },
+    {
+      "ability": "PURE_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "MEDITATE",
+        "CONFUSION",
+        "DETECT",
+        "ENDURE"
+      ],
+      "species": "MEDITITE",
+      "species_token": "SPECIES_MEDITITE"
+    },
+    {
+      "ability": "BULLETPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 14,
+      "moves": [
+        "DRAGON_TAIL",
+        "LEER",
+        "TACKLE",
+        "PROTECT"
+      ],
+      "species": "JANGMO_O",
+      "species_token": "SPECIES_JANGMO_O"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 131,
+  "trainer_id": 131,
+  "trainer_name": "Yara",
+  "trainerclass": "TRAINERCLASS_BLACK_BELT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

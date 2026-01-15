@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "STONE_EDGE",
+        "EARTH_POWER",
+        "ZAP_CANNON",
+        "SANDSTORM"
+      ],
+      "species": "NOSEPASS",
+      "species_token": "SPECIES_NOSEPASS"
+    },
+    {
+      "ability": "SUPERSWEET_SYRUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "ENERGY_BALL",
+        "DRAGON_PULSE",
+        "DRAGON_BREATH",
+        "RECYCLE"
+      ],
+      "species": "DIPPLIN",
+      "species_token": "SPECIES_DIPPLIN"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "CRUNCH",
+        "CHARGE",
+        "SPARK",
+        "THUNDER_FANG"
+      ],
+      "species": "LUXIO",
+      "species_token": "SPECIES_LUXIO"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "EARTHQUAKE",
+        "STRENGTH",
+        "SUPERPOWER",
+        "IRON_DEFENSE"
+      ],
+      "species": "MUDBRAY",
+      "species_token": "SPECIES_MUDBRAY"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 481,
+  "trainer_id": 481,
+  "trainer_name": "Xara",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

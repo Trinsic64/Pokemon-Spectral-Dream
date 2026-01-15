@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "ICE_FANG",
+        "MUD_SPORT",
+        "MUD_BOMB",
+        "ICY_WIND"
+      ],
+      "species": "PILOSWINE",
+      "species_token": "SPECIES_PILOSWINE"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "CRUNCH",
+        "HEX",
+        "OMINOUS_WIND",
+        "ICE_FANG"
+      ],
+      "species": "FROSLASS",
+      "species_token": "SPECIES_FROSLASS"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "ICE_BEAM",
+        "ANCIENT_POWER",
+        "RAPID_SPIN",
+        "FREEZE_DRY"
+      ],
+      "species": "CRYOGONAL",
+      "species_token": "SPECIES_CRYOGONAL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 433,
+  "trainer_id": 433,
+  "trainer_name": "William",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M_GS",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

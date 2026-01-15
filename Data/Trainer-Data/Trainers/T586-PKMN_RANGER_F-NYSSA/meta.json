@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DRILL_PECK",
+        "IRON_DEFENSE",
+        "STEEL_WING",
+        "SAND_ATTACK"
+      ],
+      "species": "SKARMORY",
+      "species_token": "SPECIES_SKARMORY"
+    },
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "POLLEN_PUFF",
+        "DAZZLING_GLEAM",
+        "STRUGGLE_BUG",
+        "ABSORB"
+      ],
+      "species": "RIBOMBEE",
+      "species_token": "SPECIES_RIBOMBEE"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BODY_SLAM",
+        "BULK_UP",
+        "VITAL_THROW",
+        "WIDE_GUARD"
+      ],
+      "species": "THROH",
+      "species_token": "SPECIES_THROH"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "EARTHQUAKE",
+        "BELCH",
+        "THRASH",
+        "AQUA_TAIL"
+      ],
+      "species": "WHISCASH",
+      "species_token": "SPECIES_WHISCASH"
+    },
+    {
+      "ability": "FRIEND_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "HYPER_VOICE",
+        "PLAY_ROUGH",
+        "FOLLOW_ME",
+        "POUND"
+      ],
+      "species": "MAUSHOLD",
+      "species_token": "SPECIES_MAUSHOLD"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "STONE_EDGE",
+        "ROCK_SLIDE",
+        "FLARE_BLITZ",
+        "PSYCHIC"
+      ],
+      "species": "SOLROCK",
+      "species_token": "SPECIES_SOLROCK"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 586,
+  "trainer_id": 586,
+  "trainer_name": "Nyssa",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "GROWL",
+        "TACKLE",
+        "QUICK_ATTACK",
+        "PECK"
+      ],
+      "species": "FLETCHLING",
+      "species_token": "SPECIES_FLETCHLING"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "COVET",
+        "CONFUSION",
+        "SCRATCH",
+        "FAKE_OUT"
+      ],
+      "species": "ESPURR",
+      "species_token": "SPECIES_ESPURR"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "GROWL",
+        "POUND",
+        "QUICK_ATTACK",
+        "BUBBLE"
+      ],
+      "species": "FROAKIE",
+      "species_token": "SPECIES_FROAKIE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 91,
+  "trainer_id": 91,
+  "trainer_name": "Calem",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

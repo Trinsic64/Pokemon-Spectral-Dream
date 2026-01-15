@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "FOCUS_PUNCH",
+        "FIRE_PUNCH",
+        "ICE_PUNCH",
+        "AGILITY"
+      ],
+      "species": "HITMONCHAN",
+      "species_token": "SPECIES_HITMONCHAN"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "JUMP_KICK",
+        "BLAZE_KICK",
+        "MEGA_KICK",
+        "WIDE_GUARD"
+      ],
+      "species": "HITMONLEE",
+      "species_token": "SPECIES_HITMONLEE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "SUCKER_PUNCH",
+        "RAPID_SPIN",
+        "REVENGE",
+        "ROLLING_KICK"
+      ],
+      "species": "HITMONTOP",
+      "species_token": "SPECIES_HITMONTOP"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 343,
+  "trainer_id": 343,
+  "trainer_name": "Elena",
+  "trainerclass": "TRAINERCLASS_PICNICKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

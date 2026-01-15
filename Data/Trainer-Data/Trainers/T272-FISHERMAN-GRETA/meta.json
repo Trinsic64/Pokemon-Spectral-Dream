@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "BUBBLE_BEAM",
+        "AQUA_RING",
+        "BRINE",
+        "ANCIENT_POWER"
+      ],
+      "species": "CORSOLA",
+      "species_token": "SPECIES_CORSOLA"
+    },
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "HYDRO_PUMP",
+        "ICICLE_CRASH",
+        "ICE_BEAM",
+        "IRON_DEFENSE"
+      ],
+      "species": "CLOYSTER",
+      "species_token": "SPECIES_CLOYSTER"
+    },
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "IRON_DEFENSE",
+        "WATER_GUN",
+        "WHIRLPOOL",
+        "CLAMP"
+      ],
+      "species": "CLAMPERL",
+      "species_token": "SPECIES_CLAMPERL"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "GUST",
+        "SOAK",
+        "WATER_PULSE",
+        "WATER_GUN"
+      ],
+      "species": "LUMINEON",
+      "species_token": "SPECIES_LUMINEON"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "BODY_SLAM",
+        "MUD_SHOT",
+        "WATER_SPORT",
+        "BUBBLE_BEAM"
+      ],
+      "species": "POLIWHIRL",
+      "species_token": "SPECIES_POLIWHIRL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 272,
+  "trainer_id": 272,
+  "trainer_name": "Greta",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "CRUNCH",
+        "WORK_UP",
+        "RETALIATE",
+        "BITE"
+      ],
+      "species": "HERDIER",
+      "species_token": "SPECIES_HERDIER"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "FLASH_CANNON",
+        "PLAY_ROUGH",
+        "COVET",
+        "SLAM"
+      ],
+      "species": "TINKATUFF",
+      "species_token": "SPECIES_TINKATUFF"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "DAZZLING_GLEAM",
+        "BRUTAL_SWING",
+        "HEAL_PULSE",
+        "PSYBEAM"
+      ],
+      "species": "HATTREM",
+      "species_token": "SPECIES_HATTREM"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "WATERFALL",
+        "PECK",
+        "AGILITY",
+        "HORN_ATTACK"
+      ],
+      "species": "GOLDEEN",
+      "species_token": "SPECIES_GOLDEEN"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 35,
+      "moves": [
+        "FLASH_CANNON",
+        "MIRROR_SHOT",
+        "SPARK",
+        "LIGHT_SCREEN"
+      ],
+      "species": "MAGNEMITE",
+      "species_token": "SPECIES_MAGNEMITE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 388,
+  "trainer_id": 388,
+  "trainer_name": "Ephraim",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

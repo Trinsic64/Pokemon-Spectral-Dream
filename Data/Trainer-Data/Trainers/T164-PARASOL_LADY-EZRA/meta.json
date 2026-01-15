@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "GROWL",
+        "ROUND",
+        "PECK",
+        "DISARMING_VOICE"
+      ],
+      "species": "SWABLU",
+      "species_token": "SPECIES_SWABLU"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "ASSURANCE",
+        "POISON_GAS",
+        "CLEAR_SMOG",
+        "TACKLE"
+      ],
+      "species": "KOFFING",
+      "species_token": "SPECIES_KOFFING"
+    },
+    {
+      "ability": "STICKY_HOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "MUD_BOMB",
+        "MUD_SPORT",
+        "WATER_PULSE",
+        "HIDDEN_POWER"
+      ],
+      "species": "SHELLOS",
+      "species_token": "SPECIES_SHELLOS"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "SPLASH",
+        "PSYBEAM",
+        "ODOR_SLEUTH",
+        "PSYCH_UP"
+      ],
+      "species": "SPOINK",
+      "species_token": "SPECIES_SPOINK"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 164,
+  "trainer_id": 164,
+  "trainer_name": "Ezra",
+  "trainerclass": "TRAINERCLASS_PARASOL_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

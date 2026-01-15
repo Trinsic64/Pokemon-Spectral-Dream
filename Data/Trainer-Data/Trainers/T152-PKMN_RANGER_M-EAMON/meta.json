@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OVERCOAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "ROLLOUT",
+        "REFLECT",
+        "PSYBEAM",
+        "HIDDEN_POWER"
+      ],
+      "species": "SOLOSIS",
+      "species_token": "SPECIES_SOLOSIS"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "THUNDER_WAVE",
+        "SPARK",
+        "CHARGE_BEAM",
+        "TACKLE"
+      ],
+      "species": "TYNAMO",
+      "species_token": "SPECIES_TYNAMO"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "FAIRY_WIND",
+        "ROUND",
+        "TACKLE",
+        "SWEET_SCENT"
+      ],
+      "species": "SWIRLIX",
+      "species_token": "SPECIES_SWIRLIX"
+    },
+    {
+      "ability": "COTTON_DOWN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "RAPID_SPIN",
+        "RAZOR_LEAF",
+        "LEAFAGE",
+        "SWEET_SCENT"
+      ],
+      "species": "GOSSIFLEUR",
+      "species_token": "SPECIES_GOSSIFLEUR"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "MEGA_DRAIN",
+        "ABSORB",
+        "LEECH_SEED",
+        "POISON_STING"
+      ],
+      "species": "ROSELIA",
+      "species_token": "SPECIES_ROSELIA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 152,
+  "trainer_id": 152,
+  "trainer_name": "Eamon",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "STRUGGLE_BUG",
+        "LIGHT_SCREEN",
+        "CONFUSION",
+        "REFLECT"
+      ],
+      "species": "DOTTLER",
+      "species_token": "SPECIES_DOTTLER"
+    },
+    {
+      "ability": "RIPEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "WING_ATTACK",
+        "LEECH_SEED",
+        "ACROBATICS",
+        "TWISTER"
+      ],
+      "species": "FLAPPLE",
+      "species_token": "SPECIES_FLAPPLE"
+    },
+    {
+      "ability": "STRONG_JAW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "PROTECT",
+        "BITE",
+        "TACKLE",
+        "WATER_GUN"
+      ],
+      "species": "CHEWTLE",
+      "species_token": "SPECIES_CHEWTLE"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "FLATTER",
+        "BITE",
+        "ASSURANCE",
+        "FAKE_TEARS"
+      ],
+      "species": "IMPIDIMP",
+      "species_token": "SPECIES_IMPIDIMP"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 19,
+      "moves": [
+        "DOUBLE_KICK",
+        "GROWL",
+        "FLAME_CHARGE",
+        "EMBER"
+      ],
+      "species": "RABOOT",
+      "species_token": "SPECIES_RABOOT"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 201,
+  "trainer_id": 201,
+  "trainer_name": "Victor",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "ENERGY_BALL",
+        "FAIRY_WIND",
+        "PLAY_ROUGH",
+        "ROUND"
+      ],
+      "species": "SLURPUFF",
+      "species_token": "SPECIES_SLURPUFF"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "AQUA_TAIL",
+        "CRUNCH",
+        "ICE_FANG",
+        "WATER_SPORT"
+      ],
+      "species": "FLOATZEL",
+      "species_token": "SPECIES_FLOATZEL"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "POISON_JAB",
+        "SUCKER_PUNCH",
+        "SWAGGER",
+        "REVENGE"
+      ],
+      "species": "TOXICROAK",
+      "species_token": "SPECIES_TOXICROAK"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "POISON_JAB",
+        "SLASH",
+        "NIGHT_SLASH",
+        "BRAVE_BIRD"
+      ],
+      "species": "FARFETCHD",
+      "species_token": "SPECIES_FARFETCHD"
+    },
+    {
+      "ability": "SAND_SPIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "COIL",
+        "SLAM",
+        "HEADBUTT",
+        "BULLDOZE"
+      ],
+      "species": "SILICOBRA",
+      "species_token": "SPECIES_SILICOBRA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 477,
+  "trainer_id": 477,
+  "trainer_name": "Blaze",
+  "trainerclass": "TRAINERCLASS_FIREBREATHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

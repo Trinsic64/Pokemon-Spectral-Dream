@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "GROWL",
+        "AIR_CUTTER",
+        "QUICK_ATTACK",
+        "GUST"
+      ],
+      "species": "TRANQUILL",
+      "species_token": "SPECIES_TRANQUILL"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "POWER_GEM",
+        "MUD_SLAP",
+        "IRON_DEFENSE",
+        "HEADBUTT"
+      ],
+      "species": "BOLDORE",
+      "species_token": "SPECIES_BOLDORE"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "WORK_UP",
+        "ICE_FANG",
+        "HEADBUTT",
+        "AVALANCHE"
+      ],
+      "species": "DARUMAKA",
+      "species_token": "SPECIES_DARUMAKA"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "ROCK_SLIDE",
+        "ROCK_THROW",
+        "BULK_UP",
+        "WAKE_UP_SLAP"
+      ],
+      "species": "TIMBURR",
+      "species_token": "SPECIES_TIMBURR"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "TORMENT",
+        "FEINT_ATTACK",
+        "METAL_CLAW",
+        "SCRATCH"
+      ],
+      "species": "PAWNIARD",
+      "species_token": "SPECIES_PAWNIARD"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "RAZOR_SHELL",
+        "FURY_CUTTER",
+        "FOCUS_ENERGY",
+        "WATER_PULSE"
+      ],
+      "species": "DEWOTT",
+      "species_token": "SPECIES_DEWOTT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 299,
+  "trainer_id": 299,
+  "trainer_name": "Nate",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

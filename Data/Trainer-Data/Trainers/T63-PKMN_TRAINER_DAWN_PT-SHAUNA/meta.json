@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "FAIRY_WIND",
+        "VINE_WHIP",
+        "TACKLE",
+        "FAIRY_WIND"
+      ],
+      "species": "FLABEBE",
+      "species_token": "SPECIES_FLABEBE"
+    },
+    {
+      "ability": "DRY_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "TAIL_WHIP",
+        "THUNDER_SHOCK",
+        "POUND",
+        "MUD_SLAP"
+      ],
+      "species": "HELIOPTILE",
+      "species_token": "SPECIES_HELIOPTILE"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 8,
+      "moves": [
+        "ROLLOUT",
+        "GROWL",
+        "VINE_WHIP",
+        "ROLLOUT"
+      ],
+      "species": "CHESPIN",
+      "species_token": "SPECIES_CHESPIN"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 63,
+  "trainer_id": 63,
+  "trainer_name": "Shauna",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

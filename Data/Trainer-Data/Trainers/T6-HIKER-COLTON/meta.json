@@ -1,0 +1,54 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 5,
+      "moves": [
+        "POWDER_SNOW",
+        "STRUGGLE_BUG",
+        "POWDER_SNOW",
+        "POWDER_SNOW"
+      ],
+      "species": "SNOM",
+      "species_token": "SPECIES_SNOM"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 5,
+      "moves": [
+        "ASTONISH",
+        "SUPERSONIC",
+        "ABSORB",
+        "ASTONISH"
+      ],
+      "species": "ZUBAT",
+      "species_token": "SPECIES_ZUBAT"
+    }
+  ],
+  "nummons": 2,
+  "party_id": 6,
+  "trainer_id": 6,
+  "trainer_name": "Colton",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

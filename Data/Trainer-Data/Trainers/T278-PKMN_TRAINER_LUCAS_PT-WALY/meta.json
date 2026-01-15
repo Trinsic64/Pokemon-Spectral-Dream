@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MINUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "THUNDER_WAVE",
+        "SPARK",
+        "SWIFT",
+        "QUICK_ATTACK"
+      ],
+      "species": "MINUN",
+      "species_token": "SPECIES_MINUN"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "IRON_HEAD",
+        "HARDEN",
+        "ROCK_SLIDE",
+        "HEADBUTT"
+      ],
+      "species": "LAIRON",
+      "species_token": "SPECIES_LAIRON"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "GIGA_DRAIN",
+        "LEECH_SEED",
+        "HEADBUTT",
+        "MEGA_DRAIN"
+      ],
+      "species": "SHROOMISH",
+      "species_token": "SPECIES_SHROOMISH"
+    },
+    {
+      "ability": "TRUANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "COVET",
+        "CHIP_AWAY",
+        "FEINT_ATTACK",
+        "AMNESIA"
+      ],
+      "species": "SLAKOTH",
+      "species_token": "SPECIES_SLAKOTH"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "EARTHQUAKE",
+        "ROCK_SLIDE",
+        "SURF",
+        "WATER_PULSE"
+      ],
+      "species": "MARSHTOMP",
+      "species_token": "SPECIES_MARSHTOMP"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 278,
+  "trainer_id": 278,
+  "trainer_name": "Waly",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

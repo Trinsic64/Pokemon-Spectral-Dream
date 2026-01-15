@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_HEAD",
+        "ROCK_SLIDE",
+        "WING_ATTACK"
+      ],
+      "species": "AERODACTYL",
+      "species_token": "SPECIES_AERODACTYL"
+    },
+    {
+      "ability": "UNBURDEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "GUNK_SHOT",
+        "U_TURN",
+        "POISON_JAB",
+        "SLASH"
+      ],
+      "species": "GRAFAIAI",
+      "species_token": "SPECIES_GRAFAIAI"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "FUTURE_SIGHT",
+        "PSYCHO_CUT",
+        "NIGHT_SLASH",
+        "DOUBLE_TEAM"
+      ],
+      "species": "ABSOL",
+      "species_token": "SPECIES_ABSOL"
+    },
+    {
+      "ability": "SUPERSWEET_SYRUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "ENERGY_BALL",
+        "DRAGON_PULSE",
+        "RECYCLE",
+        "DRAGON_BREATH"
+      ],
+      "species": "DIPPLIN",
+      "species_token": "SPECIES_DIPPLIN"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "CROSS_CHOP",
+        "THRASH",
+        "FOCUS_ENERGY",
+        "SHADOW_PUNCH"
+      ],
+      "species": "ANNIHILAPE",
+      "species_token": "SPECIES_ANNIHILAPE"
+    },
+    {
+      "ability": "CORROSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 62,
+      "moves": [
+        "FLAMETHROWER",
+        "DRAGON_PULSE",
+        "KNOCK_OFF",
+        "VENOSHOCK"
+      ],
+      "species": "SALAZZLE",
+      "species_token": "SPECIES_SALAZZLE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 749,
+  "trainer_id": 749,
+  "trainer_name": "Praxis",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "COVET",
+        "POUND",
+        "ECHOED_VOICE",
+        "COPYCAT"
+      ],
+      "species": "JIGGLYPUFF",
+      "species_token": "SPECIES_JIGGLYPUFF"
+    },
+    {
+      "ability": "FOREWARN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "IMPRISON",
+        "PSYBEAM",
+        "DEFENSE_CURL",
+        "LUCKY_CHANT"
+      ],
+      "species": "MUNNA",
+      "species_token": "SPECIES_MUNNA"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 13,
+      "moves": [
+        "HONE_CLAWS",
+        "BITE",
+        "SAND_TOMB",
+        "SAND_ATTACK"
+      ],
+      "species": "SANDILE",
+      "species_token": "SPECIES_SANDILE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 110,
+  "trainer_id": 110,
+  "trainer_name": "Liam",
+  "trainerclass": "TRAINERCLASS_BATTLE_GIRL",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

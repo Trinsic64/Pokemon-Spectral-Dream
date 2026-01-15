@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "TACKLE",
+        "QUICK_ATTACK"
+      ],
+      "species": "STARLY",
+      "species_token": "SPECIES_STARLY"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "SAND_ATTACK",
+        "BITE",
+        "TACKLE",
+        "YAWN"
+      ],
+      "species": "HIPPOPOTAS",
+      "species_token": "SPECIES_HIPPOPOTAS"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "LEER",
+        "EMBER",
+        "SCRATCH",
+        "TAUNT"
+      ],
+      "species": "CHIMCHAR",
+      "species_token": "SPECIES_CHIMCHAR"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 160,
+  "trainer_id": 160,
+  "trainer_name": "Lucas",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

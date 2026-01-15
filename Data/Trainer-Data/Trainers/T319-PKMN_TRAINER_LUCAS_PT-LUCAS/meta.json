@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "AERIAL_ACE",
+        "QUICK_ATTACK"
+      ],
+      "species": "STARAVIA",
+      "species_token": "SPECIES_STARAVIA"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "CRUNCH",
+        "SAND_ATTACK",
+        "ICE_FANG",
+        "DIG"
+      ],
+      "species": "HIPPOWDON",
+      "species_token": "SPECIES_HIPPOWDON"
+    },
+    {
+      "ability": "SNOW_WARNING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "RAZOR_LEAF",
+        "SWAGGER",
+        "ICY_WIND",
+        "POWDER_SNOW"
+      ],
+      "species": "SNOVER",
+      "species_token": "SPECIES_SNOVER"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "THUNDER_WAVE",
+        "MIRROR_SHOT",
+        "SPARK",
+        "MAGNET_BOMB"
+      ],
+      "species": "MAGNEMITE",
+      "species_token": "SPECIES_MAGNEMITE"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 28,
+      "moves": [
+        "FLAME_WHEEL",
+        "EMBER",
+        "MACH_PUNCH",
+        "TAUNT"
+      ],
+      "species": "MONFERNO",
+      "species_token": "SPECIES_MONFERNO"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 319,
+  "trainer_id": 319,
+  "trainer_name": "Lucas",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

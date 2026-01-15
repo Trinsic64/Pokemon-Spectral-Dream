@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "HYPER_VOICE",
+        "CONFIDE",
+        "CHATTER",
+        "ROUND"
+      ],
+      "species": "CHATOT",
+      "species_token": "SPECIES_CHATOT"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "CRUNCH",
+        "BITE",
+        "SAND_TOMB",
+        "SANDSTORM"
+      ],
+      "species": "HIPPOPOTAS",
+      "species_token": "SPECIES_HIPPOPOTAS"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "METAL_CLAW",
+        "DOUBLE_TEAM",
+        "AERIAL_ACE",
+        "BUG_BITE"
+      ],
+      "species": "NINJASK",
+      "species_token": "SPECIES_NINJASK"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "COVET",
+        "BITE",
+        "SWIFT",
+        "TACKLE"
+      ],
+      "species": "EEVEE",
+      "species_token": "SPECIES_EEVEE"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "OMINOUS_WIND",
+        "TELEPORT",
+        "PSYCHO_SHIFT",
+        "PECK"
+      ],
+      "species": "NATU",
+      "species_token": "SPECIES_NATU"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "WATER_PULSE",
+        "DOUBLE_TEAM",
+        "FEINT_ATTACK",
+        "POISON_TAIL"
+      ],
+      "species": "SKRELP",
+      "species_token": "SPECIES_SKRELP"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 312,
+  "trainer_id": 312,
+  "trainer_name": "Ruby",
+  "trainerclass": "TRAINERCLASS_BIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

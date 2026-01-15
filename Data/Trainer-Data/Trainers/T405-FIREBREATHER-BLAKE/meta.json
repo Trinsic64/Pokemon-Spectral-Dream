@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "FLAMETHROWER",
+        "BULK_UP",
+        "SLASH",
+        "DOUBLE_KICK"
+      ],
+      "species": "COMBUSKEN",
+      "species_token": "SPECIES_COMBUSKEN"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "MEGAHORN",
+        "SMART_STRIKE",
+        "POISON_JAB",
+        "FLAME_WHEEL"
+      ],
+      "species": "RAPIDASH",
+      "species_token": "SPECIES_RAPIDASH"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "LEER",
+        "FLAME_BURST",
+        "LICK",
+        "FURY_SWIPES"
+      ],
+      "species": "SIMISEAR",
+      "species_token": "SPECIES_SIMISEAR"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "AGILITY",
+        "AERIAL_ACE",
+        "ACROBATICS",
+        "FLAME_CHARGE"
+      ],
+      "species": "FLETCHINDER",
+      "species_token": "SPECIES_FLETCHINDER"
+    },
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "FLAME_CHARGE",
+        "SMACK_DOWN"
+      ],
+      "species": "CARKOL",
+      "species_token": "SPECIES_CARKOL"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 405,
+  "trainer_id": 405,
+  "trainer_name": "Blake",
+  "trainerclass": "TRAINERCLASS_FIREBREATHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

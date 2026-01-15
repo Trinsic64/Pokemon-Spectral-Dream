@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MAGMA_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "LAVA_PLUME",
+        "EARTH_POWER",
+        "BODY_SLAM",
+        "ROCK_SLIDE"
+      ],
+      "species": "MAGCARGO",
+      "species_token": "SPECIES_MAGCARGO"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "ENERGY_BALL",
+        "FAIRY_WIND",
+        "PLAY_ROUGH",
+        "ROUND"
+      ],
+      "species": "SLURPUFF",
+      "species_token": "SPECIES_SLURPUFF"
+    },
+    {
+      "ability": "CHEEK_POUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DISCHARGE",
+        "PLAY_ROUGH",
+        "CHARGE",
+        "REST"
+      ],
+      "species": "DEDENNE",
+      "species_token": "SPECIES_DEDENNE"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "POWER_WHIP",
+        "KNOCK_OFF",
+        "ANCIENT_POWER",
+        "GIGA_DRAIN"
+      ],
+      "species": "TANGELA",
+      "species_token": "SPECIES_TANGELA"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "SKY_UPPERCUT",
+        "X_SCISSOR",
+        "SLASH",
+        "ACROBATICS"
+      ],
+      "species": "GLIGAR",
+      "species_token": "SPECIES_GLIGAR"
+    },
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DISCHARGE",
+        "SHIFT_GEAR",
+        "MIRROR_SHOT",
+        "VICE_GRIP"
+      ],
+      "species": "KLANG",
+      "species_token": "SPECIES_KLANG"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 497,
+  "trainer_id": 497,
+  "trainer_name": "Junia",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

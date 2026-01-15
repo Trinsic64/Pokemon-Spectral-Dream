@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SNOW_WARNING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "ICE_PUNCH",
+        "WOOD_HAMMER",
+        "SWAGGER",
+        "ICY_WIND"
+      ],
+      "species": "ABOMASNOW",
+      "species_token": "SPECIES_ABOMASNOW"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "ICICLE_CRASH",
+        "BLIZZARD",
+        "RAPID_SPIN",
+        "IRON_HEAD"
+      ],
+      "species": "SANDSLASH",
+      "species_token": "SPECIES_SANDSLASH"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "ICE_PUNCH",
+        "ICE_HAMMER",
+        "DIZZY_PUNCH",
+        "ROCK_SMASH"
+      ],
+      "species": "CRABOMINABLE",
+      "species_token": "SPECIES_CRABOMINABLE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 437,
+  "trainer_id": 437,
+  "trainer_name": "Ryan",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M_GS",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "UPROAR",
+        "KNOCK_OFF",
+        "BUBBLE_BEAM",
+        "MEGA_DRAIN"
+      ],
+      "species": "LOMBRE",
+      "species_token": "SPECIES_LOMBRE"
+    },
+    {
+      "ability": "RIVALRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "CHARGE",
+        "SPARK",
+        "THUNDER_FANG",
+        "VOLT_SWITCH"
+      ],
+      "species": "LUXIO",
+      "species_token": "SPECIES_LUXIO"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BITE",
+        "MEAN_LOOK",
+        "WING_ATTACK",
+        "POISON_FANG"
+      ],
+      "species": "GOLBAT",
+      "species_token": "SPECIES_GOLBAT"
+    },
+    {
+      "ability": "TRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "SIGNAL_BEAM",
+        "PSYBEAM",
+        "AGILITY",
+        "TACKLE"
+      ],
+      "species": "PORYGON",
+      "species_token": "SPECIES_PORYGON"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 369,
+  "trainer_id": 369,
+  "trainer_name": "Mia",
+  "trainerclass": "TRAINERCLASS_FISHERMAN",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

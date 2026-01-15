@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FLAMETHROWER",
+        "SEED_BOMB",
+        "SPICY_EXTRACT",
+        "SOLAR_BEAM"
+      ],
+      "species": "SCOVILLAIN",
+      "species_token": "SPECIES_SCOVILLAIN"
+    },
+    {
+      "ability": "MUMMY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "OMINOUS_WIND",
+        "HEX"
+      ],
+      "species": "COFAGRIGUS",
+      "species_token": "SPECIES_COFAGRIGUS"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BELCH",
+        "FLAMETHROWER",
+        "FOCUS_ENERGY",
+        "NIGHT_SLASH"
+      ],
+      "species": "SKUNTANK",
+      "species_token": "SPECIES_SKUNTANK"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "BRICK_BREAK",
+        "BULK_UP",
+        "OCTAZOOKA",
+        "TAUNT"
+      ],
+      "species": "GRAPPLOCT",
+      "species_token": "SPECIES_GRAPPLOCT"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "FOCUS_ENERGY",
+        "BUBBLE_BEAM"
+      ],
+      "species": "SEADRA",
+      "species_token": "SPECIES_SEADRA"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "AIR_SLASH",
+        "FOCUS_ENERGY",
+        "WING_ATTACK",
+        "QUICK_ATTACK"
+      ],
+      "species": "SWELLOW",
+      "species_token": "SPECIES_SWELLOW"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 581,
+  "trainer_id": 581,
+  "trainer_name": "Harkin",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}
