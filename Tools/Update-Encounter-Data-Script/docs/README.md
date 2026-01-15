@@ -45,4 +45,3 @@ Each `E####_<Area>/` folder contains:
 The tool looks up which headers use each encounter bank by scanning:
 
 - `Data/Header-Data/Header-Data-Main.csv` column `Wild File`
-
