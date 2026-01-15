@@ -1,0 +1,16 @@
+RodType,Rate,Slot,Species,MinLevel,MaxLevel
+OldRod,25,1,NONE,0,0
+OldRod,25,2,NONE,0,0
+OldRod,25,3,NONE,0,0
+OldRod,25,4,NONE,0,0
+OldRod,25,5,NONE,0,0
+GoodRod,50,1,NONE,0,0
+GoodRod,50,2,NONE,0,0
+GoodRod,50,3,NONE,0,0
+GoodRod,50,4,NONE,0,0
+GoodRod,50,5,NONE,0,0
+SuperRod,75,1,NONE,0,0
+SuperRod,75,2,NONE,0,0
+SuperRod,75,3,NONE,0,0
+SuperRod,75,4,NONE,0,0
+SuperRod,75,5,NONE,0,0

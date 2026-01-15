@@ -1,0 +1,396 @@
+{
+  "area_label": "ROUTE 20 AREA 5",
+  "bank_id": 217,
+  "day": [
+    {
+      "form_index": null,
+      "species_token": "SPECIES_AZUMARILL"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_KINGLER"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_POLITOED"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_VAPOREON"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_CLAWITZER"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_PALAFIN"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_LAPRAS"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_MILOTIC"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_MILOTIC"
+    }
+  ],
+  "goodrod": [
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    }
+  ],
+  "goodrodrate": 50,
+  "hoenn": [
+    {
+      "form_index": null,
+      "species_token": "SPECIES_NONE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_NONE"
+    }
+  ],
+  "morning": [
+    {
+      "form_index": null,
+      "species_token": "SPECIES_AZUMARILL"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_KINGLER"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_POLITOED"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_VAPOREON"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_CLAWITZER"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_PALAFIN"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_LAPRAS"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_MILOTIC"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_MILOTIC"
+    }
+  ],
+  "night": [
+    {
+      "form_index": null,
+      "species_token": "SPECIES_AZUMARILL"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_KINGLER"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_POLITOED"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_VAPOREON"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_CLAWITZER"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_PALAFIN"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_LAPRAS"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_MILOTIC"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_MILOTIC"
+    }
+  ],
+  "oldrod": [
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    }
+  ],
+  "oldrodrate": 25,
+  "rocksmash": [
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    }
+  ],
+  "rocksmashrate": 0,
+  "sinnoh": [
+    {
+      "form_index": null,
+      "species_token": "SPECIES_NONE"
+    },
+    {
+      "form_index": null,
+      "species_token": "SPECIES_NONE"
+    }
+  ],
+  "superrod": [
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    }
+  ],
+  "superrodrate": 75,
+  "surf": [
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    },
+    {
+      "max_level": 0,
+      "min_level": 0,
+      "species": {
+        "form_index": null,
+        "species_token": "SPECIES_NONE"
+      }
+    }
+  ],
+  "surfrate": 15,
+  "swarm_goodrod": {
+    "form_index": null,
+    "species_token": "SPECIES_NONE"
+  },
+  "swarm_grass": {
+    "form_index": null,
+    "species_token": "SPECIES_NONE"
+  },
+  "swarm_superrod": {
+    "form_index": null,
+    "species_token": "SPECIES_NONE"
+  },
+  "swarm_surf": {
+    "form_index": null,
+    "species_token": "SPECIES_NONE"
+  },
+  "walklevels": [
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51,
+    51
+  ],
+  "walkrate": 25
+}
