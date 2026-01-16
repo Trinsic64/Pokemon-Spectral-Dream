@@ -3,13 +3,13 @@
 Header Data Updater (Repo Tool)
 
 This is the repo-local entrypoint for updating:
-  - Data/Headers/Header-Data-Main.csv
+  - Data/Header-Data/Header-Data-Main.csv
 
 From the DSPRE extracted contents under:
   - ROM/Pokemon-Spectral-Dream_DSPRE_contents
 
 It also maintains per-header notes folders under:
-  - Data/Headers/Headers/####_InternalName/
+  - Data/Header-Data/Headers/####_InternalName/
 
 Standard-library only (easy for new developers).
 """
@@ -32,7 +32,13 @@ from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 # --------------------------------------------------------------------------------------
 
 DEFAULT_REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_BACKUP_DIR = Path(__file__).resolve().parent / "backups"
+TOOL_DIR = Path(__file__).resolve().parent
+DEFAULT_BACKUP_DIR = TOOL_DIR / "backups"
+DEFAULT_REPORTS_DIR = TOOL_DIR / "reports"
+
+DEFAULT_HEADER_CSV = DEFAULT_REPO_ROOT / "Data" / "Header-Data" / "Header-Data-Main.csv"
+DEFAULT_HEADER_NOTES_DIR = DEFAULT_REPO_ROOT / "Data" / "Header-Data" / "Headers"
+DEFAULT_DSPRE_ROOT = DEFAULT_REPO_ROOT / "ROM" / "Pokemon-Spectral-Dream_DSPRE_contents"
 
 
 # --------------------------------------------------------------------------------------
@@ -390,6 +396,7 @@ def run_update(
     notes_dir: Path,
     backup_dir: Path,
     dry_run: bool,
+    reports_dir: Optional[Path] = None,
 ) -> int:
     if not csv_path.exists():
         raise FileNotFoundError(f"CSV not found: {csv_path}")
@@ -616,35 +623,90 @@ def run_update(
     report_lines.append(f"Validation missing-file findings: {len(findings)}")
 
     print("\n".join(report_lines))
+
+    # Optional report files (mirrors trainer/encounter tool style)
+    if reports_dir is not None and not dry_run:
+        reports_dir.mkdir(parents=True, exist_ok=True)
+        changes_path = reports_dir / f"header_changes_{timestamp}.csv"
+        missing_path = reports_dir / f"header_missing_files_{timestamp}.csv"
+        summary_path = reports_dir / f"header_summary_{timestamp}.txt"
+
+        # changes CSV
+        with changes_path.open("w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(["HeaderId", "ChangedColumns"])
+            for hid, cols in changed_summary:
+                w.writerow([hid, ";".join(cols)])
+
+        # missing files CSV
+        with missing_path.open("w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(["HeaderId", "Detail"])
+            for fnd in findings:
+                w.writerow([fnd.header_id, fnd.detail])
+
+        summary_path.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+
     return 0 if not findings else 2
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Update Header-Data-Main.csv from DSPRE extracted contents and generate per-header notes.",
+        description="Header data tooling for Pokemon Spectral Dream (stdlib-only).",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
-    parser.add_argument("--repo-root", type=Path, default=DEFAULT_REPO_ROOT)
-    parser.add_argument("--dspre-root", type=Path, default=None)
-    parser.add_argument("--csv", type=Path, default=None)
-    parser.add_argument("--notes-dir", type=Path, default=None)
-    parser.add_argument("--backup-dir", type=Path, default=DEFAULT_BACKUP_DIR)
-    parser.add_argument("--dry-run", action="store_true")
+    sub = parser.add_subparsers(dest="cmd", required=False)
+
+    common = argparse.ArgumentParser(add_help=False)
+    common.add_argument("--repo-root", type=Path, default=DEFAULT_REPO_ROOT)
+    common.add_argument("--dspre-root", type=Path, default=None)
+    common.add_argument("--csv", type=Path, default=None)
+    common.add_argument("--notes-dir", type=Path, default=None)
+    common.add_argument("--backup-dir", type=Path, default=DEFAULT_BACKUP_DIR)
+    common.add_argument("--reports-dir", type=Path, default=DEFAULT_REPORTS_DIR)
+    common.add_argument("--dry-run", action="store_true")
+
+    upd = sub.add_parser("update", parents=[common], help="Update header CSV + per-header notes (backs up CSV).")
+    upd.set_defaults(_cmd="update")
+
+    val = sub.add_parser("validate", parents=[common], help="Validate header CSV references against DSPRE files.")
+    val.set_defaults(_cmd="validate")
+
     return parser
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
-    args = build_parser().parse_args(argv)
+    # Backwards-compatible: if no explicit subcommand, default to `update`.
+    argv_list = list(argv) if argv is not None else None
+    if argv_list is not None and argv_list and argv_list[0] not in {"update", "validate", "-h", "--help"}:
+        argv_list = ["update"] + argv_list
+
+    args = build_parser().parse_args(argv_list)
+    cmd = getattr(args, "_cmd", None) or "update"
+
     repo_root: Path = args.repo_root
     dspre_root = args.dspre_root or (repo_root / "ROM" / "Pokemon-Spectral-Dream_DSPRE_contents")
-    csv_path = args.csv or (repo_root / "Data" / "Headers" / "Header-Data-Main.csv")
-    notes_dir = args.notes_dir or (repo_root / "Data" / "Headers" / "Headers")
+    csv_path = args.csv or (repo_root / "Data" / "Header-Data" / "Header-Data-Main.csv")
+    notes_dir = args.notes_dir or (repo_root / "Data" / "Header-Data" / "Headers")
+
+    if cmd == "validate":
+        # Validation-only: do not write anything regardless of --dry-run.
+        return run_update(
+            dspre_root=dspre_root,
+            csv_path=csv_path,
+            notes_dir=notes_dir,
+            backup_dir=Path(args.backup_dir),
+            dry_run=True,
+            reports_dir=None,
+        )
+
     return run_update(
         dspre_root=dspre_root,
         csv_path=csv_path,
         notes_dir=notes_dir,
-        backup_dir=args.backup_dir,
+        backup_dir=Path(args.backup_dir),
         dry_run=args.dry_run,
+        reports_dir=Path(args.reports_dir) if args.reports_dir else None,
     )
 
 
