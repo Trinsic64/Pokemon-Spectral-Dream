@@ -1,0 +1,188 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream
+ * Game: HGSS
+ * File: 0932
+ * Generated: 16/12/2025 8:40:53 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	CheckBadge 6 0x800C
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#1
+	Message 0
+	CloseMessage
+	TrainerBattle TRAINER_DARIA_032 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#2
+	SetTrainerFlag TRAINER_YARROW_482
+	SetTrainerFlag TRAINER_ASHLYN_484
+	SetTrainerFlag TRAINER_XARA_481
+	SetTrainerFlag TRAINER_WRAITH_480
+	SetTrainerFlag TRAINER_ZAYNE_483
+	Message 1
+	GiveBadge 6
+	IncrementVar 0x4134 1
+	AddTrainerScore 22
+	CompareVarValue 0x4134 3
+	JumpIf DIFFERENT Function#3
+	SetVar 0x4077 1
+	TextPlayerName 0
+	Message 2
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	Message 3
+	SetVar 0x8004 334
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#4
+	CommonScript 2033
+	SetFlag 210
+	Message 4
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Script 2:
+	CheckFlag 393
+	JumpIf LESS Function#5
+	ClearFlag 393
+End
+
+//===== FUNCTIONS =====//
+Function 1:
+	CheckFlag 2404
+	JumpIf EQUAL Function#6
+	Message 5
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 2:
+	LostBattle
+	ReleaseAll
+End
+
+Function 3:
+	TextPlayerName 0
+	Message 2
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	Message 3
+	SetVar 0x8004 334
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#4
+	CommonScript 2033
+	SetFlag 210
+	Message 4
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 4:
+	CommonScript 2009
+	CloseMessage
+	ReleaseAll
+End
+
+Function 5:
+	CheckPokeGearRematch 39 0x4001
+	CompareVarValue 0x4001 0
+	JumpIf DIFFERENT Function#7
+	CheckFlag 2404
+	JumpIf LESS Function#8
+	CheckPokegearNumberRegistered 39 0x4001
+	CompareVarValue 0x4001 1
+	JumpIf EQUAL Function#8
+	GetHour 0x4000
+	CompareVarValue 0x4000 6
+	JumpIf DIFFERENT Function#9
+	SetFlag 750
+Jump Function#10
+
+Function 6:
+	Message 6
+	OpenTouchScreen
+	YesNoTouchScreen 0x800C
+	CloseTouchScreen
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#11
+	CheckAlbumPhoto 0x800C
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#12
+	Message 7
+	CloseMessage
+	SetFlag 393
+	FadeScreen 6 1 0 0
+	WaitFadeScreen
+	TakePhoto 40
+	FacePlayer
+	LockAll
+	FadeScreen 6 1 1 0
+	WaitFadeScreen
+	ClearFlag 393
+	Message 8
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 7:
+	SetFlag 750
+End
+
+Function 8:
+	ClearFlag 750
+End
+
+Function 9:
+	CompareVarValue 0x4000 7
+	JumpIf DIFFERENT Function#13
+	SetFlag 750
+Jump Function#10
+
+Function 10:
+End
+
+Function 11:
+	Message 9
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 12:
+	Message 10
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 13:
+	CompareVarValue 0x4000 8
+	JumpIf DIFFERENT Function#14
+	SetFlag 750
+Jump Function#10
+
+Function 14:
+	CompareVarValue 0x4000 9
+	JumpIf DIFFERENT Function#15
+	SetFlag 750
+Jump Function#10
+
+Function 15:
+	ClearFlag 750
+End
+
+//===== ACTIONS =====//

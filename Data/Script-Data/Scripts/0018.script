@@ -1,0 +1,239 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream
+ * Game: HGSS
+ * File: 0018
+ * Generated: 16/12/2025 8:40:51 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	PlayCry SPECIES_CHARMANDER 0
+	WaitCry
+	SetFlag 164
+	WildBattleSp SPECIES_CHARMANDER 5 0
+	ClearFlag 164
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	ReleaseAll
+End
+
+Script 2:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	PlayCry SPECIES_CYNDAQUIL 0
+	WaitCry
+	SetFlag 164
+	WildBattleSp SPECIES_CYNDAQUIL 5 0
+	ClearFlag 164
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	ReleaseAll
+End
+
+Script 3:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	PlayCry SPECIES_TORCHIC 0
+	WaitCry
+	SetFlag 164
+	WildBattleSp SPECIES_TORCHIC 5 0
+	ClearFlag 164
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	ReleaseAll
+End
+
+Script 4:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	PlayCry SPECIES_CHIMCHAR 0
+	WaitCry
+	SetFlag 164
+	WildBattleSp SPECIES_CHIMCHAR 5 0
+	ClearFlag 164
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	ReleaseAll
+End
+
+Script 5:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	PlayCry SPECIES_TEPIG 0
+	WaitCry
+	SetFlag 164
+	WildBattleSp SPECIES_TEPIG 5 0
+	ClearFlag 164
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	ReleaseAll
+End
+
+Script 6:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	PlayCry SPECIES_FENNEKIN 0
+	WaitCry
+	SetFlag 164
+	WildBattleSp SPECIES_FENNEKIN 5 0
+	ClearFlag 164
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	ReleaseAll
+End
+
+Script 7:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	PlayCry SPECIES_LITTEN 0
+	SetFlag 164
+	WildBattleSp SPECIES_LITTEN 5 0
+	ClearFlag 164
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	ReleaseAll
+End
+
+Script 8:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	PlayCry SPECIES_SCORBUNNY 0
+	WaitCry
+	SetFlag 164
+	WildBattleSp SPECIES_SCORBUNNY 5 0
+	ClearFlag 164
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	ReleaseAll
+End
+
+Script 9:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	PlayCry SPECIES_FUECOCO 0
+	WaitCry
+	SetFlag 164
+	WildBattleSp SPECIES_FUECOCO 5 0
+	ClearFlag 164
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	ReleaseAll
+End
+
+Script 10:
+	GetRandom 0x800C 100
+	CompareVarValue 0x800C 10
+	JumpIf LESS Function#2
+	CompareVarValue 0x800C 20
+	JumpIf LESS Function#3
+	CompareVarValue 0x800C 30
+	JumpIf LESS Function#4
+	CompareVarValue 0x800C 40
+	JumpIf LESS Function#5
+	CompareVarValue 0x800C 50
+	JumpIf LESS Function#6
+	CompareVarValue 0x800C 60
+	JumpIf LESS Function#7
+	CompareVarValue 0x800C 70
+	JumpIf LESS Function#8
+	CompareVarValue 0x800C 80
+	JumpIf LESS Function#9
+	CompareVarValue 0x800C 90
+	JumpIf LESS Function#10
+	CompareVarValue 0x800C 100
+	JumpIf LESS Function#11
+End
+
+Script 11:
+End
+
+//===== FUNCTIONS =====//
+Function 1:
+	LostBattle
+	ReleaseAll
+End
+
+Function 2:
+	RemoveOW Overworld.1
+	RemoveOW Overworld.3
+	RemoveOW Overworld.4
+	RemoveOW Overworld.5
+	RemoveOW Overworld.7
+	RemoveOW Overworld.8
+	RemoveOW Overworld.9
+End
+
+Function 3:
+	RemoveOW Overworld.1
+	RemoveOW Overworld.2
+	RemoveOW Overworld.3
+	RemoveOW Overworld.4
+	RemoveOW Overworld.5
+	RemoveOW Overworld.8
+End
+
+Function 4:
+	RemoveOW Overworld.1
+	RemoveOW Overworld.3
+	RemoveOW Overworld.4
+	RemoveOW Overworld.5
+	RemoveOW Overworld.8
+End
+
+Function 5:
+	RemoveOW Overworld.1
+	RemoveOW Overworld.2
+	RemoveOW Overworld.3
+	RemoveOW Overworld.5
+	RemoveOW Overworld.6
+End
+
+Function 6:
+	RemoveOW Overworld.1
+	RemoveOW Overworld.3
+End
+
+Function 7:
+	RemoveOW Overworld.3
+	RemoveOW Overworld.8
+End
+
+Function 8:
+	RemoveOW Overworld.1
+	RemoveOW Overworld.5
+End
+
+Function 9:
+	RemoveOW Overworld.3
+End
+
+Function 10:
+	RemoveOW Overworld.1
+End
+
+Function 11:
+	ReleaseAll
+End
+
+//===== ACTIONS =====//
