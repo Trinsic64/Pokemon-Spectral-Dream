@@ -30,6 +30,9 @@ Maps/Overworld-Maps/Asteria/Asteria.obj
 Maps/Overworld-Maps/Asteria/Asteria.pdsmap
 src/Spectral-Dream/Maps/Asteria/Overworld/Overworld.pdsmap
 
+# DSPRE Rom Contents
+ROM/Pokemon-Spectral-Dream_DSPRE_contents/
+
 # Large ROM data files
 ROM/Pokemon-Spectral-Dream_DSPRE_contents/data/a/0/6/5
 src/Spectral-Dream/ROM/Pokemon-Spectral-Dream_DSPRE_contents/data/a/0/6/5
