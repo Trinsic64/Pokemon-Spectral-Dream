@@ -3,8 +3,13 @@
 This tool keeps the project’s header metadata **up-to-date** and **easy for new developers to query**.
 
 - **Header CSV**: `Data/Header-Data/Header-Data-Main.csv`
-- **Source of truth**: `ROM/Pokemon-Spectral-Dream_DSPRE_contents/`
+- **Source of truth (local-only)**: `ROM/Pokemon-Spectral-Dream_DSPRE_contents/` (generated from your own ROM; not in git)
 - **Per-header notes**: `Data/Header-Data/Headers/####_InternalName/`
+
+## Setup (one-time)
+
+1) Place your ROM at `ROM/Pokemon-Spectral-Dream.nds` (ignored by git).
+2) Extract/unpack using DSPRE (or your preferred workflow) into `ROM/Pokemon-Spectral-Dream_DSPRE_contents/` (ignored by git).
 
 ## Quick start
 
@@ -41,5 +46,6 @@ python Tools/Update-Header-Data-Script/update_header_data.py validate
 
 ## Editing policy
 
-The tool always overwrites columns that have a 1:1 ROM source (e.g. `Matrix`, `Script File`, `Event File`, `Wild File`, etc.).\n+It preserves curated fields like `Type` unless blank/`TBD`.
+The tool always overwrites columns that have a 1:1 ROM source (e.g. `Matrix`, `Script File`, `Event File`, `Wild File`, etc.).
 
+It preserves curated fields like `Type` unless blank/`TBD`.

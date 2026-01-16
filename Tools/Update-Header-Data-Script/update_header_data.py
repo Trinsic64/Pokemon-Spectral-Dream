@@ -39,6 +39,7 @@ DEFAULT_REPORTS_DIR = TOOL_DIR / "reports"
 DEFAULT_HEADER_CSV = DEFAULT_REPO_ROOT / "Data" / "Header-Data" / "Header-Data-Main.csv"
 DEFAULT_HEADER_NOTES_DIR = DEFAULT_REPO_ROOT / "Data" / "Header-Data" / "Headers"
 DEFAULT_DSPRE_ROOT = DEFAULT_REPO_ROOT / "ROM" / "Pokemon-Spectral-Dream_DSPRE_contents"
+DEFAULT_ROM_NDS = DEFAULT_REPO_ROOT / "ROM" / "Pokemon-Spectral-Dream.nds"
 
 
 # --------------------------------------------------------------------------------------
@@ -401,7 +402,29 @@ def run_update(
     if not csv_path.exists():
         raise FileNotFoundError(f"CSV not found: {csv_path}")
     if not dspre_root.exists():
-        raise FileNotFoundError(f"DSPRE contents not found: {dspre_root}")
+        # NOTE: `dspre_root` is intentionally NOT in the repo. It must be generated locally
+        # from a user-supplied ROM (see ROM/README.md).
+        rom_guess = dspre_root.parent / "Pokemon-Spectral-Dream.nds"
+        if rom_guess == DEFAULT_ROM_NDS:
+            rom_hint = f"- Expected ROM path: `{rom_guess}` (your own legally obtained ROM; ignored by git)"
+        else:
+            rom_hint = f"- If you are using the default layout, place your ROM at: `{DEFAULT_ROM_NDS}` (ignored by git)"
+
+        raise FileNotFoundError(
+            "\n".join(
+                [
+                    f"DSPRE contents not found: {dspre_root}",
+                    "",
+                    "This repo does not include extracted ROM contents. To use this tool:",
+                    "1) Put your own ROM at `ROM/Pokemon-Spectral-Dream.nds`",
+                    "2) Use DSPRE (or your extraction workflow) to extract/unpack into:",
+                    "   `ROM/Pokemon-Spectral-Dream_DSPRE_contents/`",
+                    "3) Re-run this command (or pass `--dspre-root <path>`).",
+                    "",
+                    rom_hint,
+                ]
+            )
+        )
 
     dyn_dir = dspre_root / "unpacked" / "dynamicHeaders"
     if not dyn_dir.exists():
