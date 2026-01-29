@@ -1,0 +1,44 @@
+newmtl grass01ax
+map_Kd grass01ax.png
+map_d grass01ax.png
+
+newmtl michi01a
+map_Kd michi01a.png
+map_d michi01a.png
+
+newmtl imped_lm51
+map_Kd imped_lm51.png
+map_d imped_lm51.png
+
+newmtl d0gake_heri
+map_Kd d0gake_heri.png
+map_d d0gake_heri.png
+
+newmtl g1_treeb_lm1
+map_Kd g1_treeb_lm1.png
+map_d g1_treeb_lm1.png
+
+newmtl g1_treea_lm1
+map_Kd g1_treea_lm1.png
+map_d g1_treea_lm1.png
+
+newmtl Very_Tall_Grass_Top
+map_Kd Very_Tall_Grass_Top.png
+map_d Very_Tall_Grass_Top.png
+
+newmtl Very_Tall_Grass_Middle
+map_Kd Very_Tall_Grass_Middle.png
+map_d Very_Tall_Grass_Middle.png
+
+newmtl Very_Tall_Grass_Bottom
+map_Kd Very_Tall_Grass_Bottom.png
+map_d Very_Tall_Grass_Bottom.png
+
+newmtl puddleg
+map_Kd puddleg.png
+map_d puddleg.png
+
+newmtl grass03ax
+map_Kd grass03ax.png
+map_d grass03ax.png
+

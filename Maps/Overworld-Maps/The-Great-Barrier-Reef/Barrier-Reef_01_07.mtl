@@ -1,0 +1,64 @@
+newmtl sea_zanami2
+map_Kd sea_zanami2.png
+map_d sea_zanami2.png
+
+newmtl sea_zanami
+map_Kd sea_zanami.png
+map_d sea_zanami.png
+
+newmtl sea_mizu1_1
+map_Kd sea_mizu1_1.png
+map_d sea_mizu1_1.png
+
+newmtl sea_jimen
+map_Kd sea_jimen.png
+map_d sea_jimen.png
+
+newmtl kusa_ec3
+map_Kd kusa_ec3.png
+map_d kusa_ec3.png
+
+newmtl kusa_ec1
+map_Kd kusa_ec1.png
+map_d kusa_ec1.png
+
+newmtl kusa_ec2
+map_Kd kusa_ec2.png
+map_d kusa_ec2.png
+
+newmtl wall01_g
+map_Kd wall01_g.png
+map_d wall01_g.png
+
+newmtl beach01
+map_Kd beach01.png
+map_d beach01.png
+
+newmtl wallkn_g
+map_Kd wallkn_g.png
+map_d wallkn_g.png
+
+newmtl bridge_b
+map_Kd bridge_b.png
+map_d bridge_b.png
+
+newmtl bridge_c
+map_Kd bridge_c.png
+map_d bridge_c.png
+
+newmtl h_kage
+map_Kd h_kage.png
+map_d h_kage.png
+
+newmtl saku01a
+map_Kd saku01a.png
+map_d saku01a.png
+
+newmtl sea_simi_1
+map_Kd sea_simi_1.png
+map_d sea_simi_1.png
+
+newmtl gura_hasi01
+map_Kd gura_hasi01.png
+map_d gura_hasi01.png
+
