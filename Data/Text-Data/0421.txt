@@ -1,0 +1,74 @@
+# Key: 0xA009
+       
+      
+      
+          
+        
+          
+        
+         
+        
+         
+               
+           
+          
+   
+           
+        
+       
+      
+       
+       
+      
+       
+             
+                           
+                          
+                          
+                              
+                            
+                       
+             
+                   
+                   
+              
+                    
+            
+                   
+      
+                               
+                 
+                
+{ALN_CENTER, 0}DELETE RECORD
+{ALN_CENTER, 0}RETURN
+{STRVAR_1, 50, 0, 0}.
+{STRVAR_1, 3, 1, 0}
+{STRVAR_1, 53, 0, 0} wins
+{STRVAR_1, 50, 0, 0} wins
+{STRVAR_1, 55, 0, 0}
+{STRVAR_1, 55, 0, 0}
+Select the record you want to\ndelete, then press the A or X Button.
+Delete {STRVAR_1, 3, 0, 0}’s record?\nAre you sure?
+  
+   
+Your own record can’t be deleted.
+{ALN_CENTER, 0}Battle Tower Record
+{ALN_CENTER, 0}Single Battle Win-Streak
+{ALN_CENTER, 0}Battle Tower Record
+{ALN_CENTER, 0}Double Battle Win-Streak
+{ALN_CENTER, 0}Battle Tower Record
+{ALN_CENTER, 0}Multi Battle Win-Streak
+{ALN_CENTER, 0}Battle Tower Record
+{ALN_CENTER, 0}Link Multi Battle Win-Streak
+{ALN_CENTER, 0}Battle Tower Record
+{ALN_CENTER, 0}Wi-Fi Battle Win-Streak
+{ALN_CENTER, 0}Battle Tower Record
+{ALN_CENTER, 0}Average Win-Streak Record
+{ALN_CENTER, 0}Pokémon Record
+{ALN_CENTER, 0}The number of Pokémon defeated.
+{ALN_CENTER, 0}Pokémon Record
+{ALN_CENTER, 0}Pokémon caught using Poké Balls.
+{ALN_CENTER, 0}Pokémon Record
+{ALN_CENTER, 0}Pokémon that were hatched from Eggs.
+{ALN_CENTER, 0}Pokémon Record
+{ALN_CENTER, 0}Pokémon that were caught fishing.
