@@ -1,0 +1,108 @@
+,Decomp Names,DSPRE Names,Function,Notes
+0000,FaceNorth,FaceNorth,Event faces up,
+0001,FaceSouth,FaceSouth,Event faces down,
+0002,FaceWest,FaceWest,Event faces left,
+0003,FaceEast,FaceEast,Event faces right,
+0004,WalkSlowerNorth,WalkNorth32,Event faces up and moves northwards at 1 tile per 32 frames,Equivalent to 0.94 tiles per second.
+0005,WalkSlowerSouth,WalkSouth32,Event faces down and moves southwards at 1 tile per 32 frames,Equivalent to 0.94 tiles per second.
+0006,WalkSlowerWest,WalkWest32,Event faces left and moves westwards at 1 tile per 32 frames,Equivalent to 0.94 tiles per second.
+0007,WalkSlowerEast,WalkEast32,Event faces right and moves eastwards at 1 tile per 32 frames,Equivalent to 0.94 tiles per second.
+0008,WalkSlowNorth,WalkNorth16,Event faces up and moves northwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+0009,WalkSlowSouth,WalkSouth16,Event faces down and moves southwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+000A,WalkSlowWest,WalkWest16,Event faces left and moves westwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+000B,WalkSlowEast,WalkEast16,Event faces right and moves eastwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+000C,WalkNormalNorth,WalkNorth8,Event faces up and moves northwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second. This should be taken as the standard speed.
+000D,WalkNormalSouth,WalkSouth8,Event faces down and moves southwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second. This should be taken as the standard speed.
+000E,WalkNormalWest,WalkWest8,Event faces left and moves westwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second. This should be taken as the standard speed.
+000F,WalkNormalEast,WalkEast8,Event faces right and moves eastwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second. This should be taken as the standard speed.
+0010,WalkFastNorth,WalkNorth4,Event faces up and moves northwards at 1 tile per 4 frames,Equivalent to 7.5 tiles per second.
+0011,WalkFastSouth,WalkSouth4,Event faces down and moves southwards at 1 tile per 4 frames,Equivalent to 7.5 tiles per second.
+0012,WalkFastWest,WalkWest4,Event faces left and moves westwards at 1 tile per 4 frames,Equivalent to 7.5 tiles per second.
+0013,WalkFastEast,WalkEast4,Event faces right and moves eastwards at 1 tile per 4 frames,Equivalent to 7.5 tiles per second.
+0014,WalkFasterNorth,WalkNorth2,Event faces up and moves northwards at 1 tile per 2 frames,Equivalent to 15 tiles per second.
+0015,WalkFasterSouth,WalkSouth2,Event faces down and moves southwards at 1 tile per 2 frames,Equivalent to 15 tiles per second.
+0016,WalkFasterWest,WalkWest2,Event faces left and moves westwards at 1 tile per 2 frames,Equivalent to 15 tiles per second.
+0017,WalkFasterEast,WalkEast2,Event faces right and moves eastwards at 1 tile per 2 frames,Equivalent to 15 tiles per second.
+0018,WalkOnSpotSlowerNorth,WalkOnSpotNorth32,Event faces up and moves on the spot at 1 tile per 32 frames,Equivalent to 0.94 tiles per second.
+0019,WalkOnSpotSlowerSouth,WalkOnSpotSouth32,Event faces down and moves on the spot at 1 tile per 32 frames,Equivalent to 0.94 tiles per second.
+001A,WalkOnSpotSlowerWest,WalkOnSpotWest32,Event faces left and moves on the spot at 1 tile per 32 frames,Equivalent to 0.94 tiles per second.
+001B,WalkOnSpotSlowerEast,WalkOnSpotEast32,Event faces right and moves on the spot at 1 tile per 32 frames,Equivalent to 0.94 tiles per second.
+001C,WalkOnSpotSlowNorth,WalkOnSpotNorth16,Event faces up and moves on the spot at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+001D,WalkOnSpotSlowSouth,WalkOnSpotSouth16,Event faces down and moves on the spot at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+001E,WalkOnSpotSlowWest,WalkOnSpotWest16,Event faces left and moves on the spot at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+001F,WalkOnSpotSlowEast,WalkOnSpotEast16,Event faces right and moves on the spot at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+0020,WalkOnSpotNormalNorth,WalkOnSpotNorth8,Event faces up and moves on the spot at 1 tile per 8 frames,Equivalent to 3.75 tiles per second. This should be taken as the standard speed.
+0021,WalkOnSpotNormalSouth,WalkOnSpotSouth8,Event faces down and moves on the spot at 1 tile per 8 frames,Equivalent to 3.75 tiles per second. This should be taken as the standard speed.
+0022,WalkOnSpotNormalWest,WalkOnSpotWest8,Event faces left and moves on the spot at 1 tile per 8 frames,Equivalent to 3.75 tiles per second. This should be taken as the standard speed.
+0023,WalkOnSpotNormalEast,WalkOnSpotEast8,Event faces right and moves on the spot at 1 tile per 8 frames,Equivalent to 3.75 tiles per second. This should be taken as the standard speed.
+0024,WalkOnSpotFastNorth,WalkOnSpotNorth4,Event faces up and moves on the spot at 1 tile per 4 frames,Equivalent to 7.5 tiles per second.
+0025,WalkOnSpotFastSouth,WalkOnSpotSouth4,Event faces down and moves on the spot at 1 tile per 4 frames,Equivalent to 7.5 tiles per second.
+0026,WalkOnSpotFastWest,WalkOnSpotWest4,Event faces left and moves on the spot at 1 tile per 4 frames,Equivalent to 7.5 tiles per second.
+0027,WalkOnSpotFastEast,WalkOnSpotEast4,Event faces right and moves on the spot at 1 tile per 4 frames,Equivalent to 7.5 tiles per second.
+0028,WalkOnSpotFasterNorth,WalkOnSpotNorth2,Event faces up and moves on the spot at 1 tile per 2 frames,Equivalent to 15 tiles per second.
+0029,WalkOnSpotFasterSouth,WalkOnSpotSouth2,Event faces down and moves on the spot at 1 tile per 2 frames,Equivalent to 15 tiles per second.
+002A,WalkOnSpotFasterWest,WalkOnSpotWest2,Event faces left and moves on the spot at 1 tile per 2 frames,Equivalent to 15 tiles per second.
+002B,WalkOnSpotFasterEast,WalkOnSpotEast2,Event faces right and moves on the spot at 1 tile per 2 frames,Equivalent to 15 tiles per second.
+002C,JumpOnSpotSlowNorth,JumpOnSpotNorth16,Event faces up and jumps on the spot at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+002D,JumpOnSpotSlowSouth,JumpOnSpotSouth16,Event faces down and jumps on the spot at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+002E,JumpOnSpotSlowWest,JumpOnSpotWest16,Event faces left and jumps on the spot at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+002F,JumpOnSpotSlowEast,JumpOnSpotEast16,Event faces right and jumps on the spot at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+0030,JumpOnSpotFastNorth,JumpOnSpotNorth8,Event faces up and jumps on the spot at 1 tile per 8 frames,Equivalent to 3.75 tiles per second.
+0031,JumpOnSpotFastSouth,JumpOnSpotSouth8,Event faces down and jumps on the spot at 1 tile per 8 frames,Equivalent to 3.75 tiles per second.
+0032,JumpOnSpotFastWest,JumpOnSpotWest8,Event faces left and jumps on the spot at 1 tile per 8 frames,Equivalent to 3.75 tiles per second.
+0033,JumpOnSpotFastEast,JumpOnSpotEast8,Event faces right and jumps on the spot at 1 tile per 8 frames,Equivalent to 3.75 tiles per second.
+0034,JumpNearFastNorth,JumpNorth8,Event faces up and jumps northwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second.
+0035,JumpNearFastSouth,JumpSouth8,Event faces down and jumps southwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second.
+0036,JumpNearFastWest,JumpWest8,Event faces left and jumps westwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second.
+0037,JumpNearFastEast,JumpEast8,Event faces right and jumps eastwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second.
+0038,JumpFarNorth,JumpFarNorth,Event faces up and jumps 2 tiles northwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second; 16 frames in total.
+0039,JumpFarSouth,JumpFarSouth,Event faces down and jumps 2 tiles southwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second; 16 frames in total.
+003A,JumpFarWest,JumpFarWest,Event faces left and jumps 2 tiles westwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second; 16 frames in total.
+003B,JumpFarEast,JumpFarEast,Event faces right and jumps 2 tiles eastwards at 1 tile per 8 frames,Equivalent to 3.75 tiles per second; 16 frames in total.
+003C,Delay1,Delay1,Event waits for 1 frame,Equivalent to ~0.033 seconds (1/30s).
+003D,Delay2,Delay2,Event waits for 2 frames,Equivalent to ~0.067 seconds (2/30s).
+003E,Delay4,Delay4,Event waits for 4 frames,Equivalent to ~0.133 seconds (4/30s).
+003F,Delay8,Delay8,Event waits for 8 frames,Equivalent to ~0.267 seconds (8/30s).
+0040,Delay15,Delay15,Event waits for 15 frames,Equivalent to 0.5 seconds (15/30s).
+0041,Delay16,Delay16,Event waits for 16 frames,Equivalent to ~0.533 seconds (16/30s).
+0042,Delay32,Delay32,Event waits for 32 frames,Equivalent to ~1.067 seconds (32/30s).
+0043,WarpOut,TeleportUp,Makes overworld ascend to the sky. No rotation involved.,
+0044,WarpIn,TeleportDown,Makes overworld fall from the sky. No rotation involved.,
+0045,SetInvisible,SetInvisible,Makes event invisible. It can still be interacted with and will still have collision.,
+0046,SetVisible,SetVisible,Makes event visible.,
+0047,LockDir,LockDir,"Prevents event from changing direction. It can still move, but it will always face the same direction.",
+0048,UnlockDir,ReleaseDir,Allows event to change direction again.,
+0049,PauseAnimation,PauseAnimation,"Disables event's animation. It can still move, but it will not animate.",
+004A,ResumeAnimation,ResumeAnimation,Resumes event's animation.,
+004B,EmoteExclamationMark,EmoteExclamation,Shows an exclamation mark above the event's head. Used commonly to indicate that the event is surprised or has noticed something.,
+004C,WalkSlightlyFastNorth,WalkNorth6,Event faces up and walks northwards at 1 tile per 6 frames,Equivalent to 5 tiles per second.
+004D,WalkSlightlyFastSouth,WalkSouth6,Event faces down and walks southwards at 1 tile per 6 frames,Equivalent to 5 tiles per second.
+004E,WalkSlightlyFastWest,WalkWest6,Event faces right and walks westwards at 1 tile per 6 frames,Equivalent to 5 tiles per second.
+004F,WalkSlightlyFastEast,WalkEast6,Event faces right and walks eastwards at 1 tile per 6 frames,Equivalent to 5 tiles per second.
+0050,WalkSlightlyFasterNorth,WalkNorth3,Event faces up and walks northwards at 1 tile per 3 frames,Equivalent to 10 tiles per second.
+0051,WalkSlightlyFasterSouth,WalkSouth3,Event faces down and walks southwards at 1 tile per 3 frames,Equivalent to 10 tiles per second.
+0052,WalkSlightlyFasterWest,WalkWest3,Event faces left and walks westwards at 1 tile per 3 frames,Equivalent to 10 tiles per second.
+0053,WalkSlightlyFasterEast,WalkEast3,Event faces right and walks eastwards at 1 tile per 3 frames,Equivalent to 10 tiles per second.
+0054,WalkFastestNorth,WalkNorth1,Event faces up and walks nothwards at 1 tile per frame,Equivalent to 30 tiles per second. Walk animation isn't triggered.
+0055,WalkFastestSouth,WalkSouth1,Event faces down and walks southwards at 1 tile per frame,Equivalent to 30 tiles per second. Walk animation isn't triggered.
+0056,WalkFastestWest,WalkWest1,Event faces left and walks westwards at 1 tile per frame,Equivalent to 30 tiles per second. Walk animation isn't triggered.
+0057,WalkFastestEast,WalkEast1,Event faces right and walks eastwards at 1 tile per frame,Equivalent to 30 tiles per second. Walk animation isn't triggered.
+0058,RunNorth,RunNorth,Event faces up and walks northwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second. Walk animation isn't triggered.
+0059,RunSouth,RunSouth,Event faces down and walks southwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second. Walk animation isn't triggered.
+005A,RunWest,RunWest,Event faces left and walks westwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second. Walk animation isn't triggered.
+005B,RunEast,RunEast,Event faces right and walks eastwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second. Walk animation isn't triggered.
+005C,JumpNearSlowWest,JumpWest16,Event faces left and jumps westwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+005D,JumpNearSlowEast,JumpEast16,Event faces right and jumps eastwards at 1 tile per 16 frames,Equivalent to 1.875 tiles per second.
+005E,JumpFartherWest,JumpVeryFarWest,Event faces left and jumps 3 tiles westwards at 1 tile per 4 frames,Equivalent to 10 tiles per second. 12 frames in total.
+005F,JumpFartherEast,JumpVeryFarEast,Event faces right and jumps 3 tiles eastwards at 1 tile per 4 frames,Equivalent to 10 tiles per second. 12 frames in total.
+0060,WalkEverSoSlightlyFastNorth,WalkNorth7,Event faces up and moves northwards at 1 tile per 7 frames,Equivalent to 4.29 tiles per second.
+0061,WalkEverSoSlightlyFastSouth,WalkSouth7,Event faces down and moves southwards at 1 tile per 7 frames,Equivalent to 4.29 tiles per second.
+0062,WalkEverSoSlightlyFastWest,WalkWest7,Event faces left and moves westwards at 1 tile per 7 frames,Equivalent to 4.29 tiles per second.
+0063,WalkEverSoSlightlyFastEast,WalkEast7,Event faces right and moves eastwards at 1 tile per 7 frames,Equivalent to 4.29 tiles per second.
+0064,NurseJoyBow,NurseJoyBow,Nurse Joy bows. Used in the Pokémon Center.,
+0065,RevealTrainer,RevealTrainer,Used by the ninja boys when popping out of the ground.,
+0066,PlayerGive,PlayerGive,,
+0067,EmoteQuestionMark,EmoteDoubleExclamation,Shows a double exclamation mark above the event's head.,
+0068,PlayerReceive,PlayerReceive,,
+0099,,EmoteExclamation2,Shows an exclamation mark above the event's head. Duplicate of EmoteExclamation (0x004B).,
+00FE,End,End,Action end marker. Used to indicate the end of a movement sequence.,

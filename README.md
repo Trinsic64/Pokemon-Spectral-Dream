@@ -4,6 +4,22 @@ Pokemon Spectral Dream is a Nintendo DS ROM-hack project with a repo focused on 
 
 This repository contains **project data and tools**, but **does not include** any Nintendo DS ROM files or extracted ROM contents.
 
+## Images
+
+<!-- markdownlint-disable MD033 -->
+<p>
+  <img src="./PDSMS-Image-1.png" alt="PDSMS-Image-1" width="420" />
+  <img src="./PDSMS-Image-2.png" alt="PDSMS-Image-2" width="420" />
+</p>
+<p>
+  <img src="./PDSMS-Image-3.png" alt="PDSMS-Image-3" width="420" />
+  <img src="./PDSMS-Image-4.png" alt="PDSMS-Image-4" width="420" />
+</p>
+<p>
+  <img src="./PDSMS-Image-5.png" alt="PDSMS-Image-5" width="420" />
+</p>
+<!-- markdownlint-enable MD033 -->
+
 ## Legal / distribution note
 
 - ROMs and extracted ROM contents (for example, DSPRE unpack folders) are **not distributed** in this repo.
