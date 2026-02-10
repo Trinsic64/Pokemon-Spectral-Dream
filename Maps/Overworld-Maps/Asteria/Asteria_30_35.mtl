@@ -22,6 +22,10 @@ newmtl gake1_1
 map_Kd gake1_1.png
 map_d gake1_1.png
 
+newmtl yamagake01
+map_Kd yamagake01.png
+map_d yamagake01.png
+
 newmtl grass01ax
 map_Kd grass01ax.png
 map_d grass01ax.png
@@ -30,6 +34,10 @@ newmtl michi01a
 map_Kd michi01a.png
 map_d michi01a.png
 
+newmtl michi01b
+map_Kd michi01b.png
+map_d michi01b.png
+
 newmtl mori01s
 map_Kd mori01s.png
 map_d mori01s.png
@@ -37,6 +45,10 @@ map_d mori01s.png
 newmtl kaidan01a
 map_Kd kaidan01a.png
 map_d kaidan01a.png
+
+newmtl gake01a
+map_Kd gake01a.png
+map_d gake01a.png
 
 newmtl t_tree2_c_lm24
 map_Kd t_tree2_c_lm24.png

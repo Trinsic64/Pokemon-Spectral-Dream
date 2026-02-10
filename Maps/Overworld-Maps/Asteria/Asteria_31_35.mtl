@@ -1,27 +1,3 @@
-newmtl lav
-map_Kd lav.png
-map_d lav.png
-
-newmtl lav2
-map_Kd lav2.png
-map_d lav2.png
-
-newmtl ki02c
-map_Kd ki02c.png
-map_d ki02c.png
-
-newmtl ki03ax
-map_Kd ki03ax.png
-map_d ki03ax.png
-
-newmtl ki03dx
-map_Kd ki03dx.png
-map_d ki03dx.png
-
-newmtl ki03bx
-map_Kd ki03bx.png
-map_d ki03bx.png
-
 newmtl gake01
 map_Kd gake01.png
 map_d gake01.png
@@ -66,10 +42,6 @@ newmtl egrass
 map_Kd egrass.png
 map_d egrass.png
 
-newmtl dansa01a
-map_Kd dansa01a.png
-map_d dansa01a.png
-
 newmtl t_tree2_c_lm24
 map_Kd t_tree2_c_lm24.png
 map_d t_tree2_c_lm24.png
@@ -113,12 +85,4 @@ map_d t_tree2_by_lm4.png
 newmtl t_tree2_fy_lm4
 map_Kd t_tree2_fy_lm4.png
 map_d t_tree2_fy_lm4.png
-
-newmtl Rock_Climb_3
-map_Kd Rock_Climb_3.png
-map_d Rock_Climb_3.png
-
-newmtl rkage
-map_Kd rkage.png
-map_d rkage.png
 

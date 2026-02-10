@@ -1,0 +1,44 @@
+newmtl in38_hasira
+map_Kd in38_hasira.png
+map_d in38_hasira.png
+
+newmtl in38_kage
+map_Kd in38_kage.png
+map_d in38_kage.png
+
+newmtl out32_u_k1
+map_Kd out32_u_k1.png
+map_d out32_u_k1.png
+
+newmtl out32_u_k2
+map_Kd out32_u_k2.png
+map_d out32_u_k2.png
+
+newmtl out32_u_k4
+map_Kd out32_u_k4.png
+map_d out32_u_k4.png
+
+newmtl out32_u_u2
+map_Kd out32_u_u2.png
+map_d out32_u_u2.png
+
+newmtl out32_u_kaida
+map_Kd out32_u_kaida.png
+map_d out32_u_kaida.png
+
+newmtl pk_l_iwa6
+map_Kd pk_l_iwa6.png
+map_d pk_l_iwa6.png
+
+newmtl pk_l_iwa7
+map_Kd pk_l_iwa7.png
+map_d pk_l_iwa7.png
+
+newmtl pk_l_iwa3
+map_Kd pk_l_iwa3.png
+map_d pk_l_iwa3.png
+
+newmtl pk_l_iwa4
+map_Kd pk_l_iwa4.png
+map_d pk_l_iwa4.png
+

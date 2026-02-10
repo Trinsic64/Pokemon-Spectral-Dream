@@ -22,10 +22,6 @@ newmtl gake1_1
 map_Kd gake1_1.png
 map_d gake1_1.png
 
-newmtl yamagake01
-map_Kd yamagake01.png
-map_d yamagake01.png
-
 newmtl grass01ax
 map_Kd grass01ax.png
 map_d grass01ax.png

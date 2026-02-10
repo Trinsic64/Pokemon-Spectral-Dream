@@ -46,10 +46,6 @@ newmtl h_kage
 map_Kd h_kage.png
 map_d h_kage.png
 
-newmtl dansa01a
-map_Kd dansa01a.png
-map_d dansa01a.png
-
 newmtl kage_out
 map_Kd kage_out.png
 map_d kage_out.png

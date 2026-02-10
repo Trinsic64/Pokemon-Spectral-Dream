@@ -26,10 +26,6 @@ newmtl yamagake01
 map_Kd yamagake01.png
 map_d yamagake01.png
 
-newmtl kusa_ec3
-map_Kd kusa_ec3.png
-map_d kusa_ec3.png
-
 newmtl gake_michi
 map_Kd gake_michi.png
 map_d gake_michi.png
@@ -37,14 +33,6 @@ map_d gake_michi.png
 newmtl grass01ax
 map_Kd grass01ax.png
 map_d grass01ax.png
-
-newmtl kusa_ec1
-map_Kd kusa_ec1.png
-map_d kusa_ec1.png
-
-newmtl kusa_ec2
-map_Kd kusa_ec2.png
-map_d kusa_ec2.png
 
 newmtl t_tree2_c_lm24
 map_Kd t_tree2_c_lm24.png

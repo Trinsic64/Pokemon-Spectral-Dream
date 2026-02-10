@@ -14,14 +14,6 @@ newmtl sea_jimen
 map_Kd sea_jimen.png
 map_d sea_jimen.png
 
-newmtl gake01
-map_Kd gake01.png
-map_d gake01.png
-
-newmtl gake1_1
-map_Kd gake1_1.png
-map_d gake1_1.png
-
 newmtl kusa_ec3
 map_Kd kusa_ec3.png
 map_d kusa_ec3.png
@@ -65,6 +57,18 @@ map_d t_tree2_b_lm16.png
 newmtl t_tree2_f_lm8
 map_Kd t_tree2_f_lm8.png
 map_d t_tree2_f_lm8.png
+
+newmtl t_tree2_ex_lm6
+map_Kd t_tree2_ex_lm6.png
+map_d t_tree2_ex_lm6.png
+
+newmtl t_tree2_bx_lm6
+map_Kd t_tree2_bx_lm6.png
+map_d t_tree2_bx_lm6.png
+
+newmtl t_tree2_fx_lm6
+map_Kd t_tree2_fx_lm6.png
+map_d t_tree2_fx_lm6.png
 
 newmtl t_tree2_ey_lm4
 map_Kd t_tree2_ey_lm4.png

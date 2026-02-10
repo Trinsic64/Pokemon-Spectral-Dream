@@ -1,0 +1,20 @@
+newmtl Material
+map_Kd Material.png
+map_d Material.png
+
+newmtl body
+map_Kd body.png
+map_d body.png
+
+newmtl eye
+map_Kd eye.png
+map_d eye.png
+
+newmtl moon
+map_Kd moon.png
+map_d moon.png
+
+newmtl ripple
+map_Kd ripple.png
+map_d ripple.png
+

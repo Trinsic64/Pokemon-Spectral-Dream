@@ -94,15 +94,3 @@ newmtl t_tree2_fy_lm4
 map_Kd t_tree2_fy_lm4.png
 map_d t_tree2_fy_lm4.png
 
-newmtl ga_s_futa
-map_Kd ga_s_futa.png
-map_d ga_s_futa.png
-
-newmtl ga_s01a_TRANS
-map_Kd ga_s01a_TRANS.png
-map_d ga_s01a_TRANS.png
-
-newmtl cliff01
-map_Kd cliff01.png
-map_d cliff01.png
-
