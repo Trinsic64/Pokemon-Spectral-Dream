@@ -1,0 +1,428 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream
+ * Game: HGSS
+ * File: 0965
+ * Generated: 19/02/2026
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+Jump Function#1
+
+//===== FUNCTIONS =====//
+Function 1:
+	// Category menu
+	Message 0
+	ListLocalText 1 1 0 1 0x800C
+	AddListOption 1 9 0
+	AddListOption 2 9 1
+	AddListOption 3 9 2
+	AddListOption 4 9 3
+	AddListOption 5 9 4
+	AddListOption 6 9 5
+	AddListOption 7 9 6
+	AddListOption 8 9 7
+	AddListOption 10 11 8
+	ShowList
+	SetVarFromVariable 0x8008 0x800C
+	CloseMessage
+	CompareVarValue 0x8008 255
+	JumpIf EQUAL Function#20
+	CompareVarValue 0x8008 8
+	JumpIf EQUAL Function#20
+	CompareVarValue 0x8008 0
+	JumpIf EQUAL Function#10
+	CompareVarValue 0x8008 1
+	JumpIf EQUAL Function#11
+	CompareVarValue 0x8008 2
+	JumpIf EQUAL Function#12
+	CompareVarValue 0x8008 3
+	JumpIf EQUAL Function#13
+	CompareVarValue 0x8008 4
+	JumpIf EQUAL Function#14
+	CompareVarValue 0x8008 5
+	JumpIf EQUAL Function#15
+	CompareVarValue 0x8008 6
+	JumpIf EQUAL Function#16
+	CompareVarValue 0x8008 7
+	JumpIf EQUAL Function#17
+Jump Function#20
+
+Function 2:
+	// Item browser
+	Call Function#3
+	CompareVarValue 0x800E 0
+	JumpIf EQUAL Function#21
+
+	// Show page number (1-indexed)
+	SetVarFromVariable 0x800C 0x800A
+	IncrementVar 0x800C 1
+	TextNumber 0 0x800C
+	Message 12
+
+	ListLocalText 1 1 0 1 0x800C
+	CompareVarValue 0x800E 1
+	JumpIf LESS Function#22
+	AddListOption 20 34 0
+	CompareVarValue 0x800E 2
+	JumpIf LESS Function#22
+	AddListOption 21 34 1
+	CompareVarValue 0x800E 3
+	JumpIf LESS Function#22
+	AddListOption 22 34 2
+	CompareVarValue 0x800E 4
+	JumpIf LESS Function#22
+	AddListOption 23 34 3
+	CompareVarValue 0x800E 5
+	JumpIf LESS Function#22
+	AddListOption 24 34 4
+	CompareVarValue 0x800E 6
+	JumpIf LESS Function#22
+	AddListOption 25 34 5
+	CompareVarValue 0x800E 7
+	JumpIf LESS Function#22
+	AddListOption 26 34 6
+	CompareVarValue 0x800E 8
+	JumpIf LESS Function#22
+	AddListOption 27 34 7
+
+Function 22:
+	AddListOption 28 31 8
+	AddListOption 29 32 9
+	AddListOption 30 33 10
+	ShowList
+	SetVarFromVariable 0x8008 0x800C
+	CloseMessage
+
+	CompareVarValue 0x8008 255
+	JumpIf EQUAL Function#1
+	CompareVarValue 0x8008 10
+	JumpIf EQUAL Function#1
+	CompareVarValue 0x8008 8
+	JumpIf EQUAL Function#30
+	CompareVarValue 0x8008 9
+	JumpIf EQUAL Function#31
+	CompareVarValue 0x8008 0
+	JumpIf EQUAL Function#40
+	CompareVarValue 0x8008 1
+	JumpIf EQUAL Function#41
+	CompareVarValue 0x8008 2
+	JumpIf EQUAL Function#42
+	CompareVarValue 0x8008 3
+	JumpIf EQUAL Function#43
+	CompareVarValue 0x8008 4
+	JumpIf EQUAL Function#44
+	CompareVarValue 0x8008 5
+	JumpIf EQUAL Function#45
+	CompareVarValue 0x8008 6
+	JumpIf EQUAL Function#46
+	CompareVarValue 0x8008 7
+	JumpIf EQUAL Function#47
+Jump Function#2
+
+Function 3:
+	// BuildPage: fills buffers 0-7 and item vars 0x8000-0x8007
+	// Inputs: 0x8009 = chosen pocket, 0x800A = page index
+	// Outputs: 0x800E = count on page (0..8), 0x800B = hasNext (0/1)
+	SetVar 0x8000 0
+	SetVar 0x8001 0
+	SetVar 0x8002 0
+	SetVar 0x8003 0
+	SetVar 0x8004 0
+	SetVar 0x8005 0
+	SetVar 0x8006 0
+	SetVar 0x8007 0
+	SetVar 0x800B 0
+	SetVar 0x800E 0
+
+	// skipWanted = pageIndex * 8
+	SetVar 0x800D 0
+	SetVarFromVariable 0x800C 0x800A
+
+Function 4:
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#5
+	IncrementVar 0x800D 8
+	DecrementVar 0x800C 1
+Jump Function#4
+
+Function 5:
+	// candidateId = 1, matchIndex = 0
+	SetVar 0x800F 1
+	SetVar 0x800C 0
+
+Function 6:
+	CompareVarValue 0x800F 2558
+	JumpIf GREATER/EQUAL Function#9
+
+	GetItemPocket 0x800F 0x8008
+	CompareVars 0x8008 0x8009
+	JumpIf DIFFERENT Function#8
+
+	CompareVars 0x800C 0x800D
+	JumpIf LESS Function#7
+
+	CompareVarValue 0x800E 8
+	JumpIf GREATER/EQUAL Function#18
+
+	CompareVarValue 0x800E 0
+	JumpIf EQUAL Function#50
+	CompareVarValue 0x800E 1
+	JumpIf EQUAL Function#51
+	CompareVarValue 0x800E 2
+	JumpIf EQUAL Function#52
+	CompareVarValue 0x800E 3
+	JumpIf EQUAL Function#53
+	CompareVarValue 0x800E 4
+	JumpIf EQUAL Function#54
+	CompareVarValue 0x800E 5
+	JumpIf EQUAL Function#55
+	CompareVarValue 0x800E 6
+	JumpIf EQUAL Function#56
+	CompareVarValue 0x800E 7
+	JumpIf EQUAL Function#57
+Jump Function#8
+
+Function 7:
+	IncrementVar 0x800C 1
+Jump Function#8
+
+Function 8:
+	IncrementVar 0x800F 1
+Jump Function#6
+
+Function 9:
+	Return
+
+Function 10:
+	// Items
+	GetItemPocket ITEM_ESCAPE_ROPE 0x8009
+	SetVar 0x800A 0
+Jump Function#2
+
+Function 11:
+	// Medicine
+	GetItemPocket ITEM_POTION 0x8009
+	SetVar 0x800A 0
+Jump Function#2
+
+Function 12:
+	// Balls
+	GetItemPocket ITEM_POKE_BALL 0x8009
+	SetVar 0x800A 0
+Jump Function#2
+
+Function 13:
+	// TMs/HMs
+	GetItemPocket ITEM_TM001 0x8009
+	SetVar 0x800A 0
+Jump Function#2
+
+Function 14:
+	// Berries
+	GetItemPocket ITEM_ORAN_BERRY 0x8009
+	SetVar 0x800A 0
+Jump Function#2
+
+Function 15:
+	// Mail
+	GetItemPocket ITEM_AIR_MAIL 0x8009
+	SetVar 0x800A 0
+Jump Function#2
+
+Function 16:
+	// Battle items
+	GetItemPocket ITEM_X_ATTACK 0x8009
+	SetVar 0x800A 0
+Jump Function#2
+
+Function 17:
+	// Key items
+	GetItemPocket ITEM_OLD_ROD 0x8009
+	SetVar 0x800A 0
+Jump Function#2
+
+Function 18:
+	// already filled 8; any further match means Next page exists
+	SetVar 0x800B 1
+	SetVar 0x800F 2558
+Jump Function#6
+
+Function 20:
+	ReleaseAll
+End
+
+Function 21:
+	// No items on this page; if pageIndex > 0, go back a page, else return to categories
+	CompareVarValue 0x800A 0
+	JumpIf EQUAL Function#23
+	DecrementVar 0x800A 1
+Jump Function#2
+
+Function 23:
+	Message 13
+	WaitButton
+	CloseMessage
+Jump Function#1
+
+Function 30:
+	// Prev page
+	CompareVarValue 0x800A 0
+	JumpIf EQUAL Function#2
+	DecrementVar 0x800A 1
+Jump Function#2
+
+Function 31:
+	// Next page
+	CompareVarValue 0x800B 1
+	JumpIf EQUAL Function#32
+	Message 35
+	WaitButton
+	CloseMessage
+Jump Function#2
+
+Function 32:
+	IncrementVar 0x800A 1
+Jump Function#2
+
+Function 40:
+	SetVarFromVariable 0x8004 0x8000
+Jump Function#60
+
+Function 41:
+	SetVarFromVariable 0x8004 0x8001
+Jump Function#60
+
+Function 42:
+	SetVarFromVariable 0x8004 0x8002
+Jump Function#60
+
+Function 43:
+	SetVarFromVariable 0x8004 0x8003
+Jump Function#60
+
+Function 44:
+	SetVarFromVariable 0x8004 0x8004
+Jump Function#60
+
+Function 45:
+	SetVarFromVariable 0x8004 0x8005
+Jump Function#60
+
+Function 46:
+	SetVarFromVariable 0x8004 0x8006
+Jump Function#60
+
+Function 47:
+	SetVarFromVariable 0x8004 0x8007
+Jump Function#60
+
+Function 50:
+	SetVarFromVariable 0x8000 0x800F
+	TextItem 0 0x800F
+	IncrementVar 0x800E 1
+	IncrementVar 0x800C 1
+Jump Function#8
+
+Function 51:
+	SetVarFromVariable 0x8001 0x800F
+	TextItem 1 0x800F
+	IncrementVar 0x800E 1
+	IncrementVar 0x800C 1
+Jump Function#8
+
+Function 52:
+	SetVarFromVariable 0x8002 0x800F
+	TextItem 2 0x800F
+	IncrementVar 0x800E 1
+	IncrementVar 0x800C 1
+Jump Function#8
+
+Function 53:
+	SetVarFromVariable 0x8003 0x800F
+	TextItem 3 0x800F
+	IncrementVar 0x800E 1
+	IncrementVar 0x800C 1
+Jump Function#8
+
+Function 54:
+	SetVarFromVariable 0x8004 0x800F
+	TextItem 4 0x800F
+	IncrementVar 0x800E 1
+	IncrementVar 0x800C 1
+Jump Function#8
+
+Function 55:
+	SetVarFromVariable 0x8005 0x800F
+	TextItem 5 0x800F
+	IncrementVar 0x800E 1
+	IncrementVar 0x800C 1
+Jump Function#8
+
+Function 56:
+	SetVarFromVariable 0x8006 0x800F
+	TextItem 6 0x800F
+	IncrementVar 0x800E 1
+	IncrementVar 0x800C 1
+Jump Function#8
+
+Function 57:
+	SetVarFromVariable 0x8007 0x800F
+	TextItem 7 0x800F
+	IncrementVar 0x800E 1
+	IncrementVar 0x800C 1
+Jump Function#8
+
+Function 60:
+	// Quantity menu for chosen item in 0x8004
+	Message 14
+	MultiLocalText 1 1 0 1 0x800C
+	AddMultiOption 15 0
+	AddMultiOption 16 1
+	AddMultiOption 17 2
+	AddMultiOption 18 3
+	ShowMulti
+	SetVarFromVariable 0x8008 0x800C
+	CloseMessage
+	CompareVarValue 0x8008 255
+	JumpIf EQUAL Function#2
+	CompareVarValue 0x8008 3
+	JumpIf EQUAL Function#2
+	CompareVarValue 0x8008 0
+	JumpIf EQUAL Function#61
+	CompareVarValue 0x8008 1
+	JumpIf EQUAL Function#62
+	CompareVarValue 0x8008 2
+	JumpIf EQUAL Function#63
+Jump Function#2
+
+Function 61:
+	SetVar 0x8005 1
+Jump Function#64
+
+Function 62:
+	SetVar 0x8005 10
+Jump Function#64
+
+Function 63:
+	SetVar 0x8005 99
+Jump Function#64
+
+Function 64:
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#65
+	CommonScript 2033
+	CloseMessage
+Jump Function#2
+
+Function 65:
+	CommonScript 2009
+	CloseMessage
+Jump Function#2
+
+//===== ACTIONS =====//

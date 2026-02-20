@@ -1,0 +1,120 @@
+String Buffers Associated Script Commands
+
+{STRVAR_1, 0, #, 0}, {STRVAR_1, 1, #, 0}
+TextPokemon
+TextPokeNickname
+TextPokemonStored
+TextStarterPokemon
+TextRivalStarter
+TextCounterpartStarter
+TextPartyPokemonDefault (HGSS)
+TextPokeNickname
+TextBugContestPokeNickname (HGSS)
+
+{STRVAR_1, 3, #, 0},
+TextPlayerName,
+TextRivalName,
+TextCounterpart,
+
+{STRVAR_1, 4, #, 0},
+TextMapName,
+
+{STRVAR_1, 6, #, 0},
+TextMove,
+TextMachineMove,
+TextPartyPokemonMove,
+TextAttackItem (HGSS),
+
+{STRVAR_1, 7, #, 0},
+TextNature,
+
+{STRVAR_1, 8, #, 0},
+TextItem,
+TextBerry,
+TextItemLowercase,
+TextItemPlural,
+TextTrap,
+TextTreasure,
+TextAccessory (also STRVAR_1, 31),
+TextApricorn (HGSS),
+TextBackgroundName (HGSS),
+
+{STRVAR_1, 10, #, 0},
+TextSeal,
+TextSealPlural,
+TextSealSingular,
+
+{STRVAR_1, 14, #, 0},
+TextPlayerTrainerType,
+TextTrainerClass,
+
+{STRVAR_1, 15, #, 0},
+CMD_765 (Platinum),
+TextTypeName (HGSS),
+
+{STRVAR_1, 18, #, 0},
+TextPocket (also STRVAR_1, 31),
+
+{STRVAR_1, 24, #, 0},
+TextPoketch,
+
+{STRVAR_1, 25, #, 0},
+TextGoods,
+
+{STRVAR_1, 28, #, 0},
+CMD_581,
+TextStoneName,
+
+{STRVAR_1, 31, #, 0},
+TextPocket (also STRVAR_1, 18),
+TextAccessory (also STRVAR_1, 8),
+
+{STRVAR_1, 39, #, 0},
+TextRibbon,
+
+{STRVAR_1, 50/51/52/53/54/55, #, 0},
+TextNumber,
+TextPartyPokemonSize,
+TextPokemonSizeRecord,
+TextNumberSp,
+TextBugContestRemainingTime (HGSS),
+TextBattleHallStreak (HGSS),
+
+{STRVAR_4, 1, #, 0},
+TextPokeathlonCourseName (HGSS)
+
+How to use String Buffers (DP/Plat/HGSS)
+Syntax (DSPRE 1.14+)
+
+{STRVAR_1, 0, 0, 0} is interpreted as {STRVAR_1, Type, BufferNumber, 0}
+Diamond/Pearl uses {STRVAR_1, 0, 0}, but using {STRVAR_1, 0, 0, 0} doesn't seem to cause issues
+Type refers to the associated script commands
+BufferNumber is the number you specified in the associated script command's string buffer parameter
+The last 0 can be ignored
+
+Associated script commands
+See this post for string buffer associated script commands: ⁠g4-scripting-support⁠
+Refer to the SCRCMD Database and vanilla scripts on how to use the associated commands
+
+Example for TextNumber
+TextNumber stores a number in a string buffer and is written as TextNumber BufferNumber Variable/Value.
+
+If you had a command like TextNumber 0 493 or TextNumber 0 0x8005, then the string buffer you would write in the message will be {STRVAR_1, 50, 0, 0}.
+Multiple string buffers in one message
+If you want to have multiple string buffers in one message, that's where you also need to adjust the buffer number.
+
+For example, using TextNumber multiple times in one message:
+--------------------
+TextNumber 0 0x8005
+TextNumber 1 493
+Message 0
+--------------------
+Message: You`ve caught {STRVAR_1, 50, 0, 0} out of {STRVAR_1, 50, 1, 0} Pokemon!
+
+Two different string buffer types example:
+--------------------
+TextPlayerName 0
+TextPokeNickname 1
+Message 0
+--------------------
+Message: {STRVAR_1, 3, 0, 0} fed an Oran Berry\nto {STRVAR_1, 0, 1, 0}!

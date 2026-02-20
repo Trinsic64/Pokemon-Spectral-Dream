@@ -1,0 +1,113 @@
+Script thus far:
+
+Script 1:
+	PlayFanfare SEQ_SE_CONFIRM
+	Lock Player
+	FacePlayer
+	Message 0
+	ListLocalText 1 1 0 1 0x800C
+	AddListOption 0 0 0
+	AddListOption 1 2 1
+	AddListOption 2 3 2
+	ShowList
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#2
+	CompareVarValue 0x800C 2
+	JumpIf EQUAL Function#3
+	CloseMessage
+	ReleaseAll
+End
+
+Script 2:
+	PlayFanfare SEQ_SE_CONFIRM
+	Lock Player
+	FacePlayer
+	SetVar 0x8004 1 // Item ID @C:\GitHub\Pokemon-Spectral-Dream\Tools\hg-engine\asm\include\items.inc
+	SetVar 0x8005 99 // Quantity
+	CheckItemSpace 0x8004 0x8005 0x800C // Player bag space check
+	CompareVarValue 0x800C 0 // If Player has zero space
+	JumpIf EQUAL Function#2 // Then dismiss item reward
+	GiveItem 0x8004 0x8005 0x800C // Gives item to Player
+Jump Function#4
+
+Script 3:
+	PlayFanfare SEQ_SE_CONFIRM
+	Lock Player
+	FacePlayer
+	SetVar 0x8004 1
+	SetVar 0x8005 99
+	GiveItem 0x8004 0x8005 0x800C
+Jump Function#5
+
+Function 1:
+	Message 1
+	ListLocalText 1 1 0 1 0x800C
+	MessageFromArchive 222 1
+	AddListOption 0 0 0
+	AddListOption 1 1 1
+	AddListOption 2 2 2
+	ShowList
+	CloseMessage
+	ReleaseAll
+End
+
+Function 2:
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#3
+	GiveItem 0x8004 0x8005 0x800C
+	CompareVarValue 0x8004 1000
+	JumpIf LESS Function#4
+	ReleaseAll
+End
+
+Function 3:
+	TextItem 0 0x8004
+	TextNumber 1 0x8004
+	Message 9
+	CloseMessage
+	SetVar 0x8005 99
+Jump Function#4
+
+Function 4:
+	IncrementVar 0x8004 1
+	SetVar 0x8005 99
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#2
+	GiveItem 0x8004 0x8005 0x800C
+	CompareVarValue 0x8004 1000
+	JumpIf LESS Function#4
+	Message 10
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 5:
+	IncrementVar 0x8004 1
+	GiveItem 0x8004 0x8005 0x800C
+	CompareVarValue 0x8004 2000
+	JumpIf LESS Function#5
+	Message 10
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Notes (why some items are missed):
+- "Give All" will stop giving many items once a pocket is full. After that point, `CheckItemSpace` will return 0 for items in that pocket, and the script will keep skipping those items while still giving items from other pockets that still have free slots.
+- This is not an `items.inc` index problem. It’s just the bag's fixed per-pocket slot limits (distinct item slots).
+
+Recommended Alpha/Playtest alternative:
+- Use the item-category picker script instead of "Give All":
+  - Script: C:\\GitHub\\Pokemon-Spectral-Dream\\Data\\Script-Data\\Scripts\\0965.script
+  - Text:   C:\\GitHub\\Pokemon-Spectral-Dream\\Data\\Text-Data\\0965.txt
+- It lets the player choose a pocket/category, then browse items in that category (paged), then choose a quantity (1/10/99) and receive it for free.
+
+Bag size expansion:
+- There is no simple toggle in the provided `hg-engine` config files to expand bag pocket sizes.
+- Expanding the bag generally means changing the `NUM_BAG_*` pocket sizes and the save/bag data layout (which is more invasive than a script change).
