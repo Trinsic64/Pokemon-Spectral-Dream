@@ -18,7 +18,7 @@
                 <bitmap size="64"> 6666 6666 6666 6666 6666 6666 6666 6666 6666 6666 6666 6666 5666 5555 6555 6666 5555 5555 5555 6555 4555 4444 5444 5555 4444 4444 4444 5544 3344 3333 3333 4444 3333 1111 3111 4333 1333 1111 1111 3331 1111 7777 7777 1111 7711 2277 7722 1117 7777 2222 2222 7777 2277 2222 2222 7722 2222 0022 2200 2222 0222 0000 0000 2220</bitmap>
             </tex_image>
             <tex_image color0_mode="transparency" format="palette16" height="64" index="2" name="sea_zanami" original_height="64" original_width="16" palette_name="sea_zanami_pl" path="" width="16">
-                <bitmap size="256"> 2222 bb22 22bb 2222 b222 bbbb bbbb 222b bbbb 88bb bb88 bbbb 8bbb 1118 8881 bbb8 18bb 1111 1111 bb81 1188 0011 1100 8111 1111 aaaa 0aaa 1141 a0a0 6666 aaa6 0aaa 6aaa d666 6666 aaa6 6666 dddd d9dd a6d6 6666 d666 99dd dd99 4444 6664 99d6 66d9 6666 6666 d666 446d dd66 dddd 6666 6446 dddd dddd 66dd 6666 9ddd d999 dddd dddd 99dd ddd9 dddd dddd ddd9 dddd 99dd 9999 dddd 99dd 9ddd 9999 dddd 9999 ddd9 dddd 9ddd 9999 dd99 dddd 999d 9999 9999 dddd 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 9999 ff99 99ff 9999 f999 ffff ffff 999f ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff eeff eeee eeee eeee eeff eeee eeee eeee 3377 3333 3333 3333 5555 5555 5555 5555 5555 5555 5555 5555 5555 5555 5555 5555 c555 cccc cccc 5555 cccc cccc cccc cccc cccc 222c c222 cccc 22cc 2222 2222 cc22 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222 2222</bitmap>
+                <bitmap size="256"> 0000 8800 0088 0000 8000 8888 8888 0008 8888 5588 8855 8888 5888 aaa5 d55a 888d ad88 aaaa aaaa 88da aadd 9966 6699 da66 6666 bbbb 9bbb 6666 b9b9 7777 bbb7 9bbb 7bbb f777 7777 bbb7 7777 ffff ffff b7f7 7777 f777 33ff ff33 bbbb 777b 3ff7 77f3 7777 7777 f777 bb7f ff77 ffff 7777 7bb7 ffff ffff 77ff 7777 ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff ffff 333f f333 ffff 33ff 4433 3344 ff33 4333 4444 4444 3334 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 4444 eecc eeee eeee eeee eecc eeee eeee eeee eecc eeee eeee eeee 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 2221 1222 1111 2211 2222 2222 1122 2222 2222 2222 2222 2222 0002 2000 2222 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</bitmap>
             </tex_image>
             <tex_image color0_mode="transparency" format="palette16" height="8" index="3" name="d0_mizgiwa" original_height="8" original_width="16" palette_name="d0_mizgiwa_pl" path="" width="16">
                 <bitmap size="32"> 4444 4444 4444 4444 4444 1444 4411 4444 4444 1111 1111 4441 1111 2221 1222 1111 2221 2222 2222 1122 3222 3333 3333 2223 3333 2222 2222 3333 2222 0022 2000 2222</bitmap>
@@ -48,7 +48,7 @@
                 <bitmap size="64"> 1122 1111 1111 2211 2223 1112 2111 3222 2334 2222 2222 4332 3346 2223 3222 6433 4466 3333 3333 6644 6665 3344 4433 5666 6556 4466 6644 6556 5666 6665 5666 6665 6644 5556 6555 4466 4443 6666 6666 3444 4333 6444 4446 3334 3330 4433 3344 0333 3000 3333 3333 0003 0001 3300 0033 1000 0011 0000 0000 1100 1111 0000 0000 1111</bitmap>
             </tex_image>
             <tex_image color0_mode="color" format="palette16" height="16" index="12" name="kawa01d" original_height="16" original_width="8" palette_name="kawa01d_pl" path="" width="8">
-                <bitmap size="32"> 5152 8800 1190 8051 140a 0111 16a8 5111 140a 1591 f1d0 5999 2331 555c c511 85c7 9f15 8cc7 113a 8ec5 11a8 ecc5 11a8 ec91 114a ec99 1115 eec9 1111 ee09 511b eee0</bitmap>
+                <bitmap size="32"> c6c7 0077 6627 07f1 6570 7666 6e00 f616 6570 6fb1 3687 fbbb 74a6 fcc7 7c66 0c77 b36f 0777 6630 0d7c 6600 d77c 6600 d7b6 6610 d7bb 666f dd7b f666 dd7b c669 ddd7</bitmap>
             </tex_image>
             <tex_image color0_mode="transparency" format="palette16" height="16" index="13" name="kawa01f" original_height="16" original_width="16" palette_name="kawa01f_pl" path="" width="16">
                 <bitmap size="64"> 1112 6661 1666 2111 1223 1111 1111 3221 2235 1112 2111 5322 3355 2222 2222 5533 3554 2223 3222 4553 5544 3333 3333 4455 5444 3335 5333 4445 4445 5555 5555 5444 4555 5544 4455 5554 5533 4444 4444 3355 5332 4455 5544 2335 3222 5553 3555 2223 2220 3333 3333 0222 2000 2222 2222 0002 0000 2200 0022 0000 0000 0000 0000 0000</bitmap>
@@ -108,7 +108,7 @@
                 <bitmap size="32"> 8885 8888 8888 8888 7666 8877 8888 6777 6000 7666 8888 1067 0033 6610 6666 0010 0103 0001 1100 3330 0001 2200 0002 1110 2000 4422 2224 0002 4200 4444 2444 0022</bitmap>
             </tex_image>
             <tex_image color0_mode="transparency" format="palette16" height="16" index="32" name="ga_s01a_TRANS" original_height="16" original_width="16" palette_name="ga_s01a_TRANS_pl" path="" width="16">
-                <bitmap size="64"> 1111 c1c1 1111 cccc 1111 1111 1111 1111 6666 1111 6111 6666 6666 1666 6616 6666 6f69 6666 ff66 9999 f699 666f 999f 99f9 9994 f9f9 4999 4444 4444 4f44 4444 4444 4444 4444 ff44 444f 4444 fff4 ffff 4fff 444f eeef feee efff ffff 8eee 5585 eeee eeee 58ee 5858 eee5 eeee 855e 5283 0855 e0a0 b88e 2220 00d0 a000 bbb7 07db 0000</bitmap>
+                <bitmap size="64"> aa66 aaaa aaaa aaaa 6666 a6a6 6aa6 6666 6666 6a66 666a 6666 6666 6666 6666 6666 6165 6666 1166 5555 1655 6661 5b51 55eb 5554 1b15 8555 4448 4444 4144 8444 4444 4444 4444 7788 4487 4444 7774 7777 8777 8887 fff7 7fff f777 7777 dfff ccdc ffff ffff cdff cdcd fffc ffff dccf cddd 0dcc f090 2ddf ddd0 0090 9000 2223 0392 0000</bitmap>
             </tex_image>
             <tex_image color0_mode="color" format="palette16" height="16" index="33" name="gake_futa_3" original_height="16" original_width="16" palette_name="gake_futa_3_pl" path="" width="16">
                 <bitmap size="64"> 3577 0012 6653 7777 1277 1232 6652 7777 3167 2335 6532 7776 6316 3566 5433 7765 7624 5667 7643 5555 7742 5677 7763 4567 7774 4667 7774 4666 6777 4466 6776 4666 6777 6346 6676 4566 6774 4455 6676 3576 5563 4566 7764 1267 6543 5556 6644 2244 6433 5556 4245 4424 4324 5566 4325 4665 3136 5664 5332 7766 1267 3211 6633 7776</bitmap>
@@ -117,7 +117,7 @@
         <tex_palette_array size="34">
             <tex_palette color_size="16" index="0" name="lav_pl"> 0000 2e6c 32ae 3ef0 6932 7955 71f7 7e19 7e7b 7edc 2e2b 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="1" name="sea_zanami2_pl"> 0000 6221 5a02 6644 6a67 6a8a 6aac 5e01 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
-            <tex_palette color_size="16" index="2" name="sea_zanami_pl"> 73bd 77dd 4160 6642 6b57 6643 6b12 6a65 77de 6a8b 6f79 7bff 6621 6ace 6a64 6a67</tex_palette>
+            <tex_palette color_size="16" index="2" name="sea_zanami_pl"> 0000 6622 6621 6a8a 6a67 7bff 6f9a 6b12 7bff 73bd 77de 6b78 6a65 77de 6643 6aad</tex_palette>
             <tex_palette color_size="16" index="3" name="d0_mizgiwa_pl"> 0000 4187 4de9 5e4b 2546 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="4" name="sea_mizu1_pl"> 4180 49a0 51c0 55c0 55e0 5a00 6221 6287 6687 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="5" name="sea_mizu1_2_pl"> 4180 49a0 51c0 55c0 55e0 5a00 6221 6287 6687 0000 0000 0000 0000 0000 0000 0000</tex_palette>
@@ -127,7 +127,7 @@
             <tex_palette color_size="16" index="9" name="flower01"> 0000 532c 4ad3 365d 3ade 3b3f 4ecb 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="10" name="kawa01g_pl"> 5a45 5a46 5a66 5a67 5ea9 730b 66cd 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="11" name="kawa01c_pl"> 5a45 5a46 5a66 5a67 5ea9 730b 66cd 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
-            <tex_palette color_size="16" index="12" name="kawa01d_pl"> 5ea9 6eeb 62aa 6f0d 6b0a 66cc 6ac7 5e88 5a66 66c9 5a67 66ea 62a9 6aea 5a46 6f0c</tex_palette>
+            <tex_palette color_size="16" index="12" name="kawa01d_pl"> 5a66 6aeb 6ac9 6b0c 6f0d 6f0a 730b 5e89 6aea 66ea 732d 66ca 66cb 5a46 6ac7 66cc</tex_palette>
             <tex_palette color_size="16" index="13" name="kawa01f_pl"> 0000 5a66 5a67 5ea9 730b 66cd 5a46 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="14" name="kawa01b_pl"> 0000 5a66 5a67 5ea9 730b 66cd 5a46 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="15" name="ue_grass50_pl"> 0000 57d9 43f7 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
@@ -147,7 +147,7 @@
             <tex_palette color_size="16" index="29" name="d0gake_001b_pl"> 10a4 14c5 18e6 1907 2149 298c 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="30" name="gake_futa_2_pl"> 258f 29d1 29f2 2e14 3256 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
             <tex_palette color_size="16" index="31" name="gake1_6_pl"> 2213 2634 2256 2a98 2e99 537e 5f9e 679e 6bbf 0000 0000 0000 0000 0000 0000 0000</tex_palette>
-            <tex_palette color_size="16" index="32" name="ga_s01a_TRANS_pl"> 0000 3278 3b1c 3b1c 2e77 3efb 36da 3afc 3afc 2e77 3afc 3b1c 2e78 3b1c 36db 3299</tex_palette>
+            <tex_palette color_size="16" index="32" name="ga_s01a_TRANS_pl"> 0000 3299 3b1c 3afc 3277 2e78 32b9 3299 2e78 3afc 2e77 3277 3efb 3afc 3299 36db</tex_palette>
             <tex_palette color_size="16" index="33" name="gake_futa_3_pl"> 19d1 1dd2 1dd3 19f4 1e15 2636 2a57 2a78 0000 0000 0000 0000 0000 0000 0000 0000</tex_palette>
         </tex_palette_array>
         <material_array size="34">

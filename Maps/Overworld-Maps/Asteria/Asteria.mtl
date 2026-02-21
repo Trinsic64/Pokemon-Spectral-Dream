@@ -618,10 +618,6 @@ newmtl dun_imped_lm6
 map_Kd dun_imped_lm6.png
 map_d dun_imped_lm6.png
 
-newmtl dcliff01
-map_Kd dcliff01.png
-map_d dcliff01.png
-
 newmtl j
 map_Kd j.png
 map_d j.png

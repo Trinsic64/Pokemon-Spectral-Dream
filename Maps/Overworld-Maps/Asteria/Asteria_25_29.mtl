@@ -50,10 +50,6 @@ newmtl d0gake_001b
 map_Kd d0gake_001b.png
 map_d d0gake_001b.png
 
-newmtl dcliff01
-map_Kd dcliff01.png
-map_d dcliff01.png
-
 newmtl sea_simi_1
 map_Kd sea_simi_1.png
 map_d sea_simi_1.png

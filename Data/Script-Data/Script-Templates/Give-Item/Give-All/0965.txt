@@ -1,0 +1,37 @@
+# Key: 0x0000
+Choose a category.
+Items
+Medicine
+Poké Balls
+TMs & HMs
+Berries
+Mail
+Battle Items
+Key Items
+Pick a pocket.
+Exit
+Close the menu.
+Choose an item.\nPage {STRVAR_1, 50, 0, 0}
+No items found in that category.
+Choose quantity.
+x1
+x10
+x99
+Back
+
+{STRVAR_1, 8, 0, 0}
+{STRVAR_1, 8, 1, 0}
+{STRVAR_1, 8, 2, 0}
+{STRVAR_1, 8, 3, 0}
+{STRVAR_1, 8, 4, 0}
+{STRVAR_1, 8, 5, 0}
+{STRVAR_1, 8, 6, 0}
+{STRVAR_1, 8, 7, 0}
+Previous page
+Next page
+Back to categories
+Go to the previous page.
+Go to the next page.
+Return to pocket list.
+Get this item.
+No more pages.
