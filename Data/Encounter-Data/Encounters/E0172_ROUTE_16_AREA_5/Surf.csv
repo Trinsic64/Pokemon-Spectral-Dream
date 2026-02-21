@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,SKRELP,37,39
+Surf,15,2,BRUXISH,38,40
+Surf,15,3,TATSUGIRI,38,40
+Surf,15,4,GYARADOS,39,41
+Surf,15,5,TENTACRUEL,39,42

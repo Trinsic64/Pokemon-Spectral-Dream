@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,WINGULL,8,10
+Surf,15,2,TENTACOOL,9,11
+Surf,15,3,MAREANIE,11,11
+Surf,15,4,MAGIKARP,10,12
+Surf,15,5,MAGIKARP,10,13

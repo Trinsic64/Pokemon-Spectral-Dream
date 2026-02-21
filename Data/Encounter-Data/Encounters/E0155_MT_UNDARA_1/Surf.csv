@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,CORSOLA,35,35
+Surf,15,2,JELLICENT,36,38
+Surf,15,3,TOXAPEX,38,38
+Surf,15,4,TENTACRUEL,37,39
+Surf,15,5,GYARADOS,37,40

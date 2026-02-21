@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,SWANNA,49,51
+Surf,15,2,OCTILLERY,50,52
+Surf,15,3,CLOYSTER,50,52
+Surf,15,4,KINGDRA,51,53
+Surf,15,5,STARMIE,51,54

@@ -559,9 +559,10 @@ def write_grass_main_csv(path: Path, banks: List[EncounterBank], headers_by_bank
 
 def write_surf_main_csv(path: Path, banks: List[EncounterBank], headers_by_bank: Dict[int, List[int]], backup_dir: Path, stamp: str) -> None:
     backup_if_exists(path, backup_dir, stamp)
+    slot_pcts = [60, 30, 5, 4, 1]  # Slot 1..5 encounter chances
     fieldnames = ["BankId", "Area", "SurfRate"]
     for i in range(1, 6):
-        fieldnames.extend([f"Slot{i}Species", f"Slot{i}Min", f"Slot{i}Max"])
+        fieldnames.extend([f"Slot{i}Pct", f"Slot{i}Species", f"Slot{i}Min", f"Slot{i}Max"])
     fieldnames.append("HeadersUsed")
     with path.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -575,6 +576,7 @@ def write_surf_main_csv(path: Path, banks: List[EncounterBank], headers_by_bank:
             }
             for i in range(5):
                 slot = bank.surf[i] if i < len(bank.surf) else EncounterSlot(SpeciesRef("SPECIES_NONE", None), 0, 0)
+                row[f"Slot{i+1}Pct"] = slot_pcts[i]
                 row[f"Slot{i+1}Species"] = slot.display_species()
                 row[f"Slot{i+1}Min"] = slot.min_level
                 row[f"Slot{i+1}Max"] = slot.max_level
@@ -607,9 +609,10 @@ def write_rocksmash_main_csv(path: Path, banks: List[EncounterBank], headers_by_
 
 def write_fishing_main_csv(path: Path, banks: List[EncounterBank], headers_by_bank: Dict[int, List[int]], backup_dir: Path, stamp: str) -> None:
     backup_if_exists(path, backup_dir, stamp)
+    slot_pcts = [60, 30, 5, 4, 1]  # Slot 1..5 encounter chances
     fieldnames = ["BankId", "Area", "RodType", "Rate"]
     for i in range(1, 6):
-        fieldnames.extend([f"Slot{i}Species", f"Slot{i}Min", f"Slot{i}Max"])
+        fieldnames.extend([f"Slot{i}Pct", f"Slot{i}Species", f"Slot{i}Min", f"Slot{i}Max"])
     fieldnames.append("HeadersUsed")
     with path.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -629,6 +632,7 @@ def write_fishing_main_csv(path: Path, banks: List[EncounterBank], headers_by_ba
                 }
                 for i in range(5):
                     slot = slots[i] if i < len(slots) else EncounterSlot(SpeciesRef("SPECIES_NONE", None), 0, 0)
+                    row[f"Slot{i+1}Pct"] = slot_pcts[i]
                     row[f"Slot{i+1}Species"] = slot.display_species()
                     row[f"Slot{i+1}Min"] = slot.min_level
                     row[f"Slot{i+1}Max"] = slot.max_level

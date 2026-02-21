@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,BASCULIN,51,53
+Surf,15,2,ALOMOMOLA,52,54
+Surf,15,3,GYARADOS,52,54
+Surf,15,4,STARMIE,53,55
+Surf,15,5,WAILORD,53,56

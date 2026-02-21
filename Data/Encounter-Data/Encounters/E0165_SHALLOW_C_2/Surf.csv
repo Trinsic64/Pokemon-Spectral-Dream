@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,DUCKLETT,37,38
+Surf,15,2,SHARPEDO,38,40
+Surf,15,3,SEADRA,38,40
+Surf,15,4,WAILORD,40,41
+Surf,15,5,CLAWITZER,39,42

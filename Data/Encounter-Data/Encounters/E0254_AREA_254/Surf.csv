@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,SHARPEDO,64,66
+Surf,15,2,PALAFIN,65,67
+Surf,15,3,WAILORD,65,67
+Surf,15,4,POLITOED,66,68
+Surf,15,5,SEISMITOAD,66,69

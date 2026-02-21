@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,DRAGALGE,49,51
+Surf,15,2,MANTINE,50,52
+Surf,15,3,CLAWITZER,50,52
+Surf,15,4,POLIWRATH,51,53
+Surf,15,5,CLOYSTER,51,54

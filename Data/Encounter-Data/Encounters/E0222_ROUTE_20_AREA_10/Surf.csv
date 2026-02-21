@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,LUMINEON,53,55
+Surf,15,2,CRAMORANT,54,56
+Surf,15,3,LAPRAS,54,56
+Surf,15,4,KINGDRA,55,57
+Surf,15,5,WAILORD,55,58

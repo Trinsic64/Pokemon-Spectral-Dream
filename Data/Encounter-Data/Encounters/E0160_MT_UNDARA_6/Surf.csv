@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,LUMINEON,39,41
+Surf,15,2,TOXAPEX,40,42
+Surf,15,3,GYARADOS,40,42
+Surf,15,4,CLAWITZER,41,43
+Surf,15,5,STARMIE,42,44

@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,SEAKING,44,46
+Surf,15,2,SHARPEDO,45,47
+Surf,15,3,WAILORD,45,47
+Surf,15,4,WALREIN,46,48
+Surf,15,5,BASCULEGION,46,49

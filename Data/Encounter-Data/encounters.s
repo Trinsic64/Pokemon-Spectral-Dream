@@ -7,6 +7,18 @@
 
 // Auto-generated from Wild_Encounter_Data_Finalised.csv
 
+
+// Auto-generated from per-bank encounter folders
+
+
+// Auto-generated from per-bank encounter folders
+
+
+// Auto-generated from per-bank encounter folders
+
+
+// Auto-generated from per-bank encounter folders
+
 encounterdata   0   // ROUTE 1
 
 walkrate 25
@@ -68,36 +80,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_TENTACOOL, 3, 4
+encounter SPECIES_MANTYKE, 2, 4
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MANTYKE, 2, 2
+encounter SPECIES_WINGULL, 2, 2
+encounter SPECIES_WINGULL, 2, 2
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 2, 2
+encounter SPECIES_MANTYKE, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 3
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 5, 8
+encounter SPECIES_MAGIKARP, 6, 9
+encounter SPECIES_MAGIKARP, 7, 10
+encounter SPECIES_MAGIKARP, 7, 11
+encounter SPECIES_MAGIKARP, 8, 12
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -107,9 +119,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   1   // ROUTE 2 AREA 1
 
@@ -172,36 +181,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 4, 7
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_BARBOACH, 3, 3
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_MAGIKARP, 2, 4
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 6, 9
+encounter SPECIES_MAGIKARP, 7, 10
+encounter SPECIES_MAGIKARP, 8, 11
+encounter SPECIES_MAGIKARP, 8, 12
+encounter SPECIES_MAGIKARP, 9, 13
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -211,9 +220,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   2   // ROUTE 2 AREA 2
 
@@ -276,36 +282,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_BARBOACH, 4, 6
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 5, 8
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_BARBOACH, 3, 3
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_BARBOACH, 3, 3
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_MAGIKARP, 3, 5
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 7, 10
+encounter SPECIES_MAGIKARP, 8, 11
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_MAGIKARP, 9, 13
+encounter SPECIES_MAGIKARP, 10, 14
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -315,9 +321,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   3   // ROUTE 3 AREA 1
 
@@ -380,36 +383,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SURSKIT, 2, 4
+encounter SPECIES_BARBOACH, 3, 5
+encounter SPECIES_HORSEA, 5, 5
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 4, 7
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_SHELLDER, 2, 2
+encounter SPECIES_PYUKUMUKU, 2, 2
+encounter SPECIES_TYMPOLE, 2, 2
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PYUKUMUKU, 2, 2
+encounter SPECIES_MANTYKE, 2, 2
+encounter SPECIES_REMORAID, 2, 3
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_MAGIKARP, 2, 4
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOLDEEN, 6, 9
+encounter SPECIES_MAGIKARP, 7, 10
+encounter SPECIES_MAGIKARP, 8, 11
+encounter SPECIES_MAGIKARP, 8, 12
+encounter SPECIES_MAGIKARP, 9, 13
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -419,9 +422,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   4   // ROUTE 3 AREA 2
 
@@ -484,36 +484,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 3, 5
+encounter SPECIES_CARVANHA, 4, 6
+encounter SPECIES_FRILLISH, 4, 6
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 5, 8
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_CORSOLA, 2, 2
+encounter SPECIES_PYUKUMUKU, 2, 2
+encounter SPECIES_WISHIWASHI, 2, 3
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_TYMPOLE, 2, 3
+encounter SPECIES_REMORAID, 2, 4
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_MAGIKARP, 3, 5
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_MAGIKARP, 9, 13
+encounter SPECIES_MAGIKARP, 10, 14
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -523,9 +523,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   5   // NAVEL Generic
 
@@ -588,36 +585,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 4, 6
+encounter SPECIES_CARVANHA, 5, 7
+encounter SPECIES_FRILLISH, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 6, 9
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_CORSOLA, 2, 2
+encounter SPECIES_CARVANHA, 3, 3
+encounter SPECIES_FRILLISH, 2, 4
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 2, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_CORSOLA, 2, 5
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 4, 6
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 8, 11
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 10, 14
+encounter SPECIES_MAGIKARP, 11, 15
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -627,9 +624,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   6   // NAVEL West
 
@@ -692,36 +686,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 4, 6
+encounter SPECIES_CARVANHA, 5, 7
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 6, 9
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_CORSOLA, 2, 2
+encounter SPECIES_CARVANHA, 3, 3
+encounter SPECIES_FRILLISH, 2, 4
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_CORSOLA, 2, 4
+encounter SPECIES_FRILLISH, 2, 5
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 4, 6
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 8, 11
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 10, 14
+encounter SPECIES_MAGIKARP, 11, 15
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -731,9 +725,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   7   // NAVEL East
 
@@ -796,36 +787,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 4, 6
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_CORSOLA, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 6, 9
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_FRILLISH, 2, 2
+encounter SPECIES_CORSOLA, 2, 3
+encounter SPECIES_CARVANHA, 3, 4
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 3, 3
+encounter SPECIES_CORSOLA, 2, 4
+encounter SPECIES_MAGIKARP, 2, 5
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 4, 6
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 8, 11
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 10, 14
+encounter SPECIES_MAGIKARP, 11, 15
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -835,9 +826,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   8   // BLAZE FOREST
 
@@ -900,36 +888,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_BARBOACH, 5, 7
+encounter SPECIES_BARBOACH, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 6, 9
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_BARBOACH, 3, 3
+encounter SPECIES_BARBOACH, 3, 4
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 3, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_BARBOACH, 3, 5
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 4, 6
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 8, 11
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 10, 14
+encounter SPECIES_MAGIKARP, 11, 15
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -939,9 +927,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   9   // Cave Generic 1
 
@@ -1004,36 +989,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 49, 51
+encounter SPECIES_SHARPEDO, 50, 52
+encounter SPECIES_RELICANTH, 50, 52
+encounter SPECIES_BASCULEGION, 51, 53
+encounter SPECIES_BASCULEGION, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULEGION, 53, 56
+encounter SPECIES_RELICANTH, 54, 57
+encounter SPECIES_JELLICENT, 55, 58
+encounter SPECIES_SHARPEDO, 55, 59
+encounter SPECIES_RELICANTH, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1043,9 +1028,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   10   // LOB FOREST 1
 
@@ -1108,36 +1090,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_BARBOACH, 6, 8
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 7, 10
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_BARBOACH, 3, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_MAGIKARP, 2, 5
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_BARBOACH, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 5, 7
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 9, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 11, 15
+encounter SPECIES_MAGIKARP, 12, 16
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1147,9 +1129,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   11   // LOB FOREST 2
 
@@ -1212,36 +1191,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_BARBOACH, 6, 8
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 7, 10
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_BARBOACH, 3, 3
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_BARBOACH, 3, 5
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_MAGIKARP, 2, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 5, 7
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 9, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 11, 15
+encounter SPECIES_MAGIKARP, 12, 16
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1251,9 +1230,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   12   // LOB FOREST 3
 
@@ -1316,36 +1292,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_BARBOACH, 6, 8
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 7, 10
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_BARBOACH, 3, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_BARBOACH, 3, 5
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_MAGIKARP, 2, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 5, 7
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 11, 15
+encounter SPECIES_MAGIKARP, 12, 16
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1355,9 +1331,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   13   // LOB FOREST 4
 
@@ -1420,36 +1393,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_BARBOACH, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 7, 10
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 2
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_BARBOACH, 3, 3
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_MAGIKARP, 2, 5
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_MAGIKARP, 2, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 5, 7
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 11, 15
+encounter SPECIES_MAGIKARP, 12, 16
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1459,9 +1432,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   14   // LOB FOREST 5
 
@@ -1524,36 +1494,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_BARBOACH, 7, 9
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MAGIKARP, 4, 7
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_MAGIKARP, 12, 16
+encounter SPECIES_MAGIKARP, 13, 17
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1563,9 +1533,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   15   // LOB FOREST 6
 
@@ -1628,36 +1595,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_BARBOACH, 3, 5
+encounter SPECIES_BARBOACH, 3, 6
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_BARBOACH, 4, 7
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_MAGIKARP, 12, 16
+encounter SPECIES_MAGIKARP, 13, 17
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1667,9 +1634,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   16   // LOB FOREST 7
 
@@ -1732,36 +1696,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_BARBOACH, 7, 9
+encounter SPECIES_BARBOACH, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_BARBOACH, 3, 5
+encounter SPECIES_BARBOACH, 3, 6
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_BARBOACH, 3, 6
+encounter SPECIES_MAGIKARP, 4, 7
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_MAGIKARP, 12, 16
+encounter SPECIES_MAGIKARP, 13, 17
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1771,9 +1735,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   17   // LOB FOREST 8
 
@@ -1836,36 +1797,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MAGIKARP, 4, 7
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_MAGIKARP, 12, 16
+encounter SPECIES_MAGIKARP, 13, 17
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1875,9 +1836,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   18   // ROUTE 4
 
@@ -1940,36 +1898,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_BARBOACH, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_BARBOACH, 3, 4
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_BARBOACH, 3, 6
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_BARBOACH, 4, 7
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_MAGIKARP, 12, 16
+encounter SPECIES_MAGIKARP, 13, 17
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -1979,9 +1937,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   19   // ROUTE 5 AREA 1
 
@@ -2044,36 +1999,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MANTYKE, 7, 9
+encounter SPECIES_DUCKLETT, 8, 9
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 3
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_WINGULL, 2, 4
+encounter SPECIES_TENTACOOL, 3, 5
+encounter SPECIES_MANTYKE, 3, 6
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 3, 5
+encounter SPECIES_MANTYKE, 3, 6
+encounter SPECIES_MAGIKARP, 4, 7
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 6, 8
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 10, 13
+encounter SPECIES_MAGIKARP, 11, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_MAGIKARP, 12, 16
+encounter SPECIES_MAGIKARP, 13, 17
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2083,9 +2038,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   20   // ROUTE 5 AREA 2
 
@@ -2148,36 +2100,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_DUCKLETT, 8, 10
+encounter SPECIES_MANTYKE, 8, 10
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 9, 12
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_MAGIKARP, 2, 5
+encounter SPECIES_TENTACOOL, 3, 5
+encounter SPECIES_WINGULL, 4, 6
+encounter SPECIES_MANTYKE, 4, 7
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 4, 6
+encounter SPECIES_WINGULL, 4, 7
+encounter SPECIES_MANTYKE, 5, 8
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 11, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_MAGIKARP, 13, 16
+encounter SPECIES_MAGIKARP, 13, 17
+encounter SPECIES_MAGIKARP, 14, 18
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2187,9 +2139,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   21   // ROUTE 5 AREA 3
 
@@ -2252,36 +2201,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 8, 10
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_DUCKLETT, 9, 11
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 10, 13
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MANTYKE, 4, 6
+encounter SPECIES_TENTACOOL, 5, 7
+encounter SPECIES_DUCKLETT, 8, 8
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 5, 7
+encounter SPECIES_MAGIKARP, 5, 8
+encounter SPECIES_TENTACOOL, 6, 9
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 12, 15
+encounter SPECIES_MAGIKARP, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 14, 18
+encounter SPECIES_MAGIKARP, 15, 19
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2291,9 +2240,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   22   // ROUTE 5 AREA 4
 
@@ -2356,36 +2302,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 8, 10
+encounter SPECIES_MANTYKE, 9, 11
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 10, 13
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MANTYKE, 4, 6
+encounter SPECIES_TENTACOOL, 5, 7
+encounter SPECIES_WINGULL, 5, 8
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_WINGULL, 5, 8
+encounter SPECIES_DUCKLETT, 8, 9
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 12, 15
+encounter SPECIES_MAGIKARP, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 14, 18
+encounter SPECIES_MAGIKARP, 15, 19
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2395,9 +2341,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   23   // ROUTE 6 AREA 1
 
@@ -2460,36 +2403,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 7, 9
+encounter SPECIES_TENTACOOL, 8, 10
+encounter SPECIES_MANTYKE, 8, 10
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 9, 12
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_MAGIKARP, 2, 5
+encounter SPECIES_MANTYKE, 3, 5
+encounter SPECIES_TENTACOOL, 4, 6
+encounter SPECIES_WINGULL, 4, 7
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_WINGULL, 4, 7
+encounter SPECIES_TENTACOOL, 5, 8
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 11, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_MAGIKARP, 13, 16
+encounter SPECIES_MAGIKARP, 13, 17
+encounter SPECIES_MAGIKARP, 14, 18
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2499,9 +2442,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   24   // ROUTE 6 AREA 2
 
@@ -2564,36 +2504,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 7, 9
+encounter SPECIES_MANTYKE, 8, 10
+encounter SPECIES_TENTACOOL, 8, 10
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 9, 12
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 4
+encounter SPECIES_MAGIKARP, 2, 5
+encounter SPECIES_TENTACOOL, 3, 5
+encounter SPECIES_WINGULL, 4, 6
+encounter SPECIES_MANTYKE, 4, 7
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 4, 6
+encounter SPECIES_MANTYKE, 4, 7
+encounter SPECIES_TENTACOOL, 5, 8
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 11, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_MAGIKARP, 13, 16
+encounter SPECIES_MAGIKARP, 13, 17
+encounter SPECIES_MAGIKARP, 14, 18
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2603,9 +2543,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   25   // ROUTE 6 AREA 3
 
@@ -2668,36 +2605,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 8, 10
+encounter SPECIES_TENTACOOL, 9, 11
+encounter SPECIES_MAREANIE, 11, 11
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 10, 13
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_MANTYKE, 4, 6
+encounter SPECIES_WINGULL, 5, 7
+encounter SPECIES_TENTACOOL, 5, 8
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_DUCKLETT, 8, 8
+encounter SPECIES_TENTACOOL, 6, 9
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 12, 15
+encounter SPECIES_MAGIKARP, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 14, 18
+encounter SPECIES_MAGIKARP, 15, 19
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2707,9 +2644,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   26   // ROUTE 6 AREA 4
 
@@ -2772,36 +2706,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 8, 10
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_DUCKLETT, 9, 11
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 10, 13
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_TENTACOOL, 4, 6
+encounter SPECIES_WINGULL, 5, 7
+encounter SPECIES_MANTYKE, 5, 8
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 5, 7
+encounter SPECIES_TENTACOOL, 5, 8
+encounter SPECIES_MAGIKARP, 6, 9
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 12, 15
+encounter SPECIES_MAGIKARP, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 14, 18
+encounter SPECIES_MAGIKARP, 15, 19
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2811,9 +2745,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   27   // SUB CAVE 1
 
@@ -2876,36 +2807,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 8, 10
+encounter SPECIES_CARVANHA, 9, 11
+encounter SPECIES_FRILLISH, 9, 11
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 10, 13
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_CORSOLA, 4, 6
+encounter SPECIES_CARVANHA, 5, 7
+encounter SPECIES_FRILLISH, 5, 8
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 5, 7
+encounter SPECIES_CARVANHA, 5, 8
+encounter SPECIES_CORSOLA, 6, 9
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 12, 15
+encounter SPECIES_MAGIKARP, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 14, 18
+encounter SPECIES_MAGIKARP, 15, 19
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2915,9 +2846,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   28   // SUB CAVE 2
 
@@ -2980,36 +2908,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 8, 10
+encounter SPECIES_CORSOLA, 9, 11
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 10, 13
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 3, 5
+encounter SPECIES_MAGIKARP, 3, 6
+encounter SPECIES_CORSOLA, 4, 6
+encounter SPECIES_CARVANHA, 5, 7
+encounter SPECIES_FRILLISH, 5, 8
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_CARVANHA, 5, 8
+encounter SPECIES_CORSOLA, 6, 9
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_MAGIKARP, 8, 10
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 12, 15
+encounter SPECIES_MAGIKARP, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 14, 18
+encounter SPECIES_MAGIKARP, 15, 19
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3019,9 +2947,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   29   // SUB PATH 1
 
@@ -3084,36 +3009,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 11, 11
+encounter SPECIES_POLIWAG, 10, 12
+encounter SPECIES_CLAUNCHER, 10, 12
+encounter SPECIES_MAGIKARP, 11, 13
+encounter SPECIES_MAGIKARP, 11, 14
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 4, 7
+encounter SPECIES_TYMPOLE, 5, 7
+encounter SPECIES_CORSOLA, 6, 8
+encounter SPECIES_REMORAID, 6, 9
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TYMPOLE, 6, 8
+encounter SPECIES_SEEL, 7, 9
+encounter SPECIES_CARVANHA, 7, 10
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 9, 11
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHELLDER, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 15, 18
+encounter SPECIES_MAGIKARP, 15, 19
+encounter SPECIES_GYARADOS, 20, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3123,9 +3048,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   30   // SUB PATH 2
 
@@ -3188,36 +3110,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 9, 11
+encounter SPECIES_POLIWAG, 10, 12
+encounter SPECIES_TYMPOLE, 10, 12
+encounter SPECIES_MAGIKARP, 11, 13
+encounter SPECIES_MAGIKARP, 11, 14
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 4, 7
+encounter SPECIES_FEEBAS, 5, 7
+encounter SPECIES_FINNEON, 6, 8
+encounter SPECIES_CARVANHA, 6, 9
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WISHIWASHI, 6, 8
+encounter SPECIES_CARVANHA, 6, 9
+encounter SPECIES_SURSKIT, 7, 10
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 9, 11
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 15, 18
+encounter SPECIES_MAGIKARP, 15, 19
+encounter SPECIES_GYARADOS, 20, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3227,9 +3149,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   31   // SUB PATH 3
 
@@ -3292,36 +3211,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 11, 11
+encounter SPECIES_CLAMPERL, 10, 12
+encounter SPECIES_REMORAID, 10, 12
+encounter SPECIES_MAGIKARP, 11, 13
+encounter SPECIES_MAGIKARP, 11, 14
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 4, 7
+encounter SPECIES_FRILLISH, 5, 7
+encounter SPECIES_SEEL, 7, 8
+encounter SPECIES_HORSEA, 6, 9
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 6, 8
+encounter SPECIES_SHELLDER, 6, 9
+encounter SPECIES_CORSOLA, 7, 10
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 9, 11
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_REMORAID, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 15, 18
+encounter SPECIES_MAGIKARP, 15, 19
+encounter SPECIES_GYARADOS, 20, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3331,9 +3250,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   32   // SUB PATH 4
 
@@ -3396,36 +3312,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARYU, 9, 11
+encounter SPECIES_PYUKUMUKU, 10, 12
+encounter SPECIES_CLAMPERL, 10, 12
+encounter SPECIES_MAGIKARP, 11, 13
+encounter SPECIES_MAGIKARP, 11, 14
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 4, 6
+encounter SPECIES_MAGIKARP, 4, 7
+encounter SPECIES_GOLDEEN, 6, 7
+encounter SPECIES_REMORAID, 6, 8
+encounter SPECIES_POLIWAG, 6, 9
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWAG, 6, 8
+encounter SPECIES_TENTACOOL, 6, 9
+encounter SPECIES_PYUKUMUKU, 7, 10
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 9, 11
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 13, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 15, 18
+encounter SPECIES_MAGIKARP, 15, 19
+encounter SPECIES_GYARADOS, 20, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3435,9 +3351,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   33   // ROCK PASSAGE
 
@@ -3500,36 +3413,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 10, 12
+encounter SPECIES_CARVANHA, 11, 13
+encounter SPECIES_CORSOLA, 11, 13
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 12, 15
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 5, 8
+encounter SPECIES_CORSOLA, 6, 8
+encounter SPECIES_CARVANHA, 7, 9
+encounter SPECIES_FRILLISH, 7, 10
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_CORSOLA, 7, 10
+encounter SPECIES_CARVANHA, 8, 11
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 10, 12
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 14, 17
+encounter SPECIES_MAGIKARP, 15, 18
+encounter SPECIES_MAGIKARP, 16, 19
+encounter SPECIES_MAGIKARP, 16, 20
+encounter SPECIES_MAGIKARP, 17, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3539,9 +3452,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   34   // ICE PASSAGE
 
@@ -3604,36 +3514,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 10, 12
+encounter SPECIES_MAGIKARP, 11, 13
+encounter SPECIES_SPHEAL, 11, 13
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 12, 15
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 5, 8
+encounter SPECIES_SPHEAL, 6, 8
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_SPHEAL, 7, 10
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 7, 9
+encounter SPECIES_MAGIKARP, 7, 10
+encounter SPECIES_SPHEAL, 8, 11
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 10, 12
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 14, 17
+encounter SPECIES_MAGIKARP, 15, 18
+encounter SPECIES_MAGIKARP, 16, 19
+encounter SPECIES_MAGIKARP, 16, 20
+encounter SPECIES_MAGIKARP, 17, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3643,9 +3553,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   35   // STEEL PASSAGE
 
@@ -3708,36 +3615,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 10, 12
+encounter SPECIES_MAGIKARP, 11, 13
+encounter SPECIES_CARVANHA, 11, 13
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 12, 15
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 5, 8
+encounter SPECIES_CARVANHA, 6, 8
+encounter SPECIES_FRILLISH, 7, 9
+encounter SPECIES_CORSOLA, 7, 10
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 7, 9
+encounter SPECIES_CORSOLA, 7, 10
+encounter SPECIES_CARVANHA, 8, 11
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 10, 12
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 15, 18
+encounter SPECIES_MAGIKARP, 16, 19
+encounter SPECIES_MAGIKARP, 16, 20
+encounter SPECIES_MAGIKARP, 17, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3747,9 +3654,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   36   // SANSTONE CAVE
 
@@ -3812,36 +3716,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_FRILLISH, 11, 13
+encounter SPECIES_CARVANHA, 11, 13
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 12, 15
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_MAGIKARP, 5, 8
+encounter SPECIES_FRILLISH, 6, 8
+encounter SPECIES_CARVANHA, 7, 9
+encounter SPECIES_CORSOLA, 7, 10
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 7, 9
+encounter SPECIES_MAGIKARP, 7, 10
+encounter SPECIES_CARVANHA, 8, 11
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 10, 12
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAGIKARP, 15, 18
+encounter SPECIES_MAGIKARP, 16, 19
+encounter SPECIES_MAGIKARP, 16, 20
+encounter SPECIES_MAGIKARP, 17, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3851,9 +3755,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   37   // FISHERMAN
 
@@ -3916,36 +3817,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TYMPOLE, 11, 13
+encounter SPECIES_HORSEA, 12, 14
+encounter SPECIES_SHELLDER, 12, 14
+encounter SPECIES_MAGIKARP, 13, 15
+encounter SPECIES_MAGIKARP, 13, 16
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 6, 9
+encounter SPECIES_TENTACOOL, 7, 9
+encounter SPECIES_SEEL, 8, 10
+encounter SPECIES_STARYU, 8, 11
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HORSEA, 8, 10
+encounter SPECIES_DUCKLETT, 8, 11
+encounter SPECIES_CORSOLA, 9, 12
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 11, 13
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 15, 18
+encounter SPECIES_MAGIKARP, 16, 19
+encounter SPECIES_GYARADOS, 20, 20
+encounter SPECIES_GYARADOS, 20, 21
+encounter SPECIES_GYARADOS, 20, 22
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -3955,9 +3856,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   38   // PALM TREE
 
@@ -4020,36 +3918,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SURSKIT, 14, 16
+encounter SPECIES_FEEBAS, 15, 17
+encounter SPECIES_LUVDISC, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_HORSEA, 10, 12
+encounter SPECIES_STARYU, 11, 13
+encounter SPECIES_CORSOLA, 11, 14
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 11, 13
+encounter SPECIES_CARVANHA, 11, 14
+encounter SPECIES_MANTYKE, 12, 15
+encounter SPECIES_MAGIKARP, 13, 15
+encounter SPECIES_MAGIKARP, 14, 16
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 18, 21
+encounter SPECIES_MAGIKARP, 19, 20
+encounter SPECIES_GYARADOS, 20, 23
+encounter SPECIES_GYARADOS, 20, 24
+encounter SPECIES_PELIPPER, 25, 25
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4059,9 +3957,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   39   // Cave Generic 2
 
@@ -4124,36 +4019,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 11, 13
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_CARVANHA, 12, 14
+encounter SPECIES_MAGIKARP, 13, 15
+encounter SPECIES_MAGIKARP, 13, 16
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 6, 9
+encounter SPECIES_CARVANHA, 7, 9
+encounter SPECIES_CORSOLA, 8, 10
+encounter SPECIES_FRILLISH, 8, 11
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
+encounter SPECIES_FRILLISH, 9, 12
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 11, 13
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 15, 18
+encounter SPECIES_MAGIKARP, 16, 19
+encounter SPECIES_MAGIKARP, 17, 20
+encounter SPECIES_MAGIKARP, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4163,9 +4058,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   40   // WAYDOWN CAVE
 
@@ -4228,36 +4120,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 11, 13
+encounter SPECIES_CARVANHA, 12, 14
+encounter SPECIES_FRILLISH, 12, 14
+encounter SPECIES_MAGIKARP, 13, 15
+encounter SPECIES_MAGIKARP, 13, 16
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 6, 8
+encounter SPECIES_MAGIKARP, 6, 9
+encounter SPECIES_FRILLISH, 7, 9
+encounter SPECIES_CARVANHA, 8, 10
+encounter SPECIES_CORSOLA, 8, 11
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 8, 10
+encounter SPECIES_FRILLISH, 8, 11
+encounter SPECIES_CARVANHA, 9, 12
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 11, 13
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 15, 18
+encounter SPECIES_MAGIKARP, 16, 19
+encounter SPECIES_MAGIKARP, 17, 20
+encounter SPECIES_MAGIKARP, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4267,9 +4159,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   41   // ROUTE 7 AREA 1
 
@@ -4332,36 +4221,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 13, 15
+encounter SPECIES_CLAMPERL, 14, 16
+encounter SPECIES_FINNEON, 14, 16
+encounter SPECIES_MAGIKARP, 15, 17
+encounter SPECIES_MAGIKARP, 15, 18
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
+encounter SPECIES_BARBOACH, 9, 11
+encounter SPECIES_CHINCHOU, 10, 12
+encounter SPECIES_CLAMPERL, 10, 13
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEEL, 10, 12
+encounter SPECIES_FEEBAS, 10, 13
+encounter SPECIES_FRILLISH, 11, 14
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 13, 15
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
+encounter SPECIES_GYARADOS, 20, 22
+encounter SPECIES_GYARADOS, 20, 23
+encounter SPECIES_GYARADOS, 20, 24
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4371,9 +4260,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   42   // ROUTE 7 AREA 2
 
@@ -4436,36 +4322,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEEL, 13, 15
+encounter SPECIES_CARVANHA, 14, 16
+encounter SPECIES_CLAUNCHER, 14, 16
+encounter SPECIES_MAGIKARP, 15, 17
+encounter SPECIES_MAGIKARP, 15, 18
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 8, 10
+encounter SPECIES_MAGIKARP, 8, 11
+encounter SPECIES_FRILLISH, 9, 11
+encounter SPECIES_GOLDEEN, 10, 12
+encounter SPECIES_HORSEA, 10, 13
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHELLDER, 10, 12
+encounter SPECIES_SURSKIT, 10, 13
+encounter SPECIES_WISHIWASHI, 11, 14
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 13, 15
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
+encounter SPECIES_GYARADOS, 20, 22
+encounter SPECIES_GYARADOS, 20, 23
+encounter SPECIES_GYARADOS, 20, 24
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4475,9 +4361,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   43   // ROUTE 7 AREA 3
 
@@ -4540,36 +4423,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWAG, 14, 16
+encounter SPECIES_WAILMER, 15, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_FINNEON, 10, 12
+encounter SPECIES_TYMPOLE, 11, 13
+encounter SPECIES_CLAMPERL, 11, 14
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 11, 13
+encounter SPECIES_CLAUNCHER, 11, 14
+encounter SPECIES_WAILMER, 13, 15
+encounter SPECIES_MAGIKARP, 13, 15
+encounter SPECIES_MAGIKARP, 14, 16
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLAUNCHER, 18, 21
+encounter SPECIES_MAGIKARP, 19, 20
+encounter SPECIES_GYARADOS, 20, 23
+encounter SPECIES_GYARADOS, 20, 24
+encounter SPECIES_OCTILLERY, 25, 25
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4579,9 +4462,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   44   // ROUTE 7 AREA 4
 
@@ -4644,36 +4524,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 14, 16
+encounter SPECIES_HORSEA, 15, 17
+encounter SPECIES_REMORAID, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 9, 11
+encounter SPECIES_MAGIKARP, 9, 12
+encounter SPECIES_REMORAID, 10, 12
+encounter SPECIES_POLIWAG, 11, 13
+encounter SPECIES_FEEBAS, 11, 14
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 11, 13
+encounter SPECIES_SURSKIT, 11, 14
+encounter SPECIES_SHELLDER, 12, 15
+encounter SPECIES_MAGIKARP, 13, 15
+encounter SPECIES_MAGIKARP, 14, 16
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SURSKIT, 18, 21
+encounter SPECIES_MAGIKARP, 19, 20
+encounter SPECIES_GYARADOS, 20, 23
+encounter SPECIES_GYARADOS, 20, 24
+encounter SPECIES_PELIPPER, 25, 25
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4683,9 +4563,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   45   // ROUTE 8 AREA 1
 
@@ -4748,36 +4625,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARYU, 15, 17
+encounter SPECIES_GOLDEEN, 16, 18
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 17, 19
+encounter SPECIES_GYARADOS, 20, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_FINNEON, 11, 13
+encounter SPECIES_PYUKUMUKU, 12, 14
+encounter SPECIES_MAREANIE, 12, 15
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CHINCHOU, 12, 14
+encounter SPECIES_WISHIWASHI, 12, 15
+encounter SPECIES_CLAMPERL, 13, 16
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 15, 17
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 19, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 24
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_PELIPPER, 25, 26
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4787,9 +4664,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   46   // ROUTE 8 AREA 2
 
@@ -4852,36 +4726,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILMER, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_HORSEA, 16, 18
+encounter SPECIES_MAGIKARP, 17, 19
+encounter SPECIES_GYARADOS, 20, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 10, 12
+encounter SPECIES_MAGIKARP, 10, 13
+encounter SPECIES_CLAMPERL, 11, 13
+encounter SPECIES_DUCKLETT, 12, 14
+encounter SPECIES_POLIWAG, 12, 15
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILMER, 13, 14
+encounter SPECIES_BARBOACH, 12, 15
+encounter SPECIES_CLAMPERL, 13, 16
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 15, 17
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 19, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 26
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4891,9 +4765,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   47   // ROUTE 8 AREA 3
 
@@ -4956,36 +4827,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 17, 19
+encounter SPECIES_CARVANHA, 18, 20
+encounter SPECIES_MAGIKARP, 18, 20
+encounter SPECIES_MAGIKARP, 19, 20
+encounter SPECIES_GYARADOS, 20, 22
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_CORSOLA, 13, 15
+encounter SPECIES_HORSEA, 14, 16
+encounter SPECIES_WAILMER, 14, 17
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CHINCHOU, 14, 16
+encounter SPECIES_TYMPOLE, 14, 17
+encounter SPECIES_PYUKUMUKU, 15, 18
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 17, 19
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 21, 24
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 23, 26
+encounter SPECIES_LANTURN, 27, 27
+encounter SPECIES_PELIPPER, 25, 28
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4995,9 +4866,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   48   // ROUTE 8 AREA 4
 
@@ -5060,36 +4928,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 17, 19
+encounter SPECIES_TYMPOLE, 18, 20
+encounter SPECIES_REMORAID, 18, 20
+encounter SPECIES_MAGIKARP, 19, 20
+encounter SPECIES_GYARADOS, 20, 22
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_FEEBAS, 13, 15
+encounter SPECIES_SURSKIT, 14, 16
+encounter SPECIES_TYMPOLE, 14, 17
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLAMPERL, 14, 16
+encounter SPECIES_DUCKLETT, 14, 17
+encounter SPECIES_TYMPOLE, 15, 18
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 17, 19
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FINNEON, 21, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_GYARADOS, 23, 26
+encounter SPECIES_OCTILLERY, 25, 27
+encounter SPECIES_LANTURN, 27, 28
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5099,9 +4967,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   49   // VOLTIC CAVE 1
 
@@ -5164,36 +5029,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 17, 19
+encounter SPECIES_CARVANHA, 18, 20
+encounter SPECIES_CORSOLA, 18, 20
+encounter SPECIES_MAGIKARP, 19, 20
+encounter SPECIES_MAGIKARP, 19, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_FRILLISH, 13, 15
+encounter SPECIES_CORSOLA, 14, 16
+encounter SPECIES_CARVANHA, 14, 17
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 14, 16
+encounter SPECIES_FRILLISH, 14, 17
+encounter SPECIES_CORSOLA, 15, 18
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 17, 19
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 21, 24
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5203,9 +5068,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   50   // VOLTIC CAVE 2
 
@@ -5268,36 +5130,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 17, 19
+encounter SPECIES_CORSOLA, 18, 20
+encounter SPECIES_CARVANHA, 18, 20
+encounter SPECIES_MAGIKARP, 19, 20
+encounter SPECIES_MAGIKARP, 19, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_FRILLISH, 13, 15
+encounter SPECIES_CORSOLA, 14, 16
+encounter SPECIES_CARVANHA, 14, 17
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 14, 16
+encounter SPECIES_FRILLISH, 14, 17
+encounter SPECIES_MAGIKARP, 15, 18
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 17, 19
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 21, 24
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5307,9 +5169,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   51   // VOLTIC CAVE 3
 
@@ -5372,36 +5231,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 17, 19
+encounter SPECIES_FRILLISH, 18, 20
+encounter SPECIES_CORSOLA, 18, 20
+encounter SPECIES_MAGIKARP, 19, 20
+encounter SPECIES_MAGIKARP, 19, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 12, 14
+encounter SPECIES_MAGIKARP, 12, 15
+encounter SPECIES_CORSOLA, 13, 15
+encounter SPECIES_FRILLISH, 14, 16
+encounter SPECIES_CARVANHA, 14, 17
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 14, 16
+encounter SPECIES_CARVANHA, 14, 17
+encounter SPECIES_FRILLISH, 15, 18
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 17, 19
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 21, 24
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5411,9 +5270,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   52   // VOLTIC CAVE 4
 
@@ -5476,36 +5332,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 19, 20
+encounter SPECIES_FRILLISH, 20, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
+encounter SPECIES_MAGIKARP, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
+encounter SPECIES_MAGIKARP, 19, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_SHARPEDO, 30, 30
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5515,9 +5371,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   53   // VOLTIC CAVE 5
 
@@ -5580,36 +5433,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 19, 21
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
+encounter SPECIES_MAGIKARP, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
+encounter SPECIES_MAGIKARP, 19, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_SHARPEDO, 30, 30
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5619,9 +5472,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   54   // VOLTIC CAVE 6
 
@@ -5684,36 +5534,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 19, 21
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
+encounter SPECIES_MAGIKARP, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
+encounter SPECIES_MAGIKARP, 19, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_SHARPEDO, 30, 30
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5723,9 +5573,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   55   // SYD FOREST 1
 
@@ -5788,36 +5635,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 21, 22
+encounter SPECIES_GOLDEEN, 21, 23
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 22, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FEEBAS, 15, 17
+encounter SPECIES_WISHIWASHI, 16, 18
+encounter SPECIES_BARBOACH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARYU, 17, 19
+encounter SPECIES_CARVANHA, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
+encounter SPECIES_GYARADOS, 20, 21
+encounter SPECIES_GYARADOS, 20, 22
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 27, 27
+encounter SPECIES_OCTILLERY, 25, 28
+encounter SPECIES_GYARADOS, 26, 29
+encounter SPECIES_TENTACRUEL, 30, 30
+encounter SPECIES_WHISCASH, 30, 31
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5827,9 +5674,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   56   // SYD FOREST 2
 
@@ -5892,36 +5736,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEEL, 20, 22
+encounter SPECIES_POLIWAG, 21, 23
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 22, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TYMPOLE, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_POLIWAG, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARYU, 17, 19
+encounter SPECIES_REMORAID, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
+encounter SPECIES_GYARADOS, 20, 21
+encounter SPECIES_GYARADOS, 20, 22
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 25, 27
+encounter SPECIES_LANTURN, 27, 28
+encounter SPECIES_GYARADOS, 26, 29
+encounter SPECIES_TENTACRUEL, 30, 30
+encounter SPECIES_WHISCASH, 30, 31
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5931,9 +5775,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   57   // SYD FOREST 3
 
@@ -5996,36 +5837,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_WAILMER, 21, 23
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 22, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_GOLDEEN, 15, 17
+encounter SPECIES_SEEL, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_REMORAID, 17, 19
+encounter SPECIES_BARBOACH, 17, 20
+encounter SPECIES_MAGIKARP, 18, 20
+encounter SPECIES_GYARADOS, 20, 21
+encounter SPECIES_GYARADOS, 20, 22
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 27, 27
+encounter SPECIES_PELIPPER, 25, 28
+encounter SPECIES_GYARADOS, 26, 29
+encounter SPECIES_TENTACRUEL, 30, 30
+encounter SPECIES_OCTILLERY, 27, 31
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6035,9 +5876,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   58   // SYD FOREST 4
 
@@ -6100,36 +5938,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HORSEA, 22, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 24, 27
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_SHELLDER, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CHINCHOU, 19, 21
+encounter SPECIES_SEEL, 19, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 26, 29
+encounter SPECIES_LANTURN, 27, 30
+encounter SPECIES_GYARADOS, 28, 31
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6139,9 +5977,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   59   // SYD FOREST 5
 
@@ -6204,36 +6039,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILMER, 22, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 24, 27
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FEEBAS, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 19, 21
+encounter SPECIES_SKRELP, 21, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 26, 29
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_TENTACRUEL, 30, 31
+encounter SPECIES_GYARADOS, 28, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6243,9 +6078,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   60   // SYD FOREST 6
 
@@ -6308,36 +6140,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SURSKIT, 22, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 24, 27
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_LUVDISC, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_CHINCHOU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 19, 21
+encounter SPECIES_BARBOACH, 19, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 27, 29
+encounter SPECIES_BASCULIN, 30, 30
+encounter SPECIES_GYARADOS, 28, 31
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6347,9 +6179,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   61   // SYD FOREST 7
 
@@ -6412,36 +6241,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 23, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_OCTILLERY, 25, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TYMPOLE, 15, 17
+encounter SPECIES_CHINCHOU, 16, 18
+encounter SPECIES_GOLDEEN, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILMER, 20, 22
+encounter SPECIES_POLIWAG, 20, 23
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 27, 30
+encounter SPECIES_LUMINEON, 31, 31
+encounter SPECIES_GYARADOS, 29, 32
+encounter SPECIES_TENTACRUEL, 30, 33
+encounter SPECIES_GOLDUCK, 33, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6451,9 +6280,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   62   // SYD FOREST 8
 
@@ -6516,36 +6342,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWHIRL, 25, 25
+encounter SPECIES_OCTILLERY, 25, 26
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAREANIE, 15, 17
+encounter SPECIES_FEEBAS, 16, 18
+encounter SPECIES_SURSKIT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 20, 22
+encounter SPECIES_BARBOACH, 20, 23
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULIN, 30, 30
+encounter SPECIES_PELIPPER, 28, 31
+encounter SPECIES_GYARADOS, 29, 32
+encounter SPECIES_GOLDUCK, 33, 33
+encounter SPECIES_TENTACRUEL, 30, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6555,9 +6381,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   63   // SYD FOREST 9
 
@@ -6620,36 +6443,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 24, 26
+encounter SPECIES_LANTURN, 27, 27
+encounter SPECIES_OCTILLERY, 25, 27
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 26, 29
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FINNEON, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HORSEA, 21, 23
+encounter SPECIES_CHINCHOU, 21, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 28, 31
+encounter SPECIES_LUMINEON, 31, 32
+encounter SPECIES_TENTACRUEL, 30, 33
+encounter SPECIES_GOLDUCK, 33, 34
+encounter SPECIES_GYARADOS, 31, 35
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6659,9 +6482,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   64   // ROUTE 12 AREA 1
 
@@ -6724,36 +6544,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CHINCHOU, 25, 27
+encounter SPECIES_OCTILLERY, 26, 28
+encounter SPECIES_LANTURN, 27, 28
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_SEEL, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 22, 24
+encounter SPECIES_LUVDISC, 22, 25
+encounter SPECIES_OCTILLERY, 25, 26
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 25, 27
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_QWILFISH, 30, 33
+encounter SPECIES_GYARADOS, 31, 34
+encounter SPECIES_TENTACRUEL, 31, 35
+encounter SPECIES_SEISMITOAD, 36, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6763,9 +6583,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   65   // ISLAND 1 AREA 1
 
@@ -6828,36 +6645,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 23, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAREANIE, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 20, 22
+encounter SPECIES_MAREANIE, 20, 23
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_PELIPPER, 28, 31
+encounter SPECIES_GYARADOS, 29, 32
+encounter SPECIES_TENTACRUEL, 30, 33
+encounter SPECIES_GYARADOS, 30, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6867,9 +6684,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   66   // ISLAND 1 AREA 2
 
@@ -6932,36 +6746,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 23, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_DUCKLETT, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_MANTYKE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 20, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 27, 30
+encounter SPECIES_QWILFISH, 30, 31
+encounter SPECIES_GYARADOS, 29, 32
+encounter SPECIES_TENTACRUEL, 30, 33
+encounter SPECIES_GYARADOS, 30, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6971,9 +6785,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   67   // ISLAND 1 AREA 3
 
@@ -7036,36 +6847,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 23, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_MAREANIE, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 20, 22
+encounter SPECIES_MAREANIE, 20, 23
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_PELIPPER, 28, 31
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_GYARADOS, 29, 33
+encounter SPECIES_TENTACRUEL, 30, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7075,9 +6886,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   68   // ISLAND 1 AREA 4
 
@@ -7140,36 +6948,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 23, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 20, 22
+encounter SPECIES_SKRELP, 21, 23
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_PELIPPER, 28, 31
+encounter SPECIES_GYARADOS, 29, 32
+encounter SPECIES_TENTACRUEL, 30, 33
+encounter SPECIES_GYARADOS, 30, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7179,9 +6987,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   69   // ISLAND 1 AREA 5
 
@@ -7244,36 +7049,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 23, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 20, 22
+encounter SPECIES_MANTYKE, 20, 23
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 27, 30
+encounter SPECIES_QWILFISH, 30, 31
+encounter SPECIES_GYARADOS, 29, 32
+encounter SPECIES_TENTACRUEL, 30, 33
+encounter SPECIES_GYARADOS, 30, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7283,9 +7088,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   70   // ISLAND 1 AREA 6
 
@@ -7348,36 +7150,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 23, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_WINGULL, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 20, 22
+encounter SPECIES_MANTYKE, 20, 23
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_PELIPPER, 28, 31
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_GYARADOS, 29, 33
+encounter SPECIES_TENTACRUEL, 30, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7387,9 +7189,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   71   // ISLAND 1 AREA 7
 
@@ -7452,36 +7251,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 23, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_WINGULL, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_MANTYKE, 20, 23
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_PELIPPER, 28, 31
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_GYARADOS, 29, 33
+encounter SPECIES_TENTACRUEL, 30, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7491,9 +7290,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   72   // ISLAND 1 AREA 8
 
@@ -7556,36 +7352,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 23, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
+encounter SPECIES_GYARADOS, 25, 28
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_MANTYKE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 20, 22
+encounter SPECIES_MANTYKE, 20, 23
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_GYARADOS, 22, 24
+encounter SPECIES_GYARADOS, 23, 25
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 27, 30
+encounter SPECIES_QWILFISH, 30, 31
+encounter SPECIES_GYARADOS, 29, 32
+encounter SPECIES_TENTACRUEL, 30, 33
+encounter SPECIES_TENTACRUEL, 30, 34
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7595,9 +7391,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   73   // Dark Cave 1
 
@@ -7660,36 +7453,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 25, 27
+encounter SPECIES_FRILLISH, 26, 28
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 22, 24
+encounter SPECIES_CARVANHA, 22, 25
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 30, 33
+encounter SPECIES_SHARPEDO, 31, 34
+encounter SPECIES_RELICANTH, 35, 35
+encounter SPECIES_JELLICENT, 35, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7699,9 +7492,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   74   // Dark Cave 2
 
@@ -7764,36 +7554,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 25, 27
+encounter SPECIES_CARVANHA, 26, 28
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 22, 24
+encounter SPECIES_CARVANHA, 22, 25
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 30, 33
+encounter SPECIES_SHARPEDO, 31, 34
+encounter SPECIES_RELICANTH, 35, 35
+encounter SPECIES_JELLICENT, 35, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7803,9 +7593,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   75   // ISLAND CAVE AREA 1
 
@@ -7868,36 +7655,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 25, 27
+encounter SPECIES_PELIPPER, 26, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 22, 24
+encounter SPECIES_SKRELP, 22, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 29, 32
+encounter SPECIES_QWILFISH, 30, 33
+encounter SPECIES_TENTACRUEL, 31, 34
+encounter SPECIES_GYARADOS, 31, 35
+encounter SPECIES_SWANNA, 35, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -7907,9 +7694,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   76   // ISLAND CAVE AREA 2
 
@@ -7972,36 +7756,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 25, 27
+encounter SPECIES_PELIPPER, 26, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_MAREANIE, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 22, 24
+encounter SPECIES_DUCKLETT, 22, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 29, 32
+encounter SPECIES_QWILFISH, 30, 33
+encounter SPECIES_TENTACRUEL, 31, 34
+encounter SPECIES_GYARADOS, 31, 35
+encounter SPECIES_MANTINE, 35, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8011,9 +7795,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   77   // ISLAND CAVE AREA 3
 
@@ -8076,36 +7857,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 25, 27
+encounter SPECIES_PELIPPER, 26, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_MAREANIE, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 22, 24
+encounter SPECIES_SKRELP, 22, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 30, 32
+encounter SPECIES_PELIPPER, 30, 33
+encounter SPECIES_TENTACRUEL, 31, 34
+encounter SPECIES_GYARADOS, 31, 35
+encounter SPECIES_CRAMORANT, 35, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8115,9 +7896,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   78   // ISLAND 2 AREA 1
 
@@ -8180,36 +7958,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 25, 27
+encounter SPECIES_PELIPPER, 26, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_DUCKLETT, 15, 17
+encounter SPECIES_WINGULL, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 22, 24
+encounter SPECIES_SKRELP, 22, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 30, 32
+encounter SPECIES_PELIPPER, 30, 33
+encounter SPECIES_GYARADOS, 31, 34
+encounter SPECIES_TENTACRUEL, 31, 35
+encounter SPECIES_CRAMORANT, 35, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8219,9 +7997,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   79   // ISLAND 2 AREA 2
 
@@ -8284,36 +8059,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 25, 27
+encounter SPECIES_PELIPPER, 26, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 22, 24
+encounter SPECIES_DUCKLETT, 22, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 29, 32
+encounter SPECIES_QWILFISH, 30, 33
+encounter SPECIES_TENTACRUEL, 31, 34
+encounter SPECIES_GYARADOS, 31, 35
+encounter SPECIES_MANTINE, 35, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8323,9 +8098,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   80   // ISLAND 2 AREA 3
 
@@ -8388,36 +8160,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 25, 27
+encounter SPECIES_PELIPPER, 26, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 22, 24
+encounter SPECIES_WINGULL, 22, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 29, 32
+encounter SPECIES_QWILFISH, 30, 33
+encounter SPECIES_TENTACRUEL, 31, 34
+encounter SPECIES_GYARADOS, 31, 35
+encounter SPECIES_SWANNA, 35, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8427,9 +8199,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   81   // ISLAND 2 AREA 4
 
@@ -8492,36 +8261,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 25, 27
+encounter SPECIES_PELIPPER, 26, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAREANIE, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 22, 24
+encounter SPECIES_TENTACOOL, 22, 25
+encounter SPECIES_PELIPPER, 25, 26
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 25, 27
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 29, 32
+encounter SPECIES_QWILFISH, 30, 33
+encounter SPECIES_TENTACRUEL, 31, 34
+encounter SPECIES_GYARADOS, 31, 35
+encounter SPECIES_CRAMORANT, 35, 36
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8531,9 +8300,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   82   // ISLAND 3 AREA 1
 
@@ -8596,36 +8362,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 27, 29
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_PELIPPER, 28, 30
+encounter SPECIES_TENTACRUEL, 30, 31
+encounter SPECIES_GYARADOS, 29, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_MAREANIE, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 24, 26
+encounter SPECIES_MANTYKE, 24, 27
+encounter SPECIES_PELIPPER, 25, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 31, 34
+encounter SPECIES_MANTINE, 35, 35
+encounter SPECIES_GYARADOS, 33, 36
+encounter SPECIES_TENTACRUEL, 33, 37
+encounter SPECIES_TOXAPEX, 38, 38
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8635,9 +8401,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   83   // ISLAND 3 AREA 2
 
@@ -8700,36 +8463,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 27, 29
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_PELIPPER, 28, 30
+encounter SPECIES_TENTACRUEL, 30, 31
+encounter SPECIES_GYARADOS, 29, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_MANTYKE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 24, 26
+encounter SPECIES_MAREANIE, 24, 27
+encounter SPECIES_PELIPPER, 25, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 31, 34
+encounter SPECIES_CRAMORANT, 35, 35
+encounter SPECIES_TENTACRUEL, 33, 36
+encounter SPECIES_GYARADOS, 33, 37
+encounter SPECIES_TOXAPEX, 38, 38
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8739,9 +8502,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   84   // ISLAND 4 AREA 1
 
@@ -8804,36 +8564,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 27, 29
+encounter SPECIES_PELIPPER, 28, 30
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_GYARADOS, 29, 31
+encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 24, 26
+encounter SPECIES_WINGULL, 24, 27
+encounter SPECIES_PELIPPER, 25, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 31, 34
+encounter SPECIES_MANTINE, 35, 35
+encounter SPECIES_TENTACRUEL, 33, 36
+encounter SPECIES_GYARADOS, 33, 37
+encounter SPECIES_TOXAPEX, 38, 38
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8843,9 +8603,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   85   // ISLAND 4 AREA 2
 
@@ -8908,36 +8665,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 29, 31
+encounter SPECIES_QWILFISH, 30, 32
+encounter SPECIES_PELIPPER, 30, 32
+encounter SPECIES_GYARADOS, 31, 33
+encounter SPECIES_TENTACRUEL, 31, 34
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_MANTYKE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 26, 28
+encounter SPECIES_MANTYKE, 26, 29
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_PELIPPER, 28, 30
+encounter SPECIES_TENTACRUEL, 30, 31
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 35, 36
+encounter SPECIES_QWILFISH, 34, 37
+encounter SPECIES_GYARADOS, 35, 38
+encounter SPECIES_TENTACRUEL, 35, 39
+encounter SPECIES_TOXAPEX, 38, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -8947,9 +8704,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   86   // ISLAND 4 AREA 3
 
@@ -9012,36 +8766,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 27, 29
+encounter SPECIES_PELIPPER, 28, 30
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_TENTACRUEL, 30, 31
+encounter SPECIES_GYARADOS, 29, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAREANIE, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 24, 26
+encounter SPECIES_SKRELP, 24, 27
+encounter SPECIES_PELIPPER, 25, 28
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 31, 34
+encounter SPECIES_PELIPPER, 32, 35
+encounter SPECIES_GYARADOS, 33, 36
+encounter SPECIES_TENTACRUEL, 33, 37
+encounter SPECIES_TOXAPEX, 38, 38
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9051,9 +8805,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   87   // ISLAND 5 AREA 1
 
@@ -9116,36 +8867,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 28, 30
+encounter SPECIES_QWILFISH, 30, 31
+encounter SPECIES_PELIPPER, 29, 31
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_GYARADOS, 30, 33
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAREANIE, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 25, 27
+encounter SPECIES_SKRELP, 25, 28
+encounter SPECIES_PELIPPER, 26, 29
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 32, 35
+encounter SPECIES_PELIPPER, 33, 36
+encounter SPECIES_TENTACRUEL, 34, 37
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_GYARADOS, 35, 39
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9155,9 +8906,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   88   // ISLAND 5 AREA 2
 
@@ -9220,36 +8968,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_PELIPPER, 29, 31
+encounter SPECIES_QWILFISH, 30, 31
+encounter SPECIES_GYARADOS, 30, 32
+encounter SPECIES_TENTACRUEL, 30, 33
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 25, 27
+encounter SPECIES_WINGULL, 25, 28
+encounter SPECIES_PELIPPER, 26, 29
+encounter SPECIES_GYARADOS, 27, 29
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 35, 35
+encounter SPECIES_MANTINE, 35, 36
+encounter SPECIES_GYARADOS, 34, 37
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_TENTACRUEL, 35, 39
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9259,9 +9007,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   89   // ISLAND 6 AREA 1
 
@@ -9324,36 +9069,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 36, 38
+encounter SPECIES_CRAMORANT, 37, 39
+encounter SPECIES_SWANNA, 37, 39
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_TOXAPEX, 38, 41
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 33, 35
+encounter SPECIES_SKRELP, 33, 36
+encounter SPECIES_MANTINE, 35, 37
+encounter SPECIES_QWILFISH, 35, 37
+encounter SPECIES_TOXAPEX, 38, 38
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 40, 43
+encounter SPECIES_QWILFISH, 41, 44
+encounter SPECIES_TOXAPEX, 42, 45
+encounter SPECIES_TENTACRUEL, 42, 46
+encounter SPECIES_GYARADOS, 43, 47
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9363,9 +9108,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   90   // ISLAND 6 AREA 2
 
@@ -9428,36 +9170,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 36, 38
+encounter SPECIES_MANTINE, 37, 39
+encounter SPECIES_CRAMORANT, 37, 39
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_GYARADOS, 38, 41
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_MAREANIE, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 33, 35
+encounter SPECIES_TENTACOOL, 33, 33
+encounter SPECIES_SWANNA, 35, 37
+encounter SPECIES_PELIPPER, 35, 37
+encounter SPECIES_TOXAPEX, 38, 38
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 40, 43
+encounter SPECIES_PELIPPER, 41, 44
+encounter SPECIES_TOXAPEX, 42, 45
+encounter SPECIES_GYARADOS, 42, 46
+encounter SPECIES_TENTACRUEL, 43, 47
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9467,9 +9209,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   91   // ISLAND 7 AREA 1
 
@@ -9532,36 +9271,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 39, 41
+encounter SPECIES_QWILFISH, 40, 42
+encounter SPECIES_TENTACRUEL, 40, 42
+encounter SPECIES_TOXAPEX, 41, 43
+encounter SPECIES_GYARADOS, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 36, 38
+encounter SPECIES_CRAMORANT, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_TOXAPEX, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACRUEL, 43, 46
+encounter SPECIES_TOXAPEX, 44, 47
+encounter SPECIES_GYARADOS, 45, 48
+encounter SPECIES_DRAGALGE, 48, 49
+encounter SPECIES_CRAMORANT, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9571,9 +9310,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   92   // ISLAND 7 AREA 2
 
@@ -9636,36 +9372,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 39, 41
+encounter SPECIES_CRAMORANT, 40, 42
+encounter SPECIES_GYARADOS, 40, 42
+encounter SPECIES_TENTACRUEL, 41, 43
+encounter SPECIES_TOXAPEX, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_WINGULL, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 36, 38
+encounter SPECIES_SWANNA, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_TOXAPEX, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACRUEL, 43, 46
+encounter SPECIES_GYARADOS, 44, 47
+encounter SPECIES_TOXAPEX, 45, 48
+encounter SPECIES_DRAGALGE, 48, 49
+encounter SPECIES_CRAMORANT, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9675,9 +9411,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   93   // ISLAND 7 AREA 3
 
@@ -9740,36 +9473,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 39, 41
+encounter SPECIES_QWILFISH, 40, 42
+encounter SPECIES_TENTACRUEL, 40, 42
+encounter SPECIES_TOXAPEX, 41, 43
+encounter SPECIES_GYARADOS, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_QWILFISH, 36, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_TOXAPEX, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 43, 46
+encounter SPECIES_TENTACRUEL, 44, 47
+encounter SPECIES_GYARADOS, 45, 48
+encounter SPECIES_QWILFISH, 45, 49
+encounter SPECIES_MANTINE, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9779,9 +9512,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   94   // ISLAND 7 AREA 4
 
@@ -9844,36 +9574,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 39, 41
+encounter SPECIES_PELIPPER, 40, 42
+encounter SPECIES_GYARADOS, 40, 42
+encounter SPECIES_TOXAPEX, 41, 43
+encounter SPECIES_TENTACRUEL, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_SWANNA, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_TOXAPEX, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACRUEL, 43, 46
+encounter SPECIES_GYARADOS, 44, 47
+encounter SPECIES_TOXAPEX, 45, 48
+encounter SPECIES_PELIPPER, 45, 49
+encounter SPECIES_MANTINE, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9883,9 +9613,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   95   // ISLAND 7 AREA 5
 
@@ -9948,36 +9675,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 39, 41
+encounter SPECIES_PELIPPER, 40, 42
+encounter SPECIES_GYARADOS, 40, 42
+encounter SPECIES_TOXAPEX, 41, 43
+encounter SPECIES_TENTACRUEL, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_SWANNA, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_TOXAPEX, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACRUEL, 43, 46
+encounter SPECIES_GYARADOS, 44, 47
+encounter SPECIES_TOXAPEX, 45, 48
+encounter SPECIES_QWILFISH, 45, 49
+encounter SPECIES_PELIPPER, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -9987,9 +9714,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   96   // ISLAND 7 AREA 6
 
@@ -10052,36 +9776,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 39, 41
+encounter SPECIES_SWANNA, 40, 42
+encounter SPECIES_TENTACRUEL, 40, 42
+encounter SPECIES_GYARADOS, 41, 43
+encounter SPECIES_TOXAPEX, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_DUCKLETT, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_CRAMORANT, 36, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_TOXAPEX, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 43, 46
+encounter SPECIES_TENTACRUEL, 44, 47
+encounter SPECIES_TOXAPEX, 45, 48
+encounter SPECIES_DRAGALGE, 48, 49
+encounter SPECIES_SWANNA, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10091,9 +9815,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   97   // ISLAND 8 AREA 1
 
@@ -10156,36 +9877,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 39, 41
+encounter SPECIES_QWILFISH, 40, 42
+encounter SPECIES_TOXAPEX, 40, 42
+encounter SPECIES_GYARADOS, 41, 43
+encounter SPECIES_TENTACRUEL, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 36, 38
+encounter SPECIES_QWILFISH, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_TOXAPEX, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 43, 46
+encounter SPECIES_GYARADOS, 44, 47
+encounter SPECIES_TENTACRUEL, 45, 48
+encounter SPECIES_CRAMORANT, 45, 49
+encounter SPECIES_SWANNA, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10195,9 +9916,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   98   // ISLAND 8 AREA 2
 
@@ -10260,36 +9978,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 39, 41
+encounter SPECIES_MANTINE, 40, 42
+encounter SPECIES_TOXAPEX, 40, 42
+encounter SPECIES_TENTACRUEL, 41, 43
+encounter SPECIES_GYARADOS, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 36, 38
+encounter SPECIES_CRAMORANT, 36, 39
+encounter SPECIES_TOXAPEX, 38, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 43, 46
+encounter SPECIES_TENTACRUEL, 44, 47
+encounter SPECIES_TOXAPEX, 45, 48
+encounter SPECIES_QWILFISH, 45, 49
+encounter SPECIES_CRAMORANT, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10299,9 +10017,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   99   // ISLAND 9 AREA 1
 
@@ -10364,36 +10079,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 39, 41
+encounter SPECIES_CLOYSTER, 42, 42
+encounter SPECIES_LAPRAS, 42, 42
+encounter SPECIES_LAPRAS, 42, 43
+encounter SPECIES_WALREIN, 44, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 36, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WALREIN, 44, 46
+encounter SPECIES_LAPRAS, 44, 47
+encounter SPECIES_DEWGONG, 45, 48
+encounter SPECIES_CLOYSTER, 45, 49
+encounter SPECIES_WALREIN, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10403,9 +10118,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   100   // ISLAND 9 AREA 2
 
@@ -10468,36 +10180,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 39, 41
+encounter SPECIES_CLOYSTER, 42, 42
+encounter SPECIES_LAPRAS, 42, 42
+encounter SPECIES_LAPRAS, 42, 43
+encounter SPECIES_WALREIN, 44, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 36, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WALREIN, 44, 46
+encounter SPECIES_LAPRAS, 44, 47
+encounter SPECIES_DEWGONG, 45, 48
+encounter SPECIES_CLOYSTER, 45, 49
+encounter SPECIES_WALREIN, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10507,9 +10219,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   101   // ISLAND 9 AREA 3
 
@@ -10572,36 +10281,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 39, 41
+encounter SPECIES_CLOYSTER, 42, 42
+encounter SPECIES_LAPRAS, 42, 42
+encounter SPECIES_LAPRAS, 42, 43
+encounter SPECIES_WALREIN, 44, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 36, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LAPRAS, 43, 46
+encounter SPECIES_WALREIN, 44, 47
+encounter SPECIES_CLOYSTER, 45, 48
+encounter SPECIES_DEWGONG, 45, 49
+encounter SPECIES_LAPRAS, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10611,9 +10320,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   102   // ROUTE 9 AREA 1
 
@@ -10676,36 +10382,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CHINCHOU, 22, 24
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 24, 27
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 19, 21
+encounter SPECIES_DUCKLETT, 19, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 26, 29
+encounter SPECIES_BASCULIN, 30, 30
+encounter SPECIES_GYARADOS, 28, 31
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10715,9 +10421,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   103   // ROUTE 9 AREA 2
 
@@ -10780,36 +10483,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 22, 24
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 24, 27
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FEEBAS, 16, 18
+encounter SPECIES_BARBOACH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 19, 21
+encounter SPECIES_DUCKLETT, 19, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 26, 29
+encounter SPECIES_WHISCASH, 30, 30
+encounter SPECIES_TENTACRUEL, 30, 31
+encounter SPECIES_GYARADOS, 28, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10819,9 +10522,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   104   // ROUTE 9 AREA 3
 
@@ -10884,36 +10584,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PYUKUMUKU, 22, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 24, 27
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SEEL, 15, 17
+encounter SPECIES_SURSKIT, 16, 18
+encounter SPECIES_POLIWAG, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 19, 21
+encounter SPECIES_WAILMER, 19, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 27, 29
+encounter SPECIES_QWILFISH, 30, 30
+encounter SPECIES_GYARADOS, 28, 31
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10923,9 +10623,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   105   // ROUTE 9 AREA 4
 
@@ -10988,36 +10685,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLAUNCHER, 22, 24
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 24, 27
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FEEBAS, 15, 17
+encounter SPECIES_PYUKUMUKU, 16, 18
+encounter SPECIES_SURSKIT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WISHIWASHI, 19, 21
+encounter SPECIES_CHINCHOU, 19, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 26, 29
+encounter SPECIES_BASCULIN, 30, 30
+encounter SPECIES_GYARADOS, 28, 31
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11027,9 +10724,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   106   // ROUTE 9 AREA 5
 
@@ -11092,36 +10786,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEEL, 22, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
+encounter SPECIES_GYARADOS, 24, 27
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_FEEBAS, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HORSEA, 19, 21
+encounter SPECIES_MAREANIE, 19, 22
+encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_GYARADOS, 21, 23
+encounter SPECIES_GYARADOS, 22, 24
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 26, 29
+encounter SPECIES_BASCULIN, 30, 30
+encounter SPECIES_TENTACRUEL, 30, 31
+encounter SPECIES_GYARADOS, 28, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11131,9 +10825,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   107   // ROUTE 10 AREA 1
 
@@ -11196,36 +10887,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 24, 26
+encounter SPECIES_PELIPPER, 25, 27
+encounter SPECIES_OCTILLERY, 25, 27
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 26, 29
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_HORSEA, 15, 17
+encounter SPECIES_CHINCHOU, 16, 18
+encounter SPECIES_PYUKUMUKU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 21, 23
+encounter SPECIES_GOLDEEN, 21, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 28, 31
+encounter SPECIES_OCTILLERY, 29, 32
+encounter SPECIES_GYARADOS, 30, 33
+encounter SPECIES_TENTACRUEL, 30, 34
+encounter SPECIES_GOLDUCK, 33, 35
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11235,9 +10926,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   108   // ROUTE 10 AREA 2
 
@@ -11300,36 +10988,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WISHIWASHI, 24, 26
+encounter SPECIES_OCTILLERY, 25, 27
+encounter SPECIES_LANTURN, 27, 27
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 26, 29
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CHINCHOU, 15, 17
+encounter SPECIES_WISHIWASHI, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEEL, 21, 23
+encounter SPECIES_WINGULL, 21, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUMINEON, 31, 31
+encounter SPECIES_QWILFISH, 30, 32
+encounter SPECIES_GYARADOS, 30, 33
+encounter SPECIES_TENTACRUEL, 30, 34
+encounter SPECIES_GOLDUCK, 33, 35
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11339,9 +11027,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   109   // ROUTE 10 AREA 3
 
@@ -11404,36 +11089,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PYUKUMUKU, 24, 26
+encounter SPECIES_PELIPPER, 25, 27
+encounter SPECIES_LANTURN, 27, 27
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 26, 29
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_CLAMPERL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 21, 23
+encounter SPECIES_MANTYKE, 21, 24
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 30, 31
+encounter SPECIES_LANTURN, 29, 32
+encounter SPECIES_GOLDUCK, 33, 33
+encounter SPECIES_TENTACRUEL, 30, 34
+encounter SPECIES_GYARADOS, 31, 35
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11443,9 +11128,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   110   // ROUTE 11 AREA 1
 
@@ -11508,36 +11190,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_REMORAID, 24, 26
+encounter SPECIES_LANTURN, 27, 27
+encounter SPECIES_PELIPPER, 25, 27
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 26, 29
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WAILMER, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_STARYU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SURSKIT, 21, 23
+encounter SPECIES_FINNEON, 21, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WHISCASH, 30, 31
+encounter SPECIES_QWILFISH, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
+encounter SPECIES_GYARADOS, 30, 34
+encounter SPECIES_TENTACRUEL, 31, 35
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11547,9 +11229,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   111   // ROUTE 11 AREA 2
 
@@ -11612,36 +11291,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLAUNCHER, 24, 26
+encounter SPECIES_OCTILLERY, 25, 27
+encounter SPECIES_PELIPPER, 25, 27
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 26, 29
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_DUCKLETT, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SURSKIT, 21, 23
+encounter SPECIES_SPHEAL, 21, 24
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 28, 31
+encounter SPECIES_SEALEO, 32, 32
+encounter SPECIES_GOLDUCK, 33, 33
+encounter SPECIES_TENTACRUEL, 30, 34
+encounter SPECIES_GYARADOS, 31, 35
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11651,9 +11330,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   112   // ROUTE 11 AREA 3
 
@@ -11716,36 +11392,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PYUKUMUKU, 24, 26
+encounter SPECIES_PELIPPER, 25, 27
+encounter SPECIES_OCTILLERY, 25, 27
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 26, 29
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SEEL, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_CLAUNCHER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACOOL, 21, 23
+encounter SPECIES_REMORAID, 21, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 30, 31
+encounter SPECIES_PELIPPER, 29, 32
+encounter SPECIES_GYARADOS, 30, 33
+encounter SPECIES_TENTACRUEL, 30, 34
+encounter SPECIES_GOLDUCK, 33, 35
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11755,9 +11431,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   113   // ROUTE 11 AREA 4
 
@@ -11820,36 +11493,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARYU, 24, 26
+encounter SPECIES_PELIPPER, 25, 27
+encounter SPECIES_OCTILLERY, 25, 27
+encounter SPECIES_GYARADOS, 26, 28
+encounter SPECIES_GYARADOS, 26, 29
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_GOLDEEN, 15, 17
+encounter SPECIES_STARYU, 16, 18
+encounter SPECIES_PYUKUMUKU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUVDISC, 21, 23
+encounter SPECIES_HORSEA, 21, 24
+encounter SPECIES_PELIPPER, 25, 25
+encounter SPECIES_OCTILLERY, 25, 25
+encounter SPECIES_GYARADOS, 24, 26
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 28, 31
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
+encounter SPECIES_TENTACRUEL, 30, 34
+encounter SPECIES_GYARADOS, 31, 35
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11859,9 +11532,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   114   // ROUTE 12 AREA 2
 
@@ -11924,36 +11594,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLAUNCHER, 27, 29
+encounter SPECIES_WHISCASH, 30, 30
+encounter SPECIES_OCTILLERY, 28, 30
+encounter SPECIES_GYARADOS, 29, 31
+encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_GOLDEEN, 16, 18
+encounter SPECIES_SHELLDER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHELLDER, 24, 26
+encounter SPECIES_POLIWHIRL, 25, 27
+encounter SPECIES_PELIPPER, 25, 28
+encounter SPECIES_LANTURN, 27, 28
+encounter SPECIES_GYARADOS, 27, 29
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 31, 34
+encounter SPECIES_TATSUGIRI, 35, 35
+encounter SPECIES_GYARADOS, 33, 36
+encounter SPECIES_GOLDUCK, 33, 37
+encounter SPECIES_CLAWITZER, 37, 38
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -11963,9 +11633,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   115   // ROUTE 12 AREA 3
 
@@ -12028,36 +11695,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TYMPOLE, 27, 28
+encounter SPECIES_PELIPPER, 28, 30
+encounter SPECIES_LANTURN, 28, 30
+encounter SPECIES_GYARADOS, 29, 31
+encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_BARBOACH, 15, 17
+encounter SPECIES_STARYU, 16, 18
+encounter SPECIES_POLIWAG, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HORSEA, 24, 26
+encounter SPECIES_POLIWHIRL, 25, 27
+encounter SPECIES_PELIPPER, 25, 28
+encounter SPECIES_OCTILLERY, 26, 28
+encounter SPECIES_GYARADOS, 27, 29
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WHISCASH, 31, 34
+encounter SPECIES_OCTILLERY, 32, 35
+encounter SPECIES_TENTACRUEL, 33, 36
+encounter SPECIES_CLAWITZER, 37, 37
+encounter SPECIES_GOLDUCK, 34, 38
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12067,9 +11734,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   116   // ULURU 1 A 1
 
@@ -12132,36 +11796,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 27, 29
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_SHARPEDO, 30, 31
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 24, 26
+encounter SPECIES_CORSOLA, 24, 27
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 31, 34
+encounter SPECIES_JELLICENT, 35, 35
+encounter SPECIES_RELICANTH, 35, 36
+encounter SPECIES_RELICANTH, 35, 37
+encounter SPECIES_RELICANTH, 35, 38
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12171,9 +11835,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   117   // ULURU 1 A 2
 
@@ -12236,36 +11897,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 27, 29
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_SHARPEDO, 30, 31
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 24, 26
+encounter SPECIES_CORSOLA, 24, 27
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 31, 34
+encounter SPECIES_JELLICENT, 35, 35
+encounter SPECIES_RELICANTH, 35, 36
+encounter SPECIES_RELICANTH, 35, 37
+encounter SPECIES_RELICANTH, 35, 38
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12275,9 +11936,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   118   // ULURU 1 A 3
 
@@ -12340,36 +11998,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 27, 29
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_SHARPEDO, 30, 31
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 24, 26
+encounter SPECIES_FRILLISH, 24, 27
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 31, 34
+encounter SPECIES_JELLICENT, 35, 35
+encounter SPECIES_RELICANTH, 35, 36
+encounter SPECIES_RELICANTH, 35, 37
+encounter SPECIES_RELICANTH, 35, 38
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12379,9 +12037,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   119   // ROUTE 14 AREA 1
 
@@ -12444,36 +12099,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 29, 31
+encounter SPECIES_SEALEO, 32, 32
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 26, 28
+encounter SPECIES_SPHEAL, 26, 29
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_DEWGONG, 34, 37
+encounter SPECIES_DEWGONG, 35, 38
+encounter SPECIES_DEWGONG, 35, 39
+encounter SPECIES_DEWGONG, 36, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12483,9 +12138,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   120   // ROUTE 14 AREA 2
 
@@ -12548,36 +12200,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 29, 31
+encounter SPECIES_SEALEO, 32, 32
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 26, 28
+encounter SPECIES_SPHEAL, 26, 29
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_DEWGONG, 34, 37
+encounter SPECIES_DEWGONG, 35, 38
+encounter SPECIES_DEWGONG, 35, 39
+encounter SPECIES_DEWGONG, 36, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12587,9 +12239,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   121   // ROUTE 14 AREA 3
 
@@ -12652,36 +12301,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEALEO, 32, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_DEWGONG, 34, 35
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 28, 30
+encounter SPECIES_SPHEAL, 28, 31
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 35, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_DEWGONG, 37, 41
+encounter SPECIES_LAPRAS, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12691,9 +12340,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   122   // ROUTE 14 AREA 4
 
@@ -12756,36 +12402,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEALEO, 33, 35
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_DEWGONG, 35, 37
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 30, 32
+encounter SPECIES_SEALEO, 32, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_DEWGONG, 38, 41
+encounter SPECIES_LAPRAS, 42, 42
+encounter SPECIES_CLOYSTER, 42, 43
+encounter SPECIES_WALREIN, 44, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12795,9 +12441,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   123   // ROUTE 14 AREA 5
 
@@ -12860,36 +12503,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEALEO, 32, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_DEWGONG, 34, 35
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 28, 30
+encounter SPECIES_SPHEAL, 28, 31
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 35, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_DEWGONG, 37, 41
+encounter SPECIES_LAPRAS, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -12899,9 +12542,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   124   // ROUTE 14 AREA 6
 
@@ -12964,36 +12604,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEALEO, 32, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_DEWGONG, 34, 35
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 28, 30
+encounter SPECIES_SPHEAL, 28, 31
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 35, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_DEWGONG, 37, 41
+encounter SPECIES_LAPRAS, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13003,9 +12643,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   125   // FROZEN CAVE AREA 1
 
@@ -13068,36 +12705,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 33, 35
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_DEWGONG, 35, 37
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 30, 32
+encounter SPECIES_SEALEO, 32, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_DEWGONG, 38, 41
+encounter SPECIES_LAPRAS, 42, 42
+encounter SPECIES_CLOYSTER, 42, 43
+encounter SPECIES_WALREIN, 44, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13107,9 +12744,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   126   // FROZEN CAVE AREA 2
 
@@ -13172,36 +12806,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 33, 35
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_DEWGONG, 35, 37
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEALEO, 32, 32
+encounter SPECIES_SPHEAL, 30, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_DEWGONG, 38, 41
+encounter SPECIES_LAPRAS, 42, 42
+encounter SPECIES_CLOYSTER, 42, 43
+encounter SPECIES_WALREIN, 44, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13211,9 +12845,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   127   // RELIC CAVE AREA 1
 
@@ -13276,36 +12907,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 29, 31
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 31, 33
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 26, 28
+encounter SPECIES_CORSOLA, 26, 29
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 33, 36
+encounter SPECIES_JELLICENT, 35, 37
+encounter SPECIES_RELICANTH, 35, 38
+encounter SPECIES_RELICANTH, 35, 39
+encounter SPECIES_RELICANTH, 36, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13315,9 +12946,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   128   // RELIC CAVE AREA 2
 
@@ -13380,36 +13008,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 29, 31
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 31, 33
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 26, 28
+encounter SPECIES_CORSOLA, 26, 29
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 33, 36
+encounter SPECIES_JELLICENT, 35, 37
+encounter SPECIES_RELICANTH, 35, 38
+encounter SPECIES_RELICANTH, 35, 39
+encounter SPECIES_RELICANTH, 36, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13419,9 +13047,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   129   // RELIC CAVE AREA 3
 
@@ -13484,36 +13109,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 29, 31
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 31, 33
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 26, 28
+encounter SPECIES_CORSOLA, 26, 29
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_SHARPEDO, 30, 30
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 35, 36
+encounter SPECIES_SHARPEDO, 34, 37
+encounter SPECIES_RELICANTH, 35, 38
+encounter SPECIES_RELICANTH, 35, 39
+encounter SPECIES_RELICANTH, 36, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13523,9 +13148,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   130   // WILD AREA 1
 
@@ -13588,36 +13210,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEEL, 31, 33
+encounter SPECIES_SEAKING, 33, 34
+encounter SPECIES_SHARPEDO, 32, 34
+encounter SPECIES_TENTACRUEL, 33, 35
+encounter SPECIES_SEISMITOAD, 36, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SEEL, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_POLIWAG, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PYUKUMUKU, 28, 30
+encounter SPECIES_TENTACOOL, 28, 31
+encounter SPECIES_BASCULIN, 30, 32
+encounter SPECIES_SEADRA, 32, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 35, 38
+encounter SPECIES_BRUXISH, 36, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_GOLDUCK, 37, 41
+encounter SPECIES_STARMIE, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13627,9 +13249,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   131   // WILD AREA 2
 
@@ -13692,36 +13311,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWHIRL, 31, 33
+encounter SPECIES_SHARPEDO, 32, 34
+encounter SPECIES_SEAKING, 33, 34
+encounter SPECIES_GOLDUCK, 33, 35
+encounter SPECIES_SEISMITOAD, 36, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_SHELLDER, 16, 18
+encounter SPECIES_LUVDISC, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILMER, 28, 30
+encounter SPECIES_PALPITOAD, 28, 31
+encounter SPECIES_OCTILLERY, 29, 32
+encounter SPECIES_SEADRA, 32, 32
+encounter SPECIES_GYARADOS, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BRUXISH, 35, 38
+encounter SPECIES_RELICANTH, 36, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_WAILORD, 40, 41
+encounter SPECIES_LAPRAS, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13731,9 +13350,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   132   // WILD AREA 3
 
@@ -13796,36 +13412,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 31, 33
+encounter SPECIES_LUMINEON, 32, 34
+encounter SPECIES_WHISCASH, 32, 34
+encounter SPECIES_TENTACRUEL, 33, 35
+encounter SPECIES_GYARADOS, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_FEEBAS, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TYMPOLE, 28, 28
+encounter SPECIES_SKRELP, 28, 31
+encounter SPECIES_SEALEO, 32, 32
+encounter SPECIES_WHISCASH, 30, 32
+encounter SPECIES_TENTACRUEL, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TATSUGIRI, 35, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_WAILORD, 40, 41
+encounter SPECIES_TENTACRUEL, 38, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13835,9 +13451,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   133   // WILD AREA 4
 
@@ -13900,36 +13513,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HORSEA, 31, 33
+encounter SPECIES_SEADRA, 32, 34
+encounter SPECIES_SEALEO, 32, 34
+encounter SPECIES_GYARADOS, 33, 35
+encounter SPECIES_GOLDUCK, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAREANIE, 15, 17
+encounter SPECIES_PYUKUMUKU, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHELLDER, 28, 30
+encounter SPECIES_FEEBAS, 28, 31
+encounter SPECIES_OCTILLERY, 29, 32
+encounter SPECIES_SEALEO, 32, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BRUXISH, 35, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_GOLDUCK, 37, 41
+encounter SPECIES_CLOYSTER, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -13939,9 +13552,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   134   // WILD AREA 5
 
@@ -14004,36 +13614,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 31, 33
+encounter SPECIES_LUMINEON, 32, 34
+encounter SPECIES_BASCULIN, 32, 34
+encounter SPECIES_TENTACRUEL, 33, 35
+encounter SPECIES_GYARADOS, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_REMORAID, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_STARYU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 28, 30
+encounter SPECIES_REMORAID, 28, 28
+encounter SPECIES_LUMINEON, 31, 32
+encounter SPECIES_PELIPPER, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 35, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_TENTACRUEL, 37, 41
+encounter SPECIES_KINGDRA, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14043,9 +13653,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   135   // WILD AREA 6
 
@@ -14108,36 +13715,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 31, 33
+encounter SPECIES_OCTILLERY, 32, 34
+encounter SPECIES_PELIPPER, 32, 34
+encounter SPECIES_GOLDUCK, 33, 35
+encounter SPECIES_GYARADOS, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_DUCKLETT, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 28, 30
+encounter SPECIES_SHELLDER, 28, 31
+encounter SPECIES_LUMINEON, 31, 32
+encounter SPECIES_WHISCASH, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HUNTAIL, 35, 38
+encounter SPECIES_LUMINEON, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_WAILORD, 40, 41
+encounter SPECIES_LAPRAS, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14147,9 +13754,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   136   // WILD AREA 7
 
@@ -14212,36 +13816,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 31, 33
+encounter SPECIES_LUMINEON, 32, 34
+encounter SPECIES_SEAKING, 33, 34
+encounter SPECIES_TENTACRUEL, 33, 35
+encounter SPECIES_GYARADOS, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TYMPOLE, 15, 17
+encounter SPECIES_CLAMPERL, 16, 18
+encounter SPECIES_WISHIWASHI, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WINGULL, 28, 28
+encounter SPECIES_TENTACOOL, 28, 31
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_PELIPPER, 30, 32
+encounter SPECIES_TENTACRUEL, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 35, 38
+encounter SPECIES_TOXAPEX, 38, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_WAILORD, 40, 41
+encounter SPECIES_STARMIE, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14251,9 +13855,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   137   // WILD AREA 8
 
@@ -14316,36 +13917,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 33, 33
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_JELLICENT, 35, 36
+encounter SPECIES_GOLDUCK, 35, 37
+encounter SPECIES_CLAWITZER, 37, 38
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_SEEL, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 30, 32
+encounter SPECIES_WAILMER, 30, 33
+encounter SPECIES_SEALEO, 32, 34
+encounter SPECIES_QWILFISH, 32, 34
+encounter SPECIES_GOLDUCK, 33, 35
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PALAFIN, 38, 40
+encounter SPECIES_SEADRA, 38, 41
+encounter SPECIES_CLAWITZER, 39, 42
+encounter SPECIES_LAPRAS, 42, 43
+encounter SPECIES_GOLDUCK, 40, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14355,9 +13956,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   138   // WILD AREA 9
 
@@ -14420,36 +14018,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOLDEEN, 33, 35
+encounter SPECIES_SWANNA, 35, 36
+encounter SPECIES_PELIPPER, 34, 36
+encounter SPECIES_GOLDUCK, 35, 37
+encounter SPECIES_TENTACRUEL, 35, 38
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_POLIWAG, 15, 17
+encounter SPECIES_FINNEON, 16, 18
+encounter SPECIES_HORSEA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 30, 32
+encounter SPECIES_FEEBAS, 30, 33
+encounter SPECIES_WHISCASH, 31, 34
+encounter SPECIES_SEALEO, 32, 34
+encounter SPECIES_GYARADOS, 33, 35
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEAKING, 37, 40
+encounter SPECIES_SHARPEDO, 38, 41
+encounter SPECIES_LAPRAS, 42, 42
+encounter SPECIES_STARMIE, 42, 43
+encounter SPECIES_KINGDRA, 42, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14459,9 +14057,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   139   // WILD AREA 10
 
@@ -14524,36 +14119,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 31, 33
+encounter SPECIES_SEADRA, 32, 34
+encounter SPECIES_SEALEO, 32, 34
+encounter SPECIES_TENTACRUEL, 33, 35
+encounter SPECIES_GOLDUCK, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CHINCHOU, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_BARBOACH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 28, 30
+encounter SPECIES_CORSOLA, 28, 31
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SEADRA, 32, 32
+encounter SPECIES_GYARADOS, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 35, 38
+encounter SPECIES_LANTURN, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_WAILORD, 40, 41
+encounter SPECIES_LAPRAS, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14563,9 +14158,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   140   // WILD AREA 11
 
@@ -14628,36 +14220,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 31, 33
+encounter SPECIES_LUMINEON, 32, 34
+encounter SPECIES_SEALEO, 32, 34
+encounter SPECIES_TENTACRUEL, 33, 35
+encounter SPECIES_GYARADOS, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CLAMPERL, 15, 17
+encounter SPECIES_LUVDISC, 16, 18
+encounter SPECIES_GOLDEEN, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FINNEON, 28, 30
+encounter SPECIES_WISHIWASHI, 28, 31
+encounter SPECIES_OCTILLERY, 29, 32
+encounter SPECIES_SEADRA, 32, 32
+encounter SPECIES_GYARADOS, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 35, 38
+encounter SPECIES_WHISCASH, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_CLAWITZER, 37, 41
+encounter SPECIES_BASCULEGION, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14667,9 +14259,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   141   // WILD AREA 12
 
@@ -14732,36 +14321,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUVDISC, 31, 33
+encounter SPECIES_BASCULIN, 32, 34
+encounter SPECIES_SEAKING, 33, 34
+encounter SPECIES_GOLDUCK, 33, 35
+encounter SPECIES_GYARADOS, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CHINCHOU, 28, 30
+encounter SPECIES_POLIWAG, 28, 28
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_LANTURN, 30, 32
+encounter SPECIES_TENTACRUEL, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HUNTAIL, 35, 38
+encounter SPECIES_BRUXISH, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_CLAWITZER, 37, 41
+encounter SPECIES_STARMIE, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14771,9 +14360,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   142   // WILD AREA 13
 
@@ -14836,36 +14422,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HORSEA, 31, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_PELIPPER, 32, 34
+encounter SPECIES_TENTACRUEL, 33, 35
+encounter SPECIES_SEISMITOAD, 36, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FINNEON, 15, 17
+encounter SPECIES_REMORAID, 16, 18
+encounter SPECIES_MANTYKE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CHINCHOU, 28, 30
+encounter SPECIES_SKRELP, 28, 31
+encounter SPECIES_OCTILLERY, 29, 32
+encounter SPECIES_LUMINEON, 31, 32
+encounter SPECIES_TENTACRUEL, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_GOREBYSS, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_TENTACRUEL, 37, 41
+encounter SPECIES_CLAWITZER, 38, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14875,9 +14461,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   143   // WILD AREA 14
 
@@ -14940,36 +14523,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FINNEON, 31, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_SEALEO, 32, 34
+encounter SPECIES_TENTACRUEL, 33, 35
+encounter SPECIES_GYARADOS, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SHELLDER, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWHIRL, 28, 30
+encounter SPECIES_REMORAID, 28, 28
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_WHISCASH, 30, 32
+encounter SPECIES_GYARADOS, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TATSUGIRI, 35, 38
+encounter SPECIES_LANTURN, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_TENTACRUEL, 37, 41
+encounter SPECIES_WAILORD, 40, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -14979,9 +14562,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   144   // ROUTE 19 AREA 1
 
@@ -15044,36 +14624,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BARBOACH, 31, 33
+encounter SPECIES_OCTILLERY, 32, 34
+encounter SPECIES_SEAKING, 33, 34
+encounter SPECIES_GOLDUCK, 33, 35
+encounter SPECIES_SEISMITOAD, 36, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_CHINCHOU, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTYKE, 28, 30
+encounter SPECIES_GOLDEEN, 28, 31
+encounter SPECIES_LANTURN, 29, 32
+encounter SPECIES_OCTILLERY, 30, 32
+encounter SPECIES_GOLDUCK, 33, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 35, 38
+encounter SPECIES_BRUXISH, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_SEISMITOAD, 37, 41
+encounter SPECIES_CLAWITZER, 38, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -15083,9 +14663,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   145   // ROUTE 19 AREA 2
 
@@ -15148,36 +14725,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PYUKUMUKU, 31, 33
+encounter SPECIES_OCTILLERY, 32, 34
+encounter SPECIES_PELIPPER, 32, 34
+encounter SPECIES_TENTACRUEL, 33, 35
+encounter SPECIES_GOLDUCK, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CLAUNCHER, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_BARBOACH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PALPITOAD, 28, 30
+encounter SPECIES_CLAMPERL, 28, 31
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SEALEO, 32, 32
+encounter SPECIES_GYARADOS, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOREBYSS, 35, 38
+encounter SPECIES_OCTILLERY, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_CLAWITZER, 37, 41
+encounter SPECIES_CLOYSTER, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -15187,9 +14764,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   146   // ROUTE 19 AREA 3
 
@@ -15252,36 +14826,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 31, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_LUMINEON, 32, 34
+encounter SPECIES_GYARADOS, 33, 35
+encounter SPECIES_GOLDUCK, 33, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CHINCHOU, 15, 17
+encounter SPECIES_FINNEON, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWAG, 28, 28
+encounter SPECIES_SHELLDER, 28, 31
+encounter SPECIES_QWILFISH, 30, 32
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_GYARADOS, 31, 33
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_ALOMOMOLA, 35, 38
+encounter SPECIES_PALAFIN, 38, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_WAILORD, 40, 41
+encounter SPECIES_GYARADOS, 38, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -15291,9 +14865,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   147   // ULURU 2 A 1
 
@@ -15356,36 +14927,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 31, 33
+encounter SPECIES_SHARPEDO, 32, 34
+encounter SPECIES_SHARPEDO, 32, 34
+encounter SPECIES_RELICANTH, 35, 35
+encounter SPECIES_RELICANTH, 35, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 28, 30
+encounter SPECIES_FRILLISH, 28, 31
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 35, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 37, 41
+encounter SPECIES_BASCULEGION, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -15395,9 +14966,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   148   // ULURU 2 A 2
 
@@ -15460,36 +15028,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 31, 33
+encounter SPECIES_SHARPEDO, 32, 34
+encounter SPECIES_SHARPEDO, 32, 34
+encounter SPECIES_RELICANTH, 35, 35
+encounter SPECIES_RELICANTH, 35, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 28, 30
+encounter SPECIES_CORSOLA, 28, 31
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_SHARPEDO, 30, 32
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 35, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 37, 41
+encounter SPECIES_BASCULEGION, 42, 42
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -15499,9 +15067,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   149   // ROUTE 13 AREA 1
 
@@ -15564,36 +15129,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHELLDER, 33, 35
+encounter SPECIES_BASCULIN, 34, 36
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_TENTACRUEL, 35, 37
+encounter SPECIES_GOLDUCK, 35, 38
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FINNEON, 16, 18
+encounter SPECIES_SURSKIT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOLDEEN, 30, 32
+encounter SPECIES_PYUKUMUKU, 30, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_WHISCASH, 32, 34
+encounter SPECIES_TENTACRUEL, 33, 35
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEADRA, 37, 40
+encounter SPECIES_WHISCASH, 38, 41
+encounter SPECIES_CLAWITZER, 39, 42
+encounter SPECIES_LAPRAS, 42, 43
+encounter SPECIES_GOLDUCK, 40, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -15603,9 +15168,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   150   // ROUTE 13 AREA 2
 
@@ -15668,36 +15230,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHELLDER, 33, 35
+encounter SPECIES_ALOMOMOLA, 35, 36
+encounter SPECIES_PELIPPER, 34, 36
+encounter SPECIES_CLAWITZER, 37, 37
+encounter SPECIES_GYARADOS, 35, 38
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_LUVDISC, 15, 17
+encounter SPECIES_POLIWAG, 16, 18
+encounter SPECIES_FEEBAS, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 30, 32
+encounter SPECIES_CLAMPERL, 30, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_SHARPEDO, 32, 34
+encounter SPECIES_GOLDUCK, 33, 35
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TATSUGIRI, 37, 40
+encounter SPECIES_GOREBYSS, 38, 41
+encounter SPECIES_GOLDUCK, 39, 42
+encounter SPECIES_TENTACRUEL, 39, 43
+encounter SPECIES_BASCULEGION, 42, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -15707,9 +15269,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   151   // ROUTE 13 AREA 3
 
@@ -15772,36 +15331,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARYU, 33, 35
+encounter SPECIES_OCTILLERY, 34, 36
+encounter SPECIES_BRUXISH, 35, 36
+encounter SPECIES_SEISMITOAD, 36, 37
+encounter SPECIES_TENTACRUEL, 35, 38
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_DUCKLETT, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 30, 32
+encounter SPECIES_CLAUNCHER, 30, 33
+encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_LUMINEON, 32, 34
+encounter SPECIES_GYARADOS, 33, 35
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 37, 40
+encounter SPECIES_PELIPPER, 38, 41
+encounter SPECIES_STARMIE, 42, 42
+encounter SPECIES_KINGDRA, 42, 43
+encounter SPECIES_GYARADOS, 40, 44
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -15811,9 +15370,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   152   // ROUTE 13 AREA 4
 
@@ -15876,36 +15432,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWHIRL, 35, 37
+encounter SPECIES_QWILFISH, 36, 38
+encounter SPECIES_WHISCASH, 36, 38
+encounter SPECIES_GOLDUCK, 37, 39
+encounter SPECIES_SEISMITOAD, 37, 40
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FEEBAS, 15, 17
+encounter SPECIES_REMORAID, 16, 18
+encounter SPECIES_SURSKIT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILMER, 32, 34
+encounter SPECIES_POLIWHIRL, 32, 35
+encounter SPECIES_ALOMOMOLA, 35, 36
+encounter SPECIES_DEWGONG, 34, 36
+encounter SPECIES_GOLDUCK, 35, 37
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEAKING, 39, 42
+encounter SPECIES_SHARPEDO, 40, 43
+encounter SPECIES_WALREIN, 44, 44
+encounter SPECIES_WAILORD, 41, 45
+encounter SPECIES_MILOTIC, 42, 46
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -15915,9 +15471,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   153   // ULURU 3 A 1
 
@@ -15980,36 +15533,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FRILLISH, 35, 35
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_RELICANTH, 37, 39
+encounter SPECIES_RELICANTH, 37, 40
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CARVANHA, 32, 33
+encounter SPECIES_CORSOLA, 32, 35
+encounter SPECIES_SHARPEDO, 33, 36
+encounter SPECIES_JELLICENT, 35, 36
+encounter SPECIES_RELICANTH, 35, 37
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 39, 42
+encounter SPECIES_JELLICENT, 40, 43
+encounter SPECIES_BASCULEGION, 42, 44
+encounter SPECIES_RELICANTH, 41, 45
+encounter SPECIES_RELICANTH, 42, 46
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16019,9 +15572,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   154   // ULURU 3 A 2
 
@@ -16084,36 +15634,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 37, 39
+encounter SPECIES_JELLICENT, 38, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
+encounter SPECIES_BASCULEGION, 42, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 34, 35
+encounter SPECIES_FRILLISH, 34, 35
+encounter SPECIES_SHARPEDO, 35, 38
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_RELICANTH, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 41, 44
+encounter SPECIES_SHARPEDO, 42, 45
+encounter SPECIES_RELICANTH, 43, 46
+encounter SPECIES_BASCULEGION, 43, 47
+encounter SPECIES_RELICANTH, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16123,9 +15673,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   155   // MT UNDARA 1
 
@@ -16188,36 +15735,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 35, 35
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_TENTACRUEL, 37, 39
+encounter SPECIES_GYARADOS, 37, 40
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_FINNEON, 16, 18
+encounter SPECIES_WAILMER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHELLDER, 32, 34
+encounter SPECIES_WAILMER, 32, 35
+encounter SPECIES_BASCULIN, 33, 36
+encounter SPECIES_ALOMOMOLA, 35, 36
+encounter SPECIES_CLAWITZER, 37, 37
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 39, 42
+encounter SPECIES_LUMINEON, 40, 43
+encounter SPECIES_KINGDRA, 42, 44
+encounter SPECIES_CLOYSTER, 42, 45
+encounter SPECIES_WALREIN, 44, 46
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16227,9 +15774,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   156   // MT UNDARA 2
 
@@ -16292,36 +15836,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEEL, 37, 37
+encounter SPECIES_OCTILLERY, 38, 40
+encounter SPECIES_SEADRA, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
+encounter SPECIES_STARMIE, 42, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CHINCHOU, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_WAILMER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SPHEAL, 34, 35
+encounter SPECIES_CLAMPERL, 34, 35
+encounter SPECIES_CRAMORANT, 35, 38
+encounter SPECIES_OCTILLERY, 36, 38
+encounter SPECIES_CLAWITZER, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 41, 44
+encounter SPECIES_MANTINE, 42, 45
+encounter SPECIES_TENTACRUEL, 43, 46
+encounter SPECIES_GYARADOS, 43, 47
+encounter SPECIES_BASCULEGION, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16331,9 +15875,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   157   // MT UNDARA 3
 
@@ -16396,36 +15937,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 37, 38
+encounter SPECIES_OCTILLERY, 38, 40
+encounter SPECIES_BRUXISH, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
+encounter SPECIES_GOLDUCK, 39, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_WINGULL, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARYU, 34, 35
+encounter SPECIES_WAILMER, 34, 37
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_TENTACRUEL, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 41, 44
+encounter SPECIES_PELIPPER, 42, 45
+encounter SPECIES_STARMIE, 43, 46
+encounter SPECIES_BASCULEGION, 43, 47
+encounter SPECIES_SEISMITOAD, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16435,9 +15976,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   158   // MT UNDARA 4
 
@@ -16500,36 +16038,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEEL, 37, 37
+encounter SPECIES_QWILFISH, 38, 40
+encounter SPECIES_LANTURN, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
+encounter SPECIES_BASCULEGION, 42, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_PYUKUMUKU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOLDEEN, 34, 36
+encounter SPECIES_FINNEON, 34, 34
+encounter SPECIES_SEAKING, 35, 38
+encounter SPECIES_SWANNA, 36, 38
+encounter SPECIES_GOLDUCK, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 41, 44
+encounter SPECIES_PALAFIN, 42, 45
+encounter SPECIES_MILOTIC, 43, 46
+encounter SPECIES_SEISMITOAD, 43, 47
+encounter SPECIES_BASCULEGION, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16539,9 +16077,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   159   // MT UNDARA 5
 
@@ -16604,36 +16139,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_ALOMOMOLA, 39, 41
+encounter SPECIES_SEADRA, 40, 42
+encounter SPECIES_BASCULEGION, 42, 42
+encounter SPECIES_STARMIE, 42, 43
+encounter SPECIES_GYARADOS, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CLAMPERL, 15, 17
+encounter SPECIES_HORSEA, 16, 18
+encounter SPECIES_BARBOACH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_SEADRA, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_GOLDUCK, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MILOTIC, 43, 46
+encounter SPECIES_BASCULEGION, 44, 47
+encounter SPECIES_LAPRAS, 45, 48
+encounter SPECIES_CLAWITZER, 45, 49
+encounter SPECIES_POLITOED, 50, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16643,9 +16178,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   160   // MT UNDARA 6
 
@@ -16708,36 +16240,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUMINEON, 39, 41
+encounter SPECIES_TOXAPEX, 40, 42
+encounter SPECIES_GYARADOS, 40, 42
+encounter SPECIES_CLAWITZER, 41, 43
+encounter SPECIES_STARMIE, 42, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SEEL, 15, 17
+encounter SPECIES_REMORAID, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOREBYSS, 36, 38
+encounter SPECIES_PALAFIN, 38, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_GOLDUCK, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 43, 46
+encounter SPECIES_LAPRAS, 44, 47
+encounter SPECIES_SEISMITOAD, 45, 48
+encounter SPECIES_WAILORD, 45, 49
+encounter SPECIES_CLAWITZER, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16747,9 +16279,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   161   // MT UNDARA 7
 
@@ -16812,36 +16341,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 39, 41
+encounter SPECIES_WHISCASH, 40, 42
+encounter SPECIES_STARMIE, 42, 42
+encounter SPECIES_CLAWITZER, 41, 43
+encounter SPECIES_LAPRAS, 42, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_LUVDISC, 15, 17
+encounter SPECIES_WINGULL, 16, 18
+encounter SPECIES_PYUKUMUKU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOREBYSS, 36, 38
+encounter SPECIES_QWILFISH, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LAPRAS, 43, 46
+encounter SPECIES_BASCULEGION, 44, 47
+encounter SPECIES_CLOYSTER, 45, 48
+encounter SPECIES_TENTACRUEL, 45, 49
+encounter SPECIES_GYARADOS, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16851,9 +16380,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   162   // MT UNDARA 8
 
@@ -16916,36 +16442,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 39, 41
+encounter SPECIES_TOXAPEX, 40, 42
+encounter SPECIES_TENTACRUEL, 40, 42
+encounter SPECIES_GOLDUCK, 41, 43
+encounter SPECIES_CLAWITZER, 41, 44
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_PYUKUMUKU, 15, 17
+encounter SPECIES_CLAMPERL, 16, 18
+encounter SPECIES_STARYU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 36, 38
+encounter SPECIES_CRAMORANT, 36, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULEGION, 43, 46
+encounter SPECIES_GOLDUCK, 44, 47
+encounter SPECIES_CLOYSTER, 45, 48
+encounter SPECIES_MILOTIC, 45, 49
+encounter SPECIES_STARMIE, 46, 50
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -16955,9 +16481,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   163   // PLUS PASSAGE
 
@@ -17020,36 +16543,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 35, 35
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_RELICANTH, 37, 39
+encounter SPECIES_RELICANTH, 37, 40
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CORSOLA, 32, 34
+encounter SPECIES_CARVANHA, 32, 33
+encounter SPECIES_JELLICENT, 35, 36
+encounter SPECIES_SHARPEDO, 34, 36
+encounter SPECIES_RELICANTH, 35, 37
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 39, 42
+encounter SPECIES_JELLICENT, 40, 43
+encounter SPECIES_BASCULEGION, 42, 44
+encounter SPECIES_RELICANTH, 41, 45
+encounter SPECIES_BASCULEGION, 42, 46
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17059,9 +16582,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   164   // SHALLOW C 1
 
@@ -17124,36 +16644,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 37, 39
+encounter SPECIES_SEALEO, 38, 40
+encounter SPECIES_PELIPPER, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
+encounter SPECIES_CLAWITZER, 39, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CLAMPERL, 15, 17
+encounter SPECIES_POLIWAG, 16, 18
+encounter SPECIES_FEEBAS, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUVDISC, 34, 35
+encounter SPECIES_WISHIWASHI, 34, 35
+encounter SPECIES_CRAMORANT, 35, 38
+encounter SPECIES_SEADRA, 36, 38
+encounter SPECIES_GYARADOS, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 41, 44
+encounter SPECIES_ALOMOMOLA, 42, 45
+encounter SPECIES_WAILORD, 43, 46
+encounter SPECIES_BASCULEGION, 43, 47
+encounter SPECIES_SEISMITOAD, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17163,9 +16683,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   165   // SHALLOW C 2
 
@@ -17228,36 +16745,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 37, 38
+encounter SPECIES_SHARPEDO, 38, 40
+encounter SPECIES_SEADRA, 38, 40
+encounter SPECIES_WAILORD, 40, 41
+encounter SPECIES_CLAWITZER, 39, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FINNEON, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_REMORAID, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 34, 35
+encounter SPECIES_LUVDISC, 34, 35
+encounter SPECIES_SHARPEDO, 35, 38
+encounter SPECIES_BASCULIN, 36, 38
+encounter SPECIES_GOLDUCK, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HUNTAIL, 41, 44
+encounter SPECIES_WHISCASH, 42, 45
+encounter SPECIES_CLOYSTER, 43, 46
+encounter SPECIES_WALREIN, 44, 47
+encounter SPECIES_WAILORD, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17267,9 +16784,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   166   // SHALLOW C 3
 
@@ -17332,36 +16846,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILMER, 37, 39
+encounter SPECIES_PALAFIN, 38, 40
+encounter SPECIES_TATSUGIRI, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
+encounter SPECIES_GYARADOS, 39, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_GOLDEEN, 15, 17
+encounter SPECIES_CHINCHOU, 16, 18
+encounter SPECIES_MANTYKE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 34, 36
+encounter SPECIES_SHELLDER, 34, 35
+encounter SPECIES_DEWGONG, 35, 38
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_GOLDUCK, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 41, 44
+encounter SPECIES_SHARPEDO, 42, 45
+encounter SPECIES_CLOYSTER, 43, 46
+encounter SPECIES_MILOTIC, 43, 47
+encounter SPECIES_CLAWITZER, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17371,9 +16885,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   167   // ROUTE 15
 
@@ -17436,36 +16947,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 37, 39
+encounter SPECIES_GOREBYSS, 38, 40
+encounter SPECIES_SEALEO, 38, 40
+encounter SPECIES_GOLDUCK, 39, 41
+encounter SPECIES_CLOYSTER, 42, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_LUVDISC, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_FEEBAS, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILMER, 34, 36
+encounter SPECIES_POLIWHIRL, 34, 37
+encounter SPECIES_TATSUGIRI, 35, 38
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_TENTACRUEL, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEALEO, 41, 44
+encounter SPECIES_BASCULIN, 42, 45
+encounter SPECIES_WALREIN, 44, 46
+encounter SPECIES_GYARADOS, 43, 47
+encounter SPECIES_GOLDUCK, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17475,9 +16986,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   168   // ROUTE 16 AREA 1
 
@@ -17540,36 +17048,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DUCKLETT, 37, 38
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_JELLICENT, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
+encounter SPECIES_LAPRAS, 42, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TYMPOLE, 15, 17
+encounter SPECIES_SURSKIT, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 34, 36
+encounter SPECIES_SKRELP, 34, 37
+encounter SPECIES_SEAKING, 35, 38
+encounter SPECIES_MANTINE, 36, 38
+encounter SPECIES_CLAWITZER, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 41, 44
+encounter SPECIES_OCTILLERY, 42, 45
+encounter SPECIES_BASCULEGION, 43, 46
+encounter SPECIES_CLOYSTER, 43, 47
+encounter SPECIES_GYARADOS, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17579,9 +17087,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   169   // ROUTE 16 AREA 2
 
@@ -17644,36 +17149,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEEL, 37, 37
+encounter SPECIES_OCTILLERY, 38, 40
+encounter SPECIES_HUNTAIL, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
+encounter SPECIES_SEISMITOAD, 39, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SEEL, 15, 17
+encounter SPECIES_REMORAID, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FINNEON, 34, 34
+encounter SPECIES_MANTYKE, 34, 35
+encounter SPECIES_SHARPEDO, 35, 38
+encounter SPECIES_GOREBYSS, 36, 38
+encounter SPECIES_CLAWITZER, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PALAFIN, 41, 44
+encounter SPECIES_OCTILLERY, 42, 45
+encounter SPECIES_GOLDUCK, 43, 46
+encounter SPECIES_KINGDRA, 43, 47
+encounter SPECIES_WALREIN, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17683,9 +17188,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   170   // ROUTE 16 AREA 3
 
@@ -17748,36 +17250,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILMER, 37, 39
+encounter SPECIES_LANTURN, 38, 40
+encounter SPECIES_BRUXISH, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
+encounter SPECIES_GYARADOS, 39, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_POLIWAG, 15, 17
+encounter SPECIES_MAREANIE, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WISHIWASHI, 34, 35
+encounter SPECIES_CLAMPERL, 34, 35
+encounter SPECIES_CRAMORANT, 35, 38
+encounter SPECIES_ALOMOMOLA, 36, 38
+encounter SPECIES_GYARADOS, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEADRA, 41, 44
+encounter SPECIES_SEAKING, 42, 45
+encounter SPECIES_CLAWITZER, 43, 46
+encounter SPECIES_STARMIE, 43, 47
+encounter SPECIES_LAPRAS, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17787,9 +17289,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   171   // ROUTE 16 AREA 4
 
@@ -17852,36 +17351,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAREANIE, 37, 39
+encounter SPECIES_DEWGONG, 38, 40
+encounter SPECIES_PALAFIN, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
+encounter SPECIES_GOLDUCK, 39, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_CLAMPERL, 16, 18
+encounter SPECIES_POLIWAG, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_FEEBAS, 34, 35
+encounter SPECIES_SHELLDER, 34, 35
+encounter SPECIES_RELICANTH, 35, 38
+encounter SPECIES_BRUXISH, 36, 38
+encounter SPECIES_CLAWITZER, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULIN, 41, 44
+encounter SPECIES_SEAKING, 42, 45
+encounter SPECIES_STARMIE, 43, 46
+encounter SPECIES_WAILORD, 43, 47
+encounter SPECIES_MILOTIC, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17891,9 +17390,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   172   // ROUTE 16 AREA 5
 
@@ -17956,36 +17452,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SKRELP, 37, 39
+encounter SPECIES_BRUXISH, 38, 40
+encounter SPECIES_TATSUGIRI, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
+encounter SPECIES_TENTACRUEL, 39, 42
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_LUVDISC, 15, 17
+encounter SPECIES_POLIWAG, 16, 18
+encounter SPECIES_FINNEON, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PALPITOAD, 34, 36
+encounter SPECIES_POLIWHIRL, 34, 37
+encounter SPECIES_SEAKING, 35, 38
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_SEISMITOAD, 37, 39
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 41, 44
+encounter SPECIES_OCTILLERY, 42, 45
+encounter SPECIES_WALREIN, 44, 46
+encounter SPECIES_TENTACRUEL, 43, 47
+encounter SPECIES_KINGDRA, 44, 48
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -17995,9 +17491,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   173   // HAUNTED FOREST 1
 
@@ -18060,36 +17553,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WHISCASH, 40, 42
+encounter SPECIES_SEAKING, 41, 43
+encounter SPECIES_TENTACRUEL, 41, 43
+encounter SPECIES_WAILORD, 42, 44
+encounter SPECIES_WALREIN, 44, 45
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CLAMPERL, 15, 17
+encounter SPECIES_SEEL, 16, 18
+encounter SPECIES_SHELLDER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_LANTURN, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_GOLDUCK, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARMIE, 44, 47
+encounter SPECIES_CLOYSTER, 45, 48
+encounter SPECIES_GOLDUCK, 46, 49
+encounter SPECIES_POLIWRATH, 50, 50
+encounter SPECIES_TENTACRUEL, 47, 51
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -18099,9 +17592,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   174   // HAUNTED FOREST 2
 
@@ -18164,36 +17654,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 40, 42
+encounter SPECIES_SEAKING, 41, 43
+encounter SPECIES_CLAWITZER, 41, 43
+encounter SPECIES_MILOTIC, 42, 44
+encounter SPECIES_STARMIE, 42, 45
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FEEBAS, 15, 17
+encounter SPECIES_HORSEA, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_LANTURN, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_GOLDUCK, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 44, 47
+encounter SPECIES_SEISMITOAD, 45, 48
+encounter SPECIES_TENTACRUEL, 46, 49
+encounter SPECIES_STARMIE, 46, 50
+encounter SPECIES_CLOYSTER, 47, 51
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -18203,9 +17693,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   175   // HAUNTED FOREST 3
 
@@ -18268,36 +17755,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_ALOMOMOLA, 40, 42
+encounter SPECIES_LANTURN, 41, 43
+encounter SPECIES_CLOYSTER, 42, 43
+encounter SPECIES_SEISMITOAD, 42, 44
+encounter SPECIES_KINGDRA, 42, 45
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_HORSEA, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_WISHIWASHI, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_CLAWITZER, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLAWITZER, 44, 47
+encounter SPECIES_STARMIE, 45, 48
+encounter SPECIES_SEISMITOAD, 46, 49
+encounter SPECIES_MILOTIC, 46, 50
+encounter SPECIES_POLITOED, 50, 51
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -18307,9 +17794,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   176   // HAUNTED FOREST 4
 
@@ -18372,36 +17856,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 40, 42
+encounter SPECIES_CRAMORANT, 41, 43
+encounter SPECIES_KINGDRA, 42, 43
+encounter SPECIES_CLAWITZER, 42, 44
+encounter SPECIES_LAPRAS, 42, 45
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_REMORAID, 15, 17
+encounter SPECIES_WAILMER, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_RELICANTH, 36, 38
+encounter SPECIES_LANTURN, 36, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_GOLDUCK, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MILOTIC, 44, 47
+encounter SPECIES_BASCULEGION, 45, 48
+encounter SPECIES_KINGDRA, 46, 49
+encounter SPECIES_POLIWRATH, 50, 50
+encounter SPECIES_GOLDUCK, 47, 51
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -18411,9 +17895,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   177   // HAUNTED FOREST 5
 
@@ -18476,36 +17957,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 40, 42
+encounter SPECIES_PELIPPER, 41, 43
+encounter SPECIES_BASCULEGION, 42, 43
+encounter SPECIES_LAPRAS, 42, 44
+encounter SPECIES_STARMIE, 42, 45
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_FEEBAS, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 36, 38
+encounter SPECIES_GOREBYSS, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 44, 47
+encounter SPECIES_BASCULEGION, 45, 48
+encounter SPECIES_WALREIN, 46, 49
+encounter SPECIES_MILOTIC, 46, 50
+encounter SPECIES_KINGDRA, 47, 51
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -18515,9 +17996,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   178   // HAUNTED MANSION 1
 
@@ -18580,36 +18058,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PALAFIN, 43, 45
+encounter SPECIES_TOXAPEX, 44, 46
+encounter SPECIES_TENTACRUEL, 44, 46
+encounter SPECIES_WALREIN, 45, 47
+encounter SPECIES_MILOTIC, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_REMORAID, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_STARYU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOREBYSS, 36, 38
+encounter SPECIES_SEAKING, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLITOED, 50, 50
+encounter SPECIES_GOLDUCK, 48, 51
+encounter SPECIES_LAPRAS, 49, 52
+encounter SPECIES_CLAWITZER, 49, 53
+encounter SPECIES_WAILORD, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -18619,9 +18097,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   179   // HAUNTED MANSION 2
 
@@ -18684,36 +18159,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 43, 45
+encounter SPECIES_BRUXISH, 44, 46
+encounter SPECIES_GYARADOS, 44, 46
+encounter SPECIES_LAPRAS, 45, 47
+encounter SPECIES_WAILORD, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TENTACOOL, 15, 17
+encounter SPECIES_CLAUNCHER, 16, 18
+encounter SPECIES_GOLDEEN, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_ALOMOMOLA, 36, 38
+encounter SPECIES_WHISCASH, 36, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_GOLDUCK, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEISMITOAD, 47, 50
+encounter SPECIES_GYARADOS, 48, 51
+encounter SPECIES_POLIWRATH, 50, 52
+encounter SPECIES_LAPRAS, 49, 53
+encounter SPECIES_GOLDUCK, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -18723,9 +18198,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   180   // ROUTE 18 AREA 1
 
@@ -18788,36 +18260,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_RELICANTH, 43, 45
+encounter SPECIES_TOXAPEX, 44, 46
+encounter SPECIES_CLOYSTER, 44, 46
+encounter SPECIES_TENTACRUEL, 45, 47
+encounter SPECIES_BASCULEGION, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_PYUKUMUKU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 36, 38
+encounter SPECIES_RELICANTH, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 47, 50
+encounter SPECIES_CLOYSTER, 48, 51
+encounter SPECIES_TENTACRUEL, 49, 52
+encounter SPECIES_POLIWRATH, 50, 53
+encounter SPECIES_WALREIN, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -18827,9 +18299,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   181   // ROUTE 18 AREA 2
 
@@ -18892,36 +18361,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEADRA, 43, 45
+encounter SPECIES_BRUXISH, 44, 46
+encounter SPECIES_MILOTIC, 44, 46
+encounter SPECIES_CLAWITZER, 45, 47
+encounter SPECIES_SEISMITOAD, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_REMORAID, 15, 17
+encounter SPECIES_TYMPOLE, 16, 18
+encounter SPECIES_SURSKIT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_PALAFIN, 38, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LAPRAS, 47, 50
+encounter SPECIES_POLITOED, 50, 51
+encounter SPECIES_GYARADOS, 49, 52
+encounter SPECIES_SEISMITOAD, 49, 53
+encounter SPECIES_WAILORD, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -18931,9 +18400,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   182   // ROUTE 18 AREA 3
 
@@ -18996,36 +18462,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BRUXISH, 43, 45
+encounter SPECIES_ALOMOMOLA, 44, 46
+encounter SPECIES_TENTACRUEL, 44, 46
+encounter SPECIES_LAPRAS, 45, 47
+encounter SPECIES_WALREIN, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_DUCKLETT, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_SHELLDER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_CRAMORANT, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEISMITOAD, 47, 50
+encounter SPECIES_CLAWITZER, 48, 51
+encounter SPECIES_POLITOED, 50, 52
+encounter SPECIES_STARMIE, 49, 53
+encounter SPECIES_GOLDUCK, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19035,9 +18501,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   183   // ROUTE 18 AREA 4
 
@@ -19100,36 +18563,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WHISCASH, 43, 45
+encounter SPECIES_TOXAPEX, 44, 46
+encounter SPECIES_SEISMITOAD, 44, 46
+encounter SPECIES_GYARADOS, 45, 47
+encounter SPECIES_KINGDRA, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_SURSKIT, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_GOREBYSS, 36, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 47, 50
+encounter SPECIES_POLIWRATH, 50, 51
+encounter SPECIES_WALREIN, 49, 52
+encounter SPECIES_KINGDRA, 49, 53
+encounter SPECIES_BASCULEGION, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19139,9 +18602,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   184   // CAVE 1
 
@@ -19204,36 +18664,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 45, 47
+encounter SPECIES_JELLICENT, 46, 48
+encounter SPECIES_RELICANTH, 46, 48
+encounter SPECIES_BASCULEGION, 47, 49
+encounter SPECIES_BASCULEGION, 47, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULEGION, 49, 52
+encounter SPECIES_RELICANTH, 50, 53
+encounter SPECIES_JELLICENT, 51, 54
+encounter SPECIES_SHARPEDO, 51, 55
+encounter SPECIES_RELICANTH, 52, 56
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19243,9 +18703,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   185   // CAVE 2
 
@@ -19308,36 +18765,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 45, 47
+encounter SPECIES_SHARPEDO, 46, 48
+encounter SPECIES_BASCULEGION, 46, 48
+encounter SPECIES_RELICANTH, 47, 49
+encounter SPECIES_BASCULEGION, 47, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_RELICANTH, 49, 52
+encounter SPECIES_BASCULEGION, 50, 53
+encounter SPECIES_SHARPEDO, 51, 54
+encounter SPECIES_JELLICENT, 51, 55
+encounter SPECIES_RELICANTH, 52, 56
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19347,9 +18804,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   186   // CAVE 3
 
@@ -19412,36 +18866,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 45, 47
+encounter SPECIES_SHARPEDO, 46, 48
+encounter SPECIES_BASCULEGION, 46, 48
+encounter SPECIES_RELICANTH, 47, 49
+encounter SPECIES_BASCULEGION, 47, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULEGION, 49, 52
+encounter SPECIES_RELICANTH, 50, 53
+encounter SPECIES_JELLICENT, 51, 54
+encounter SPECIES_SHARPEDO, 51, 55
+encounter SPECIES_RELICANTH, 52, 56
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19451,9 +18905,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   187   // ROUTE 17 AREA 1
 
@@ -19516,36 +18967,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PALAFIN, 43, 45
+encounter SPECIES_CRAMORANT, 44, 46
+encounter SPECIES_TENTACRUEL, 44, 46
+encounter SPECIES_STARMIE, 45, 47
+encounter SPECIES_LAPRAS, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_POLIWAG, 15, 17
+encounter SPECIES_REMORAID, 16, 18
+encounter SPECIES_BARBOACH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_RELICANTH, 36, 38
+encounter SPECIES_HUNTAIL, 36, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_GOLDUCK, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLITOED, 50, 50
+encounter SPECIES_KINGDRA, 48, 51
+encounter SPECIES_GOLDUCK, 49, 52
+encounter SPECIES_STARMIE, 49, 53
+encounter SPECIES_WAILORD, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19555,9 +19006,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   188   // ROUTE 17 AREA 2
 
@@ -19620,36 +19068,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUMINEON, 43, 45
+encounter SPECIES_RELICANTH, 44, 46
+encounter SPECIES_GOLDUCK, 44, 46
+encounter SPECIES_WAILORD, 45, 47
+encounter SPECIES_TENTACRUEL, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FEEBAS, 15, 17
+encounter SPECIES_SHELLDER, 16, 18
+encounter SPECIES_DUCKLETT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_ALOMOMOLA, 36, 38
+encounter SPECIES_WHISCASH, 36, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARMIE, 47, 50
+encounter SPECIES_GOLDUCK, 48, 51
+encounter SPECIES_CLAWITZER, 49, 52
+encounter SPECIES_BASCULEGION, 49, 53
+encounter SPECIES_POLIWRATH, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19659,9 +19107,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   189   // ROUTE 17 AREA 3
 
@@ -19724,36 +19169,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 43, 45
+encounter SPECIES_SEALEO, 44, 46
+encounter SPECIES_CLOYSTER, 44, 46
+encounter SPECIES_GOLDUCK, 45, 47
+encounter SPECIES_CLAWITZER, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WAILMER, 15, 17
+encounter SPECIES_SURSKIT, 16, 18
+encounter SPECIES_PYUKUMUKU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HUNTAIL, 36, 38
+encounter SPECIES_QWILFISH, 36, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLITOED, 50, 50
+encounter SPECIES_CLOYSTER, 48, 51
+encounter SPECIES_POLIWRATH, 50, 52
+encounter SPECIES_TENTACRUEL, 49, 53
+encounter SPECIES_WAILORD, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19763,9 +19208,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   190   // ROUTE 17 AREA 4
 
@@ -19828,36 +19270,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 43, 45
+encounter SPECIES_SEALEO, 44, 46
+encounter SPECIES_BASCULEGION, 44, 46
+encounter SPECIES_STARMIE, 45, 47
+encounter SPECIES_GOLDUCK, 45, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MANTYKE, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOREBYSS, 36, 38
+encounter SPECIES_BRUXISH, 36, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_GOLDUCK, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEISMITOAD, 47, 50
+encounter SPECIES_CLOYSTER, 48, 51
+encounter SPECIES_POLITOED, 50, 52
+encounter SPECIES_BASCULEGION, 49, 53
+encounter SPECIES_GYARADOS, 50, 54
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19867,9 +19309,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   191   // ROUTE 17 AREA 5
 
@@ -19932,36 +19371,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULIN, 45, 47
+encounter SPECIES_JELLICENT, 46, 48
+encounter SPECIES_BASCULEGION, 46, 48
+encounter SPECIES_MILOTIC, 47, 49
+encounter SPECIES_WAILORD, 47, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_LUVDISC, 16, 18
+encounter SPECIES_SHELLDER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEAKING, 36, 38
+encounter SPECIES_RELICANTH, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MILOTIC, 49, 52
+encounter SPECIES_CLOYSTER, 50, 53
+encounter SPECIES_POLITOED, 51, 54
+encounter SPECIES_SEISMITOAD, 51, 55
+encounter SPECIES_GYARADOS, 52, 56
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -19971,9 +19410,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   192   // ROUTE 17 AREA 6
 
@@ -20036,36 +19472,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUMINEON, 45, 47
+encounter SPECIES_SWANNA, 46, 48
+encounter SPECIES_CLAWITZER, 46, 48
+encounter SPECIES_KINGDRA, 47, 49
+encounter SPECIES_STARMIE, 47, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_POLIWAG, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_SHELLDER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_PALAFIN, 38, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACRUEL, 49, 52
+encounter SPECIES_KINGDRA, 50, 53
+encounter SPECIES_SEISMITOAD, 51, 54
+encounter SPECIES_GYARADOS, 51, 55
+encounter SPECIES_POLIWRATH, 52, 56
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -20075,9 +19511,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   193   // ROUTE 17 AREA 7
 
@@ -20140,36 +19573,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PALAFIN, 45, 47
+encounter SPECIES_SEADRA, 46, 48
+encounter SPECIES_GYARADOS, 46, 48
+encounter SPECIES_MILOTIC, 47, 49
+encounter SPECIES_CLAWITZER, 47, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_REMORAID, 15, 17
+encounter SPECIES_HORSEA, 16, 18
+encounter SPECIES_MANTYKE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 36, 38
+encounter SPECIES_QWILFISH, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_KINGDRA, 49, 52
+encounter SPECIES_WAILORD, 50, 53
+encounter SPECIES_POLIWRATH, 51, 54
+encounter SPECIES_CLAWITZER, 51, 55
+encounter SPECIES_SEISMITOAD, 52, 56
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -20179,9 +19612,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   194   // ROUTE 17 AREA 8
 
@@ -20244,36 +19674,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEADRA, 45, 47
+encounter SPECIES_LANTURN, 46, 48
+encounter SPECIES_STARMIE, 46, 48
+encounter SPECIES_SEISMITOAD, 47, 49
+encounter SPECIES_WAILORD, 47, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SURSKIT, 15, 17
+encounter SPECIES_BARBOACH, 16, 18
+encounter SPECIES_FEEBAS, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEALEO, 36, 38
+encounter SPECIES_BRUXISH, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLIWRATH, 50, 52
+encounter SPECIES_MILOTIC, 50, 53
+encounter SPECIES_STARMIE, 51, 54
+encounter SPECIES_LAPRAS, 51, 55
+encounter SPECIES_SEISMITOAD, 52, 56
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -20283,9 +19713,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   195   // WILD AREA 15
 
@@ -20348,36 +19775,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEAKING, 44, 46
+encounter SPECIES_SHARPEDO, 45, 47
+encounter SPECIES_WAILORD, 45, 47
+encounter SPECIES_WALREIN, 46, 48
+encounter SPECIES_BASCULEGION, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CLAUNCHER, 15, 17
+encounter SPECIES_FEEBAS, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 36, 38
+encounter SPECIES_SWANNA, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILORD, 48, 51
+encounter SPECIES_TENTACRUEL, 49, 52
+encounter SPECIES_STARMIE, 50, 53
+encounter SPECIES_LAPRAS, 50, 54
+encounter SPECIES_GYARADOS, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -20387,9 +19814,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   196   // WILD AREA 16
 
@@ -20452,36 +19876,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 44, 46
+encounter SPECIES_WHISCASH, 45, 47
+encounter SPECIES_CLOYSTER, 45, 47
+encounter SPECIES_WALREIN, 46, 48
+encounter SPECIES_MILOTIC, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WINGULL, 15, 17
+encounter SPECIES_LUVDISC, 16, 18
+encounter SPECIES_SEEL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 36, 38
+encounter SPECIES_SEAKING, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_CLAWITZER, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 48, 51
+encounter SPECIES_POLIWRATH, 50, 52
+encounter SPECIES_WALREIN, 50, 53
+encounter SPECIES_SEISMITOAD, 50, 54
+encounter SPECIES_WAILORD, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -20491,9 +19915,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   197   // WILD AREA 17
 
@@ -20556,36 +19977,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 44, 46
+encounter SPECIES_SEAKING, 45, 47
+encounter SPECIES_BASCULEGION, 45, 47
+encounter SPECIES_WALREIN, 46, 48
+encounter SPECIES_CLAWITZER, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WAILMER, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_TENTACOOL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TATSUGIRI, 36, 38
+encounter SPECIES_LUMINEON, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WAILORD, 48, 51
+encounter SPECIES_CLOYSTER, 49, 52
+encounter SPECIES_WALREIN, 50, 53
+encounter SPECIES_TENTACRUEL, 50, 54
+encounter SPECIES_CLAWITZER, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -20595,9 +20016,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   198   // WILD AREA 18
 
@@ -20660,36 +20078,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLOYSTER, 44, 46
+encounter SPECIES_DEWGONG, 45, 47
+encounter SPECIES_WALREIN, 45, 47
+encounter SPECIES_LAPRAS, 46, 48
+encounter SPECIES_WALREIN, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 36, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LAPRAS, 48, 51
+encounter SPECIES_WALREIN, 49, 52
+encounter SPECIES_CLOYSTER, 50, 53
+encounter SPECIES_DEWGONG, 50, 54
+encounter SPECIES_WALREIN, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -20699,9 +20117,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   199   // WILD AREA 19
 
@@ -20764,36 +20179,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLOYSTER, 44, 46
+encounter SPECIES_DEWGONG, 45, 47
+encounter SPECIES_LAPRAS, 45, 47
+encounter SPECIES_WALREIN, 46, 48
+encounter SPECIES_WALREIN, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_MAGIKARP, 16, 18
+encounter SPECIES_MAGIKARP, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 36, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LAPRAS, 48, 51
+encounter SPECIES_WALREIN, 49, 52
+encounter SPECIES_DEWGONG, 50, 53
+encounter SPECIES_CLOYSTER, 50, 54
+encounter SPECIES_WALREIN, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -20803,9 +20218,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   200   // WILD AREA 20
 
@@ -20868,36 +20280,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLOYSTER, 44, 46
+encounter SPECIES_DEWGONG, 45, 47
+encounter SPECIES_WALREIN, 45, 47
+encounter SPECIES_LAPRAS, 46, 48
+encounter SPECIES_LAPRAS, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SPHEAL, 15, 17
+encounter SPECIES_SPHEAL, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 36, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_DEWGONG, 37, 40
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WALREIN, 48, 51
+encounter SPECIES_LAPRAS, 49, 52
+encounter SPECIES_CLOYSTER, 50, 53
+encounter SPECIES_DEWGONG, 50, 54
+encounter SPECIES_LAPRAS, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -20907,9 +20319,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   201   // WILD AREA 21
 
@@ -20972,36 +20381,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HUNTAIL, 44, 46
+encounter SPECIES_PELIPPER, 45, 47
+encounter SPECIES_KINGDRA, 45, 47
+encounter SPECIES_MILOTIC, 46, 48
+encounter SPECIES_SEISMITOAD, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CHINCHOU, 15, 17
+encounter SPECIES_FINNEON, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SEALEO, 36, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_KINGDRA, 48, 51
+encounter SPECIES_MILOTIC, 49, 52
+encounter SPECIES_POLIWRATH, 50, 53
+encounter SPECIES_CLOYSTER, 50, 54
+encounter SPECIES_GYARADOS, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21011,9 +20420,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   202   // WILD AREA 22
 
@@ -21076,36 +20482,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WHISCASH, 44, 46
+encounter SPECIES_BRUXISH, 45, 47
+encounter SPECIES_KINGDRA, 45, 47
+encounter SPECIES_SEISMITOAD, 46, 48
+encounter SPECIES_MILOTIC, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_BARBOACH, 15, 17
+encounter SPECIES_LUVDISC, 16, 18
+encounter SPECIES_WISHIWASHI, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TATSUGIRI, 36, 38
+encounter SPECIES_OCTILLERY, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WALREIN, 48, 51
+encounter SPECIES_GYARADOS, 49, 52
+encounter SPECIES_BASCULEGION, 50, 53
+encounter SPECIES_MILOTIC, 50, 54
+encounter SPECIES_KINGDRA, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21115,9 +20521,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   203   // WILD AREA 23
 
@@ -21180,36 +20583,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 44, 46
+encounter SPECIES_SEALEO, 45, 47
+encounter SPECIES_WAILORD, 45, 47
+encounter SPECIES_CLAWITZER, 46, 48
+encounter SPECIES_GYARADOS, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_POLIWAG, 15, 17
+encounter SPECIES_CLAMPERL, 16, 18
+encounter SPECIES_CLAUNCHER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEAKING, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLITOED, 50, 51
+encounter SPECIES_STARMIE, 49, 52
+encounter SPECIES_GYARADOS, 50, 53
+encounter SPECIES_GOLDUCK, 50, 54
+encounter SPECIES_TENTACRUEL, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21219,9 +20622,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   204   // WILD AREA 24
 
@@ -21284,36 +20684,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 44, 46
+encounter SPECIES_PELIPPER, 45, 47
+encounter SPECIES_WALREIN, 45, 47
+encounter SPECIES_CLOYSTER, 46, 48
+encounter SPECIES_TENTACRUEL, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_STARYU, 15, 17
+encounter SPECIES_BARBOACH, 16, 18
+encounter SPECIES_CHINCHOU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_WHISCASH, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARMIE, 48, 51
+encounter SPECIES_CLAWITZER, 49, 52
+encounter SPECIES_LAPRAS, 50, 53
+encounter SPECIES_POLITOED, 50, 54
+encounter SPECIES_WALREIN, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21323,9 +20723,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   205   // WILD AREA 25
 
@@ -21388,36 +20785,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 44, 46
+encounter SPECIES_PELIPPER, 45, 47
+encounter SPECIES_MILOTIC, 45, 47
+encounter SPECIES_GOLDUCK, 46, 48
+encounter SPECIES_WAILORD, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CHINCHOU, 15, 17
+encounter SPECIES_STARYU, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_SWANNA, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_GOLDUCK, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLITOED, 50, 51
+encounter SPECIES_CLOYSTER, 49, 52
+encounter SPECIES_LAPRAS, 50, 53
+encounter SPECIES_WAILORD, 50, 54
+encounter SPECIES_MILOTIC, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21427,9 +20824,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   206   // WILD AREA 26
 
@@ -21492,36 +20886,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_HUNTAIL, 44, 46
+encounter SPECIES_LUMINEON, 45, 47
+encounter SPECIES_KINGDRA, 45, 47
+encounter SPECIES_STARMIE, 46, 48
+encounter SPECIES_LAPRAS, 46, 49
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_TYMPOLE, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 36, 38
+encounter SPECIES_QWILFISH, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_CLAWITZER, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOLDUCK, 48, 51
+encounter SPECIES_CLOYSTER, 49, 52
+encounter SPECIES_POLITOED, 50, 53
+encounter SPECIES_TENTACRUEL, 50, 54
+encounter SPECIES_KINGDRA, 51, 55
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21531,9 +20925,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   207   // WILD AREA 27
 
@@ -21596,36 +20987,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 49, 51
+encounter SPECIES_DRAGALGE, 50, 52
+encounter SPECIES_TENTACRUEL, 50, 52
+encounter SPECIES_MILOTIC, 51, 53
+encounter SPECIES_CLOYSTER, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_PYUKUMUKU, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_GOREBYSS, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_CLAWITZER, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 53, 56
+encounter SPECIES_SEISMITOAD, 54, 57
+encounter SPECIES_WAILORD, 55, 58
+encounter SPECIES_BASCULEGION, 55, 59
+encounter SPECIES_CLOYSTER, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21635,9 +21026,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   208   // WILD AREA 28
 
@@ -21700,36 +21088,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 49, 51
+encounter SPECIES_QWILFISH, 50, 52
+encounter SPECIES_TENTACRUEL, 50, 52
+encounter SPECIES_CLAWITZER, 51, 53
+encounter SPECIES_BASCULEGION, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WAILMER, 15, 17
+encounter SPECIES_WISHIWASHI, 16, 18
+encounter SPECIES_BARBOACH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TATSUGIRI, 36, 38
+encounter SPECIES_RELICANTH, 36, 39
+encounter SPECIES_CLAWITZER, 37, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_POLITOED, 53, 56
+encounter SPECIES_GYARADOS, 54, 57
+encounter SPECIES_KINGDRA, 55, 58
+encounter SPECIES_SEISMITOAD, 55, 59
+encounter SPECIES_LAPRAS, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21739,9 +21127,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   209   // WILD AREA 29
 
@@ -21804,36 +21189,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 49, 51
+encounter SPECIES_PELIPPER, 50, 50
+encounter SPECIES_CLOYSTER, 50, 52
+encounter SPECIES_MILOTIC, 51, 53
+encounter SPECIES_BASCULEGION, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SHELLDER, 15, 17
+encounter SPECIES_HORSEA, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TATSUGIRI, 36, 38
+encounter SPECIES_TOXAPEX, 38, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLAWITZER, 53, 56
+encounter SPECIES_GYARADOS, 54, 57
+encounter SPECIES_BASCULEGION, 55, 58
+encounter SPECIES_TENTACRUEL, 55, 59
+encounter SPECIES_GOLDUCK, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21843,9 +21228,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   210   // WILD AREA 30
 
@@ -21908,36 +21290,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 49, 51
+encounter SPECIES_SEADRA, 50, 52
+encounter SPECIES_SEISMITOAD, 50, 52
+encounter SPECIES_POLIWRATH, 51, 53
+encounter SPECIES_BASCULEGION, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CHINCHOU, 15, 17
+encounter SPECIES_TYMPOLE, 16, 18
+encounter SPECIES_WAILMER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_LUMINEON, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOLDUCK, 53, 56
+encounter SPECIES_CLAWITZER, 54, 57
+encounter SPECIES_KINGDRA, 55, 58
+encounter SPECIES_STARMIE, 55, 59
+encounter SPECIES_SEISMITOAD, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -21947,9 +21329,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   211   // WILD AREA 31
 
@@ -22012,36 +21391,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 49, 51
+encounter SPECIES_ALOMOMOLA, 50, 52
+encounter SPECIES_MILOTIC, 50, 52
+encounter SPECIES_POLITOED, 51, 53
+encounter SPECIES_GOLDUCK, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CLAUNCHER, 15, 17
+encounter SPECIES_STARYU, 16, 18
+encounter SPECIES_FEEBAS, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEADRA, 36, 38
+encounter SPECIES_SWANNA, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_CLAWITZER, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_KINGDRA, 53, 56
+encounter SPECIES_LAPRAS, 54, 57
+encounter SPECIES_POLITOED, 55, 58
+encounter SPECIES_CLAWITZER, 55, 59
+encounter SPECIES_WALREIN, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22051,9 +21430,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   212   // WILD AREA 32
 
@@ -22116,36 +21492,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 49, 51
+encounter SPECIES_OCTILLERY, 50, 52
+encounter SPECIES_CLOYSTER, 50, 52
+encounter SPECIES_KINGDRA, 51, 53
+encounter SPECIES_STARMIE, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WAILMER, 15, 17
+encounter SPECIES_TYMPOLE, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 36, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACRUEL, 53, 56
+encounter SPECIES_WAILORD, 54, 57
+encounter SPECIES_WALREIN, 55, 58
+encounter SPECIES_CLAWITZER, 55, 59
+encounter SPECIES_POLIWRATH, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22155,9 +21531,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   213   // ROUTE 20 AREA 1
 
@@ -22220,36 +21593,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_RELICANTH, 49, 51
+encounter SPECIES_PELIPPER, 50, 50
+encounter SPECIES_TENTACRUEL, 50, 52
+encounter SPECIES_CLAWITZER, 51, 53
+encounter SPECIES_GYARADOS, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CLAMPERL, 15, 17
+encounter SPECIES_WINGULL, 16, 18
+encounter SPECIES_GOLDEEN, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_RELICANTH, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_GOLDUCK, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MILOTIC, 53, 56
+encounter SPECIES_WALREIN, 54, 57
+encounter SPECIES_GOLDUCK, 55, 58
+encounter SPECIES_STARMIE, 55, 59
+encounter SPECIES_POLITOED, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22259,9 +21632,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   214   // ROUTE 20 AREA 2
 
@@ -22324,36 +21694,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_OCTILLERY, 49, 51
+encounter SPECIES_SEAKING, 50, 52
+encounter SPECIES_KINGDRA, 50, 52
+encounter SPECIES_CLOYSTER, 51, 53
+encounter SPECIES_MILOTIC, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_POLIWAG, 15, 17
+encounter SPECIES_TYMPOLE, 16, 18
+encounter SPECIES_CHINCHOU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_SEAKING, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLOYSTER, 53, 56
+encounter SPECIES_BASCULEGION, 54, 57
+encounter SPECIES_GOLDUCK, 55, 58
+encounter SPECIES_KINGDRA, 55, 59
+encounter SPECIES_WAILORD, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22363,9 +21733,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   215   // ROUTE 20 AREA 3
 
@@ -22428,36 +21795,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DRAGALGE, 49, 51
+encounter SPECIES_MANTINE, 50, 52
+encounter SPECIES_CLAWITZER, 50, 52
+encounter SPECIES_POLIWRATH, 51, 53
+encounter SPECIES_CLOYSTER, 51, 54
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_HORSEA, 15, 17
+encounter SPECIES_SEEL, 16, 18
+encounter SPECIES_CLAUNCHER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEADRA, 36, 38
+encounter SPECIES_PELIPPER, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_GOLDUCK, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WALREIN, 53, 56
+encounter SPECIES_POLIWRATH, 54, 57
+encounter SPECIES_MILOTIC, 55, 58
+encounter SPECIES_BASCULEGION, 55, 59
+encounter SPECIES_STARMIE, 56, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22467,9 +21834,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   216   // ROUTE 20 AREA 4
 
@@ -22532,36 +21896,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MANTINE, 50, 52
+encounter SPECIES_SEADRA, 51, 53
+encounter SPECIES_GOLDUCK, 51, 53
+encounter SPECIES_WAILORD, 52, 54
+encounter SPECIES_POLIWRATH, 52, 55
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_DUCKLETT, 15, 17
+encounter SPECIES_CLAMPERL, 16, 18
+encounter SPECIES_SURSKIT, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_OCTILLERY, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_KINGDRA, 54, 57
+encounter SPECIES_WALREIN, 55, 58
+encounter SPECIES_POLIWRATH, 56, 59
+encounter SPECIES_LAPRAS, 56, 60
+encounter SPECIES_CLAWITZER, 57, 61
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22571,9 +21935,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   217   // ROUTE 20 AREA 5
 
@@ -22636,36 +21997,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BRUXISH, 50, 52
+encounter SPECIES_SEAKING, 51, 53
+encounter SPECIES_POLITOED, 51, 53
+encounter SPECIES_CLOYSTER, 52, 54
+encounter SPECIES_WALREIN, 52, 55
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_HORSEA, 16, 18
+encounter SPECIES_CLAUNCHER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 36, 38
+encounter SPECIES_LANTURN, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOLDUCK, 54, 57
+encounter SPECIES_CLAWITZER, 55, 58
+encounter SPECIES_TENTACRUEL, 56, 59
+encounter SPECIES_POLIWRATH, 56, 60
+encounter SPECIES_LAPRAS, 57, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22675,9 +22036,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   218   // ROUTE 20 AREA 6
 
@@ -22740,36 +22098,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 50, 52
+encounter SPECIES_DRAGALGE, 51, 53
+encounter SPECIES_STARMIE, 51, 53
+encounter SPECIES_GYARADOS, 52, 54
+encounter SPECIES_POLIWRATH, 52, 55
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_CLAUNCHER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_ALOMOMOLA, 36, 38
+encounter SPECIES_QWILFISH, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_WAILORD, 40, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_KINGDRA, 54, 57
+encounter SPECIES_STARMIE, 55, 58
+encounter SPECIES_LAPRAS, 56, 59
+encounter SPECIES_WAILORD, 56, 60
+encounter SPECIES_CLAWITZER, 57, 61
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22779,9 +22137,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   219   // ROUTE 20 AREA 7
 
@@ -22844,36 +22199,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 50, 50
+encounter SPECIES_OCTILLERY, 51, 53
+encounter SPECIES_TENTACRUEL, 51, 53
+encounter SPECIES_GYARADOS, 52, 54
+encounter SPECIES_CLOYSTER, 52, 55
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_PYUKUMUKU, 15, 17
+encounter SPECIES_TYMPOLE, 16, 18
+encounter SPECIES_SEEL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULIN, 36, 38
+encounter SPECIES_DEWGONG, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULEGION, 54, 57
+encounter SPECIES_CLAWITZER, 55, 58
+encounter SPECIES_MILOTIC, 56, 59
+encounter SPECIES_STARMIE, 56, 60
+encounter SPECIES_TENTACRUEL, 57, 61
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22883,9 +22238,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   220   // ROUTE 20 AREA 8
 
@@ -22948,36 +22300,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 50, 52
+encounter SPECIES_GOREBYSS, 51, 53
+encounter SPECIES_STARMIE, 51, 53
+encounter SPECIES_GYARADOS, 52, 54
+encounter SPECIES_POLITOED, 52, 55
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_POLIWAG, 15, 17
+encounter SPECIES_WAILMER, 16, 18
+encounter SPECIES_REMORAID, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 36, 38
+encounter SPECIES_SEAKING, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEISMITOAD, 54, 57
+encounter SPECIES_CLOYSTER, 55, 58
+encounter SPECIES_GYARADOS, 56, 59
+encounter SPECIES_CLAWITZER, 56, 60
+encounter SPECIES_WALREIN, 57, 61
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -22987,9 +22339,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   221   // ROUTE 20 AREA 9
 
@@ -23052,36 +22401,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 50, 52
+encounter SPECIES_BASCULIN, 51, 53
+encounter SPECIES_GYARADOS, 51, 53
+encounter SPECIES_POLITOED, 52, 54
+encounter SPECIES_MILOTIC, 52, 55
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CHINCHOU, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WHISCASH, 36, 38
+encounter SPECIES_SEADRA, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_GOLDUCK, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_KINGDRA, 54, 57
+encounter SPECIES_GYARADOS, 55, 58
+encounter SPECIES_WALREIN, 56, 59
+encounter SPECIES_LAPRAS, 56, 60
+encounter SPECIES_MILOTIC, 57, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -23091,9 +22440,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   222   // ROUTE 20 AREA 10
 
@@ -23156,36 +22502,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUMINEON, 53, 55
+encounter SPECIES_CRAMORANT, 54, 56
+encounter SPECIES_LAPRAS, 54, 56
+encounter SPECIES_KINGDRA, 55, 57
+encounter SPECIES_WAILORD, 55, 58
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_STARYU, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_LUVDISC, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 36, 38
+encounter SPECIES_MANTINE, 36, 39
+encounter SPECIES_TENTACRUEL, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MILOTIC, 57, 60
+encounter SPECIES_SEISMITOAD, 58, 61
+encounter SPECIES_POLIWRATH, 59, 62
+encounter SPECIES_GOLDUCK, 59, 63
+encounter SPECIES_GYARADOS, 60, 64
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -23195,9 +22541,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   223   // ROUTE 20 AREA 11
 
@@ -23260,36 +22603,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEADRA, 53, 55
+encounter SPECIES_QWILFISH, 54, 55
+encounter SPECIES_POLIWRATH, 54, 56
+encounter SPECIES_GOLDUCK, 55, 57
+encounter SPECIES_LAPRAS, 55, 58
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_LUVDISC, 15, 17
+encounter SPECIES_TENTACOOL, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEADRA, 36, 38
+encounter SPECIES_ALOMOMOLA, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEISMITOAD, 57, 60
+encounter SPECIES_GYARADOS, 58, 61
+encounter SPECIES_MILOTIC, 59, 60
+encounter SPECIES_WAILORD, 59, 63
+encounter SPECIES_CLAWITZER, 60, 64
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -23299,9 +22642,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   224   // ROUTE 20 AREA 12
 
@@ -23364,36 +22704,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULIN, 53, 55
+encounter SPECIES_PALAFIN, 54, 56
+encounter SPECIES_WAILORD, 54, 56
+encounter SPECIES_MILOTIC, 55, 57
+encounter SPECIES_TENTACRUEL, 55, 58
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CHINCHOU, 15, 17
+encounter SPECIES_REMORAID, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LANTURN, 36, 38
+encounter SPECIES_SWANNA, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_GOLDUCK, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLOYSTER, 57, 60
+encounter SPECIES_SEISMITOAD, 58, 61
+encounter SPECIES_GYARADOS, 59, 62
+encounter SPECIES_WALREIN, 59, 63
+encounter SPECIES_LAPRAS, 60, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -23403,9 +22743,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   225   // ROUTE 20 AREA 13
 
@@ -23468,36 +22805,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULIN, 53, 55
+encounter SPECIES_SWANNA, 54, 56
+encounter SPECIES_LAPRAS, 54, 56
+encounter SPECIES_MILOTIC, 55, 57
+encounter SPECIES_CLOYSTER, 55, 58
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_MAREANIE, 16, 18
+encounter SPECIES_WAILMER, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 36, 38
+encounter SPECIES_SEADRA, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_CLAWITZER, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_KINGDRA, 57, 60
+encounter SPECIES_MILOTIC, 58, 60
+encounter SPECIES_STARMIE, 59, 60
+encounter SPECIES_WALREIN, 59, 63
+encounter SPECIES_TENTACRUEL, 60, 64
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -23507,9 +22844,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   226   // WILD AREA 33
 
@@ -23572,36 +22906,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 47, 49
+encounter SPECIES_SEAKING, 48, 50
+encounter SPECIES_CLOYSTER, 48, 50
+encounter SPECIES_MILOTIC, 49, 51
+encounter SPECIES_POLIWRATH, 50, 52
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_BARBOACH, 15, 17
+encounter SPECIES_CHINCHOU, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUMINEON, 36, 38
+encounter SPECIES_WHISCASH, 36, 39
+encounter SPECIES_GYARADOS, 37, 40
+encounter SPECIES_GOLDUCK, 38, 40
+encounter SPECIES_CLAWITZER, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 51, 54
+encounter SPECIES_KINGDRA, 52, 55
+encounter SPECIES_CLAWITZER, 53, 56
+encounter SPECIES_STARMIE, 53, 57
+encounter SPECIES_WAILORD, 54, 58
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -23611,9 +22945,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   227   // WILD AREA 34
 
@@ -23676,36 +23007,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PELIPPER, 47, 49
+encounter SPECIES_RELICANTH, 48, 50
+encounter SPECIES_BASCULEGION, 48, 50
+encounter SPECIES_POLIWRATH, 50, 51
+encounter SPECIES_STARMIE, 49, 52
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SURSKIT, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_SPHEAL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TATSUGIRI, 36, 38
+encounter SPECIES_LUMINEON, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_GOLDUCK, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 51, 54
+encounter SPECIES_GOLDUCK, 52, 55
+encounter SPECIES_CLOYSTER, 53, 56
+encounter SPECIES_STARMIE, 53, 57
+encounter SPECIES_WAILORD, 54, 58
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -23715,9 +23046,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   228   // WILD AREA 35
 
@@ -23780,36 +23108,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_LUMINEON, 47, 49
+encounter SPECIES_SEADRA, 48, 50
+encounter SPECIES_WALREIN, 48, 50
+encounter SPECIES_SEISMITOAD, 49, 51
+encounter SPECIES_GYARADOS, 49, 52
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_TYMPOLE, 15, 17
+encounter SPECIES_GOLDEEN, 16, 18
+encounter SPECIES_WISHIWASHI, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 36, 38
+encounter SPECIES_QWILFISH, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLAWITZER, 51, 54
+encounter SPECIES_GYARADOS, 52, 55
+encounter SPECIES_POLITOED, 53, 56
+encounter SPECIES_BASCULEGION, 53, 57
+encounter SPECIES_CLOYSTER, 54, 58
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -23819,9 +23147,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   229   // WILD AREA 36
 
@@ -23884,36 +23209,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_DEWGONG, 51, 53
+encounter SPECIES_GOREBYSS, 52, 54
+encounter SPECIES_TENTACRUEL, 52, 54
+encounter SPECIES_LAPRAS, 53, 55
+encounter SPECIES_CLOYSTER, 53, 56
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_MAREANIE, 15, 17
+encounter SPECIES_WINGULL, 16, 18
+encounter SPECIES_BARBOACH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 36, 38
+encounter SPECIES_RELICANTH, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_GYARADOS, 38, 40
+encounter SPECIES_SEISMITOAD, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_STARMIE, 55, 58
+encounter SPECIES_LAPRAS, 56, 59
+encounter SPECIES_WAILORD, 57, 60
+encounter SPECIES_WALREIN, 57, 61
+encounter SPECIES_SEISMITOAD, 58, 62
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -23923,9 +23248,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   230   // WILD AREA 37
 
@@ -23988,36 +23310,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_ALOMOMOLA, 51, 53
+encounter SPECIES_TATSUGIRI, 52, 54
+encounter SPECIES_CLOYSTER, 52, 54
+encounter SPECIES_POLIWRATH, 53, 55
+encounter SPECIES_POLITOED, 53, 56
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WISHIWASHI, 15, 17
+encounter SPECIES_CLAMPERL, 16, 18
+encounter SPECIES_WINGULL, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GOREBYSS, 36, 38
+encounter SPECIES_SEAKING, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_GOLDUCK, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLAWITZER, 55, 58
+encounter SPECIES_STARMIE, 56, 59
+encounter SPECIES_TENTACRUEL, 57, 60
+encounter SPECIES_MILOTIC, 57, 60
+encounter SPECIES_LAPRAS, 58, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24027,9 +23349,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   231   // WILD AREA 38
 
@@ -24092,36 +23411,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_RELICANTH, 51, 53
+encounter SPECIES_TATSUGIRI, 52, 54
+encounter SPECIES_GYARADOS, 52, 54
+encounter SPECIES_CLAWITZER, 53, 55
+encounter SPECIES_LAPRAS, 53, 56
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_WAILMER, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_MAREANIE, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_QWILFISH, 36, 38
+encounter SPECIES_SEALEO, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEISMITOAD, 55, 58
+encounter SPECIES_WALREIN, 56, 59
+encounter SPECIES_GOLDUCK, 57, 60
+encounter SPECIES_GYARADOS, 57, 61
+encounter SPECIES_STARMIE, 58, 60
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24131,9 +23450,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   232   // WILD AREA 39
 
@@ -24196,36 +23512,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULIN, 51, 53
+encounter SPECIES_ALOMOMOLA, 52, 54
+encounter SPECIES_GYARADOS, 52, 54
+encounter SPECIES_STARMIE, 53, 55
+encounter SPECIES_WAILORD, 53, 56
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FEEBAS, 15, 17
+encounter SPECIES_MAREANIE, 16, 18
+encounter SPECIES_FINNEON, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_TOXAPEX, 38, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_GYARADOS, 55, 58
+encounter SPECIES_CLOYSTER, 56, 59
+encounter SPECIES_KINGDRA, 57, 60
+encounter SPECIES_MILOTIC, 57, 60
+encounter SPECIES_WAILORD, 58, 62
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24235,9 +23551,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   233   // WILD AREA 40
 
@@ -24300,36 +23613,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 51, 53
+encounter SPECIES_WHISCASH, 52, 54
+encounter SPECIES_WALREIN, 52, 54
+encounter SPECIES_TENTACRUEL, 53, 55
+encounter SPECIES_POLIWRATH, 53, 56
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_DUCKLETT, 16, 18
+encounter SPECIES_STARYU, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CRAMORANT, 36, 38
+encounter SPECIES_LUMINEON, 36, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_CLOYSTER, 55, 58
+encounter SPECIES_GYARADOS, 56, 59
+encounter SPECIES_POLIWRATH, 57, 60
+encounter SPECIES_BASCULEGION, 57, 60
+encounter SPECIES_TENTACRUEL, 58, 62
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24339,9 +23652,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   234   // VICTORY ROAD AREA 1
 
@@ -24404,36 +23714,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 54, 56
+encounter SPECIES_SHARPEDO, 55, 57
+encounter SPECIES_RELICANTH, 55, 57
+encounter SPECIES_BASCULEGION, 56, 58
+encounter SPECIES_RELICANTH, 56, 59
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_BASCULEGION, 58, 60
+encounter SPECIES_RELICANTH, 59, 60
+encounter SPECIES_SHARPEDO, 60, 63
+encounter SPECIES_JELLICENT, 60, 60
+encounter SPECIES_SHARPEDO, 61, 65
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24443,9 +23753,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   235   // VICTORY ROAD AREA 2
 
@@ -24508,36 +23815,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 54, 56
+encounter SPECIES_JELLICENT, 55, 57
+encounter SPECIES_BASCULEGION, 55, 57
+encounter SPECIES_RELICANTH, 56, 58
+encounter SPECIES_RELICANTH, 56, 59
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_RELICANTH, 58, 60
+encounter SPECIES_BASCULEGION, 59, 60
+encounter SPECIES_SHARPEDO, 60, 63
+encounter SPECIES_JELLICENT, 60, 60
+encounter SPECIES_SHARPEDO, 61, 65
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24547,9 +23854,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   236   // VICTORY ROAD AREA 3
 
@@ -24612,36 +23916,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 67, 69
+encounter SPECIES_SHARPEDO, 68, 70
+encounter SPECIES_SHARPEDO, 68, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24651,9 +23955,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   237   // VICTORY ROAD AREA 4
 
@@ -24716,36 +24017,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 67, 69
+encounter SPECIES_SHARPEDO, 68, 70
+encounter SPECIES_SHARPEDO, 68, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24755,9 +24056,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   238   // VICTORY ROAD AREA 5
 
@@ -24820,36 +24118,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 67, 69
+encounter SPECIES_SHARPEDO, 68, 70
+encounter SPECIES_SHARPEDO, 68, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24859,9 +24157,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   239   // VICTORY ROAD AREA 6
 
@@ -24924,36 +24219,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 67, 69
+encounter SPECIES_SHARPEDO, 68, 70
+encounter SPECIES_SHARPEDO, 68, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -24963,9 +24258,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   240   // VICTORY ROAD AREA 7
 
@@ -25028,36 +24320,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -25067,9 +24359,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   241   // VICTORY ROAD AREA 8
 
@@ -25132,36 +24421,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -25171,9 +24460,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   242   // VICTORY ROAD AREA 9
 
@@ -25236,36 +24522,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -25275,9 +24561,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   243   // VICTORY ROAD AREA 10
 
@@ -25340,36 +24623,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -25379,9 +24662,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   244   // VICTORY ROAD AREA 11
 
@@ -25444,36 +24724,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -25483,9 +24763,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   245   // VICTORY ROAD AREA 12
 
@@ -25548,36 +24825,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -25587,9 +24864,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   246   // VICTORY ROAD AREA 13
 
@@ -25652,36 +24926,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -25691,9 +24965,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   247   // VICTORY ROAD AREA 14
 
@@ -25756,36 +25027,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -25795,9 +25066,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   248   // VICTORY ROAD AREA 15
 
@@ -25860,36 +25128,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -25899,9 +25167,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   249   // VICTORY ROAD AREA 16
 
@@ -25964,36 +25229,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CORSOLA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -26003,9 +25268,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   250   // VICTORY ROAD AREA 17
 
@@ -26068,36 +25330,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CARVANHA, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -26107,9 +25369,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   251   // VICTORY ROAD AREA 18
 
@@ -26172,36 +25431,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_FRILLISH, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 36, 38
+encounter SPECIES_JELLICENT, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -26211,9 +25470,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   252   // VICTORY ROAD AREA 19
 
@@ -26276,36 +25532,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 69, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_FRILLISH, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_CARVANHA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_JELLICENT, 36, 38
+encounter SPECIES_SHARPEDO, 36, 39
+encounter SPECIES_RELICANTH, 37, 40
+encounter SPECIES_RELICANTH, 38, 40
+encounter SPECIES_RELICANTH, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -26315,9 +25571,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   253   // AREA_253
 
@@ -26380,36 +25633,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 64, 66
+encounter SPECIES_SEAKING, 65, 67
+encounter SPECIES_POLIWRATH, 65, 67
+encounter SPECIES_CLAWITZER, 66, 68
+encounter SPECIES_TENTACRUEL, 66, 69
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SURSKIT, 15, 17
+encounter SPECIES_MANTYKE, 16, 18
+encounter SPECIES_CORSOLA, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TOXAPEX, 38, 38
+encounter SPECIES_PALAFIN, 38, 39
+encounter SPECIES_GOLDUCK, 37, 40
+encounter SPECIES_CLAWITZER, 38, 40
+encounter SPECIES_GYARADOS, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SEISMITOAD, 68, 70
+encounter SPECIES_GOLDUCK, 69, 70
+encounter SPECIES_GYARADOS, 70, 70
+encounter SPECIES_POLIWRATH, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -26419,9 +25672,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   254   // AREA_254
 
@@ -26484,36 +25734,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SHARPEDO, 64, 66
+encounter SPECIES_PALAFIN, 65, 67
+encounter SPECIES_WAILORD, 65, 67
+encounter SPECIES_POLITOED, 66, 68
+encounter SPECIES_SEISMITOAD, 66, 69
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_SURSKIT, 15, 17
+encounter SPECIES_CORSOLA, 16, 18
+encounter SPECIES_FRILLISH, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 36, 38
+encounter SPECIES_ALOMOMOLA, 36, 39
+encounter SPECIES_SEISMITOAD, 37, 40
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_TENTACRUEL, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_TENTACRUEL, 68, 70
+encounter SPECIES_POLITOED, 69, 70
+encounter SPECIES_POLIWRATH, 70, 70
+encounter SPECIES_WALREIN, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -26523,9 +25773,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
-.close
-
 
 encounterdata   255   // AREA_255
 
@@ -26588,36 +25835,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_PALAFIN, 64, 66
+encounter SPECIES_LUMINEON, 65, 67
+encounter SPECIES_WAILORD, 65, 67
+encounter SPECIES_GOLDUCK, 66, 68
+encounter SPECIES_POLITOED, 66, 69
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGIKARP, 14, 16
+encounter SPECIES_MAGIKARP, 14, 17
+encounter SPECIES_CARVANHA, 15, 17
+encounter SPECIES_WISHIWASHI, 16, 18
+encounter SPECIES_POLIWAG, 16, 19
 
 // good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SWANNA, 36, 38
+encounter SPECIES_WHISCASH, 36, 39
+encounter SPECIES_WAILORD, 40, 40
+encounter SPECIES_TENTACRUEL, 38, 40
+encounter SPECIES_CLAWITZER, 39, 41
 
 // super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_WALREIN, 68, 70
+encounter SPECIES_GOLDUCK, 69, 70
+encounter SPECIES_TENTACRUEL, 70, 70
+encounter SPECIES_GYARADOS, 70, 70
+encounter SPECIES_MAGIKARP, 2, 20
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -26629,5 +25876,3 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 .close
-
-

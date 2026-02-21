@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,CARVANHA,33,33
+Surf,15,2,DEWGONG,34,36
+Surf,15,3,JELLICENT,35,36
+Surf,15,4,GOLDUCK,35,37
+Surf,15,5,CLAWITZER,37,38

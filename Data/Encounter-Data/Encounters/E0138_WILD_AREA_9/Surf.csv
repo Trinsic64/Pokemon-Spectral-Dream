@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,GOLDEEN,33,35
+Surf,15,2,SWANNA,35,36
+Surf,15,3,PELIPPER,34,36
+Surf,15,4,GOLDUCK,35,37
+Surf,15,5,TENTACRUEL,35,38

@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,FRILLISH,31,33
+Surf,15,2,SHARPEDO,32,34
+Surf,15,3,SHARPEDO,32,34
+Surf,15,4,RELICANTH,35,35
+Surf,15,5,RELICANTH,35,36

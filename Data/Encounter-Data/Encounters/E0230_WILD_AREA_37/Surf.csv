@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,ALOMOMOLA,51,53
+Surf,15,2,TATSUGIRI,52,54
+Surf,15,3,CLOYSTER,52,54
+Surf,15,4,POLIWRATH,53,55
+Surf,15,5,POLITOED,53,56

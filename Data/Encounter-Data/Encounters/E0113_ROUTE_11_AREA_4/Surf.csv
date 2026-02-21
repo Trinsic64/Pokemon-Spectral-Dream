@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,STARYU,24,26
+Surf,15,2,PELIPPER,25,27
+Surf,15,3,OCTILLERY,25,27
+Surf,15,4,GYARADOS,26,28
+Surf,15,5,GYARADOS,26,29

@@ -1,6 +1,6 @@
 Type,Rate,Slot,Species,MinLevel,MaxLevel
-Surf,15,1,NONE,0,0
-Surf,15,2,NONE,0,0
-Surf,15,3,NONE,0,0
-Surf,15,4,NONE,0,0
-Surf,15,5,NONE,0,0
+Surf,15,1,FRILLISH,10,12
+Surf,15,2,MAGIKARP,11,13
+Surf,15,3,CARVANHA,11,13
+Surf,15,4,MAGIKARP,12,14
+Surf,15,5,MAGIKARP,12,15
