@@ -1,0 +1,3 @@
+Item, Type, Header, Quantity, Forced/Optional, Implemented
+Potion, Gift, 0020, 5, Forced, True
+// In order of Story

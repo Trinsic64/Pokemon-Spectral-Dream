@@ -1,0 +1,21 @@
+RogueSeq,Milestone,HeaderId,InternalName,Notes
+10,Start,12,MAUN 02 PROT,Starting map (confirmed).
+20,Lab (starter selection),TBD,TBD,Header(s) used for the lab/starter selection flow.
+100,Gym 1,60,LOBA 04 GYM01,Falkner
+200,Gym 2,111,MELT 04 GYM02,Bugsy
+300,Gym 3,141,DANB 05 GYM03,Whitney
+400,Gym 4,167,SYDT 04 GYM04,Morty
+500,Gym 5,254,BAIR 04 GYM05,Pryce
+600,Gym 6,303,DALI 04 GYM06,Jasmine
+700,Gym 7,360,RADE 05 GYM07,Chuck
+800,Gym 8,414,TROO 05 GYM08,Clair
+850,Victory Road (entry),TBD,TBD,
+860,Victory Road (end),TBD,TBD,
+900,Elite Four lobby, TBD,TBD,
+910,Elite Four Bruno, TBD,TBD,
+920,Elite Four Karen, TBD,TBD,
+930,Elite Four Koga, TBD,TBD,
+940,Elite Four Will, TBD,TBD,
+950,Champion (Finn), TBD,TBD,
+990,Hall of Fame, TBD,TBD,
+

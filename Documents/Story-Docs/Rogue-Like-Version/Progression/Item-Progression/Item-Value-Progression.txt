@@ -1,0 +1,5 @@
+// Lowest Valued items
+Value #, Item, Count, Type, Relevant
+0001, Potion, <Sum of how often this item found/recieved>, Healing, True
+...
+9999, Master Ball, 1, Relevant, Ball, True
