@@ -1,0 +1,7 @@
+DS ROM Hacking Wiki: https://ds-pokemon-hacking.github.io/docs/generation-iv/guides/getting_started/
+Reverse Engineering DS Games Tutorial: https://www.starcubelabs.com/reverse-engineering-ds/
+Heart Gold Decompilation: https://github.com/pret/pokeheartgold
+DSPRE Repo: https://github.com/DS-Pokemon-Rom-Editor/DSPRE
+PDSMS Repo: https://github.com/AdAstra-LD/Pokemon-DS-Map-Studio
+HG-Engine Repo: https://github.com/BluRosie/hg-engine
+HG-Engine Wiki: https://github.com/BluRosie/hg-engine/wiki

@@ -1,0 +1,281 @@
+Area,Sub-Area,HGSS Path,Description
+Moves,,/a/0/0/0,Move Scripts
+Moves,,/a/0/0/1,Move Effect Sub-Scripts
+Pokemon Data,,/a/0/0/2,
+Pokemon Data,,/a/0/0/3,Growth Tables
+Pokemon Data,Pokemon Graphics,/a/0/0/4,Pokemon Sprites
+Pokemon Data,Pokemon Graphics,/a/0/0/5,Friendly Pokmemon Y-Axis Offset
+Trainers,Trainer Graphics,/a/0/0/6,Trainer Back Graphics
+Unsorted Files,,/a/0/0/7,Battle Backgrounds
+Unsorted Files,,/a/0/0/8,Battle HUD Graphics
+Unidentified Files,,/a/0/0/9,16 PLTT Files & 16 Unknown Files (384 Bytes)
+Moves,,/a/0/1/0,Move Effects (Animations per move)
+Moves,,/a/0/1/1,Move Data Table
+Scripts,,/a/0/1/2,Scripts
+Scripts,,/a/0/1/3,(?)
+GUI Graphics,,/a/0/1/4,Touchscreen Menu Graphics
+GUI Graphics,,/a/0/1/5,Bag Graphics
+Unsorted Files,,/a/0/1/6,Lv./Trainer ID Graphics
+Items,,/a/0/1/7,Item Data
+Items,Item Graphics,/a/0/1/8,Item Icons
+GUI Graphics,,/a/0/1/9,PC Box Graphics
+Pokemon Data,Pokemon Graphics,/a/0/2/0,Pokemon Icons
+GUI Graphics,,/a/0/2/1,Party Screen Graphics
+Moves,Move Graphics,/a/0/2/2,Move Tiles
+Moves,Move Graphics,/a/0/2/3,Move Palettes
+Moves,Move Graphics,/a/0/2/4,Move Cells
+Moves,Move Graphics,/a/0/2/5,Move Animations
+Unsorted Files,,/a/0/2/6,Fashion Accessory Sprites
+Scripts,,/a/0/2/7,Text Files
+Underground,,/a/0/2/8,Underground Radar Graphics
+Moves,Move Graphics,/a/0/2/9,Move Particle Data
+Moves,,/a/0/3/0,Move Effect Scripts (Behaviours)
+GUI Graphics,,/a/0/3/1,Character Naming Screen Graphics
+Scripts,,/a/0/3/2,Events
+Pokemon Data,,/a/0/3/3,
+Pokemon Data,,/a/0/3/4,Evolution Data
+Unidentified Files,,/a/0/3/5,12 NCER files
+Pokegear,Pokegear Graphics,/a/0/3/6,Map Cities Graphics
+Encounter Data,,/a/0/3/7,HG Field Encounters
+GUI Graphics,,/a/0/3/8,Saving/Frame Graphics
+GUI Graphics,,/a/0/3/9,Pokemon Summary Screen Graphics
+Maps,Exteriors,/a/0/4/0,Exterior Models
+Maps,Map Data,/a/0/4/1,Map Connections
+Maps,Assignment Data,/a/0/4/2,Assigns area_build and mapt_tex_set to maps
+Maps,Assignment Data,/a/0/4/3,Assigns textures to models
+Maps,Map Data,/a/0/4/4,Map Textures
+Unsorted Files,,/a/0/4/5,Dawn/Lucas Sprites
+Sequences,,/a/0/4/6,Title Screen
+Maps,Assignment Data,/a/0/4/7,(?)
+Unsorted Files,,/a/0/4/8,Rock/Fire Graphics
+GUI Graphics,,/a/0/4/9,Trainer Card Graphics
+Underground,,/a/0/5/0,Underground GUI Grapchics
+GUI Graphics,,/a/0/5/1,Berries And Beauty GUI
+GUI Graphics,,/a/0/5/2,Yes/No Prompt Graphics
+Underground,,/a/0/5/3,Underground Item Graphics
+GUI Graphics,,/a/0/5/4,Controls Tutorial Graphics
+Trainers,,/a/0/5/5,Trainer Data
+Trainers,,/a/0/5/6,Trainer Pokemon Data
+Trainers,,/a/0/5/7,Trainer Text Table
+Trainers,Trainer Graphics,/a/0/5/8,Trainer Front Graphics
+Unidentified Files,,/a/0/5/9,5 APS Files
+GUI Graphics,,/a/0/6/0,Party Screen GUI Graphics
+Moves,,/a/0/6/1,Ongoing Move Animations
+Underground,,/a/0/6/2,Underground GUI Graphics
+Unsorted Files,,/a/0/6/3,Weather Graphics
+GUI Graphics,,/a/0/6/4,Unidentified GUI Graphics
+Maps,Map Data,/a/0/6/5,Map Files
+Items,,/a/0/6/6,Berry Data
+Unidentified Files,,/a/0/6/7,Untranslated Graphics
+Pokedex,Pokedex Graphics,/a/0/6/8,Pokedex Graphics
+Pokemon Data,Pokemon Graphics,/a/0/6/9,Pokemon Footprint Icons
+Maps,Building Models,/a/0/7/0,Building Textures
+GUI Graphics,,/a/0/7/1,Battle Party Graphics
+GUI Graphics,,/a/0/7/2,Options Graphics
+GUI Graphics,,/a/0/7/3,Unidentified GUI Graphics
+Pokedex,,/a/0/7/4,Pokedex Data
+Unidentified Files,,/a/0/7/5,"2 Unknown Files (612, 494 Bytes)"
+GUI Graphics,,/a/0/7/6,Word Choice Graphics
+GUI Graphics,,/a/0/7/7,Bag Screen Graphics
+GUI Graphics,,/a/0/7/8,Unidentified GUI Graphics
+GUI Graphics,,/a/0/7/9,Mail Graphics
+GUI Graphics,,/a/0/8/0,Mail Graphics
+Maps,Moving Models,/a/0/8/1,Overworld Characters
+Unsorted Files,,/a/0/8/2,Starter Selection Graphics
+GUI Graphics,,/a/0/8/3,An Arrow
+Unidentified Files,,/a/0/8/4,Berry Capsule Thingy
+GUI Graphics,,/a/0/8/5,Unidentified GUI Graphics
+Unidentified Files,,/a/0/8/6,"15 Unknown Files (4608, 96, 8064, 100x12 Bytes)"
+Unsorted Files,,/a/0/8/7,Seal Graphics
+GUI Graphics,,/a/0/8/8,WiFi Connection Graphics
+Sequences,,/a/0/8/9,Trade Scene
+Pokemon Data,Pokemon Graphics,/a/0/9/0,Pokemon Animation Sets
+GUI Graphics,,/a/0/9/1,Unidentified GUI Graphics
+Maps,Moving Models,/a/0/9/2,(?)
+Unsorted Files,,/a/0/9/3,Field Move Character Sprites
+Unsorted Files,,/a/0/9/4,Diamond/Pearl/Platinum Effect Models
+Unsorted Files,,/a/0/9/5,Ball Capsule Battle Particles
+Unidentified Files,,/a/0/9/6,2 APS Files
+GUI Graphics,,/a/0/9/7,Unidentified GUI Graphics
+Unidentified Files,,/a/0/9/8,19 Unknown Files (Various Sizes)
+Trainers,,/a/0/9/9,Trainer AI
+Unidentified Files,,/a/1/0/0,Trade Room Graphics (?)
+Unidentified Files,,/a/1/0/1,Random Sprites (?)
+Encounter Data,,/a/1/0/2,Leftover D/P/Pt Encounters
+Maps,Moving Models,/a/1/0/3,Field Effects
+GUI Graphics,,/a/1/0/4,Win / Lose / Draw Graphics
+Pokedex,,/a/1/0/5,Sinnoh Pokedex
+Maps,Building Models,/a/1/0/6,Animation Files
+Maps,Exteriors,/a/1/0/7,(?)
+Maps,Interiors,/a/1/0/8,(?)
+GUI Graphics,,/a/1/0/9,VS. Graphics
+GUI Graphics,,/a/1/1/0,Pokemon Summary Graphics
+Pokemon Data,Leftover Files,/a/1/1/1,Two-Frame Sprite Animations
+Scripts,,/a/1/1/2,In-Game Trades
+GUI Graphics,,/a/1/1/3,Mystery Gift Graphics
+Pokemon Data,Pokemon Graphics,/a/1/1/4,Alt Forme Sprites
+GUI Graphics,,/a/1/1/5,Egg Hatching Graphics
+Unsorted Files,,/a/1/1/6,Manaphy APS Files
+Pokemon Data,,/a/1/1/7,Height Order(?)
+GUI Graphics,,/a/1/1/8,Battle Frontier Graphics
+Unidentified Files,,/a/1/1/9,2 APS Files
+Sequences,,/a/1/2/0,Introduction Sequence
+Unidentified Files,,/a/1/2/1,3 Bin Files
+Unidentified Files,,/a/1/2/2,Platinum Credits
+GUI Graphics,,/a/1/2/3,WiFi Earth Graphics
+GUI Graphics,,/a/1/2/4,Ranking Select Graphic
+GUI Graphics,,/a/1/2/5,Pal Park
+GUI Graphics,,/a/1/2/6,Completion Certificate Graphics
+GUI Graphics,,/a/1/2/7,Slot Machine Graphics
+Trainers,Battle Tower,/a/1/2/8,Leftover DP Battle Tower Trainer Data
+Trainers,Battle Tower,/a/1/2/9,Leftover DP Battle Tower Pokemon Data
+GUI Graphics,,/a/1/3/0,Red Gyarados TV Graphics
+Trainers,,/a/1/3/1,Trainer Text Table Offsets
+Pokemon Data,Leftover Files,/a/1/3/2,Foe Pokemon Y-Axis Offsets
+Pokedex,,/a/1/3/3,Pokedex Encounter Data
+Unsorted Files,,/a/1/3/4,Field Move Animations
+Pokemon Data,Leftover Files,/a/1/3/5,Foe Pokemon Shadow Size
+Encounter Data,,/a/1/3/6,SS Field Encounters
+Pokemon Data,Leftover Files,/a/1/3/7,Foe Pokemon Shadow X-Axis Offsets
+Pokedex,,/a/1/3/8,Johto Pokedex
+Maps,Moving Models,/a/1/3/9,Field Animations
+Unidentified Files,,/a/1/4/0,2 Model Animations
+Unidentified Files,,/a/1/4/1,566 Bin Files
+Pokegear,Pokegear Graphics,/a/1/4/2,Beta Pokegear Graphics
+Pokegear,Pokegear Graphics,/a/1/4/3,Pokegear Skin Graphics
+Pokegear,Pokegear Graphics,/a/1/4/4,Map Graphics
+Pokegear,Pokegear Graphics,/a/1/4/5,Pokegear Skin Graphics
+Pokegear,Pokegear Graphics,/a/1/4/6,Phone Graphics
+Pokegear,Pokegear Graphics,/a/1/4/7,Radio Graphics
+Maps,Interiors,/a/1/4/8,Interior Models
+Unsorted Files,,/a/1/4/9,"Rapidash / Lugia Sprites, No Palettes"
+GUI Graphics,,/a/1/5/0,Location Splash Graphics
+GUI Graphics,,/a/1/5/1,Pokewalker Pokemon Selection Graphics
+GUI Graphics,,/a/1/5/2,Yes / No Prompt
+Pokeathlon,Pokeathlon Graphics,/a/1/5/3,Miscellaneous Pokeathlon Graphics
+Pokeathlon,Games,/a/1/5/4,Relay Run Graphics
+Unidentified Files,,/a/1/5/5,"1 Bin File, 1 Byte, 0x0"
+Pokeathlon,Games,/a/1/5/6,Hurdle Dash Graphics
+Unsorted Files,,/a/1/5/7,Unfinished Artwork (?)
+Unsorted Files,,/a/1/5/8,Unfinished Artwork (?)
+Unsorted Files,,/a/1/5/9,Unfinished Artwork (?)
+Pokeathlon,Pokeathlon Graphics,/a/1/6/0,Miscellaneous Pokeathlon Graphics
+Pokeathlon,Pokeathlon Graphics,/a/1/6/1,Pokeathlon Board Graphics
+GUI Graphics,,/a/1/6/2,Pokemon Summary Graphics
+GUI Graphics,,/a/1/6/3,Location Dropdown Graphics
+GUI Graphics,,/a/1/6/4,Pointing Hand Graphics
+Unidentified Files,,/a/1/6/5,(?) Graphic
+GUI Graphics,,/a/1/6/6,Safari Zone Map Graphics
+Pokeathlon,Games,/a/1/6/7,Circle Push Graphics
+Pokeathlon,Games,/a/1/6/8,Lamp Jump Graphics
+Unidentified Files,,/a/1/6/9,554 Bin Files
+Unidentified Files,,/a/1/7/0,20 Bin Files
+GUI Graphics,,/a/1/7/1,Photo Album Graphics
+GUI Graphics,,/a/1/7/2,Ruins Of Alph Puzzle Graphics
+Unidentified Files,,/a/1/7/3,Unused Battle Graphics (?)
+Unsorted Files,,/a/1/7/4,Miscellaneous Ruins Of Alph Graphics
+Unidentified Files,,/a/1/7/5,90 Bin Files
+Unsorted Files,,/a/1/7/6,Jigglypuff Graphics
+Pokeathlon,Pokeathlon Graphics,/a/1/7/7,Miscellaneous Pokeathlon Graphics
+Pokeathlon,Games,/a/1/7/8,Relay Run Graphics
+Unsorted Files,,/a/1/7/9,Overworld Character Sprites
+Pokemon Data,Pokemon Graphics,/a/1/8/0,"Two-Frame Animations, Shadow, Battle Offsets"
+Unidentified Files,,/a/1/8/1,Test Graphics
+Unidentified Files,,/a/1/8/2,11 Bin Files
+Unsorted Files,,/a/1/8/3,Battle Frontier Graphics
+Unidentified Files,,/a/1/8/4,Graphcis (?)
+Unidentified Files,,/a/1/8/5,1 Bin File (pl_cb_data)
+Unsorted Files,,/a/1/8/6,Various Overworld Character Sprites
+Unsorted Files,,/a/1/8/7,Mime Jr. Model (WiFi Plaza Mini-Game)
+Unidentified Files,,/a/1/8/8,7 APS Files
+Unsorted Files,,/a/1/8/9,Swalot Model (WiFi Plaza Mini-Game)
+Unidentified Files,,/a/1/9/0,Graphics (?)
+Unsorted Files,,/a/1/9/1,VS. Recorder Graphics
+Unsorted Files,,/a/1/9/2,Pokemon Balloon Graphics (WiFi Plaza Mini-Game)
+Unsorted Files,,/a/1/9/3,Mime Jr. Graphics (WiFi Plaza Mini-Game)
+Pokemon Data,Leftover Files,/a/1/9/4,Leftover height.narc from D/P
+Pokemon Data,Leftover Files,/a/1/9/5,Leftover height_o.narc from D/P
+Unsorted Files,,/a/1/9/6,WiFi Lobby News Graphics
+Unsorted Files,,/a/1/9/7,E-mail Graphics
+Unsorted Files,,/a/1/9/8,WiFi Lobby Minigame Graphics
+Unidentified Files,,/a/1/9/9,Balloons (?)
+Unidentified Files,,/a/2/0/0,26 Bin Files
+Unidentified Files,,/a/2/0/1,WiFi Lobby Models (?)
+Trainers,Battle Tower,/a/2/0/2,Battle Tower Trainer Data (Same As Platinum)
+Trainers,Battle Tower,/a/2/0/3,Battle Tower Pokemon Data (Same As Platinum)
+Trainers,Battle Tower,/a/2/0/4,Battle Stage Pokemon Data (Same As Platinum)
+Unsorted Files,,/a/2/0/5,"Graphics (Budew, Cherubi, Ditto, Chingling, Mantyke, Other Things)"
+Unidentified Files,,/a/2/0/6,2 APS Files
+Unidentified Files,,/a/2/0/7,WiFi Lobby Graphics (?)
+Unsorted Files,,/a/2/0/8,Footprint Graphics (WiFi Plaza Mini-Game)
+Pokedex,,/a/2/0/9,Leftover Platinum Pokedex Encounter Data
+Unidentified Files,,/a/2/1/0,1 Bin File (ballslow_data)
+Unidentified Files,,/a/2/1/1,2 APS Files
+Unidentified Files,,/a/2/1/2,1 Bin File (pms_aikotoba)
+Unsorted Files,,/a/2/1/3,Overworld Head-On Sprites
+Pokedex,,/a/2/1/4,Giratina Pokedex
+Unsorted Files,,/a/2/1/5,Poffin Graphics
+Unsorted Files,,/a/2/1/6,Berry Pots Graphics
+Pokeathlon,Games,/a/2/1/7,Snow Throw Graphics
+Unsorted Files,,/a/2/1/8,Apriblender Graphics
+Pokeathlon,Pokeathlon Graphics,/a/2/1/9,Pokeathlon Demo Graphics
+Unidentified Files,,/a/2/2/0,236 Bin Files
+Unidentified Files,,/a/2/2/1,1023 Bin Files
+Unidentified Files,,/a/2/2/2,108 Bin Files
+Unsorted Files,,/a/2/2/3,Miscellaneous Button Graphics
+Pokeathlon,Games,/a/2/2/4,Pennant Capture Graphics
+Unidentified Files,,/a/2/2/5,20 Bin Files
+Unidentified Files,,/a/2/2/6,3 Bin Files
+Unidentified Files,,/a/2/2/7,10 Bin Files
+Pokemon Data,Leftover Files,/a/2/2/8,Leftover DP Pokemon Icons
+Pokemon Data,,/a/2/2/9,Egg Move Table
+Encounter Data,,/a/2/3/0,Safari Zone Encounters
+Unidentified Files,,/a/2/3/1,1 Bin File
+Pokeathlon,Games,/a/2/3/2,Block Smash Graphics
+Sequences,,/a/2/3/3,Magnet Train
+Pokeathlon,Games,/a/2/3/4,Goal Roll Graphics
+Pokeathlon,Games,/a/2/3/5,Disc Catch Graphics
+Unsorted Files,,/a/2/3/6,Touchscreen Number Graphics
+Unsorted Files,,/a/2/3/7,Touchscreen Confirmation Menu Graphics
+Sequences,,/a/2/3/8,S.S. Anne
+Unsorted Files,,/a/2/3/9,Unown Report Graphics
+Pokeathlon,Games,/a/2/4/0,Ring Drop Graphics
+Pokeathlon,Pokeathlon Graphics,/a/2/4/1,Pokeathlon Medal Graphics
+Unsorted Files,,/a/2/4/2,Apriblender Graphics
+Unsorted Files,,/a/2/4/3,Ho-Oh Model
+Unsorted Files,,/a/2/4/4,Lugia & Waterfall Models
+Unsorted Files,,/a/2/4/5,Arceus Event Images (Also A Lugia)
+Unidentified Files,,/a/2/4/6,Tetris Block Models (?)
+Unsorted Files,,/a/2/4/7,Pokewalker Graphics
+Unidentified Files,,/a/2/4/8,"540 Compressed, 384 Byte Bin Files(Map Related?)"
+Unsorted Files,,/a/2/4/9,"Graphics, Munchlax, Lugia, Protagonist"
+Unsorted Files,,/a/2/5/0,Mailbox Graphics
+Unsorted Files,,/a/2/5/1,Dowsing Machine Graphics
+Encounter Data,,/a/2/5/2,SS Headbutt Encounters
+Encounter Data,,/a/2/5/3,HG Headbutt Encounters
+Unidentified Files,,/a/2/5/4,93 Bin Files
+Unsorted Files,,/a/2/5/5,Viridian Gym Arrow Models
+Unidentified Files,,/a/2/5/6,664 Compressed Bin Files
+Unsorted Files,,/a/2/5/7,Pokemon Marking Graphics
+Unidentified Files,,/a/2/5/8,100 Bin Files
+Unsorted Files,,/a/2/5/9,Miscellaneous Button Graphics
+Unsorted Files,,/a/2/6/0,Miscellaneous Button Graphics
+Unsorted Files,,/a/2/6/1,Photo Crosshair Graphic
+Sequences,,/a/2/6/2,Opening Demo
+Sequences,,/a/2/6/3,Ending Credits
+Unsorted Files,,/a/2/6/4,Voltorb Flip
+Maps,Moving Models,/data,Field Animations (copy?)
+Pokemon Data,,/data/kowaza,Egg Move Table (copy?)
+Encounter Data,Bug Catching Contest,/data/mushi,Bug Catching Contest Pokemon
+Encounter Data,Bug Catching Contest,/data/mushi,Bug Catching Contest Trainers
+Maps,Exteriors,/fielddata/build_model,Exterior Models (copy?)
+Maps,Exteriors,/fielddata/build_model,(?)
+Maps,Interiors,/fielddata/build_model,Interior Models (copy?)
+Maps,Interiors,/fielddata/build_model,(?)
+Maps,Map Data,/fielddata/maptable,Internal Map Names
+Pokemon Data,,/fielddata/wazaoshie,Move Tutor Compatibility Table
+Scripts,,/msgdata/scenario,(?) (copy?)
+Pokemon Data,,/poketool/personal,Baby Table
+Egg,,,
+Egg,,,
+Egg,,,
