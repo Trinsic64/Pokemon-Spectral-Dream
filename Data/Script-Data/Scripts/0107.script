@@ -25,6 +25,8 @@ Script 1:
 	RemoveOW Overworld.0
 	SetFlag 607
 	SetVar 0x40FD 1
+	SetFlag 2562
+	SetVar 0x401A 10
 	CompareVarValue 0x4131 0
 	CallIf EQUAL Function#2
 	FadeScreen 6 1 1 0

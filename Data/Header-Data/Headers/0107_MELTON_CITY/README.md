@@ -21,17 +21,9 @@
 - **RunningAllowed**: `TRUE`
 - **BikeAllowed**: `TRUE`
 - **FollowMode**: `All`
-- **IsKanto**: `TRUE`
+- **IsKanto**: `FALSE`
 
 ## Validation checklist
 - [ ] All referenced files exist in `unpacked/`
 - [ ] Header has correct scripts/events/text assigned for this map
 - [ ] Any special requirements documented in `notes.md`
-
-## Raw (decoded) values
-- `Music Day`: `1020`
-- `Music Night`: `1020`
-- `Weather`: `Normal`
-- `Camera Angle`: `0`
-- `BattleBackground`: `2`
-- `MomCallIntroParam`: `12`

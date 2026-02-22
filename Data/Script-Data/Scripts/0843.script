@@ -293,6 +293,13 @@ Script 13:
 	SetVar 0x4108 1
 	SetVar 0x4072 1
 	ClearFlag 352
+	SetFlag 2559
+	SetFlag 2560
+	SetVar 0x401A 1
+	GivePokedex
+	GiveItem 4 10 0x800C
+	GiveItem 17 5 0x800C
+	GiveItem 78 1 0x800C
 	ReleaseAll
 End
 

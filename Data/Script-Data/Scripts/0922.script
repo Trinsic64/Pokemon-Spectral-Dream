@@ -305,6 +305,9 @@ Function 22:
 	IncrementVar 0x4134 1
 	IncrementVar 0x4135 1
 	SetFlag 2670
+	SetVar 0x401A 9
+	SetFlag 2570
+	SetFlag 2561
 	SetVar 0x511E 1
 	HealPokemon
 	Message 1

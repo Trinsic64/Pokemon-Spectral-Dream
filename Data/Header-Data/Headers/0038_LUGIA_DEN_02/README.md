@@ -2,7 +2,7 @@
 
 ## Summary
 - **Type**: `Cave`
-- **MapSec**: `242`
+- **MapSec**: `24`
 - **WorldMap**: `(7, 11)`
 - **AreaIcon**: `Cave`
 
@@ -27,11 +27,3 @@
 - [ ] All referenced files exist in `unpacked/`
 - [ ] Header has correct scripts/events/text assigned for this map
 - [ ] Any special requirements documented in `notes.md`
-
-## Raw (decoded) values
-- `Music Day`: `1073`
-- `Music Night`: `1073`
-- `Weather`: `Normal`
-- `Camera Angle`: `10`
-- `BattleBackground`: `11`
-- `MomCallIntroParam`: `11`

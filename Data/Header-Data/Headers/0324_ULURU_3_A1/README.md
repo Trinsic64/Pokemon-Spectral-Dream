@@ -2,7 +2,7 @@
 
 ## Summary
 - **Type**: `Cave`
-- **MapSec**: `236`
+- **MapSec**: `128`
 - **WorldMap**: `(7, 7)`
 - **AreaIcon**: `Cave`
 
@@ -20,18 +20,10 @@
 - **EscapeRopeAllowed**: `FALSE`
 - **RunningAllowed**: `TRUE`
 - **BikeAllowed**: `FALSE`
-- **FollowMode**: `Small Only`
+- **FollowMode**: `All`
 - **IsKanto**: `FALSE`
 
 ## Validation checklist
 - [ ] All referenced files exist in `unpacked/`
 - [ ] Header has correct scripts/events/text assigned for this map
 - [ ] Any special requirements documented in `notes.md`
-
-## Raw (decoded) values
-- `Music Day`: `1168`
-- `Music Night`: `1168`
-- `Weather`: `Normal`
-- `Camera Angle`: `0`
-- `BattleBackground`: `6`
-- `MomCallIntroParam`: `9`

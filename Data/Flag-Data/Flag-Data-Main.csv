@@ -571,18 +571,18 @@ Story Point,Hex,Decimal,Name,Type,CATEGORY,Event File,OWID,Description
 ,0x9FC,2556,ROWLETT,ENCOUNTER,,,,ROWLETT STATIC ENCOUNTER
 ,0x9FD,2557,SCORBUNNY,ENCOUNTER,,,,SCORBUNNY STATIC ENCOUNTER
 ,0x9FE,2558,SOBBLE,ENCOUNTER,,,,SOBBLE STATIC ENCOUNTER
-,0x9FF,2559,,STORY,,,,
-,0xA00,2560,,STORY,,,,
-,0xA01,2561,,STORY,,,,
-,0xA02,2562,,STORY,,,,
-,0xA03,2563,,STORY,,,,
-,0xA04,2564,,STORY,,,,
-,0xA05,2565,,STORY,,,,
-,0xA06,2566,,STORY,,,,
-,0xA07,2567,,STORY,,,,
-,0xA08,2568,,STORY,,,,
-,0xA09,2569,,STORY,,,,
-,0xA0A,2570,,STORY,,,,
+,0x9FF,2559,ROGUE_MODE_ACTIVE,STORY,ROGUE,,,,"Roguelike baseline mode is enabled (used to branch behavior later for Standard vs Roguelike)."
+,0xA00,2560,ROGUE_INTRO_DONE,STORY,ROGUE,,,,"Starter + Pokédex + item kit granted; player is in Roguelike progression."
+,0xA01,2561,ROGUE_E4_UNLOCKED,STORY,ROGUE,,,,"Elite Four is unlocked (post Badge 8)."
+,0xA02,2562,ROGUE_RUN_COMPLETED,STORY,ROGUE,,,,"Roguelike baseline completion flag (set after clearing endgame)."
+,0xA03,2563,ROGUE_GYM1_CLEARED,STORY,ROGUE,,,,"Gym 1 cleared (optional; prefer badge checks when possible)."
+,0xA04,2564,ROGUE_GYM2_CLEARED,STORY,ROGUE,,,,"Gym 2 cleared (optional; prefer badge checks when possible)."
+,0xA05,2565,ROGUE_GYM3_CLEARED,STORY,ROGUE,,,,"Gym 3 cleared (optional; prefer badge checks when possible)."
+,0xA06,2566,ROGUE_GYM4_CLEARED,STORY,ROGUE,,,,"Gym 4 cleared (optional; prefer badge checks when possible)."
+,0xA07,2567,ROGUE_GYM5_CLEARED,STORY,ROGUE,,,,"Gym 5 cleared (optional; prefer badge checks when possible)."
+,0xA08,2568,ROGUE_GYM6_CLEARED,STORY,ROGUE,,,,"Gym 6 cleared (optional; prefer badge checks when possible)."
+,0xA09,2569,ROGUE_GYM7_CLEARED,STORY,ROGUE,,,,"Gym 7 cleared (optional; prefer badge checks when possible)."
+,0xA0A,2570,ROGUE_GYM8_CLEARED,STORY,ROGUE,,,,"Gym 8 cleared (optional; prefer badge checks when possible)."
 ,0xA0B,2571,,STORY,,,,
 ,0xA0C,2572,,STORY,,,,
 ,0xA0D,2573,,STORY,,,,

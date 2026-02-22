@@ -2,13 +2,13 @@
 
 ## Summary
 - **Type**: `Interior`
-- **MapSec**: `6`
+- **MapSec**: `240`
 - **WorldMap**: `(0, 0)`
 - **AreaIcon**: `Gray`
 
 ## DSPRE references (unpacked)
 - **Matrix**: `C:\GitHub\Pokemon-Spectral-Dream\ROM\Pokemon-Spectral-Dream_DSPRE_contents\unpacked\matrices\0066`
-- **Script File**: `C:\GitHub\Pokemon-Spectral-Dream\ROM\Pokemon-Spectral-Dream_DSPRE_contents\unpacked\scripts\0139`
+- **Script File**: `C:\GitHub\Pokemon-Spectral-Dream\ROM\Pokemon-Spectral-Dream_DSPRE_contents\unpacked\scripts\0929`
 - **Level Script File**: `C:\GitHub\Pokemon-Spectral-Dream\ROM\Pokemon-Spectral-Dream_DSPRE_contents\unpacked\scripts\0399`
 - **Event File**: `C:\GitHub\Pokemon-Spectral-Dream\ROM\Pokemon-Spectral-Dream_DSPRE_contents\unpacked\eventFiles\0079`
 - **Text Archive**: `C:\GitHub\Pokemon-Spectral-Dream\ROM\Pokemon-Spectral-Dream_DSPRE_contents\unpacked\textArchives\0003`
@@ -18,7 +18,7 @@
 ## Flags
 - **FlyAllowed**: `FALSE`
 - **EscapeRopeAllowed**: `FALSE`
-- **RunningAllowed**: `FALSE`
+- **RunningAllowed**: `TRUE`
 - **BikeAllowed**: `FALSE`
 - **FollowMode**: `All`
 - **IsKanto**: `TRUE`
@@ -27,11 +27,3 @@
 - [ ] All referenced files exist in `unpacked/`
 - [ ] Header has correct scripts/events/text assigned for this map
 - [ ] Any special requirements documented in `notes.md`
-
-## Raw (decoded) values
-- `Music Day`: `1023`
-- `Music Night`: `1023`
-- `Weather`: `Normal`
-- `Camera Angle`: `4`
-- `BattleBackground`: `6`
-- `MomCallIntroParam`: `12`

@@ -2,9 +2,9 @@
 
 ## Summary
 - **Type**: `Cave`
-- **MapSec**: `242`
+- **MapSec**: `241`
 - **WorldMap**: `(15, 7)`
-- **AreaIcon**: `Cave`
+- **AreaIcon**: `Forest`
 
 ## DSPRE references (unpacked)
 - **Matrix**: `C:\GitHub\Pokemon-Spectral-Dream\ROM\Pokemon-Spectral-Dream_DSPRE_contents\unpacked\matrices\0034`
@@ -27,11 +27,3 @@
 - [ ] All referenced files exist in `unpacked/`
 - [ ] Header has correct scripts/events/text assigned for this map
 - [ ] Any special requirements documented in `notes.md`
-
-## Raw (decoded) values
-- `Music Day`: `1072`
-- `Music Night`: `1072`
-- `Weather`: `Normal`
-- `Camera Angle`: `0`
-- `BattleBackground`: `8`
-- `MomCallIntroParam`: `11`

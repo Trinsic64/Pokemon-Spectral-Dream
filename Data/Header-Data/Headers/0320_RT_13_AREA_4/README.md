@@ -2,7 +2,7 @@
 
 ## Summary
 - **Type**: `Route`
-- **MapSec**: `235`
+- **MapSec**: `117`
 - **WorldMap**: `(13, 8)`
 - **AreaIcon**: `Forest`
 
@@ -27,11 +27,3 @@
 - [ ] All referenced files exist in `unpacked/`
 - [ ] Header has correct scripts/events/text assigned for this map
 - [ ] Any special requirements documented in `notes.md`
-
-## Raw (decoded) values
-- `Music Day`: `1060`
-- `Music Night`: `1060`
-- `Weather`: `Normal`
-- `Camera Angle`: `0`
-- `BattleBackground`: `8`
-- `MomCallIntroParam`: `9`

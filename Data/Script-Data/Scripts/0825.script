@@ -32,6 +32,8 @@ Script 1:
 	SetFollowingPokeMovement 48
 	CountPartyBornPokemon 0x800C
 	HallOfFameAnime 0x800C
+	SetFlag 2562
+	SetVar 0x401A 10
 	AddTrainerScore 23
 	FadeScreen 6 1 0 0
 	WaitFadeScreen

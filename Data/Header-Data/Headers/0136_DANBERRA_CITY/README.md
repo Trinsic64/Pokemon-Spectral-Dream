@@ -20,18 +20,10 @@
 - **EscapeRopeAllowed**: `FALSE`
 - **RunningAllowed**: `TRUE`
 - **BikeAllowed**: `TRUE`
-- **FollowMode**: `Small Only`
+- **FollowMode**: `All`
 - **IsKanto**: `FALSE`
 
 ## Validation checklist
 - [ ] All referenced files exist in `unpacked/`
 - [ ] Header has correct scripts/events/text assigned for this map
 - [ ] Any special requirements documented in `notes.md`
-
-## Raw (decoded) values
-- `Music Day`: `1021`
-- `Music Night`: `1021`
-- `Weather`: `Normal`
-- `Camera Angle`: `0`
-- `BattleBackground`: `2`
-- `MomCallIntroParam`: `3`

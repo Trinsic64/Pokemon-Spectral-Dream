@@ -199,6 +199,8 @@ Function 15:
 	IncrementVar 0x4134 1
 	IncrementVar 0x4135 1
 	SetFlag 2610
+	SetVar 0x401A 3
+	SetFlag 2564
 	SetVar 0x5112 1
 	HealPokemon
 	Message 1

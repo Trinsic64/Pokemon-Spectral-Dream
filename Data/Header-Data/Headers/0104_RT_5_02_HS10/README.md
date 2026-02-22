@@ -2,7 +2,7 @@
 
 ## Summary
 - **Type**: `Interior`
-- **MapSec**: `153`
+- **MapSec**: `240`
 - **WorldMap**: `(0, 0)`
 - **AreaIcon**: `Gray`
 
@@ -27,11 +27,3 @@
 - [ ] All referenced files exist in `unpacked/`
 - [ ] Header has correct scripts/events/text assigned for this map
 - [ ] Any special requirements documented in `notes.md`
-
-## Raw (decoded) values
-- `Music Day`: `1028`
-- `Music Night`: `1028`
-- `Weather`: `Normal`
-- `Camera Angle`: `0`
-- `BattleBackground`: `6`
-- `MomCallIntroParam`: `10`

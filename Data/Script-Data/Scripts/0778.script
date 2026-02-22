@@ -504,6 +504,8 @@ Function 36:
 	IncrementVar 0x4134 1
 	IncrementVar 0x4135 1
 	SetFlag 2650
+	SetVar 0x401A 7
+	SetFlag 2568
 	SetVar 0x511A 1
 	HealPokemon
 	Message 1
