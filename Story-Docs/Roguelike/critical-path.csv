@@ -1,0 +1,12 @@
+RogueSeq,Milestone,HeaderId,InternalName,Role,ScriptFile,EventFile,TextArchive,EntryCondition,ExitCondition,Notes
+10,Start (starter + pokedex),,MAUN 09 LAB01,Start,843,58,543,Flag 0xA00 (ROGUE_INTRO_DONE)=FALSE,"SetFlag 0x9FF (ROGUE_MODE_ACTIVE); SetFlag 0xA00 (ROGUE_INTRO_DONE); SetVar 0x401A (ROGUE_STORY_STAGE)=1; GivePokedex; GiveItem kit","Bootstrap is implemented in `0843.script` (header 19 uses Script File 843)."
+100,Gym 1 (Falkner),60,LOBA 04 GYM01,Gym,886,133,582,Var 0x401A (ROGUE_STORY_STAGE)>=1,"GiveBadge 0; SetVar 0x401A=2; SetFlag 0xA03 (ROGUE_GYM1_CLEARED)",Trainer sheet: Falkner @ Lobart Gym 1 Normal.
+200,Gym 2 (Bugsy),111,MELT 04 GYM02,Gym,877,135,574,Var 0x401A (ROGUE_STORY_STAGE)>=2,"GiveBadge 1; SetVar 0x401A=3; SetFlag 0xA04 (ROGUE_GYM2_CLEARED)",Trainer sheet: Bugsy @ Melton Gym 2 Fighting.
+300,Gym 3 (Whitney),141,DANB 05 GYM03,Gym,786,352,492,Var 0x401A (ROGUE_STORY_STAGE)>=3,"GiveBadge 2; SetVar 0x401A=4; SetFlag 0xA05 (ROGUE_GYM3_CLEARED)",Trainer sheet: Whitney @ Danberra Gym 3 Grass.
+400,Gym 4 (Morty),167,SYDT 04 GYM04,Gym,760,382,469,Var 0x401A (ROGUE_STORY_STAGE)>=4,"GiveBadge 3; SetVar 0x401A=5; SetFlag 0xA06 (ROGUE_GYM4_CLEARED)",Trainer sheet: Morty @ Sydtree Gym 04 Water.
+500,Gym 5 (Pryce),254,BAIR 04 GYM05,Gym,943,137,631,Var 0x401A (ROGUE_STORY_STAGE)>=5,"GiveBadge 4; SetVar 0x401A=6; SetFlag 0xA07 (ROGUE_GYM5_CLEARED)",Trainer sheet: Pryce @ Bairns Gym 5 Fire.
+600,Gym 6 (Jasmine),303,DALI 04 GYM06,Gym,778,322,485,Var 0x401A (ROGUE_STORY_STAGE)>=6,"GiveBadge 5; SetVar 0x401A=7; SetFlag 0xA08 (ROGUE_GYM6_CLEARED)",Trainer sheet: Jasmine @ Dalice Gym 6 Electric.
+700,Gym 7 (Chuck),360,RADE 05 GYM07,Gym,859,131,558,Var 0x401A (ROGUE_STORY_STAGE)>=7,"GiveBadge 6; SetVar 0x401A=8; SetFlag 0xA09 (ROGUE_GYM7_CLEARED)",Trainer sheet: Chuck @ Radelaide Gym 7 Flying.
+800,Gym 8 (Clair),414,TROO 05 GYM08,Gym,922,77,614,Var 0x401A (ROGUE_STORY_STAGE)>=8,"GiveBadge 7; SetVar 0x401A=9; SetFlag 0xA0A (ROGUE_GYM8_CLEARED); SetFlag 0xA01 (ROGUE_E4_UNLOCKED)",Trainer sheet shows Clair but some rows have blank Location; gym map header is `TROO 05 GYM08`.
+900,Completion hook (Hall of Fame),,TBD,End,825,,,Flag 0xA01 (ROGUE_E4_UNLOCKED)=TRUE,"SetFlag 0xA02 (ROGUE_RUN_COMPLETED); SetVar 0x401A=10","We set completion in `0825.script` (Hall of Fame) and also in `0107.script` (EndGameScreen trigger)."
+

@@ -1,0 +1,424 @@
+HeaderId,ChangedColumns
+10,Music Day;Music Night;MapSec;IsKanto
+11,Music Day;Music Night;MapSec
+12,Music Day;Music Night;MapSec
+13,Music Day;Music Night;MapSec
+14,Music Day;Music Night;MapSec
+15,Music Day;Music Night;MapSec
+16,Music Day;Music Night;MapSec
+17,Music Day;Music Night;MapSec
+18,Music Day;Music Night;MapSec
+19,MapSec
+20,Music Day;Music Night;MapSec
+21,Music Day;Music Night;MapSec
+22,MapSec
+23,Music Day;Music Night;IsKanto
+24,MapSec
+25,MapSec
+26,MapSec
+27,Music Day;Music Night;Camera Angle;MapSec;RunningAllowed
+28,Music Day;Music Night;Camera Angle;MapSec
+29,Music Day;Music Night;Camera Angle;MapSec
+30,AreaIcon;Music Day;Music Night;MapSec
+31,AreaIcon;Music Day;Music Night;MapSec
+32,Music Day;Music Night;MapSec
+33,Music Day;Music Night;MapSec
+34,Internal Name;Music Day;Music Night;MapSec
+35,Internal Name;Music Day;Music Night;MapSec
+36,Internal Name;Music Day;Music Night;MapSec
+37,MapSec
+38,MapSec
+39,Music Day;Music Night;MapSec
+40,Music Day;Music Night;MapSec
+41,Music Day;Music Night;MapSec
+42,Internal Name;Music Day;Music Night;MapSec
+43,Internal Name;Music Day;Music Night;MapSec
+44,MapSec
+45,MapSec
+46,MapSec
+47,MapSec
+48,MapSec
+49,MapSec;IsKanto
+50,MapSec;IsKanto
+51,MapSec;IsKanto
+52,MapSec;IsKanto
+53,MapSec;IsKanto
+54,MapSec;IsKanto
+55,Internal Name;MapSec
+56,IsKanto
+57,MapSec
+58,MapSec
+59,MapSec
+60,MapSec
+61,Music Day;Music Night;MapSec
+62,Music Day;Music Night;MapSec
+63,Music Day;Music Night;MapSec
+64,Music Day;Music Night;MapSec
+65,Music Day;Music Night;MapSec
+66,Music Day;Music Night;MapSec
+67,Music Day;Music Night;MapSec
+68,Music Day;Music Night;MapSec
+69,Music Day;Music Night;MapSec
+70,Music Day;Music Night;MapSec
+71,Music Day;Music Night;MapSec
+72,Music Day;Music Night;MapSec
+74,Matrix;Script File;Level Script File;Event File;Text Archive;Wild File;Area Data;Texture File;Building File;AreaIcon;Music Day;Music Night;Camera Angle;MapSec;WorldMapX;WorldMapY;FlyAllowed;BikeAllowed;BattleBackground;Area_Unknown06;Area_Unknown08
+75,Matrix;Script File;Level Script File;Event File;Text Archive;Area Data;Texture File;Building File;AreaIcon;Music Day;Music Night;Camera Angle;MapSec;WorldMapX;WorldMapY;FlyAllowed;BikeAllowed;BattleBackground;Area_Unknown08
+76,MapSec
+77,MapSec
+78,Music Day;Music Night;MapSec
+79,MapSec
+80,MapSec
+81,MapSec
+82,MapSec
+83,Music Day;Music Night;MapSec
+84,Internal Name;Music Day;Music Night;MapSec
+85,Internal Name;MapSec
+86,AreaIcon;MapSec
+87,AreaIcon;MapSec
+88,AreaIcon;MapSec
+89,MapSec
+90,Internal Name;MapSec
+91,Internal Name;Matrix;Script File;Level Script File;Event File;Text Archive;Wild File;Area Data;Texture File;Building File;MapSec;Area_Unknown06;Area_Unknown08
+92,Internal Name;Script File;Level Script File;Text Archive;Wild File;MapSec
+93,Internal Name;Matrix;Script File;Level Script File;Event File;Text Archive;Area Data;Texture File;Building File;MapSec;Area_Unknown08
+94,Internal Name;Matrix;Script File;Level Script File;Event File;Text Archive;Wild File;Area Data;Texture File;Building File;MapSec;Area_Unknown06
+95,Internal Name;MapSec
+96,MapSec
+97,MapSec
+98,MapSec
+99,MapSec
+100,MapSec
+101,MapSec
+102,MapSec
+103,Music Day;Music Night;MapSec
+104,MapSec
+105,AreaIcon;MapSec
+106,Music Day;Music Night;MapSec;IsKanto
+107,IsKanto
+108,MapSec
+109,MapSec
+110,MapSec
+111,MapSec
+112,MapSec
+113,MapSec
+114,MapSec
+115,MapSec
+116,MapSec
+117,MapSec
+118,MapSec
+119,MapSec
+120,MapSec
+121,MapSec
+122,MapSec
+123,MapSec
+124,MapSec
+125,AreaIcon;MapSec
+126,Internal Name;MapSec
+127,Internal Name;MapSec
+128,MapSec
+129,MapSec
+130,MapSec
+131,MapSec
+132,MapSec
+133,MapSec
+134,MapSec
+135,MapSec
+136,FollowMode
+137,MapSec
+138,MapSec
+139,MapSec
+140,MapSec
+141,MapSec
+142,MapSec
+143,MapSec
+144,MapSec
+149,MapSec
+150,MapSec
+151,MapSec
+152,MapSec
+153,MapSec
+154,MapSec
+155,MapSec
+156,MapSec
+157,MapSec
+158,MapSec
+159,MapSec
+160,MapSec
+161,MapSec
+162,MapSec
+164,MapSec
+165,MapSec
+166,MapSec
+167,MapSec
+168,MapSec
+169,MapSec
+170,MapSec
+171,MapSec
+172,MapSec
+173,MapSec
+174,MapSec
+175,MapSec
+176,MapSec
+177,MapSec
+178,MapSec
+179,MapSec
+180,MapSec
+181,MapSec
+182,MapSec
+183,MapSec
+184,MapSec
+185,MapSec
+186,MapSec
+187,MapSec
+188,MapSec
+189,MapSec
+190,MapSec
+191,MapSec
+192,MapSec
+193,MapSec
+194,MapSec
+195,MapSec
+196,MapSec
+197,MapSec
+198,MapSec
+199,MapSec
+200,MapSec
+201,MapSec
+202,MapSec
+203,MapSec
+204,MapSec
+205,MapSec
+206,MapSec
+207,MapSec
+208,MapSec
+209,MapSec
+210,MapSec
+211,MapSec
+212,MapSec
+213,MapSec
+214,MapSec
+215,MapSec
+216,MapSec
+217,MapSec
+218,MapSec
+219,MapSec
+220,MapSec
+221,MapSec
+222,MapSec
+223,MapSec
+224,MapSec
+225,MapSec
+226,Internal Name;MapSec
+227,Internal Name;MapSec
+228,MapSec
+229,MapSec
+230,MapSec
+231,MapSec
+232,AreaIcon;MapSec
+233,AreaIcon;MapSec
+234,AreaIcon;MapSec
+235,AreaIcon;MapSec
+236,AreaIcon;MapSec
+237,AreaIcon;MapSec
+238,AreaIcon;MapSec
+239,AreaIcon;MapSec
+240,MapSec
+241,MapSec
+242,MapSec
+243,MapSec
+244,MapSec
+245,MapSec
+246,MapSec
+247,MapSec
+248,MapSec
+249,MapSec
+252,MapSec
+253,MapSec
+254,MapSec
+255,MapSec
+256,MapSec
+257,MapSec
+258,Internal Name;MapSec
+259,MapSec
+260,Internal Name;MapSec
+261,MapSec
+262,MapSec
+263,Internal Name;MapSec
+264,Internal Name;MapSec
+265,Internal Name;MapSec
+266,Internal Name;MapSec
+267,Internal Name;MapSec
+268,MapSec
+269,MapSec
+270,Internal Name;MapSec
+271,Internal Name;MapSec
+272,Internal Name;MapSec
+273,Internal Name;MapSec
+274,Internal Name;MapSec
+275,MapSec
+276,MapSec
+277,MapSec
+278,MapSec
+281,MapSec
+282,MapSec
+283,MapSec
+284,MapSec
+285,MapSec
+286,MapSec
+287,MapSec
+288,MapSec
+289,MapSec
+290,MapSec
+291,MapSec
+292,MapSec;EscapeRopeAllowed
+293,MapSec;EscapeRopeAllowed
+294,Internal Name;MapSec;Area_Unknown08
+295,Internal Name;MapSec;Area_Unknown08
+296,Internal Name;MapSec;Area_Unknown08
+297,Internal Name;MapSec
+298,Internal Name;MapSec
+299,FollowMode;IsKanto
+301,MapSec
+302,MapSec
+303,MapSec
+304,MapSec
+305,MapSec
+306,MapSec
+307,MapSec
+308,MapSec
+309,MapSec
+310,MapSec
+311,MapSec
+312,MapSec
+313,MapSec
+314,MapSec
+315,MapSec
+316,Matrix;Area Data;Texture File;Building File;MapSec;FollowMode;Area_Unknown06;Area_Unknown08
+317,MapSec
+318,MapSec
+319,MapSec
+320,MapSec
+321,MapSec
+322,MapSec
+323,MapSec
+324,MapSec;FollowMode
+325,Matrix;Area Data;Texture File;Building File;MapSec;FollowMode;Area_Unknown06;Area_Unknown08
+326,Internal Name;MapSec
+327,Internal Name;MapSec
+328,Internal Name;MapSec
+329,Internal Name;MapSec
+330,Internal Name
+331,Internal Name;MapSec
+332,Internal Name;MapSec
+333,Internal Name;MapSec
+334,MapSec
+335,MapSec
+336,Internal Name;MapSec
+337,Internal Name;MapSec
+338,Weather;Camera Angle;MapSec
+339,Weather;Camera Angle;MapSec
+340,Weather;Camera Angle;MapSec
+341,Music Day;Music Night;Weather;MapSec;EscapeRopeAllowed;BikeAllowed;BattleBackground
+343,MapSec
+344,Internal Name
+345,Internal Name;Matrix;Area Data;Texture File;Building File;AreaIcon;Music Day;Music Night;Camera Angle;EscapeRopeAllowed;BattleBackground;Area_Unknown08
+351,MapSec
+352,MapSec
+353,MapSec
+354,MapSec
+356,MapSec
+359,MapSec
+360,MapSec
+361,MapSec
+362,MapSec
+363,MapSec
+364,MapSec
+365,MapSec
+366,MapSec
+367,MapSec
+368,MapSec
+369,MapSec
+370,MapSec
+371,MapSec
+372,MapSec
+373,MapSec
+374,MapSec
+375,MapSec
+376,MapSec
+377,MapSec
+378,MapSec
+379,MapSec
+380,MapSec
+381,MapSec
+386,MapSec
+387,MapSec
+388,MapSec
+389,MapSec
+390,MapSec
+391,MapSec
+392,MapSec
+393,MapSec
+394,MapSec
+395,MapSec
+396,MapSec
+397,MapSec
+398,MapSec
+399,MapSec
+400,MapSec
+401,MapSec
+402,MapSec
+403,MapSec
+404,MapSec
+405,MapSec
+406,MapSec
+407,MapSec
+408,MapSec
+409,MapSec;IsKanto
+410,MapSec
+413,MapSec
+414,MapSec
+415,MapSec
+416,MapSec
+417,MapSec
+418,MapSec
+419,MapSec
+430,Internal Name;MapSec
+431,Internal Name;MapSec
+432,Internal Name;MapSec
+433,MapSec
+434,MapSec
+435,MapSec
+436,MapSec
+437,MapSec
+438,MapSec
+439,MapSec
+440,MapSec
+441,MapSec
+442,MapSec
+443,MapSec
+444,MapSec
+445,MapSec
+446,MapSec;IsKanto
+458,Area_Unknown08
+496,Internal Name
+497,Internal Name
+498,Internal Name
+499,Internal Name
+500,Internal Name
+501,Internal Name
+502,Internal Name
+503,Internal Name
+504,Internal Name
+505,Internal Name
+506,Internal Name
+507,Internal Name
+508,Internal Name
+509,Internal Name
+510,Internal Name
+511,Internal Name
+512,Internal Name
+513,Internal Name
+514,Internal Name
+541,Internal Name
+545,Internal Name;WorldMapX;WorldMapY;FlyAllowed;EscapeRopeAllowed;FollowMode;BattleBackground

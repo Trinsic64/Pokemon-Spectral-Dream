@@ -1,0 +1,8 @@
+CSV: C:\GitHub\Pokemon-Spectral-Dream\Data\Header-Data\Header-Data-Main.csv
+DSPRE: C:\GitHub\Pokemon-Spectral-Dream\ROM\Pokemon-Spectral-Dream_DSPRE_contents
+Backed up to: C:\GitHub\Pokemon-Spectral-Dream\Tools\Update-Header-Data-Script\backups\Header-Data-Main_20260222-220303.csv
+Headers in dynamicHeaders: 546
+Headers in CSV (numeric): 546
+Headers added to CSV: 0
+Rows changed: 423
+Validation missing-file findings: 0
