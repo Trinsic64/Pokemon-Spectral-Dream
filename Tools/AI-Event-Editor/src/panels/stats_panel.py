@@ -19,26 +19,25 @@ class StatsPanel(ctk.CTkFrame):
         ctk.CTkButton(self, text="Refresh", width=100,
                       command=self.refresh).pack(pady=5)
 
-        main = ctk.CTkFrame(self, fg_color="transparent")
+        main = ctk.CTkFrame(self)
         main.pack(fill="both", expand=True, padx=10, pady=5)
-        main.grid_columnconfigure(0, weight=1)
-        main.grid_columnconfigure(1, weight=1)
-        main.grid_columnconfigure(2, weight=1)
 
-        # Summary cards
+        # Summary cards - two rows of three
         self.cards: dict[str, ctk.CTkLabel] = {}
-        card_defs = [
-            ("items_card", "Items", 0, 0),
-            ("trainers_card", "Trainers", 0, 1),
-            ("npcs_card", "NPCs", 0, 2),
-            ("warps_card", "Warps", 1, 0),
-            ("spawnables_card", "Spawnables", 1, 1),
-            ("flags_card", "Flags", 1, 2),
+        card_defs_row0 = [
+            ("items_card", "Items"),
+            ("trainers_card", "Trainers"),
+            ("npcs_card", "NPCs"),
+        ]
+        card_defs_row1 = [
+            ("warps_card", "Warps"),
+            ("spawnables_card", "Spawnables"),
+            ("flags_card", "Flags"),
         ]
 
-        for card_id, label, row, col in card_defs:
-            card = ctk.CTkFrame(main)
-            card.grid(row=row, column=col, sticky="nsew", padx=5, pady=5)
+        def make_card(parent, card_id, label):
+            card = ctk.CTkFrame(parent)
+            card.pack(side="left", fill="both", expand=True, padx=5, pady=5)
 
             ctk.CTkLabel(card, text=label,
                          font=ctk.CTkFont(size=15, weight="bold")).pack(
@@ -56,6 +55,16 @@ class StatsPanel(ctk.CTkFrame):
                 text_color="#bdc3c7")
             detail_label.pack(padx=10, pady=(2, 8))
             self.cards[f"{card_id}_detail"] = detail_label
+
+        row0 = ctk.CTkFrame(main, fg_color="transparent")
+        row0.pack(fill="x", padx=5, pady=5)
+        for card_id, label in card_defs_row0:
+            make_card(row0, card_id, label)
+
+        row1 = ctk.CTkFrame(main, fg_color="transparent")
+        row1.pack(fill="x", padx=5, pady=5)
+        for card_id, label in card_defs_row1:
+            make_card(row1, card_id, label)
 
         # Full breakdown
         self.breakdown_text = ctk.CTkTextbox(self, height=200)

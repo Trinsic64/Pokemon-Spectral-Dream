@@ -31,11 +31,8 @@ class PreviewPanel(ctk.CTkFrame):
         self._build()
 
     def _build(self):
-        self.grid_rowconfigure(2, weight=1)
-        self.grid_columnconfigure(0, weight=1)
-
         top = ctk.CTkFrame(self, fg_color="transparent")
-        top.grid(row=0, column=0, sticky="ew", padx=10, pady=5)
+        top.pack(fill="x", padx=10, pady=5)
 
         self.map_label = ctk.CTkLabel(
             top, text="Select a header and click 'Apply Selection' to preview a map",
@@ -47,7 +44,7 @@ class PreviewPanel(ctk.CTkFrame):
 
         # Legend
         legend = ctk.CTkFrame(self, fg_color="transparent")
-        legend.grid(row=1, column=0, sticky="ew", padx=10, pady=3)
+        legend.pack(fill="x", padx=10, pady=3)
         legend_items = [
             ("Walkable", COLORS["walkable"]),
             ("Blocked", COLORS["blocked"]),
@@ -68,9 +65,7 @@ class PreviewPanel(ctk.CTkFrame):
 
         # Canvas in a scrollable container
         canvas_container = ctk.CTkFrame(self)
-        canvas_container.grid(row=2, column=0, sticky="nsew", padx=10, pady=5)
-        canvas_container.grid_rowconfigure(0, weight=1)
-        canvas_container.grid_columnconfigure(0, weight=1)
+        canvas_container.pack(fill="both", expand=True, padx=10, pady=5)
 
         canvas_size = 32 * TILE_SIZE + 2
         self.canvas = Canvas(
@@ -80,7 +75,7 @@ class PreviewPanel(ctk.CTkFrame):
             bg=COLORS["empty_bg"],
             highlightthickness=0,
         )
-        self.canvas.grid(row=0, column=0, padx=5, pady=5)
+        self.canvas.pack(padx=5, pady=5)
         self.canvas.bind("<Button-1>", self._on_click)
 
         # Draw empty state message
@@ -92,7 +87,7 @@ class PreviewPanel(ctk.CTkFrame):
 
         # Info bar
         info_bar = ctk.CTkFrame(self, fg_color="transparent")
-        info_bar.grid(row=3, column=0, sticky="ew", padx=10, pady=3)
+        info_bar.pack(fill="x", padx=10, pady=3)
 
         self.info_label = ctk.CTkLabel(info_bar, text="",
                                        font=ctk.CTkFont(size=12))

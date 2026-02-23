@@ -16,132 +16,151 @@ class ItemsPanel(ctk.CTkFrame):
         self._build()
 
     def _build(self):
-        self.grid_rowconfigure(2, weight=1)
-        self.grid_columnconfigure(0, weight=1)
-
-        title = ctk.CTkLabel(self, text="Item Ball Editor",
-                             font=ctk.CTkFont(size=20, weight="bold"))
-        title.grid(row=0, column=0, pady=(10, 5))
+        # === TOP SECTION ===
+        title = ctk.CTkLabel(
+            self, text="Item Ball Editor",
+            font=ctk.CTkFont(size=20, weight="bold")
+        )
+        title.pack(pady=(10, 5))
 
         self.target_label = ctk.CTkLabel(
             self, text="No headers selected. Go to Headers tab first.",
-            font=ctk.CTkFont(size=13), text_color="#f39c12")
-        self.target_label.grid(row=1, column=0, pady=5)
+            font=ctk.CTkFont(size=13), text_color="#f39c12"
+        )
+        self.target_label.pack(pady=5)
 
-        main = ctk.CTkFrame(self, fg_color="transparent")
-        main.grid(row=2, column=0, sticky="nsew", padx=10, pady=5)
-        main.grid_columnconfigure(0, weight=1)
-        main.grid_columnconfigure(1, weight=1)
-        main.grid_rowconfigure(0, weight=1)
+        # === TWO COLUMN LAYOUT ===
+        main = ctk.CTkFrame(self)
+        main.pack(fill="both", expand=True, padx=10, pady=5)
 
-        # === Left: mode + item selection ===
         left = ctk.CTkFrame(main)
-        left.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
+        left.pack(side="left", fill="both", expand=True, padx=5, pady=5)
 
-        ctk.CTkLabel(left, text="Mode",
-                     font=ctk.CTkFont(size=15, weight="bold")).pack(pady=5)
+        right = ctk.CTkFrame(main)
+        right.pack(side="left", fill="both", expand=True, padx=5, pady=5)
+
+        # === LEFT COLUMN ===
+        ctk.CTkLabel(
+            left, text="Mode",
+            font=ctk.CTkFont(size=15, weight="bold")
+        ).pack(pady=5)
 
         self.mode_var = ctk.StringVar(value="category")
-        modes_frame = ctk.CTkFrame(left, fg_color="transparent")
+        modes_frame = ctk.CTkFrame(left)
         modes_frame.pack(fill="x", padx=10)
-        ctk.CTkRadioButton(modes_frame, text="Category Preset",
-                           variable=self.mode_var, value="category",
-                           command=self._on_mode_change).pack(anchor="w", pady=2)
-        ctk.CTkRadioButton(modes_frame, text="Specific Item",
-                           variable=self.mode_var, value="specific",
-                           command=self._on_mode_change).pack(anchor="w", pady=2)
+        ctk.CTkRadioButton(
+            modes_frame, text="Category Preset",
+            variable=self.mode_var, value="category",
+            command=self._on_mode_change
+        ).pack(anchor="w", pady=2)
+        ctk.CTkRadioButton(
+            modes_frame, text="Specific Item",
+            variable=self.mode_var, value="specific",
+            command=self._on_mode_change
+        ).pack(anchor="w", pady=2)
 
-        # Container that swaps between category and specific
-        self.mode_container = ctk.CTkFrame(left, fg_color="transparent")
+        self.mode_container = ctk.CTkFrame(left)
         self.mode_container.pack(fill="both", expand=True, padx=10, pady=5)
 
-        # Category selector (built inside container)
+        # Category mode content
         self.cat_frame = ctk.CTkFrame(self.mode_container)
-        ctk.CTkLabel(self.cat_frame, text="Category:").pack(anchor="w", padx=5)
+        ctk.CTkLabel(self.cat_frame, text="Category:").pack(anchor="w", padx=5, pady=(5, 2))
+
         categories = list(ITEM_CATEGORIES.keys()) + ["Mega Stones", "TMs"]
         self.cat_var = ctk.StringVar(value=categories[0] if categories else "")
-        ctk.CTkSegmentedButton(
-            self.cat_frame, values=categories[:6],
-            variable=self.cat_var,
-            command=self._on_category_change,
-        ).pack(padx=5, pady=5, fill="x")
+
+        for i in range(0, len(categories), 3):
+            row_frame = ctk.CTkFrame(self.cat_frame, fg_color="transparent")
+            row_frame.pack(fill="x")
+            for j in range(3):
+                idx = i + j
+                if idx < len(categories):
+                    cat = categories[idx]
+                    ctk.CTkRadioButton(
+                        row_frame, text=cat, variable=self.cat_var, value=cat,
+                        command=lambda c=cat: self._on_category_change(c),
+                        font=ctk.CTkFont(size=12),
+                    ).pack(side="left", padx=5, pady=2)
 
         self.cat_items_label = ctk.CTkLabel(
             self.cat_frame, text="", wraplength=350, justify="left",
-            font=ctk.CTkFont(size=11))
-        self.cat_items_label.pack(padx=5, pady=2)
+            font=ctk.CTkFont(size=11)
+        )
+        self.cat_items_label.pack(padx=5, pady=5)
 
-        # Specific item selector (built inside container)
+        # Specific mode content
         self.spec_frame = ctk.CTkFrame(self.mode_container)
-        ctk.CTkLabel(self.spec_frame, text="Search Items:").pack(anchor="w", padx=5)
+        ctk.CTkLabel(self.spec_frame, text="Search Items:").pack(anchor="w", padx=5, pady=(5, 2))
         self.item_search_var = ctk.StringVar()
         self.item_search_var.trace_add("write", lambda *_: self._filter_items())
-        ctk.CTkEntry(self.spec_frame, textvariable=self.item_search_var,
-                     width=300, placeholder_text="Type item name...").pack(padx=5, pady=5)
+        ctk.CTkEntry(
+            self.spec_frame, textvariable=self.item_search_var,
+            width=300, placeholder_text="Type item name..."
+        ).pack(padx=5, pady=5)
         self.item_listbox = ctk.CTkScrollableFrame(self.spec_frame, height=200)
         self.item_listbox.pack(fill="both", expand=True, padx=5, pady=5)
         self.selected_item_var = ctk.StringVar()
 
-        # === Right: settings ===
-        right = ctk.CTkFrame(main)
-        right.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
+        # === RIGHT COLUMN ===
+        ctk.CTkLabel(
+            right, text="Settings",
+            font=ctk.CTkFont(size=15, weight="bold")
+        ).pack(pady=5)
 
-        ctk.CTkLabel(right, text="Settings",
-                     font=ctk.CTkFont(size=15, weight="bold")).pack(pady=5)
-
-        settings = ctk.CTkFrame(right, fg_color="transparent")
+        settings = ctk.CTkFrame(right)
         settings.pack(fill="x", padx=10, pady=5)
 
-        row_idx = 0
-        ctk.CTkLabel(settings, text="Items per map:").grid(
-            row=row_idx, column=0, sticky="w", padx=5, pady=5)
+        qty_row = ctk.CTkFrame(settings, fg_color="transparent")
+        qty_row.pack(fill="x", pady=5)
+        ctk.CTkLabel(qty_row, text="Items per map:").pack(side="left", padx=5)
         self.qty_var = ctk.IntVar(value=1)
-        ctk.CTkSlider(settings, from_=1, to=5, number_of_steps=4,
-                      variable=self.qty_var, width=150).grid(
-            row=row_idx, column=1, padx=5, pady=5)
-        self.qty_label = ctk.CTkLabel(settings, text="1")
-        self.qty_label.grid(row=row_idx, column=2, padx=5)
-        self.qty_var.trace_add("write",
-                               lambda *_: self.qty_label.configure(
-                                   text=str(self.qty_var.get())))
+        ctk.CTkSlider(
+            qty_row, from_=1, to=5, number_of_steps=4,
+            variable=self.qty_var, width=150,
+            command=lambda v: self.qty_label.configure(text=str(int(v)))
+        ).pack(side="left", padx=5)
+        self.qty_label = ctk.CTkLabel(qty_row, text="1")
+        self.qty_label.pack(side="left", padx=5)
 
-        row_idx += 1
         self.randomize_var = ctk.BooleanVar(value=True)
-        ctk.CTkCheckBox(settings, text="Randomize from pool",
-                        variable=self.randomize_var).grid(
-            row=row_idx, column=0, columnspan=3, sticky="w", padx=5, pady=5)
+        ctk.CTkCheckBox(
+            settings, text="Randomize from pool",
+            variable=self.randomize_var
+        ).pack(anchor="w", padx=5, pady=5)
 
-        row_idx += 1
         self.auto_flag_var = ctk.BooleanVar(value=True)
-        ctk.CTkCheckBox(settings, text="Auto-allocate flags",
-                        variable=self.auto_flag_var).grid(
-            row=row_idx, column=0, columnspan=3, sticky="w", padx=5, pady=5)
+        ctk.CTkCheckBox(
+            settings, text="Auto-allocate flags",
+            variable=self.auto_flag_var
+        ).pack(anchor="w", padx=5, pady=5)
 
-        row_idx += 1
         self.auto_place_var = ctk.BooleanVar(value=True)
-        ctk.CTkCheckBox(settings, text="Auto-place (collision aware)",
-                        variable=self.auto_place_var).grid(
-            row=row_idx, column=0, columnspan=3, sticky="w", padx=5, pady=5)
+        ctk.CTkCheckBox(
+            settings, text="Auto-place (collision aware)",
+            variable=self.auto_place_var
+        ).pack(anchor="w", padx=5, pady=5)
 
-        # Info box
         info_frame = ctk.CTkFrame(right)
         info_frame.pack(fill="x", padx=10, pady=10)
-        ctk.CTkLabel(info_frame, text="Formula: script = 7000 + item_ID",
-                     font=ctk.CTkFont(size=12),
-                     text_color="#7f8c8d").pack(padx=5, pady=3)
-        ctk.CTkLabel(info_frame, text="Sprite: overlay_entry = 87 (item ball)",
-                     font=ctk.CTkFont(size=12),
-                     text_color="#7f8c8d").pack(padx=5, pady=3)
+        ctk.CTkLabel(
+            info_frame, text="Formula: script = 7000 + item_ID",
+            font=ctk.CTkFont(size=12), text_color="#7f8c8d"
+        ).pack(padx=5, pady=3)
+        ctk.CTkLabel(
+            info_frame, text="Sprite: overlay_entry = 87 (item ball)",
+            font=ctk.CTkFont(size=12), text_color="#7f8c8d"
+        ).pack(padx=5, pady=3)
 
-        # Add button
-        ctk.CTkButton(right, text="Add Item Balls to Selected Maps",
-                      font=ctk.CTkFont(size=14, weight="bold"),
-                      height=40, fg_color="#2ecc71", hover_color="#27ae60",
-                      command=self._add_items).pack(pady=15, padx=20, fill="x")
+        ctk.CTkButton(
+            right, text="Add Item Balls to Selected Maps",
+            font=ctk.CTkFont(size=14, weight="bold"),
+            height=40, fg_color="#2ecc71", hover_color="#27ae60",
+            command=self._add_items
+        ).pack(pady=15, padx=20, fill="x")
 
-        # === Bottom: results ===
+        # === BOTTOM SECTION ===
         self.result_text = ctk.CTkTextbox(self, height=120)
-        self.result_text.grid(row=3, column=0, sticky="ew", padx=10, pady=5)
+        self.result_text.pack(fill="x", padx=10, pady=5)
 
         self._on_mode_change()
 
@@ -157,17 +176,20 @@ class ItemsPanel(ctk.CTkFrame):
             self._filter_items()
 
     def _on_category_change(self, cat: str):
-        if cat == "Mega Stones":
-            items = self.app.project.items.get_mega_stones()
-        elif cat == "TMs":
-            items = self.app.project.items.get_tms()
-        else:
-            items = self.app.project.items.get_category(cat)
-        names = [it.display_name for it in items[:15]]
-        self.cat_items_label.configure(
-            text=f"Pool ({len(items)} items): {', '.join(names)}"
-            + ("..." if len(items) > 15 else "")
-        )
+        try:
+            if cat == "Mega Stones":
+                items = self.app.project.items.get_mega_stones()
+            elif cat == "TMs":
+                items = self.app.project.items.get_tms()
+            else:
+                items = self.app.project.items.get_category(cat)
+            names = [it.display_name for it in items[:15]]
+            self.cat_items_label.configure(
+                text=f"Pool ({len(items)} items): {', '.join(names)}"
+                + ("..." if len(items) > 15 else "")
+            )
+        except Exception:
+            self.cat_items_label.configure(text="Load a project to see items")
 
     def _filter_items(self):
         for w in self.item_listbox.winfo_children():
@@ -175,7 +197,10 @@ class ItemsPanel(ctk.CTkFrame):
         query = self.item_search_var.get()
         if not query or len(query) < 2:
             return
-        results = self.app.project.items.search(query)[:50]
+        try:
+            results = self.app.project.items.search(query)[:50]
+        except Exception:
+            return
         for it in results:
             btn = ctk.CTkButton(
                 self.item_listbox,

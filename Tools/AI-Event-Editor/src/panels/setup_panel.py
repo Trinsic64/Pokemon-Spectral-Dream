@@ -20,6 +20,14 @@ class SetupPanel(ctk.CTkFrame):
                              font=ctk.CTkFont(size=20, weight="bold"))
         title.pack(pady=(10, 20))
 
+        self.loaded_banner = ctk.CTkLabel(
+            self,
+            text="No project loaded yet.",
+            font=ctk.CTkFont(size=13, weight="bold"),
+            text_color="#f39c12",
+        )
+        self.loaded_banner.pack(pady=(0, 10))
+
         # DSPRE Contents folder
         dspre_frame = ctk.CTkFrame(self)
         dspre_frame.pack(fill="x", padx=20, pady=5)
@@ -52,13 +60,50 @@ class SetupPanel(ctk.CTkFrame):
         ctk.CTkLabel(api_frame, text="AI API Key (optional):",
                      font=ctk.CTkFont(size=14)).pack(side="left", padx=10)
         self.api_var = ctk.StringVar()
-        ctk.CTkEntry(api_frame, textvariable=self.api_var,
-                     width=500, show="*").pack(side="left", padx=5,
-                                               expand=True, fill="x")
+        self.api_entry = ctk.CTkEntry(
+            api_frame,
+            textvariable=self.api_var,
+            width=500,
+            show="*",
+        )
+        self.api_entry.pack(side="left", padx=5, expand=True, fill="x")
+
+        # Avoid triggering Tk context-menu/menu-window creation on right click.
+        for seq in ("<Button-3>", "<ButtonRelease-3>", "<Shift-F10>", "<App>"):
+            try:
+                self.api_entry.bind(seq, lambda _e: "break")
+            except Exception:
+                pass
+
+        # Log API key length only (never key text)
+        self._last_api_len = 0
+        self.api_var.trace_add("write", lambda *_: self._on_api_changed())
         self.api_provider = ctk.StringVar(value="openai")
-        ctk.CTkComboBox(api_frame, values=["anthropic", "openai"],
-                        variable=self.api_provider,
-                        width=120, state="readonly").pack(side="left", padx=10)
+        provider_frame = ctk.CTkFrame(api_frame, fg_color="transparent")
+        provider_frame.pack(side="left", padx=10)
+        ctk.CTkRadioButton(provider_frame, text="OpenAI",
+                           variable=self.api_provider, value="openai",
+                           width=80).pack(side="left", padx=3)
+        ctk.CTkRadioButton(provider_frame, text="Anthropic",
+                           variable=self.api_provider, value="anthropic",
+                           width=90).pack(side="left", padx=3)
+
+        api_btns = ctk.CTkFrame(api_frame, fg_color="transparent")
+        api_btns.pack(side="left", padx=5)
+        ctk.CTkButton(api_btns, text="Paste", width=70,
+                      command=self._paste_api_key).pack(side="left", padx=3)
+        ctk.CTkButton(api_btns, text="Clear", width=70,
+                      fg_color="#e74c3c", hover_color="#c0392b",
+                      command=self._clear_api_key).pack(side="left", padx=3)
+
+        diag_frame = ctk.CTkFrame(self, fg_color="transparent")
+        diag_frame.pack(fill="x", padx=20, pady=(0, 10))
+        ctk.CTkButton(
+            diag_frame,
+            text="Copy diagnostics",
+            width=140,
+            command=self._copy_diagnostics,
+        ).pack(anchor="w")
 
         # Load button
         btn_frame = ctk.CTkFrame(self, fg_color="transparent")
@@ -86,15 +131,82 @@ class SetupPanel(ctk.CTkFrame):
             "Headers", "Items", "Trainers", "Flags",
             "Sprites", "Text Archives", "Events", "Maps",
         ]
+        row1 = ctk.CTkFrame(self.status_frame, fg_color="transparent")
+        row1.pack(fill="x", padx=5, pady=3)
+        row2 = ctk.CTkFrame(self.status_frame, fg_color="transparent")
+        row2.pack(fill="x", padx=5, pady=3)
         for i, name in enumerate(sources):
-            row, col = divmod(i, 4)
+            parent_row = row1 if i < 4 else row2
             lbl = ctk.CTkLabel(
-                self.status_frame, text=f"  {name}: --",
+                parent_row, text=f"  {name}: --",
                 font=ctk.CTkFont(size=13),
                 anchor="w",
             )
-            lbl.grid(row=row, column=col, sticky="w", padx=15, pady=3)
+            lbl.pack(side="left", padx=15)
             self.indicators[name] = lbl
+
+    def _on_api_changed(self):
+        try:
+            n = len(self.api_var.get() or "")
+        except Exception:
+            n = 0
+        if n != getattr(self, "_last_api_len", 0):
+            self._last_api_len = n
+            print(f"[setup] API key length: {n}")
+
+    def _paste_api_key(self):
+        try:
+            val = self.clipboard_get()
+        except Exception:
+            val = ""
+        self.api_var.set(val.strip())
+
+    def _clear_api_key(self):
+        self.api_var.set("")
+
+    def _copy_diagnostics(self):
+        import sys
+
+        try:
+            import customtkinter as ctk_mod
+            ctk_ver = getattr(ctk_mod, "__version__", "unknown")
+        except Exception:
+            ctk_ver = "unknown"
+
+        try:
+            win_state = self.app.state()
+        except Exception:
+            win_state = "unknown"
+
+        try:
+            tk_scaling = float(self.tk.call("tk", "scaling"))
+        except Exception:
+            tk_scaling = -1.0
+
+        try:
+            dpi = int(self.winfo_toplevel().winfo_fpixels("1i"))
+        except Exception:
+            dpi = -1
+
+        diag = "\n".join([
+            "AI Event Editor diagnostics",
+            f"Python: {sys.version}",
+            f"CustomTkinter: {ctk_ver}",
+            f"Window state: {win_state}",
+            f"Tk scaling: {tk_scaling}",
+            f"DPI (fpixels 1i): {dpi}",
+            f"API key set: {bool(self.api_var.get().strip())} (len={len(self.api_var.get().strip())})",
+            f"hg-engine enabled: {bool(self.hg_enabled.get())}",
+        ])
+
+        try:
+            self.clipboard_clear()
+            self.clipboard_append(diag)
+            self.update_idletasks()
+        except Exception:
+            pass
+
+        print(diag)
 
     def _browse_dspre(self):
         path = filedialog.askdirectory(title="Select DSPRE Contents Folder")
@@ -178,6 +290,10 @@ class SetupPanel(ctk.CTkFrame):
                 text=f"Loaded with {len(errors)} warning(s)",
                 text_color="#f39c12",
             )
+            self.loaded_banner.configure(
+                text=f"Project loaded with {len(errors)} warning(s).",
+                text_color="#f39c12",
+            )
             for e in errors:
                 print(f"[WARN] {e}")
         else:
@@ -185,5 +301,18 @@ class SetupPanel(ctk.CTkFrame):
                 text="Project loaded successfully!",
                 text_color="#2ecc71",
             )
+            self.loaded_banner.configure(
+                text="Project loaded successfully!",
+                text_color="#2ecc71",
+            )
 
         self.app.on_project_loaded()
+        try:
+            self.app.update_idletasks()
+        except Exception:
+            pass
+        try:
+            # Extra layout pass after heavy load to stabilize rendering.
+            self.after(50, lambda: self.app.update_idletasks())
+        except Exception:
+            pass

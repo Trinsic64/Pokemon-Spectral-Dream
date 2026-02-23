@@ -3,8 +3,6 @@
 from __future__ import annotations
 
 import random
-import traceback
-
 import customtkinter as ctk
 
 
@@ -27,33 +25,35 @@ class TrainersPanel(ctk.CTkFrame):
         self._build()
 
     def _build(self):
-        self.grid_rowconfigure(2, weight=1)
-        self.grid_columnconfigure(0, weight=1)
-
-        title = ctk.CTkLabel(self, text="Trainer Editor",
-                             font=ctk.CTkFont(size=20, weight="bold"))
-        title.grid(row=0, column=0, pady=(10, 5))
+        # TOP: Title and target label
+        title = ctk.CTkLabel(
+            self, text="Trainer Editor",
+            font=ctk.CTkFont(size=20, weight="bold")
+        )
+        title.pack(pady=(10, 5))
 
         self.target_label = ctk.CTkLabel(
             self, text="No headers selected. Go to Headers tab first.",
-            font=ctk.CTkFont(size=13), text_color="#f39c12")
-        self.target_label.grid(row=1, column=0, pady=5)
+            font=ctk.CTkFont(size=13), text_color="#f39c12"
+        )
+        self.target_label.pack(pady=5)
 
-        main = ctk.CTkFrame(self, fg_color="transparent")
-        main.grid(row=2, column=0, sticky="nsew", padx=10, pady=5)
-        main.grid_columnconfigure(0, weight=1)
-        main.grid_columnconfigure(1, weight=1)
-        main.grid_rowconfigure(0, weight=1)
+        # TWO COLUMNS: container with left and right
+        container = ctk.CTkFrame(self)
+        container.pack(fill="both", expand=True, padx=10, pady=5)
 
-        # === Left: trainer selection ===
-        left = ctk.CTkFrame(main)
-        left.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
+        left = ctk.CTkFrame(container)
+        left.pack(side="left", fill="both", expand=True, padx=5, pady=5)
 
+        right = ctk.CTkFrame(container)
+        right.pack(side="left", fill="both", expand=True, padx=5, pady=5)
+
+        # === LEFT COLUMN ===
         ctk.CTkLabel(left, text="Mode",
                      font=ctk.CTkFont(size=15, weight="bold")).pack(pady=5)
 
         self.mode_var = ctk.StringVar(value="by_class")
-        modes = ctk.CTkFrame(left, fg_color="transparent")
+        modes = ctk.CTkFrame(left)
         modes.pack(fill="x", padx=10)
         ctk.CTkRadioButton(modes, text="By Trainer Class",
                            variable=self.mode_var, value="by_class",
@@ -62,27 +62,28 @@ class TrainersPanel(ctk.CTkFrame):
                            variable=self.mode_var, value="specific",
                            command=self._on_mode_change).pack(anchor="w", pady=2)
 
-        # Container that swaps between class and specific
-        self.mode_container = ctk.CTkFrame(left, fg_color="transparent")
+        self.mode_container = ctk.CTkFrame(left)
         self.mode_container.pack(fill="both", expand=True, padx=10, pady=5)
 
-        # --- Class selector ---
+        # --- class_frame ---
         self.class_frame = ctk.CTkFrame(self.mode_container)
 
-        ctk.CTkLabel(self.class_frame, text="Trainer Class:").pack(
+        ctk.CTkLabel(self.class_frame, text="Trainer Class (type to filter):").pack(
             anchor="w", padx=5, pady=(5, 0))
-        self.class_var = ctk.StringVar(value="(load project first)")
-        self.class_combo = ctk.CTkComboBox(
-            self.class_frame, variable=self.class_var,
-            values=["(load project first)"], width=300,
-            command=self._on_class_change, state="readonly",
-        )
-        self.class_combo.pack(padx=5, pady=5, fill="x")
+        self.class_var = ctk.StringVar(value="")
+        self.class_search = ctk.CTkEntry(
+            self.class_frame, textvariable=self.class_var,
+            width=300, placeholder_text="Type class name...")
+        self.class_search.pack(padx=5, pady=2, fill="x")
+        self.class_var.trace_add("write", lambda *_: self._filter_classes())
+        self.class_listbox = ctk.CTkScrollableFrame(self.class_frame, height=120)
+        self.class_listbox.pack(fill="x", padx=5, pady=2)
+        self._selected_class = ""
 
         ctk.CTkLabel(self.class_frame, text="Trainers per map:").pack(
             anchor="w", padx=5)
         self.trainer_qty = ctk.IntVar(value=1)
-        qty_frame = ctk.CTkFrame(self.class_frame, fg_color="transparent")
+        qty_frame = ctk.CTkFrame(self.class_frame)
         qty_frame.pack(fill="x", padx=5)
         ctk.CTkSlider(qty_frame, from_=1, to=4, number_of_steps=3,
                       variable=self.trainer_qty, width=150).pack(
@@ -102,7 +103,7 @@ class TrainersPanel(ctk.CTkFrame):
             font=ctk.CTkFont(size=11))
         self.class_info.pack(padx=5, pady=3)
 
-        # --- Specific trainer ---
+        # --- spec_frame ---
         self.spec_frame = ctk.CTkFrame(self.mode_container)
         ctk.CTkLabel(self.spec_frame, text="Search Trainers:").pack(
             anchor="w", padx=5)
@@ -114,52 +115,46 @@ class TrainersPanel(ctk.CTkFrame):
         self.trainer_listbox.pack(fill="both", expand=True, padx=5, pady=5)
         self.selected_trainer_id = ctk.IntVar(value=-1)
 
-        # === Right: settings ===
-        right = ctk.CTkFrame(main)
-        right.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
-
+        # === RIGHT COLUMN ===
         ctk.CTkLabel(right, text="Settings",
                      font=ctk.CTkFont(size=15, weight="bold")).pack(pady=5)
 
-        settings = ctk.CTkFrame(right, fg_color="transparent")
-        settings.pack(fill="x", padx=10, pady=5)
-
-        ctk.CTkLabel(settings, text="Movement:").grid(
-            row=0, column=0, sticky="w", padx=5, pady=5)
+        ctk.CTkLabel(right, text="Movement:").pack(anchor="w", padx=10, pady=(5, 0))
         self.movement_var = ctk.StringVar(value="Random Walk")
-        ctk.CTkComboBox(settings, values=list(MOVEMENT_TYPES.keys()),
-                        variable=self.movement_var, width=180,
-                        state="readonly").grid(
-            row=0, column=1, padx=5, pady=5)
+        mvmt_frame = ctk.CTkFrame(right)
+        mvmt_frame.pack(anchor="w", padx=10, pady=2)
+        for mv_name in list(MOVEMENT_TYPES.keys())[:4]:
+            ctk.CTkRadioButton(
+                mvmt_frame, text=mv_name, variable=self.movement_var,
+                value=mv_name, font=ctk.CTkFont(size=11),
+            ).pack(anchor="w", pady=1)
 
-        ctk.CTkLabel(settings, text="Sight Range:").grid(
-            row=1, column=0, sticky="w", padx=5, pady=5)
+        sight_row = ctk.CTkFrame(right)
+        sight_row.pack(fill="x", padx=10, pady=5)
+        ctk.CTkLabel(sight_row, text="Sight Range:").pack(side="left", padx=5)
         self.sight_var = ctk.IntVar(value=3)
-        ctk.CTkSlider(settings, from_=0, to=8, number_of_steps=8,
-                      variable=self.sight_var, width=150).grid(
-            row=1, column=1, padx=5, pady=5)
-        self.sight_label = ctk.CTkLabel(settings, text="3")
-        self.sight_label.grid(row=1, column=2, padx=5)
+        ctk.CTkSlider(sight_row, from_=0, to=8, number_of_steps=8,
+                      variable=self.sight_var, width=150).pack(side="left", padx=5)
+        self.sight_label = ctk.CTkLabel(sight_row, text="3")
+        self.sight_label.pack(side="left", padx=5)
         self.sight_var.trace_add("write",
                                  lambda *_: self.sight_label.configure(
                                      text=str(self.sight_var.get())))
 
         self.auto_sprite = ctk.BooleanVar(value=True)
-        ctk.CTkCheckBox(settings, text="Auto-match sprite to class",
-                        variable=self.auto_sprite).grid(
-            row=2, column=0, columnspan=3, sticky="w", padx=5, pady=5)
+        ctk.CTkCheckBox(right, text="Auto-match sprite to class",
+                        variable=self.auto_sprite).pack(anchor="w", padx=10, pady=5)
 
         self.auto_place = ctk.BooleanVar(value=True)
-        ctk.CTkCheckBox(settings, text="Auto-place (collision aware)",
-                        variable=self.auto_place).grid(
-            row=3, column=0, columnspan=3, sticky="w", padx=5, pady=5)
+        ctk.CTkCheckBox(right, text="Auto-place (collision aware)",
+                        variable=self.auto_place).pack(anchor="w", padx=10, pady=5)
 
-        # Level filter
+        # Level Filter
         level_frame = ctk.CTkFrame(right)
         level_frame.pack(fill="x", padx=10, pady=5)
         ctk.CTkLabel(level_frame, text="Level Filter:",
                      font=ctk.CTkFont(size=13)).pack(anchor="w", padx=5)
-        lf_inner = ctk.CTkFrame(level_frame, fg_color="transparent")
+        lf_inner = ctk.CTkFrame(level_frame)
         lf_inner.pack(fill="x", padx=5, pady=3)
         ctk.CTkLabel(lf_inner, text="Min:").pack(side="left", padx=5)
         self.level_min = ctk.IntVar(value=1)
@@ -183,9 +178,9 @@ class TrainersPanel(ctk.CTkFrame):
                       height=40, fg_color="#2ecc71", hover_color="#27ae60",
                       command=self._add_trainers).pack(pady=15, padx=20, fill="x")
 
-        # === Bottom: results ===
+        # === BOTTOM: results ===
         self.result_text = ctk.CTkTextbox(self, height=120)
-        self.result_text.grid(row=3, column=0, sticky="ew", padx=10, pady=5)
+        self.result_text.pack(fill="x", padx=10, pady=5)
 
         self._on_mode_change()
 
@@ -221,15 +216,38 @@ class TrainersPanel(ctk.CTkFrame):
         if classes:
             display = [c.replace("TRAINERCLASS_", "").replace("_", " ").title()
                        for c in classes]
-            self.class_combo.configure(values=display)
             self._class_map = dict(zip(display, classes))
-            if display:
-                self.class_var.set(display[0])
+            self._all_class_display = display
+            self._filter_classes()
 
-    def _on_class_change(self, display_name: str):
+    def _filter_classes(self):
+        for w in self.class_listbox.winfo_children():
+            w.destroy()
+        query = self.class_var.get().lower()
+        display_list = getattr(self, "_all_class_display", [])
+        shown = 0
+        for display_name in display_list:
+            if query and query not in display_name.lower():
+                continue
+            btn = ctk.CTkButton(
+                self.class_listbox,
+                text=display_name, anchor="w", height=24,
+                fg_color="transparent" if display_name != self._selected_class else "#1f6aa5",
+                hover_color="#2c3e50", text_color="#ecf0f1",
+                font=ctk.CTkFont(size=12),
+                command=lambda n=display_name: self._select_class(n),
+            )
+            btn.pack(fill="x", pady=1)
+            shown += 1
+            if shown >= 30:
+                break
+
+    def _select_class(self, display_name: str):
+        self._selected_class = display_name
         real_class = self._class_map.get(display_name, "")
         if not real_class:
             return
+        self._filter_classes()
         trainers = self.app.project.trainers.get_by_class(real_class)
         if trainers:
             lvls = [t.avg_level for t in trainers if t.num_mons > 0]
@@ -302,7 +320,7 @@ class TrainersPanel(ctk.CTkFrame):
                     pass
 
             if mode == "by_class":
-                display = self.class_var.get()
+                display = self._selected_class
                 real_class = self._class_map.get(display, "")
                 pool = self.app.project.trainers.get_by_class(real_class)
                 pool = [t for t in pool if t.num_mons > 0]

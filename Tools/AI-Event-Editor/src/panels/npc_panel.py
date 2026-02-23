@@ -32,39 +32,41 @@ class NPCPanel(ctk.CTkFrame):
         self._build()
 
     def _build(self):
-        self.grid_rowconfigure(2, weight=1)
-        self.grid_columnconfigure(0, weight=1)
-
         title = ctk.CTkLabel(self, text="NPC Editor (AI-Assisted)",
                              font=ctk.CTkFont(size=20, weight="bold"))
-        title.grid(row=0, column=0, pady=(10, 5))
+        title.pack(pady=(10, 5))
 
         self.target_label = ctk.CTkLabel(
             self, text="No header selected.",
             font=ctk.CTkFont(size=13), text_color="#f39c12")
-        self.target_label.grid(row=1, column=0, pady=3)
+        self.target_label.pack(pady=3)
 
-        main = ctk.CTkFrame(self, fg_color="transparent")
-        main.grid(row=2, column=0, sticky="nsew", padx=10, pady=5)
-        main.grid_columnconfigure(0, weight=1)
-        main.grid_columnconfigure(1, weight=1)
-        main.grid_rowconfigure(0, weight=1)
+        main = ctk.CTkFrame(self)
+        main.pack(fill="both", expand=True, padx=10, pady=5)
 
         # === Left: NPC definition ===
         left = ctk.CTkFrame(main)
-        left.grid(row=0, column=0, sticky="nsew", padx=5, pady=5)
+        left.pack(side="left", fill="both", expand=True, padx=5, pady=5)
 
         ctk.CTkLabel(left, text="NPC Definition",
                      font=ctk.CTkFont(size=15, weight="bold")).pack(pady=5)
 
         # Purpose
+        ctk.CTkLabel(left, text="Purpose:",
+                     font=ctk.CTkFont(size=13)).pack(anchor="w", padx=15, pady=(5, 0))
         purpose_frame = ctk.CTkFrame(left, fg_color="transparent")
         purpose_frame.pack(fill="x", padx=10, pady=3)
-        ctk.CTkLabel(purpose_frame, text="Purpose:").pack(side="left", padx=5)
         self.purpose_var = ctk.StringVar(value=NPC_PURPOSES[0])
-        ctk.CTkComboBox(purpose_frame, values=NPC_PURPOSES,
-                        variable=self.purpose_var, width=200,
-                        state="readonly").pack(side="left", padx=5)
+        purpose_col1 = ctk.CTkFrame(purpose_frame, fg_color="transparent")
+        purpose_col1.pack(side="left", fill="y", padx=5)
+        purpose_col2 = ctk.CTkFrame(purpose_frame, fg_color="transparent")
+        purpose_col2.pack(side="left", fill="y", padx=5)
+        for i, purp in enumerate(NPC_PURPOSES):
+            parent = purpose_col1 if i % 2 == 0 else purpose_col2
+            ctk.CTkRadioButton(
+                parent, text=purp, variable=self.purpose_var,
+                value=purp, font=ctk.CTkFont(size=12),
+            ).pack(anchor="w", padx=5, pady=1)
 
         # Sprite
         sprite_frame = ctk.CTkFrame(left, fg_color="transparent")
@@ -100,7 +102,7 @@ class NPCPanel(ctk.CTkFrame):
 
         # === Right: preview + accept ===
         right = ctk.CTkFrame(main)
-        right.grid(row=0, column=1, sticky="nsew", padx=5, pady=5)
+        right.pack(side="left", fill="both", expand=True, padx=5, pady=5)
 
         ctk.CTkLabel(right, text="Generated Preview",
                      font=ctk.CTkFont(size=15, weight="bold")).pack(pady=5)
@@ -252,7 +254,7 @@ class NPCPanel(ctk.CTkFrame):
 
         if hasattr(self.app, 'preview_panel'):
             self.app.preview_panel.set_click_callback(on_click)
-        self.app.tabview.set("Map Preview")
+        self.app.set_tab("Map Preview")
 
     def _accept(self):
         if not self._last_result or not self.app.selected_headers:

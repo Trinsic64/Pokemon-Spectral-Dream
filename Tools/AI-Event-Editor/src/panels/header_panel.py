@@ -27,13 +27,13 @@ class HeaderPanel(ctk.CTkFrame):
 
         ctk.CTkLabel(top, text="Type:").pack(side="left", padx=(20, 5))
         self.type_filter = ctk.StringVar(value="All")
-        self.type_menu = ctk.CTkComboBox(
-            top, variable=self.type_filter,
-            values=["All"], width=140,
-            command=lambda _: self._apply_filter(),
-            state="readonly",
-        )
-        self.type_menu.pack(side="left", padx=5)
+        self.type_entry = ctk.CTkEntry(
+            top, textvariable=self.type_filter, width=140,
+            placeholder_text="All")
+        self.type_entry.pack(side="left", padx=5)
+        self.type_filter.trace_add("write", lambda *_: self._apply_filter())
+        self._type_buttons_frame = ctk.CTkFrame(top, fg_color="transparent")
+        self._type_buttons_frame.pack(side="left", padx=2)
 
         # Select controls
         ctk.CTkButton(top, text="Select All Visible", width=130,
@@ -64,7 +64,16 @@ class HeaderPanel(ctk.CTkFrame):
 
     def refresh(self):
         types = ["All"] + self.app.project.headers.get_types()
-        self.type_menu.configure(values=types)
+        for w in self._type_buttons_frame.winfo_children():
+            w.destroy()
+        for t in types[:8]:
+            ctk.CTkButton(
+                self._type_buttons_frame, text=t, width=70, height=24,
+                font=ctk.CTkFont(size=11),
+                fg_color="transparent" if t != "All" else "#1f6aa5",
+                hover_color="#2c3e50",
+                command=lambda v=t: self._set_type_filter(v),
+            ).pack(side="left", padx=1)
 
         for w in self.scroll_frame.winfo_children():
             w.destroy()
@@ -141,6 +150,14 @@ class HeaderPanel(ctk.CTkFrame):
         selected = [h_num for h_num, var in self._check_vars.items() if var.get()]
         self.app.on_headers_selected(selected)
         self.app.set_status(f"{len(selected)} header(s) selected")
+
+    def _set_type_filter(self, value: str):
+        self.type_filter.set(value)
+        for w in self._type_buttons_frame.winfo_children():
+            if hasattr(w, 'cget') and w.cget("text") == value:
+                w.configure(fg_color="#1f6aa5")
+            else:
+                w.configure(fg_color="transparent")
 
     def get_selected(self) -> list[int]:
         return [h_num for h_num, var in self._check_vars.items() if var.get()]
