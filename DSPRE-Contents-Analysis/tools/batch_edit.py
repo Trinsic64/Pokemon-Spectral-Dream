@@ -143,14 +143,12 @@ def apply_edit(edit: dict, all_data: dict, changelog: list[dict],
             print(f"  {action}: event={event_file} idx={idx} {field}: {old_val} -> {new_val}")
 
     elif verb == "add":
-        data = edit.get("data", {})
+        raw_data = edit.get("data", {})
         existing = [r for r in rows if r["event_file"] == event_file]
         new_index = max((int(r["index"]) for r in existing), default=-1) + 1
-        data["event_file"] = event_file
-        data["index"] = str(new_index)
-        data.setdefault("maps", "")
+        data = {"event_file": event_file, "index": str(new_index), "maps": ""}
         for fn in fieldnames:
-            data.setdefault(fn, "")
+            data.setdefault(fn, raw_data.get(fn, ""))
         rows.append(data)
         changelog.append({
             "timestamp": timestamp, "action": action, "entity_type": entity,

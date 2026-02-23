@@ -1,0 +1,26 @@
+Header Data Duplicate Report Summary
+========================================
+
+Total duplicate groups: 168
+
+By LikelyValid:
+  TRUE: 0
+  FALSE: 12
+  REVIEW: 156
+
+Top duplicated columns (by number of duplicate values):
+  MapSec: 62
+  Wild File: 29
+  WorldMapX: 25
+  WorldMapY: 16
+  Internal Name: 14
+  Type: 5
+  FollowMode: 3
+  FlyAllowed: 2
+  EscapeRopeAllowed: 2
+  RunningAllowed: 2
+  BikeAllowed: 2
+  IsKanto: 2
+  RogueRole: 2
+  RogueSeq: 1
+  RogueNotes: 1
