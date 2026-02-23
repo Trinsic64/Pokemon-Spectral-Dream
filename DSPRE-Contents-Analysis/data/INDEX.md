@@ -11,7 +11,7 @@ Most files here are **not human-readable** without specialized Nintendo DS tools
 
 ### `data/` (root — map/area assets)
 
-File types: `.NANR` × 5, `.NCER` × 4, `.NCGR` × 8, `.NCLR` × 7, `.NSCR` × 2, `.atr` × 1, `.bin` × 2, `.dat` × 8, `.narc` × 19, `.ncgr` × 5, `.nclr` × 2, `.nsbca` × 2, `.nsbmd` × 2, `.nsbtx` × 11, `.txt` × 5
+File types: `.NANR` × 5, `.NCER` × 4, `.NCGR` × 8, `.NCLR` × 7, `.NSCR` × 2, `.atr` × 1, `.bin` × 2, `.dat` × 8, `.md` × 1, `.narc` × 19, `.ncgr` × 5, `.nclr` × 2, `.nsbca` × 2, `.nsbmd` × 2, `.nsbtx` × 11, `.txt` × 5
 
 | Extension | Format | Description |
 |-----------|--------|-------------|

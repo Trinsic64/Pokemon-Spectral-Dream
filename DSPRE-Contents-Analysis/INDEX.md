@@ -14,8 +14,10 @@ AI agents and developers understand the game's data without requiring DSPRE.
 |--------|----------|------------|
 | `scripts/` | Game event scripts (one per map, decompiled from NARCs) | 965 `.script` files |
 | `textArchives/` | All in-game dialogue and UI text strings | 890 `.txt` files |
+| `events/` | Map entity data — NPCs, warps, floor items, triggers | 491 binary event files + 5 CSVs |
+| `unpacked/` | Binary files extracted by DSPRE from ROM NARCs | 33,000+ files across 31 subdirs |
 | `data/` | Binary asset NARCs, DS graphics/model files, overlays | ~260 files |
-| `constants/` | CSV lookup tables for species, item, move, ability IDs | 5 `.csv` files |
+| `constants/` | CSV lookup tables for species, item, move, ability IDs | 6 `.csv` files |
 | `analysis/` | Generated summaries and cross-reference reports | CSV + MD files |
 | `tools/` | Python scripts that generated this analysis | `.py` files |
 
@@ -46,8 +48,10 @@ defined in `Tools/hg-engine/` and built from source:
 
 - **Script files**: 965 files, 89,748 total commands
 - **Text archives**: 890 files, 70,581 total text entries
+- **Event files**: 491 files — 2,372 NPCs, 1,411 warps, 576 floor items, 144 triggers
 - **How scripts link to maps**: See `Data/Header-Data/Header-Data-Main.csv` column `Script File`
 - **How text archives link to maps**: See column `Text Archive` in the same CSV
+- **How events link to maps**: See column `Event File` in the same CSV
 
 ---
 
@@ -55,6 +59,7 @@ defined in `Tools/hg-engine/` and built from source:
 
 - Browse scripts by map: [`scripts/INDEX.md`](scripts/INDEX.md)
 - Browse text archives by map: [`textArchives/INDEX.md`](textArchives/INDEX.md)
+- Browse map events (NPCs, warps, items): [`events/INDEX.md`](events/INDEX.md)
 - Look up species/item/move IDs: [`constants/INDEX.md`](constants/INDEX.md)
 - Cross-reference findings: [`analysis/cross-reference.md`](analysis/cross-reference.md)
 - Raw analysis data: [`analysis/script-summary.csv`](analysis/script-summary.csv),

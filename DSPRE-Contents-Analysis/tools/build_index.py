@@ -24,6 +24,7 @@ ANALYSIS_DIR = ANALYSIS_ROOT / "analysis"
 CONSTANTS_DIR = ANALYSIS_ROOT / "constants"
 SCRIPTS_DIR = ANALYSIS_ROOT / "scripts"
 TEXT_DIR = ANALYSIS_ROOT / "textArchives"
+EVENTS_DIR = ANALYSIS_ROOT / "events"
 
 TODAY = date.today().isoformat()
 
@@ -44,11 +45,17 @@ def write_md(path: Path, content: str) -> None:
 def build_top_level_index(
     script_summary: list[dict],
     text_summary: list[dict],
+    event_summary: list[dict],
 ) -> str:
     script_count = len(list(SCRIPTS_DIR.glob("*.script")))
     text_count = len(list(TEXT_DIR.glob("*.txt")))
+    event_raw_count = len(list((EVENTS_DIR / "raw").glob("*"))) if (EVENTS_DIR / "raw").exists() else 0
     total_text_entries = sum(int(r.get("entry_count", 0) or 0) for r in text_summary)
     total_script_cmds = sum(int(r.get("total_commands", 0) or 0) for r in script_summary)
+    total_ow   = sum(int(r.get("overworld_count",  0) or 0) for r in event_summary)
+    total_wp   = sum(int(r.get("warp_count",       0) or 0) for r in event_summary)
+    total_sp   = sum(int(r.get("spawnable_count",  0) or 0) for r in event_summary)
+    total_tr   = sum(int(r.get("trigger_count",    0) or 0) for r in event_summary)
 
     return f"""# DSPRE Contents Analysis — Index
 
@@ -66,8 +73,10 @@ AI agents and developers understand the game's data without requiring DSPRE.
 |--------|----------|------------|
 | `scripts/` | Game event scripts (one per map, decompiled from NARCs) | {script_count} `.script` files |
 | `textArchives/` | All in-game dialogue and UI text strings | {text_count} `.txt` files |
+| `events/` | Map entity data — NPCs, warps, floor items, triggers | {event_raw_count} binary event files + 5 CSVs |
+| `unpacked/` | Binary files extracted by DSPRE from ROM NARCs | 33,000+ files across 31 subdirs |
 | `data/` | Binary asset NARCs, DS graphics/model files, overlays | ~260 files |
-| `constants/` | CSV lookup tables for species, item, move, ability IDs | 5 `.csv` files |
+| `constants/` | CSV lookup tables for species, item, move, ability IDs | 6 `.csv` files |
 | `analysis/` | Generated summaries and cross-reference reports | CSV + MD files |
 | `tools/` | Python scripts that generated this analysis | `.py` files |
 
@@ -98,8 +107,10 @@ defined in `Tools/hg-engine/` and built from source:
 
 - **Script files**: {script_count} files, {total_script_cmds:,} total commands
 - **Text archives**: {text_count} files, {total_text_entries:,} total text entries
+- **Event files**: {event_raw_count} files — {total_ow:,} NPCs, {total_wp:,} warps, {total_sp:,} floor items, {total_tr:,} triggers
 - **How scripts link to maps**: See `Data/Header-Data/Header-Data-Main.csv` column `Script File`
 - **How text archives link to maps**: See column `Text Archive` in the same CSV
+- **How events link to maps**: See column `Event File` in the same CSV
 
 ---
 
@@ -107,6 +118,7 @@ defined in `Tools/hg-engine/` and built from source:
 
 - Browse scripts by map: [`scripts/INDEX.md`](scripts/INDEX.md)
 - Browse text archives by map: [`textArchives/INDEX.md`](textArchives/INDEX.md)
+- Browse map events (NPCs, warps, items): [`events/INDEX.md`](events/INDEX.md)
 - Look up species/item/move IDs: [`constants/INDEX.md`](constants/INDEX.md)
 - Cross-reference findings: [`analysis/cross-reference.md`](analysis/cross-reference.md)
 - Raw analysis data: [`analysis/script-summary.csv`](analysis/script-summary.csv),
@@ -480,17 +492,166 @@ def build_cross_reference(script_summary: list[dict], text_summary: list[dict]) 
     return "\n".join(lines) + "\n"
 
 
+def build_events_index(event_summary: list[dict]) -> str:
+    total_ow = sum(int(r.get("overworld_count",  0) or 0) for r in event_summary)
+    total_wp = sum(int(r.get("warp_count",       0) or 0) for r in event_summary)
+    total_sp = sum(int(r.get("spawnable_count",  0) or 0) for r in event_summary)
+    total_tr = sum(int(r.get("trigger_count",    0) or 0) for r in event_summary)
+
+    lines = [
+        "# Events Index",
+        "",
+        f"Generated: {TODAY}",
+        "",
+        f"Total event files: {len(event_summary)}",
+        "",
+        "Each event file contains four types of map entities for one or more map headers.",
+        "The `Event File` column in `Data/Header-Data/Header-Data-Main.csv` links map",
+        "headers to event file numbers.",
+        "",
+        "## Summary Totals",
+        "",
+        "| Entity Type | Count | Description |",
+        "|-------------|-------|-------------|",
+        f"| Overworlds (NPCs/trainers/OW items) | {total_ow:,} | Moving characters and item balls on the map |",
+        f"| Warps | {total_wp:,} | Transition points between maps (doors, warp pads) |",
+        f"| Spawnables | {total_sp:,} | Floor items (regular pickups, sign boards, hidden items) |",
+        f"| Triggers | {total_tr:,} | Script trigger zones activated by walking over them |",
+        "",
+        "## Entity Type Reference",
+        "",
+        "### Overworld Types",
+        "| Value | Name | Meaning |",
+        "|-------|------|---------|",
+        "| 0 | NORMAL | Standard NPC |",
+        "| 1 | TRAINER | Trainer that battles player when in sight range |",
+        "| 3 | ITEM | Overworld item ball (e.g. TM on ground) |",
+        "",
+        "### Spawnable Types",
+        "| Value | Name | Meaning |",
+        "|-------|------|---------|",
+        "| 0 | MISC | Miscellaneous spawnable |",
+        "| 1 | BOARD | Sign board / notice board |",
+        "| 2 | HIDDENITEM | Hidden item (Itemfinder target) |",
+        "",
+        "## CSV Files",
+        "",
+        "| File | Contents |",
+        "|------|----------|",
+        "| `events-summary.csv` | Per event file: map name, count of each entity type |",
+        "| `overworlds.csv` | All NPC/trainer/item overworlds with position, script, flag |",
+        "| `warps.csv` | All warps with source position, destination header and map name |",
+        "| `spawnables.csv` | All floor items and hidden items with type and position |",
+        "| `triggers.csv` | All trigger zones with script, watched variable, and dimensions |",
+        "",
+        "## Per-Event-File Table",
+        "",
+        "| Event # | Maps | OWs | Warps | Spawnables | Triggers |",
+        "|---------|------|-----|-------|------------|----------|",
+    ]
+
+    for row in event_summary:
+        ev  = row.get("event_file", "")
+        maps = row.get("maps", "") or "—"
+        if len(maps) > 70:
+            maps = maps[:67] + "..."
+        ow  = row.get("overworld_count",  0)
+        wp  = row.get("warp_count",       0)
+        sp  = row.get("spawnable_count",  0)
+        tr  = row.get("trigger_count",    0)
+        if int(ow) + int(wp) + int(sp) + int(tr) == 0:
+            continue  # skip empty event files
+        lines.append(f"| {ev} | {maps} | {ow} | {wp} | {sp} | {tr} |")
+
+    return "\n".join(lines) + "\n"
+
+
+def build_unpacked_index() -> str:
+    unpacked_dir = ANALYSIS_ROOT / "unpacked"
+    subdirs = sorted(d for d in unpacked_dir.iterdir() if d.is_dir()) if unpacked_dir.exists() else []
+
+    table_lines = [
+        "| Subdirectory | File Count | Description |",
+        "|--------------|------------|-------------|",
+    ]
+    desc_map = {
+        "areaData":              "Area type/terrain assignment binary files",
+        "buildingConfigFiles":   "Building placement config binary files",
+        "buildingTextures":      "Building texture pack binary files",
+        "dynamicHeaders":        "Map header binary files (parsed by update_header_data.py)",
+        "eggMoves":              "Pokemon egg move binary data",
+        "encounters":            "Wild encounter binary files (one per bank)",
+        "eventFiles":            "Map event binary files — NPCs, warps, floor items, triggers",
+        "evolutions":            "Pokemon evolution data binary files",
+        "exteriorBuildingModels":"Exterior 3D building model binary files",
+        "headbutt":              "Headbutt tree encounter binary files",
+        "interiorBuildingModels":"Interior 3D building model binary files",
+        "itemData":              "Item property binary files (price, hold effect, etc.)",
+        "itemIcons":             "Item icon graphic binary files",
+        "learnsets":             "Pokemon learnset binary data",
+        "maps":                  "Map geometry/collision binary files",
+        "mapTextures":           "Map texture pack binary files",
+        "matrices":              "Area matrix layout binary files",
+        "monIcons":              "Pokemon party icon graphic binary files",
+        "moveData":              "Move property binary files (power, accuracy, effect)",
+        "otherPokemonBattleSprites": "Misc Pokemon battle sprite binary files",
+        "OWSprites":             "Overworld character sprite binary files",
+        "personalPokeData":      "Pokemon base stat / personal data binary files",
+        "pokemonBattleSprites":  "Pokemon battle sprite binary files",
+        "safariZone":            "Safari Zone encounter binary files",
+        "scripts":               "Script binary files (binary form of expanded/scripts/)",
+        "synthOverlay":          "Synthesised overlay binary files",
+        "textArchives":          "Text archive binary files (binary form of expanded/textArchives/)",
+        "tradeData":             "In-game trade data binary files",
+        "trainerGraphics":       "Trainer graphic binary files",
+        "trainerParty":          "Trainer party data binary files",
+        "trainerProperties":     "Trainer property data binary files",
+    }
+    total_files = 0
+    for sd in subdirs:
+        n = sum(1 for f in sd.iterdir() if f.is_file())
+        total_files += n
+        desc = desc_map.get(sd.name, sd.name)
+        table_lines.append(f"| `{sd.name}/` | {n:,} | {desc} |")
+
+    return f"""# Unpacked Directory Index
+
+Generated: {TODAY}
+
+This directory contains binary files extracted from ROM NARCs by DSPRE when the
+ROM project was last opened. Total: **{total_files:,} files** across {len(subdirs)} subdirectories.
+
+These are raw binary files — not human-readable as text. Each subdirectory
+corresponds to one NARC archive from the ROM.
+
+## Subdirectories
+
+{chr(10).join(table_lines)}
+
+## Notes
+
+- `eventFiles/` has been parsed into human-readable CSVs in `events/`
+- `encounters/`, `trainerProperties/`, `trainerParty/` are authoritative in
+  `Tools/hg-engine/` — DSPRE binary files are supplementary reference only
+- `personalPokeData/`, `moveData/` are authoritative in `Tools/hg-engine/armips/data/`
+- `dynamicHeaders/` is parsed by `Tools/Update-Header-Data-Script/update_header_data.py`
+"""
+
+
 def main() -> None:
     print("Building index files...")
 
     script_summary = read_csv(ANALYSIS_DIR / "script-summary.csv")
     text_summary = read_csv(ANALYSIS_DIR / "text-archive-summary.csv")
+    event_summary = read_csv(EVENTS_DIR / "events-summary.csv")
 
-    write_md(ANALYSIS_ROOT / "INDEX.md", build_top_level_index(script_summary, text_summary))
+    write_md(ANALYSIS_ROOT / "INDEX.md", build_top_level_index(script_summary, text_summary, event_summary))
     write_md(SCRIPTS_DIR / "INDEX.md", build_scripts_index(script_summary))
     write_md(TEXT_DIR / "INDEX.md", build_text_index(text_summary))
     write_md(CONSTANTS_DIR / "INDEX.md", build_constants_index())
     write_md(ANALYSIS_ROOT / "data" / "INDEX.md", build_data_index())
+    write_md(EVENTS_DIR / "INDEX.md", build_events_index(event_summary))
+    write_md(ANALYSIS_ROOT / "unpacked" / "INDEX.md", build_unpacked_index())
     write_md(ANALYSIS_DIR / "cross-reference.md", build_cross_reference(script_summary, text_summary))
 
     print("\nDone.")
