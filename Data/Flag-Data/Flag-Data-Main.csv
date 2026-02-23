@@ -64,8 +64,8 @@ Story Point,Hex,Decimal,Name,Type,CATEGORY,Event File,OWID,Description
 ,0x3F,63,MAPTEMP_03F,MAP FLAG,,,,
 ,0x40,64,,ITEM,,,,
 ,0x41,65,GENGARITE_GYM1,ITEM,,,,Gengarite Mega Stone in Lobart Gym
-,0x42,66,,UNKOWN,,,,
-,0x43,67,,UNKOWN,,,,
+,0x42,66,,ITEM,,,,
+,0x43,67,,ITEM,,,,
 ,0x44,68,,UNKOWN,,,,
 ,0x45,69,,UNKOWN,,,,
 ,0x46,70,,UNKOWN,,,,

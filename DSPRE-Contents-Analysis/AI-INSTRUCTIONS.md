@@ -312,48 +312,48 @@ For the overworld (matrix 0, 40x40), these identify which terrain chunk the enti
 
 ## 6. How Item Balls Work (CRITICAL)
 
-For overworlds with `type=ITEM`, the `script` field does NOT reference the map's own
-script file. Instead, it references **script file 141** (the field item script file),
-where each script directly maps to an item:
+For overworlds with `type=ITEM` (type value `3`), the `script` field uses a **special
+encoding** recognized by the game engine. The formula is:
 
 ```
-script number in event file = item_ID + 1
+script number in event file = 7000 + item_ID
 ```
 
-Script file 141 contains 800 scripts (Script 1 through Script 800). Each one follows
-this pattern:
+This is confirmed by the DSPRE source code (`EventEditor.cs` line 1687):
+```csharp
+scriptNumber = (ushort)(7000 + owItemComboBox.SelectedIndex);
+```
 
-```
-Script N:
-    SetVar 0x8008 (N-1)    ← this is the item ID
-    SetVar 0x8009 1         ← quantity
-Jump Function#1             ← calls the pickup handler (Script 801)
-```
+The game engine detects script numbers in the **7000–8000 range** as item pickup
+scripts and internally redirects them to **script file 141**, where the actual
+item pickup logic lives. You do NOT set the script to the item_ID + 1. You MUST
+use 7000 + item_ID.
 
 **To place an item ball that gives a specific item:**
 1. Look up the item ID in `constants/items.csv` (the `value` column)
-2. Set the overworld's `script` field to `item_ID + 1`
-3. Set `type` to `ITEM`, `overlay_entry` to `87` (item ball sprite)
+2. Set the overworld's `script` field to `7000 + item_ID`
+3. Set `type` to `ITEM` (value `3`), `overlay_entry` to `87` (item ball sprite)
 4. Assign a unique flag so it disappears after pickup
 
 **Examples:**
-| Item | Item ID | Script Number |
-|------|---------|---------------|
-| ITEM_RARE_CANDY | 50 | 51 |
-| ITEM_GENGARITE | 656 | 657 |
-| ITEM_KEY_STONE | 773 | 774 |
-| ITEM_MAX_REVIVE | 29 | 30 |
+| Item | Item ID | Script Number (7000 + ID) |
+|------|---------|---------------------------|
+| ITEM_RARE_CANDY | 50 | 7050 |
+| ITEM_GENGARITE | 656 | 7656 |
+| ITEM_KEY_STONE | 773 | 7773 |
+| ITEM_MAX_REVIVE | 29 | 7029 |
 
-Items with ID >= 800 may not have entries in script file 141. Check the file first.
-
-The pickup handler (Script 801 / Function#1 in file 141) automatically handles:
+The pickup handler in script file 141 automatically handles:
 - Checking bag space
 - Giving the item to the player
-- Removing the overworld sprite
+- Removing the overworld sprite (using the assigned flag)
 - Displaying the correct item name and pocket
 
 **No additional map script is needed for item balls.** The event file data alone
 is sufficient to define the item pickup.
+
+**WARNING:** Using `item_ID + 1` instead of `7000 + item_ID` will cause the game
+to look up a local map script (which likely doesn't exist or does something wrong).
 
 ---
 
@@ -379,7 +379,8 @@ The array index position is the tag number. For item-ball overworlds, use tag `8
 ### 7.1 Add an Item Ball to a Map
 
 Item balls are self-contained in the event file -- **no map script editing needed**.
-The `script` field = `item_ID + 1` (references script file 141 automatically).
+The `script` field = `7000 + item_ID` (the game engine recognizes 7000-8000 range
+as item pickup scripts and redirects to script file 141 automatically).
 See Section 6 for full details on how this works.
 
 ```bash
@@ -390,8 +391,8 @@ python tools/backup_events.py create --name before_item_add
 #    Look up "Event File" column in Data/Header-Data/Header-Data-Main.csv
 
 # 3. Find the item ID in constants/items.csv
-#    Example: ITEM_RARE_CANDY = 50, so script = 51
-#    Example: ITEM_GENGARITE = 656, so script = 657
+#    Example: ITEM_RARE_CANDY = 50, so script = 7050  (7000 + 50)
+#    Example: ITEM_GENGARITE = 656, so script = 7656  (7000 + 656)
 
 # 4. Allocate a flag (item disappears when this flag is set after pickup)
 python tools/flag_registry.py allocate 1
@@ -400,7 +401,7 @@ python tools/flag_registry.py allocate 1
 # 5. Find a safe position
 python tools/map_lookup.py --event NNNN --visual --suggest-placement
 
-# 6. Create manifest (script = item_ID + 1)
+# 6. Create manifest (script = 7000 + item_ID)
 # Save as add_item.json:
 {
     "description": "Add Rare Candy item ball to map",

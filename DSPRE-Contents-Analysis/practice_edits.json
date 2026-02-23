@@ -1,0 +1,102 @@
+{
+    "description": "Practice edits: change item + add 2 items + 2 trainers to Lobart Gym (event 0133)",
+    "edits": [
+        {
+            "action": "modify_overworld",
+            "event_file": "0133",
+            "index": "5",
+            "changes": {
+                "script": "7679"
+            },
+            "comment": "Change Gengarite (7656) to Alakazite (7679) - fits Psychic gym"
+        },
+        {
+            "action": "add_overworld",
+            "event_file": "0133",
+            "data": {
+                "ow_id": "6",
+                "overlay_entry": "87",
+                "type": "ITEM",
+                "movement": "0",
+                "flag": "66",
+                "script": "7050",
+                "orientation": "1",
+                "sight_range": "0",
+                "x_range": "0",
+                "y_range": "0",
+                "x_map": "3",
+                "x_matrix": "0",
+                "y_map": "9",
+                "y_matrix": "0",
+                "z": "0"
+            },
+            "comment": "Rare Candy item ball (ID=50, 7000+50=7050) left side room, flag 66"
+        },
+        {
+            "action": "add_overworld",
+            "event_file": "0133",
+            "data": {
+                "ow_id": "7",
+                "overlay_entry": "87",
+                "type": "ITEM",
+                "movement": "0",
+                "flag": "67",
+                "script": "7270",
+                "orientation": "1",
+                "sight_range": "0",
+                "x_range": "0",
+                "y_range": "0",
+                "x_map": "26",
+                "x_matrix": "0",
+                "y_map": "14",
+                "y_matrix": "0",
+                "z": "0"
+            },
+            "comment": "Life Orb item ball (ID=270, 7000+270=7270) right side room, flag 67"
+        },
+        {
+            "action": "add_overworld",
+            "event_file": "0133",
+            "data": {
+                "ow_id": "8",
+                "overlay_entry": "344",
+                "type": "TRAINER",
+                "movement": "17",
+                "flag": "0",
+                "script": "3215",
+                "orientation": "2",
+                "sight_range": "3",
+                "x_range": "0",
+                "y_range": "0",
+                "x_map": "3",
+                "x_matrix": "0",
+                "y_map": "17",
+                "y_matrix": "0",
+                "z": "0"
+            },
+            "comment": "Trainer#216 Ryan Black Belt (2999+216=3215), overlay 344, left passage"
+        },
+        {
+            "action": "add_overworld",
+            "event_file": "0133",
+            "data": {
+                "ow_id": "9",
+                "overlay_entry": "351",
+                "type": "TRAINER",
+                "movement": "17",
+                "flag": "0",
+                "script": "3208",
+                "orientation": "3",
+                "sight_range": "3",
+                "x_range": "0",
+                "y_range": "0",
+                "x_map": "19",
+                "x_matrix": "0",
+                "y_map": "17",
+                "y_matrix": "0",
+                "z": "0"
+            },
+            "comment": "Trainer#209 Aaliyah Psychic (2999+209=3208), overlay 351, right passage"
+        }
+    ]
+}
