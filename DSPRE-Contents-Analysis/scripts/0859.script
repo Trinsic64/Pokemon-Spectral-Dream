@@ -1,0 +1,390 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream
+ * Game: HGSS
+ * File: 0859
+ * Generated: 16/12/2025 8:40:53 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+Jump Function#1
+
+Script 2:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	CheckFlag 2660
+	JumpIf EQUAL Function#2
+	Message 14
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Script 3:
+	PlayFanfare SEQ_SE_CONFIRM
+	Message 16
+	WaitButton
+	CloseMessage
+End
+
+Script 4:
+	PlayFanfare SEQ_SE_CONFIRM
+	Message 17
+	WaitButton
+	CloseMessage
+End
+
+Script 5:
+End
+
+Script 6:
+	InitVioletGym
+	CheckPokeGearRematch 18 0x4001
+	CompareVarValue 0x4001 0
+	JumpIf DIFFERENT Function#3
+	CheckPokegearNumberRegistered 18 0x4001
+	CompareVarValue 0x4001 1
+	JumpIf EQUAL Function#4
+	CheckBadge 12 0x4001
+	CompareVarValue 0x4001 1
+	JumpIf EQUAL Function#5
+Jump Function#6
+
+Script 7:
+	SetVar 0x4000 0
+	VioletGymElevator
+End
+
+//===== FUNCTIONS =====//
+Function 1:
+	CheckFlag 2664
+	JumpIf EQUAL Function#7
+	CheckFlag 2665
+	JumpIf EQUAL Function#8
+	CheckFlag 2666
+	JumpIf EQUAL Function#9
+	CheckFlag 2668
+	JumpIf EQUAL Function#10
+	CheckFlag 2663
+	JumpIf EQUAL Function#11
+	CheckFlag 2662
+	JumpIf EQUAL Function#12
+	CheckFlag 2661
+	JumpIf EQUAL Function#13
+	CheckBadge 6 0x800C
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#14
+	Message 0
+	WaitButton
+	CloseMessage
+	Call Function#15
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#16
+	Call Function#17
+Jump Function#14
+
+Function 2:
+	CheckFlag 2663
+	JumpIf EQUAL Function#18
+	Message 15
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 3:
+	Call Function#19
+	ReleaseAll
+End
+
+Function 4:
+	SetFlag 745
+End
+
+Function 5:
+	GetDayOfWeek 0x4001
+	CompareVarValue 0x4001 3
+	JumpIf DIFFERENT Function#20
+	SetFlag 745
+Jump Function#21
+
+Function 6:
+	ClearFlag 745
+End
+
+Function 7:
+	Call Function#22
+	ReleaseAll
+End
+
+Function 8:
+	Call Function#23
+	ReleaseAll
+End
+
+Function 9:
+	Call Function#24
+	ReleaseAll
+End
+
+Function 10:
+	Call Function#19
+	ReleaseAll
+End
+
+Function 11:
+	Message 9
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 12:
+	Message 13
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 13:
+	Message 12
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 14:
+	Message 3
+	YesNoBox 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#25
+	Message 5
+	YesNoBox 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#26
+Jump Function#25
+
+Function 15:
+	GetRandom 0x511D 3
+	CompareVarValue 0x511D 0
+	CallIf EQUAL Function#27
+	CompareVarValue 0x511D 1
+	CallIf EQUAL Function#28
+	CompareVarValue 0x511D 2
+	CallIf EQUAL Function#22
+Return
+
+Function 16:
+	LostBattle
+	ReleaseAll
+End
+
+Function 17:
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	GiveBadge 6
+	AddTrainerScore 22
+	IncrementVar 0x4134 1
+	IncrementVar 0x4135 1
+	SetFlag 2660
+	SetVar 0x511C 1
+	HealPokemon
+	Message 1
+	WaitButton
+	CloseMessage
+	Message 2
+	WaitButton
+	CloseMessage
+	Call Function#22
+	Call Function#23
+	Call Function#24
+	SetFlag 187
+Return
+
+Function 18:
+	Message 16
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 19:
+	GetPartyCount 0x8005
+	GivePokemon SPECIES_TOGEPI 55 ITEM_NONE 0 0 0x800C
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#29
+	ClearFlag 2668
+	SetVar 0x800C 1
+	Message 22
+	OpenTouchScreen
+	YesNoTouchScreen 0x800C
+	CloseTouchScreen
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#30
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#31
+Return
+
+Function 20:
+Jump Function#6
+
+Function 21:
+End
+
+Function 22:
+	SetVar 0x8004 367
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#32
+	ClearFlag 2664
+	CommonScript 2033
+	SetVar 0x800C 1
+Return
+
+Function 23:
+	SetVar 0x8004 427
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#33
+	ClearFlag 2665
+	CommonScript 2033
+	SetVar 0x800C 1
+Return
+
+Function 24:
+	SetVar 0x8004 671
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#34
+	ClearFlag 2666
+	CommonScript 2033
+	SetVar 0x800C 1
+Return
+
+Function 25:
+	SetFlag 2662
+	SetVar 0x511C 2
+	Message 7
+	WaitButton
+	CloseMessage
+	HealPokemon
+	GetRandom 0x511D 3
+	CompareVarValue 0x511D 0
+	CallIf EQUAL Function#34
+	CompareVarValue 0x511D 1
+	CallIf EQUAL Function#35
+	CompareVarValue 0x511D 2
+	CallIf EQUAL Function#36
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#12
+	Call Function#37
+	ReleaseAll
+End
+
+Function 26:
+	SetFlag 2661
+	SetVar 0x511C 3
+	Message 6
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 27:
+	TrainerBattle TRAINER_CHUCK_699 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 28:
+	TrainerBattle TRAINER_BELLAMY_952 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 29:
+	SetFlag 2668
+	Message 11
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+Function 30:
+	CloseMessage
+	SetVar 0x4000 0
+	FadeScreen 6 1 0 0
+	WaitFadeScreen
+	ChoosePokemonNickname 0x8005 0x4000
+	FadeScreen 6 1 1 0
+	WaitFadeScreen
+	Message 23
+	WaitButton
+	CloseMessage
+Return
+
+Function 31:
+	CloseMessage
+	Message 24
+	WaitButton
+	CloseMessage
+Return
+
+Function 32:
+	SetFlag 2664
+	Message 19
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+Function 33:
+	SetFlag 2665
+	Message 20
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+Function 34:
+	SetFlag 2666
+	Message 10
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+Function 35:
+	TrainerBattle TRAINER_CHUCK_700 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 36:
+	TrainerBattle TRAINER_DARION_954 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 37:
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	GiveBadge 14
+	AddTrainerScore 22
+	IncrementVar 0x4134 1
+	IncrementVar 0x4135 1
+	Message 8
+	WaitButton
+	CloseMessage
+	Call Function#23
+	Call Function#24
+	Call Function#19
+	SetFlag 2663
+	SetVar 0x511C 3
+Return
+
+//===== ACTIONS =====//

@@ -1,0 +1,966 @@
+script_file,maps_using_script,script_count,function_count,action_count,message_refs,item_refs,pokemon_refs,flag_refs,var_refs,top_commands,total_commands
+0000,-; -; -; -; -; -; -,3,2,0,0; 9; 12,,,,,End(5); Message(4); CloseMessage(4); ReleaseAll(4); LockAll(3); MecScript(2); CompareVarValue(2); JumpIf(2); CMD_151(2); CMD_257(2),40
+0001,,9,0,0,0; 1; 2; 3; 4; 5; 6; 7,,,,,PlayFanfare(9); LockAll(9); ReleaseAll(9); End(9); Message(8); WaitButton(8); CloseMessage(8); FadeScreen(2); WaitFadeScreen(2); WorldMapScreen(1),66
+0002,,3,26,0,5; 6; 12; 15; 17; 18; 24; 27; 29; 30; 36; 39; 40,,,,0x400F; 0x8000; 0x8004; 0x8007,JumpIf(34); CompareVarValue(32); SetVar(26); Jump(26); Message(17); CMD_490(16); IncrementVar(15); MessageFlex(13); FadeScreen(8); WaitFadeScreen(8),302
+0003,,73,162,7,1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 13; 14; 15; 16; 18; 20; 21; 25; 27; 28; 30; 31; 32; 33; 34; 35; 36; 38; 40; 41; 42; 44; 45; 46; 47; 53; 54; 57; 58; 59; 60; 62; 65; 68; 79; 89; 90; 93; 94; 99; 100; 102; 103; 108; 109; 110; 111; 118; 119,ITEM_BICYCLE; 0x8004; 0x8004,,100; 101; 2404; 2422; 253; 32; 367; 368; 369; 394,0x8000; 0x8004; 0x8005; 0x8007; 0x800C,JumpIf(153); CompareVarValue(138); End(102); Message(90); Jump(79); CloseMessage(62); LocalScript(50); Call(44); FadeScreen(42); Return(42),1556
+0004,,18,99,7,0; 1; 2; 3; 6; 10; 25; 26; 27; 28; 29; 30; 36; 57; 71; 72; 77; 116; 117; 118; 119; 120; 121; 122; 136; 139; 140; 141; 142; 144; 146; 147; 149; 172,,,102; 2406,0x4000; 0x4001; 0x4002; 0x4005; 0x400A; 0x4133; 0x8004,CompareVarValue(164); JumpIf(153); Message(94); SetVar(87); Jump(77); CheckPokemonIsSeen(45); TextPokemon(45); CreateMultiTouchBox(41); End(40); CloseMessage(23),1057
+0005,WELL CAVE F3,3,28,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 13; 14; 15; 16; 17; 18,,,357; 393; 610,0x4000; 0x4003,JumpIf(35); CompareVarValue(29); Message(22); End(18); CloseMessage(16); Jump(13); WaitButton(12); ReleaseAll(12); FadeScreen(10); WaitFadeScreen(10),271
+0006,RADE F2 LIBRY; D02FS0101,2,0,0,0; 1,,,394,0x8004,PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); ReleaseAll(2); End(2); WaitButton(1); CloseMessage(1); SetFlag(1); FreezeMessage(1),19
+0007,NAVEL WEST 04,1,4,3,0; 1,,,227; 604; 736,0x40F5; 0x40FC,End(6); CommonScript(5); Movement(4); CompareVarValue(4); JumpIf(4); SetFlag(4); SetVar(4); WaitMovement(3); TextPlayerName(3); TextRivalName(3),71
+0008,AZELF DEN,1,9,0,,,,2741,,SetWarpPosition(8); Jump(7); JumpIf(5); CompareVarValue(4); End(3); GetTimePeriod(2); CheckFlag(1); GetDayOfWeek(1),31
+0009,D HQ1 F1,3,0,0,1,,,,,End(3); SetTextBoard(1); ShowBoard(1); WaitBoard(1); BoardMessage(1); CommonScript(1); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1),15
+0010,D HQ1 F2,6,15,46,2; 3; 4; 5,0x8004,,2741; 622; 664,0x40F6; 0x8008; 0x8009; 0x800C,End(58); Movement(46); WalkOnSpotSouth8(40); WalkOnSpotEast8(37); WalkOnSpotWest8(37); WalkOnSpotNorth8(35); WalkEast4(17); RemoveOW(13); CompareVarValue(11); JumpIf(11),476
+0011,D HQ1 F3,2,4,0,,,,164; 363; 773,,End(5); SetFlag(3); CompareVarValue(3); JumpIf(3); ReleaseAll(3); ClearFlag(2); PlayFanfare(1); LockAll(1); FacePlayer(1); PlayCry(1),32
+0012,ICE PATH C1,2,0,0,,,,,,End(2),2
+0013,UXIE DEN,2,8,5,,,,393; 638,,End(13); JumpIf(9); CompareVarValue(8); GetCommonMessageArchive(7); MessageFromArchive(7); Movement(7); CloseMessage(6); FadeScreen(6); WaitFadeScreen(6); WalkNorth8(6),137
+0014,MESPIRIT DEN; D11R0105,2,4,0,,,,164; 364; 774,,End(5); SetFlag(3); CompareVarValue(3); JumpIf(3); ReleaseAll(3); ClearFlag(2); PlayFanfare(1); LockAll(1); FacePlayer(1); PlayCry(1),32
+0015,D HQ1 F4; D11R0106,10,27,9,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25,,,315; 316; 317; 318; 319; 320; 381; 613; 665; 666; 757,0x8004; 0x8005,End(37); Message(26); JumpIf(25); CloseMessage(24); ReleaseAll(21); CompareVarValue(18); SetFlag(18); WaitButton(10); CheckFlag(10); Movement(9),305
+0016,D HQ1 F5,5,0,0,0; 1; 2; 3,,,,,End(5); PlayFanfare(4); LockAll(4); FacePlayer(4); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4),33
+0017,SWORD TRIO,3,0,0,0; 1,,,,,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2),17
+0018,D HQ1 F6; MOLTEN CAVERN,11,11,0,,,,164,,RemoveOW(31); End(22); CompareVarValue(19); JumpIf(19); ReleaseAll(11); PlayFanfare(9); LockAll(9); FacePlayer(9); PlayCry(9); SetFlag(9),184
+0019,HO-OH TWR F1,3,31,20,0; 1; 2; 3; 4; 5; 6,,,147; 261; 264; 278,0x40F3,End(30); CompareVarValue(25); JumpIf(22); Movement(22); Jump(16); WaitMovement(14); Message(11); CloseMessage(10); WalkSouth8(9); ReleaseAll(8),264
+0020,RADE F1 LIBRY,1,0,0,,,,,,End(1),1
+0021,HO-OH TWR TOP,7,14,21,0; 1; 2; 3; 4; 5; 6; 7; 8,,,164; 261; 264; 266; 278; 417; 418; 572; 577; 578; 580; 741; 744,0x4003; 0x400A; 0x400B; 0x4081; 0x40FA; 0x8004,Movement(94); Delay2(40); End(37); WaitTime(31); WaitMovement(22); JumpIf(18); PlayFanfare(16); SetFlag(16); SetOWPosition(15); CompareVarValue(13),511
+0022,D17R1101,2,15,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9,,,2404; 393; 714,0x4002,JumpIf(15); End(13); CompareVarValue(13); Message(10); CloseMessage(6); ClearFlag(5); SetFlag(5); WaitButton(5); ReleaseAll(5); Jump(4),120
+0023,D18R0101; BURNT TWR F1,4,4,4,0; 1; 2; 3; 4,,,454,0x40A2; 0x40A6,End(10); CommonScript(7); Movement(6); Message(6); CloseMessage(6); ReleaseAll(6); WalkSouth8(6); WalkWest8(5); LockAll(4); WaitMovement(4),116
+0024,BURNT TWR F2,3,12,14,0; 1,,,164; 373; 455; 456; 457; 458; 459; 460; 478; 479; 480; 481; 583; 584; 782,0x4076; 0x4079; 0x40A1,SetFlag(23); End(21); Movement(19); WaitMovement(14); CompareVarValue(10); JumpIf(10); RemoveOW(9); ClearFlag(8); GetPlayerPosition(7); Jump(7),244
+0025,RADE F3 LIBRY,27,27,7,0; 1; 2; 4; 5; 6; 7; 8; 9; 42; 45; 48; 51; 54; 57; 60; 63; 66; 69; 72; 84; 85; 86; 87; 88; 89,,,2404; 2454; 270; 393; 638; 639; 648,0x4000; 0x4001; 0x4002; 0x8004; 0x8005,End(50); JumpIf(37); CloseMessage(36); CompareVarValue(34); ReleaseAll(33); WaitButton(32); LockAll(29); Message(27); FacePlayer(23); PlayFanfare(22),562
+0026,HOTEL 2 F1; D22R0102,13,0,0,3; 6; 9; 12; 15; 18; 21; 24; 27; 30,,,,,End(13); PlayFanfare(10); LockAll(10); Message(10); WaitButton(10); CloseMessage(10); ReleaseAll(10); SetTextBoard(3); ShowBoard(3); WaitBoard(3),88
+0027,,1,0,0,,,,,,End(1),1
+0028,SYDT 01 GV05,1,0,0,,,,,,End(1),1
+0029,A HQ1 F1; -; -; A HQ1 F1; D HQ1 F1; -; -; -; -,11,61,34,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36; 38; 39; 40; 41; 42; 43; 44; 45,,,138; 2725; 2726; 440; 444; 445; 792,0x400A; 0x400B; 0x4077; 0x409F; 0x4136; 0x8003; 0x8005,JumpIf(67); CompareVarValue(64); End(63); Message(52); Movement(48); Jump(43); CloseMessage(31); WaitMovement(27); ReleaseAll(24); FaceEast(19),765
+0030,A HQ1 F2; A HQ1 F2; D HQ1 F2,11,44,12,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 14; 19; 22; 23; 26; 27; 28; 29; 32; 33; 34; 35; 36; 37; 38; 39,ITEM_BLUE_CARD; ITEM_BLUE_CARD,,258; 2723; 2742; 439; 440,0x413A; 0x8004; 0x8005,JumpIf(80); CompareVarValue(74); CloseMessage(49); Message(43); End(40); Movement(35); WaitMovement(30); Jump(27); ReleaseAll(24); SetVar(21),607
+0031,A HQ1 F3; A HQ1 F3; D HQ1 F3,8,12,2,0; 1; 2; 3; 4; 5; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16,,,143; 144; 439; 440; 447,0x8004; 0x8005,End(18); Message(16); CloseMessage(15); ReleaseAll(14); WaitButton(13); JumpIf(10); CompareVarValue(8); PlayFanfare(7); LockAll(7); FacePlayer(7),143
+0032,A HQ1 F4; A HQ1 F4; D HQ1 F4,9,14,2,0; 1; 2; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14,,,145; 439; 440,0x8004; 0x8005,End(20); Message(17); CloseMessage(15); ReleaseAll(14); WaitButton(13); JumpIf(11); CompareVarValue(9); PlayFanfare(8); LockAll(8); FacePlayer(7),159
+0033,A HQ1 F5; A HQ1 F5; D HQ1 F5,4,17,13,0; 1; 2; 3; 4; 5; 6; 7; 8,,,439; 567; 710; 711,0x40E7; 0x4125; 0x8004; 0x8005,End(22); CompareVarValue(19); JumpIf(19); Movement(17); Message(13); Jump(12); CloseMessage(11); FaceSouth(11); FaceEast(11); FaceWest(11),232
+0034,A HQ1 F6; A HQ1 F6; D HQ1 F6,2,16,11,0; 1; 2; 5; 6; 7; 8; 9,,,147; 148; 198; 2429; 2456; 2459; 439; 440; 487; 512; 513; 710; 711,0x4077; 0x407A; 0x40F8; 0x4125; 0x8004; 0x8005,CompareVarValue(20); SetFlag(19); JumpIf(19); Movement(18); End(17); SetVar(16); WaitMovement(15); Message(14); ClearFlag(11); CloseMessage(10),257
+0035,VICTRY RD 1 1; VICTRY RD 1 2; VICTRY RD 1 3; VICTRY RD 1 4; VICTRY RD 1 5,1,8,2,0; 1; 2; 3,,,,0x4125; 0x8004,CompareVarValue(7); JumpIf(7); End(7); Jump(4); Message(4); CloseMessage(4); SetVar(4); Movement(3); WaitMovement(3); GetElevatorFloor(2),69
+0036,,1,0,0,,,,,,End(1),1
+0037,GBR 01,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0038,VICTRY RD 2 1,6,31,2,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24,,,271,,JumpIf(36); CompareVarValue(35); Jump(35); Message(29); FaceWest(8); FaceNorth(8); FaceEast(8); FaceSouth(8); PlayFanfare(5); LockAll(5),210
+0039,VICTRY RD 2 2,5,13,3,0; 1; 3,,,2423; 273; 392; 539; 540; 565,0x40CE; 0x40DD,End(17); FadeScreen(16); WaitFadeScreen(16); JumpIf(13); ReleaseAll(12); CompareVarValue(10); PlayFanfare(9); Movement(8); SetVar(7); Warp(7),176
+0040,VICTRY RD 2 3,3,16,9,,,,273,0x40CD; 0x40CE; 0x40ED,End(18); CompareVarValue(16); JumpIf(16); Movement(13); Jump(10); FadeScreen(10); WaitFadeScreen(10); SetInvisible(8); PlayFanfare(5); WaitMovement(5),146
+0041,VICTRY RD 2 4,4,12,3,1,,,2424; 273; 541; 542; 565,0x40CE; 0x40DE,FadeScreen(16); WaitFadeScreen(16); End(15); JumpIf(12); ReleaseAll(10); CompareVarValue(10); PlayFanfare(8); Movement(8); SetVar(7); Warp(7),165
+0042,VICTRY RD 2 5,10,7,17,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10,,,272; 273; 565; 566; 731; 732; 733; 742; 743,0x40CE; 0x40FB; 0x4104; 0x8004; 0x8005,End(31); Movement(20); PlayFanfare(12); WaitMovement(12); FadeScreen(12); WaitFadeScreen(12); Message(11); CloseMessage(11); SetVar(9); SetFlag(9),281
+0043,VICTRY RD 3 1; VICTRY RD 3 2,4,12,3,1,,,2425; 273; 543; 544; 565,0x40CE; 0x40DF,FadeScreen(16); WaitFadeScreen(16); End(15); JumpIf(12); ReleaseAll(10); CompareVarValue(10); PlayFanfare(8); Movement(8); SetVar(7); Warp(7),160
+0044,VICTRY RD 4 1; VICTRY RD 4 2; VICTRY RD 4 3; VICTRY RD 4 4; VICTRY RD 4 5; VICTRY RD 4 6; VICTRY RD 4 7,3,16,9,,,,273,0x40CE; 0x40D5; 0x40EF,End(18); CompareVarValue(16); JumpIf(16); Movement(13); Jump(10); FadeScreen(10); WaitFadeScreen(10); SetInvisible(8); PlayFanfare(5); WaitMovement(5),147
+0045,RADE HQ #####,3,13,3,,,,2426; 273; 545; 546; 565,0x40CE; 0x40E0,FadeScreen(16); WaitFadeScreen(16); End(14); JumpIf(12); CompareVarValue(11); ReleaseAll(9); PlayFanfare(8); Movement(8); SetVar(7); Warp(7),154
+0046,,3,16,9,,,,273,0x40CE; 0x40D8; 0x40F0,End(18); CompareVarValue(16); JumpIf(16); Movement(13); Jump(10); FadeScreen(10); WaitFadeScreen(10); SetInvisible(8); PlayFanfare(5); WaitMovement(5),146
+0047,,3,16,9,,,,273,0x40CE; 0x40D1; 0x40EE,End(18); CompareVarValue(16); JumpIf(16); Movement(13); Jump(10); FadeScreen(10); WaitFadeScreen(10); SetInvisible(8); PlayFanfare(5); WaitMovement(5),146
+0048,NAVEL WEST 03,3,4,0,,,,164; 778,,End(6); SetFlag(3); JumpIf(3); ClearFlag(2); ReleaseAll(2); CheckFlag(2); PlayFanfare(1); LockAll(1); FacePlayer(1); PlayCry(1),29
+0049,RT 20 AREA 1; RT 20 AREA 2; RT 20 AREA 3; RT 20 AREA 4; RT 20 AREA 5; RT 20 AREA 6; RT 20 AREA 7; RT 20 AREA 8; RT 20 AREA 9; RT 20 AREA 10; RT 20 AREA 11; RT 20 AREA 12; RT 20 AREA 13,2,9,6,0,,,,0x40CD,End(11); Movement(9); CompareVarValue(6); JumpIf(6); Jump(6); FadeScreen(6); WaitFadeScreen(6); SetInvisible(6); PlayFanfare(4); ReleaseAll(4),90
+0050,,2,9,6,0,,,,0x40D1,End(11); Movement(9); CompareVarValue(6); JumpIf(6); Jump(6); FadeScreen(6); WaitFadeScreen(6); SetInvisible(6); PlayFanfare(4); ReleaseAll(4),90
+0051,TROOME CAVE 1; TROOME CAVE 2; TROOME CAVE 3,2,9,6,0,,,,0x40D8,End(11); Movement(9); CompareVarValue(6); JumpIf(6); Jump(6); FadeScreen(6); WaitFadeScreen(6); SetInvisible(6); PlayFanfare(4); ReleaseAll(4),90
+0052,HOTEL 1 BS,2,9,6,0,,,,0x40D5,End(11); Movement(9); CompareVarValue(6); JumpIf(6); Jump(6); FadeScreen(6); WaitFadeScreen(6); SetInvisible(6); PlayFanfare(4); ReleaseAll(4),90
+0053,ICE PATH C2; D24R0216,2,0,0,,,,,,End(2),2
+0054,ICE PATH C3; D24R0217,2,0,0,,,,,,End(2),2
+0055,MANSION A6; D24R0218,2,0,0,,,,,,End(2),2
+0056,NAVEL WEST 01,1,0,0,,,,,,End(1),1
+0057,NAVEL WEST 02,1,0,0,,,,,,End(1),1
+0058,SUBTRN CAVE,3,5,0,,,,164; 2744; 778,,End(7); SetFlag(5); JumpIf(4); ClearFlag(2); CompareVarValue(2); ReleaseAll(2); CheckFlag(2); PlayFanfare(1); LockAll(1); FacePlayer(1),35
+0059,WELL CAVE F1,3,9,5,0,,,393; 638,,End(15); JumpIf(11); CompareVarValue(10); CloseMessage(7); GetCommonMessageArchive(7); MessageFromArchive(7); Movement(7); WaitButton(6); ReleaseAll(6); FadeScreen(6),152
+0060,WELL CAVE F2,3,4,3,0; 1; 2; 3; 4; 5,,,123; 414; 423; 424; 425; 426; 427; 428; 429; 469,0x4075; 0x4080; 0x4099; 0x409B; 0x409E; 0x40F4,SetVar(12); ClearFlag(10); End(9); SetFlag(9); Message(7); CloseMessage(7); PlayFanfare(6); ReleaseAll(6); FadeScreen(6); WaitFadeScreen(6),150
+0061,WELL CAVE F4,1,2,0,0; 2,,,122,0x8004; 0x8005,CloseMessage(3); JumpIf(2); Message(2); SetVar(2); CommonScript(2); ReleaseAll(2); End(2); PlayFanfare(1); LockAll(1); FacePlayer(1),25
+0062,LIGHT H 01 F1,3,0,0,0; 1,,,,0x4125,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); SetVar(1),18
+0063,LIGHT H 01 F3,2,1,1,,,,,0x40A7,End(4); PlayFanfare(2); Movement(1); WaitTime(1); UnvanishOverworld(1); WaitMovement(1); ShakeCamera(1); SetVar(1); CompareVarValue(1); JumpIf(1),16
+0064,LIGHT H 01 F5,1,2,2,,,,,0x40A7,FadeScreen(4); WaitFadeScreen(4); End(4); Movement(3); WaitMovement(2); PlayFanfare(2); Warp(2); ReleaseAll(2); WalkEast4(2); SetInvisible(2),34
+0065,LIGHT H 01 F6,2,7,4,,,,393; 638,,End(12); JumpIf(8); GetCommonMessageArchive(7); MessageFromArchive(7); CompareVarValue(7); CloseMessage(6); FadeScreen(6); WaitFadeScreen(6); Movement(5); ClearFlag(5),126
+0066,LIGHT H 01 F7,5,6,8,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12,ITEM_SECRET_MEDICINE,,185; 2410; 2456; 471; 472; 473; 474; 475; 476; 477,0x40A5; 0x410E; 0x4125,End(18); Message(13); CloseMessage(10); Movement(10); WaitMovement(8); ReleaseAll(6); SetFlag(6); JumpIf(5); PlayCry(5); WaitCry(5),163
+0067,LIGHT H 01 EL,1,8,2,0; 1; 2; 3,,,,0x4125; 0x8004,CompareVarValue(7); JumpIf(7); End(7); Jump(4); Message(4); CloseMessage(4); SetVar(4); Movement(3); WaitMovement(3); GetElevatorFloor(2),69
+0068,,1,0,0,,,,,,End(1),1
+0069,,24,141,5,0; 1; 2; 3; 4; 8; 9; 10; 11; 12; 14; 15; 16; 19; 20; 21; 23; 26; 27; 32; 33; 34; 35; 36; 37; 38; 47; 48; 52; 53; 54; 55; 56; 57; 60; 61; 65; 69; 70; 73; 74; 75; 76; 77; 78; 79; 80; 81; 84; 85; 86; 87; 88; 89; 111; 112; 113; 114; 115; 116; 117; 118; 119; 120; 121; 128; 129; 130; 131; 132,,,335; 559; 681; 682; 683,0x4001; 0x4002; 0x4003; 0x404D; 0x414B; 0x414C; 0x414D; 0x414E; 0x414F; 0x4150; 0x4151; 0x8000; 0x8001; 0x8004,CompareVarValue(130); JumpIf(122); Jump(102); Message(92); CMD_412(68); Call(64); SetVar(59); End(36); Return(31); CloseMessage(29),1115
+0070,,4,11,3,,,,,0x4000; 0x402A,CompareVarValue(10); CallIf(8); End(8); Return(7); Call(6); SetVar(6); FadeScreen(4); WaitFadeScreen(4); Warp(4); MecScript(3),99
+0071,,3,7,10,,,,,,End(13); Movement(10); WalkEast8(8); WalkNorth8(8); SetInvisible(8); WaitMovement(6); WalkSouth8(6); Jump(5); CompareVarValue(4); JumpIf(3),94
+0072,,1,0,0,,,,,,End(1),1
+0073,,1,0,0,,,,,,End(1),1
+0074,,1,0,0,,,,,,End(1),1
+0075,,10,49,20,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17,,,685; 686; 687; 688; 689,0x4000; 0x4009; 0x414B; 0x414D; 0x4151,CompareVarValue(68); JumpIf(67); End(48); CMD_412(31); ClearFlag(30); Jump(25); Message(24); ReleaseAll(20); Movement(20); CloseMessage(19),565
+0076,,39,74,10,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 26; 27; 29; 30; 31; 39; 40; 41,0x8004,,393; 564; 638,0x8000; 0x8001; 0x8004; 0x8005; 0x8006; 0x8007,SetVar(151); JumpIf(82); CompareVarValue(81); Jump(69); CreateMultiTouchBox(67); End(54); Message(36); LockAll(35); ReleaseAll(35); PlayFanfare(33),951
+0077,D32FS0101,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0078,D32PC0101,5,0,0,0; 1; 2,,,,0x40E5; 0x8007,End(5); PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); SetVar(2); CommonScript(1),29
+0079,D32PC0102,1,0,0,,,,,,End(1),1
+0080,,12,25,4,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35,,,2507; 374,0x40E5; 0x40E6,Message(38); End(22); JumpIf(16); Jump(16); CompareVarValue(15); CloseMessage(13); Movement(13); WaitButton(12); ReleaseAll(12); LockAll(11),246
+0081,,9,19,16,0; 1; 2; 3; 4; 5; 6; 7; 8,,,336; 393; 603; 638,0x40E5,End(35); Movement(24); JumpIf(18); CompareVarValue(16); CloseMessage(15); WalkNorth8(14); ReleaseAll(13); WaitButton(11); LockAll(10); Message(10),306
+0082,WILD AREA,4,0,0,,,,,,End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); CommonScript(3); ReleaseAll(3),19
+0083,,3,0,0,,,,,,End(3),3
+0084,,14,47,8,0; 1; 2; 3; 4; 5; 6; 7; 9; 11; 12; 13; 14; 15; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33,,,,0x4000; 0x4003; 0x4004; 0x404E; 0x4142; 0x4143; 0x4144,CompareVarValue(42); Jump(27); Message(27); CallIf(26); Return(24); SetVar(18); End(18); JumpIf(16); CloseMessage(13); Movement(12),388
+0085,,22,104,8,0; 1; 2; 3; 4; 5; 6; 9; 11; 12; 13; 14; 15; 30; 31; 32; 33; 34; 35; 36; 57; 59; 60; 61; 62; 63; 64; 65; 66; 67; 68; 69; 70; 71; 72; 73; 74; 75; 76; 77; 78; 79; 80; 81; 82; 83; 84; 85; 86; 87; 88; 89; 90; 91; 92; 93; 94; 95; 96; 97; 98; 99,,,254; 2721; 564,0x4000; 0x4003; 0x4004; 0x4021; 0x4029; 0x404F; 0x4053; 0x4145; 0x4146,CompareVarValue(94); Jump(69); JumpIf(67); Message(66); Return(33); End(32); CallIf(31); SetVar(25); CloseMessage(20); PlayFanfare(17),713
+0086,,14,52,8,0; 1; 2; 3; 4; 5; 6; 7; 8; 29; 30; 32; 33; 34; 35; 36; 37; 43; 44; 45; 46; 47; 48; 49; 50; 51; 52,,,,0x4000; 0x4003; 0x4004; 0x4050; 0x4147; 0x4148,CompareVarValue(56); Jump(34); JumpIf(34); Message(32); CallIf(22); Return(21); End(19); SetVar(17); CloseMessage(14); CloseTouchScreen(13),462
+0087,,17,52,8,0; 1; 2; 3; 4; 5; 6; 7; 8; 29; 30; 32; 33; 34; 35; 36; 37; 43; 44; 45; 46; 47; 48; 49; 50; 51; 52; 53; 54; 55,,,,0x4000; 0x4003; 0x4004; 0x4051; 0x4149; 0x414A,CompareVarValue(56); Message(35); Jump(34); JumpIf(34); CallIf(22); End(22); Return(21); SetVar(17); CloseMessage(17); PlayFanfare(14),484
+0088,,10,30,14,0; 1; 2; 3; 4; 7; 10; 11; 12; 13; 14; 15,,,369; 485; 499; 500; 504; 640,0x40A8; 0x8004,End(32); Message(28); CompareVarValue(27); JumpIf(27); Jump(22); Movement(17); SetOWPosition(11); WaitMovement(10); CloseMessage(9); Delay8(9),289
+0089,,33,65,22,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10,,SPECIES_KOFFING; SPECIES_VOLTORB; SPECIES_GEODUDE; SPECIES_VOLTORB; SPECIES_GEODUDE; SPECIES_VOLTORB; SPECIES_VOLTORB; SPECIES_KOFFING; SPECIES_KOFFING; SPECIES_GEODUDE; SPECIES_GEODUDE; SPECIES_KOFFING; SPECIES_VOLTORB; SPECIES_VOLTORB; SPECIES_KOFFING; SPECIES_GEODUDE,214; 488; 587; 588; 589; 594,0x40A9; 0x40AC; 0x40AD; 0x40AE; 0x40AF; 0x40B0; 0x40B1; 0x40B2; 0x40B3; 0x40B4; 0x40B5; 0x40B6; 0x40B7; 0x40B8; 0x40B9; 0x40BA; 0x40BB; 0x40BC; 0x40BD; 0x40BE; 0x40BF; 0x40C0; 0x40C1,Movement(118); CompareVarValue(115); JumpIf(115); WaitMovement(90); End(76); SetVar(73); Message(56); ReleaseAll(47); Jump(43); CloseMessage(42),1143
+0090,,15,24,44,0; 3; 4; 5; 6; 8; 14; 15; 17; 20; 21; 22; 23; 24; 25; 26; 27,,,164; 202; 203; 204; 205; 211; 2411; 2412; 2413; 2456; 485; 488; 498; 499; 501; 502; 503; 505; 506; 507; 587; 588; 589; 594,0x4007; 0x400A; 0x40A9; 0x40AC; 0x40B2; 0x40B3; 0x40B4; 0x40B5; 0x40B6; 0x40B7; 0x40B8; 0x40B9; 0x40BA; 0x40BB; 0x40BC; 0x40BD; 0x40BE; 0x40BF; 0x40C0; 0x40C1; 0x410F; 0x8004; 0x8005,Movement(73); End(72); SetVar(55); WaitMovement(43); SetFlag(41); JumpIf(31); CloseMessage(29); LockFollowingPoke(26); WaitFollowingPoke(26); SetFollowingPokeMovement(26),774
+0091,,9,10,27,2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12,,,211; 486; 500; 509; 586; 587; 588; 589; 640,0x40AC,End(43); Movement(42); WaitMovement(29); CloseMessage(20); Message(19); LockFollowingPoke(19); WaitFollowingPoke(19); SetFollowingPokeMovement(19); JumpIf(12); ReleaseAll(11),418
+0092,SYD FOREST 01; SYD FOREST 02; SYD FOREST 03; SYD FOREST 04; SYD FOREST 05; SYD FOREST 06; SYD FOREST 07; SYD FOREST 08,23,183,90,0; 1; 2; 3; 4; 6; 8; 10; 11; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 28; 29; 30; 31; 32; 33; 34; 35; 36; 37; 38; 39; 40; 42; 43; 44; 45; 46; 47; 48; 49; 50; 51; 52; 53; 54; 55,,,123; 125; 126; 128; 198; 293; 294; 393; 423; 424; 428; 429; 430; 431; 467; 468; 573; 638; 667; 668; 769; 770; 784,0x4000; 0x4001; 0x4002; 0x4003; 0x4004; 0x4008; 0x400A; 0x4099; 0x409A; 0x409B; 0x409C; 0x409D; 0x409E; 0x40E9; 0x40EA; 0x40F4; 0x40FE; 0x412B; 0x8004; 0x8005,End(176); JumpIf(166); CompareVarValue(151); Movement(145); SetVar(123); Jump(110); WaitMovement(110); Message(91); ReleaseAll(78); CloseMessage(76),2172
+0093,,4,17,15,0; 1; 2; 3; 4; 5,,,332; 712,0x4001; 0x40F8; 0x8004; 0x8005,Movement(33); End(23); WaitMovement(18); Call(15); JumpIf(14); CompareVarValue(13); SetVar(13); PlayFanfare(11); CommonScript(10); Jump(9),332
+0094,,24,109,32,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 34; 35; 36; 37; 39; 40; 41; 42; 43; 44; 45; 46; 47; 48; 49; 51; 52; 53; 55; 56; 57; 58; 59; 60; 61; 62; 64,0x8004; 0x8004,,140; 2720; 2743; 368; 432; 433; 434; 435; 436; 440; 448; 567,0x4002; 0x4003; 0x4004; 0x4005; 0x4006; 0x4007; 0x400A; 0x4077; 0x40E7; 0x8004; 0x8005; 0x8006; 0x8007,JumpIf(134); CompareVarValue(133); End(90); Message(82); Jump(70); CloseMessage(55); ReleaseAll(48); FadeScreen(47); WaitFadeScreen(47); SetVar(37),1306
+0095,DEPART 1 B1,4,16,3,0; 1; 2,,,150; 151; 152,,SetOWPosition(60); End(16); Movement(15); JumpIf(14); CheckFlag(10); VanishOverworld(9); Jump(7); PlayFanfare(5); LockAll(5); Message(5),182
+0096,,7,41,13,0; 1,,,155; 439,0x4000; 0x4001; 0x4002; 0x4003; 0x4004; 0x4005; 0x4006; 0x4007; 0x4008; 0x4009; 0x40A0,Movement(125); SetVar(70); JumpIf(38); CompareVarValue(36); Jump(33); End(28); WaitMovement(10); ReleaseAll(10); VanishOverworld(6); WalkEast8(6),427
+0097,,2,2,0,0; 2; 3,,,439; 440; 449,0x8004; 0x8005,Message(5); End(4); SetFlag(3); CompareVarValue(2); JumpIf(2); ClearFlag(2); SetVar(2); WaitButton(2); CloseMessage(2); ReleaseAll(2),31
+0098,REGIDRACO DEN,1,6,0,0; 1; 2; 3; 4; 5,,SPECIES_TYROGUE,268; 269,0x4000,Message(9); JumpIf(5); CloseMessage(5); CompareVarValue(4); ReleaseAll(4); End(4); SetFlag(3); WaitButton(3); CheckFlag(2); GetPartyCount(2),64
+0099,LOBART CAVERN,5,16,14,1; 2; 3; 4; 5; 6; 7,,,1111; 393; 569; 638,0x40E8; 0x4100,End(31); Movement(20); JumpIf(18); CompareVarValue(15); CloseMessage(14); ReleaseAll(12); WaitMovement(11); Message(10); WaitButton(9); WalkNorth8(8),280
+0100,SANDSTONE COV,11,11,0,,,,164,,RemoveOW(31); End(22); CompareVarValue(19); JumpIf(19); ReleaseAll(11); PlayFanfare(9); LockAll(9); FacePlayer(9); PlayCry(9); WaitCry(9),185
+0101,FLORAL FISURE,11,11,0,,,,164,,RemoveOW(31); End(22); CompareVarValue(19); JumpIf(19); ReleaseAll(11); PlayFanfare(9); LockAll(9); FacePlayer(9); PlayCry(9); WaitCry(9),185
+0102,SHREDSNOW TMP; REGIGIGAS TMP,1,0,0,,,,,,End(1),1
+0103,NAVEL WEST 05; SPARK ROAR C,4,11,2,0; 1; 2; 3; 4; 5; 6; 7,,,148; 261; 262; 265; 279,0x4003,End(16); JumpIf(12); Message(9); CloseMessage(9); CheckFlag(8); ReleaseAll(8); WaitButton(7); CompareVarValue(4); SetVar(4); WaitTime(3),102
+0104,LUGIA DEN 01,7,14,21,0; 1; 2; 3; 4; 5; 6; 7; 8,,,164; 2458; 261; 265; 267; 279; 417; 418; 572; 577; 579; 581; 741; 744,0x4003; 0x400A; 0x400B; 0x4081; 0x40FA; 0x8004,Movement(149); WaitTime(40); Delay2(40); End(37); WaitMovement(33); JumpIf(23); SetOWPosition(20); PlayFanfare(18); SetFlag(17); CompareVarValue(15),628
+0105,,2,10,6,,,,393; 638,,End(14); JumpIf(9); Movement(9); CompareVarValue(8); WalkNorth8(8); GetCommonMessageArchive(7); MessageFromArchive(7); CloseMessage(6); FadeScreen(6); WaitFadeScreen(6),146
+0106,D41R0105,2,4,0,,,,164; 365; 775,,End(5); SetFlag(3); CompareVarValue(3); JumpIf(3); ReleaseAll(3); ClearFlag(2); PlayFanfare(1); LockAll(1); FacePlayer(1); PlayCry(1),32
+0107,D41R0108,1,5,0,0; 1,,,607; 766; 767; 768,0x40FD; 0x4131; 0x8005,JumpIf(6); CompareVarValue(4); FadeScreen(4); WaitFadeScreen(4); Return(4); SetVar(3); ClearFlag(3); IncrementVar(3); CompareVars(3); Message(2),61
+0108,NAVEL EAST 01,1,2,0,0; 2; 3,,,223,0x8004; 0x8005,Message(4); WaitButton(3); CloseMessage(3); ReleaseAll(3); End(3); JumpIf(2); SetVar(2); PlayFanfare(1); LockAll(1); FacePlayer(1),28
+0109,RELIC RUIN F3; RELIC RUIN F2; RELIC RUIN F1,2,1,1,,,,,0x40CA,End(4); PlayFanfare(2); Movement(1); UnvanishOverworld(1); WaitMovement(1); ShakeCamera(1); SetVar(1); CompareVarValue(1); JumpIf(1); VanishOverworld(1),15
+0110,,7,15,16,0; 1,,,522,0x4000; 0x4001; 0x40C5; 0x40CA,End(22); Movement(18); Jump(16); CompareVarValue(13); JumpIf(13); SetVar(13); SetInvisible(8); WaitMovement(7); FaceSouth(7); WalkNorth4(6),228
+0111,REGIELECT DEN,6,42,27,0; 1; 3; 4; 5; 7; 8; 9; 10; 11; 12; 13; 14; 17; 18; 19; 22; 23; 24; 27; 28; 29; 30; 31; 32; 33,,,218; 226; 393; 521; 527,0x4002; 0x4020; 0x40C4; 0x40FC; 0x4119; 0x8004; 0x8005,Movement(55); End(49); JumpIf(40); Message(40); CompareVarValue(39); WaitMovement(27); Jump(24); CloseMessage(22); TextPlayerName(14); SetVar(14),564
+0112,DRAGON DEN 02,6,30,22,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 24; 25; 26; 27; 28; 29; 30; 32,,SPECIES_DRATINI,218; 219; 220; 221; 234; 2456; 393; 422; 521; 638; 741,0x407B; 0x4081; 0x40C3; 0x40C4; 0x4108; 0x8004,Message(122); Movement(90); WaitMovement(61); CreateMultiTouchBox(60); JumpIf(51); CompareVarValue(43); End(41); CloseMessage(35); SetVar(30); OpenTouchScreen(23),933
+0113,,1,0,0,,,,,,VanishOverworld(1); End(1),2
+0114,,4,8,16,0; 1; 2; 3; 4; 5; 6; 19; 20; 21,,,376; 771; 784,0x4003; 0x40FE,End(26); Movement(20); CloseMessage(19); WaitMovement(18); Message(10); GenderMessage(9); FadeScreen(9); WaitFadeScreen(9); PlayFanfare(8); CompareVarValue(7),243
+0115,,2,6,0,0; 1; 2; 3; 4,,,2404; 611,0x4002,JumpIf(8); CompareVarValue(7); End(6); Message(5); PlayFanfare(2); OpenTouchScreen(2); YesNoTouchScreen(2); CloseTouchScreen(2); Jump(2); WaitButton(2),61
+0116,MANSION A5,17,13,6,2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16,,,393; 638,0x400B; 0x8004,End(30); ReleaseAll(20); CloseMessage(19); LockAll(18); WaitButton(18); PlayFanfare(15); FacePlayer(15); Message(15); JumpIf(13); CompareVarValue(12),292
+0117,D47PC0101,3,0,0,0; 1,,,,0x8007,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); SetVar(1); CommonScript(1),19
+0118,D47PC0102,1,0,0,,,,,,End(1),1
+0119,,12,89,22,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36; 37; 38; 39; 40; 41; 42; 43; 44; 45; 47; 48; 49; 50; 51; 52; 53; 54; 55; 57; 58; 59; 60; 65; 66; 71; 81; 82; 83; 84; 85; 86; 87; 88; 89; 91; 92; 93; 94; 95; 96,,,2461; 387; 793,0x4000; 0x4002; 0x4003; 0x4057; 0x40E3; 0x4133; 0x8004; 0x8005; 0x800C,Message(115); JumpIf(111); CompareVarValue(106); End(72); CloseMessage(57); ReleaseAll(50); Movement(50); Jump(49); SetVar(49); WaitButton(41),1212
+0120,HOTEL 1 F3,1,0,0,,,,,,End(1),1
+0121,MANSION A4,7,15,9,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11,,,245; 718,0x40F9,End(24); Message(15); JumpIf(14); CloseMessage(14); Movement(13); CompareVarValue(12); ReleaseAll(10); WaitButton(8); WaitMovement(8); Jump(7),184
+0122,,24,59,56,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36; 37; 38; 39; 40; 41; 42; 43; 44; 45; 46; 47; 48,,,2434; 2455; 340; 393; 549; 638; 639,0x4007; 0x40DB; 0x8004; 0x8005,End(94); Movement(88); JumpIf(67); Message(61); CompareVarValue(61); CloseMessage(48); WalkNorth8(47); Jump(45); WaitMovement(37); ReleaseAll(33),1087
+0123,SEWER ROOM 04,24,87,16,48; 49; 50; 51; 52; 53; 54; 55; 56; 57; 58; 60; 61; 62; 63; 64; 65; 66; 67; 68; 69; 70; 71; 72; 73; 74; 75; 76; 77; 80; 81; 82; 83; 84; 85; 86; 87; 88; 89; 90; 91; 92; 93; 98; 99; 101; 103; 104; 105; 106; 107; 108; 109; 110; 111; 112; 113; 114,,,2515; 276; 277; 338; 339; 551,0x4007; 0x40E2; 0x8001; 0x8004; 0x8005,CompareVarValue(87); JumpIf(85); Message(72); Jump(60); End(55); CloseMessage(41); ReleaseAll(36); CreateMultiTouchBox(31); WaitButton(30); PlayFanfare(26),856
+0124,,17,57,2,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36; 39; 40; 41; 42; 43; 44; 45; 46; 47; 48; 49; 50; 51; 52,,,250,0x4007,Message(54); JumpIf(44); CompareVarValue(43); Jump(41); CloseMessage(35); End(35); CreateMultiTouchBox(34); ReleaseAll(33); WaitButton(31); PlayFanfare(17),493
+0125,,14,3,1,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13,,,239,0x400B,End(18); Message(14); CloseMessage(14); ReleaseAll(13); PlayFanfare(12); LockAll(12); FacePlayer(12); WaitButton(12); JumpIf(3); PlayCry(3),133
+0126,,14,6,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15,,,240; 725; 726; 727,0x400C,End(20); Message(16); CloseMessage(16); ReleaseAll(16); WaitButton(15); PlayFanfare(12); LockAll(12); FacePlayer(11); JumpIf(6); CheckFlag(5),143
+0127,,9,28,4,0; 1; 2; 3; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24,,,241; 728; 729,0x4007; 0x400D,JumpIf(33); CreateMultiTouchBox(32); CompareVarValue(29); Message(27); Jump(22); End(19); CloseMessage(11); ReleaseAll(11); WaitButton(10); OpenTouchScreen(8),277
+0128,,8,7,7,0; 1; 2; 3; 4; 5; 6; 7; 8,,,691,0x400E; 0x400F; 0x40D3,End(18); Message(11); CloseMessage(11); Movement(8); WaitMovement(7); CompareVarValue(7); LockAll(6); ReleaseAll(6); SetVar(6); JumpIf(6),143
+0129,VOLTIC CAVE 1; VOLTIC CAVE 2; VOLTIC CAVE 3; VOLTIC CAVE 5; VOLTIC CAVE 6,2,1,0,0,,,,,SetOWPosition(6); End(3); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); NationalDex(1),19
+0130,D51R0101,4,1,6,0; 1; 2,,,731,0x40FB,End(11); Movement(6); WaitMovement(6); Message(3); CloseMessage(3); WalkNorth8(3); LockAll(2); SetOWPosition(2); SetVar(2); ReleaseAll(2),69
+0131,D51R0201,8,73,45,0; 2; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33,,SPECIES_DIALGA; SPECIES_DIALGA; SPECIES_PALKIA; SPECIES_GIRATINA,743,0x4004; 0x4008; 0x4009; 0x400A; 0x40FB; 0x4102; 0x4103; 0x4104,CompareVarValue(80); JumpIf(78); Movement(75); End(63); Jump(58); Message(43); WaitMovement(39); CloseMessage(37); SetVar(28); FadeScreen(28),869
+0132,D51R0301,4,14,16,0; 1; 2; 3; 4; 7; 8; 9; 10; 11; 12; 13,,,157; 158; 731; 732; 733,0x40FB,End(26); Message(18); CloseMessage(17); Movement(17); WaitMovement(17); JumpIf(11); ReleaseAll(10); CompareVarValue(9); Jump(8); PlayFanfare(7),250
+0133,GROUDON DEN; D52R0101,3,11,7,0; 1; 2; 3; 4,ITEM_RED_ORB,,164; 377; 395; 719; 720; 723,0x40F9,End(17); SetFlag(12); Movement(10); WaitMovement(10); Message(9); CloseMessage(9); JumpIf(9); CompareVarValue(7); ReleaseAll(5); ClearFlag(4),139
+0134,KYOGRE DEN,3,11,7,0; 1; 2; 3; 4,ITEM_BLUE_ORB,,164; 378; 395; 719; 721; 724,0x40F9,End(17); SetFlag(12); Movement(10); WaitMovement(10); Message(9); CloseMessage(9); JumpIf(9); CompareVarValue(7); ReleaseAll(5); ClearFlag(4),139
+0135,SKY PILLAR 02,4,5,1,0; 1,,,164; 379; 722,0x40F9,End(10); JumpIf(5); ReleaseAll(5); Message(4); CloseMessage(4); CompareVarValue(4); SetVar(4); LockFollowingPoke(4); WaitFollowingPoke(4); SetFollowingPokeMovement(4),83
+0136,,1,0,0,,,,,,End(1),1
+0137,DIRECT2,1,0,0,,,,,,EnterBattleRoom(1); End(1),2
+0138,DIRECT4,1,0,0,,,,,,EnterBattleRoom(1); End(1),2
+0139,EVERYWHERE; NOTHING; UG; D24; LUGIA DEN 02; HO-OH TWR F2; MELT 10 HS12; DANB 08 HS15; SYDT TWR F1; SYDT TWR F2; SYDT TWR F3; SYDT TWR F4; SYDT TWR F5; SYDT TWR F6; LIGHT H 01 F2; LIGHT H 01 F4; D11R0107; D41R0102; D41R0103; D41R0104; D41R0106; D41R0107; R05R0101; R06R0101; D40R0106; D22R0103; R00; TEST1; NEWMAP; NEWMAP; NEWMAP,1,0,0,,,,,,End(1),1
+0140,,1,0,0,,,,,,End(1),1
+0141,,801,16,0,3; 4; 6; 9,0x8004,,,0x8008; 0x8009; 0x800C,SetVar(1602); Jump(812); CompareVarValue(12); JumpIf(12); GetItemPocket(9); TextPocket(8); End(4); Message(4); SetVarFromVariable(3); TextPlayerName(3),2489
+0142,,1,0,0,,,,,,End(1),1
+0143,,1,34,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 27,,,,0x800C,UnionGroup(149); CompareVarValue(130); JumpIf(130); CreateMultiTouchBox(49); Jump(25); Message(15); CloseTouchScreen(12); CloseMultiTouch(9); SetVar(7); Return(7),578
+0144,,4,22,0,0; 1; 2; 3; 5; 20; 27; 28; 29; 30,,,679; 680,0x40E5,MysteryGiftGive(18); Jump(17); CompareVarValue(14); JumpIf(14); Message(11); End(9); SetFlag(6); WaitButton(6); TextPlayerName(6); CloseMessage(5),142
+0145,,256,15,0,3; 4; 6; 9,0x8004,,,0x800C,UseScript_#1(255); CompareVarValue(12); JumpIf(12); Jump(12); GetItemPocket(9); TextPocket(8); SetVarFromVariable(4); End(4); Message(4); TextPlayerName(3),340
+0146,,19,94,0,0; 1; 2; 3; 4; 5; 6; 7; 9; 10; 11; 12; 13; 14; 15; 16; 20; 21; 22; 23; 24; 25; 26; 28; 29; 30; 31; 32; 33; 34,,,,0x8005; 0x8007,JumpIf(88); Jump(81); CompareVarValue(79); CloseMessage(42); Message(41); CutAnimation(38); WaitTime(33); HiddenMachineEffect(32); ReleaseAll(22); End(21),796
+0147,MANSION A9; HIROBA,1,0,0,,,,,,End(1),1
+0148,,2,10,0,15; 20; 21; 57,,,2439,0x800C,JumpIf(10); CompareVarValue(9); CreateMultiTouchBox(9); Message(8); Jump(7); SetVar(6); WaitButton(5); CloseMessage(5); LocalScript(5); End(5),112
+0149,,1,0,0,,,,404; 407; 409; 411; 412; 413; 416; 418; 420; 421; 422; 423; 424; 427; 429; 431; 445; 456; 464; 467; 468; 470; 473; 476; 477; 481; 482; 484; 487; 494; 495; 496; 497; 499; 500; 504; 507; 509; 511; 513; 515; 521; 522; 523; 524; 525; 526; 527; 547; 551; 553; 559; 565; 567; 568; 572; 574; 575; 576; 578; 579; 580; 581; 584; 587; 588; 589; 591; 592; 593; 594; 595; 596; 597; 598; 599; 601; 612; 614; 615; 616; 617; 625; 626; 650; 663; 666; 667; 668; 669; 670; 671; 672; 673; 674; 675; 676; 677; 678; 681; 682; 683; 684; 690; 691; 692; 711; 712; 716; 725; 726; 727; 728; 729; 732; 734; 735; 736; 740; 742; 743; 744; 761; 764; 765; 766; 767; 768; 769; 770; 771; 776; 777; 780; 781; 782; 784; 785; 786; 789; 791; 793; 795,,SetFlag(143); InitLotto(1); End(1),145
+0150,,1,3,0,0; 1; 2; 3; 4; 6; 7,ITEM_APRICORN_BOX,,,0x8005,Message(7); CloseMessage(6); WaitButton(4); ReleaseAll(4); End(4); CompareVarValue(3); JumpIf(3); PlayFanfare(1); LockAll(1); FacePlayer(1),45
+0151,,29,60,2,0; 1; 3; 4; 5; 6; 7; 10; 13; 14; 15; 16; 17; 18; 20; 21; 22; 23; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36; 42; 43; 45; 46; 47; 48; 49; 50; 51; 52; 53; 54; 55; 56; 57; 58; 59; 60; 61; 62; 63; 64; 65; 66; 67; 68; 69; 70; 71; 72; 73; 74; 75; 76; 77,,,2451; 2454; 2727; 321; 351; 590,0x4058; 0x40F7; 0x4118; 0x8004; 0x8005; 0x8006,Message(79); End(48); JumpIf(48); CloseMessage(46); ReleaseAll(39); CompareVarValue(37); LockAll(35); Jump(34); PlayFanfare(33); WaitButton(33),701
+0152,SYDT DOCK 01,5,15,14,0; 1; 2; 3; 4; 5; 6; 7; 8; 11; 12; 13; 14; 15,ITEM_SS_TICKET,,235; 2404; 554; 555; 556; 593; 691,0x4002; 0x40DC; 0x40E1; 0x411A,End(26); Movement(17); WaitMovement(16); Message(14); CloseMessage(14); JumpIf(12); CompareVarValue(12); ReleaseAll(10); LockFollowingPoke(8); WaitFollowingPoke(8),252
+0153,SYDT DOCK 02,7,17,9,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13,,,146; 235; 393; 713,0x4004; 0x40E1,End(28); JumpIf(19); CompareVarValue(17); Message(14); Movement(11); ReleaseAll(11); CloseMessage(10); WaitMovement(9); PlayFanfare(7); WaitButton(7),232
+0154,,3,11,5,0; 1; 2; 3,,,235; 554; 555; 556,0x4002; 0x40DC; 0x40E1,End(12); CompareVarValue(9); JumpIf(9); Jump(7); ReleaseAll(5); Movement(5); WaitMovement(5); Message(4); CloseMessage(4); LockFollowingPoke(4),113
+0155,,4,6,8,0; 1,,,146; 235; 2456; 2485; 360,0x40E1,End(16); Movement(8); WaitMovement(7); JumpIf(5); LockFollowingPoke(5); WaitFollowingPoke(5); SetFollowingPokeMovement(5); SetFlag(5); ReleaseAll(4); PlayFanfare(3),108
+0156,BOAT 01,9,17,8,0; 1; 2; 3; 5; 6; 7; 8; 9; 10,,,235; 533,0x4000; 0x40CB; 0x40DC,End(27); JumpIf(13); Movement(13); ReleaseAll(12); Message(11); CloseMessage(11); CompareVarValue(10); WaitMovement(10); Jump(7); WaitButton(7),196
+0157,BOAT 02,3,26,2,0; 4; 5; 6; 7; 8,,,146; 2747; 535,0x40CB; 0x8004; 0x8005,SetVar(36); JumpIf(25); CompareVarValue(23); Jump(18); End(13); CloseMessage(11); ReleaseAll(9); Message(7); SetFlag(7); WaitButton(5),195
+0158,BOAT 03,2,9,10,0; 1; 2; 3; 4; 5; 6,,,235; 237; 538,0x40CB,End(20); JumpIf(12); Movement(11); CompareVarValue(10); ReleaseAll(10); WaitMovement(9); Message(9); CloseMessage(9); LockFollowingPoke(7); WaitFollowingPoke(7),196
+0159,BOAT 04,1,0,0,,,,,,End(1),1
+0160,BOAT 05,1,0,0,,,,,,End(1),1
+0161,BOAT 06,4,8,3,0; 1; 6; 7; 8,,,235; 534; 536; 554,0x40CB; 0x8004; 0x8005,End(11); SetFlag(7); CloseMessage(7); Message(6); CompareVarValue(5); JumpIf(5); WaitButton(5); ReleaseAll(5); PlayFanfare(4); Jump(4),87
+0162,BOAT 07,4,10,11,0; 1; 2; 6,,,237; 537,0x40CB,End(22); Movement(19); WaitMovement(11); CompareVarValue(10); JumpIf(10); Message(9); CloseMessage(9); ReleaseAll(9); FadeScreen(6); WaitFadeScreen(6),184
+0163,,1,1,0,,,,,,PlayFanfare(1); LockAll(1); FollowingPokeFacePlayer(1); TalkFollowingPoke(1); Jump(1); ReleaseAll(1); End(1),7
+0164,,6,38,11,0; 1; 2; 3; 4; 5; 6; 7; 8; 10; 11; 12; 13; 17; 18; 20; 21; 22; 26; 27; 28; 29,,,,0x4003; 0x400A; 0x4117; 0x4137; 0x4142; 0x4143; 0x4144; 0x4145; 0x4146; 0x4147; 0x4148; 0x4149; 0x414A; 0x414B; 0x414F; 0x4150; 0x8004; 0x8005,JumpIf(32); CompareVarValue(31); End(27); Jump(26); Message(24); Call(20); SetVar(18); Movement(17); CreateMultiTouchBox(17); WaitMovement(15),419
+0165,,1,4,0,0; 1; 2; 3; 4; 8,,,,,WaitTime(6); CompareVarValue(6); JumpIf(6); Message(6); End(3); SystemSetSleepFlag(2); SetVarFromVariable(2); Jump(2); OpenTouchScreen(2); YesNoTouchScreen(2),59
+0166,,13,79,0,0; 3; 4; 5; 7; 11; 12; 13; 14; 15; 16; 17; 18; 19; 111; 112; 116; 117; 124; 130; 131; 132; 140; 141; 142; 143; 150; 151; 152; 153; 159; 160; 167; 175; 176; 212; 219,,,2406,0x4003; 0x4004; 0x4133; 0x8004; 0x8005; 0x8007; 0x800C,AddMultiOption(78); CompareVarValue(77); JumpIf(77); Jump(74); Message(43); SetVar(24); ShowMulti(18); SetVarFromVariable(18); MultiLocalText(15); End(13),525
+0167,,3,102,15,0; 1; 2; 3; 4; 5; 6; 8; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36; 37; 38; 39; 40; 41; 42; 43; 44; 45; 46; 47,,,239; 240; 241; 691; 725; 726; 727; 728; 729,0x4009; 0x400A; 0x40E2; 0x8000,CompareVarValue(99); JumpIf(87); Message(67); Jump(59); CreateMultiTouchBox(46); Return(37); CallIf(32); LockFollowingPoke(30); WaitFollowingPoke(30); SetFollowingPokeMovement(30),956
+0168,R01; RT 1 AREA 1,3,8,5,,,,393; 638,,End(14); JumpIf(10); CompareVarValue(9); GetCommonMessageArchive(7); MessageFromArchive(7); Movement(7); CloseMessage(6); FadeScreen(6); WaitFadeScreen(6); WalkNorth8(6),144
+0169,RT 2 AREA 1; RT 2 AREA 2,1,0,0,,,,,,SetIconBoard(1); ShowBoard(1); WaitBoard(1); CloseBoard(1); CommonScript(1); End(1),6
+0170,,1,0,0,,,,,,SetTextBoard(1); ShowBoard(1); WaitBoard(1); BoardMessage(1); CommonScript(1); End(1),6
+0171,,1,2,0,0; 2,,,308,0x8004; 0x8005,Message(3); CloseMessage(3); ReleaseAll(3); End(3); JumpIf(2); SetVar(2); CommonScript(2); WaitButton(2); PlayFanfare(1); LockAll(1),27
+0172,RADE 01 GV09,2,2,0,2; 3,,,309,0x8004; 0x8005,CloseMessage(4); ReleaseAll(4); End(4); Message(3); WaitButton(3); PlayFanfare(2); LockAll(2); FacePlayer(2); JumpIf(2); SetVar(2),36
+0173,,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0174,,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0175,RT 3 AREA 1; RT 3 AREA 2,5,19,0,1; 2; 3; 4; 5,,,,,Jump(18); CompareVarValue(15); JumpIf(15); Message(15); FadeScreen(14); WaitFadeScreen(14); PlayCry(14); LockFollowingPoke(12); SetDeoxysForm(8); SetFollowingPokePosition(7),210
+0176,,3,0,0,0; 1,,,,0x8007,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); SetVar(1); CommonScript(1),19
+0177,,1,0,0,,,,,,End(1),1
+0178,RT 3 AREA 3,3,4,0,,,,164; 784,,End(6); SetFlag(3); JumpIf(3); ClearFlag(2); ReleaseAll(2); CheckFlag(2); PlayFanfare(1); LockAll(1); FacePlayer(1); PlayCry(1),29
+0179,RT 3 AREA 4,2,0,0,0,,,,,End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); SetTextBoard(1); ShowBoard(1),14
+0180,MANSION A3; R05R0201,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0181,R05R0202,2,6,1,0; 1; 2; 3; 4; 5; 6; 7; 8; 9,ITEM_RAGE_CANDY_BAR; ITEM_RAGE_CANDY_BAR; ITEM_RAGE_CANDY_BAR,,356,0x4000; 0x4001; 0x8004; 0x8005,Message(17); CloseMessage(13); End(9); SetVar(9); JumpIf(8); CompareVarValue(7); WaitButton(7); ReleaseAll(7); SetFlag(3); OpenTouchScreen(2),102
+0182,,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0183,R05R0401,2,2,0,0; 1; 2,,,305,0x8004; 0x8005,Message(4); CloseMessage(4); ReleaseAll(4); End(4); WaitButton(3); PlayFanfare(2); LockAll(2); FacePlayer(2); JumpIf(2); SetVar(2),35
+0184,LOB FOREST 01; LOB FOREST 02; LOB FOREST 03; LOB FOREST 04; LOB FOREST 05; LOB FOREST 06; LOB FOREST 07; LOB FOREST 08; LOB FOREST 09,3,4,0,,,,164; 627,,End(6); SetFlag(3); JumpIf(3); ClearFlag(2); ReleaseAll(2); CheckFlag(2); PlayFanfare(1); LockAll(1); FacePlayer(1); PlayCry(1),29
+0185,WLDA03 GV08,1,1,0,0; 1,,,280,,Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); CheckFlag(1); JumpIf(1),15
+0186,RT 4 AREA 1,3,4,0,,,,164; 629,,End(6); SetFlag(3); JumpIf(3); ClearFlag(2); ReleaseAll(2); CheckFlag(2); PlayFanfare(1); LockAll(1); FacePlayer(1); PlayCry(1),29
+0187,R07R0101,1,1,0,0; 1,,,280,,Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); CheckFlag(1); JumpIf(1),15
+0188,RT 5 AREA 1; RT 5 AREA 2,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0189,,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0190,SUB PATH 1; SUB PATH 2; SUB PATH 3; SUB PATH 4; RT 5 AREA 3,1,0,0,,,,,,SetIconBoard(1); ShowBoard(1); WaitBoard(1); CloseBoard(1); CommonScript(1); End(1),6
+0191,ROCK CAVE 01; RT 5 AREA 4,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0192,R10PC0101,4,1,0,0; 1; 2; 3,,,280,0x8007,End(5); PlayFanfare(4); LockAll(4); FacePlayer(4); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); SetVar(1); CommonScript(1),37
+0193,R10PC0102,1,0,0,,,,,,End(1),1
+0194,,1,0,0,,,,,,SetIconBoard(1); ShowBoard(1); WaitBoard(1); CloseBoard(1); CommonScript(1); End(1),6
+0195,R10R0201,9,3,0,3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15,,,289,,Message(13); CloseMessage(13); WaitButton(12); ReleaseAll(12); End(12); PlayFanfare(9); LockAll(9); FacePlayer(7); JumpIf(4); CompareVarValue(2),113
+0196,R10R0202,10,6,9,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19,ITEM_MACHINE_PART; ITEM_MACHINE_PART,,280; 288; 289; 596; 600; 601; 763; 764,0x40FF; 0x411B; 0x411C; 0x8004; 0x8005,End(25); Message(21); CloseMessage(19); ReleaseAll(16); WaitButton(15); PlayFanfare(10); LockAll(10); Movement(10); FacePlayer(9); JumpIf(7),232
+0197,-; ICE CAVE 01; RT 5 AREA 5; RT 6 AREA 1; RT 6 AREA 2; RT 6 AREA 3; RT 6 AREA 4,4,5,0,2; 3,,,164; 2456; 249; 371; 609,,End(8); SetFlag(5); JumpIf(4); RemoveOW(4); CompareVarValue(3); ReleaseAll(3); Message(2); CloseMessage(2); CheckFlag(2); ShowBoard(2),57
+0198,,2,2,0,0; 1,,,249,0x4085,End(3); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); SetVar(1); PlayFanfare(1); LockAll(1); FacePlayer(1); CheckFlag(1),18
+0199,STEEL CAVE 01; RT 7 AREA 1; RT 7 AREA 2; RT 7 AREA 3,6,14,6,2; 3,,,164; 249; 371; 393; 638; 795,,End(22); JumpIf(14); CompareVarValue(12); Movement(9); CloseMessage(8); ReleaseAll(8); SetFlag(8); WalkNorth8(8); GetCommonMessageArchive(7); MessageFromArchive(7),203
+0200,HOME 57 SROD,1,2,0,0; 1; 2; 3,,,,0x8004; 0x8005,Message(5); WaitButton(3); CloseMessage(3); ReleaseAll(3); End(3); CompareVarValue(2); JumpIf(2); SetVar(2); PlayFanfare(1); LockAll(1),31
+0201,ROCK CAVE 02; RT 8 AREA 1; RT 8 AREA 2; VOLTIC CAVE 4; RT 8 AREA 3; RT 8 AREA 4,3,0,0,,,,,,ShowBoard(3); WaitBoard(3); CommonScript(3); End(3); SetIconBoard(2); CloseBoard(2); SetTextBoard(1); BoardMessage(1),18
+0202,-; ICE CAVE 02; RT 9 AREA 1; RT 9 AREA 2; RT 9 AREA 3; RT 9 AREA 4; RT 9 AREA 5,1,0,0,,,,,,End(1),1
+0203,STEEL CAVE 02; RT 10 AREA 1; RT 10 AREA 2,1,0,0,,,,,,SetIconBoard(1); ShowBoard(1); WaitBoard(1); CloseBoard(1); CommonScript(1); End(1),6
+0204,,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0205,RT 12 AREA 1; RT 12 AREA 2; RT 12 AREA 3,2,0,0,,,,329,,End(2); CyclingRoad(1); SetFlag(1); SetTextBoard(1); ShowBoard(1); WaitBoard(1); BoardMessage(1); CommonScript(1),9
+0206,,2,3,0,0; 1; 2; 3; 4; 5,,,2746,,Message(6); WaitButton(5); CloseMessage(5); ReleaseAll(5); End(5); JumpIf(4); CompareVarValue(3); PlayFanfare(2); LockAll(2); FacePlayer(2),46
+0207,BIKE GATE 01,4,2,2,0; 1,,,329,0x4129; 0x412A,End(8); SetVar(4); ReleaseAll(3); CyclingRoad(3); LockAll(2); Message(2); CloseMessage(2); JumpIf(2); Movement(2); WaitMovement(2),47
+0208,,1,0,0,,,,329,,ClearFlag(1); End(1),2
+0209,BIKE ROAD TOP,2,0,0,,,,,,CyclingRoad(2); End(2),4
+0210,RT 11 AREA 1; RT 11 AREA 2; RT 11 AREA 3; RT 11 AREA 4; RT 11 AREA 5,2,0,0,,,,,,End(2); SetIconBoard(1); ShowBoard(1); WaitBoard(1); CloseBoard(1); CommonScript(1),7
+0211,BIKE GATE 02,4,2,2,0; 1,,,329,0x4129; 0x412A,End(8); SetVar(4); ReleaseAll(3); CyclingRoad(3); LockAll(2); Message(2); CloseMessage(2); JumpIf(2); Movement(2); WaitMovement(2),47
+0212,-,5,11,30,2; 3; 4; 5; 6; 7; 8; 9; 10,,,393; 638; 769; 771; 785,0x40FE,End(43); Movement(38); WaitMovement(26); CloseMessage(22); WalkNorth8(16); JumpIf(12); CompareVarValue(11); Message(9); FadeScreen(9); WaitFadeScreen(9),390
+0213,,9,38,22,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16,,,2513; 299; 300; 393; 624,0x4005; 0x4110,End(46); JumpIf(35); Movement(30); CompareVarValue(29); Jump(23); Message(20); WaitMovement(18); CloseMessage(16); ReleaseAll(15); WaitButton(11),394
+0214,,1,0,0,,,,,,End(1),1
+0215,-,5,12,8,0; 2; 3; 4; 5; 6; 7; 8; 9,,,597; 599,0x4087,End(18); Movement(10); Message(9); ReleaseAll(8); CompareVarValue(7); JumpIf(7); Jump(7); CloseMessage(7); FacePlayer(5); LockAll(4),137
+0216,-,10,42,26,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 13; 14; 16; 17; 18; 19,,,164; 290; 373; 393; 595; 598; 673; 674; 684; 690; 717; 777,0x4002; 0x4088; 0x4089; 0x8004; 0x8005,End(57); JumpIf(46); CompareVarValue(42); Movement(42); Message(25); CloseMessage(21); Jump(20); ReleaseAll(20); SetFlag(17); WaitMovement(16),540
+0217,,1,52,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17,,,334,0x8004; 0x8005,Jump(50); JumpIf(44); CompareVarValue(43); Message(29); SetVar(20); CloseMessage(4); SetVarFromVariable(4); ReleaseAll(3); End(3); CommonScript(3),229
+0218,ULURU 1 A1; ULURU 1 A2; ULURU 1 A3,4,8,5,,,,393; 638,,End(15); JumpIf(9); CompareVarValue(8); GetCommonMessageArchive(7); MessageFromArchive(7); Movement(7); CloseMessage(6); FadeScreen(6); WaitFadeScreen(6); WalkNorth8(6),149
+0219,RADE 07 HS31,2,0,0,0; 1; 2,,,,,Message(3); CloseMessage(3); PlayFanfare(2); LockAll(2); FacePlayer(2); FadeScreen(2); WaitFadeScreen(2); WaitButton(2); ReleaseAll(2); End(2),27
+0220,RT 9 HS32,1,1,0,0; 1; 2,,,,,Message(3); CloseMessage(3); OpenTouchScreen(2); YesNoTouchScreen(2); CloseTouchScreen(2); CompareVarValue(2); JumpIf(2); ReleaseAll(2); End(2); PlayFanfare(1),24
+0221,RT 14 AREA 1; RT 14 AREA 5; RT 14 AREA 6; RT 14 AREA 2; RT 14 AREA 3; RT 14 AREA 4,5,4,4,0; 1,,,360,0x408A,End(11); Message(4); CloseMessage(4); Movement(4); WaitButton(3); ReleaseAll(3); WaitMovement(3); JumpIf(3); WalkWest8(3); LockAll(2),65
+0222,HOTEL 2 HS33,1,3,0,0; 1; 2; 3,,,233,0x8004; 0x8005,Message(5); CloseMessage(4); ReleaseAll(4); End(4); JumpIf(3); WaitButton(3); CompareVarValue(2); SetVar(2); CommonScript(2); PlayFanfare(1),37
+0223,RT 19 AREA 1; RT 19 AREA 2; RT 19 AREA 3,2,0,0,,,,,0x4126,End(2); SetVar(1); SetIconBoard(1); ShowBoard(1); WaitBoard(1); CloseBoard(1); CommonScript(1),8
+0224,DALI 10 HS54,3,10,5,0; 1; 2; 3,,,311,0x4126; 0x8004; 0x8005,End(11); JumpIf(10); Movement(10); CompareVarValue(9); Message(8); Jump(7); CloseMessage(5); ReleaseAll(5); WaitMovement(5); SetVar(5),107
+0225,ULURU 2 A1; ULURU 2 A2,9,43,56,2; 9; 10; 11; 12; 13; 14,,,154; 216; 2748; 420; 421; 519,0x408B; 0x8004; 0x8005,End(75); Movement(63); WalkWest8(54); CompareVarValue(35); JumpIf(35); WalkEast8(34); Jump(32); WalkSouth8(32); Delay8(20); CloseMessage(18),611
+0226,MELT 12 GV03,3,0,0,0; 1,,,,,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2),17
+0227,RT 13 AREA 1; RT 13 AREA 2; RT 13 AREA 3; RT 13 AREA 4; RT 13 AREA 5; RT 13 AREA 6; RT 13 AREA 7,11,5,11,0; 1; 2; 3; 4; 5; 6; 8; 13,,,107; 109; 167; 238; 591,0x408C; 0x4095; 0x8004; 0x8005; 0x8006,End(24); SetVar(14); Movement(13); Message(11); WaitMovement(11); CloseMessage(9); ReleaseAll(8); CommonScript(8); LockAll(7); PlayFanfare(6),211
+0228,LOBA 05 HS09,1,1,0,0; 2; 3,,,109,0x408C; 0x8004; 0x8005,Message(3); SetVar(3); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); CheckFlag(1),21
+0229,,4,14,15,2; 3; 4; 5; 6; 7; 10; 11; 12; 15; 19; 20; 23; 26; 27,0x8004,,107; 108; 201; 263; 400; 405; 412; 413; 789; 790,0x4073; 0x408C; 0x40F9; 0x4107; 0x4108; 0x8004; 0x8005,End(29); CloseMessage(20); Movement(19); Message(17); JumpIf(15); WaitMovement(15); SetVar(15); ReleaseAll(12); CompareVarValue(10); WaitButton(8),287
+0230,ULURU 3 A1; ULURU 3 A2,6,21,4,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 15,,,,0x4114; 0x8004; 0x8005,JumpIf(25); CompareVarValue(22); End(19); Message(19); SetVar(17); CloseMessage(14); Jump(12); ReleaseAll(12); WaitButton(11); FadeScreen(8),237
+0231,MELT 13 GH01,3,16,29,0,,,,0x4132; 0x8004; 0x8005,Movement(44); End(34); CompareVarValue(18); JumpIf(18); WalkWest8(18); WaitMovement(16); Jump(14); WalkWest4(14); SetInvisible(13); GenderMessage(9),312
+0232,UNDARA AREA 1; UNDARA AREA 2; UNDARA AREA 3; UNDARA AREA 4,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0233,SYDT 02 PC05,4,8,0,0; 3; 4; 5; 6; 7; 8; 9; 10; 11,,,117; 372,0x8004; 0x8005; 0x8007,End(11); Message(11); CloseMessage(9); ReleaseAll(9); JumpIf(8); SetVar(7); WaitButton(7); CommonScript(6); CompareVarValue(6); PlayFanfare(3),98
+0234,SYDT 03 PCR05,1,0,0,,,,,,End(1),1
+0235,DANB 01 GH02,4,0,0,0; 1; 2,,,,,End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3),25
+0236,PRIMAL CAVE 1; -; -,2,0,0,0,,,,,End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); SetIconBoard(1); ShowBoard(1),14
+0237,SHALLOW C 1; SHALLOW C 2; SHALLOW C 3; SHALLOW C 4,13,48,46,18; 19; 21; 22; 23; 24; 26; 27; 28; 30; 32; 46; 47; 48; 49,,,393; 465; 466; 638,0x4004; 0x408E; 0x4097; 0x8004; 0x8005,Movement(77); End(74); JumpIf(50); CompareVarValue(48); WaitMovement(39); Jump(33); CloseMessage(33); Message(23); ReleaseAll(22); WalkNorth8(20),753
+0238,BAIR 05 DCARE,2,2,16,,,,557,0x408E,Movement(22); End(19); GenderMessage(13); WaitMovement(12); CloseMessage(11); Delay8(7); RemoveOW(4); WalkSouth8(4); TextPlayerName(3); WalkNorth8(3),151
+0239,SYDT 06 GV06,3,2,0,0; 2; 3; 4,,,131,0x8004; 0x8005,Message(4); CloseMessage(4); ReleaseAll(4); End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); WaitButton(3); JumpIf(2); SetVar(2),42
+0240,RT 15 AREA 1; SKY PILLAR 01,5,10,5,21,,,393; 461; 462; 638,,End(17); JumpIf(14); CompareVarValue(13); ClearFlag(8); CloseMessage(7); GetCommonMessageArchive(7); MessageFromArchive(7); Movement(7); SetFlag(7); WaitButton(6),176
+0241,LOBA 07 GV01,2,12,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 13; 14; 15; 16,,,138; 181,0x4114; 0x8004; 0x8005,Message(17); JumpIf(13); CloseMessage(13); ReleaseAll(13); End(13); WaitButton(12); CompareVarValue(10); SetVar(6); CheckFlag(3); PlayFanfare(2),123
+0242,,13,33,24,0; 3; 5; 6; 7; 8; 9; 10,,,393; 451; 452; 638,,End(49); Movement(34); JumpIf(30); CompareVarValue(27); Jump(21); ReleaseAll(20); WaitMovement(20); CloseMessage(15); LockAll(14); LockFollowingPoke(14),468
+0243,ULURU 4 A1; ULURU 4 A2; ULURU 4 A3,11,35,10,0; 1; 2; 3; 5; 7; 8; 13; 14; 15; 16; 17; 18,ITEM_SQUIRT_BOTTLE; ITEM_SQUIRT_BOTTLE,,164; 177; 180; 181; 2748; 361; 450; 452; 463; 464,0x8004; 0x8005,End(42); JumpIf(36); CompareVarValue(35); Message(23); ReleaseAll(22); Movement(20); CloseMessage(20); WaitMovement(18); SetVar(16); SetFlag(15),429
+0244,MELT 11 GV02,3,0,0,0; 1,,,,,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2),17
+0245,,3,16,7,,,,451; 452,,End(15); JumpIf(12); CompareVarValue(11); Jump(11); Movement(10); WaitMovement(9); LockFollowingPoke(7); WaitFollowingPoke(7); SetFollowingPokeMovement(7); FadeScreen(6),160
+0246,SPEAR PLR 1; SPEAR PLR 2,4,10,0,,,,165; 2748; 451,0x8004; 0x8005,End(11); MessageFromArchive(9); JumpIf(8); GetCommonMessageArchive(8); CloseMessage(7); ReleaseAll(7); CompareVarValue(6); WaitButton(6); CommonScript(4); GetDayOfWeek(3),99
+0247,RT 18 AREA 1; RT 18 AREA 2; RT 18 AREA 3; RT 18 AREA 4,3,0,0,,,,,,End(3); ShowBoard(2); WaitBoard(2); CommonScript(2); SetIconBoard(1); CloseBoard(1); SetTextBoard(1); BoardMessage(1),13
+0248,TROO 01 GH 09,2,0,0,0,,,,,End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1),9
+0249,HAUNT AREA 1; HAUNT AREA 2; HAUNT AREA 3; HAUNT AREA 4; HAUNT AREA 5,8,26,13,3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14,,,354; 393; 550; 552; 638; 788,0x408F,JumpIf(32); End(30); CompareVarValue(29); Message(21); Movement(18); Jump(17); CloseMessage(14); ReleaseAll(11); ClearFlag(11); WaitButton(9),372
+0250,,2,10,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 10; 11,0x8004,,168; 170; 171,0x4000; 0x4001; 0x8004; 0x8005,Message(11); CloseMessage(9); ReleaseAll(9); End(9); SetVar(9); JumpIf(8); WaitButton(8); CompareVarValue(7); HideMoney(4); CheckFlag(3),108
+0251,,5,21,2,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20,0x8004; 0x8004,,168; 169; 170; 172; 173; 174; 175; 176; 256; 257; 550,0x8000; 0x8001; 0x8002; 0x8004; 0x8005; 0x8006,Message(29); JumpIf(25); End(21); CloseMessage(18); ReleaseAll(16); CheckFlag(13); CompareVarValue(12); SetFlag(11); SetVar(10); WaitButton(9),249
+0252,MANSION A1; MANSION A2,6,10,19,5; 6; 7; 8; 9,,,669; 670; 671; 675,0x4070; 0x4071; 0x4091; 0x4092; 0x8004; 0x8005,End(26); Movement(22); WaitMovement(14); CompareVarValue(9); JumpIf(9); Jump(9); SetVar(9); WalkWest8(9); CommonScript(8); Message(7),234
+0253,,2,0,0,0,,,,,End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1),9
+0254,RT 17 AREA 1; RT 17 AREA 2; RT 17 AREA 3; RT 17 AREA 4; RT 17 AREA 5; RT 17 AREA 6; RT 17 AREA 7; RT 17 AREA 8,4,0,0,,,,,,End(4); ShowBoard(3); WaitBoard(3); CommonScript(3); SetIconBoard(2); CloseBoard(2); SetTextBoard(1); BoardMessage(1),19
+0255,DANB 09 GV04,1,1,0,0; 1,,,202,,Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); CheckFlag(1); JumpIf(1),15
+0256,WLDA01 GV07,4,10,8,0; 1; 2; 3; 4; 6,,,202; 206,0x410F; 0x8004; 0x8005,End(16); Message(10); CloseMessage(8); Movement(8); JumpIf(6); Jump(6); SetVar(5); WaitButton(4); ReleaseAll(4); CompareVarValue(4),130
+0257,,3,0,0,,,,,,End(3); ShowBoard(2); WaitBoard(2); CommonScript(2); SetTextBoard(1); BoardMessage(1); SetIconBoard(1); CloseBoard(1),13
+0258,UNDARA CAVE 3; UNDARA CAVE 4,5,7,4,0,,,393; 638,,End(15); JumpIf(8); GetCommonMessageArchive(7); MessageFromArchive(7); CompareVarValue(7); CloseMessage(7); WaitButton(6); ReleaseAll(6); FadeScreen(6); WaitFadeScreen(6),146
+0259,UNDARA CAVE 2,3,1,0,2; 3,,,121,,End(4); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); ShowBoard(2); WaitBoard(2); CommonScript(2); PlayFanfare(1); LockAll(1),27
+0260,,5,18,4,0; 1; 2; 3; 4; 5; 6; 7; 8; 9,,,2404; 2505; 337; 343; 393; 772,0x40EB,JumpIf(20); End(20); SetWarpPosition(18); CompareVarValue(15); Message(12); CloseMessage(9); SetFlag(8); ReleaseAll(8); Jump(7); Movement(7),177
+0261,,3,8,5,,,,393; 638,,End(14); JumpIf(9); CompareVarValue(8); GetCommonMessageArchive(7); MessageFromArchive(7); Movement(7); CloseMessage(6); FadeScreen(6); WaitFadeScreen(6); WalkNorth8(6),143
+0262,,7,12,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10,,,,0x40E3,End(12); Message(11); ReleaseAll(11); CloseMessage(10); CompareVarValue(9); JumpIf(9); FadeScreen(8); WaitFadeScreen(8); CloseTouchScreen(7); MecScript(6),134
+0263,,1,21,0,0; 1; 5; 6; 7; 10; 11; 12; 13; 14; 15,0x4000; 0x4000; 0x4002; 0x4002; 0x4004; 0x4004,,255,0x8000,CompareVarValue(20); Message(18); JumpIf(15); Jump(11); TextNumber(10); Return(9); CallIf(6); CheckItemSpace(6); PlaySound(6); GiveItem(6),172
+0264,,6,11,0,0,,,,0x8000,Call(19); Jump(12); CompareVarValue(12); JumpIf(12); PlayFanfare(6); LockAll(6); SetVar(6); SetVarFromVariable(6); Return(4); CreateMultiTouchBox(4),102
+0265,,2,42,0,0; 1; 2; 3; 4; 5; 6; 9; 10; 11; 12; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36; 37; 38; 39; 40; 41; 47; 48; 49; 50,,,103; 104; 2450; 2462,0x408E; 0x8000; 0x8001; 0x800C,Message(47); CompareVarValue(43); JumpIf(42); CloseMessage(24); End(24); WaitButton(23); ReleaseAll(23); CloseTouchScreen(20); Jump(17); HideMoney(14),401
+0266,,0,0,0,,,,,,,0
+0267,,0,0,0,,,,,,,0
+0268,,0,0,0,,,,,,,0
+0269,,0,0,0,,,,,,,0
+0270,,0,0,0,,,,,,,0
+0271,,0,0,0,,,,,,,0
+0272,,0,0,0,,,,,,,0
+0273,,0,0,0,,,,,,,0
+0274,,0,0,0,,,,,,,0
+0275,,0,0,0,,,,,,,0
+0276,,0,0,0,,,,,,,0
+0277,,0,0,0,,,,,,,0
+0278,,0,0,0,,,,,,,0
+0279,,0,0,0,,,,,,,0
+0280,,0,0,0,,,,,,,0
+0281,,0,0,0,,,,,,,0
+0282,,0,0,0,,,,,,,0
+0283,,0,0,0,,,,,,,0
+0284,,0,0,0,,,,,,,0
+0285,,0,0,0,,,,,,,0
+0286,,0,0,0,,,,,,,0
+0287,,0,0,0,,,,,,,0
+0288,,0,0,0,,,,,,,0
+0289,,0,0,0,,,,,,,0
+0290,,0,0,0,,,,,,,0
+0291,,0,0,0,,,,,,,0
+0292,,0,0,0,,,,,,,0
+0293,,0,0,0,,,,,,,0
+0294,,0,0,0,,,,,,,0
+0295,,0,0,0,,,,,,,0
+0296,,0,0,0,,,,,,,0
+0297,,0,0,0,,,,,,,0
+0298,,0,0,0,,,,,,,0
+0299,,0,0,0,,,,,,,0
+0300,,0,0,0,,,,,,,0
+0301,,0,0,0,,,,,,,0
+0302,,0,0,0,,,,,,,0
+0303,,0,0,0,,,,,,,0
+0304,,0,0,0,,,,,,,0
+0305,,0,0,0,,,,,,,0
+0306,,0,0,0,,,,,,,0
+0307,,0,0,0,,,,,,,0
+0308,,0,0,0,,,,,,,0
+0309,,0,0,0,,,,,,,0
+0310,,0,0,0,,,,,,,0
+0311,,0,0,0,,,,,,,0
+0312,,0,0,0,,,,,,,0
+0313,,0,0,0,,,,,,,0
+0314,,0,0,0,,,,,,,0
+0315,,0,0,0,,,,,,,0
+0316,,0,0,0,,,,,,,0
+0317,,0,0,0,,,,,,,0
+0318,,0,0,0,,,,,,,0
+0319,,0,0,0,,,,,,,0
+0320,,0,0,0,,,,,,,0
+0321,,0,0,0,,,,,,,0
+0322,,0,0,0,,,,,,,0
+0323,,0,0,0,,,,,,,0
+0324,,0,0,0,,,,,,,0
+0325,,0,0,0,,,,,,,0
+0326,,0,0,0,,,,,,,0
+0327,,0,0,0,,,,,,,0
+0328,,0,0,0,,,,,,,0
+0329,,0,0,0,,,,,,,0
+0330,,0,0,0,,,,,,,0
+0331,,0,0,0,,,,,,,0
+0332,,0,0,0,,,,,,,0
+0333,,0,0,0,,,,,,,0
+0334,,0,0,0,,,,,,,0
+0335,,0,0,0,,,,,,,0
+0336,,0,0,0,,,,,,,0
+0337,,0,0,0,,,,,,,0
+0338,,0,0,0,,,,,,,0
+0339,,0,0,0,,,,,,,0
+0340,,0,0,0,,,,,,,0
+0341,,0,0,0,,,,,,,0
+0342,,0,0,0,,,,,,,0
+0343,,0,0,0,,,,,,,0
+0344,,0,0,0,,,,,,,0
+0345,,0,0,0,,,,,,,0
+0346,,0,0,0,,,,,,,0
+0347,,0,0,0,,,,,,,0
+0348,,0,0,0,,,,,,,0
+0349,,0,0,0,,,,,,,0
+0350,,0,0,0,,,,,,,0
+0351,,0,0,0,,,,,,,0
+0352,,0,0,0,,,,,,,0
+0353,,0,0,0,,,,,,,0
+0354,,0,0,0,,,,,,,0
+0355,,0,0,0,,,,,,,0
+0356,,0,0,0,,,,,,,0
+0357,,0,0,0,,,,,,,0
+0358,,0,0,0,,,,,,,0
+0359,,0,0,0,,,,,,,0
+0360,,0,0,0,,,,,,,0
+0361,,0,0,0,,,,,,,0
+0362,,0,0,0,,,,,,,0
+0363,,0,0,0,,,,,,,0
+0364,,0,0,0,,,,,,,0
+0365,,0,0,0,,,,,,,0
+0366,,0,0,0,,,,,,,0
+0367,,0,0,0,,,,,,,0
+0368,,0,0,0,,,,,,,0
+0369,,0,0,0,,,,,,,0
+0370,,0,0,0,,,,,,,0
+0371,,0,0,0,,,,,,,0
+0372,,0,0,0,,,,,,,0
+0373,,0,0,0,,,,,,,0
+0374,,0,0,0,,,,,,,0
+0375,,0,0,0,,,,,,,0
+0376,,0,0,0,,,,,,,0
+0377,,0,0,0,,,,,,,0
+0378,,0,0,0,,,,,,,0
+0379,,0,0,0,,,,,,,0
+0380,,0,0,0,,,,,,,0
+0381,,0,0,0,,,,,,,0
+0382,,0,0,0,,,,,,,0
+0383,,0,0,0,,,,,,,0
+0384,,0,0,0,,,,,,,0
+0385,,0,0,0,,,,,,,0
+0386,,0,0,0,,,,,,,0
+0387,,0,0,0,,,,,,,0
+0388,,0,0,0,,,,,,,0
+0389,,0,0,0,,,,,,,0
+0390,,0,0,0,,,,,,,0
+0391,,0,0,0,,,,,,,0
+0392,,0,0,0,,,,,,,0
+0393,,0,0,0,,,,,,,0
+0394,,0,0,0,,,,,,,0
+0395,,0,0,0,,,,,,,0
+0396,,0,0,0,,,,,,,0
+0397,,0,0,0,,,,,,,0
+0398,,0,0,0,,,,,,,0
+0399,,0,0,0,,,,,,,0
+0400,,0,0,0,,,,,,,0
+0401,,0,0,0,,,,,,,0
+0402,,0,0,0,,,,,,,0
+0403,,0,0,0,,,,,,,0
+0404,,0,0,0,,,,,,,0
+0405,,0,0,0,,,,,,,0
+0406,,0,0,0,,,,,,,0
+0407,,0,0,0,,,,,,,0
+0408,,0,0,0,,,,,,,0
+0409,,0,0,0,,,,,,,0
+0410,,0,0,0,,,,,,,0
+0411,,0,0,0,,,,,,,0
+0412,,0,0,0,,,,,,,0
+0413,,0,0,0,,,,,,,0
+0414,,0,0,0,,,,,,,0
+0415,,0,0,0,,,,,,,0
+0416,,0,0,0,,,,,,,0
+0417,,0,0,0,,,,,,,0
+0418,,0,0,0,,,,,,,0
+0419,,0,0,0,,,,,,,0
+0420,,0,0,0,,,,,,,0
+0421,,0,0,0,,,,,,,0
+0422,,0,0,0,,,,,,,0
+0423,,0,0,0,,,,,,,0
+0424,,0,0,0,,,,,,,0
+0425,,0,0,0,,,,,,,0
+0426,,0,0,0,,,,,,,0
+0427,,0,0,0,,,,,,,0
+0428,,0,0,0,,,,,,,0
+0429,,0,0,0,,,,,,,0
+0430,,0,0,0,,,,,,,0
+0431,,0,0,0,,,,,,,0
+0432,,0,0,0,,,,,,,0
+0433,,0,0,0,,,,,,,0
+0434,,0,0,0,,,,,,,0
+0435,,0,0,0,,,,,,,0
+0436,,0,0,0,,,,,,,0
+0437,,0,0,0,,,,,,,0
+0438,,0,0,0,,,,,,,0
+0439,,0,0,0,,,,,,,0
+0440,,0,0,0,,,,,,,0
+0441,,0,0,0,,,,,,,0
+0442,,0,0,0,,,,,,,0
+0443,,0,0,0,,,,,,,0
+0444,,0,0,0,,,,,,,0
+0445,,0,0,0,,,,,,,0
+0446,,0,0,0,,,,,,,0
+0447,,0,0,0,,,,,,,0
+0448,,0,0,0,,,,,,,0
+0449,,0,0,0,,,,,,,0
+0450,,0,0,0,,,,,,,0
+0451,,0,0,0,,,,,,,0
+0452,,0,0,0,,,,,,,0
+0453,,0,0,0,,,,,,,0
+0454,,0,0,0,,,,,,,0
+0455,,0,0,0,,,,,,,0
+0456,,0,0,0,,,,,,,0
+0457,,0,0,0,,,,,,,0
+0458,,0,0,0,,,,,,,0
+0459,,0,0,0,,,,,,,0
+0460,,0,0,0,,,,,,,0
+0461,,0,0,0,,,,,,,0
+0462,,0,0,0,,,,,,,0
+0463,,0,0,0,,,,,,,0
+0464,,0,0,0,,,,,,,0
+0465,,0,0,0,,,,,,,0
+0466,,0,0,0,,,,,,,0
+0467,,0,0,0,,,,,,,0
+0468,,0,0,0,,,,,,,0
+0469,,0,0,0,,,,,,,0
+0470,,0,0,0,,,,,,,0
+0471,,0,0,0,,,,,,,0
+0472,,0,0,0,,,,,,,0
+0473,,0,0,0,,,,,,,0
+0474,,0,0,0,,,,,,,0
+0475,,0,0,0,,,,,,,0
+0476,,0,0,0,,,,,,,0
+0477,,0,0,0,,,,,,,0
+0478,,0,0,0,,,,,,,0
+0479,,0,0,0,,,,,,,0
+0480,,0,0,0,,,,,,,0
+0481,,0,0,0,,,,,,,0
+0482,,0,0,0,,,,,,,0
+0483,,0,0,0,,,,,,,0
+0484,,0,0,0,,,,,,,0
+0485,,0,0,0,,,,,,,0
+0486,,0,0,0,,,,,,,0
+0487,,0,0,0,,,,,,,0
+0488,,0,0,0,,,,,,,0
+0489,,0,0,0,,,,,,,0
+0490,,0,0,0,,,,,,,0
+0491,,0,0,0,,,,,,,0
+0492,,0,0,0,,,,,,,0
+0493,,0,0,0,,,,,,,0
+0494,,0,0,0,,,,,,,0
+0495,,0,0,0,,,,,,,0
+0496,,0,0,0,,,,,,,0
+0497,,0,0,0,,,,,,,0
+0498,,0,0,0,,,,,,,0
+0499,,0,0,0,,,,,,,0
+0500,,0,0,0,,,,,,,0
+0501,,0,0,0,,,,,,,0
+0502,,0,0,0,,,,,,,0
+0503,,0,0,0,,,,,,,0
+0504,,0,0,0,,,,,,,0
+0505,,0,0,0,,,,,,,0
+0506,,0,0,0,,,,,,,0
+0507,,0,0,0,,,,,,,0
+0508,,0,0,0,,,,,,,0
+0509,,0,0,0,,,,,,,0
+0510,,0,0,0,,,,,,,0
+0511,,0,0,0,,,,,,,0
+0512,,0,0,0,,,,,,,0
+0513,,0,0,0,,,,,,,0
+0514,,0,0,0,,,,,,,0
+0515,,0,0,0,,,,,,,0
+0516,,0,0,0,,,,,,,0
+0517,,0,0,0,,,,,,,0
+0518,,0,0,0,,,,,,,0
+0519,,0,0,0,,,,,,,0
+0520,,0,0,0,,,,,,,0
+0521,,0,0,0,,,,,,,0
+0522,,0,0,0,,,,,,,0
+0523,,0,0,0,,,,,,,0
+0524,,0,0,0,,,,,,,0
+0525,,0,0,0,,,,,,,0
+0526,,0,0,0,,,,,,,0
+0527,,0,0,0,,,,,,,0
+0528,,0,0,0,,,,,,,0
+0529,,0,0,0,,,,,,,0
+0530,,0,0,0,,,,,,,0
+0531,,0,0,0,,,,,,,0
+0532,,0,0,0,,,,,,,0
+0533,,0,0,0,,,,,,,0
+0534,,0,0,0,,,,,,,0
+0535,,0,0,0,,,,,,,0
+0536,,0,0,0,,,,,,,0
+0537,,0,0,0,,,,,,,0
+0538,,0,0,0,,,,,,,0
+0539,,0,0,0,,,,,,,0
+0540,,0,0,0,,,,,,,0
+0541,,0,0,0,,,,,,,0
+0542,,0,0,0,,,,,,,0
+0543,,0,0,0,,,,,,,0
+0544,,0,0,0,,,,,,,0
+0545,,0,0,0,,,,,,,0
+0546,,0,0,0,,,,,,,0
+0547,,0,0,0,,,,,,,0
+0548,,0,0,0,,,,,,,0
+0549,,0,0,0,,,,,,,0
+0550,,0,0,0,,,,,,,0
+0551,,0,0,0,,,,,,,0
+0552,,0,0,0,,,,,,,0
+0553,,0,0,0,,,,,,,0
+0554,,0,0,0,,,,,,,0
+0555,,0,0,0,,,,,,,0
+0556,,0,0,0,,,,,,,0
+0557,,0,0,0,,,,,,,0
+0558,,0,0,0,,,,,,,0
+0559,,0,0,0,,,,,,,0
+0560,,0,0,0,,,,,,,0
+0561,,0,0,0,,,,,,,0
+0562,,0,0,0,,,,,,,0
+0563,,0,0,0,,,,,,,0
+0564,,0,0,0,,,,,,,0
+0565,,0,0,0,,,,,,,0
+0566,,0,0,0,,,,,,,0
+0567,,0,0,0,,,,,,,0
+0568,,0,0,0,,,,,,,0
+0569,,0,0,0,,,,,,,0
+0570,,0,0,0,,,,,,,0
+0571,,0,0,0,,,,,,,0
+0572,,0,0,0,,,,,,,0
+0573,,0,0,0,,,,,,,0
+0574,,0,0,0,,,,,,,0
+0575,,0,0,0,,,,,,,0
+0576,,0,0,0,,,,,,,0
+0577,,0,0,0,,,,,,,0
+0578,,0,0,0,,,,,,,0
+0579,,0,0,0,,,,,,,0
+0580,,0,0,0,,,,,,,0
+0581,,0,0,0,,,,,,,0
+0582,,0,0,0,,,,,,,0
+0583,,0,0,0,,,,,,,0
+0584,,0,0,0,,,,,,,0
+0585,,0,0,0,,,,,,,0
+0586,,0,0,0,,,,,,,0
+0587,,0,0,0,,,,,,,0
+0588,,0,0,0,,,,,,,0
+0589,,0,0,0,,,,,,,0
+0590,,0,0,0,,,,,,,0
+0591,,0,0,0,,,,,,,0
+0592,,0,0,0,,,,,,,0
+0593,,0,0,0,,,,,,,0
+0594,,0,0,0,,,,,,,0
+0595,,0,0,0,,,,,,,0
+0596,,0,0,0,,,,,,,0
+0597,,0,0,0,,,,,,,0
+0598,,0,0,0,,,,,,,0
+0599,,0,0,0,,,,,,,0
+0600,,0,0,0,,,,,,,0
+0601,,0,0,0,,,,,,,0
+0602,,0,0,0,,,,,,,0
+0603,,0,0,0,,,,,,,0
+0604,,0,0,0,,,,,,,0
+0605,,0,0,0,,,,,,,0
+0606,,0,0,0,,,,,,,0
+0607,,0,0,0,,,,,,,0
+0608,,0,0,0,,,,,,,0
+0609,,0,0,0,,,,,,,0
+0610,,0,0,0,,,,,,,0
+0611,,0,0,0,,,,,,,0
+0612,,0,0,0,,,,,,,0
+0613,,0,0,0,,,,,,,0
+0614,,0,0,0,,,,,,,0
+0615,,0,0,0,,,,,,,0
+0616,,0,0,0,,,,,,,0
+0617,,0,0,0,,,,,,,0
+0618,,0,0,0,,,,,,,0
+0619,,0,0,0,,,,,,,0
+0620,,0,0,0,,,,,,,0
+0621,,0,0,0,,,,,,,0
+0622,,0,0,0,,,,,,,0
+0623,,0,0,0,,,,,,,0
+0624,,0,0,0,,,,,,,0
+0625,,0,0,0,,,,,,,0
+0626,,0,0,0,,,,,,,0
+0627,,0,0,0,,,,,,,0
+0628,,0,0,0,,,,,,,0
+0629,,0,0,0,,,,,,,0
+0630,,0,0,0,,,,,,,0
+0631,,0,0,0,,,,,,,0
+0632,,0,0,0,,,,,,,0
+0633,,0,0,0,,,,,,,0
+0634,,0,0,0,,,,,,,0
+0635,,0,0,0,,,,,,,0
+0636,,0,0,0,,,,,,,0
+0637,,0,0,0,,,,,,,0
+0638,,0,0,0,,,,,,,0
+0639,,0,0,0,,,,,,,0
+0640,,0,0,0,,,,,,,0
+0641,,0,0,0,,,,,,,0
+0642,,0,0,0,,,,,,,0
+0643,,0,0,0,,,,,,,0
+0644,,0,0,0,,,,,,,0
+0645,,0,0,0,,,,,,,0
+0646,,0,0,0,,,,,,,0
+0647,,0,0,0,,,,,,,0
+0648,,0,0,0,,,,,,,0
+0649,,0,0,0,,,,,,,0
+0650,,0,0,0,,,,,,,0
+0651,,0,0,0,,,,,,,0
+0652,,0,0,0,,,,,,,0
+0653,,0,0,0,,,,,,,0
+0654,,0,0,0,,,,,,,0
+0655,,0,0,0,,,,,,,0
+0656,,0,0,0,,,,,,,0
+0657,,0,0,0,,,,,,,0
+0658,,0,0,0,,,,,,,0
+0659,,0,0,0,,,,,,,0
+0660,,0,0,0,,,,,,,0
+0661,,0,0,0,,,,,,,0
+0662,,0,0,0,,,,,,,0
+0663,,0,0,0,,,,,,,0
+0664,,0,0,0,,,,,,,0
+0665,,0,0,0,,,,,,,0
+0666,,0,0,0,,,,,,,0
+0667,,0,0,0,,,,,,,0
+0668,,0,0,0,,,,,,,0
+0669,,0,0,0,,,,,,,0
+0670,,0,0,0,,,,,,,0
+0671,,0,0,0,,,,,,,0
+0672,,0,0,0,,,,,,,0
+0673,,0,0,0,,,,,,,0
+0674,,0,0,0,,,,,,,0
+0675,,0,0,0,,,,,,,0
+0676,,0,0,0,,,,,,,0
+0677,,0,0,0,,,,,,,0
+0678,,0,0,0,,,,,,,0
+0679,,0,0,0,,,,,,,0
+0680,,0,0,0,,,,,,,0
+0681,,0,0,0,,,,,,,0
+0682,,0,0,0,,,,,,,0
+0683,,0,0,0,,,,,,,0
+0684,,0,0,0,,,,,,,0
+0685,,0,0,0,,,,,,,0
+0686,,0,0,0,,,,,,,0
+0687,,0,0,0,,,,,,,0
+0688,,0,0,0,,,,,,,0
+0689,,0,0,0,,,,,,,0
+0690,,0,0,0,,,,,,,0
+0691,,0,0,0,,,,,,,0
+0692,,0,0,0,,,,,,,0
+0693,,0,0,0,,,,,,,0
+0694,,0,0,0,,,,,,,0
+0695,,0,0,0,,,,,,,0
+0696,,0,0,0,,,,,,,0
+0697,,0,0,0,,,,,,,0
+0698,,0,0,0,,,,,,,0
+0699,,0,0,0,,,,,,,0
+0700,,0,0,0,,,,,,,0
+0701,,0,0,0,,,,,,,0
+0702,,0,0,0,,,,,,,0
+0703,,0,0,0,,,,,,,0
+0704,,0,0,0,,,,,,,0
+0705,,0,0,0,,,,,,,0
+0706,,0,0,0,,,,,,,0
+0707,,0,0,0,,,,,,,0
+0708,,0,0,0,,,,,,,0
+0709,,0,0,0,,,,,,,0
+0710,,0,0,0,,,,,,,0
+0711,,0,0,0,,,,,,,0
+0712,,0,0,0,,,,,,,0
+0713,,0,0,0,,,,,,,0
+0714,,0,0,0,,,,,,,0
+0715,,0,0,0,,,,,,,0
+0716,,0,0,0,,,,,,,0
+0717,,0,0,0,,,,,,,0
+0718,,0,0,0,,,,,,,0
+0719,,0,0,0,,,,,,,0
+0720,,0,0,0,,,,,,,0
+0721,,0,0,0,,,,,,,0
+0722,,0,0,0,,,,,,,0
+0723,,0,0,0,,,,,,,0
+0724,,0,0,0,,,,,,,0
+0725,,0,0,0,,,,,,,0
+0726,,0,0,0,,,,,,,0
+0727,,0,0,0,,,,,,,0
+0728,,0,0,0,,,,,,,0
+0729,,0,0,0,,,,,,,0
+0730,,0,0,0,,,,,,,0
+0731,,0,0,0,,,,,,,0
+0732,,0,0,0,,,,,,,0
+0733,,0,0,0,,,,,,,0
+0734,,0,0,0,,,,,,,0
+0735,HAMPELL TOWN,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0736,,2,0,0,0; 2,,,,,PlayFanfare(2); LockAll(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2); FacePlayer(1),15
+0737,,2,0,0,0; 1,,,,,PlayFanfare(2); LockAll(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2),14
+0738,,1,14,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12,,,2728,0x4004; 0x8004,Message(19); JumpIf(15); CompareVarValue(14); CloseMessage(12); End(12); WaitButton(11); ReleaseAll(11); CMD_828(4); PlayFanfare(3); Jump(3),153
+0739,,2,0,0,0; 1,,,,,PlayFanfare(2); LockAll(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2),14
+0740,,11,53,15,8; 13; 14; 21; 22; 23; 28; 29; 30; 31; 32; 33; 34; 35; 36; 41; 42; 43; 44; 45; 46; 47; 48; 49; 50; 51; 52; 53; 54; 55; 56; 57,,0x8004; 0x8004,188; 2440; 298; 299; 389; 766; 767; 768,0x4000; 0x40F9; 0x4110; 0x4131; 0x8004; 0x8005; 0x8006,JumpIf(72); CompareVarValue(67); Message(48); End(44); CloseMessage(42); Jump(31); Movement(29); SetVar(27); WaitMovement(23); ReleaseAll(22),666
+0741,UNDARA CAVE 1,12,16,6,0; 1; 2; 3; 4; 5; 6; 7,,,300; 302; 393; 638,0x4096; 0x4121; 0x8004; 0x8005; 0x8006,End(28); JumpIf(15); CloseMessage(14); ReleaseAll(13); WaitButton(12); CompareVarValue(11); LockAll(9); Message(9); Movement(9); SetVar(8),260
+0742,,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0743,,5,28,18,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10,,,2431; 2456; 314; 382; 663; 758; 783,0x4096; 0x4127; 0x8004; 0x8005,End(33); JumpIf(25); Movement(25); CompareVarValue(23); Jump(18); Message(12); ReleaseAll(11); CloseMessage(10); SetFlag(8); SetVar(8),281
+0744,,4,1,0,0; 1; 2; 3,,,297,0x8007,End(5); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); PlayFanfare(3); LockAll(3); FacePlayer(3); SetVar(1); CommonScript(1),34
+0745,,1,0,0,,,,,,End(1),1
+0746,DALI 10 HS53,4,0,0,0; 1; 2; 3,,,,,PlayFanfare(4); LockAll(4); FacePlayer(4); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4); PlayCry(2); WaitCry(2),36
+0747,,8,0,0,0; 1; 2; 3; 4; 5; 6; 7,,,,,PlayFanfare(8); LockAll(8); Message(8); WaitButton(8); CloseMessage(8); ReleaseAll(8); End(8); FacePlayer(6),62
+0748,,4,4,4,0; 2; 3; 4; 5; 6; 7; 8; 9; 11; 12,,,374; 603,0x40E5; 0x412E,Message(13); End(9); SetVar(8); Movement(7); WaitMovement(7); JumpIf(6); CloseMessage(6); CloseTouchScreen(5); CompareVarValue(5); ReleaseAll(5),126
+0749,RADE 23 GV13,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0750,,14,43,12,0; 1; 2; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19,,,147; 148; 164; 393; 578; 579; 580; 581; 638; 780; 781; 786; 791,0x400A; 0x4083; 0x8004; 0x8005,JumpIf(46); CompareVarValue(43); End(41); Jump(27); CloseMessage(25); Message(23); Movement(17); CheckVersion(15); ReleaseAll(15); ClearFlag(15),473
+0751,T03FS0101,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0752,T03GYM0101,4,19,0,0; 1; 2; 5; 6; 7; 8; 9,,,383; 756,0x8004; 0x8005,JumpIf(16); CompareVarValue(14); End(12); Jump(11); Message(9); CloseMessage(8); ReleaseAll(8); SetFlag(8); WaitButton(6); TextPlayerName(5),133
+0753,T03PC0101,5,3,0,0; 1; 2; 3; 4; 5; 6; 7,,,307,0x8007,End(8); Message(8); CloseMessage(8); WaitButton(7); ReleaseAll(7); PlayFanfare(4); LockAll(4); FacePlayer(4); JumpIf(4); CompareVarValue(2),80
+0754,T03PC0102,1,0,0,,,,,,End(1),1
+0755,MELT 07 FOSSI; T03R0101,20,52,17,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 21; 22; 23; 24; 25; 26; 27; 28; 29,ITEM_ENIGMA_STONE; ITEM_ENIGMA_STONE; ITEM_OLD_AMBER; ITEM_HELIX_FOSSIL; ITEM_DOME_FOSSIL; ITEM_ROOT_FOSSIL; ITEM_CLAW_FOSSIL; ITEM_ARMOR_FOSSIL; ITEM_SKULL_FOSSIL; ITEM_ENIGMA_STONE; ITEM_ENIGMA_STONE; 0x8002; 0x4000; 0x4000; 0x4000; 0x4000; 0x4000; 0x4000; 0x4000; 0x8002; ITEM_ENIGMA_STONE,0x407F,1; 393; 638; 776; 791,0x4000; 0x4001; 0x4002; 0x4003; 0x4004; 0x4005; 0x4006; 0x4007; 0x407F; 0x4083; 0x4130; 0x8001; 0x8004; 0x8005,CompareVarValue(72); End(52); JumpIf(40); Message(36); CloseMessage(36); CallIf(35); Movement(34); SetVar(31); WaitMovement(30); ReleaseAll(26),742
+0756,T03R0201,2,0,0,0; 1,,,,,PlayFanfare(2); LockAll(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2); PlayCry(1); WaitCry(1),16
+0757,T03R0601,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0758,,14,14,6,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12,,,280; 393; 638,,End(28); CloseMessage(15); JumpIf(14); WaitButton(14); ReleaseAll(14); Message(13); CompareVarValue(12); LockAll(11); Movement(9); PlayFanfare(8),260
+0759,TROO 04 PM09,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0760,SYDT 04 GYM04,5,37,0,0; 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 19; 20; 21; 22; 23; 24,,1475,187; 2630; 2631; 2632; 2633; 2634; 2635; 2636; 2637; 2638,0x4000; 0x5116; 0x8004; 0x8005; 0x800C,SetVar(27); Message(26); CloseMessage(25); JumpIf(23); WaitButton(23); Return(23); CompareVarValue(19); End(16); ReleaseAll(13); Call(12),303
+0761,,3,0,0,0; 1,,,,0x8007,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); SetVar(1); CommonScript(1),19
+0762,T04PC0102,1,0,0,,,,,,End(1),1
+0763,,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0764,,3,0,0,0; 1; 2,,,,,PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); End(3); PlayCry(1); WaitCry(1),26
+0765,,4,0,0,0; 1; 2; 3,,,,,PlayFanfare(4); LockAll(4); FacePlayer(4); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4); PlayCry(2); WaitCry(2),36
+0766,,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0767,,8,0,0,0; 1; 2; 3,,,,,End(8); PlayFanfare(4); LockAll(4); FacePlayer(4); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); ShowBoard(4); WaitBoard(4),56
+0768,,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0769,,4,0,0,0; 1; 2,,,,0x8007,End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); SetVar(1); CommonScript(1),27
+0770,T05PC0102,1,0,0,,,,,,End(1),1
+0771,,5,0,0,0; 1; 2; 3; 4,,,,,PlayFanfare(5); LockAll(5); FacePlayer(5); Message(5); WaitButton(5); CloseMessage(5); ReleaseAll(5); End(5); PlayCry(3); WaitCry(3),46
+0772,,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0773,,1,6,0,0; 1; 2; 3; 4; 5; 6; 7; 8,,,,0x800C,Message(9); CloseMessage(7); CompareVarValue(6); JumpIf(6); WaitButton(5); ReleaseAll(5); End(5); FadeScreen(4); WaitFadeScreen(4); TextPokeNickname(4),75
+0774,,4,0,0,0; 1; 2; 3,,,,,PlayFanfare(4); LockAll(4); FacePlayer(4); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4),32
+0775,,7,3,0,0; 1; 2; 3; 6; 7; 8; 9; 10; 11,,,138; 280; 287,,Message(11); WaitButton(10); CloseMessage(10); ReleaseAll(10); End(10); PlayFanfare(7); LockAll(7); FacePlayer(5); CheckFlag(4); JumpIf(4),84
+0776,,14,26,39,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23,,,247; 393; 638; 671; 672; 676; 692; 765,0x4070; 0x4071; 0x4085; 0x4086; 0x4130; 0x8004; 0x8005,End(67); Movement(60); CloseMessage(34); WaitMovement(31); Message(28); ReleaseAll(21); SetFlag(21); JumpIf(20); SetVar(20); CompareVarValue(18),628
+0777,DALI 03 PM07,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0778,DALI 04 GYM06,30,58,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28,,SPECIES_TOXEL,187; 2470; 2650; 2651; 2652; 2653; 2654; 2655; 2656; 2657; 2658; 330; 354; 385; 752; 794,0x4000; 0x511A; 0x8004; 0x8005; 0x800C,JumpIf(48); End(46); Message(42); CloseMessage(39); CompareVarValue(35); WaitButton(35); ReleaseAll(27); Jump(25); SetVar(25); SetFlag(21),530
+0779,,4,1,0,0; 1; 2; 3,,,371,0x8007,End(5); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); PlayFanfare(3); LockAll(3); FacePlayer(3); SetVar(1); CommonScript(1),34
+0780,SHED 02 PCR08,1,0,0,,,,,,End(1),1
+0781,HOTEL 2 HS34,2,0,0,0; 1,,,,,PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2),16
+0782,,8,7,0,0; 1; 3; 6; 7; 8; 9; 10; 11; 13; 14; 15; 16; 17; 18,,,248; 280; 281; 764; 765,0x4130; 0x8004; 0x8005,End(15); Message(15); CloseMessage(14); ReleaseAll(14); WaitButton(13); PlayFanfare(8); LockAll(8); FacePlayer(8); JumpIf(8); SetVar(5),132
+0783,HOTEL 2 HS35,2,0,0,0; 1,,,,,PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2),16
+0784,TROO 06 HS36,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0785,,19,33,8,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29,,,393; 605; 638; 737,0x4005,CloseMessage(42); End(42); Message(40); JumpIf(31); CompareVarValue(30); Movement(29); WaitMovement(24); WaitButton(22); ReleaseAll(22); LockAll(20),515
+0786,DANB 05 GYM03,5,33,0,0; 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 19; 20; 21; 22; 23; 24,,SPECIES_APPLIN,187; 2620; 2621; 2622; 2623; 2624; 2625; 2626; 2627; 2628,0x4000; 0x5114; 0x8004; 0x8005; 0x800C,SetVar(27); Message(26); CloseMessage(25); JumpIf(23); WaitButton(23); End(18); Return(17); ReleaseAll(15); Call(14); CompareVarValue(13),281
+0787,,4,0,0,0; 1; 2,,,,0x8007,End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); SetVar(1); CommonScript(1),27
+0788,,1,0,0,,,,,,End(1),1
+0789,DEPART 2 F1,4,0,0,0; 1; 2; 3,,,,,PlayFanfare(4); LockAll(4); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4); FacePlayer(3),31
+0790,DEPART 2 F2,8,20,15,0; 1; 2; 3; 4; 5; 6; 7; 8; 9,ITEM_FASHION_CASE,,393; 638; 735; 787,0x8004; 0x8005,End(31); Movement(21); CompareVarValue(19); JumpIf(18); Message(15); SetVar(14); ReleaseAll(13); WaitMovement(13); CloseMessage(12); LockAll(10),327
+0791,DEPART 2 F3,6,0,0,0; 1; 2; 3; 4,,,,0x8004,PlayFanfare(6); LockAll(6); ReleaseAll(6); End(6); FacePlayer(5); Message(5); WaitButton(5); CloseMessage(5); CommonScript(2); FreezeMessage(1),48
+0792,DEPART 2 F4,7,15,3,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18,,,393; 608; 738,0x4004; 0x8004,End(19); Message(19); JumpIf(15); CloseMessage(14); CompareVarValue(14); ReleaseAll(10); PlayFanfare(9); LockAll(9); WaitButton(9); FacePlayer(7),193
+0793,DEPART 2 F5,6,0,0,0; 1; 2; 3,,,,0x8004,PlayFanfare(6); LockAll(6); ReleaseAll(6); End(6); FacePlayer(5); CommonScript(4); Message(4); WaitButton(4); CloseMessage(4); FreezeMessage(2),49
+0794,DEPART 2 F6,4,15,0,0; 1; 2; 3; 4; 5; 6; 7,,,,0x8001; 0x8005,CompareVarValue(13); Message(10); Jump(8); JumpIf(7); PlayFanfare(6); CallIf(6); Return(6); CloseMessage(5); ReleaseAll(5); End(5),114
+0795,DEPART 2 ELV,1,56,1,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10,,,,0x4113; 0x8004; 0x8005,CompareVarValue(66); JumpIf(54); Jump(49); SetVar(47); CallIf(12); Call(12); Message(11); WaitTime(8); GetElevatorFloor(7); CreateMultiTouchBox(7),320
+0796,HOTEL 1 F1,6,0,0,0; 1; 2; 3; 4,,,,0x4125,End(6); PlayFanfare(5); LockAll(5); Message(5); WaitButton(5); CloseMessage(5); ReleaseAll(5); FacePlayer(4); PlayCry(3); WaitCry(3),47
+0797,HOTEL 1 F2; HOTEL 1 F4,3,0,0,0; 1,,,,0x4125,End(3); PlayFanfare(2); LockAll(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); SetVar(1),16
+0798,,14,6,9,0; 1; 2; 3; 4; 5; 6; 7; 8; 10; 11; 16; 17; 18; 19; 20; 21,,,323; 324,0x4125; 0x412C; 0x8004; 0x8005,End(29); CloseMessage(21); Message(20); ReleaseAll(17); WaitButton(16); LockAll(12); PlayFanfare(11); JumpIf(9); Movement(9); WalkWest8(7),245
+0799,DEPART 2 ROOF,2,0,0,0,,,,0x4125,End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); SetVar(1),10
+0800,DEPART 2 ROOM,1,3,0,0; 1; 2; 3,,,344,0x8004; 0x8005,Message(5); JumpIf(4); CloseMessage(4); ReleaseAll(4); End(4); CompareVarValue(3); WaitButton(3); SetVar(2); CommonScript(2); PlayFanfare(1),38
+0801,HOTEL 2 B1,1,0,0,,,,,,End(1),1
+0802,,1,11,2,0; 1; 2; 3; 4; 5; 6,,,,0x4113; 0x4125; 0x8004,CompareVarValue(9); JumpIf(9); Message(8); SetVar(8); End(7); Jump(6); CloseMessage(4); Movement(3); WaitMovement(3); GetElevatorFloor(3),98
+0803,RT 7 SCIENCE,24,27,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22,ITEM_COIN_CASE; ITEM_COIN_CASE; ITEM_COIN_CASE,,380,0x4001,ReleaseAll(43); End(43); JumpIf(28); FadeScreen(28); WaitFadeScreen(28); CompareVarValue(27); PlayFanfare(26); Message(26); LockAll(24); CloseMessage(18),429
+0804,RADE 20 TBD,5,55,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19,0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004,0x4002; 0x4002,370,0x8004; 0x8005,JumpIf(94); CompareVarValue(93); Message(71); Jump(56); TextItem(30); PlayFanfare(27); CreateMultiTouchBox(26); TakeCoins(24); GetCoins(23); UpdateSpecialCurrency(22),666
+0805,RADE 21 TBD,7,1,3,0; 1; 2; 3; 4; 5; 6; 7,ITEM_COIN_CASE,,,,End(11); Message(8); CloseMessage(8); ReleaseAll(8); PlayFanfare(7); LockAll(7); FacePlayer(6); Movement(6); WaitMovement(6); WaitButton(2),75
+0806,MELT 06 GAME2; T07SP0101,4,15,3,0; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14,ITEM_COIN_CASE; ITEM_COIN_CASE; ITEM_COIN_CASE; ITEM_COIN_CASE,,,0x4001; 0x8004; 0x8005,Message(17); CompareVarValue(12); JumpIf(12); Jump(11); SetVar(9); End(9); CloseMessage(6); ReleaseAll(6); Movement(5); WaitButton(5),135
+0807,SEWER ROOM 03,10,30,7,0; 1; 2; 7; 8; 9; 10; 11; 12; 13; 14; 15,ITEM_RED_SHARD; ITEM_BLUE_SHARD; ITEM_YELLOW_SHARD; ITEM_GREEN_SHARD; ITEM_BLUE_SHARD; ITEM_YELLOW_SHARD; ITEM_GREEN_SHARD; ITEM_YELLOW_SHARD; ITEM_GREEN_SHARD; ITEM_GREEN_SHARD; ITEM_RED_SHARD; ITEM_BLUE_SHARD; ITEM_YELLOW_SHARD; ITEM_GREEN_SHARD,,329; 393; 638,0x8000; 0x8001; 0x8002; 0x8003; 0x8004; 0x8005; 0x8006,SetVar(73); JumpIf(72); CompareVarValue(71); End(25); CreateMultiTouchBox(20); CommonScript(16); Jump(15); FaceSouth(13); Message(12); CloseMessage(12),562
+0808,T08FS0101,4,0,0,0; 2,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0809,HOTEL 2 F2; HOTEL 2 F3; HOTEL 2 F4; T08GYM0101,1,0,0,,,,,,End(1),1
+0810,T08PC0101,4,3,3,0; 1; 2; 3,,,,0x8007,End(8); FaceEast(6); FaceNorth(6); FaceWest(6); FaceSouth(6); Message(5); WaitButton(4); CloseMessage(4); ReleaseAll(4); PlayFanfare(3),70
+0811,T08PC0102,1,0,0,,,,,,End(1),1
+0812,T08R0201,10,68,8,2; 3; 4; 5; 6; 7; 12; 13; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 33; 34; 35; 36; 37; 38; 39; 40; 41; 42; 43; 44; 45,ITEM_FASHION_CASE; ITEM_FASHION_CASE; ITEM_FASHION_CASE; ITEM_FASHION_CASE; ITEM_FASHION_CASE,,2457; 2509; 310,0x4009; 0x4123; 0x4124; 0x8004; 0x8005; 0x8006; 0x800C,CompareVarValue(67); SetVar(44); JumpIf(39); Return(35); Message(32); CallIf(31); End(29); Jump(22); ReleaseAll(17); CloseMessage(17),508
+0813,RT 5 01 HS51; T08R0401,2,0,0,0; 1,,,,,PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2),16
+0814,DALI 10 HS52; T08R0601,4,0,0,0; 1; 2; 3,,,,,PlayFanfare(4); LockAll(4); FacePlayer(4); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4); PlayCry(3); WaitCry(3),38
+0815,,5,32,10,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19,,,296; 297; 393; 602; 637; 760; 761,0x4004,JumpIf(35); CompareVarValue(32); End(32); Message(24); Movement(17); CloseMessage(17); Jump(15); SetFlag(14); ReleaseAll(13); WaitButton(11),335
+0816,,3,0,0,0; 1,,,,0x8007,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); SetVar(1); CommonScript(1),19
+0817,,1,0,0,,,,,,End(1),1
+0818,,1,0,0,,,,,,SetTextBoard(1); ShowBoard(1); WaitBoard(1); BoardMessage(1); CommonScript(1); End(1),6
+0819,,9,24,6,0; 1; 2; 3; 4; 5; 6; 7; 11; 15,,,228; 229; 230; 231; 2729; 523; 524; 525; 526; 529; 530; 531; 532; 592,0x4005; 0x4119; 0x8004; 0x8007,CreateMultiTouchBox(36); JumpIf(26); CompareVarValue(25); Message(22); End(21); Jump(18); CloseMessage(13); ReleaseAll(11); SetVar(9); ClearFlag(9),315
+0820,,3,5,1,0; 1; 2,,,228; 523,0x4001,End(8); RemoveOW(6); ReleaseAll(5); JumpIf(5); PlayFanfare(4); Message(4); CloseMessage(4); CompareVarValue(3); LockAll(2); LockFollowingPoke(2),68
+0821,,3,5,1,0; 1; 2,,,229; 524,0x4001,End(8); RemoveOW(6); ReleaseAll(5); JumpIf(5); PlayFanfare(4); Message(4); CloseMessage(4); CompareVarValue(3); LockAll(2); LockFollowingPoke(2),68
+0822,,3,5,1,0; 1; 2,,,230; 525,0x4001,End(8); RemoveOW(6); ReleaseAll(5); JumpIf(5); PlayFanfare(4); Message(4); CloseMessage(4); CompareVarValue(3); LockAll(2); LockFollowingPoke(2),69
+0823,,3,5,1,0; 1; 2,,,231; 526,0x4001,End(8); RemoveOW(6); ReleaseAll(5); JumpIf(5); PlayFanfare(4); Message(4); CloseMessage(4); CompareVarValue(3); LockAll(2); LockFollowingPoke(2),69
+0824,,3,12,21,5; 8; 11,,,2404; 528; 593,0x40C8; 0x411A,Movement(49); WaitMovement(35); End(29); JumpIf(18); CloseMessage(17); CompareVarValue(14); LockFollowingPoke(11); WaitFollowingPoke(11); SetFollowingPokeMovement(11); TextPlayerName(10),382
+0825,,2,26,3,,ITEM_SS_TICKET,,2404; 2430; 2456; 249; 278; 279; 330; 361; 362; 363; 364; 365; 371; 373; 378; 379; 395; 450; 483; 578; 579; 607; 663; 716; 722; 773; 774; 775; 782; 795,0x4045; 0x4046; 0x4047; 0x4048; 0x4106,CheckFlag(26); CallIf(24); Return(18); ClearFlag(17); JumpIf(12); CompareVarValue(10); Jump(8); SetVar(5); End(5); LockFollowingPoke(4),179
+0826,T10R0801,1,0,0,,,,,,End(1),1
+0827,TROOME CITY; TROOME TBD 1; TROOME TBD 2; TROOME TBD 3; TROOME TBD 4; TROOME TBD 5; TROOME TBD 6; TROOME TBD 7; TROOME TBD 8; TROOME TBD 9; TROOME TBD 10,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0828,RADE 04 PM08,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0829,,5,11,1,0; 1; 2; 3; 4; 5; 6; 7; 8; 9,,,2456; 386; 753,0x8004; 0x8005,End(14); JumpIf(11); CompareVarValue(10); Message(10); ReleaseAll(9); CloseMessage(8); WaitButton(6); SetFlag(5); PlayFanfare(4); LockAll(4),142
+0830,,4,1,0,0; 1; 2; 3,,,280,0x8007,End(5); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); PlayFanfare(3); LockAll(3); FacePlayer(3); SetVar(1); CommonScript(1),34
+0831,,1,0,0,,,,,,End(1),1
+0832,,20,49,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35,,,269; 693; 694; 695; 696; 697; 698; 699; 700; 701; 702; 703; 704; 705; 706; 707; 708,,JumpIf(48); CompareVarValue(47); SetFlag(47); End(38); Message(36); CloseMessage(36); ReleaseAll(36); PlayFanfare(35); FadeScreen(32); WaitFadeScreen(32),605
+0833,TROO 08 HS38,1,2,0,0; 1,,,303,0x8004; 0x8005,Message(3); CloseMessage(3); ReleaseAll(3); End(3); JumpIf(2); SetVar(2); CommonScript(2); WaitButton(2); PlayFanfare(1); LockAll(1),27
+0834,,9,15,5,0; 1; 2; 3; 4; 5; 7; 8; 9; 10; 11; 12; 14; 15; 16; 17; 18,ITEM_PASS; ITEM_PASS,,280; 291; 354; 759,0x411D; 0x411F,End(25); JumpIf(18); Message(18); CloseMessage(17); ReleaseAll(15); WaitButton(10); CompareVarValue(10); LockAll(7); CheckFlag(7); PlayFanfare(6),216
+0835,,1,0,3,0,,,,,LockFollowingPoke(4); WaitFollowingPoke(4); SetFollowingPokeMovement(4); End(4); Movement(3); WaitMovement(3); WalkSouth8(3); FadeScreen(2); WaitFadeScreen(2); WalkEast8(2),40
+0836,MANSION A7; FREE; TEST2,1,0,1,,,,,0x411E,End(2); MecScript(1); LockAll(1); Movement(1); WaitMovement(1); PlayFanfare(1); WaitTime(1); StopFanfare(1); CMD_722(1); SetVar(1),14
+0837,ROTOM TOWER,6,35,8,0; 1; 2; 3; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 20; 21; 22; 23; 24; 25; 26; 28,,0x8004; 0x8004,160; 304; 359; 375; 641; 642; 762; 791,0x4000; 0x4008; 0x4009; 0x400A; 0x4130; 0x8004; 0x8005,JumpIf(51); CompareVarValue(47); Message(32); End(28); SetVar(20); Jump(19); CloseMessage(18); Movement(16); SetFlag(15); ReleaseAll(13),441
+0838,ROTOM ROOM,8,66,2,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 13; 17; 18; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35,,,643; 644; 645; 646; 647,0x400A; 0x8001; 0x8002; 0x8004,CompareVarValue(68); CallIf(38); Message(36); Return(36); Jump(33); JumpIf(32); SetVar(15); WaitButton(11); ClearFlag(10); FadeScreen(9),456
+0839,ROTOM ELEVATO,1,12,4,0; 1,,,,0x8004,End(13); CompareVarValue(12); JumpIf(12); FadeScreen(8); WaitFadeScreen(8); LockFollowingPoke(6); WaitFollowingPoke(6); SetFollowingPokeMovement(6); Movement(6); WaitMovement(6),138
+0840,TROO 09 HS39,3,1,0,0; 1; 2; 3,,,280,,Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); CheckFlag(1); JumpIf(1),33
+0841,TROO 10 HS40,7,27,11,2; 5; 6; 8; 11; 12; 13; 14; 15; 16; 17,ITEM_LOST_ITEM,,135; 2456; 280; 281; 763,0x400A; 0x400B; 0x4020; 0x40FF; 0x8004; 0x8005,End(27); JumpIf(21); Movement(21); CompareVarValue(19); Jump(14); CloseMessage(13); WaitMovement(13); Message(11); ReleaseAll(11); FaceSouth(11),269
+0842,MAUNCESTON T,6,21,0,,,SPECIES_CHARIZARD; SPECIES_SCEPTILE; SPECIES_EMPOLEON; SPECIES_LUCARIO; SPECIES_GYARADOS,107; 156; 187; 283,0x4073; 0x4116; 0x8004; 0x8005,SetVar(40); CompareVarValue(35); JumpIf(35); CreateMultiTouchBox(30); FadeScreen(30); WaitFadeScreen(30); End(27); ReleaseAll(26); GiveBadge(16); CommonScript(15),382
+0843,MAUN 09 LAB01,16,72,64,2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 14; 15; 16; 17; 18; 21; 22; 23; 26; 27; 28; 29; 34; 35; 40; 41; 46; 49; 55; 56; 57; 69; 70; 75; 76; 77; 78; 79; 80; 83; 88; 89; 90; 91; 92; 93; 94; 95; 96; 97,0x8004; 0x8004,,106; 114; 115; 121; 153; 2404; 242; 2435; 264; 265; 282; 352; 404; 406; 409; 413; 420; 421; 422; 571; 741; 744,0x4000; 0x400F; 0x4072; 0x4079; 0x407B; 0x4081; 0x408B; 0x4095; 0x40FC; 0x4107; 0x4108; 0x412F; 0x8004; 0x8005,End(110); Movement(100); CloseMessage(89); JumpIf(84); WaitMovement(80); CompareVarValue(66); Message(65); SetVar(51); ReleaseAll(43); GenderMessage(42),1270
+0844,MAUN 10 LAB02,3,5,0,0; 1; 9; 10,0x8004; 0x8004; 0x8004; 0x8004; 0x8004,,,0x8004; 0x8005,CompareVarValue(9); JumpIf(9); SetVar(7); AddListOption(6); Message(5); CloseMessage(5); ReleaseAll(5); End(5); GiveItem(5); PlayFanfare(3),82
+0845,MAUN 01 MUM,7,25,4,2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 20; 21; 22; 23; 24; 25; 26; 27; 28; 33; 34; 35; 36; 37; 38,ITEM_SS_TICKET,,106; 156; 167; 2404; 2438; 283; 284; 285; 286,0x4095; 0x4106,Message(37); End(29); CloseMessage(25); ReleaseAll(25); JumpIf(22); WaitButton(19); CompareVarValue(18); CloseTouchScreen(11); LockAll(10); SetFlag(10),328
+0846,MAUN 02 PROT,2,1,0,0; 1; 2,,,,,Message(3); CloseMessage(3); ReleaseAll(3); End(3); LockAll(2); PlayFanfare(2); FadeScreen(2); WaitFadeScreen(2); WaitButton(2); MecScript(1),29
+0847,MAUN 03 HS01,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0848,,1,2,0,,,,741,,TextPlayerName(3); GenderMessage(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); End(3); JumpIf(2); PlayFanfare(1); LockAll(1); FacePlayer(1),25
+0849,MAUN 04 RIV01; MAUN 06 RIV02; MAUN 08 RIV03; RADE 22 TBD,5,14,0,4; 17; 18,,,106; 353; 388; 741,0x8005,CloseMessage(14); End(14); WaitButton(12); ReleaseAll(12); JumpIf(11); GenderMessage(11); CompareVarValue(8); TextPlayerName(8); Jump(5); PlayFanfare(4),144
+0850,LOBART CITY,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0851,HAMP 03 PM01,4,2,0,0; 1; 2,,,,0x8004,ReleaseAll(5); End(5); PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); Message(3); WaitButton(3); CloseMessage(3); FreezeMessage(2),42
+0852,HAMP 01 PC01,6,2,0,0; 1; 2; 3; 4; 5,,,,0x8007,End(7); Message(6); WaitButton(6); CloseMessage(6); ReleaseAll(6); PlayFanfare(5); LockAll(5); FacePlayer(5); SetVar(1); CommonScript(1),51
+0853,LOBA 02 PCR02,1,0,0,,,,,,End(1),1
+0854,MAUN 05 HS02,3,0,0,0; 1,,,,,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2),17
+0855,MAUN 07 HS03,2,0,0,0,,,,,End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1),9
+0856,MAUN 11 HS04,3,0,0,0; 1,,,,,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2),17
+0857,MELTON CITY,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0858,MELT 03 PM03,5,6,2,0; 1; 4; 7; 8,,,111; 112; 407; 568; 582,0x4074; 0x4108; 0x8004,End(11); ReleaseAll(8); JumpIf(8); PlayFanfare(7); CompareVarValue(7); SetVar(6); SetFlag(6); Message(6); CloseMessage(6); LockAll(5),130
+0859,RADE 05 GYM07,7,37,0,0; 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 19; 20; 22; 23; 24,,SPECIES_TOGEPI,187; 2660; 2661; 2662; 2663; 2664; 2665; 2666; 2668; 745,0x4000; 0x511C; 0x8004; 0x8005; 0x800C,JumpIf(24); Message(23); CloseMessage(22); End(21); CompareVarValue(21); WaitButton(20); SetVar(20); Return(17); ReleaseAll(14); Call(14),291
+0860,MELT 01 PC03,6,18,2,9; 10; 11; 12; 13; 14; 15; 16; 18; 19; 20; 21; 22; 23; 24; 25; 26,,,345; 346; 347; 709,0x8007,Message(23); JumpIf(22); CompareVarValue(17); Jump(17); WaitButton(12); End(9); CloseMessage(9); ReleaseAll(6); PlayFanfare(5); LockAll(5),215
+0861,MELT 02 PCR03,1,0,0,,,,,,End(1),1
+0862,LOBA 06 SCHOO,8,17,5,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23,,,,,Message(25); CompareVarValue(23); JumpIf(23); End(21); CloseMessage(11); OpenTouchScreen(10); ReleaseAll(10); Jump(9); YesNoTouchScreen(9); CloseTouchScreen(9),232
+0863,MELT 09 HS11,4,0,0,0; 1; 2,,,,,End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); PlayCry(1); WaitCry(1),27
+0864,DANB 06 HS13,3,4,0,0; 1; 2; 3; 4; 5,,,113,,End(6); Message(6); CloseMessage(6); WaitButton(5); ReleaseAll(5); JumpIf(4); PlayFanfare(2); LockAll(2); FacePlayer(2); CompareVarValue(2),61
+0865,WLDA02 GH08,2,2,0,0; 1; 2,,,450,,Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); CheckFlag(1); JumpIf(1),24
+0866,DANBERRA CITY,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0867,DANB 04 PM04,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0868,,2,3,0,0; 1; 2; 3,,,,,Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4); PlayFanfare(2); LockAll(2); FacePlayer(2); CheckBadge(2); CompareVarValue(2),34
+0869,,17,8,0,0; 1; 2; 3; 5; 6,,,127; 2404; 746,0x8004; 0x8005,End(25); JumpIf(12); AzaleaGym(12); CompareVarValue(10); Message(7); CloseMessage(5); SetFlag(5); ReleaseAll(5); SetTrainerFlag(4); SetVar(4),120
+0870,DANB 02 PC04,4,0,0,0; 1; 2,,,,0x8007,End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); SetVar(1); CommonScript(1),27
+0871,DANB 03 PCR04,1,0,0,,,,,,End(1),1
+0872,BAIR 08 GH04; SYDT 06 GH03,3,0,0,0; 1,,,,,End(3); PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2),17
+0873,DANB 07 HS14,3,5,0,0; 1; 2; 3; 4; 6; 8,,,123; 128; 129,0x8004; 0x8005,CloseMessage(8); ReleaseAll(8); End(8); Message(7); WaitButton(6); JumpIf(5); CheckFlag(4); PlayFanfare(3); LockAll(3); FacePlayer(3),65
+0874,,7,27,7,0; 1; 3; 4; 5; 6; 7; 8; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 23; 24,,,119; 123; 124; 2404; 2722; 295; 414; 415; 427,0x4080; 0x8004; 0x8005,End(27); Message(25); JumpIf(23); CompareVarValue(18); ReleaseAll(17); CloseMessage(16); WaitButton(14); Jump(13); SetFlag(10); Movement(8),274
+0875,BAIRNS TOWN,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0876,,1,0,0,,,,,,End(1),1
+0877,MELT 04 GYM02,7,41,0,0; 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 20; 21; 22; 24; 26; 27; 28,,SPECIES_RIOLU,187; 2433; 2610; 2611; 2612; 2613; 2614; 2615; 2616; 2617; 2618,0x4000; 0x5112; 0x8004; 0x8005; 0x800C,Message(29); CloseMessage(28); SetVar(27); JumpIf(25); WaitButton(24); Return(23); End(22); CompareVarValue(21); ReleaseAll(18); Call(15),342
+0878,DALI 01 PC09,4,8,0,0; 1; 2; 3; 4; 5; 6,,SPECIES_TENTACOOL,,0x8007,End(7); Message(7); CloseMessage(6); ReleaseAll(6); Jump(5); WaitButton(4); CompareVarValue(4); JumpIf(4); PlayFanfare(3); LockAll(3),71
+0879,,1,0,0,,,,,,End(1),1
+0880,SHED 04 HS22,1,17,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14,,,191; 193; 2749,,Jump(15); Message(15); JumpIf(12); CompareVarValue(10); SetFlag(4); CheckFlag(3); CloseMessage(3); Call(3); WaitButton(2); ReleaseAll(2),98
+0881,SHED 05 HS23,1,3,1,0; 2; 3,,,185; 367,0x8004; 0x8005,End(4); JumpIf(3); Message(3); SetVar(3); CommonScript(3); ReleaseAll(3); CompareVarValue(2); PlayFanfare(2); LockAll(2); FacePlayer(2),43
+0882,SHED 04 HS24,1,0,0,0,,,,,PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),8
+0883,DALI 05 HS25,3,0,0,0; 1; 2,,,,,PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); End(3),24
+0884,RADE 23 TBD; TROO 07 HS37,1,9,0,0; 1; 2; 3; 4,ITEM_CLEAR_BELL; ITEM_RAINBOW_WING; ITEM_TIDAL_BELL; ITEM_SILVER_WING,,,,Jump(8); CompareVarValue(5); JumpIf(5); Message(5); CheckItem(4); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2); PlayFanfare(1),39
+0885,SYDTREE CITY,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0886,LOBA 04 GYM01,5,37,0,0; 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 19; 20; 21; 22; 23; 24,,SPECIES______,187; 2600; 2601; 2602; 2603; 2604; 2605; 2606; 2607; 2608,0x4000; 0x5110; 0x8004; 0x8005; 0x800C,Message(25); CloseMessage(24); SetVar(23); JumpIf(22); WaitButton(22); Return(21); End(18); CompareVarValue(18); ReleaseAll(15); Call(13),293
+0887,BAIR 01 PC07,4,6,0,0; 1; 2; 3; 4; 5,,,,0x8007,End(7); Message(6); WaitButton(6); CloseMessage(6); ReleaseAll(6); PlayFanfare(3); LockAll(3); FacePlayer(3); CompareVarValue(3); JumpIf(3),51
+0888,BAIR 02 PCR07,1,0,0,,,,,,End(1),1
+0889,,1,0,0,,,,,,End(1),1
+0890,MELT 08 BIKE,2,4,0,0; 1; 3; 4; 5,,,137,0x8004; 0x8005,End(6); JumpIf(5); Message(5); CompareVarValue(4); CloseMessage(4); ReleaseAll(4); WaitButton(3); PlayFanfare(2); LockAll(2); FacePlayer(2),47
+0891,HOTEL 1 HS17,3,6,0,0; 1; 2; 3; 4; 5; 6; 7; 8,,,,,Message(9); WaitButton(8); CloseMessage(8); ReleaseAll(8); End(8); CompareVarValue(5); JumpIf(5); PlayFanfare(3); LockAll(3); FacePlayer(3),63
+0892,HOTEL 1 HS16,3,11,0,0; 1; 2; 3; 4; 5; 6; 7; 9; 10; 11; 12; 13; 15,,SPECIES_EEVEE,149,0x4000,Message(17); End(14); CloseMessage(14); WaitButton(12); ReleaseAll(12); JumpIf(11); CompareVarValue(10); CloseTouchScreen(5); FadeScreen(4); WaitFadeScreen(4),135
+0893,,8,8,3,0; 1; 2; 3; 4; 5; 7; 9,ITEM_PASS; ITEM_PASS,,280; 291,0x410B; 0x411E,End(17); Message(9); CloseMessage(9); JumpIf(7); ReleaseAll(7); CheckFlag(4); WaitButton(4); Movement(4); WaitMovement(4); LockFollowingPoke(4),103
+0894,DRAGON DEN 01,6,42,27,0; 1; 3; 4; 5; 7; 8; 9; 10; 11; 12; 13; 14; 17; 18; 19; 22; 23; 24; 27; 28; 29; 30; 31; 32; 33,,,218; 226; 393; 521; 527,0x4002; 0x4020; 0x40C4; 0x40FC; 0x4119; 0x8004; 0x8005,Movement(55); End(49); JumpIf(40); Message(40); CompareVarValue(39); WaitMovement(27); Jump(24); CloseMessage(22); TextPlayerName(14); SetVar(14),564
+0895,MANSION A8; T25R0503,1,0,1,,,,,0x411F,End(2); MecScript(1); LockAll(1); Movement(1); WaitMovement(1); PlayFanfare(1); WaitTime(1); StopFanfare(1); CMD_722(1); SetVar(1),14
+0896,,4,30,10,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13,ITEM_SQUIRT_BOTTLE; 0x8001,,181; 349,0x4082; 0x8001; 0x8004; 0x8005,CompareVarValue(29); JumpIf(25); End(25); Message(21); SetVar(18); CloseMessage(15); ReleaseAll(15); Movement(11); Jump(11); WaitButton(9),291
+0897,HOTEL 1 HS18,2,0,0,0; 1,,,,,PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2),16
+0898,,1,6,0,0; 1; 2; 3; 4; 5; 6; 7; 8,,,,0x800C,Message(9); CloseMessage(7); CompareVarValue(6); JumpIf(6); WaitButton(5); ReleaseAll(5); End(5); FadeScreen(4); WaitFadeScreen(4); TextPokeNickname(4),75
+0899,DEPART 1 F1,5,6,0,0; 1; 2; 3; 4; 5; 6; 7,,,,,Message(8); WaitButton(8); CloseMessage(8); ReleaseAll(8); End(8); PlayFanfare(5); LockAll(5); FacePlayer(4); CompareVarValue(3); JumpIf(3),63
+0900,DEPART 1 F2,6,6,0,0; 1; 2; 3; 4; 5; 6,,,,0x8004,ReleaseAll(9); End(9); Message(7); WaitButton(7); CloseMessage(7); PlayFanfare(6); LockAll(6); FacePlayer(5); CommonScript(4); CompareVarValue(3),73
+0901,DEPART 1 F3,4,4,0,0; 1; 2; 3; 4,,,,0x8004,ReleaseAll(6); End(6); Message(5); WaitButton(5); CloseMessage(5); PlayFanfare(4); LockAll(4); FacePlayer(3); CommonScript(2); CompareVarValue(2),48
+0902,DEPART 1 F4,5,6,0,0; 1; 2; 3; 4; 5; 6,,,,0x8004,ReleaseAll(8); End(8); Message(7); WaitButton(7); CloseMessage(7); PlayFanfare(5); LockAll(5); FacePlayer(4); CompareVarValue(3); JumpIf(3),64
+0903,DEPART 1 F5,7,14,0,0; 1; 3; 4; 6; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19,,,141; 142; 2409; 446,0x8004; 0x8005,End(16); Message(16); CloseMessage(15); ReleaseAll(13); JumpIf(12); WaitButton(12); CompareVarValue(8); PlayFanfare(6); LockAll(6); FacePlayer(5),154
+0904,DEPART 1 F6,8,74,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34,,,2404; 393; 623,0x4002; 0x8001; 0x8004; 0x8005,CompareVarValue(73); JumpIf(69); SetVar(47); Jump(44); Message(39); End(32); CloseMessage(25); ReleaseAll(23); PlayFanfare(16); WaitButton(16),528
+0905,DEPART 1 ELVA,1,71,1,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11,,,,0x4113; 0x8004; 0x8005,CompareVarValue(84); JumpIf(70); Jump(64); SetVar(61); CallIf(14); Call(14); Message(12); WaitTime(9); GetElevatorFloor(8); CreateMultiTouchBox(8),393
+0906,,33,96,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35,ITEM_COIN_CASE; ITEM_COIN_CASE; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004,0x4002; 0x4002,730,0x4001; 0x8004; 0x8005,CompareVarValue(137); JumpIf(137); Message(91); Jump(68); End(58); PlayFanfare(56); ReleaseAll(56); FadeScreen(44); WaitFadeScreen(44); LockAll(32),1191
+0907,GLOBAL TWR F1,18,42,6,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 36,,,274,0x4133; 0x8000; 0x8005,End(37); CompareVarValue(35); JumpIf(35); Message(35); ReleaseAll(28); CloseMessage(27); Jump(25); WaitButton(19); CreateMultiTouchBox(18); LockAll(17),439
+0908,GLOBAL TWR F2,13,10,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14,,,,0x8005,CloseMessage(17); ReleaseAll(17); End(17); Message(15); PlayFanfare(13); LockAll(13); WaitButton(11); FacePlayer(9); Jump(6); CreateMultiTouchBox(6),156
+0909,GLOBAL TWR F3,12,5,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12,,,,0x8005,CloseMessage(14); ReleaseAll(14); End(14); Message(13); PlayFanfare(12); LockAll(12); WaitButton(11); FacePlayer(9); Jump(3); CreateMultiTouchBox(3),121
+0910,MELT 05 GAME1; T25SP0101,5,71,3,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 28; 31; 32; 33; 34; 35; 36; 37; 38; 39; 40; 41,ITEM_COIN_CASE; ITEM_COIN_CASE; ITEM_COIN_CASE; ITEM_COIN_CASE; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004; 0x8004,0x4002; 0x4002,,0x4001; 0x8004; 0x8005,CompareVarValue(106); JumpIf(106); Message(78); Jump(68); TextItem(30); SetVar(29); PlayFanfare(27); CreateMultiTouchBox(26); TakeCoins(25); GetCoins(24),751
+0911,SHEDSNOW TOWN,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0912,BAIR 03 PM05,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0913,SEWER AREA 01; SEWER AREA 02; SEWER AREA 03,8,49,9,0; 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24,,,194; 2404; 358; 473,0x4000; 0x4077; 0x410E; 0x8004; 0x8005,JumpIf(50); CompareVarValue(47); End(45); Message(34); CloseMessage(30); ReleaseAll(27); WaitButton(25); Jump(21); SetVar(18); Movement(12),419
+0914,SHED 01 PC08,5,7,2,0; 1; 2; 3; 4; 5; 6; 7; 8,,,,0x4007; 0x8007,Message(15); End(12); CloseMessage(11); JumpIf(10); ReleaseAll(9); CompareVarValue(9); WaitButton(8); PlayFanfare(6); LockAll(6); FacePlayer(5),123
+0915,DALI 02 PCR09,1,0,0,,,,,,End(1),1
+0916,SYDT 05 HS19,1,4,0,0; 1; 2; 3; 4,,,190,,Message(5); CloseMessage(5); JumpIf(4); WaitButton(4); ReleaseAll(4); End(4); CompareVarValue(2); FadeScreen(2); WaitFadeScreen(2); EndTrade(2),52
+0917,BAIR 06 HS20,3,5,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11,ITEM_SEAL_CASE,,2745,,Message(14); JumpIf(5); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4); Jump(4); CompareVarValue(4); PlayFanfare(3); LockAll(3),65
+0918,BAIR 07 HS21,1,4,0,0; 1; 3; 4; 5,,,189,0x8004; 0x8005,Message(5); End(5); JumpIf(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); CompareVarValue(3); SetVar(2); CommonScript(2); PlayFanfare(1),42
+0919,,7,22,5,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13,,,2404; 393; 638; 715,0x4004,End(26); JumpIf(24); CompareVarValue(21); CloseMessage(16); Message(14); WaitButton(14); ReleaseAll(14); LockAll(10); FadeScreen(10); WaitFadeScreen(10),286
+0920,DALICE STRING,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0921,LOBA 03 PM02,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0922,TROO 05 GYM08,10,45,4,0; 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 19; 20; 21; 22; 23,,SPECIES_MIMIKYU,166; 187; 2456; 2670; 2671; 2672; 2673; 2674; 2675; 2676; 2677; 2678; 2679,0x4000; 0x4079; 0x511E; 0x8004; 0x8005; 0x800C,Message(36); End(34); CloseMessage(32); JumpIf(30); SetVar(30); WaitButton(28); ReleaseAll(27); CompareVarValue(24); Return(20); Call(16),449
+0923,LOBA 01 PC02,5,0,4,0; 1; 2; 3; 4,,,2422; 453; 574,0x410D; 0x8007,End(9); Message(5); LockAll(4); Movement(4); CloseMessage(4); ReleaseAll(4); Delay4(4); PlayFanfare(3); FacePlayer(3); WaitButton(3),70
+0924,HAMP 02 PCR01,1,0,0,,,,,,End(1),1
+0925,,0,0,0,,,,,,,0
+0926,,4,13,2,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10,,,259; 264,0x4002,End(16); ReleaseAll(12); Message(11); CloseMessage(11); JumpIf(10); WaitButton(9); CompareVarValue(6); CheckFlag(4); PlayFanfare(3); LockAll(3),112
+0927,HAMP 06 HS07,2,0,0,0; 1,,,,,PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2),16
+0928,,17,55,46,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 28; 29; 30; 31; 32; 33; 34; 35; 36; 37; 38; 39; 40; 41; 42; 43; 44; 45,,,162; 259; 260; 263; 264; 265; 570; 572; 576; 580; 581,0x4009; 0x400A; 0x400B; 0x4090; 0x40FA; 0x410C; 0x8000; 0x8004; 0x8005,End(84); JumpIf(80); Movement(79); CompareVarValue(70); Message(65); CloseMessage(60); WaitMovement(60); ReleaseAll(32); SetVar(32); Jump(30),1074
+0929,HAMP 04 HS05; HAMP 05 HS06,2,7,0,0; 1; 3; 4; 5; 6; 7,,,163,0x8004; 0x8005,JumpIf(8); End(8); Message(7); CompareVarValue(7); CloseMessage(5); ReleaseAll(5); OpenTouchScreen(3); YesNoTouchScreen(3); CloseTouchScreen(3); WaitButton(3),67
+0930,TERTH CITY,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0931,,1,0,0,,,,,,End(1),1
+0932,SEWER ROOM 01,2,15,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10,,,210; 2404; 393; 750,0x4077; 0x8004; 0x8005,JumpIf(16); Message(14); CompareVarValue(13); End(13); CloseMessage(9); SetFlag(8); ReleaseAll(8); WaitButton(6); SetTrainerFlag(5); SetVar(5),143
+0933,,1,0,0,,,,,,End(1),1
+0934,SEWER ROOM 02,2,3,0,0; 1; 2; 3,,,,,Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4); PlayFanfare(2); LockAll(2); FacePlayer(2); CheckBadge(2); CompareVarValue(2),34
+0935,RADE 02 PC10,4,0,0,0; 1; 2,,,,0x8007,End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); SetVar(1); CommonScript(1),27
+0936,RADE 03 PCR10,1,0,0,,,,,,End(1),1
+0937,RT 5 02 HS10,2,2,0,0; 1; 2,,,197; 198,,Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); End(4); PlayFanfare(2); LockAll(2); FacePlayer(2); CheckFlag(2); JumpIf(2),30
+0938,,19,47,2,0; 1; 2; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 21; 24; 27; 33; 34; 35,0x8004; 0x8004,,164; 17; 19; 195; 20; 201; 202; 21; 213; 2404; 2748; 313; 326; 327; 328; 362; 483; 484; 504; 508; 510; 511; 649; 650; 651; 652; 716,0x4001; 0x4004; 0x40A8; 0x8004; 0x8005; 0x8008; 0x8009; 0x800C,End(44); JumpIf(41); SetFlag(36); ReleaseAll(30); CompareVarValue(28); CloseMessage(27); Message(23); WaitButton(23); Jump(23); SetVar(19),509
+0939,DALI 09 HS29,1,2,1,0; 2; 4,,,199,0x8004; 0x8005,End(4); Message(3); CloseMessage(3); ReleaseAll(3); JumpIf(2); PlayFanfare(2); LockAll(2); SetVar(2); CommonScript(2); WaitButton(2),33
+0940,RADE 06 HS30,1,10,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 10,,,200; 202; 313,0x8004; 0x8005,Message(10); JumpIf(8); CloseMessage(6); CompareVarValue(6); Jump(6); ReleaseAll(5); End(5); WaitButton(4); OverlayManager(4); CheckFlag(2),80
+0941,RADELAIDE CTY,2,20,0,,,,,,CreateMultiTouchBox(30); CompareVarValue(30); JumpIf(30); FadeScreen(30); WaitFadeScreen(30); End(22); ReleaseAll(21); Warp(15); GetCommonMessageArchive(4); OpenTouchScreen(4),231
+0942,SHED 03 PM06,4,0,0,0; 1,,,,0x8004,PlayFanfare(4); LockAll(4); FacePlayer(4); CommonScript(4); ReleaseAll(4); End(4); FreezeMessage(2); SetVar(2); Message(2); WaitButton(2),34
+0943,BAIR 04 GYM05,10,52,10,0; 1; 2; 3; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 19; 20; 21; 22; 23; 24,,SPECIES_CHARCADET,187; 209; 2640; 2641; 2642; 2643; 2644; 2645; 2646; 2647; 2648; 312; 751,0x4000; 0x4120; 0x5118; 0x8004; 0x8005; 0x800C,End(41); JumpIf(39); SetVar(35); Message(32); CloseMessage(31); WaitButton(27); CompareVarValue(27); ReleaseAll(23); SetFlag(19); Return(17),480
+0944,TROO 02 PC11,4,0,0,0; 1; 2,,,,0x8007,End(4); PlayFanfare(3); LockAll(3); FacePlayer(3); Message(3); WaitButton(3); CloseMessage(3); ReleaseAll(3); SetVar(1); CommonScript(1),27
+0945,TROO 03 PCR11,1,0,0,,,,,,End(1),1
+0946,DALI 06 HS26,2,0,0,0; 2,,,,,PlayFanfare(2); LockAll(2); FacePlayer(2); Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2); PlayCry(1); WaitCry(1),18
+0947,DALI 07 HS27,2,11,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14,,,208,,Message(15); JumpIf(11); CompareVarValue(9); CloseMessage(9); WaitButton(8); ReleaseAll(8); End(8); Jump(5); TextPartyPokemon(3); PlayFanfare(2),110
+0948,DALI 08 HS28,5,45,0,0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 42; 43; 44; 45; 46; 48; 49; 50; 51; 52; 53; 54; 61; 62,ITEM_HEART_SCALE; ITEM_HEART_SCALE,,1; 350; 390; 391,0x8003; 0x800C,JumpIf(63); CompareVarValue(59); Message(40); CloseMessage(30); End(23); ReleaseAll(21); WaitButton(20); Jump(18); FadeScreen(16); WaitFadeScreen(16),434
+0949,,3,9,6,,,,393; 638,,End(15); JumpIf(10); CompareVarValue(9); Movement(9); WalkNorth8(8); GetCommonMessageArchive(7); MessageFromArchive(7); CloseMessage(6); FadeScreen(6); WaitFadeScreen(6),153
+0950,,2,0,0,0,,,,0x8007,End(2); SetVar(1); CommonScript(1); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1),11
+0951,T31PC0102,1,0,0,,,,,,End(1),1
+0952,,12,6,0,0; 1; 2,,,2507,0x4000; 0x4001,SetVar(14); Jump(13); CompareVarValue(7); JumpIf(6); IncrementVar(5); End(4); CloseMessage(4); SetFlagFromVar(3); Message(3); CMD_807(2),84
+0953,,740,36,1,101,,,,0x8005; 0x800C,UseScript_#1(738); CompareVarValue(47); JumpIf(35); SetVarFromVariable(27); GetEyeTrainerNum(25); End(18); CloseMessage(17); Call(15); ReleaseAll(15); CallIf(14),1125
+0954,,1,0,0,33,,,,,PlayFanfare(1); LockAll(1); Message(1); WaitButton(1); CloseMessage(1); ReleaseAll(1); End(1),7
+0955,,19,4,0,2,,,,0x8000,SetVar(19); Jump(19); CompareVarValue(3); JumpIf(3); PlayFanfare(1); LockAll(1); FacePlayer(1); Message(1); WaitButton(1); CloseMessage(1),55
+0956,,0,0,0,,,,,,,0
+0957,UNION,8,73,0,8; 9; 10; 11; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 33; 34; 35; 36; 38; 157; 158; 159; 160; 161; 162; 163; 164; 165; 199; 202; 207; 218,,,105,,CompareVarValue(86); JumpIf(86); Jump(57); MessageFlex(44); CloseMessage(43); CMD_267(43); Message(39); WaitTime(32); FadeScreen(28); CMD_257(28),834
+0958,,6,0,0,0; 1; 2; 3,,,,,End(6); PlayFanfare(4); LockAll(4); FacePlayer(4); Message(4); WaitButton(4); CloseMessage(4); ReleaseAll(4); ShowBoard(2); WaitBoard(2),44
+0959,,1,1,0,0; 1,,,,,Message(2); WaitButton(2); CloseMessage(2); ReleaseAll(2); End(2); PlayFanfare(1); LockAll(1); FacePlayer(1); CheckBadge(1); CompareVarValue(1),16
+0960,,2,0,0,,,,,,SetTextBoard(2); ShowBoard(2); WaitBoard(2); BoardMessage(2); CommonScript(2); End(2),12
+0961,,2,8,5,,,,393; 638,,End(13); JumpIf(9); CompareVarValue(8); Movement(8); GetCommonMessageArchive(7); MessageFromArchive(7); CloseMessage(6); FadeScreen(6); WaitFadeScreen(6); WalkNorth8(6),137
+0962,,10,19,11,0; 3; 6; 9; 15; 16; 18,,,215; 2748; 518,0x8004; 0x8005,End(29); Movement(20); JumpIf(18); CloseMessage(18); CompareVarValue(16); ReleaseAll(14); Jump(11); Message(11); WaitButton(11); WaitMovement(11),282
+0963,,3,9,4,0; 1; 2; 3; 4,,,2404; 251,0x40E5,End(13); JumpIf(7); Message(6); CloseMessage(6); ReleaseAll(6); Movement(5); CheckFlag(4); WaitMovement(4); CompareVarValue(3); Jump(3),73
+0964,,11,0,0,0; 3; 6; 9; 12; 15; 18; 21; 24; 27,,,,,End(11); PlayFanfare(10); LockAll(10); FacePlayer(10); Message(10); WaitButton(10); CloseMessage(10); ReleaseAll(10),81

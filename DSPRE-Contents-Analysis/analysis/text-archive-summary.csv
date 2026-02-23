@@ -1,0 +1,891 @@
+archive_file,maps_using_archive,key,entry_count,longest_entry_len,has_control_codes,first_entry_preview
+0000,-; -; -; -; -; -; -,0xFEE8,12,162,yes,EXIT
+0001,,0x9140,48,251,yes,CANCEL
+0002,,0xC48B,6,90,no,Quit
+0003,EVERYWHERE; NOTHING; UG; DIRECT2; DIRECT4; D24; HAMP 02 PCR01; HAMP 04 HS05; LUGIA DEN 02; HO-OH TWR F2; LOBA 02 PCR02; BOAT 04; BOAT 05; SANDSTONE COV; MELT 02 PCR03; MELT 10 HS12; DANB 03 PCR04; DANB 08 HS15; SYDT 03 PCR05; SYDT TWR F1; SYDT TWR F2; SYDT TWR F3; SYDT TWR F4; SYDT TWR F5; SYDT TWR F6; LIGHT H 01 F2; LIGHT H 01 F3; LIGHT H 01 F4; LIGHT H 01 F5; LIGHT H 01 F6; BAIR 02 PCR07; SHED 02 PCR08; DALI 02 PCR09; RADE 03 PCR10; TROO 03 PCR11; D11R0105; D11R0107; D41R0102; D41R0103; D41R0104; D41R0105; D41R0106; D41R0107; R05R0101; R06R0101; T03PC0102; R10PC0102; T08PC0102; D40R0106; D22R0103; T05PC0102; T04PC0102; T31PC0102; T25R0503; FREE; D32PC0102; D47PC0102; R00; T10R0801; TEST1; TEST2; NEWMAP; NEWMAP; NEWMAP,0xD358,2769,67,yes,used -!
+0004,,0x3AD4,6,225,yes,PLAYER:
+0005,,0xB6F3,49,77,yes,HP/PP
+0006,,0x0FA3,96,77,yes,
+0007,,0x764F,3,153,no,Delete all saved data?
+0008,,0x868A,2,115,no,The save data could not be accessed.  Please turn the power off and reinsert the DS Game Card.
+0009,,0xADCA,2,137,no,The save data could not be accessed.  Please turn the power off and reinsert the DS Game Card.
+0010,,0xD25B,129,76,yes,USE
+0011,,0xD21D,20,42,no,EDIT
+0012,,0x9E3D,14,52,no,4 3 2 1 0
+0013,,0x1088,331,104,yes,BATTLE VIDEOS
+0014,,0x3802,28,136,yes,Please take your designated position and start the battle.
+0015,,0xD8D3,80,12,no,Heart Seal A
+0016,,0x6255,80,13,no,Heart Seal As
+0017,,0x443B,8,252,yes,A Recruitment Message arrived from a Pokémon Ranger.  You may receive a MANAPHY Egg from the Pokémon Ranger!  On the nex
+0018,,0x6100,35,173,yes,Which facility would you like to challenge?
+0019,,0x39F1,83,52,yes,Which record would you like to see?
+0020,,0x79A4,8,76,no,It’s lined with Pokémon picture books.
+0021,,0xD15A,133,313,yes,Apricorn Box
+0022,,0xE9CD,32,175,yes,Performance
+0023,,0xEEE4,8,139,yes,It’s an Apricorn Tree!
+0024,,0xD15F,114,178,yes,
+0025,,0x2907,61,39,yes,is selected.
+0026,,0x28F8,163,68,yes,No. of Hall of Fame entries
+0027,,0x6785,315,7,no,Jim
+0028,,0x300B,35,79,yes,
+0029,,0x0008,8,61,yes,Caught !
+0030,,0x1EAE,11,200,yes,"Hello, just when you least expect it! I am Cameron the Photographer. You look so photogenic! Why not have a picture take"
+0031,,0x3962,108,93,yes,
+0032,,0xB943,58,461,yes,"Welcome to the Battle Castle. My name is Darach. I will be your host on behalf of Lady Caitlin, the owner of the castle."
+0033,,0x2737,96,93,yes,
+0034,,0xA69C,25,7,no,Hardy
+0035,,0xA8F9,73,175,no,
+0036,,0xE905,21,257,no,
+0037,,0x59B5,12,3,no,
+0038,,0xE933,7,35,no,Please enter the Friend Code.
+0039,,0x81FE,48,955,yes,VOLTORB Flip Lv.
+0040,,0xD75B,102,369,yes,"Hello, and welcome to the Pokémon Center. We restore your tired Pokémon to full health. Would you like to rest your Poké"
+0041,,0x6EB8,10,320,yes,
+0042,,0x5626,1,8,no,
+0043,,0xEEB2,220,281,no,
+0044,,0x5F5C,7,11,no,sleep
+0045,,0xB90F,60,22,yes,OPTIONS
+0046,,0x5E05,173,680,yes,Welcome to the Pokémon Communication Club Colosseum. You may battle with your friends here.
+0047,WELL CAVE F3,0x2402,19,263,yes,A bunch of DIGLETT popped out of the ground! That was surprising!
+0048,RADE F1 LIBRY; D02FS0101,0xCB10,2,82,yes,"When the sun goes down, CLEFAIRY come out to play."
+0049,NAVEL WEST 04,0x1402,2,347,yes,": Hey, ! You’re here in Kanto, too? Some of the Trainers here are tough, which makes it easy to train\fmy Pokémon! ! I k"
+0050,D HQ1 F1,0x140A,2,75,no,This is Mt. Moon Square. Please don’t litter. Put trash where it belongs!
+0051,D HQ1 F2; D HQ1 F3,0x1416,6,110,yes,CLEFAIRY: Pip Pip!
+0052,ICE PATH C1; ICE PATH C2; ICE PATH C3,0xB423,11,100,yes,"You haven’t caught all your Pokémon yet, but... Would you like to retire from your Catching Show?"
+0053,D HQ1 F4; D HQ1 F5; D11R0106,0xA43F,26,291,yes,"Blaine: Hey, you! My Gym on Cinnabar Island was burned down by the eruption! But I will not give up! Take a look at this"
+0054,SHREDSNOW TMP; REGIGIGAS TMP,0xE423,5,86,no,Only those who reach the top will receive a wonderful move.
+0055,SWORD TRIO,0xE42F,3,53,no,"However hard we battle, the tower will stand strong."
+0056,D HQ1 F6; MOLTEN CAVERN,0xE42B,9,296,yes,"Elder: You showed us what you’ve got, and it is indeed good... Take this Technical Machine. However, you should care mor"
+0057,HO-OH TWR F1,0xC423,12,338,yes,So many people have gone up the tower with a Rainbow Wing\fto try and bring back HO-OH. But none succeeded in making HO-
+0058,HO-OH TWR TOP,0xC027,9,229,yes,"Zuki: Yes, this is where we welcome HO-OH. When the dance we practiced for many days becomes one with the sound of the\f"
+0059,D17R1101,0x4C22,10,238,yes,Morty: The legendary Pokémon did not choose me... But that does not mean that I have lost out on my future. I will conti
+0060,D18R0101; BURNT TWR F1,0x3423,5,386,yes,": .................. ......Oh, it’s you. You must be here to catch the legendary Pokémon to make yourself\flook strong. "
+0061,BURNT TWR F2,0x342F,2,285,yes,"Eusine: Did you see it? SUICUNE raced by like a blur, right in front of my eyes! I have been chasing SUICUNE for almost "
+0062,RADE F2 LIBRY,0x9443,90,243,yes,Only one Pokémon can Stroll with you in a Pokéwalker... I can’t decide which one!
+0063,HOTEL 2 F1; D22R0102,0x944F,33,104,no,Relaxation Square for Everyone National Park
+0064,SYDT 01 GV05,0x945B,10,135,no,
+0065,A HQ1 F1; -; -; A HQ1 F1; D HQ1 F1; -; -; -; -,0x8443,46,256,yes,Welcome to Goldenrod’s Radio Tower!
+0066,A HQ1 F2; A HQ1 F2; D HQ1 F2,0x844F,70,304,yes,"Radio is good, you know? Cool music and Pokémon information... Surprising news and moving dramas...\fIt has everything! "
+0067,A HQ1 F3; A HQ1 F3; D HQ1 F3,0x844B,17,122,yes,We have recordings of the cries of many of the Pokémon that have been found. We must have about 200 kinds.
+0068,A HQ1 F4; A HQ1 F4; D HQ1 F4,0x8457,15,189,yes,I listened to the radio while I was at the ruins. I heard a strange broadcast there.
+0069,A HQ1 F5; A HQ1 F5; D HQ1 F5,0x8453,9,250,yes,"Ahem, do you hear me? ...I am the Director. We have decided to broadcast wonderful shows to praise Team Rocket! Everyone"
+0070,A HQ1 F6; A HQ1 F6; D HQ1 F6,0x845F,10,338,yes,Archer: Oh? You managed to get this far...?\fYou must be quite the Trainer. We intend to take over this Radio Tower and 
+0071,RADE F3 LIBRY,0x845B,4,67,no,Goldenrod City Radio Tower Elevator\fNext stop: Observation Deck
+0072,GBR 01,0xF443,11,306,no,"Hm? That’s a Pokédex, isn’t it? May I see it? There are so many kinds of Pokémon. Hm? What’s this? What is this Pokémon?"
+0073,VICTRY RD 2 1,0xF44F,25,591,yes,Bravo! A promising youth who is about to start the journey of archaeology has\fjust arrived!
+0074,VICTRY RD 2 2; VICTRY RD 2 3,0xF457,4,278,no,Welcome to this chamber! We are reconstructing ancient Pokémon stone panels. You can rotate stone-panel pieces by touchi
+0075,VICTRY RD 2 4; VICTRY RD 2 5,0xF44F,2,31,no,
+0076,VICTRY RD 3 1; VICTRY RD 3 2,0xF44B,11,270,no,Did you just come down from above...? So! You must have solved the stone-panel puzzle! That is wonderful! You seem to ha
+0077,VICTRY RD 4 1; VICTRY RD 4 2; VICTRY RD 4 3; VICTRY RD 4 4; VICTRY RD 4 5; VICTRY RD 4 6; VICTRY RD 4 7,0xF447,2,31,no,
+0078,,0xF47F,1,33,no,
+0079,NAVEL WEST 03,0xF05B,7,90,yes,It’s a replica of an ancient Pokémon.
+0080,RT 20 AREA 1; RT 20 AREA 2; RT 20 AREA 3; RT 20 AREA 4; RT 20 AREA 5; RT 20 AREA 6; RT 20 AREA 7; RT 20 AREA 8; RT 20 AREA 9; RT 20 AREA 10; RT 20 AREA 11; RT 20 AREA 12; RT 20 AREA 13,0xF057,1,37,no,It’s a replica of an ancient Pokémon.
+0081,,0xF053,1,37,no,It’s a replica of an ancient Pokémon.
+0082,TROOME CAVE 1; TROOME CAVE 2; TROOME CAVE 3,0xF04F,1,37,no,It’s a replica of an ancient Pokémon.
+0083,HOTEL 1 BS,0xF04B,1,37,no,It’s a replica of an ancient Pokémon.
+0084,D24R0216,0xF047,6,270,no,It’s a replica of an ancient Pokémon.
+0085,D24R0217,0xF043,1,37,no,It’s a replica of an ancient Pokémon.
+0086,D24R0218,0xF07F,6,270,no,It’s a replica of an ancient Pokémon.
+0087,NAVEL WEST 01,0xE443,15,62,no,
+0088,NAVEL WEST 02,0xE44F,12,61,no,
+0089,SUBTRN CAVE,0xE44B,9,57,no,
+0090,WELL CAVE F1,0xD443,1,329,yes,"Kurt: Hey there, ! The guard up top took off when I shouted at him. But then I took a tumble down the well. I slammed do"
+0091,WELL CAVE F2,0xD44F,6,241,yes,"Kurt: Way to go, ! Team Rocket has taken off. My back’s better, too. Let’s get out of here."
+0092,WELL CAVE F4,0xD44B,3,204,no,"I’m waiting to see SLOWPOKE’s moment of evolution. Through observation,\fI made a new discovery. A SLOWPOKE with a King’"
+0093,LIGHT H 01 F1,0xC443,2,127,no,People train at this Lighthouse. It’s not easy to climb because of all the Trainers.
+0094,LIGHT H 01 F7,0xC45B,13,255,yes,Jasmine: ...This Pokémon always kept the sea lit at night. ...But it suddenly got sick... It’s gasping for air... ...I u
+0095,LIGHT H 01 EL,0xC467,4,54,no,Lighthouse elevator. Going up to the light room.
+0096,,0x247A,133,833,yes,Welcome to the Battle Tower! I am your guide to the Single and Double Battle Rooms.
+0097,,0x246A,23,298,yes,Your Pokémon will be restored to full health.
+0098,,0x2466,17,102,yes,Thank you so much for participating! Please wait while I save the game. Don’t turn off the power.
+0099,,0x2462,18,268,yes,Please find a partner from the Trainers that are gathered here.
+0100,,0xCBA6,42,260,yes,Battle Tower... It’s so tall! I wonder how many times my height it is?
+0101,D32FS0101,0xAB10,2,174,no,Some Trainers rely on a Pokémon’s potential alone. But you can use items\fand medicines to help improve a\fPokémon’s cap
+0102,VICTRY RD 1 1; VICTRY RD 1 2; VICTRY RD 1 3; VICTRY RD 1 4; VICTRY RD 1 5; D32PC0101,0x4A13,3,157,no,The karate uniform is the uniform of fighters! There is nothing better suited for going to the Battle Frontier than this
+0103,,0x1462,36,464,yes,"Welcome to the Battle Frontier! This is your first visit? Right this way, please!"
+0104,,0x146E,10,239,no,Wait for meeee!!
+0105,WILD AREA,0x146A,30,99,no,
+0106,,0x147A,33,99,no,
+0107,,0x9473,34,638,yes,Welcome to the Battle Factory! I am your guide to the Single and Double Battle challenges. Please be aware that these ch
+0108,,0x144A,100,750,yes,Welcome to the Battle Hall! I am your guide to the Single and Double Battle challenges. Please be aware that these chall
+0109,,0x9443,53,604,yes,Welcome to the Battle Castle! I am your guide to the Single and Double Battle challenges. Please be aware that these cha
+0110,,0x945B,56,659,yes,Welcome to the Battle Arcade! I am your guide to the Single and Double Battle challenges. Please be aware that these cha
+0111,,0x6462,16,179,yes,Huh? You hear wind blowing into this room? That is...just me whistling. Enough about that. Why don’t you buy something?
+0112,,0x646E,11,103,yes,Hey! Intruder alert!
+0113,,0x646A,28,360,yes,"Lance: Are you all right? Your Pokémon are hurt and tired. Here, give them some of my medicine."
+0114,,0x6476,13,502,yes,"Lance: ! In order to unlock the door to the\fradio transmitter, you need the voice\fof a certain person. The name of the"
+0115,SYD FOREST 01; SYD FOREST 02; SYD FOREST 03; SYD FOREST 04; SYD FOREST 05; SYD FOREST 06; SYD FOREST 07; SYD FOREST 08,0x5462,68,318,yes,"Oh, man... My boss is going to be angry... The FARFETCH’D that cut trees for charcoal took off in the forest. Can you ca"
+0116,,0x4462,12,254,yes,I was challenged to a battle downstairs. It’s rough down there. You’d better be careful.
+0117,,0x446E,65,321,yes,"Hello, dear. I sell inexpensive herbal medicine. They’re good, but a trifle bitter. Your Pokémon may not like them. Hehe"
+0118,DEPART 1 B1,0x446A,3,129,no,"MACHOKE, help us move the container!"
+0119,,0x4476,2,370,yes,": Hold it! What I told you before was to deceive you. I thought it would let me tail you,\fand it would lead me to Lance"
+0120,,0x4472,4,262,no,Director: Who? What? You came to rescue me? Thank you! The Radio Tower! What’s happening there? Taken over by Team Rocke
+0121,REGIDRACO DEN,0xB476,7,169,yes,Hey! I am the Karate King! I train alone here in the cave! You! Battle with me! Hwaaarggh!
+0122,LOBART CAVERN,0xA462,8,295,yes,"You see the item over there? It was me who dropped it, but I cannot get over there to pick it up. Why? Walking on ice ma"
+0123,FLORAL FISURE,0xA46A,1,35,no,It has sunk in and cannot be moved.
+0124,NAVEL WEST 05; SPARK ROAR C,0xB497,8,605,no,"A long time ago, the Whirl Islands used to be one large island. There were two countries fighting over the island back t"
+0125,LUGIA DEN 01,0xB49B,9,244,yes,Zuki: That’s right. This is where we welcome LUGIA. When the dance we practiced many days becomes one with the sound of 
+0126,D41R0108,0xA4A7,2,40,no,.................. ..................
+0127,NAVEL EAST 01,0x9483,4,210,no,"Whoa! You startled me there! I had my BlackGlasses on, so I didn’t notice you at all. What am I doing here? Hey, don’t y"
+0128,,0x848B,2,373,no,"Hold it. ...Are you going to challenge the Pokémon League? Victory Road is at its end, for sure. But did you notice...? "
+0129,REGIELECT DEN,0xF48F,34,330,yes,Wait!
+0130,DRAGON DEN 02,0xF48B,33,304,yes,"Hm... Good to see you here.\fNo need to explain why you came. Clair sent you here, didn’t she?\fThat girl is a handful.."
+0131,,0xE48F,28,246,yes,"... I don’t know why you have come here. Anyway, I have to warn you that this is not a place for kids like you."
+0132,,0xD483,5,161,yes,"Bugsy: I came to Kanto to look for Bug-type Pokémon, so I can become\fa stronger Bug-type Pokémon Trainer! Hey, why don’"
+0133,MANSION A5,0xD7B2,18,202,no,"Baoba: It is you! It must have been a long way. Welcome to the Safari Zone! It hasn’t been open too long, but you\fcan e"
+0134,D47PC0101,0x2AB2,2,142,no,Those who come to a Pokémon Center often take good care of their Pokémon.\fWouldn’t you agree?
+0135,,0xC483,97,441,yes,"Welcome to the Safari Zone! For just $, you can play the Safari Game. You can roam the wide-open Safari Zone and catch w"
+0136,MANSION A4,0x3483,12,390,yes,Did you know? They are constructing a Safari Zone\fjust around the corner. They say it’ll be really fun! You will see ma
+0137,,0xD78A,50,493,yes,Muhaha!
+0138,SEWER ROOM 04,0x2483,115,339,yes,
+0139,,0x248F,53,416,yes,"Young Pokéathlete! Hello! ... Running out of energy? Hello, again! Good! My name is Maximo! I am the Pokéathlon MC! Nice"
+0140,,0x2497,14,319,yes,"This is the “Solidarity” room. It is to show the solidarity of Pokémon and people, as well as the history\fof the Pokéat"
+0141,,0x2493,16,235,yes,This is the “Trust” room. It is to show the mutual reliance between Pokémon and people.
+0142,,0x249F,25,374,yes,This is the “Potential” room. It is to show the infinite potential\fof both Pokémon and people.
+0143,,0x249B,14,491,yes,"Magnus: Oh, gosh!"
+0144,VOLTIC CAVE 1; VOLTIC CAVE 2; AZELF DEN; VOLTIC CAVE 3; VOLTIC CAVE 4; UXIE DEN; VOLTIC CAVE 5; VOLTIC CAVE 6; MESPIRIT DEN,0x34A2,1,203,no,"If you see a fork in the road inside a cave, most likely one way is right and\fthe other leads to a dead end.\fBut peopl"
+0145,D51R0101,0x24A2,8,293,yes,"Well, hello! It’s so freezing, isn’t it? For a youngster like you to be interested in the Sinjoh Ruins is\fnot something"
+0146,D51R0201,0x24BA,34,260,yes,Cynthia: This is the Mystri Stage. The mythical stage built to show respect\ffor ARCEUS. It is said that people used to 
+0147,D51R0301,0xA4B3,14,652,yes,"Cynthia: My name is Cynthia. I am a Pokémon Trainer. The Sinjoh Ruins remind me of Sinnoh, where I come from. Initially,"
+0148,GROUDON DEN; D52R0101,0x14A2,5,227,no,GROUDON: Grrgggrrrrah!
+0149,KYOGRE DEN,0x14AE,5,234,no,KYOGRE: Gyararoooah!
+0150,SKY PILLAR 02,0x14AA,3,27,no,RAYQUAZA: Kiyuryursheeah!
+0151,,0xEAC3,47,31,no,Moves’ secondary effects OFF
+0152,,0xB380,4,11,no,つながりのどうくつ
+0153,,0xA4BC,21,17,no,ビデオじぶん　カレントはかい
+0154,,0x7852,236,22,no,Player’s side 1
+0155,,0xBAED,34,26,no,Bag ON
+0156,,0x770E,107,33,no,Review
+0157,,0x66D4,68,33,yes,Target
+0158,,0x6E9B,70,76,yes,コインゲ－ム
+0159,,0xCA9D,20,7,no,あにめてすと
+0160,,0x0ED8,154,14,no,ListJump1
+0161,,0x547E,68,51,yes,Overlay
+0162,,0x103C,1,7,no,Mystery
+0163,,0x6E7B,76,235,yes,Can’t be seen
+0164,,0x2ECC,32,28,yes,Connection List
+0165,,0xE2BD,70,181,no,ワイプ
+0166,,0x0BCE,144,41,yes,Status
+0167,,0xB29B,79,23,yes,Play in reverse
+0168,,0xC56B,140,32,yes,
+0169,,0x4EEC,55,53,yes,Script Battle
+0170,,0xBB13,10,109,yes,Advance: months
+0171,,0x491E,109,22,no,Set Camera
+0172,,0xE278,25,15,no,Tamada Menu
+0173,,0xCA9C,15,30,no,Move Pokémon
+0174,,0xE9AF,27,90,yes,Start debug
+0175,,0x16E9,190,167,yes,Light ON/OFF
+0176,,0xB4B2,22,138,yes,TV
+0177,,0x3D9B,22,149,no,Ratio
+0178,,0xD790,60,9,no,Junichi
+0179,,0xEF78,6,57,yes,will be sent to .
+0180,,0x05BF,19,92,yes,The Hall of Fame!
+0181,,0x6B7A,7,102,yes,"HALL OF FAME No.   ,"
+0182,,0x0D41,165,94,yes,There appears to be a problem...
+0183,,0x6323,51,71,yes,
+0184,,0x6759,1,21,no,
+0185,,0x1C08,24,11,no,くらやみのほらあな
+0186,,0x923C,17,230,yes,"Welcome to Geonet, the high-tech globe!"
+0187,,0xBBE6,4,80,yes,hatched from the Egg!
+0188,,0x06B5,59,285,yes,Check Wii Number
+0189,,0x123F,1,19,yes,
+0190,,0xE6E4,9,89,yes,Professor Elm: Touch a Poké Ball to see what Pokémon is inside!
+0191,,0x5031,495,79,yes,POISONED
+0192,,0x84EE,25,284,no,
+0193,,0x7A1F,1,5,no,?????
+0194,,0x0F6D,29,89,yes,Please choose Pokémon no. .
+0195,,0x2239,40,483,yes,"First, we will hold your Pokémon in exchange for you renting our Pokémon. May I suggest choosing Pokémon after appropria"
+0196,,0xD3A0,37,39,yes,POKéDEX
+0197,,0x5A5F,1598,146,yes,gained  Exp. Points!
+0198,,0x6A87,4,6,no,ESCAPE
+0199,,0xA206,10,110,yes,obtained the !
+0200,,0x12E7,26,9,no,Rocky
+0201,,0xD2C8,20,8,no,
+0202,,0x90D0,2,23,no,
+0203,,0x535D,7,137,no,
+0204,,0x8E95,28,386,yes,"Hi! How’s it going? You’re in the  group with  as leader, right? Would you like to leave that group and join another one"
+0205,,0x56F9,14,136,no,
+0206,,0x3774,13,67,yes,Please stand by...
+0207,,0xC3CA,21,72,yes,
+0208,,0x082E,8,6,no,
+0209,,0xB330,32,147,yes,Good morning. You must be . I’ve received a gift for you. Here you go!
+0210,,0x4F58,10,110,yes,
+0211,,0x9644,35,111,yes,This tree looks like it can be cut down! Would you like to cut it?
+0212,MANSION A9; HIROBA,0x453E,1,17,no,Have a good time!
+0213,,0x08EF,42,134,no,
+0214,,0xC019,4,46,yes,Please touch the bottom screen.
+0215,,0x0CAD,48,351,yes,DONE!
+0216,,0x7B4D,100,15,no,White Fluff
+0217,,0xE4A5,100,46,yes,a White Fluff
+0218,,0x141F,18,16,no,Dress Up
+0219,,0xF2D0,63,249,yes,
+0220,,0x3FE6,537,14,no,
+0221,,0x515F,1,23,no,Custom item description
+0222,,0x515C,2474,20,no,None
+0223,,0x515D,1,41,yes,a Custom Item
+0224,,0x515A,1,40,yes,Custom Items
+0225,,0xD6DC,8,7,no,
+0226,,0x49B2,8,39,yes,♈ITEMS
+0227,,0x291F,35,45,no,
+0228,,0x110A,16,13,no,
+0229,,0x4754,6,105,no,The save file is corrupted. The previous save file will be loaded.
+0230,,0x387C,9,38,no,Throw Berries into SWALOT’s big mouth!
+0231,,0x1FBC,12,26,no,
+0232,,0x0F73,15,59,yes,MAILBOX
+0233,,0xE814,4,30,no,CONFIRM
+0234,,0xAF15,3,44,yes,Mic Test
+0235,,0x56FC,2,54,no,Roll the ball while keeping MIME JR. balanced on top.
+0236,,0x66E7,24,97,yes,These players have been accepted.
+0237,,0x5059,1393,10,no,-----
+0238,,0x5056,1393,13,no,a -----
+0239,,0xE25C,12,4,no,Jan.
+0240,,0x80E3,57,407,no,
+0241,,0x80EF,40,448,no,
+0242,,0x80EB,11,314,no,
+0243,,0x80F7,56,471,no,
+0244,,0x80F3,29,458,no,
+0245,,0x8896,16,68,no,
+0246,,0x2B57,88,250,yes,Ding-ding! Time’s up! The Bug-Catching Contest is over.
+0247,,0x2A22,83,161,yes,Welcome to Mystery Gift!
+0248,,0xA7C9,29,258,yes,CANCEL
+0249,,0x71D3,10,45,yes,Your name?
+0250,,0xA004,64,55,no,
+0251,,0x3455,64,6,no,Cheri
+0252,,0xD9AE,14,73,yes,has entered.
+0253,,0x1B1A,33,264,no,
+0254,,0xE7E1,86,7,no,Heart
+0255,SYDT DOCK 01,0x2407,16,244,yes,"Welcome to Fast Ship S.S. Aqua. ...Except that the engine-maintenance team is taking some time off, and we\fdon’t know w"
+0256,SYDT DOCK 02,0x240B,14,144,yes,OK! You must be the last passenger.
+0257,,0x240F,4,125,no,Welcome to the S.S. Aqua! Your Ticket is...right there. Please come through.
+0258,,0x2413,2,39,no,OK! You must be the last passenger.
+0259,BOAT 01,0xA416,11,127,no,Fast Ship S.S. Aqua is en route to Vermilion City. We will make an announcement when we arrive.
+0260,BOAT 02,0xA41A,9,249,yes,"Captain, play with me, please? I’m bored! I want to play more!"
+0261,BOAT 03,0xA41E,7,189,no,A comfy bed! Time to sleep...
+0262,BOAT 06,0xA40A,9,162,yes,I see. So you are playing hide-and-seek wih my granddaughter. I guess there is no need to worry as long as she’s on the 
+0263,BOAT 07,0xA40E,7,182,no,"Hey, kid. Could I get you to look for my buddy? He’s taking it easy somewhere, that good for nothing! I want to go find "
+0264,,0x1605,14,57,no,
+0265,,0x949F,759,117,yes,Huh?  is holding something... Would you like to take it?
+0266,,0x9935,48,118,no,
+0267,,0x0639,30,464,yes,"Oh, hello! Right this way, please!"
+0268,,0x670D,9,65,yes,It will forget the saying it knows now. Is that OK?
+0269,,0x213D,28,45,no,
+0270,,0x1F6D,2,6,no,CHANGE
+0271,,0xB132,45,32,yes,Call
+0272,,0xA782,36,186,no,
+0273,,0x2353,118,78,yes,Kanto
+0274,,0x14E2,157,258,yes,"Welcome! From here, you can select a Pokémon from your PC Box and send it to the\fPokéwalker to take along on a Stroll."
+0275,,0x16F7,91,157,yes,Went on a great adventure with ’s !
+0276,,0xBC67,6,23,yes,
+0277,,0x519B,32,41,yes,
+0278,,0x1105,10,34,yes,
+0279,,0x0A06,259,23,no,Mystery Zone
+0280,,0x5C7D,77,16,no,Lovely place
+0281,,0x1078,15,15,no,Day-Care Couple
+0282,,0xA375,14,11,no,POKéMON
+0283,,0x909B,15,37,no,Choose a word or phrase.
+0284,,0x3DCE,3,7,no,CONFIRM
+0285,,0xFBA6,38,12,no,MATCH UP
+0286,,0xFBA2,38,11,no,OPPONENT
+0287,,0xFB9E,107,12,no,KONNICHIWA
+0288,,0xFB9A,104,12,no,IDOL
+0289,,0xFFBE,47,12,no,BEAUTY
+0290,,0xFFBA,32,12,no,EARTH TONES
+0291,,0xFFB6,23,12,no,SINGLE
+0292,,0xDB06,20,60,yes,You win... !
+0293,,0xBB16,20,63,yes,Hello! !
+0294,,0x16E5,20,59,yes,Please! !
+0295,,0x6289,20,60,yes,! Hello!
+0296,,0x08F7,20,58,yes,I win! !
+0297,,0xE9A2,143,35,no,つぶれて　はねる
+0298,,0x3336,6,28,no,CANCEL
+0299,,0x3854,26,80,yes,
+0300,,0xD35D,176,141,yes,CONFIRM
+0301,,0x5198,47,261,yes,Make Pokémon migrate from ’s Ruby Game Pak?
+0302,,0xD35F,206,288,yes,
+0303,,0x0D4F,7,12,no,
+0304,,0x62B7,25,10,no,
+0305,,0x3A19,1,9,no,
+0306,,0xCD8E,1,3,no,
+0307,,0xBF7A,25,43,no,
+0308,,0x0F58,11,33,no,
+0309,,0x2AC5,309,273,yes,Welcome to the Pokéathlon! Today’s event-- the ! Who will shine brightest today? Let’s meet the competitors!
+0310,,0xB6D6,50,7,no,Susie
+0311,,0xE2EF,50,82,no,"Wow, you’re energetic and hardworking! I won’t get tricked by your cuteness!"
+0312,,0x58C2,63,497,yes,Welcome! This is the reception for admission. Will you try the Pokéathlon?
+0313,,0x8E3F,30,22,no,Speed Course
+0314,,0xE6EF,130,140,yes,Return
+0315,,0x8BDC,3,24,no,
+0316,,0x24FF,23,17,no,
+0317,,0x0165,26,33,no,
+0318,,0x7B00,29,9,no,
+0319,R01; RT 1 AREA 1,0x471B,1,27,no,Rt. 1 South to Pallet Town
+0320,RT 2 AREA 1; RT 2 AREA 2,0x4717,1,27,no,Rt. 2 North to Pewter City
+0321,,0xD406,1,23,no,This is DIGLETT’s Cave.
+0322,,0xD41E,3,174,no,Oh my good nuggets! You’re the first visitor I’ve had in a\flong time. I’m going crazy with joy! Since you look as brigh
+0323,RADE 01 GV09,0x5417,4,156,yes,"So you are ? Professor Oak is waiting for you in his\flab in Pallet Town. Also, I received this from him. He wants you t"
+0324,,0xD42E,1,76,no,Viridian Forest is like a maze inside. Be careful. Don’t get lost in there.
+0325,,0x5427,1,131,no,Viridian Forest not only has trees standing like a maze but also has many\fups and downs. That’s why people get lost eas
+0326,RT 3 AREA 1; RT 3 AREA 2; RT 3 AREA 3,0x4713,6,84,no,Mt. Moon ahead. Mt. Moon Square is on the way to the top!
+0327,,0xAFB2,2,221,no,"Oh my! I remember there was nothing built here\fwhen I climbed the mountain. Things change, and it’s getting more and mo"
+0328,,0x470F,1,59,no,Mt. Moon ahead. Mt. Moon Square is on the way to the top!
+0329,RT 3 AREA 4,0x470B,2,104,no,The road is closed until the problem at the Power Plant is solved.
+0330,MANSION A3; R05R0201,0xA41E,1,61,no,Many cities in Johto have long histories. I’d love to visit!
+0331,R05R0202,0xA412,10,230,yes,Don’t be afraid. I’m not a bad person. A place like this... attracts mean people. They would eventually cause trouble...
+0332,,0x2417,1,328,no,"You are from Johto, aren’t you? How do you like Kanto?\fIt’s nice, don’t you agree?\fHow many cities have you visited?\f"
+0333,R05R0401,0xA42E,3,103,no,Eeyaaaah! I sense a sinister shadow hovering over you.\fTake this to ward it off!
+0334,LOB FOREST 01; LOB FOREST 02; LOB FOREST 03; LOB FOREST 04; LOB FOREST 05; LOB FOREST 06; LOB FOREST 07; LOB FOREST 08; LOB FOREST 09,0x4707,2,105,no,The road is closed until the problem at the Power Plant is solved.
+0335,WLDA03 GV08,0x941E,2,216,no,"Welcome to Saffron City, home of the Magnet Train! ...That’s what I’d normally say, but the Magnet Train isn’t running n"
+0336,RT 4 AREA 1,0x4703,2,233,no,There is a notice! ...Uncouth Trainers have been holding battles in the Underground Path. Because of rising complaints b
+0337,R07R0101,0x8406,2,104,no,"Did you hear about the accident at the Power Plant? It’s located in the east, close to Lavender Town."
+0338,RT 5 AREA 1; RT 5 AREA 2,0x473F,2,47,no,It won’t open! It’s locked...
+0339,,0x741E,1,66,no,Have you been to Lavender Town? There’s a tall Radio Tower there.
+0340,SUB PATH 1; SUB PATH 2; SUB PATH 3; SUB PATH 4; RT 5 AREA 3,0x473B,1,26,no,Rt. 9 East to Rock Tunnel
+0341,ROCK CAVE 01; RT 5 AREA 4,0x431F,10,200,yes,"Lt. Surge: Oh, yay! You have the Pokémon I love best:\fPIKACHU! Excellent! I’ll give you my telephone number!"
+0342,R10PC0101,0x0FD3,4,136,no,A Pokémon Center near a cave? That’s mighty convenient.
+0343,,0x7427,1,25,no,Rt. 10 Rock Tunnel ahead
+0344,R10R0201,0x743F,16,202,yes,
+0345,R10R0202,0x7433,20,223,yes,A thief broke into the Power Plant... What is the world coming to?
+0346,-; ICE CAVE 01; RT 5 AREA 5; RT 6 AREA 1; RT 6 AREA 2; RT 6 AREA 3; RT 6 AREA 4,0x431B,4,68,no,Rt. 11 West to DIGLETT’s Cave
+0347,,0x6427,2,182,no,"Hello, passerby! Have you seen DIGLETT’s Cave? Normally you can go through it to get\fto Route 2, but there is a sleepin"
+0348,STEEL CAVE 01; RT 7 AREA 1; RT 7 AREA 2; RT 7 AREA 3,0x4317,4,125,no,Rt. 12 North to Lavender Town
+0349,HOME 57 SROD,0x5427,4,138,yes,"I’m the Fishing Guru’s younger brother. You seem to like fishing. Am I right, or am I right?\fPeople say I have keen eye"
+0350,ROCK CAVE 02; RT 8 AREA 1; RT 8 AREA 2; RT 8 AREA 3; RT 8 AREA 4,0x4313,3,63,no,"Trainer Tips Look! Right there, at the east side of the post."
+0351,-; ICE CAVE 02; RT 9 AREA 1; RT 9 AREA 2; RT 9 AREA 3; RT 9 AREA 4; RT 9 AREA 5,0x430F,8,505,yes,"Do you know which is the cutest Pokémon in the world?\fIt’s CHANSEY, of course!\fI say CHANSEY, and that’s final!"
+0352,STEEL CAVE 02; RT 10 AREA 1; RT 10 AREA 2,0x430B,1,30,no,Rt. 15 North to Lavender Town
+0353,,0x2427,1,194,no,"West to the Cycling Road. East to the Silence Bridge. Coming from either way, everyone who comes through this gate has a"
+0354,RT 12 AREA 1; RT 12 AREA 2; RT 12 AREA 3,0x4307,1,72,no,The Cycling Road starts here! Enjoy coasting downhill on your Bicycle!
+0355,,0x1427,6,121,yes,"If you cruise down the Cycling Road, you will end up in Fuchsia City."
+0356,BIKE GATE 01,0x143F,2,213,no,"Cycling Road starts here. It’s all downhill, so it’s totally\fexhilarating. Some people prefer convenient and cool trans"
+0357,BIKE ROAD TOP,0x4303,3,22,no,
+0358,RT 11 AREA 1; RT 11 AREA 2; RT 11 AREA 3; RT 11 AREA 4; RT 11 AREA 5,0x433F,1,28,no,Rt. 18 East to Fuchsia City
+0359,BIKE GATE 02,0xF427,2,150,no,"Cycling Road is all uphill from this end. It’s really challenging. Although, it may be interesting to go up once pushing"
+0360,-,0x4F17,25,317,yes,Pokémon League Victory Road Entrance
+0361,,0x5447,17,202,yes,"Only Trainers who have proven themselves may pass. Oh! The eight Badges of Johto! Please, go right on through!"
+0362,-,0x4F0F,10,358,no,"Oh no! Hiding I was, but you did me found in no time! ... Me only one from another country. Yet! No big business, OK? Th"
+0363,-,0x4F0B,20,347,yes,Misty: Aww! Why did you have to show up and bug us now? Do you know what they call people like you? Pests! You heard me 
+0364,,0x2447,19,197,yes,"Hmm? You are here for my grandson? His name is Bill. He’s in Johto. He does something with PCs,\fso I’m house-sitting."
+0365,ULURU 1 A1; ULURU 1 A2; ULURU 1 A3,0x4F07,2,38,no,Rt. 26 Pokémon League Reception Gate
+0366,RADE 07 HS31; RADE HQ #####,0x1447,3,168,no,Did you think you were lucky to find a place to rest right where you\fneeded it? Don’t be reserved! I look forward to pe
+0367,RT 9 HS32,0x145F,3,189,yes,There’s something written here. Read it?
+0368,,0x9456,1,75,no,
+0369,RT 14 AREA 1; RT 14 AREA 5; RT 14 AREA 6; RT 14 AREA 2; RT 14 AREA 3; RT 14 AREA 4,0x4F03,4,107,no,Hey!
+0370,HOTEL 2 HS33,0x0447,4,268,no,Where are you off to with Pokémon? The Pokémon League? Are your Pokémon loyal enough for you to win? Let me see...
+0371,RT 19 AREA 1; RT 19 AREA 2; RT 19 AREA 3,0x4F3F,1,26,no,Rt. 28 West to Mt. Silver
+0372,DALI 10 HS54,0xF447,4,240,no,Alas! You’ve found me... My peace and quiet to heal myself from the exhaustion of standing in the\fspotlight has been ex
+0373,ULURU 2 A1; ULURU 2 A2,0x4F3B,19,197,yes,Lyra: ! You can catch wild Pokémon\fwith Poké Balls. Follow me!
+0374,,0xE447,2,107,no,You can’t climb ledges. But you can jump down from them to take a shortcut.
+0375,MELT 12 GV03; RT 13 AREA 1; RT 13 AREA 2; RT 13 AREA 3; RT 13 AREA 4; RT 13 AREA 5; RT 13 AREA 6; RT 13 AREA 7,0x4B1F,14,404,no,"Go, RATTATA! Tackle!"
+0376,LOBA 05 HS09,0xF466,4,406,no,"People usually come to my house looking for Mr. Pokémon’s house.\fYou did mean to visit my house, right? How kind of you"
+0377,,0xF47E,31,346,yes,You must be . It was I who sent an email to Professor Elm earlier.
+0378,ULURU 3 A1; ULURU 3 A2,0x4B1B,16,313,yes,"...Hnuurg ...Huh? I walked too far today looking for Pokémon. My feet hurt and I’m sleepy... If I were a wild Pokémon, I"
+0379,MELT 13 GH01,0xE466,8,139,yes,You must be an adventuring Trainer. Did you challenge the Pokémon Gym yet?
+0380,UNDARA AREA 1; UNDARA AREA 2; UNDARA AREA 3; UNDARA AREA 4,0x4B17,20,249,yes,Wait up! What’s the hurry?
+0381,SYDT 02 PC05,0x4F93,12,318,yes,"This area is great for fishing. Looking at all those people fishing,\fdid you feel like you wanted to try\ffishing, too?"
+0382,DANB 01 GH02,0xD466,3,82,no,The Ruins of Alph. A look-and-touch tourist site.\fTry the sliding stone panels!
+0383,PRIMAL CAVE 1; -; -,0x4B13,2,151,no,"Pant, pant... I finally got through that cave. It was much bigger than I’d expected. I got too tired to explore the whol"
+0384,SHALLOW C 1; SHALLOW C 2; SHALLOW C 3; SHALLOW C 4,0x4B0F,50,171,yes,
+0385,BAIR 05 DCARE,0xB466,20,234,yes,Lyra: Grandma! Let me introduce my friend. This is !
+0386,SYDT 06 GV06,0xB47E,5,165,no,"Oh, honey. You’re making a Pokédex? You must be battling all kinds of Pokémon. Try using this TM for a change."
+0387,RT 15 AREA 1; SKY PILLAR 01,0x4B0B,30,104,no,
+0388,LOBA 07 GV01,0xA466,17,343,yes,"Excuse me, kid! I received this letter the other day\ffrom a friend of mine. Here’s the reply that I wrote. I am stuck h"
+0389,,0xA47E,11,260,no,I heard about the Bug-Catching Contest where Bug-type lovers gather from all\fover the region. ...Me? I cannot take Bug 
+0390,ULURU 4 A1; ULURU 4 A2; ULURU 4 A3,0x4B07,19,287,yes,There’s an odd tree! Use the SquirtBottle?
+0391,MELT 11 GV02,0x9466,2,124,no,This is the Ruins of Alph. An ancient tradition made of stones. Don’t you wonder who’d make something like this? And why
+0392,,0x947E,25,142,no,
+0393,SPEAR PLR 1; SPEAR PLR 2,0x4B03,2,174,no,Rt. 37 North to Ecruteak City
+0394,RT 18 AREA 1; RT 18 AREA 2; RT 18 AREA 3; RT 18 AREA 4,0x4B3F,17,156,no,
+0395,TROO 01 GH 09,0x7466,1,138,no,"Where did you say you’re from? New Bark Town? That’s the town where... Professor Elm lives, right?\fYou’ve come a long w"
+0396,HAUNT AREA 1; HAUNT AREA 2; HAUNT AREA 3; HAUNT AREA 4; HAUNT AREA 5,0x4B3B,15,565,yes,Rt. 39 South to Olivine City
+0397,,0x6466,15,184,yes,My MILTANK ain’t givin’ me milk n’more. This here farm’s got famous milk. Most everyone wants a drink. It’ll give me lot
+0398,,0x647E,21,247,yes,Moomoo is sick...\fShe needs lots of Oran Berries.
+0399,MANSION A1; MANSION A2; MANSION A6; MANSION A7; MANSION A8,0x5717,10,238,yes,Rt. 42 Ecruteak City to Mahogany Town
+0400,,0x5487,1,71,no,Mt. Mortar is like a maze inside.\fBe careful. Don’t get lost in there.
+0401,RT 17 AREA 1; RT 17 AREA 2; RT 17 AREA 3; RT 17 AREA 4; RT 17 AREA 5; RT 17 AREA 6; RT 17 AREA 7; RT 17 AREA 8,0x5713,21,213,no,
+0402,DANB 09 GV04,0x4487,2,196,no,"I heard that you can find a Red Scale occasionally. Speaking of which, I know a person who’d appreciate a Red Scale.\fWh"
+0403,WLDA01 GV07,0x449F,7,237,no,"Hold it there, kiddo! The toll is $1,000 to go through."
+0404,,0x570F,2,76,no,"Ice Path Careful not to slip, fall over, freeze, and get stuck on the ice."
+0405,UNDARA CAVE 3; UNDARA CAVE 4,0x570B,3,250,no,"Have you heard of a place called the Battle Frontier? It’s a huge place with many battle facilities, and it’s located we"
+0406,UNDARA CAVE 2,0x5707,4,90,no,Rt. 46 Mountain Road ahead
+0407,,0x5703,10,568,yes,"Well, hello! It’s said that past this hole used to be a huge tower reaching far into the sky. They say that it was a rat"
+0408,,0x573F,1,28,no,Rt. 48 North to Safari Zone
+0409,,0x829B,2,18,no,Radio Transmission
+0410,,0xD2CD,2,23,no,Mysterious Transmission
+0411,,0xDEF1,6,450,yes,Buena’s Password
+0412,,0xC1D7,37,260,no,Commercials
+0413,,0xA6B2,26,855,no,Serial Radio Drama
+0414,,0x12E2,33,265,yes,Pokémon Talk
+0415,,0xF1F4,24,800,no,"That Town, These People"
+0416,,0x0EBB,13,208,no,Pokémon Music
+0417,,0x70EF,1,10,no,Poké Flute
+0418,,0xD2B9,3,318,no,Team Rocket Announcement
+0419,,0xCAA1,17,514,no,Pokémon Search Party
+0420,,0x917E,20,300,no,Trainer Profiles
+0421,,0xA009,73,68,yes,
+0422,,0xADE9,23,65,yes,
+0423,,0xB5A8,17,45,yes,
+0424,,0xD169,403,88,no,Champion Ribbon
+0425,,0x1570,23,38,no,
+0426,,0xA7C3,81,455,yes,"First, I’ll need to hold on to any items held by your Pokémon."
+0427,,0x15EC,11,77,yes,Ding-dong! Time’s up! Your Safari Game is over.
+0428,,0x671F,12,16,no,Plains Area
+0429,,0x90AF,28,61,yes,Do what with this Area?
+0430,,0x90A3,62,116,yes,Place the ?
+0431,,0x3160,3,38,no,
+0432,,0x5160,13,57,yes,
+0433,,0xC8F1,16,405,yes,Welcome! Would you like some Scratch-Off Cards? They’re three for  BP.
+0434,,0xBB17,52,28,no,
+0435,,0x5057,50,67,yes,XXXXXXXXXXXXXXXXXXXX
+0436,,0x697B,16,86,no,
+0437,,0x32AD,1372,23,no,PV001
+0438,,0xABA7,12,10,no,BGM
+0439,,0x993A,51,216,yes,"I’m the Day-Care Man. We look after the precious Pokémon of other Trainers. If you’d like us to raise your Pokémon, have"
+0440,,0xAA22,253,105,yes,Pokémon HeartGold Version   Staff Credits
+0441,,0xA4D7,38,349,yes,Please wait a moment.
+0442,,0x9764,21,41,yes,CONTINUE
+0443,,0x307C,9,11,no,HP
+0444,,0x49B7,28,108,no,
+0445,,0x2B0A,2,5,no,Ethan
+0446,HAMPELL TOWN,0x472B,6,74,no,"I’m raising Pokémon, too. They serve as my private guards."
+0447,,0x2406,3,162,no,"Hi! Red’s been away. He hasn’t called either, so I have no idea where he\fis or what he’s been doing. They say no news i"
+0448,,0x240A,2,52,no,"It’s a Wii! Wii is huge in Kanto, too!"
+0449,,0x241E,13,246,yes,"Daisy: Hi! My kid brother is the Gym Leader in Viridian City. But he goes out of town so often, it causes problems for t"
+0450,,0x2412,2,39,no,"It’s a Wii! Wii is huge in Kanto, too!"
+0451,,0xA417,58,575,yes,"Professor Oak: Ah, ! It’s good of you to come all this way\fto Kanto. What do you think of the Trainers out here?\fPrett"
+0452,UNDARA CAVE 1,0x4727,12,224,yes,"Hey, kid! I just had a double shot of espresso, and I am wired! I need to talk to someone, so you’ll have to do! I might"
+0453,,0xCF10,2,62,no,The Gym Leader here is totally cool.
+0454,,0x3964,11,302,yes,"Blue: Yo! Finally got here, huh? I wasn’t in the mood at Cinnabar, but now I’m ready to battle you. ... You’re telling m"
+0455,,0x2E13,4,222,no,Where in the world is Viridian’s Gym Leader?\fI wanted to challenge him...
+0456,DALI 10 HS53,0x141E,4,123,no,Do you put a lot of thought into naming your Pokémon? Giving them good nicknames adds to the fun of trading with others.
+0457,,0x9417,8,400,no,"Welcome to Trainer House, the newest and most happening place in Viridian.\fWe’re open to Trainers only. You can battle "
+0458,,0x941B,15,213,yes,"Hello, welcome to our Training Hall. You may battle our best Trainers and their favorite Pokémon once\fper day. Would yo"
+0459,RADE 23 GV13,0x142E,1,102,no,"To the south is Pallet Town. That’s where Professor Oak, a\fwell-respected Pokémon\freseacher, lives."
+0460,,0x4723,25,236,no,Have you visited Pewter Gym? The Gym Leader uses Rock-type Pokémon.
+0461,T03FS0101,0x4F31,2,98,no,Look! I have a GYARADOS! I raised it from a MAGIKARP slowly. It finally evolved!
+0462,T03GYM0101,0x9965,10,251,yes,"Brock: Wow, it’s not often that we get a challenger from Johto. I’m Brock, the Pewter Gym Leader.\fI’m an expert on Rock"
+0463,T03PC0101,0xAE32,8,134,yes,"...Yeah, and the Gym in Cinnabar’s gone. I was really amazed. ...Yes? I’m on the phone. Go away!"
+0464,MELT 07 FOSSI; T03R0101,0x0406,30,312,yes,"Welcome! Just to let you know, all the large specimens have been taken to the\fother museums for display. So for now, ad"
+0465,T03R0201,0x041E,2,22,no,"NIDORAN♂, shake hands!"
+0466,T03R0601,0x843F,1,135,no,I used to enjoy snoozing with the radio on... It’s broken and is being fixed now. ... ...\f...\f... It’s too quiet to fa
+0467,,0x473F,19,181,no,"Kanto’s Power Plant? It’s near the end of Route 9, the road that heads east from here. I think there was an accident of "
+0468,TROO 04 PM09,0xCFD0,2,120,no,You’ll run into many Trainers on the way to Cerulean Cape. They want to see how they stack up against other Trainers.
+0469,SYDT 04 GYM04,0xF964,17,175,yes,Bump!
+0470,,0x2ED3,2,136,no,"For battles, I’d much rather use Pokémon I’ve been raising, even if they’re weaker than some newly caught Pokémon."
+0471,,0x7406,1,37,no,Are you collecting Kanto Gym Badges?
+0472,,0x741E,3,107,no,I heard that some shady character is skulking about. I won’t stand for it if he turns out to be a thief.
+0473,,0xF417,4,107,no,My husband lives happily with Pokémon he got through trades. I live happily having such a great husband.
+0474,,0x742E,1,329,no,"A long time ago, this cool boy rode my Bike around, and that started this\fentire Bike boom. Then I decided to open a br"
+0475,,0x473B,8,81,no,"That’s quite some building, eh? It’s Kanto’s Radio Tower."
+0476,,0x4FF1,2,131,no,"Repel is a necessity if you are going to explore a cave. Even though I like exploring, I still haven’t made it to all th"
+0477,,0xAEF2,4,137,no,To the north of Lavender is the Rock Tunnel. Go through it to get to the Power Plant.
+0478,,0x641E,5,142,no,"Mr. Fuji does live here, but he’s away now. He should be at the House of Memories."
+0479,,0xE417,1,121,no,"Lavender is a tiny, quiet town at the foot of the mountains. It’s gotten a bit busier since the Radio Tower was built."
+0480,,0x642E,9,177,yes,"Hello, there! I am the official Name Rater! Want me to rate the nicknames of your Pokémon?"
+0481,,0xE43F,4,247,no,Mr. Fuji: Welcome. Hmm... You appear to be raising your Pokémon in a kind and loving manner. Those who love Pokémon come
+0482,,0x6436,12,194,yes,Welcome! Feel free to look around anywhere on this floor.
+0483,,0x4737,24,228,yes,Vermilion Port is Kanto’s seaside gateway. Luxury liners from around the world dock here.
+0484,DALI 03 PM07,0x4F91,2,107,no,Team Rocket is no longer in Kanto. That alone makes me happy.
+0485,DALI 04 GYM06,0x3965,15,275,yes,"Lt. Surge: Hey, you little tyke! It may not be very smart to challenge me, but it takes guts! When it comes to Electric-"
+0486,,0xAE92,4,124,no,"A sleeping Pokémon is lying in the middle of the road. It’s a fantastic opportunity to get it, but how do you wake it up"
+0487,HOTEL 2 HS34,0x5406,2,278,no,"I am the Fishing Dude, the elder of the Fishing Bros. Have you met the Fishing Guru at Lake of Rage? He dreams about see"
+0488,,0xD417,19,426,yes,I’m the Chairman of the Pokémon Fan Club. I’ve raised over 150 Pokémon. I’m very fussy when it comes to Pokémon. Did you
+0489,HOTEL 2 HS35,0x542E,2,88,no,Do you know about the Magnet Train? It’s a railway that connects Kanto and Johto.
+0490,TROO 06 HS36,0xD43F,1,82,no,"Over many years, DIGLETT dug a large tunnel.\fThat tunnel goes to a distant town."
+0491,,0x4733,36,177,yes,"This is my trusted pal, POLIWRATH. I wonder if it will become a Frog Pokémon someday."
+0492,DANB 05 GYM03,0x9964,7,381,yes,"Erika: Hello... Lovely weather, isn’t it? It’s so pleasant... I’m afraid I might doze off... My name is Erika. I am the "
+0493,,0x2EB3,3,171,no,That Pokégear you have-- it’s way too cool! Is that the...latest model?
+0494,DEPART 2 F1,0x4406,4,123,no,Hello! Welcome to the Celadon Department Store! The directory is on the wall next to the elevator.
+0495,DEPART 2 F2,0x440A,10,174,no,I just recently became a Trainer.\fMy son encouraged me to do it. I’m impressed by the selection of convenient items.
+0496,DEPART 2 F3,0x440E,5,174,no,I can’t decide which Pokémon I should use this TM on...
+0497,DEPART 2 F4,0x4412,19,124,yes,"Falkner: Out of all the Trainers out there, the best Trainer would\fhave to be my dad."
+0498,DEPART 2 F5,0x4416,4,124,no,"I want to buy some items that raise Pokémon stats, but I don’t have\fenough money..."
+0499,DEPART 2 F6,0x441A,8,238,yes,A vending machine with a  prize roulette... It makes you happy when you get something for free even if it’s worth\fonly 
+0500,DEPART 2 ELV,0x441E,11,77,yes,Hello. To which floor may I take you?
+0501,HOTEL 1 F1,0x441E,5,236,no,"Do you need anything? I am the manager of the condominiums. It’s pretty safe around here, so I don’t have much to do. I "
+0502,HOTEL 1 F2; HOTEL 1 F3; HOTEL 1 F4,0x4412,2,68,no,Please take this elevator to go to the roof.
+0503,,0x4416,22,425,yes,"I’m the Game Director! Filling up your Pokédex is tough, but don’t give up! You can do it! Seriously!"
+0504,DEPART 2 ROOF,0x440A,1,99,no,High places--I do love them so! I’d say the only thing that loves heights as much as me is smoke!
+0505,DEPART 2 ROOM,0x440E,4,588,no,Let me recount a terrifying tale...
+0506,HOTEL 2 B1,0x4402,8,98,yes,This elevator is for Game Freak only. Please select the floor you’d like to go to.
+0507,,0x4406,7,119,yes,Celadon Condominiums This elevator goes straight to\fthe roof. Will you go to the roof?
+0508,RT 7 SCIENCE,0x442E,23,80,no,
+0509,RADE 20 TBD,0xC427,36,352,yes,"I wanted PORYGON, but I was short by 100 Coins..."
+0510,RADE 21 TBD,0x4436,8,230,no,Hi! We’re holding an eatathon contest. We can’t serve you right now. Sorry.
+0511,MELT 06 GAME2; T07SP0101,0x1F83,15,274,yes,"My name is Mr. Game! My heart pounds with excitement when people enjoy my Coin game! In fact, that’s what I live for! Yo"
+0512,SEWER ROOM 03,0x470F,16,190,yes,One of the Elite Four used to be the Leader of Fuchsia’s Gym.
+0513,T08FS0101,0xCE50,3,148,no,"I was hoping to buy some Safari Zone souvenirs, but it’s not open! I thought it was closed today, but actually it’s gone"
+0514,HOTEL 2 F2; HOTEL 2 F3; HOTEL 2 F4; T08GYM0101,0xF967,19,186,yes,"Fufufufu... I’m sorry to disappoint you... I’m only joking! I’m the real deal! Janine of Fuchsia Gym, that’s me!"
+0515,T08PC0101,0x2F53,4,82,no,Hey! You have a Pokédex! Did Professor Oak give that to you?
+0516,T08R0201,0xB41E,46,395,yes,Welcome to the Pal Park! This is where top-notch Trainers who aren’t satisfied with the Safari Zone\fcome to show their 
+0517,RT 5 01 HS51; T08R0401,0xB42E,2,53,no,My grandpa is at my brother Bill’s on Cerulean Cape.
+0518,DALI 10 HS52; T08R0601,0x343F,4,172,no,"My grandpa closed the Safari Zone and now that we have an empty lot,\fmy dad decided to run the Pal Park! It seems that "
+0519,,0x470B,22,309,yes,"Who are you? My name’s Blue. I was once the Kanto Champion. Although it was short-lived thanks to Red...\fAnyway, take a"
+0520,,0xAF72,2,98,no,I feel so sorry for Blaine. He lost his Gym...
+0521,,0x432F,1,66,no,Indigo Plateau The Ultimate Goal for Trainers! Pokémon League HQ
+0522,,0xB427,27,246,yes,"At the Pokémon League, you’ll get tested by the Elite Four.\fYou have to beat them all. If you lose, you have to start a"
+0523,,0xB43F,3,271,no,"Welcome to the Pokémon League! Allow me to introduce myself. I am Will. I have trained all around the world, making my P"
+0524,,0x3436,3,293,no,Fwahahahaha! I am Koga of the Elite Four. I live in shadows--a ninja! My intricate style will confound and destroy you! 
+0525,,0xB40F,3,315,yes,I am Bruno of the Elite Four. I always train to the extreme because I believe in our potential. That is how we became st
+0526,,0x3406,3,244,yes,I am Karen of the Elite Four. You’re ? How amusing. I love Dark-type Pokémon. I’m known for my overpowering tactics. Thi
+0527,,0x341E,12,360,yes,"Lance: I’ve been waiting for you. ! I knew that you, with your skills, would eventually reach me here. There’s no need f"
+0528,,0xB417,2,513,yes,Lance: It’s been a long time since I last came here. This is where we commemorate the League Champions for all eternity.
+0529,,0x432B,15,279,no,"Our city was featured on a radio show. It’s nice to hear praise for your city, but it’s a bit embarrassing, too."
+0530,RADE 04 PM08; TROOME CITY; TROOME TBD 1; TROOME TBD 2; TROOME TBD 3; TROOME TBD 4; TROOME TBD 5; TROOME TBD 6; TROOME TBD 7; TROOME TBD 8; TROOME TBD 9; TROOME TBD 10,0x6F71,2,84,no,There’s a big Radio Tower in Lavender Town.
+0531,,0x5924,10,292,yes,Sabrina: I knew you were coming... Three years ago I had a vision of your arrival. You’re after my Badge. I don’t enjoy 
+0532,,0x8E72,4,186,no,"What are Johto’s Pokémon Centers like? ...Oh, I see. So they’re not much different from the ones in Kanto. Then I’ll get"
+0533,,0xA427,36,225,no,"Hello! Karate King, the Fighting Dojo’s master, is in a cave in Johto for\ffurther training."
+0534,TROO 08 HS38,0x2406,2,52,no,... ... ... ...I got it! You wanted this!
+0535,,0x241E,19,245,yes,"This is a problem! The machine at the Power Plant is broken, and we’re not receiving\felectricity! I don’t know how long"
+0536,,0x2412,1,65,no,We have arrived at Saffron! Saffron! The accent is on the “a”!
+0537,ROTOM TOWER,0xA417,28,528,yes,Welcome. This is Silph Co.’s head office building.
+0538,ROTOM ROOM,0xA41B,44,739,yes,entered the motor.  is trying to learn . But  can’t learn more than four moves. Delete a move to make room for ?
+0539,ROTOM ELEVATO,0xA41F,2,67,no,"ROTOM’s electricity affected the elevator, and now it’s working!"
+0540,TROO 09 HS39,0xA46F,4,127,no,My daughter likes to mimic people. Her mimicry has earned her the\fnickname Copycat around here.
+0541,TROO 10 HS40,0xA463,18,273,yes,": Hi! Do you like Pokémon? : Uh, no, I just asked you. : Huh? You’re strange!"
+0542,MAUNCESTON T,0x4F2F,38,275,yes,"Wow, your Pokégear is impressive!"
+0543,MAUN 09 LAB01,0xB447,106,709,yes,"Professor Elm: Hi, ! I’ve been waiting for you! Do you know anything about my research? As you know, Pokémon are carried"
+0544,MAUN 10 LAB02,0xB44B,11,47,yes,Please Select
+0545,MAUN 01 MUM,0xB45F,39,407,yes,"Hi, ! You’re finally awake.\fYour friend Lyra was just here. She was playing hide-and-seek with her MARILL. Oh, I almost"
+0546,MAUN 02 PROT,0xB453,3,64,yes,booted up the PC and checked the Mailbox!
+0547,MAUN 03 HS01,0x3456,1,238,no,PIKACHU is an evolved Pokémon. ...This fact was first discovered by Professor Elm. I was amazed by Professor Elm’s findi
+0548,,0xB46F,20,264,yes,"Hi, ! Lyra is upstairs. She’s playing games with her Pokémon as usual. You didn’t bring your...Pokémon? ...Oh, I should’"
+0549,MAUN 04 RIV01; MAUN 06 RIV02; MAUN 08 RIV03; RADE 22 TBD,0xB463,19,457,yes,Lyra: ! Professor Elm was looking for you. Did you go to his lab?
+0550,LOBART CITY,0x4F2B,25,221,yes,"You’re a rookie Trainer, aren’t you? I can tell! That’s OK! Everyone is a rookie at some point! If you’d like, I can tea"
+0551,HAMP 03 PM01,0x0F71,3,170,no,They’re fresh out of Poké Balls! When will they get more of them?
+0552,HAMP 01 PC01,0xEE72,6,168,no,"It’s great. I can store any number of Pokémon, and it’s all free."
+0553,MAUN 05 HS02,0x2456,2,131,no,You’re trying to see how good you are as a Pokémon Trainer? You better visit the Pokémon Gyms all over Johto and collect
+0554,MAUN 07 HS03,0xA46F,1,336,no,"When I was a wee lad, I was a hotshot Trainer! Here’s some words of advice: catch a lot of Pokémon! But you can only tak"
+0555,MAUN 11 HS04,0x2466,2,96,no,Pokémon gain experience in battle and change their form.
+0556,MELTON CITY,0x4F27,28,190,yes,"Hello, ? We discovered something about the Egg! My assistant is at the Pokémon Center in Violet City.\fCould you talk to"
+0557,MELT 03 PM03,0x0F11,11,512,yes,"When you first catch a Pokémon, it may be weak. But it will eventually grow to be strong. It’s important to treat Pokémo"
+0558,RADE 05 GYM07,0x39E4,11,313,yes,"Falkner: I’m Falkner, the Violet City Pokémon Gym Leader! People say you can clip Flying-type Pokémon’s wings with a jol"
+0559,MELT 01 PC03,0xEE12,27,303,yes,
+0560,LOBA 06 SCHOO,0x1456,36,236,yes,"Earl, I am! Wonderful are Pokémon, yes! Teach you I will to be a better Trainer! What you want to know? Want to be a win"
+0561,MELT 09 HS11,0x946F,3,116,no,"She uses the names of all the foods she really enjoys eating. For the nicknames she gives to her Pokémon, I mean."
+0562,DANB 06 HS13,0x147E,6,111,yes,"A Pokémon you get in a trade grows quickly. But if you don’t have the right Gym Badge, they may disobey you."
+0563,WLDA02 GH08,0x9477,3,89,no,"Lately, I don’t see people coming from Goldenrod City."
+0564,DANBERRA CITY,0x4F23,20,360,yes,Ilex Forest Ahead Enter through the gate.
+0565,DANB 04 PM04,0x8F30,2,140,no,"The number of Gym Badges you have shows how strong a Trainer you are. The more Badges you have, the better the items you"
+0566,,0x99E5,4,271,yes,"Yo, challenger! Bugsy made this Gym. It’s a huge nest\fof Bug-type Pokémon. Bugsy’s young, but he’s a master of Bug-type"
+0567,,0x99E9,7,233,yes,Bugsy: I’m Bugsy! I never lose when it comes to Bug-type\fPokémon. My research is going to make me the authority on Bug-
+0568,DANB 02 PC04,0x6E33,3,223,no,"Do any of your Pokémon know... what they call the hidden moves? When a Pokémon faints, it just means it doesn’t have the"
+0569,BAIR 08 GH04; SYDT 06 GH03,0x8447,2,68,no,Ilex Forest is big. Be careful! Don’t get lost.
+0570,DANB 07 HS14,0x845F,9,188,yes,All the SLOWPOKE have disappeared from the town. The forest’s protector may be angry with us... It may be a bad omen. We
+0571,,0x0466,25,459,yes,"Hm? Who are you? , eh? You want me to make some Balls? Sorry, but that’ll have to wait. Do you know Team Rocket? Ah, don"
+0572,BAIRNS TOWN,0x4F3F,23,422,yes,You crossed the sea to get here? That must have been hard. It would be much easier if your Pokémon knew how to Fly...
+0573,,0x0FD1,1,3,no,
+0574,MELT 04 GYM02,0xF9E4,15,347,yes,Chuck: Ooomph! The pounding waterfall right onto\fmy head...\fArrgh! Why did you stop the waterfall from pouring on me! 
+0575,DALI 01 PC09,0xEED2,7,431,yes,Have you met the maniac in this city? He’s always bragging about his rare Pokémon.
+0576,SHED 04 HS22,0xF45F,15,264,yes,I... I’m in shock! A guy about your age with piercing eyes and long hair came in. He scared me into giving him my prized
+0577,SHED 05 HS23,0x7466,9,168,yes,Huh? You need medicine? Your Pokémon appear to be fine.\fIs something worrying you? ... The Lighthouse Pokémon is in tro
+0578,SHED 04 HS24,0x747E,1,307,no,Hi. You must be a sightseer! Why not take a picture here? You saw the camera outside? I put it there! You may come acros
+0579,DALI 05 HS25,0xF477,3,133,no,You came from Olivine? Do you remember the four islands along the way? I heard that a mythical sea creature is hiding in
+0580,RADE 23 TBD; TROO 07 HS37,0xF40F,5,338,no,"I don’t remember the last time someone came to visit me. When I was young, I was a Pokémon Trainer, too. I tried to reac"
+0581,SYDTREE CITY,0x4F3B,47,202,no,"They built the new Radio Tower to replace the old, creaky one."
+0582,LOBA 04 GYM01,0x59E5,14,298,yes,"Whitney: Hi! I’m Whitney! ...You! I saw you at the Radio Tower just now. Everyone was into Pokémon, so I got into it, to"
+0583,BAIR 01 PC07,0x6EF3,7,257,no,"The Colosseum upstairs is for link battles. Battle records, such as how many times you had link battles and the results,"
+0584,MELT 08 BIKE,0xE45F,6,167,yes,"Sigh... I opened a branch here, but I can’t sell my Bicycles.\fWhy is that? Could you ride a Bicycle and advertise for m"
+0585,HOTEL 1 HS17,0x6456,9,112,no,"If you treat your Pokémon nicely, they will love you in return. Oh? Let me see your Pokémon..."
+0586,HOTEL 1 HS16,0xE46F,16,284,yes,"Bill: Hi, ! Would you do something for me and take this EEVEE? It came over when I was adjusting Nintendo Wi-Fi Connecti"
+0587,,0x6466,10,130,no,The train hasn’t come in... I know! I’ll carry the passengers on my back! That won’t work.
+0588,RELIC RUIN F3; RELIC RUIN F2; RELIC RUIN F1; DRAGON DEN 01,0x646A,1,69,no,We have arrived at Goldenrod! Goldenrod! The accent is on the “o”!
+0589,,0x647E,14,330,yes,"Apparently, there is an odd tree on Route 36. They say it dances when you water it... Oh, of course not! This is a Flowe"
+0590,HOTEL 1 HS18,0xE40F,2,124,no,"Once while I was battling, my Pokémon couldn’t use any moves. The Power Points, or PP, of its moves were all gone."
+0591,,0x6406,9,175,yes,"Hello, hello! I am the official Name Rater! Want me to rate the nicknames of your Pokémon?"
+0592,DEPART 1 F1,0xEC4F,8,111,no,Welcome to the Goldenrod Department Store.
+0593,DEPART 1 F2,0xEC43,7,163,no,The ladies at this department store even greet kids like me with respect. That’s what I call professional!
+0594,DEPART 1 F3,0xEC47,5,95,no,I-I-I’m really impatient! I use X Speed in battle to speed up my Pokémon.
+0595,DEPART 1 F4,0xEC5B,7,138,no,Hey. I love strong Pokémon. I feed them Protein to crank up their Attack.
+0596,DEPART 1 F5,0xEC5F,20,121,yes,"Hello. Oh, your Pokémon..."
+0597,DEPART 1 F6,0xEC53,35,192,yes,"Do you listen to the radio? Which shows do you prefer? I like Buena’s Password! When I catch it, I take notes so I don’t"
+0598,DEPART 1 ELVA,0xEC57,12,83,yes,Thank you for shopping with us today. To which floor may I take you?
+0599,,0x6C46,53,352,no,
+0600,GLOBAL TWR F1,0x6C5E,37,443,yes,"Welcome! This is the Global Trade Station, or GTS for short. We enable the trading of Pokémon with people worldwide over"
+0601,GLOBAL TWR F2,0x6C52,18,255,yes,Why? It’s not fair! Why are there only shots of Pokémon? Why aren’t there any shots of ladies? I call discrimination!
+0602,GLOBAL TWR F3,0x6C56,16,330,yes,What you see here is how much people around the world love Pokémon. Watching Battle Videos lets you share the fun these 
+0603,MELT 05 GAME1; T25SP0101,0x5FC3,42,275,yes,We exchange your Coins for fabulous prizes!
+0604,SHEDSNOW TOWN,0x4F37,9,400,no,"... You again? There’s no need to be alert. I don’t bother with wimps like you. Speaking of weaklings, the city’s Gym Le"
+0605,BAIR 03 PM05,0x8F90,2,143,no,Do your Pokémon already know the move for carrying people on water?
+0606,SEWER AREA 01; SEWER AREA 02; SEWER AREA 03,0x39E5,25,294,yes,Jasmine: Thank you for your help at the Lighthouse... But this is different. Please allow me to introduce myself. I am J
+0607,SHED 01 PC08,0x6E93,9,244,yes,Pokémon get more friendly if you spend time with them.
+0608,SYDT 05 HS19,0x5456,5,106,yes,"Hi, I’m looking for this Pokémon. If you have a KRABBY, would you trade it for my VOLTORB?"
+0609,BAIR 06 HS20,0x5466,12,111,yes,"Along the way to Cianwood, there are four deserted islands. Bad kids are taken to the islands as punishment!"
+0610,BAIR 07 HS21,0x547E,6,178,yes,"Olivine is on the sea! And if it’s on the sea, there is bound to be something to catch! I’ve fished here for 30 years. W"
+0611,,0xD477,14,270,yes,"You! How is your Pokémon training\fcoming along? Have you ever noticed that in the mountains, sometimes there are round\"
+0612,DALICE STRING,0x4F33,20,517,yes,"Ecruteak used to have two towers, one in the east and one in the west."
+0613,LOBA 03 PM02,0x0FB1,2,146,no,My EEVEE evolved into an ESPEON. But my friend’s EEVEE turned into an UMBREON. I wonder why? We both were raising our EE
+0614,TROO 05 GYM08,0x99E4,12,447,yes,"Morty: It’s good of you to have come. Here in Ecruteak, Pokémon have long been revered. It’s said that a rainbow-hued Po"
+0615,LOBA 01 PC02,0xEEB2,5,417,yes,"Bill: Hi, I’m Bill. And who are you? Hmm, , huh?"
+0616,,0xC45F,11,456,no,"Past here is the Bell Tower. This tower was built as a place of rest\ffor HO-OH, the legendary Flying-type\fPokémon. Sin"
+0617,HAMP 06 HS07,0xC46F,2,191,no,This happened when I was young. The sky suddenly turned black. A giant Flying-type Pokémon was\fblocking out the sun. I 
+0618,,0x4466,46,452,yes,Hey! Hey!
+0619,HAMP 05 HS06,0xC40F,8,306,yes,"Ah. You’re on an adventure with your Pokémon? Well, what’s an adventure without treasure hunting? Am I right, or am I ri"
+0620,TERTH CITY,0x4F0F,20,304,yes,"Hiya, kid! I see you’re new in Mahogany Town. Since you’re new, you should try a\fyummy RageCandyBar! Right now, it can "
+0621,,0x0E51,1,3,no,
+0622,SEWER ROOM 01,0xF9E7,11,319,yes,"Pryce: Pokémon have many experiences in their lives, just like we do. I, too, have seen and suffered much in my life. Si"
+0623,SEWER ROOM 02,0xF9EF,4,223,yes,"Pryce is a veteran who has trained Pokémon for some 50 years. As you’ll find, his attacks will make you shiver in this f"
+0624,RADE 02 PC10,0xEF52,3,103,no,What’s this? Team Rocket has come back? I saw some men in black at the Lake of Rage.
+0625,RT 5 02 HS10,0x345F,3,126,no,"I heard that a red GYARADOS appeared at the Lake of Rage. That’s odd, since even ordinary GYARADOS are rare in that lake"
+0626,,0x4F0B,36,344,yes,GYARADOS: Gyashaa!
+0627,DALI 09 HS29,0x2447,5,156,no,"...You have strayed far... Here I have meditated. Inside me,\fa new power has been awakened. Let me share my power with "
+0628,RADE 06 HS30,0x245F,11,303,yes,"The Lake of Rage is actually a crater made by rampaging GYARADOS. The crater filled up with rainwater, and the lake was "
+0629,RADELAIDE CTY,0x4B2F,15,208,no,"I am sorry. Clair, our Gym Leader, entered the Dragon’s Den behind the Gym. I have no idea when our Leader will return."
+0630,SHED 03 PM06,0x2F51,2,135,no,"You can’t buy a Max Revive, but it fully restores a fainted Pokémon. Beware--it won’t restore PP, the Power Points neede"
+0631,BAIR 04 GYM05,0xF9A5,12,431,yes,"Yo! Champ in the making! The Gym has unstable footing. Keep your Pokémon in their Poké Balls. Now, Clair uses the mythic"
+0632,TROO 02 PC11,0xCE52,3,123,no,Deep inside far-off Indigo Plateau is the Pokémon League. I hear the best Trainers gather there from around the country.
+0633,DALI 06 HS26,0x347E,3,161,no,"A clan of Trainers who can freely command Dragon-type Pokémon lives\fright here in Blackthorn. As a result, there are ma"
+0634,DALI 07 HS27,0xB477,15,110,yes,"DRAGONAIR’s cute, but I don’t have it. Do you have DRAGONAIR㊛? Want to trade it for my DODRIO?"
+0635,DALI 08 HS28,0xB45F,63,373,yes,"Um... Who did you say I was again? ... ... Oh, yes, I remember now! I’m the Move Deleter!"
+0636,,0x4B2B,1,10,no,Mt. Silver
+0637,,0x4E73,1,138,no,"Trainers who seek power climb Mt. Silver despite its many dangers... With their trusted Pokémon, they must feel they can"
+0638,,0xB147,10,61,no,Press the A Button to save a Battle Video of this battle.
+0639,,0x1311,5,10,no,too spicy
+0640,,0x1D55,78,90,yes,"Hello. This is ... Good morning, !"
+0641,,0xF316,37,408,yes,Buena
+0642,,0xA10C,4,285,yes,Bike Shop
+0643,,0xC338,7,152,yes,Kurt
+0644,,0x5727,15,167,yes,Whitney
+0645,,0x5613,15,226,yes,Janine
+0646,,0x8B37,15,234,yes,Erika
+0647,,0xB34B,15,381,yes,Blue
+0648,,0xB30C,15,270,yes,Falkner
+0649,,0x0B37,15,335,yes,Clair
+0650,,0xB7B4,15,294,yes,Misty
+0651,,0xE99D,15,228,yes,Blaine
+0652,,0xB49C,15,303,yes,Lt. Surge
+0653,,0xA95D,15,300,yes,Morty
+0654,,0xFB9A,15,241,yes,Jasmine
+0655,,0x952D,15,340,yes,Sabrina
+0656,,0xCFAD,15,337,yes,Chuck
+0657,,0x339D,15,379,yes,Brock
+0658,,0xCB7E,15,372,yes,Bugsy
+0659,,0xD717,15,418,yes,Pryce
+0660,,0x11F0,11,118,yes,Day-C Lady
+0661,,0x65F0,14,276,yes,Day-C Man
+0662,,0x8C09,159,295,yes,Ethan
+0663,,0x9868,159,295,yes,Lyra
+0664,,0xE7D4,30,283,yes,Mother
+0665,,0xD4C8,12,460,yes,Bill
+0666,,0x8871,58,489,yes,Prof. Oak
+0667,,0xF8CA,42,527,yes,Baoba
+0668,,0x7BDB,8,169,no,
+0669,,0xA65D,22,311,yes,Tiffany
+0670,,0xF278,12,388,yes,Alfred
+0671,,0xD439,16,226,yes,Jose
+0672,,0x3DD8,13,150,yes,Erin
+0673,,0x73AE,12,260,yes,Torin
+0674,,0xD0CA,12,313,yes,Huey
+0675,,0x105B,13,247,yes,Joey
+0676,,0x61B4,14,226,yes,Wilton
+0677,,0x7B22,13,233,yes,Jamie
+0678,,0x983B,13,305,yes,Ernest
+0679,,0x440C,15,405,yes,Kay & Tia
+0680,,0x9402,32,354,yes,Liz
+0681,,0xB59E,15,146,yes,Rob
+0682,,0x7DE7,15,364,yes,Josh
+0683,,0xB742,20,196,yes,Billy
+0684,,0xF694,17,201,yes,Wade
+0685,,0x58F2,23,286,yes,Chad
+0686,,0x0AEB,13,322,yes,Hillary
+0687,,0x785B,12,536,yes,Kyler
+0688,,0x37BB,23,252,yes,Brent
+0689,,0xC7A2,14,194,yes,Alan
+0690,,0xB332,12,243,yes,Beverly
+0691,,0xADB1,41,301,yes,Irwin
+0692,,0xD5B0,15,271,yes,Doug
+0693,,0xF734,14,357,yes,Derek
+0694,,0x0753,14,266,yes,Tully
+0695,,0x4FEA,16,235,yes,Gina
+0696,,0x71FF,13,181,yes,Vance
+0697,,0xFB25,12,951,yes,Kyle
+0698,,0xC68C,12,182,yes,Reena
+0699,,0x3298,12,304,yes,Kenny
+0700,,0x6819,14,227,yes,Dana
+0701,,0x4EF1,15,288,yes,Reese
+0702,,0x08DD,12,454,yes,Tim & Sue
+0703,,0xC06F,13,312,yes,Ian
+0704,,0x1597,24,148,yes,Jack
+0705,,0x18A5,13,212,yes,Gaven
+0706,,0x10B2,13,174,yes,Kenji
+0707,,0x61FF,15,505,yes,Tanner
+0708,,0xE16A,12,270,yes,Parry
+0709,,0x29BD,15,273,yes,Aiden
+0710,,0x75D8,13,276,yes,Walt
+0711,,0xC966,12,277,yes,Anthony
+0712,,0xF8A4,12,217,yes,Ralph
+0713,,0xF4D4,11,235,yes,Todd
+0714,,0xFDD2,11,243,yes,Arnie
+0715,,0x30D9,12,279,yes,Krise
+0716,,0xE53B,45,348,yes,Prof. Elm
+0717,,0x5FBD,1,95,no,
+0718,,0xD916,5,4,no,
+0719,,0x3329,1,29,yes,TOUCH TO START
+0720,,0x5154,311,16,no,-
+0721,,0x5155,311,16,no,-
+0722,,0x5156,311,57,no,-
+0723,,0x069B,921,81,no,Here I come!
+0724,,0x8A40,945,134,no,And we’re off!
+0725,,0xD524,130,60,no,
+0726,,0x3A9C,4,23,yes,Battle?
+0727,,0x409E,28,66,yes,ID No.
+0728,,0x515C,1717,278,no,...Humph! You’re doing OK for someone weak.
+0729,,0x515D,738,25,yes,
+0730,,0x5054,129,16,no,[PK][MN] Trainer
+0731,,0x5055,129,18,no,a [PK][MN] Trainer
+0732,,0x44BE,39,112,no,
+0733,,0xC550,63,147,no,
+0734,,0x61CF,35,97,no,
+0735,,0x5051,20,8,no,Normal
+0736,,0x111A,1,282,no,
+0737,,0x3043,279,39,no,
+0738,UNION,0x87FC,220,243,yes,
+0739,,0xB3A8,40,55,no,
+0740,,0x4313,6,119,no,"I have removed the boulder that was in the way, but it may still take some\ftime to flatten the ground..."
+0741,,0x4427,2,135,no,The beach to Route 19 is closed indefinitely due to the Cinnabar\fvolcano’s eruption. I wonder if the people of Cinnabar
+0742,,0x4F37,2,108,no,Seafoam Islands ...Somebody put a notice under the sign! The Cinnabar Gym has moved here. Leader: Blaine
+0743,,0x4F33,3,32,no,
+0744,,0x5737,21,216,no,You have to warm up before going into the water. That’s basic.
+0745,,0xD487,5,200,no,What? I’m the first to arrive! There will soon be a Battle Frontier past here. I’m in line to be the first one there. I 
+0746,,0x5733,30,66,no,
+0747,,0x93CB,40,192,yes,Teach which move to ?
+0748,,0xF24C,41,205,yes,BP
+0749,,0x575D,923,127,no,
+0750,,0x5654,923,15,no,-
+0751,,0x5655,923,15,no,-
+0752,,0xE02A,56,190,yes,"Monica: Glad to meet you. I’m Monica of Monday. As a token of our friendship, I have a gift for you!"
+0753,,0xB1B6,3,15,no,Lighting Event
+0754,,0xA6C8,4,54,yes,
+0755,,0x60A5,11,19,no,SWALOT Plop
+0756,,0x302D,27,10,no,Bell 01
+0757,,0xC0DC,29,273,yes,PLAZA NEWS
+0758,,0x1C97,50,17,no,Calm & relaxed
+0759,,0x1C9B,50,18,no,Battling
+0760,,0x1C9F,50,17,no,Pokédex filling
+0761,,0x27E9,50,67,no,What sort of adventure do you like?
+0762,,0x5E31,10,12,no,Yes
+0763,,0x5E3D,10,13,no,No
+0764,,0x5E39,10,17,no,"No, but want to"
+0765,,0x654F,10,66,no,Have you ever seen a Pokémon movie?
+0766,,0xB710,910,161,yes,
+0767,,0xB34B,3,13,no,Good morning.
+0768,,0x3F3B,3,8,no,Bonjour.
+0769,,0xFE5E,3,13,no,Guten Morgen.
+0770,,0x8CA6,3,11,no,Buongiorno.
+0771,,0x9043,3,6,no,おはよう！
+0772,,0x395B,3,14,no,Buenos días.
+0773,,0x81CC,6,16,no,
+0774,,0x81D4,23,90,yes,Enter Battle Room Number (01-) ...B Button: Cancel
+0775,,0xD561,216,77,yes,
+0776,,0x3C61,37,397,yes,Would you like to play ?
+0777,,0x7730,126,395,yes,Welcome to the Wi-Fi Plaza! Every guest is loaned a Tap Toy. Here’s yours!
+0778,,0x3D5B,151,120,yes,
+0779,,0xF420,67,116,yes,PAL PAD
+0780,,0x8194,25,32,no,None
+0781,,0x9DC4,8,17,no,None
+0782,,0x8194,28,19,no,None
+0783,,0x4DA1,14,25,no,None
+0784,,0x69A1,32,12,no,None
+0785,,0xDDF4,17,22,no,None
+0786,,0x05E9,18,21,no,None
+0787,,0x6D89,7,13,no,None
+0788,,0x01B5,23,20,no,None
+0789,,0xC1F0,13,24,no,None
+0790,,0x71D9,36,27,no,None
+0791,,0x19CD,21,21,no,None
+0792,,0x09E9,51,19,no,None
+0793,,0xF5B8,21,16,no,None
+0794,,0xF530,17,19,no,None
+0795,,0x1D5D,8,29,no,None
+0796,,0x950C,25,28,no,None
+0797,,0x852C,52,15,no,None
+0798,,0x9EB7,234,34,no,None
+0799,,0x9FE7,18,59,no,
+0800,,0xD2DA,33,223,yes,"Unable to connect to Nintendo Wi-Fi Connection.  For help, check the software Instruction Booklet, or visit support.nint"
+0801,,0xA1AC,6,64,yes,Press the X Button over a dot to display the player’s location.
+0802,,0x2A25,158,42,yes,SEEN
+0803,,0x5349,1075,179,no,The seed on its back is filled with nutrients. The seed grows steadily larger as its body grows.
+0804,,0x7546,493,126,no,"It carries a seed on its back right from birth. As it grows older, the seed also grows larger."
+0805,,0x754A,493,110,no,"For some time after its birth, it grows by gaining nourishment from the seed on its back."
+0806,,0x754E,493,119,no,"Au matin de sa vie, la graine sur son dos lui fournit les éléments dont il a besoin pour grandir."
+0807,,0x7552,493,111,no,Nach der Geburt nimmt es für eine Weile Nährstoffe über den Samen auf seinem Rücken auf.
+0808,,0x7556,493,114,no,"Dopo la nascita, cresce traendo nutrimento dal seme piantato sul suo dorso."
+0809,,0x755A,493,109,no,"Después de nacer, crece alimentándose de la semilla de su lomo."
+0810,,0x755E,493,58,no,うまれてから　しばらくの　あいだは せなかの　タネから　えいようを もらって　おおきく　そだつ。
+0811,,0x524B,1095,56,no,
+0812,,0x5248,1076,11,no,????.? lbs.
+0813,,0x5249,1076,11,no,????.? lbs.
+0814,,0x524E,1076,7,no,???’??”
+0815,,0x524F,1076,7,no,???’??”
+0816,,0xBEA9,494,19,no,????? Pokémon
+0817,,0x524D,1393,10,no,-----
+0818,,0x7DF2,494,10,no,----------
+0819,,0x7DFE,494,10,no,----------
+0820,,0x7DFA,494,10,no,----------
+0821,,0x7DE6,494,10,no,----------
+0822,,0x7DE2,494,5,no,－－－－－
+0823,,0x5149,1076,21,no,????? Pokémon
+0824,,0xB471,494,20,no,Pokémon ?????
+0825,,0xB47D,494,15,no,?????
+0826,,0xB479,494,19,no,Pokémon ?????
+0827,,0xB465,494,19,no,Pokémon (?)
+0828,,0xB461,494,10,no,？？？？？ポケモン
+0829,,0x5143,1,41,yes,a Custom Item
+0830,,0x504A,537,172,no,???
+0831,,0x504B,537,46,yes,???
+0832,,0x5048,537,52,yes,None
+0833,,0x5049,537,53,yes,None
+0834,,0x504E,102,159,no,A mysterious scale that causes a certain Pokémon to evolve. It shines in rainbow colors.
+0835,,0x504F,102,45,yes,a Prism Scale
+0836,,0x504C,102,44,yes,Prism Scales
+0837,,0x504D,102,45,yes,a Prism Scale
+0838,,0x5042,137,147,no,"An item to be held by a Pokémon. If the holder is hit with a move it’s weak to, this policy sharply boosts its Attack an"
+0839,,0x5043,137,47,yes,a Weakness Policy
+0840,,0x574A,137,52,yes,Weakness Policies
+0841,,0x574B,137,54,yes,a Weakness Policy
+0842,,0x5748,298,158,no,This is a crystallized form of Z-Power. It upgrades Normal-type moves to Z-Moves.
+0843,,0x5749,298,50,yes,a Normalium Z
+0844,,0x574E,298,57,yes,pieces of Normalium Z
+0845,,0x574F,298,58,yes,a piece of Normalium Z
+0846,,0x574C,755,181,no,A letter of recommendation that you’ll need in order to participate in the Gym Challenge.
+0847,,0x574D,750,49,yes,an Endorsement
+0848,,0x5742,750,59,yes,letters of Endorsement
+0849,,0x5743,750,60,yes,a letter of Endorsement
+0850,,0x564A,729,173,no,"The latest model of smartphone. A Pokémon called Rotom lives within it, and it can be used to run all sorts of handy app"
+0851,,0x564B,650,50,yes,a Rotom Phone
+0852,,0x5648,650,59,yes,Rotom Phones
+0853,,0x5649,650,60,yes,a Rotom Phone
+0854,,0x480A,0,0,no,
+0855,,0x480A,0,0,no,
+0856,,0x6552,0,0,no,
+0857,,0x6369,0,0,no,
+0858,,0x6369,0,0,no,
+0859,,0x80E2,0,0,no,
+0860,,0x6972,0,0,no,
+0861,,0x6672,0,0,no,
+0862,,0x80E2,0,0,no,
+0863,,0x5254,0,0,no,
+0864,,0x5254,0,0,no,
+0865,,0x202E,0,0,no,
+0866,,0x0D6D,0,0,no,
+0867,,0x2020,0,0,no,
+0868,,0x6775,0,0,no,
+0869,,0x6C6C,0,0,no,
+0870,,0x5254,0,0,no,
+0871,,0x636C,0,0,no,
+0872,,0x5254,0,0,no,
+0873,,0x6472,0,0,no,
+0874,,0x2020,0,0,no,
+0875,,0x2020,0,0,no,
+0876,,0x0D20,0,0,no,
+0877,,0x6165,0,0,no,
+0878,,0x4E4C,0,0,no,
+0879,,0x6C6C,0,0,no,
+0880,,0x2020,0,0,no,
+0881,,0x2020,0,0,no,
+0882,,0x2020,0,0,no,
+0883,,0x6565,0,0,no,
+0884,,0x4954,0,0,no,
+0885,,0x636C,0,0,no,
+0886,,0x7562,0,0,no,
+0887,,0x6E65,0,0,no,
+0888,,0x5254,0,0,no,
+0889,,0x7369,0,0,no,

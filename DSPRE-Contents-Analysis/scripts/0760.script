@@ -1,0 +1,398 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream
+ * Game: HGSS
+ * File: 0760
+ * Generated: 16/12/2025 8:40:53 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+Jump Function#1
+
+Script 2:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	CheckFlag 2630
+	JumpIf EQUAL Function#2
+	Message 14
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Script 3:
+	PlayFanfare SEQ_SE_CONFIRM
+	Message 16
+	WaitButton
+	CloseMessage
+End
+
+Script 4:
+	PlayFanfare SEQ_SE_CONFIRM
+	Message 17
+	WaitButton
+	CloseMessage
+End
+
+Script 5:
+End
+
+//===== FUNCTIONS =====//
+Function 1:
+	CheckFlag 2634
+	JumpIf EQUAL Function#3
+	CheckFlag 2635
+	JumpIf EQUAL Function#4
+	CheckFlag 2636
+	JumpIf EQUAL Function#5
+	CheckFlag 2637
+	JumpIf EQUAL Function#6
+	CheckFlag 2638
+	JumpIf EQUAL Function#7
+	CheckFlag 2633
+	JumpIf EQUAL Function#8
+	CheckFlag 2632
+	JumpIf EQUAL Function#9
+	CheckFlag 2631
+	JumpIf EQUAL Function#10
+	CheckBadge 3 0x800C
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#11
+	Message 0
+	WaitButton
+	CloseMessage
+	Call Function#12
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#13
+	Call Function#14
+Jump Function#11
+
+Function 2:
+	CheckFlag 2633
+	JumpIf EQUAL Function#15
+	Message 15
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 3:
+	GetPartyCount 0x8005
+	GivePokemon 1475 40 ITEM_NONE 0 0 0x800C
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#4
+	ClearFlag 2638
+	SetVar 0x800C 1
+	Message 22
+	OpenTouchScreen
+	YesNoTouchScreen 0x800C
+	CloseTouchScreen
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#16
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#17
+Return
+
+Function 4:
+	SetFlag 2638
+	Message 11
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+Function 5:
+	Call Function#18
+	ReleaseAll
+End
+
+Function 6:
+	Call Function#19
+	ReleaseAll
+End
+
+Function 7:
+	Call Function#20
+	ReleaseAll
+End
+
+Function 8:
+	Message 9
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 9:
+	Message 13
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 10:
+	Message 12
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 11:
+	Message 3
+	YesNoBox 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#21
+	Message 5
+	YesNoBox 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#22
+Jump Function#21
+
+Function 12:
+	GetRandom 0x5117 3
+	CompareVarValue 0x5117 0
+	CallIf EQUAL Function#23
+	CompareVarValue 0x5117 1
+	CallIf EQUAL Function#24
+	CompareVarValue 0x5117 2
+	CallIf EQUAL Function#25
+Return
+
+Function 13:
+	LostBattle
+	ReleaseAll
+End
+
+Function 14:
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	GiveBadge 3
+	AddTrainerScore 22
+	IncrementVar 0x4134 1
+	IncrementVar 0x4135 1
+	SetFlag 2630
+	SetVar 0x5116 1
+	HealPokemon
+	Message 1
+	WaitButton
+	CloseMessage
+	Message 2
+	WaitButton
+	CloseMessage
+	Call Function#18
+	Call Function#19
+	Call Function#20
+	SetFlag 187
+Return
+
+Function 15:
+	Message 16
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 16:
+	CloseMessage
+	SetVar 0x4000 0
+	FadeScreen 6 1 0 0
+	WaitFadeScreen
+	ChoosePokemonNickname 0x8005 0x4000
+	FadeScreen 6 1 1 0
+	WaitFadeScreen
+	Message 23
+	WaitButton
+	CloseMessage
+Return
+
+Function 17:
+	CloseMessage
+	Message 24
+	WaitButton
+	CloseMessage
+Return
+
+Function 18:
+	SetVar 0x8004 330
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#26
+	ClearFlag 2634
+	CommonScript 2033
+	SetVar 0x800C 1
+Return
+
+Function 19:
+	SetVar 0x8004 422
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#27
+	ClearFlag 2635
+	CommonScript 2033
+	SetVar 0x800C 1
+Return
+
+Function 20:
+	SetVar 0x8004 676
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#28
+	ClearFlag 2636
+	CommonScript 2033
+	SetVar 0x800C 1
+Return
+
+Function 21:
+	SetFlag 2632
+	SetVar 0x5116 2
+	Message 7
+	WaitButton
+	CloseMessage
+	HealPokemon
+	GetRandom 0x5117 3
+	CompareVarValue 0x5117 0
+	CallIf EQUAL Function#29
+	CompareVarValue 0x5117 1
+	CallIf EQUAL Function#30
+	CompareVarValue 0x5117 2
+	CallIf EQUAL Function#31
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#32
+	Call Function#33
+	ReleaseAll
+End
+
+Function 22:
+	SetFlag 2631
+	SetVar 0x5116 3
+	Message 6
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 23:
+	TrainerBattle TRAINER_MORTY_274 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 24:
+	TrainerBattle TRAINER_URIEL_946 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 25:
+	TrainerBattle TRAINER_VESPER_947 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 26:
+	SetFlag 2634
+	Message 19
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+Function 27:
+	SetFlag 2635
+	Message 20
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+Function 28:
+	SetFlag 2636
+	Message 10
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+Function 29:
+	TrainerBattle TRAINER_MORTY_275 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 30:
+	TrainerBattle TRAINER_WREN_948 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 31:
+	TrainerBattle TRAINER_YSOLDA_949 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+Return
+
+Function 32:
+	Message 13
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 33:
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	GiveBadge 11
+	AddTrainerScore 22
+	IncrementVar 0x4134 1
+	IncrementVar 0x4135 1
+	Message 8
+	WaitButton
+	CloseMessage
+	Call Function#34
+	Call Function#35
+	Call Function#3
+	SetFlag 2633
+	SetVar 0x5116 3
+Return
+
+Function 34:
+	SetVar 0x8004 382
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#36
+	ClearFlag 2637
+	CommonScript 2033
+	SetVar 0x800C 1
+Return
+
+Function 35:
+	SetVar 0x8004 752
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#37
+	ClearFlag 2638
+	CommonScript 2033
+	SetVar 0x800C 1
+Return
+
+Function 36:
+	SetFlag 2637
+	Message 21
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+Function 37:
+	SetFlag 2638
+	Message 10
+	WaitButton
+	CloseMessage
+	SetVar 0x800C 0
+Return
+
+//===== ACTIONS =====//

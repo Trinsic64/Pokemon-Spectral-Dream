@@ -1,0 +1,11 @@
+# Key: 0x1105
+{STRVAR_4, 1, 0, 0}
+Supreme
+㊚
+㊛
+Power
+Stamina
+Skill
+Jump
+Speed
+Medals won by\n{STRVAR_1, 0, 0, 0}

@@ -1,0 +1,29 @@
+============================================================
+Item Data Compiler — Run Summary
+============================================================
+  Items parsed from itemdata.c : 2558
+  Static mart inventories      : 30
+  Badge-mart entries           : 19
+  Script files analysed        : 121
+
+  CSV output:
+    All-Item-Data.csv          : 2557 rows
+    Medicine-Data.csv          : 68 rows
+    Berry-Data.csv             : 65 rows
+    PokeBall-Data.csv          : 27 rows
+
+  Pocket breakdown:
+    Items                   : 1935
+    TMs/HMs                 : 340
+    Key Items               : 98
+    Medicine                : 68
+    Berries                 : 65
+    Poké Balls              : 27
+    Battle Items            : 13
+    Mail                    : 12
+
+  Items with shop locations    : 75
+  Items received as gifts      : 99
+  Items with no location data  : 2390
+
+  No backups needed (no pre-existing data).

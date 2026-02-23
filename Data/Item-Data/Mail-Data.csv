@@ -1,0 +1,13 @@
+Item_ID,Item_Name,Price,Sell_Price,Hold_Effect,Hold_Effect_Param,Shop_Locations,Given_At_Locations
+137,ITEM_GRASS_MAIL,50,25,0,0,DEPART 1 F2 (H#0169) [Goldenrod Department Lower2 F] | DEPART 2 F2 (H#0448) [Celadon Department Lower2 F],
+138,ITEM_FLAME_MAIL,50,25,0,0,DEPART 1 F2 (H#0169) [Goldenrod Department Lower2 F] | DEPART 2 F2 (H#0448) [Celadon Department Lower2 F],
+139,ITEM_BUBBLE_MAIL,50,25,0,0,DEPART 1 F2 (H#0169) [Goldenrod Department Lower2 F] | DEPART 2 F2 (H#0448) [Celadon Department Lower2 F],
+140,ITEM_BLOOM_MAIL,50,25,0,0,DANB 04 PM04 (H#0140) [Azalea City Mart] | DEPART 2 F4 (H#0450) [Celadon Department4 F],
+141,ITEM_TUNNEL_MAIL,50,25,0,0,LOBA 03 PM02 (H#0059) [Violet City Mart] | MELT 03 PM03 (H#0110) [Violet City Mart] | DANB 04 PM04 (H#0140) [Violet City Mart] | BAIR 03 PM05 (H#0253) [Violet City Mart] | SHED 03 PM06 (H#0282) [Violet City Mart] | DALI 03 PM07 (H#0302) [Violet City Mart] | RADE 04 PM08 (H#0359) [Violet City Mart] | TROO 04 PM09 (H#0413) [Violet City Mart] | DEPART 2 F4 (H#0450) [Celadon Department4 F] | T03FS0101 (H#0474) [Violet City Mart] | T08FS0101 (H#0478) [Violet City Mart] | D32FS0101 (H#0530) [Violet City Mart],
+142,ITEM_STEEL_MAIL,50,25,0,0,T03FS0101 (H#0474) [Pewter Mart] | T08FS0101 (H#0478) [Fuschia Mart],
+143,ITEM_HEART_MAIL,50,25,0,0,LOBA 03 PM02 (H#0059) [Ecruteak Mart] | BAIR 03 PM05 (H#0253) [Olivine Mart] | RADE F2 LIBRY (H#0372) [Mt Moon Square] | D02FS0101 (H#0518) [Mt Moon Square],
+144,ITEM_SNOW_MAIL,50,25,0,0,,
+145,ITEM_SPACE_MAIL,50,25,0,0,DEPART 1 F2 (H#0169) [Goldenrod Department Lower2 F] | DEPART 2 F2 (H#0448) [Celadon Department Lower2 F],
+146,ITEM_AIR_MAIL,50,25,0,0,HAMP 03 PM01 (H#0026) [Cherrygrove City Mart] | SHED 03 PM06 (H#0282) [Blackthorn And Battle Frontier Mart] | DALI 03 PM07 (H#0302) [Vermilion And Safari Mart] | RADE 04 PM08 (H#0359) [Saffron Mart] | MANSION A5 (H#0396) [Vermilion And Safari Mart] | TROO 04 PM09 (H#0413) [Cerulean Mart] | DEPART 2 F4 (H#0450) [Celadon Department4 F] | D32FS0101 (H#0530) [Blackthorn And Battle Frontier Mart],
+147,ITEM_MOSAIC_MAIL,50,25,0,0,,
+148,ITEM_BRICK_MAIL,50,25,0,0,,
