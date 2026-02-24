@@ -35,18 +35,9 @@ class HeaderPanel(ctk.CTkFrame):
         self._type_buttons_frame = ctk.CTkFrame(top, fg_color="transparent")
         self._type_buttons_frame.pack(side="left", padx=2)
 
-        # Select controls
+        # Select controls (keep only one action in top row to prevent clipping)
         ctk.CTkButton(top, text="Select All Visible", width=130,
                       command=self._select_all).pack(side="right", padx=5)
-        ctk.CTkButton(top, text="Deselect All", width=110,
-                      command=self._deselect_all).pack(side="right", padx=5)
-        ctk.CTkButton(top, text="Apply Selection", width=130,
-                      fg_color="#2ecc71", hover_color="#27ae60",
-                      command=self._apply_selection).pack(side="right", padx=5)
-
-        self.sel_label = ctk.CTkLabel(top, text="0 selected",
-                                      font=ctk.CTkFont(size=13, weight="bold"))
-        self.sel_label.pack(side="right", padx=10)
 
         # Column headers
         col_header = ctk.CTkFrame(self, height=30)
@@ -61,6 +52,33 @@ class HeaderPanel(ctk.CTkFrame):
         # Scrollable list
         self.scroll_frame = ctk.CTkScrollableFrame(self, height=500)
         self.scroll_frame.pack(fill="both", expand=True, padx=10, pady=5)
+
+        # Bottom action bar (always visible confirm controls)
+        bottom = ctk.CTkFrame(self)
+        bottom.pack(fill="x", padx=10, pady=(0, 8))
+
+        self.sel_label = ctk.CTkLabel(
+            bottom,
+            text="0 selected",
+            font=ctk.CTkFont(size=13, weight="bold"),
+        )
+        self.sel_label.pack(side="left", padx=8, pady=6)
+
+        ctk.CTkButton(
+            bottom,
+            text="Deselect All",
+            width=120,
+            command=self._deselect_all,
+        ).pack(side="right", padx=5, pady=6)
+
+        ctk.CTkButton(
+            bottom,
+            text="Apply Selection",
+            width=150,
+            fg_color="#2ecc71",
+            hover_color="#27ae60",
+            command=self._apply_selection,
+        ).pack(side="right", padx=5, pady=6)
 
     def refresh(self):
         types = ["All"] + self.app.project.headers.get_types()
@@ -145,6 +163,10 @@ class HeaderPanel(ctk.CTkFrame):
     def _update_count(self):
         count = sum(1 for v in self._check_vars.values() if v.get())
         self.sel_label.configure(text=f"{count} selected")
+        # Immediate feedback so users do not need to hunt for confirm controls.
+        selected = [h_num for h_num, var in self._check_vars.items() if var.get()]
+        self.app.on_headers_selected(selected)
+        self.app.set_status(f"{len(selected)} header(s) selected")
 
     def _apply_selection(self):
         selected = [h_num for h_num, var in self._check_vars.items() if var.get()]

@@ -24,6 +24,14 @@ class ExecutePanel(ctk.CTkFrame):
                              font=ctk.CTkFont(size=20, weight="bold"))
         title.pack(pady=(10, 5))
 
+        self.hint_label = ctk.CTkLabel(
+            self,
+            text="Review pending edits, then create backup and apply.",
+            font=ctk.CTkFont(size=12),
+            text_color="#bdc3c7",
+        )
+        self.hint_label.pack(pady=(0, 5))
+
         # Pending count
         self.pending_label = ctk.CTkLabel(
             self, text="0 pending edits",
@@ -82,6 +90,16 @@ class ExecutePanel(ctk.CTkFrame):
         color = "#2ecc71" if count > 0 else "#7f8c8d"
         self.pending_label.configure(
             text=f"{count} pending edit(s)", text_color=color)
+        if count > 0:
+            self.hint_label.configure(
+                text="Pending edits detected. Preview manifest, then apply.",
+                text_color="#2ecc71",
+            )
+        else:
+            self.hint_label.configure(
+                text="No edits yet. Add items/trainers/NPCs first, then return here.",
+                text_color="#bdc3c7",
+            )
 
         if self.app.backup_manager:
             backups = self.app.backup_manager.list_backups()

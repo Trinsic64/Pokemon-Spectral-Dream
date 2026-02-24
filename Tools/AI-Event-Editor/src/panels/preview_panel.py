@@ -8,8 +8,8 @@ from tkinter import Canvas
 
 TILE_SIZE = 18
 COLORS = {
-    "walkable": "#2c3e50",
-    "blocked": "#1a1a2e",
+    "walkable": "#315a73",
+    "blocked": "#202330",
     "item": "#f1c40f",
     "trainer": "#e74c3c",
     "npc": "#3498db",
@@ -41,6 +41,14 @@ class PreviewPanel(ctk.CTkFrame):
 
         ctk.CTkButton(top, text="Refresh", width=80,
                       command=self._refresh).pack(side="right", padx=5)
+
+        self.status_hint = ctk.CTkLabel(
+            self,
+            text="Select a header in the Headers tab, then click Apply Selection.",
+            font=ctk.CTkFont(size=12),
+            text_color="#f39c12",
+        )
+        self.status_hint.pack(fill="x", padx=12, pady=(0, 4))
 
         # Legend
         legend = ctk.CTkFrame(self, fg_color="transparent")
@@ -100,92 +108,106 @@ class PreviewPanel(ctk.CTkFrame):
 
     def show_map(self, header):
         self._current_header = header
+        self.status_hint.configure(text="", text_color="#7f8c8d")
         self.map_label.configure(
             text=f"Map: {header.name} (H{header.number}, EF {header.event_file})")
         self._refresh()
 
     def _refresh(self):
         if not self._current_header:
+            self.status_hint.configure(
+                text="No header selected. Go to Headers -> check maps -> Apply Selection.",
+                text_color="#f39c12",
+            )
             return
-        self.canvas.delete("all")
-        h = self._current_header
+        try:
+            self.canvas.delete("all")
+            h = self._current_header
 
-        grid = self.app.placement_engine.get_collision_grid(h.matrix)
-        if not grid:
-            for map_id in range(max(0, h.matrix - 5), h.matrix + 300):
-                if map_id in self.app.project.maps_data:
-                    self.app.placement_engine.load_map(
-                        map_id, self.app.project.maps_data[map_id])
             grid = self.app.placement_engine.get_collision_grid(h.matrix)
+            if not grid:
+                for map_id in range(max(0, h.matrix - 5), h.matrix + 300):
+                    if map_id in self.app.project.maps_data:
+                        self.app.placement_engine.load_map(
+                            map_id, self.app.project.maps_data[map_id])
+                grid = self.app.placement_engine.get_collision_grid(h.matrix)
 
-        if grid:
-            for y in range(32):
-                for x in range(32):
-                    val = grid[y][x]
-                    walkable = val == 0x00 or val == 0x80
-                    color = COLORS["walkable"] if walkable else COLORS["blocked"]
-                    x1 = x * TILE_SIZE
-                    y1 = y * TILE_SIZE
-                    self.canvas.create_rectangle(
-                        x1, y1, x1 + TILE_SIZE, y1 + TILE_SIZE,
-                        fill=color, outline=COLORS["grid"], width=0.5)
-        else:
-            self.canvas.create_text(
-                16 * TILE_SIZE, 16 * TILE_SIZE,
-                text="Map collision data not available\nfor matrix " + str(h.matrix),
-                fill="#e74c3c", font=("Arial", 14), justify="center")
+            if grid:
+                for y in range(32):
+                    for x in range(32):
+                        val = grid[y][x]
+                        walkable = val == 0x00 or val == 0x80
+                        color = COLORS["walkable"] if walkable else COLORS["blocked"]
+                        x1 = x * TILE_SIZE
+                        y1 = y * TILE_SIZE
+                        self.canvas.create_rectangle(
+                            x1, y1, x1 + TILE_SIZE, y1 + TILE_SIZE,
+                            fill=color, outline=COLORS["grid"], width=0.5)
+            else:
+                self.canvas.create_text(
+                    16 * TILE_SIZE, 16 * TILE_SIZE,
+                    text="Collision grid unavailable for this matrix.\n"
+                         "You can still add entities; placement will fallback.",
+                    fill="#f39c12", font=("Arial", 14), justify="center")
 
-        # Draw existing entities
-        ef = str(h.event_file).zfill(4)
+            # Draw existing entities
+            ef = str(h.event_file).zfill(4)
 
-        for e in self.app.project.get_overworlds_for_event(ef):
-            try:
-                x = int(e.data.get("x_map", 0))
-                y = int(e.data.get("y_map", 0))
-                ow_type = e.data.get("type", "NORMAL")
-                color = {
-                    "ITEM": COLORS["item"],
-                    "TRAINER": COLORS["trainer"],
-                }.get(ow_type, COLORS["npc"])
-                self._draw_entity(x, y, color, "O")
-            except ValueError:
-                pass
-
-        for e in self.app.project.get_warps_for_event(ef):
-            try:
-                x = int(e.data.get("x_map", e.data.get("x", 0)))
-                y = int(e.data.get("y_map", e.data.get("y", 0)))
-                self._draw_entity(x, y, COLORS["warp"], "W")
-            except ValueError:
-                pass
-
-        for e in self.app.project.get_spawnables_for_event(ef):
-            try:
-                x = int(e.data.get("x_map", e.data.get("x", 0)))
-                y = int(e.data.get("y_map", e.data.get("y", 0)))
-                self._draw_entity(x, y, COLORS["spawnable"], "S")
-            except ValueError:
-                pass
-
-        # Draw pending edits for this event file
-        for edit in self.app.pending_edits:
-            if edit.get("event_file") == ef and edit.get("action") == "add_overworld":
-                data = edit.get("data", {})
+            for e in self.app.project.get_overworlds_for_event(ef):
                 try:
-                    x = int(data.get("x_map", 0))
-                    y = int(data.get("y_map", 0))
-                    self._draw_entity(x, y, COLORS["pending"], "+")
+                    x = int(e.data.get("x_map", 0))
+                    y = int(e.data.get("y_map", 0))
+                    ow_type = e.data.get("type", "NORMAL")
+                    color = {
+                        "ITEM": COLORS["item"],
+                        "TRAINER": COLORS["trainer"],
+                    }.get(ow_type, COLORS["npc"])
+                    self._draw_entity(x, y, color, "O")
                 except ValueError:
                     pass
 
-        ow_count = len(self.app.project.get_overworlds_for_event(ef))
-        warp_count = len(self.app.project.get_warps_for_event(ef))
-        sp_count = len(self.app.project.get_spawnables_for_event(ef))
-        pending = sum(1 for e in self.app.pending_edits if e.get("event_file") == ef)
-        self.info_label.configure(
-            text=f"Entities: {ow_count} OW, {warp_count} warps, "
-                 f"{sp_count} spawnables"
-                 + (f", {pending} pending" if pending else ""))
+            for e in self.app.project.get_warps_for_event(ef):
+                try:
+                    x = int(e.data.get("x_map", e.data.get("x", 0)))
+                    y = int(e.data.get("y_map", e.data.get("y", 0)))
+                    self._draw_entity(x, y, COLORS["warp"], "W")
+                except ValueError:
+                    pass
+
+            for e in self.app.project.get_spawnables_for_event(ef):
+                try:
+                    x = int(e.data.get("x_map", e.data.get("x", 0)))
+                    y = int(e.data.get("y_map", e.data.get("y", 0)))
+                    self._draw_entity(x, y, COLORS["spawnable"], "S")
+                except ValueError:
+                    pass
+
+            # Draw pending edits for this event file
+            for edit in self.app.pending_edits:
+                if edit.get("event_file") == ef and edit.get("action") == "add_overworld":
+                    data = edit.get("data", {})
+                    try:
+                        x = int(data.get("x_map", 0))
+                        y = int(data.get("y_map", 0))
+                        self._draw_entity(x, y, COLORS["pending"], "+")
+                    except ValueError:
+                        pass
+
+            ow_count = len(self.app.project.get_overworlds_for_event(ef))
+            warp_count = len(self.app.project.get_warps_for_event(ef))
+            sp_count = len(self.app.project.get_spawnables_for_event(ef))
+            pending = sum(1 for e in self.app.pending_edits if e.get("event_file") == ef)
+            self.info_label.configure(
+                text=f"Entities: {ow_count} OW, {warp_count} warps, "
+                     f"{sp_count} spawnables"
+                     + (f", {pending} pending" if pending else ""))
+        except Exception as e:
+            self.info_label.configure(text=f"Preview error: {e}")
+            self.canvas.delete("all")
+            self.canvas.create_text(
+                16 * TILE_SIZE, 16 * TILE_SIZE,
+                text=f"Preview failed:\n{e}",
+                fill="#e74c3c", font=("Arial", 13), justify="center")
 
     def _draw_entity(self, x: int, y: int, color: str, label: str):
         if x < 0 or x >= 32 or y < 0 or y >= 32:

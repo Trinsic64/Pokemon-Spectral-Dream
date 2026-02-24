@@ -22,7 +22,7 @@ from .panels.preview_panel import PreviewPanel
 from .panels.stats_panel import StatsPanel
 from .panels.execute_panel import ExecutePanel
 
-APP_VERSION = "2.5"
+APP_VERSION = "2.6"
 
 
 class App(ctk.CTk):
@@ -207,6 +207,16 @@ class App(ctk.CTk):
             self.update_idletasks()
         except Exception:
             pass
+        # Keep tab content fresh and reduce "blank page" perception.
+        try:
+            if name == "Map Preview" and hasattr(self.preview_panel, "_refresh"):
+                self.preview_panel._refresh()
+            elif name == "Statistics" and hasattr(self.stats_panel, "refresh"):
+                self.stats_panel.refresh()
+            elif name == "Execute" and hasattr(self.execute_panel, "refresh"):
+                self.execute_panel.refresh()
+        except Exception as e:
+            print(f"[tab-refresh] {name} refresh failed: {e}", file=sys.stderr)
 
     def _tab_health_check(self):
         """Re-pack active tab if platform rendering dropped it."""
@@ -249,6 +259,11 @@ class App(ctk.CTk):
                 self.stats_panel.refresh()
             except Exception as e:
                 print(f"Error refreshing stats: {e}", file=sys.stderr)
+        if hasattr(self.execute_panel, 'refresh'):
+            try:
+                self.execute_panel.refresh()
+            except Exception as e:
+                print(f"Error refreshing execute panel: {e}", file=sys.stderr)
 
         self.set_status(
             f"Project loaded: {len(self.project.headers.headers)} headers, "
