@@ -1,10 +1,9 @@
-"""Main application window with manual tab navigation (no CTkTabview)."""
+"""Main application window with stable tab navigation."""
 
 from __future__ import annotations
 
 import sys
 import traceback
-import tkinter as tk
 
 import customtkinter as ctk
 
@@ -12,12 +11,19 @@ from .data.loader import ProjectData
 from .engine.stats import StatsEngine
 from .engine.backup import BackupManager
 from .engine.placement import PlacementEngine
+from .engine.path_capture import PathCapture
+from .engine.script_bridge import ScriptBridge
+from .engine.validators import CompatibilityValidator
 
 from .panels.setup_panel import SetupPanel
 from .panels.header_panel import HeaderPanel
 from .panels.items_panel import ItemsPanel
 from .panels.trainers_panel import TrainersPanel
 from .panels.npc_panel import NPCPanel
+from .panels.subevents_panel import SubEventsPanel
+from .panels.pathing_panel import PathingPanel
+from .panels.script_bridge_panel import ScriptBridgePanel
+from .panels.validation_panel import ValidationPanel
 from .panels.preview_panel import PreviewPanel
 from .panels.stats_panel import StatsPanel
 from .panels.execute_panel import ExecutePanel
@@ -30,6 +36,8 @@ class App(ctk.CTk):
 
     def __init__(self):
         super().__init__()
+        # Hide root while constructing all widgets to avoid transient phantom windows.
+        self.withdraw()
 
         self.title(f"AI Event Editor v{APP_VERSION}")
         self.geometry("1280x800")
@@ -38,7 +46,12 @@ class App(ctk.CTk):
         self.project = ProjectData()
         self.stats_engine = StatsEngine()
         self.placement_engine = PlacementEngine()
+        self.path_capture = PathCapture()
+        self.script_bridge = ScriptBridge()
         self.backup_manager: BackupManager | None = None
+        self.compat_validator = CompatibilityValidator(self.project)
+        self.current_chain = None
+        self.latest_script_artifact = None
 
         self.selected_headers: list[int] = []
         self.pending_edits: list[dict] = []
@@ -48,9 +61,9 @@ class App(ctk.CTk):
         self._tab_buttons: dict[str, ctk.CTkButton] = {}
         self._active_tab: str = ""
 
-        self._suppress_phantom_windows()
         self._build_ui()
         self._install_window_diagnostics()
+        self.after_idle(self.deiconify)
 
         print(f"[AI Event Editor v{APP_VERSION}] App initialized, "
               f"{len(self._panel_errors)} panel errors")
@@ -78,22 +91,6 @@ class App(ctk.CTk):
         except Exception:
             pass
 
-    def _suppress_phantom_windows(self):
-        """Monitor and log any unexpected Toplevel window creation."""
-        original_init = tk.Toplevel.__init__
-
-        def patched_init(toplevel_self, master=None, **kw):
-            original_init(toplevel_self, master, **kw)
-            try:
-                title = toplevel_self.title()
-                geo = toplevel_self.geometry()
-                print(f"[TOPLEVEL] Created: title='{title}', "
-                      f"geometry={geo}, master={master}")
-            except Exception:
-                pass
-
-        tk.Toplevel.__init__ = patched_init
-
     def _build_ui(self):
         # === Tab button bar ===
         tab_bar = ctk.CTkFrame(self, height=40, corner_radius=0)
@@ -102,17 +99,18 @@ class App(ctk.CTk):
 
         tab_names = [
             "Setup", "Headers", "Items", "Trainers",
-            "NPCs", "Map Preview", "Statistics", "Execute",
+            "NPCs", "Sub-Events", "Pathing", "Script Bridge",
+            "Validation", "Map Preview", "Statistics", "Execute",
         ]
 
         for i, name in enumerate(tab_names):
             btn = ctk.CTkButton(
-                tab_bar, text=name, width=110, height=32,
+                tab_bar, text=name, width=92, height=32,
                 corner_radius=0,
                 fg_color="transparent",
                 hover_color="#2c3e50",
                 text_color="#bdc3c7",
-                font=ctk.CTkFont(size=13),
+                font=ctk.CTkFont(size=12),
                 command=lambda n=name: self._switch_tab(n),
             )
             btn.pack(side="left", padx=1, pady=4)
@@ -121,10 +119,13 @@ class App(ctk.CTk):
         # === Tab content container ===
         self._content_area = ctk.CTkFrame(self, corner_radius=0)
         self._content_area.pack(side="top", fill="both", expand=True, padx=0, pady=0)
+        self._content_area.grid_rowconfigure(0, weight=1)
+        self._content_area.grid_columnconfigure(0, weight=1)
 
         # === Create tab frames ===
         for name in tab_names:
             frame = ctk.CTkFrame(self._content_area, corner_radius=0)
+            frame.grid(row=0, column=0, sticky="nsew")
             self._tabs[name] = frame
 
         # === Create panels inside tab frames ===
@@ -138,6 +139,14 @@ class App(ctk.CTk):
             TrainersPanel, self._tabs["Trainers"], "Trainers")
         self.npc_panel = self._safe_create(
             NPCPanel, self._tabs["NPCs"], "NPCs")
+        self.subevents_panel = self._safe_create(
+            SubEventsPanel, self._tabs["Sub-Events"], "Sub-Events")
+        self.pathing_panel = self._safe_create(
+            PathingPanel, self._tabs["Pathing"], "Pathing")
+        self.script_bridge_panel = self._safe_create(
+            ScriptBridgePanel, self._tabs["Script Bridge"], "Script Bridge")
+        self.validation_panel = self._safe_create(
+            ValidationPanel, self._tabs["Validation"], "Validation")
         self.preview_panel = self._safe_create(
             PreviewPanel, self._tabs["Map Preview"], "Map Preview")
         self.stats_panel = self._safe_create(
@@ -160,7 +169,6 @@ class App(ctk.CTk):
 
         # Show first tab
         self._switch_tab("Setup")
-        self.after(200, self._tab_health_check)
 
     def _safe_create(self, panel_class, parent, name: str):
         try:
@@ -188,12 +196,8 @@ class App(ctk.CTk):
         if name == self._active_tab:
             return
 
-        # Hide all tabs
-        for tab_name, frame in self._tabs.items():
-            frame.pack_forget()
-
-        # Show selected tab
-        self._tabs[name].pack(fill="both", expand=True)
+        # Raise selected tab (grid-based stacking avoids blank re-pack bugs).
+        self._tabs[name].tkraise()
 
         # Update button colors
         for btn_name, btn in self._tab_buttons.items():
@@ -213,23 +217,12 @@ class App(ctk.CTk):
                 self.preview_panel._refresh()
             elif name == "Statistics" and hasattr(self.stats_panel, "refresh"):
                 self.stats_panel.refresh()
+            elif name == "Script Bridge" and hasattr(self.script_bridge_panel, "refresh"):
+                self.script_bridge_panel.refresh()
             elif name == "Execute" and hasattr(self.execute_panel, "refresh"):
                 self.execute_panel.refresh()
         except Exception as e:
             print(f"[tab-refresh] {name} refresh failed: {e}", file=sys.stderr)
-
-    def _tab_health_check(self):
-        """Re-pack active tab if platform rendering dropped it."""
-        try:
-            active = self._tabs.get(self._active_tab)
-            if active is not None and not active.winfo_ismapped():
-                active.pack(fill="both", expand=True)
-                self.update_idletasks()
-        except Exception:
-            pass
-        finally:
-            # Keep a lightweight periodic health check while app is open.
-            self.after(750, self._tab_health_check)
 
     # Public method for programmatic tab switching (used by NPC "Pick from Map")
     def set_tab(self, name: str):

@@ -116,6 +116,14 @@ class ExecutePanel(ctk.CTkFrame):
             "description": self.desc_var.get(),
             "timestamp": datetime.now().isoformat(),
             "edits": self.app.pending_edits,
+            "latest_script_artifact": (
+                {
+                    "script_lines": self.app.latest_script_artifact.script_lines,
+                    "movement_lines": self.app.latest_script_artifact.movement_lines,
+                }
+                if self.app.latest_script_artifact
+                else None
+            ),
         }
         self.output_text.delete("0.0", "end")
         self.output_text.insert("0.0", json.dumps(manifest, indent=2))
@@ -130,6 +138,15 @@ class ExecutePanel(ctk.CTkFrame):
         if not self.app.pending_edits:
             self.output_text.delete("0.0", "end")
             self.output_text.insert("0.0", "No pending edits to apply.")
+            return
+
+        preflight = self.app.compat_validator.validate_pending_edits(self.app.pending_edits)
+        if preflight.errors:
+            self.output_text.delete("0.0", "end")
+            self.output_text.insert(
+                "0.0",
+                "Preflight validation failed:\n- " + "\n- ".join(preflight.errors),
+            )
             return
 
         if not self.app.project.analysis_path:
@@ -178,6 +195,7 @@ class ExecutePanel(ctk.CTkFrame):
                 manifest_data=manifest_data,
             )
             log.append(f"Backup created: {backup_dir.name}")
+            log.append("Rollback safety: restore this backup directory if apply fails.")
 
         # 2. Apply edits to CSVs
         self.after(0, lambda: self.progress.set(0.3))

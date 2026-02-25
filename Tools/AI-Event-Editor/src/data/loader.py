@@ -13,6 +13,11 @@ from .items import ItemDatabase
 from .flags import FlagRegistry
 from .text_archives import TextArchiveDatabase
 from .sprites import SpriteDatabase
+from .variables import VariableDatabase
+from .species import SpeciesDatabase
+from .moves import MoveDatabase
+from .abilities import AbilityDatabase
+from .script_commands import ScriptCommandDatabase
 
 
 @dataclass
@@ -40,6 +45,11 @@ class ProjectData:
         self.flags = FlagRegistry()
         self.text_archives = TextArchiveDatabase()
         self.sprites = SpriteDatabase()
+        self.variables = VariableDatabase()
+        self.species = SpeciesDatabase()
+        self.moves = MoveDatabase()
+        self.abilities = AbilityDatabase()
+        self.script_commands = ScriptCommandDatabase()
         self.events = EventData()
 
         self.dspre_contents_path: Path | None = None
@@ -77,6 +87,9 @@ class ProjectData:
             ("Loading items...", self._load_items),
             ("Loading trainers...", self._load_trainers),
             ("Loading flags...", self._load_flags),
+            ("Loading variables...", self._load_variables),
+            ("Loading species/moves/abilities...", self._load_battle_constants),
+            ("Loading script command metadata...", self._load_script_commands),
             ("Loading sprites...", self._load_sprites),
             ("Loading text archives...", self._load_text_archives),
             ("Loading event CSVs...", self._load_events),
@@ -121,6 +134,36 @@ class ProjectData:
         csv_path = self.project_root / "Data" / "Flag-Data" / "Flag-Data-Main.csv"
         if csv_path.exists():
             self.flags.load(csv_path)
+
+    def _load_variables(self) -> None:
+        csv_path = self.project_root / "Data" / "Variable-Data" / "Variable-Data-Main.csv"
+        if csv_path.exists():
+            self.variables.load(csv_path)
+
+    def _load_battle_constants(self) -> None:
+        if not self.hg_engine_path:
+            return
+        inc_dir = self.hg_engine_path / "asm" / "include"
+        species_inc = inc_dir / "species.inc"
+        moves_inc = inc_dir / "moves.inc"
+        abilities_inc = inc_dir / "abilities.inc"
+        if species_inc.exists():
+            self.species.load(species_inc)
+        if moves_inc.exists():
+            self.moves.load(moves_inc)
+        if abilities_inc.exists():
+            self.abilities.load(abilities_inc)
+
+    def _load_script_commands(self) -> None:
+        if not self.project_root:
+            return
+        data_dir = self.project_root / "Data" / "Script-Data"
+        cmd_csv = data_dir / "SCRCMD Database - HGSS.csv"
+        action_csv = data_dir / "SCRCMD Database - Actions.csv"
+        if cmd_csv.exists():
+            self.script_commands.load_commands(cmd_csv)
+        if action_csv.exists():
+            self.script_commands.load_actions(action_csv)
 
     def _load_sprites(self) -> None:
         trainer_csv = self.project_root / "Data" / "Trainer-Data" / "Trainer-Data-Main.csv"

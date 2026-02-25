@@ -129,14 +129,22 @@ class SetupPanel(ctk.CTkFrame):
         self.indicators: dict[str, ctk.CTkLabel] = {}
         sources = [
             "Headers", "Items", "Trainers", "Flags",
-            "Sprites", "Text Archives", "Events", "Maps",
+            "Variables", "Species", "Moves", "Abilities",
+            "Commands", "Actions", "Sprites", "Text Archives", "Events", "Maps",
         ]
         row1 = ctk.CTkFrame(self.status_frame, fg_color="transparent")
         row1.pack(fill="x", padx=5, pady=3)
         row2 = ctk.CTkFrame(self.status_frame, fg_color="transparent")
         row2.pack(fill="x", padx=5, pady=3)
+        row3 = ctk.CTkFrame(self.status_frame, fg_color="transparent")
+        row3.pack(fill="x", padx=5, pady=3)
         for i, name in enumerate(sources):
-            parent_row = row1 if i < 4 else row2
+            if i < 4:
+                parent_row = row1
+            elif i < 8:
+                parent_row = row2
+            else:
+                parent_row = row3
             lbl = ctk.CTkLabel(
                 parent_row, text=f"  {name}: --",
                 font=ctk.CTkFont(size=13),
@@ -271,6 +279,12 @@ class SetupPanel(ctk.CTkFrame):
             "Items": len(p.items.items),
             "Trainers": len(p.trainers.trainers),
             "Flags": len(p.flags.flags),
+            "Variables": len(p.variables.variables),
+            "Species": len(p.species.entries),
+            "Moves": len(p.moves.entries),
+            "Abilities": len(p.abilities.entries),
+            "Commands": len(p.script_commands.commands),
+            "Actions": len(p.script_commands.actions),
             "Sprites": len(p.sprites.all_overlays),
             "Text Archives": len(p.text_archives.archives),
             "Events": len(p.events.overworlds),

@@ -9,6 +9,7 @@ import customtkinter as ctk
 from ..ai.client import AIClient
 from ..ai.prompts import SYSTEM_PROMPT, build_user_prompt
 from ..ai.parser import parse_response
+from ..model.sub_events import SubEventChain
 
 
 NPC_PURPOSES = [
@@ -268,12 +269,29 @@ class NPCPanel(ctk.CTkFrame):
         result = self._last_result
         ef = str(h.event_file).zfill(4)
 
-        # Add dialogue to text archive
+        # Build deterministic sub-event chain for script bridge output.
+        chain = SubEventChain(name=f"npc_h{h.number}_ow")
+
+        # Add dialogue to text archive and keep message ids.
+        inserted_message_ids: list[int] = []
         archive = self.app.project.text_archives.archives.get(h.text_archive)
         if archive:
             for line in result.dialogue_lines:
-                archive.add_message(line)
+                msg_id = archive.add_message(line)
+                inserted_message_ids.append(msg_id)
+                chain.append("dialogue", message_id=msg_id)
             self.app.project.text_archives.save_archive(h.text_archive)
+        else:
+            # Keep chain valid even without a text archive by using placeholder IDs.
+            for i, _line in enumerate(result.dialogue_lines):
+                chain.append("dialogue", message_id=i)
+
+        # If a path has been recorded in Pathing, include it in this NPC chain.
+        path_lines = self.app.path_capture.to_action_lines()
+        if path_lines:
+            chain.append("movement_path", action_lines=path_lines)
+        chain.append("end")
+        artifact = self.app.script_bridge.build(chain)
 
         # Add overworld entity
         existing_ows = self.app.project.get_overworlds_for_event(ef)
@@ -313,10 +331,15 @@ class NPCPanel(ctk.CTkFrame):
                 "z": "0",
             },
             "comment": f"NPC: {self.purpose_var.get()}",
-            "generated_script": result.script_commands,
+            "generated_script": artifact.script_lines,
+            "generated_movement": artifact.movement_lines,
             "generated_dialogue": result.dialogue_lines,
+            "subevent_chain": chain.to_manifest(),
+            "bridge_source": "deterministic_subevents",
         }
         self.app.add_pending_edit(edit)
+        self.app.current_chain = chain
+        self.app.latest_script_artifact = artifact
 
         self.result_label.configure(
             text=f"NPC added! OW[{next_ow_id}] script={script_num} "

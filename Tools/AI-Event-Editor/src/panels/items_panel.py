@@ -7,6 +7,7 @@ import random
 import customtkinter as ctk
 
 from ..data.items import ITEM_CATEGORIES
+from .gift_widgets import ItemGiftWidget, PokemonGiftWidget
 
 
 class ItemsPanel(ctk.CTkFrame):
@@ -157,6 +158,28 @@ class ItemsPanel(ctk.CTkFrame):
             height=40, fg_color="#2ecc71", hover_color="#27ae60",
             command=self._add_items
         ).pack(pady=15, padx=20, fill="x")
+
+        # Reusable NPC gift widgets (also used in Sub-Events panel)
+        gift_section = ctk.CTkFrame(right)
+        gift_section.pack(fill="x", padx=10, pady=6)
+        ctk.CTkLabel(
+            gift_section, text="NPC Gift Widgets",
+            font=ctk.CTkFont(size=14, weight="bold")
+        ).pack(anchor="w", padx=6, pady=(4, 2))
+        self.npc_item_widget = ItemGiftWidget(gift_section, self.app)
+        self.npc_item_widget.pack(fill="x", padx=4, pady=2)
+        self.npc_pokemon_widget = PokemonGiftWidget(gift_section, self.app)
+        self.npc_pokemon_widget.pack(fill="x", padx=4, pady=2)
+        btn_row = ctk.CTkFrame(gift_section, fg_color="transparent")
+        btn_row.pack(fill="x", padx=4, pady=4)
+        ctk.CTkButton(
+            btn_row, text="Queue Item Gift Sub-Event", width=190,
+            command=self._queue_item_gift_event
+        ).pack(side="left", padx=3)
+        ctk.CTkButton(
+            btn_row, text="Queue Pokemon Gift Sub-Event", width=210,
+            command=self._queue_pokemon_gift_event
+        ).pack(side="left", padx=3)
 
         # === BOTTOM SECTION ===
         self.result_text = ctk.CTkTextbox(self, height=120)
@@ -323,3 +346,23 @@ class ItemsPanel(ctk.CTkFrame):
 
         self.result_text.delete("0.0", "end")
         self.result_text.insert("0.0", f"Added {len(results)} item ball(s):\n" + "\n".join(results))
+
+    def _queue_item_gift_event(self):
+        chain = getattr(self.app, "current_chain", None)
+        if not chain:
+            self.result_text.delete("0.0", "end")
+            self.result_text.insert("0.0", "No sub-event chain active. Create one in Sub-Events tab.")
+            return
+        chain.append("give_item", **self.npc_item_widget.to_params())
+        self.result_text.delete("0.0", "end")
+        self.result_text.insert("0.0", "Added give_item sub-event to active chain.")
+
+    def _queue_pokemon_gift_event(self):
+        chain = getattr(self.app, "current_chain", None)
+        if not chain:
+            self.result_text.delete("0.0", "end")
+            self.result_text.insert("0.0", "No sub-event chain active. Create one in Sub-Events tab.")
+            return
+        chain.append("give_pokemon", **self.npc_pokemon_widget.to_params())
+        self.result_text.delete("0.0", "end")
+        self.result_text.insert("0.0", "Added give_pokemon sub-event to active chain.")
