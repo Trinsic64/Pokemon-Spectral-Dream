@@ -1,0 +1,9 @@
+Trainer 77,Pokemon 1,Pokemon 2,Pokemon 3,Pokemon 4,Pokemon 5,Pokemon 6
+Species,PURRLOIN,RUFFLET,VULLABY,NONE,NONE,NONE
+Level,10,10,10,,,
+Ability,LIMBER,KEEN_EYE,BIG_PECKS,,,
+Held Item,NONE,NONE,NONE,,,
+Move,GROWL,HONE_CLAWS,LEER,,,
+Move,SCRATCH,PECK,GUST,,,
+Move,ASSIST,LEER,FURY_ATTACK,,,
+Move,SAND_ATTACK,PECK,GUST,,,

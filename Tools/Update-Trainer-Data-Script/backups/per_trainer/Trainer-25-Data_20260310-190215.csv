@@ -1,0 +1,9 @@
+Trainer 25,Pokemon 1,Pokemon 2,Pokemon 3,Pokemon 4,Pokemon 5,Pokemon 6
+Species,WURMPLE,SCATTERBUG,NONE,NONE,NONE,NONE
+Level,7,7,,,,
+Ability,SHIELD_DUST,SHIELD_DUST,,,,
+Held Item,NONE,NONE,,,,
+Move 1,STRING_SHOT,STRING_SHOT,,,,
+Move 2,TACKLE,TACKLE,,,,
+Move 3,POISON_STING,STUN_SPORE,,,,
+Move 4,TACKLE,TACKLE,,,,

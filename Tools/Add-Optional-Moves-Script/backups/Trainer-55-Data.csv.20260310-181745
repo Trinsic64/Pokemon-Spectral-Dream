@@ -1,0 +1,9 @@
+Trainer 55,Pokemon 1,Pokemon 2,Pokemon 3,Pokemon 4,Pokemon 5,Pokemon 6
+Species,KARRABLAST,NIDORAN_M,NONE,NONE,NONE,NONE
+Level,8,8,,,,
+Ability,SWARM,POISON_POINT,,,,
+Held Item,NONE,NONE,,,,
+Move,LEER,FOCUS_ENERGY,,,,
+Move,FURY_CUTTER,PECK,,,,
+Move,PECK,LEER,,,,
+Move,ENDURE,POISON_STING,,,,

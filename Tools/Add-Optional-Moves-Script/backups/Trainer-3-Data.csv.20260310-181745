@@ -1,0 +1,9 @@
+Trainer 3,Pokemon 1,Pokemon 2,Pokemon 3,Pokemon 4,Pokemon 5,Pokemon 6
+Species,BUNNELBY,WOOPER,NONE,NONE,NONE,NONE
+Level,4,4,,,,
+Ability,PICKUP,DAMP,,,,
+Held Item,NONE,NONE,,,,
+Move,AGILITY,TAIL_WHIP,,,,
+Move,TACKLE,WATER_GUN,,,,
+Move,LEER,WATER_GUN,,,,
+Move,MUD_SLAP,WATER_GUN,,,,

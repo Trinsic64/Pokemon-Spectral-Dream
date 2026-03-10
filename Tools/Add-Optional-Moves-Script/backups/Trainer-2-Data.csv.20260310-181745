@@ -1,0 +1,9 @@
+Trainer 2,Pokemon 1,Pokemon 2,Pokemon 3,Pokemon 4,Pokemon 5,Pokemon 6
+Species,ZIGZAGOON,CLEFFA,NONE,NONE,NONE,NONE
+Level,3,3,,,,
+Ability,PICKUP,CUTE_CHARM,,,,
+Held Item,NONE,NONE,,,,
+Move,GROWL,CHARM,,,,
+Move,TACKLE,COPYCAT,,,,
+Move,TACKLE,SPLASH,,,,
+Move,TACKLE,POUND,,,,

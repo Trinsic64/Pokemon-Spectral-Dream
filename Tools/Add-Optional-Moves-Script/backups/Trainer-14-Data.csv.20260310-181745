@@ -1,0 +1,9 @@
+Trainer 14,Pokemon 1,Pokemon 2,Pokemon 3,Pokemon 4,Pokemon 5,Pokemon 6
+Species,WURMPLE,VENONAT,NONE,NONE,NONE,NONE
+Level,6,6,,,,
+Ability,SHIELD_DUST,COMPOUND_EYES,,,,
+Held Item,NONE,NONE,,,,
+Move,STRING_SHOT,DISABLE,,,,
+Move,TACKLE,TACKLE,,,,
+Move,POISON_STING,FORESIGHT,,,,
+Move,TACKLE,SUPERSONIC,,,,
