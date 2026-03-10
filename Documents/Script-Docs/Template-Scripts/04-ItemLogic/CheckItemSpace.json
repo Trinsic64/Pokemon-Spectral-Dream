@@ -1,0 +1,75 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.item.check_item_space",
+  "name": "Check Item Space",
+  "description": "Pre-checks bag capacity and branches when no space is available.",
+  "category": "ItemLogic",
+  "parameters": [
+    {
+      "id": "itemId",
+      "label": "Item ID",
+      "type": "item_id",
+      "scrcmdType": "Flex",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 2557 }
+    },
+    {
+      "id": "quantity",
+      "label": "Quantity",
+      "type": "u16",
+      "scrcmdType": "Flex",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 99 }
+    },
+    {
+      "id": "resultVar",
+      "label": "Result Variable",
+      "type": "variable_id",
+      "scrcmdType": "Var",
+      "required": true,
+      "default": 32780,
+      "validation": { "min": 0, "max": 65535 }
+    },
+    {
+      "id": "bagFullFunctionId",
+      "label": "Bag-Full Function",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    }
+  ],
+  "requiredPlaceholders": ["${itemId}", "${quantity}", "${resultVar}", "${bagFullFunctionId}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["SetVar", "CompareVarValue", "JumpIf"],
+    "notes": "Often paired with CommonScript 2009 (bag full) and GiveItem."
+  },
+  "scriptModel": {
+    "kind": "snippet",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "CheckItemSpace ${itemId} ${quantity} ${resultVar}", "command": "CheckItemSpace", "opcode": "0x007F" },
+          { "line": "CompareVarValue ${resultVar} 0", "command": "CompareVarValue", "opcode": "0x0011" },
+          { "line": "JumpIf EQUAL Function#${bagFullFunctionId}", "command": "JumpIf", "opcode": "0x001C" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Branch when resultVar == 0 to handle full bag UX.",
+    "Item and quantity can be literal or variable-backed Flex values."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - HGSS.csv",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0092.script:Script 12",
+      "Data/Script-Data/Scripts/0804.script:Function 14"
+    ]
+  }
+}

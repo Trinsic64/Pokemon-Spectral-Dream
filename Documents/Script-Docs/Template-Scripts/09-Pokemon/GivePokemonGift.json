@@ -1,0 +1,173 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.pokemon.give_pokemon_gift",
+    "name":  "Give Pokemon Gift",
+    "description":  "Give a Pokemon and branch by result variable.",
+    "category":  "Pokemon",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "speciesId",
+                           "label":  "Species ID",
+                           "type":  "species_id",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  1075
+                                          }
+                       },
+                       {
+                           "id":  "level",
+                           "label":  "Level",
+                           "type":  "u16",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  5,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  100
+                                          }
+                       },
+                       {
+                           "id":  "heldItemId",
+                           "label":  "Held Item ID",
+                           "type":  "item_id",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  2557
+                                          }
+                       },
+                       {
+                           "id":  "form",
+                           "label":  "Form ID",
+                           "type":  "u16",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "ability",
+                           "label":  "Ability ID",
+                           "type":  "u16",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "resultVar",
+                           "label":  "Result Var",
+                           "type":  "variable_id",
+                           "scrcmdType":  "Var",
+                           "required":  true,
+                           "default":  32780,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "successFunctionId",
+                           "label":  "Success Function",
+                           "type":  "function_id",
+                           "scrcmdType":  "FunctionRef",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "failFunctionId",
+                           "label":  "Fail Function",
+                           "type":  "function_id",
+                           "scrcmdType":  "FunctionRef",
+                           "required":  true,
+                           "default":  2,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${speciesId}",
+                                 "${level}",
+                                 "${heldItemId}",
+                                 "${form}",
+                                 "${ability}",
+                                 "${resultVar}",
+                                 "${successFunctionId}",
+                                 "${failFunctionId}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "GivePokemon",
+                                                            "CompareVarValue",
+                                                            "JumpIf",
+                                                            "JumpFunction"
+                                                        ],
+                              "notes":  "Gift/egg style reward flow."
+                          },
+    "scriptModel":  {
+                        "kind":  "snippet",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "GivePokemon ${speciesId} ${level} ${heldItemId} ${form} ${ability} ${resultVar}",
+                                                                    "command":  "GivePokemon"
+                                                                },
+                                                                {
+                                                                    "line":  "CompareVarValue ${resultVar} 1",
+                                                                    "command":  "CompareVarValue"
+                                                                },
+                                                                {
+                                                                    "line":  "JumpIf EQUAL Function#${successFunctionId}",
+                                                                    "command":  "JumpIf"
+                                                                },
+                                                                {
+                                                                    "line":  "Jump Function#${failFunctionId}",
+                                                                    "command":  "Jump"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "Species and level should match project progression pacing."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv",
+                       "enumSources":  [
+                                           "Tools/hg-engine/asm/include/species.inc"
+                                       ]
+                   }
+}

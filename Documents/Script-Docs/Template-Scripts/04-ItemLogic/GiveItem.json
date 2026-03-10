@@ -1,0 +1,67 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.item.give_item",
+  "name": "Give Item",
+  "description": "Direct item grant command pattern with explicit result variable.",
+  "category": "ItemLogic",
+  "parameters": [
+    {
+      "id": "itemId",
+      "label": "Item ID",
+      "type": "item_id",
+      "scrcmdType": "Flex",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 2557 },
+      "uiHint": "Map to items.inc enum values when available."
+    },
+    {
+      "id": "quantity",
+      "label": "Quantity",
+      "type": "u16",
+      "scrcmdType": "Flex",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 99 },
+      "uiHint": "TM/HM and most inventory flows cap meaningful stack sizes."
+    },
+    {
+      "id": "resultVar",
+      "label": "Result Variable",
+      "type": "variable_id",
+      "scrcmdType": "Var",
+      "required": true,
+      "default": 32780,
+      "validation": { "min": 0, "max": 65535 }
+    }
+  ],
+  "requiredPlaceholders": ["${itemId}", "${quantity}", "${resultVar}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["GiveItem"],
+    "notes": "Equivalent to Scene block Give Item (ParamA item, ParamB quantity)."
+  },
+  "scriptModel": {
+    "kind": "snippet",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "GiveItem ${itemId} ${quantity} ${resultVar}", "command": "GiveItem", "opcode": "0x007D" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Check resultVar after GiveItem when handling bag-full logic.",
+    "Use CheckItemSpace before GiveItem in gated reward flows."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - HGSS.csv",
+    "enumSources": ["Tools/hg-engine/asm/include/items.inc"],
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0804.script:Function 14",
+      "Data/Script-Data/Scripts/0965.script"
+    ]
+  }
+}

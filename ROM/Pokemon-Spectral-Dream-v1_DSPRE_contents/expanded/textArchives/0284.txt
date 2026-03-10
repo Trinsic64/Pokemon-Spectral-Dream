@@ -1,0 +1,4 @@
+# Key: 0x3DCE
+CONFIRM
+CANCEL
+QUIT

@@ -1,0 +1,51 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.flow.return_function",
+    "name":  "Return Function",
+    "description":  "Minimal function that returns to caller.",
+    "category":  "FlowControl",
+    "parameters":  [
+                       {
+                           "id":  "functionId",
+                           "label":  "Function ID",
+                           "type":  "function_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${functionId}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "ReturnOnly"
+                                                        ],
+                              "notes":  "Callback stub for branch scaffolding."
+                          },
+    "scriptModel":  {
+                        "kind":  "function_only",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Function",
+                                               "containerId":  "${functionId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "Return",
+                                                                    "command":  "Return"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "Use for generated branch placeholders."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv"
+                   }
+}

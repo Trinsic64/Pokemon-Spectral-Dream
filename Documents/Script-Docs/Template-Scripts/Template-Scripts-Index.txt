@@ -1,0 +1,85 @@
+﻿Template-Scripts Library (DSPRE Scene Editor)
+
+Root: Documents/Script-Docs/Template-Scripts
+Total templates: 50
+
+Category 01-Greeting
+- ArchiveGreeting.json
+- BasicGreeting.json
+- DialogueGreeting.json
+- FlagConditionalGreeting.json
+- SilentGreetingNoFace.json
+
+Category 02-Dialogue
+- MultiBranchDialogue.json
+- SimpleDialogue.json
+
+Category 03-ConditionalLogic
+- CompareFlagAndJump.json
+- CompareVarAndBranch.json
+- NestedBranch.json
+
+Category 04-ItemLogic
+- CheckItemSpace.json
+- GiveItem.json
+- GiveItemWithFlag.json
+
+Category 05-Movement
+- BasicWalk.json
+- MovementWithBranch.json
+- PatrolSequence.json
+
+Category 06-CommonScripts
+- BagFullCommonScript.json
+- CommonScriptCall.json
+- GiveItemVerboseCommonScript.json
+- SignpostCommonScript.json
+- YesNoPrompt.json
+
+Category 07-FlowControl
+- CallFunction.json
+- CallIfCondition.json
+- JumpFunction.json
+- JumpIfCondition.json
+- LocalScriptEnd.json
+- ReturnFunction.json
+
+Category 08-VisualAudio
+- FadeOutIn.json
+- FadeWarpFadeIn.json
+- PlayFanfareThenMessage.json
+- PlaySoundAndWait.json
+- ShakeCameraCue.json
+
+Category 09-Pokemon
+- ChoosePokemonAndCheckMove.json
+- GivePokemonGift.json
+- HealPartyInteraction.json
+- PartyNicknameDialogue.json
+
+Category 10-Overworld
+- AddOverworldIfFlagUnset.json
+- GetOwPositionBranch.json
+- RemoveOverworldIfFlagSet.json
+- SetOwMovementType.json
+
+Category 11-TextAndBoards
+- BoardMessageInteraction.json
+- MessageFromCommonArchive.json
+- PlayerNameMessage.json
+- TextItemMessage.json
+- TextNumberMessage.json
+
+Category 12-WarpAndTransition
+- BasicWarp.json
+- FadeWarp.json
+- ReturnScreenWrapper.json
+
+Category 99-Misc
+- CustomUnknownPattern.json
+- RawActionSnippet.json
+
+Design notes
+- Templates are typed and reference HGSS SCRCMD semantics.
+- scriptModel containers map to Script/Function/Action structures in DSPRE.
+- Index generated from on-disk JSON templates.

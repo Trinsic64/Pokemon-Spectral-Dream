@@ -1,0 +1,134 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.visual.fade_warp_fade_in",
+    "name":  "Fade Warp Fade In",
+    "description":  "Fade out, warp to destination, then fade in.",
+    "category":  "VisualAudio",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "mapId",
+                           "label":  "Map ID",
+                           "type":  "map_id",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "doorId",
+                           "label":  "Door ID",
+                           "type":  "u16",
+                           "scrcmdType":  "u16",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "x",
+                           "label":  "X",
+                           "type":  "u16",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "y",
+                           "label":  "Y",
+                           "type":  "u16",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "dir",
+                           "label":  "Direction",
+                           "type":  "u16",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${mapId}",
+                                 "${doorId}",
+                                 "${x}",
+                                 "${y}",
+                                 "${dir}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "FadeOut",
+                                                            "FadeIn",
+                                                            "GenericScriptCommand"
+                                                        ],
+                              "notes":  "Warp transition with visual polish."
+                          },
+    "scriptModel":  {
+                        "kind":  "snippet",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "FadeScreen 6 1 0 0",
+                                                                    "command":  "FadeScreen"
+                                                                },
+                                                                {
+                                                                    "line":  "WaitFadeScreen",
+                                                                    "command":  "WaitFadeScreen"
+                                                                },
+                                                                {
+                                                                    "line":  "Warp ${mapId} ${doorId} ${x} ${y} ${dir}",
+                                                                    "command":  "Warp"
+                                                                },
+                                                                {
+                                                                    "line":  "FadeScreen 6 1 1 0",
+                                                                    "command":  "FadeScreen"
+                                                                },
+                                                                {
+                                                                    "line":  "WaitFadeScreen",
+                                                                    "command":  "WaitFadeScreen"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "Ensure destination map/door/coords are valid."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv"
+                   }
+}

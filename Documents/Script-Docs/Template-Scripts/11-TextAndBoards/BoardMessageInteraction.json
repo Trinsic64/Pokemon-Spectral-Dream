@@ -1,0 +1,153 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.text.board_message_interaction",
+    "name":  "Board Message Interaction",
+    "description":  "Set board UI, wait interaction, then run board message flow.",
+    "category":  "TextAndBoards",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "boardType",
+                           "label":  "Board Type",
+                           "type":  "u8",
+                           "scrcmdType":  "u8",
+                           "required":  true,
+                           "default":  3,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  255
+                                          }
+                       },
+                       {
+                           "id":  "boardIcon",
+                           "label":  "Board Icon",
+                           "type":  "u16",
+                           "scrcmdType":  "u16",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "process",
+                           "label":  "Board Process",
+                           "type":  "u8",
+                           "scrcmdType":  "u8",
+                           "required":  true,
+                           "default":  3,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  255
+                                          }
+                       },
+                       {
+                           "id":  "messageId",
+                           "label":  "Message ID",
+                           "type":  "text_id",
+                           "scrcmdType":  "u8",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  255
+                                          }
+                       },
+                       {
+                           "id":  "resultVar",
+                           "label":  "Result Var",
+                           "type":  "variable_id",
+                           "scrcmdType":  "Var",
+                           "required":  true,
+                           "default":  32780,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "commonScriptId",
+                           "label":  "Common Script ID",
+                           "type":  "common_script_id",
+                           "scrcmdType":  "u16",
+                           "required":  true,
+                           "default":  2000,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${boardType}",
+                                 "${boardIcon}",
+                                 "${process}",
+                                 "${messageId}",
+                                 "${resultVar}",
+                                 "${commonScriptId}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "GenericScriptCommand",
+                                                            "CommonScriptCall"
+                                                        ],
+                              "notes":  "Canonical signpost/board interaction pattern."
+                          },
+    "scriptModel":  {
+                        "kind":  "snippet",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "SetTextBoard ${boardType} ${boardIcon}",
+                                                                    "command":  "SetTextBoard"
+                                                                },
+                                                                {
+                                                                    "line":  "ShowBoard ${process}",
+                                                                    "command":  "ShowBoard"
+                                                                },
+                                                                {
+                                                                    "line":  "WaitBoard",
+                                                                    "command":  "WaitBoard"
+                                                                },
+                                                                {
+                                                                    "line":  "BoardMessage ${messageId} ${resultVar}",
+                                                                    "command":  "BoardMessage"
+                                                                },
+                                                                {
+                                                                    "line":  "CommonScript ${commonScriptId}",
+                                                                    "command":  "CommonScript"
+                                                                },
+                                                                {
+                                                                    "line":  "End",
+                                                                    "command":  "End"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "boardType/process values are UI behavior controls."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv",
+                       "corpusExamples":  [
+                                              "Data/Script-Data/Scripts/0092.script:Script 14"
+                                          ]
+                   }
+}

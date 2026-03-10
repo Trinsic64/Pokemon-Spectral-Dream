@@ -1,0 +1,169 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.item.give_item_once_with_flag",
+  "name": "Give Item With Flag",
+  "description": "Canonical one-time reward flow: check flag, check bag space, give item via common script, set flag.",
+  "category": "ItemLogic",
+  "parameters": [
+    {
+      "id": "scriptId",
+      "label": "Script Container ID",
+      "type": "container_id",
+      "scrcmdType": "container",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "flagId",
+      "label": "Reward Flag",
+      "type": "flag_id",
+      "scrcmdType": "u16",
+      "required": true,
+      "default": 128,
+      "validation": { "min": 1, "max": 2558 }
+    },
+    {
+      "id": "itemId",
+      "label": "Reward Item",
+      "type": "item_id",
+      "scrcmdType": "Flex",
+      "required": true,
+      "default": 420,
+      "validation": { "min": 1, "max": 2557 }
+    },
+    {
+      "id": "quantity",
+      "label": "Quantity",
+      "type": "u16",
+      "scrcmdType": "Flex",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 99 }
+    },
+    {
+      "id": "resultVar",
+      "label": "Result Variable",
+      "type": "variable_id",
+      "scrcmdType": "Var",
+      "required": true,
+      "default": 32780,
+      "validation": { "min": 0, "max": 65535 }
+    },
+    {
+      "id": "giveItemCommonScriptId",
+      "label": "Give-Item Common Script",
+      "type": "common_script_id",
+      "scrcmdType": "u16",
+      "required": true,
+      "default": 2033,
+      "uiHint": "2033 maps to std_give_item_verbose in scriptmacros.s"
+    },
+    {
+      "id": "bagFullCommonScriptId",
+      "label": "Bag-Full Common Script",
+      "type": "common_script_id",
+      "scrcmdType": "u16",
+      "required": true,
+      "default": 2009,
+      "uiHint": "2009 maps to std_bag_is_full in scriptmacros.s"
+    },
+    {
+      "id": "successMessageId",
+      "label": "Success Message",
+      "type": "text_id",
+      "scrcmdType": "u8",
+      "required": true,
+      "default": 8,
+      "validation": { "min": 0, "max": 255 }
+    },
+    {
+      "id": "alreadyMessageId",
+      "label": "Already-Received Message",
+      "type": "text_id",
+      "scrcmdType": "u8",
+      "required": true,
+      "default": 6,
+      "validation": { "min": 0, "max": 255 }
+    },
+    {
+      "id": "alreadyFunctionId",
+      "label": "Already Function ID",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "bagFullFunctionId",
+      "label": "Bag-Full Function ID",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 65535 }
+    }
+  ],
+  "requiredPlaceholders": ["${scriptId}", "${flagId}", "${itemId}", "${quantity}", "${resultVar}", "${giveItemCommonScriptId}", "${bagFullCommonScriptId}", "${successMessageId}", "${alreadyMessageId}", "${alreadyFunctionId}", "${bagFullFunctionId}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["CheckFlag", "SetVar", "CompareVarValue", "JumpIf", "CommonScript", "SetFlag", "Message", "ReleaseAndEnd"],
+    "notes": "Matches a common HGSS item reward script structure."
+  },
+  "scriptModel": {
+    "kind": "full_script_with_functions",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "CheckFlag ${flagId}", "command": "CheckFlag", "opcode": "0x0020" },
+          { "line": "JumpIf EQUAL Function#${alreadyFunctionId}", "command": "JumpIf", "opcode": "0x001C" },
+          { "line": "SetVar 0x8004 ${itemId}", "command": "SetVar", "opcode": "0x0029" },
+          { "line": "SetVar 0x8005 ${quantity}", "command": "SetVar", "opcode": "0x0029" },
+          { "line": "CheckItemSpace 0x8004 0x8005 ${resultVar}", "command": "CheckItemSpace", "opcode": "0x007F" },
+          { "line": "CompareVarValue ${resultVar} 0", "command": "CompareVarValue", "opcode": "0x0011" },
+          { "line": "JumpIf EQUAL Function#${bagFullFunctionId}", "command": "JumpIf", "opcode": "0x001C" },
+          { "line": "CommonScript ${giveItemCommonScriptId}", "command": "CommonScript", "opcode": "0x0014" },
+          { "line": "SetFlag ${flagId}", "command": "SetFlag", "opcode": "0x001E" },
+          { "line": "Message ${successMessageId}", "command": "Message", "opcode": "0x002D" },
+          { "line": "WaitButton", "command": "WaitButton", "opcode": "0x0032" },
+          { "line": "CloseMessage", "command": "CloseMessage", "opcode": "0x0035" },
+          { "line": "ReleaseAll", "command": "ReleaseAll", "opcode": "0x0061" },
+          { "line": "End", "command": "End", "opcode": "0x0002" }
+        ]
+      },
+      {
+        "containerType": "Function",
+        "containerId": "${alreadyFunctionId}",
+        "commands": [
+          { "line": "Message ${alreadyMessageId}", "command": "Message", "opcode": "0x002D" },
+          { "line": "WaitButton", "command": "WaitButton", "opcode": "0x0032" },
+          { "line": "CloseMessage", "command": "CloseMessage", "opcode": "0x0035" },
+          { "line": "ReleaseAll", "command": "ReleaseAll", "opcode": "0x0061" },
+          { "line": "End", "command": "End", "opcode": "0x0002" }
+        ]
+      },
+      {
+        "containerType": "Function",
+        "containerId": "${bagFullFunctionId}",
+        "commands": [
+          { "line": "CommonScript ${bagFullCommonScriptId}", "command": "CommonScript", "opcode": "0x0014" },
+          { "line": "ReleaseAll", "command": "ReleaseAll", "opcode": "0x0061" },
+          { "line": "End", "command": "End", "opcode": "0x0002" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Flag must be unique to prevent accidental reward lockout collisions.",
+    "This flow assumes temp vars 0x8004 and 0x8005 are available."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - HGSS.csv",
+    "commonScriptMacros": "Tools/hg-engine/armips/include/scriptmacros.s",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0092.script:Script 12"
+    ]
+  }
+}

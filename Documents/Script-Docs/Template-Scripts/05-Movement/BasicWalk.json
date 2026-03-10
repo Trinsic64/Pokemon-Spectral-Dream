@@ -1,0 +1,96 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.movement.basic_walk",
+  "name": "Basic Walk",
+  "description": "Simple movement application with one generated action container and wait.",
+  "category": "Movement",
+  "parameters": [
+    {
+      "id": "scriptId",
+      "label": "Script Container ID",
+      "type": "container_id",
+      "scrcmdType": "container",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "targetEventId",
+      "label": "Target Event/OW ID",
+      "type": "overworld_id",
+      "scrcmdType": "Flex",
+      "required": true,
+      "default": "Overworld.0",
+      "uiHint": "Use Overworld.X aliases or numeric IDs as accepted by the script parser."
+    },
+    {
+      "id": "actionId",
+      "label": "Action Container ID",
+      "type": "action_id",
+      "scrcmdType": "ActionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "stepCommand",
+      "label": "Movement Command",
+      "type": "movement_command",
+      "scrcmdType": "action",
+      "required": true,
+      "default": "WalkNorth8",
+      "validation": { "enum": ["WalkNorth8", "WalkSouth8", "WalkWest8", "WalkEast8"] }
+    },
+    {
+      "id": "stepCount",
+      "label": "Step Count",
+      "type": "u16",
+      "scrcmdType": "action_arg",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 255 }
+    }
+  ],
+  "requiredPlaceholders": ["${scriptId}", "${targetEventId}", "${actionId}", "${stepCommand}", "${stepCount}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["RunActionSequence", "GenericMovementCommand", "ReleaseAndEnd"],
+    "notes": "Directly aligns with Movement + WaitMovement expectations in SceneModelValidator."
+  },
+  "scriptModel": {
+    "kind": "full_script_with_action",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "Movement ${targetEventId} Action#${actionId}", "command": "Movement", "opcode": "0x005E" },
+          { "line": "WaitMovement", "command": "WaitMovement", "opcode": "0x005F" },
+          { "line": "ReleaseAll", "command": "ReleaseAll", "opcode": "0x0061" },
+          { "line": "End", "command": "End", "opcode": "0x0002" }
+        ]
+      },
+      {
+        "containerType": "Action",
+        "containerId": "${actionId}",
+        "commands": [
+          { "line": "${stepCommand} ${stepCount}", "command": "${stepCommand}" },
+          { "line": "End", "command": "End", "opcode": "0x00FE" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "All Movement commands in scripts should be followed by WaitMovement.",
+    "Action command IDs map to SCRCMD Database - Actions.csv (0x0000-0x00FE)."
+  ],
+  "references": {
+    "scrcmd": [
+      "Data/Script-Data/SCRCMD Database - HGSS.csv",
+      "Data/Script-Data/SCRCMD Database - Actions.csv"
+    ],
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0092.script:Script 16",
+      "Data/Script-Data/Scripts/0092.script:Action 2"
+    ]
+  }
+}

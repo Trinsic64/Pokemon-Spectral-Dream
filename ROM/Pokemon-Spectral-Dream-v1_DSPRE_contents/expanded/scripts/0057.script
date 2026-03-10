@@ -1,0 +1,53 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream-v1
+ * Game: HGSS
+ * File: 0057
+ * Generated: 9/03/2026 6:48:20 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	TrainerBattle TRAINER_MICKEY_011 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	GetPlayerPosition 0x8000 0x8001
+	CompareVarValue 0x8001 17
+	JumpIf DIFFERENT Function#2
+	Movement Overworld.0 Action#1
+	WaitMovement
+	SetFlag 123
+	ReleaseAll
+End
+
+//===== FUNCTIONS =====//
+Function 1:
+	LostBattle
+	ReleaseAll
+End
+
+Function 2:
+	Movement Overworld.0 Action#2
+	WaitMovement
+	SetFlag 123
+	ReleaseAll
+End
+
+//===== ACTIONS =====//
+Action 1:
+		WalkSouth8 0xA
+		SetInvisible 0x1
+End
+
+Action 2:
+		WalkWest8 0x1
+		WalkSouth8 0x7
+		WalkEast8 0x1
+		WalkSouth8 0x3
+		SetInvisible 0x1
+End
+

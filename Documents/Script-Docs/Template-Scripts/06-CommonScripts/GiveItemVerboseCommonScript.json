@@ -1,0 +1,69 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.common.give_item_verbose",
+    "name":  "Give Item Verbose Common Script",
+    "description":  "Invoke verbose item-give common script.",
+    "category":  "CommonScripts",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "commonScriptId",
+                           "label":  "Common Script ID",
+                           "type":  "common_script_id",
+                           "scrcmdType":  "u16",
+                           "required":  true,
+                           "default":  2033,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${commonScriptId}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "GenericScriptCommand"
+                                                        ],
+                              "notes":  "Standard reward UX helper."
+                          },
+    "scriptModel":  {
+                        "kind":  "snippet",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "CommonScript ${commonScriptId}",
+                                                                    "command":  "CommonScript"
+                                                                },
+                                                                {
+                                                                    "line":  "End",
+                                                                    "command":  "End"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "Default 2033 corresponds to std_give_item_verbose."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv",
+                       "commonScriptMacros":  "Tools/hg-engine/armips/include/scriptmacros.s"
+                   }
+}

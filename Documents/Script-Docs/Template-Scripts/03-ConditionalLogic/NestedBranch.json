@@ -1,0 +1,122 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.conditional.nested_branch",
+  "name": "Nested Branch",
+  "description": "Two-stage conditional branching pattern used in complex interaction scripts.",
+  "category": "ConditionalLogic",
+  "parameters": [
+    {
+      "id": "outerVarId",
+      "label": "Outer Variable",
+      "type": "variable_id",
+      "scrcmdType": "Var",
+      "required": true,
+      "default": 16384,
+      "validation": { "min": 0, "max": 65535 }
+    },
+    {
+      "id": "outerValue",
+      "label": "Outer Compare Value",
+      "type": "u16",
+      "scrcmdType": "u16",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 0, "max": 65535 }
+    },
+    {
+      "id": "outerCondition",
+      "label": "Outer Condition",
+      "type": "comparison_operator",
+      "scrcmdType": "u8",
+      "required": true,
+      "default": "EQUAL",
+      "validation": { "enum": ["EQUAL", "NOT_EQUAL", "GREATER", "LESS", "GREATER_OR_EQUAL", "LESS_OR_EQUAL"] }
+    },
+    {
+      "id": "innerVarId",
+      "label": "Inner Variable",
+      "type": "variable_id",
+      "scrcmdType": "Var",
+      "required": true,
+      "default": 16385,
+      "validation": { "min": 0, "max": 65535 }
+    },
+    {
+      "id": "innerValue",
+      "label": "Inner Compare Value",
+      "type": "u16",
+      "scrcmdType": "u16",
+      "required": true,
+      "default": 0,
+      "validation": { "min": 0, "max": 65535 }
+    },
+    {
+      "id": "innerCondition",
+      "label": "Inner Condition",
+      "type": "comparison_operator",
+      "scrcmdType": "u8",
+      "required": true,
+      "default": "EQUAL",
+      "validation": { "enum": ["EQUAL", "NOT_EQUAL", "GREATER", "LESS", "GREATER_OR_EQUAL", "LESS_OR_EQUAL"] }
+    },
+    {
+      "id": "outerTrueFunctionId",
+      "label": "Outer True Function",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "innerTrueFunctionId",
+      "label": "Inner True Function",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "fallbackFunctionId",
+      "label": "Fallback Function",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 3,
+      "validation": { "min": 1, "max": 65535 }
+    }
+  ],
+  "requiredPlaceholders": ["${outerVarId}", "${outerValue}", "${outerCondition}", "${innerVarId}", "${innerValue}", "${innerCondition}", "${outerTrueFunctionId}", "${innerTrueFunctionId}", "${fallbackFunctionId}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["CompareVarValue", "JumpIf", "JumpFunction"],
+    "notes": "Nested splits are common in scripts with state + menu + inventory checks."
+  },
+  "scriptModel": {
+    "kind": "snippet",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "CompareVarValue ${outerVarId} ${outerValue}", "command": "CompareVarValue", "opcode": "0x0011" },
+          { "line": "JumpIf ${outerCondition} Function#${outerTrueFunctionId}", "command": "JumpIf", "opcode": "0x001C" },
+          { "line": "CompareVarValue ${innerVarId} ${innerValue}", "command": "CompareVarValue", "opcode": "0x0011" },
+          { "line": "JumpIf ${innerCondition} Function#${innerTrueFunctionId}", "command": "JumpIf", "opcode": "0x001C" },
+          { "line": "Jump Function#${fallbackFunctionId}", "command": "Jump", "opcode": "0x0016" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Keep branch targets documented; nested control flow gets hard to debug quickly.",
+    "Prefer function labels in editor UI for readability."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - HGSS.csv",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0092.script:Script 3",
+      "Data/Script-Data/Scripts/0804.script:Function 4"
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.pokemon.choose_and_check_move",
+    "name":  "Choose Pokemon And Check Move",
+    "description":  "Open selection, handle cancel, then branch by move check result.",
+    "category":  "Pokemon",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "slotVar",
+                           "label":  "Selected Slot Var",
+                           "type":  "variable_id",
+                           "scrcmdType":  "Var",
+                           "required":  true,
+                           "default":  32780,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "resultVar",
+                           "label":  "Move Check Result Var",
+                           "type":  "variable_id",
+                           "scrcmdType":  "Var",
+                           "required":  true,
+                           "default":  32781,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "moveId",
+                           "label":  "Move ID",
+                           "type":  "move_id",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "cancelFunctionId",
+                           "label":  "Cancel Function",
+                           "type":  "function_id",
+                           "scrcmdType":  "FunctionRef",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "hasMoveFunctionId",
+                           "label":  "Has-Move Function",
+                           "type":  "function_id",
+                           "scrcmdType":  "FunctionRef",
+                           "required":  true,
+                           "default":  2,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "noMoveFunctionId",
+                           "label":  "No-Move Function",
+                           "type":  "function_id",
+                           "scrcmdType":  "FunctionRef",
+                           "required":  true,
+                           "default":  3,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${slotVar}",
+                                 "${resultVar}",
+                                 "${moveId}",
+                                 "${cancelFunctionId}",
+                                 "${hasMoveFunctionId}",
+                                 "${noMoveFunctionId}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "GenericScriptCommand",
+                                                            "CompareVarValue",
+                                                            "JumpIf",
+                                                            "JumpFunction"
+                                                        ],
+                              "notes":  "Reusable HM/tutor check interaction flow."
+                          },
+    "scriptModel":  {
+                        "kind":  "snippet",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "FadeScreen 6 1 0 0",
+                                                                    "command":  "FadeScreen"
+                                                                },
+                                                                {
+                                                                    "line":  "WaitFadeScreen",
+                                                                    "command":  "WaitFadeScreen"
+                                                                },
+                                                                {
+                                                                    "line":  "ChoosePokemonSelection",
+                                                                    "command":  "ChoosePokemonSelection"
+                                                                },
+                                                                {
+                                                                    "line":  "GetSelectedPartySlot ${slotVar}",
+                                                                    "command":  "GetSelectedPartySlot"
+                                                                },
+                                                                {
+                                                                    "line":  "ReturnScreen",
+                                                                    "command":  "ReturnScreen"
+                                                                },
+                                                                {
+                                                                    "line":  "FadeScreen 6 1 1 0",
+                                                                    "command":  "FadeScreen"
+                                                                },
+                                                                {
+                                                                    "line":  "WaitFadeScreen",
+                                                                    "command":  "WaitFadeScreen"
+                                                                },
+                                                                {
+                                                                    "line":  "CompareVarValue ${slotVar} 255",
+                                                                    "command":  "CompareVarValue"
+                                                                },
+                                                                {
+                                                                    "line":  "JumpIf EQUAL Function#${cancelFunctionId}",
+                                                                    "command":  "JumpIf"
+                                                                },
+                                                                {
+                                                                    "line":  "CheckPokemonHasMove ${resultVar} ${moveId} ${slotVar}",
+                                                                    "command":  "CheckPokemonHasMove"
+                                                                },
+                                                                {
+                                                                    "line":  "CompareVarValue ${resultVar} 1",
+                                                                    "command":  "CompareVarValue"
+                                                                },
+                                                                {
+                                                                    "line":  "JumpIf EQUAL Function#${hasMoveFunctionId}",
+                                                                    "command":  "JumpIf"
+                                                                },
+                                                                {
+                                                                    "line":  "Jump Function#${noMoveFunctionId}",
+                                                                    "command":  "Jump"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "Slot 255 is cancel in party selection flows."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv",
+                       "corpusExamples":  [
+                                              "Data/Script-Data/Scripts/0092.script:Script 3"
+                                          ]
+                   }
+}

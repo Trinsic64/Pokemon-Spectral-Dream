@@ -1,0 +1,121 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.dialogue.multi_branch_yes_no",
+  "name": "Multi Branch Dialogue",
+  "description": "Yes/No dialogue branch pattern with generated yes/no functions using CallIf and Return.",
+  "category": "Dialogue",
+  "parameters": [
+    {
+      "id": "scriptId",
+      "label": "Script Container ID",
+      "type": "container_id",
+      "scrcmdType": "container",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "resultVar",
+      "label": "Yes/No Result Variable",
+      "type": "variable_id",
+      "scrcmdType": "Var",
+      "required": true,
+      "default": 32780,
+      "validation": { "min": 0, "max": 65535 },
+      "uiHint": "0x800C is the canonical temporary result variable."
+    },
+    {
+      "id": "yesFunctionId",
+      "label": "Yes Function ID",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "noFunctionId",
+      "label": "No Function ID",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "yesMessageId",
+      "label": "Yes Branch Message",
+      "type": "text_id",
+      "scrcmdType": "u8",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 0, "max": 255 }
+    },
+    {
+      "id": "noMessageId",
+      "label": "No Branch Message",
+      "type": "text_id",
+      "scrcmdType": "u8",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 0, "max": 255 }
+    }
+  ],
+  "requiredPlaceholders": ["${scriptId}", "${resultVar}", "${yesFunctionId}", "${noFunctionId}", "${yesMessageId}", "${noMessageId}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["YesNoPrompt", "CallIf", "Message", "ReturnOnly"],
+    "notes": "Follows SceneBlockCompiler AddYesNoBranch behavior."
+  },
+  "scriptModel": {
+    "kind": "full_script_with_functions",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "OpenTouchScreen", "command": "OpenTouchScreen", "opcode": "0x02EA" },
+          { "line": "YesNoTouchScreen ${resultVar}", "command": "YesNoTouchScreen", "opcode": "0x02EC" },
+          { "line": "CloseTouchScreen", "command": "CloseTouchScreen", "opcode": "0x02EB" },
+          { "line": "CompareVarValue ${resultVar} 0", "command": "CompareVarValue", "opcode": "0x0011" },
+          { "line": "CallIf EQUAL Function#${yesFunctionId}", "command": "CallIf", "opcode": "0x001D" },
+          { "line": "CompareVarValue ${resultVar} 1", "command": "CompareVarValue", "opcode": "0x0011" },
+          { "line": "CallIf EQUAL Function#${noFunctionId}", "command": "CallIf", "opcode": "0x001D" }
+        ]
+      },
+      {
+        "containerType": "Function",
+        "containerId": "${yesFunctionId}",
+        "commands": [
+          { "line": "Message ${yesMessageId}", "command": "Message", "opcode": "0x002D" },
+          { "line": "WaitButton", "command": "WaitButton", "opcode": "0x0032" },
+          { "line": "CloseMessage", "command": "CloseMessage", "opcode": "0x0035" },
+          { "line": "Return", "command": "Return", "opcode": "0x001B" }
+        ]
+      },
+      {
+        "containerType": "Function",
+        "containerId": "${noFunctionId}",
+        "commands": [
+          { "line": "Message ${noMessageId}", "command": "Message", "opcode": "0x002D" },
+          { "line": "WaitButton", "command": "WaitButton", "opcode": "0x0032" },
+          { "line": "CloseMessage", "command": "CloseMessage", "opcode": "0x0035" },
+          { "line": "Return", "command": "Return", "opcode": "0x001B" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Use CallIf + Return for branch functions to avoid terminal branch lock-in.",
+    "Result variable should be a temporary scratch variable (0x800C typical)."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - HGSS.csv",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0000.script:Script 2",
+      "Data/Script-Data/Scripts/0804.script:Script 3"
+    ],
+    "sceneEditorSources": [
+      "Tools/DSPRE/DS_Map/Editors/Utils/SceneBlockCompiler.cs"
+    ]
+  }
+}

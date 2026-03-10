@@ -1,0 +1,77 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.warp.return_screen_wrapper",
+    "name":  "Return Screen Wrapper",
+    "description":  "Return to overworld screen mode then show follow-up message.",
+    "category":  "WarpAndTransition",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "messageId",
+                           "label":  "Message ID",
+                           "type":  "text_id",
+                           "scrcmdType":  "u8",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  255
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${messageId}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "GenericScriptCommand",
+                                                            "Message"
+                                                        ],
+                              "notes":  "Useful after selection UIs before dialogue resumes."
+                          },
+    "scriptModel":  {
+                        "kind":  "snippet",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "ReturnScreen",
+                                                                    "command":  "ReturnScreen"
+                                                                },
+                                                                {
+                                                                    "line":  "Message ${messageId}",
+                                                                    "command":  "Message"
+                                                                },
+                                                                {
+                                                                    "line":  "WaitButton",
+                                                                    "command":  "WaitButton"
+                                                                },
+                                                                {
+                                                                    "line":  "CloseMessage",
+                                                                    "command":  "CloseMessage"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "Pair with commands that previously opened a dedicated screen UI."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv"
+                   }
+}

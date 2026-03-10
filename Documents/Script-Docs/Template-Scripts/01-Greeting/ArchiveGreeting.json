@@ -1,0 +1,127 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.greeting.archive_greeting",
+    "name":  "Archive Greeting",
+    "description":  "Greeting opener that pulls message from common archive mapping.",
+    "category":  "Greeting",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "archiveLookupId",
+                           "label":  "Archive Lookup ID",
+                           "type":  "u16",
+                           "scrcmdType":  "u16",
+                           "required":  true,
+                           "default":  2,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "archiveVar",
+                           "label":  "Archive Var",
+                           "type":  "variable_id",
+                           "scrcmdType":  "Var",
+                           "required":  true,
+                           "default":  32780,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "messageId",
+                           "label":  "Archive Message ID",
+                           "type":  "text_id",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${archiveLookupId}",
+                                 "${archiveVar}",
+                                 "${messageId}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "GreetingBasic",
+                                                            "GenericScriptCommand",
+                                                            "ReleaseAndEnd"
+                                                        ],
+                              "notes":  "Useful for shared archive NPC dialogue."
+                          },
+    "scriptModel":  {
+                        "kind":  "full_script",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "PlayFanfare SEQ_SE_CONFIRM",
+                                                                    "command":  "PlayFanfare"
+                                                                },
+                                                                {
+                                                                    "line":  "LockAll",
+                                                                    "command":  "LockAll"
+                                                                },
+                                                                {
+                                                                    "line":  "FacePlayer",
+                                                                    "command":  "FacePlayer"
+                                                                },
+                                                                {
+                                                                    "line":  "GetCommonMessageArchive ${archiveLookupId} ${archiveVar}",
+                                                                    "command":  "GetCommonMessageArchive"
+                                                                },
+                                                                {
+                                                                    "line":  "MessageFromArchive ${archiveVar} ${messageId}",
+                                                                    "command":  "MessageFromArchive"
+                                                                },
+                                                                {
+                                                                    "line":  "WaitButton",
+                                                                    "command":  "WaitButton"
+                                                                },
+                                                                {
+                                                                    "line":  "CloseMessage",
+                                                                    "command":  "CloseMessage"
+                                                                },
+                                                                {
+                                                                    "line":  "ReleaseAll",
+                                                                    "command":  "ReleaseAll"
+                                                                },
+                                                                {
+                                                                    "line":  "End",
+                                                                    "command":  "End"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "archiveLookupId should map to valid common archive entry."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv",
+                       "corpusExamples":  [
+                                              "Data/Script-Data/Scripts/0092.script:Script 19"
+                                          ]
+                   }
+}

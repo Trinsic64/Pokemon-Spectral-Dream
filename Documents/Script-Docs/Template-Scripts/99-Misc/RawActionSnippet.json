@@ -1,0 +1,56 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.misc.raw_action_snippet",
+  "name": "Raw Action Snippet",
+  "description": "Freeform action container snippet for movement commands not covered by structured templates.",
+  "category": "Misc",
+  "parameters": [
+    {
+      "id": "actionId",
+      "label": "Action Container ID",
+      "type": "action_id",
+      "scrcmdType": "ActionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "rawActionLines",
+      "label": "Raw Action Lines",
+      "type": "line_list",
+      "scrcmdType": "action",
+      "required": true,
+      "default": ["EmoteExclamation 0x1", "WalkOnSpotSouth8 0x1"],
+      "uiHint": "One action command per line; End is auto-appended if omitted."
+    }
+  ],
+  "requiredPlaceholders": ["${actionId}", "${rawActionLines}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["GenericMovementCommand"],
+    "notes": "Equivalent to advanced Any Movement Command block usage."
+  },
+  "scriptModel": {
+    "kind": "action_snippet",
+    "containers": [
+      {
+        "containerType": "Action",
+        "containerId": "${actionId}",
+        "commands": [
+          { "line": "${rawActionLines}" },
+          { "line": "End", "command": "End", "opcode": "0x00FE" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Validate command names against SCRCMD Database - Actions.csv.",
+    "Action command parameter counts must match action database definitions."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - Actions.csv",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0092.script:Action 1",
+      "Data/Script-Data/Scripts/0092.script:Action 8"
+    ]
+  }
+}

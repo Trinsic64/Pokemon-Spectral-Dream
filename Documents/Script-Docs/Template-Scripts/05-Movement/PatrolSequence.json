@@ -1,0 +1,101 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.movement.patrol_sequence",
+  "name": "Patrol Sequence",
+  "description": "Rectangular patrol movement sequence for NPC pathing.",
+  "category": "Movement",
+  "parameters": [
+    {
+      "id": "targetEventId",
+      "label": "Target Event/OW ID",
+      "type": "overworld_id",
+      "scrcmdType": "Flex",
+      "required": true,
+      "default": "Overworld.0"
+    },
+    {
+      "id": "actionId",
+      "label": "Action Container ID",
+      "type": "action_id",
+      "scrcmdType": "ActionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "northSteps",
+      "label": "North Steps",
+      "type": "u16",
+      "scrcmdType": "action_arg",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 255 }
+    },
+    {
+      "id": "eastSteps",
+      "label": "East Steps",
+      "type": "u16",
+      "scrcmdType": "action_arg",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 255 }
+    },
+    {
+      "id": "southSteps",
+      "label": "South Steps",
+      "type": "u16",
+      "scrcmdType": "action_arg",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 255 }
+    },
+    {
+      "id": "westSteps",
+      "label": "West Steps",
+      "type": "u16",
+      "scrcmdType": "action_arg",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 255 }
+    }
+  ],
+  "requiredPlaceholders": ["${targetEventId}", "${actionId}", "${northSteps}", "${eastSteps}", "${southSteps}", "${westSteps}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["RunActionSequence", "GenericMovementCommand"],
+    "notes": "Common reusable movement micro-cutscene used for patrol behavior."
+  },
+  "scriptModel": {
+    "kind": "snippet_with_action",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "Movement ${targetEventId} Action#${actionId}", "command": "Movement", "opcode": "0x005E" },
+          { "line": "WaitMovement", "command": "WaitMovement", "opcode": "0x005F" }
+        ]
+      },
+      {
+        "containerType": "Action",
+        "containerId": "${actionId}",
+        "commands": [
+          { "line": "WalkNorth8 ${northSteps}", "command": "WalkNorth8" },
+          { "line": "WalkEast8 ${eastSteps}", "command": "WalkEast8" },
+          { "line": "WalkSouth8 ${southSteps}", "command": "WalkSouth8" },
+          { "line": "WalkWest8 ${westSteps}", "command": "WalkWest8" },
+          { "line": "End", "command": "End", "opcode": "0x00FE" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Movement command names should come from SCRCMD Database - Actions.csv.",
+    "Keep total step path inside map collision bounds."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - Actions.csv",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0092.script:Action 8"
+    ]
+  }
+}

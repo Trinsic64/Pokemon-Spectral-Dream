@@ -1,0 +1,102 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.text.message_from_common_archive",
+    "name":  "Message From Common Archive",
+    "description":  "Resolve common archive and display archive-specific message.",
+    "category":  "TextAndBoards",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "archiveLookupId",
+                           "label":  "Archive Lookup ID",
+                           "type":  "u16",
+                           "scrcmdType":  "u16",
+                           "required":  true,
+                           "default":  2,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "archiveVar",
+                           "label":  "Archive Var",
+                           "type":  "variable_id",
+                           "scrcmdType":  "Var",
+                           "required":  true,
+                           "default":  32780,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "messageId",
+                           "label":  "Archive Message ID",
+                           "type":  "text_id",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${archiveLookupId}",
+                                 "${archiveVar}",
+                                 "${messageId}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "GenericScriptCommand"
+                                                        ],
+                              "notes":  "Shared archive text pattern."
+                          },
+    "scriptModel":  {
+                        "kind":  "snippet",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "GetCommonMessageArchive ${archiveLookupId} ${archiveVar}",
+                                                                    "command":  "GetCommonMessageArchive"
+                                                                },
+                                                                {
+                                                                    "line":  "MessageFromArchive ${archiveVar} ${messageId}",
+                                                                    "command":  "MessageFromArchive"
+                                                                },
+                                                                {
+                                                                    "line":  "WaitButton",
+                                                                    "command":  "WaitButton"
+                                                                },
+                                                                {
+                                                                    "line":  "CloseMessage",
+                                                                    "command":  "CloseMessage"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "Use lookup IDs that exist in your common archive table."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv"
+                   }
+}

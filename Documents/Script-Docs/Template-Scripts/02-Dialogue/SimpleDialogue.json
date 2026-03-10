@@ -1,0 +1,49 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.dialogue.simple",
+  "name": "Simple Dialogue",
+  "description": "Minimal message display snippet for insertion into scripts or functions.",
+  "category": "Dialogue",
+  "parameters": [
+    {
+      "id": "messageId",
+      "label": "Message ID",
+      "type": "text_id",
+      "scrcmdType": "u8",
+      "required": true,
+      "default": 0,
+      "validation": { "min": 0, "max": 255 },
+      "uiHint": "Prompt text here."
+    }
+  ],
+  "requiredPlaceholders": ["${messageId}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["Message"],
+    "notes": "Equivalent to the Scene block Message (close)."
+  },
+  "scriptModel": {
+    "kind": "snippet",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "Message ${messageId}", "command": "Message", "opcode": "0x002D" },
+          { "line": "WaitButton", "command": "WaitButton", "opcode": "0x0032" },
+          { "line": "CloseMessage", "command": "CloseMessage", "opcode": "0x0035" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Snippet is non-terminal; pair with release/end logic in caller.",
+    "Message slot must exist in the active text archive."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - HGSS.csv",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0000.script:Script 1",
+      "Data/Script-Data/Scripts/0092.script:Script 18"
+    ]
+  }
+}

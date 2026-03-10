@@ -1,0 +1,84 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.conditional.compare_var_and_branch",
+  "name": "Compare Var And Branch",
+  "description": "Compares a variable to a value and branches with JumpIf/Jump.",
+  "category": "ConditionalLogic",
+  "parameters": [
+    {
+      "id": "varId",
+      "label": "Variable ID",
+      "type": "variable_id",
+      "scrcmdType": "Var",
+      "required": true,
+      "default": 32780,
+      "validation": { "min": 0, "max": 65535 }
+    },
+    {
+      "id": "compareValue",
+      "label": "Compare Value",
+      "type": "u16",
+      "scrcmdType": "u16",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 0, "max": 65535 }
+    },
+    {
+      "id": "condition",
+      "label": "Condition",
+      "type": "comparison_operator",
+      "scrcmdType": "u8",
+      "required": true,
+      "default": "EQUAL",
+      "validation": { "enum": ["EQUAL", "NOT_EQUAL", "GREATER", "LESS", "GREATER_OR_EQUAL", "LESS_OR_EQUAL"] }
+    },
+    {
+      "id": "trueFunctionId",
+      "label": "True Branch Function",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "falseFunctionId",
+      "label": "False Branch Function",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 65535 }
+    }
+  ],
+  "requiredPlaceholders": ["${varId}", "${compareValue}", "${condition}", "${trueFunctionId}", "${falseFunctionId}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["CompareVarValue", "JumpIf", "JumpFunction"],
+    "notes": "Condition tokens align to SceneBlockCompiler ResolveConditionName output."
+  },
+  "scriptModel": {
+    "kind": "snippet",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "CompareVarValue ${varId} ${compareValue}", "command": "CompareVarValue", "opcode": "0x0011" },
+          { "line": "JumpIf ${condition} Function#${trueFunctionId}", "command": "JumpIf", "opcode": "0x001C" },
+          { "line": "Jump Function#${falseFunctionId}", "command": "Jump", "opcode": "0x0016" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Use canonical condition names to keep parser/compiler round-trip stable.",
+    "If comparing script temps, 0x8000-0x800F are common scratch slots."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - HGSS.csv",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0092.script:Script 3",
+      "Data/Script-Data/Scripts/0003.script:Script 3"
+    ]
+  }
+}

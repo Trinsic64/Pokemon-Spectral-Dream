@@ -1,0 +1,138 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.movement.branching_paths",
+  "name": "Movement With Branch",
+  "description": "Branches between two movement action paths based on a flag check.",
+  "category": "Movement",
+  "parameters": [
+    {
+      "id": "scriptId",
+      "label": "Script Container ID",
+      "type": "container_id",
+      "scrcmdType": "container",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "flagId",
+      "label": "Branch Flag",
+      "type": "flag_id",
+      "scrcmdType": "u16",
+      "required": true,
+      "default": 393,
+      "validation": { "min": 1, "max": 2558 }
+    },
+    {
+      "id": "targetEventId",
+      "label": "Target Event/OW ID",
+      "type": "overworld_id",
+      "scrcmdType": "Flex",
+      "required": true,
+      "default": "Overworld.0"
+    },
+    {
+      "id": "primaryActionId",
+      "label": "Primary Action ID",
+      "type": "action_id",
+      "scrcmdType": "ActionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "alternateActionId",
+      "label": "Alternate Action ID",
+      "type": "action_id",
+      "scrcmdType": "ActionRef",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "altFunctionId",
+      "label": "Alternate Function ID",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "endFunctionId",
+      "label": "End Function ID",
+      "type": "function_id",
+      "scrcmdType": "FunctionRef",
+      "required": true,
+      "default": 2,
+      "validation": { "min": 1, "max": 65535 }
+    }
+  ],
+  "requiredPlaceholders": ["${scriptId}", "${flagId}", "${targetEventId}", "${primaryActionId}", "${alternateActionId}", "${altFunctionId}", "${endFunctionId}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["CheckFlag", "JumpIf", "RunActionSequence", "JumpFunction", "ReleaseAndEnd"],
+    "notes": "Combines flow and movement blocks into a common event branch pattern."
+  },
+  "scriptModel": {
+    "kind": "full_script_with_functions_and_actions",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "CheckFlag ${flagId}", "command": "CheckFlag", "opcode": "0x0020" },
+          { "line": "JumpIf EQUAL Function#${altFunctionId}", "command": "JumpIf", "opcode": "0x001C" },
+          { "line": "Movement ${targetEventId} Action#${primaryActionId}", "command": "Movement", "opcode": "0x005E" },
+          { "line": "WaitMovement", "command": "WaitMovement", "opcode": "0x005F" },
+          { "line": "Jump Function#${endFunctionId}", "command": "Jump", "opcode": "0x0016" }
+        ]
+      },
+      {
+        "containerType": "Function",
+        "containerId": "${altFunctionId}",
+        "commands": [
+          { "line": "Movement ${targetEventId} Action#${alternateActionId}", "command": "Movement", "opcode": "0x005E" },
+          { "line": "WaitMovement", "command": "WaitMovement", "opcode": "0x005F" },
+          { "line": "Jump Function#${endFunctionId}", "command": "Jump", "opcode": "0x0016" }
+        ]
+      },
+      {
+        "containerType": "Function",
+        "containerId": "${endFunctionId}",
+        "commands": [
+          { "line": "ReleaseAll", "command": "ReleaseAll", "opcode": "0x0061" },
+          { "line": "End", "command": "End", "opcode": "0x0002" }
+        ]
+      },
+      {
+        "containerType": "Action",
+        "containerId": "${primaryActionId}",
+        "commands": [
+          { "line": "WalkNorth8 1", "command": "WalkNorth8" },
+          { "line": "End", "command": "End", "opcode": "0x00FE" }
+        ]
+      },
+      {
+        "containerType": "Action",
+        "containerId": "${alternateActionId}",
+        "commands": [
+          { "line": "WalkSouth8 1", "command": "WalkSouth8" },
+          { "line": "End", "command": "End", "opcode": "0x00FE" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Both branch paths should terminate in shared cleanup/end logic.",
+    "Ensure every Action container ends with End (0x00FE)."
+  ],
+  "references": {
+    "scrcmd": [
+      "Data/Script-Data/SCRCMD Database - HGSS.csv",
+      "Data/Script-Data/SCRCMD Database - Actions.csv"
+    ],
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0092.script:Script 16 and 17"
+    ]
+  }
+}

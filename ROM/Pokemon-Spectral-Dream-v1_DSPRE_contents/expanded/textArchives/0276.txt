@@ -1,0 +1,7 @@
+# Key: 0xBC67
+{STRVAR_1, 0, 0, 0}
+㊚
+㊛
+Lv.{STRVAR_1, 52, 0, 0}
+Item
+{STRVAR_1, 8, 0, 0}

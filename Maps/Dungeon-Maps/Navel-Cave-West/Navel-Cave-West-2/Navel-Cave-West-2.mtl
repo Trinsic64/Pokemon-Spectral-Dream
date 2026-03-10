@@ -110,10 +110,6 @@ newmtl cavehole
 map_Kd cavehole.png
 map_d cavehole.png
 
-newmtl gake01a
-map_Kd gake01a.png
-map_d gake01a.png
-
 newmtl d0gake_001b
 map_Kd d0gake_001b.png
 map_d d0gake_001b.png

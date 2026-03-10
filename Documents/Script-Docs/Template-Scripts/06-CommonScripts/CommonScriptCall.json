@@ -1,0 +1,58 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.common.call_common_script",
+  "name": "Common Script Call",
+  "description": "Invokes an HGSS common script ID and terminates with configurable command.",
+  "category": "CommonScripts",
+  "parameters": [
+    {
+      "id": "commonScriptId",
+      "label": "Common Script ID",
+      "type": "common_script_id",
+      "scrcmdType": "u16",
+      "required": true,
+      "default": 2000,
+      "uiHint": "Example: 2000 signpost, 2009 bag is full, 2033 give item verbose."
+    },
+    {
+      "id": "terminator",
+      "label": "Terminator",
+      "type": "script_command_name",
+      "scrcmdType": "command",
+      "required": true,
+      "default": "End",
+      "validation": { "enum": ["End", "LocalScript"] },
+      "uiHint": "Use LocalScript when returning from a std context."
+    }
+  ],
+  "requiredPlaceholders": ["${commonScriptId}", "${terminator}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["GenericScriptCommand"],
+    "notes": "Can be represented as a generic command block in Scene Editor."
+  },
+  "scriptModel": {
+    "kind": "snippet",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "CommonScript ${commonScriptId}", "command": "CommonScript", "opcode": "0x0014" },
+          { "line": "${terminator}", "command": "${terminator}" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Ensure common script ID exists in your commonscript table.",
+    "Use End for terminal calls, LocalScript for std return patterns."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - HGSS.csv",
+    "commonScriptMacros": "Tools/hg-engine/armips/include/scriptmacros.s",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0092.script:Script 14",
+      "Data/Script-Data/Scripts/0092.script:Script 12"
+    ]
+  }
+}

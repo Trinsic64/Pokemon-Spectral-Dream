@@ -1,0 +1,5 @@
+# Key: 0x6A87
+ESCAPE
+LIGHT
+WATER
+HO OH

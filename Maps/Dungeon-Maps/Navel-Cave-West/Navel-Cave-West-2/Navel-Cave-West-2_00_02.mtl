@@ -58,10 +58,6 @@ newmtl kusa_ec2
 map_Kd kusa_ec2.png
 map_d kusa_ec2.png
 
-newmtl gake01a
-map_Kd gake01a.png
-map_d gake01a.png
-
 newmtl d0gake_heri
 map_Kd d0gake_heri.png
 map_d d0gake_heri.png

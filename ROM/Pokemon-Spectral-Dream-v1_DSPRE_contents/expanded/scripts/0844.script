@@ -1,0 +1,109 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream-v1
+ * Game: HGSS
+ * File: 0844
+ * Generated: 8/03/2026 9:40:22 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	PlayFanfare SEQ_SE_CONFIRM
+	Lock Player
+	FacePlayer
+	Message 0
+	ListLocalText 1 1 0 1 0x800C
+	AddListOption 0 0 0
+	AddListOption 1 2 1
+	AddListOption 2 3 2
+	ShowList
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#1
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#2
+	CompareVarValue 0x800C 2
+	JumpIf EQUAL Function#3
+	CloseMessage
+	ReleaseAll
+End
+
+Script 2:
+	PlayFanfare SEQ_SE_CONFIRM
+	Lock Player
+	FacePlayer
+	SetVar 0x8004 1
+	SetVar 0x8005 99
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#2
+	GiveItem 0x8004 0x8005 0x800C
+Jump Function#4
+
+Script 3:
+	PlayFanfare SEQ_SE_CONFIRM
+	Lock Player
+	FacePlayer
+	SetVar 0x8004 1
+	SetVar 0x8005 99
+	GiveItem 0x8004 0x8005 0x800C
+Jump Function#5
+
+//===== FUNCTIONS =====//
+Function 1:
+	Message 1
+	ListLocalText 1 1 0 1 0x800C
+	MessageFromArchive 222 1
+	AddListOption 0 0 0
+	AddListOption 1 1 1
+	AddListOption 2 2 2
+	ShowList
+	CloseMessage
+	ReleaseAll
+End
+
+Function 2:
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#3
+	GiveItem 0x8004 0x8005 0x800C
+	CompareVarValue 0x8004 1000
+	JumpIf LESS Function#4
+	ReleaseAll
+End
+
+Function 3:
+	TextItem 0 0x8004
+	TextNumber 1 0x8004
+	Message 9
+	CloseMessage
+	SetVar 0x8005 99
+Jump Function#4
+
+Function 4:
+	IncrementVar 0x8004 1
+	SetVar 0x8005 99
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#2
+	GiveItem 0x8004 0x8005 0x800C
+	CompareVarValue 0x8004 1000
+	JumpIf LESS Function#4
+	Message 10
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 5:
+	IncrementVar 0x8004 1
+	GiveItem 0x8004 0x8005 0x800C
+	CompareVarValue 0x8004 2000
+	JumpIf LESS Function#5
+	Message 10
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+//===== ACTIONS =====//

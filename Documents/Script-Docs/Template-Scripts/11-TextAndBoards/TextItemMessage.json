@@ -1,0 +1,104 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.text.text_item_message",
+    "name":  "Text Item Message",
+    "description":  "Buffer item name and display message containing item placeholder.",
+    "category":  "TextAndBoards",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "bufferId",
+                           "label":  "Buffer ID",
+                           "type":  "u8",
+                           "scrcmdType":  "u8",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  255
+                                          }
+                       },
+                       {
+                           "id":  "itemId",
+                           "label":  "Item ID",
+                           "type":  "item_id",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  2557
+                                          }
+                       },
+                       {
+                           "id":  "messageId",
+                           "label":  "Message ID",
+                           "type":  "text_id",
+                           "scrcmdType":  "u8",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  255
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${bufferId}",
+                                 "${itemId}",
+                                 "${messageId}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "GenericScriptCommand",
+                                                            "Message"
+                                                        ],
+                              "notes":  "Reward/inventory text helper pattern."
+                          },
+    "scriptModel":  {
+                        "kind":  "snippet",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "TextItem ${bufferId} ${itemId}",
+                                                                    "command":  "TextItem"
+                                                                },
+                                                                {
+                                                                    "line":  "Message ${messageId}",
+                                                                    "command":  "Message"
+                                                                },
+                                                                {
+                                                                    "line":  "WaitButton",
+                                                                    "command":  "WaitButton"
+                                                                },
+                                                                {
+                                                                    "line":  "CloseMessage",
+                                                                    "command":  "CloseMessage"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "Align STRVAR buffer usage with message text formatting."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv",
+                       "textBuffers":  "Documents/Text-Docs/String-Buffers.txt"
+                   }
+}

@@ -1,0 +1,61 @@
+﻿{
+  "schemaVersion": "1.0",
+  "templateId": "hgss.greeting.dialogue_only",
+  "name": "Dialogue Greeting",
+  "description": "Greeting flow without fanfare; used for quieter NPC interactions.",
+  "category": "Greeting",
+  "parameters": [
+    {
+      "id": "scriptId",
+      "label": "Script Container ID",
+      "type": "container_id",
+      "scrcmdType": "container",
+      "required": true,
+      "default": 1,
+      "validation": { "min": 1, "max": 65535 }
+    },
+    {
+      "id": "messageId",
+      "label": "Message ID",
+      "type": "text_id",
+      "scrcmdType": "u8",
+      "required": true,
+      "default": 0,
+      "validation": { "min": 0, "max": 255 }
+    }
+  ],
+  "requiredPlaceholders": ["${scriptId}", "${messageId}"],
+  "sceneBlockMapping": {
+    "recommendedBlockTypes": ["LockAllOnly", "FacePlayerOnly", "Message", "ReleaseAndEnd"],
+    "notes": "Useful when the map already has ambient sound cues and fanfare is not desired."
+  },
+  "scriptModel": {
+    "kind": "full_script",
+    "containers": [
+      {
+        "containerType": "Script",
+        "containerId": "${scriptId}",
+        "commands": [
+          { "line": "LockAll", "command": "LockAll", "opcode": "0x0060" },
+          { "line": "FacePlayer", "command": "FacePlayer", "opcode": "0x0068" },
+          { "line": "Message ${messageId}", "command": "Message", "opcode": "0x002D" },
+          { "line": "WaitButton", "command": "WaitButton", "opcode": "0x0032" },
+          { "line": "CloseMessage", "command": "CloseMessage", "opcode": "0x0035" },
+          { "line": "ReleaseAll", "command": "ReleaseAll", "opcode": "0x0061" },
+          { "line": "End", "command": "End", "opcode": "0x0002" }
+        ]
+      }
+    ]
+  },
+  "validationHints": [
+    "Use only for talk-start contexts where lock/release is required.",
+    "Message ID should exist in the target text archive."
+  ],
+  "references": {
+    "scrcmd": "Data/Script-Data/SCRCMD Database - HGSS.csv",
+    "corpusExamples": [
+      "Data/Script-Data/Scripts/0804.script:Script 2",
+      "Data/Script-Data/Scripts/0092.script:Script 15"
+    ]
+  }
+}

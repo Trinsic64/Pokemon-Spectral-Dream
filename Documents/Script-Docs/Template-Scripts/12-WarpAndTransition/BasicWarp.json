@@ -1,0 +1,116 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "templateId":  "hgss.warp.basic_warp",
+    "name":  "Basic Warp",
+    "description":  "Direct warp command with map, door, coordinates, and direction.",
+    "category":  "WarpAndTransition",
+    "parameters":  [
+                       {
+                           "id":  "scriptId",
+                           "label":  "Script ID",
+                           "type":  "container_id",
+                           "scrcmdType":  "container",
+                           "required":  true,
+                           "default":  1,
+                           "validation":  {
+                                              "min":  1,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "mapId",
+                           "label":  "Map ID",
+                           "type":  "map_id",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "doorId",
+                           "label":  "Door ID",
+                           "type":  "u16",
+                           "scrcmdType":  "u16",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "x",
+                           "label":  "X",
+                           "type":  "u16",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "y",
+                           "label":  "Y",
+                           "type":  "u16",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       },
+                       {
+                           "id":  "dir",
+                           "label":  "Direction",
+                           "type":  "u16",
+                           "scrcmdType":  "Flex",
+                           "required":  true,
+                           "default":  0,
+                           "validation":  {
+                                              "min":  0,
+                                              "max":  65535
+                                          }
+                       }
+                   ],
+    "requiredPlaceholders":  [
+                                 "${scriptId}",
+                                 "${mapId}",
+                                 "${doorId}",
+                                 "${x}",
+                                 "${y}",
+                                 "${dir}"
+                             ],
+    "sceneBlockMapping":  {
+                              "recommendedBlockTypes":  [
+                                                            "GenericScriptCommand"
+                                                        ],
+                              "notes":  "Core warp primitive."
+                          },
+    "scriptModel":  {
+                        "kind":  "snippet",
+                        "containers":  [
+                                           {
+                                               "containerType":  "Script",
+                                               "containerId":  "${scriptId}",
+                                               "commands":  [
+                                                                {
+                                                                    "line":  "Warp ${mapId} ${doorId} ${x} ${y} ${dir}",
+                                                                    "command":  "Warp"
+                                                                }
+                                                            ]
+                                           }
+                                       ]
+                    },
+    "validationHints":  [
+                            "Destination values must map to valid headers/warps."
+                        ],
+    "references":  {
+                       "scrcmd":  "Data/Script-Data/SCRCMD Database - HGSS.csv"
+                   }
+}

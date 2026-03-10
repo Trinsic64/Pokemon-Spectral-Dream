@@ -1,0 +1,3 @@
+# Key: 0xCB10
+When the sun goes down, CLEFAIRY come\nout to play.
+You must be tired from climbing.\nHow about stocking up on supplies? {YESNO, 0, 0}
