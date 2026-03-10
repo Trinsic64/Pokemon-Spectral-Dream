@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "BUG_BITE",
+        "SUCKER_PUNCH",
+        "FELL_STINGER",
+        "POISON_STING"
+      ],
+      "species": "ARIADOS",
+      "species_token": "SPECIES_ARIADOS"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "KNOCK_OFF",
+        "FEINT_ATTACK",
+        "SHADOW_SNEAK",
+        "SCRATCH"
+      ],
+      "species": "SABLEYE",
+      "species_token": "SPECIES_SABLEYE"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "ENERGY_BALL",
+        "CHARGE",
+        "SWIFT",
+        "CHARGE_BEAM"
+      ],
+      "species": "VOLTORB",
+      "species_token": "SPECIES_VOLTORB"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "HEX",
+        "OMINOUS_WIND",
+        "BUBBLE_BEAM",
+        "BRINE"
+      ],
+      "species": "FRILLISH",
+      "species_token": "SPECIES_FRILLISH"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 361,
+  "trainer_id": 361,
+  "trainer_name": "Nox",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

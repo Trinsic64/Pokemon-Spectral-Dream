@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 0,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "HONE_CLAWS",
+        "FEINT_ATTACK",
+        "METAL_CLAW",
+        "FAKE_OUT"
+      ],
+      "species": "MEOWTH",
+      "species_token": "SPECIES_MEOWTH"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "ABSORB",
+        "SPORE",
+        "CROSS_POISON",
+        "FURY_CUTTER"
+      ],
+      "species": "PARASECT",
+      "species_token": "SPECIES_PARASECT"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "HYPER_VOICE",
+        "CONFIDE",
+        "CHATTER",
+        "GROWL"
+      ],
+      "species": "CHATOT",
+      "species_token": "SPECIES_CHATOT"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 27,
+      "moves": [
+        "DRAGON_PULSE",
+        "GROWL",
+        "VENOSHOCK",
+        "ACID"
+      ],
+      "species": "POIPOLE",
+      "species_token": "SPECIES_POIPOLE"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 260,
+  "trainer_id": 260,
+  "trainer_name": "Thomas",
+  "trainerclass": "TRAINERCLASS_WORKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

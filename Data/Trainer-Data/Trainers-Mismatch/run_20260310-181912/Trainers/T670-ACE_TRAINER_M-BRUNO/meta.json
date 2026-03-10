@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "BOOMBURST",
+        "HOWL",
+        "UPROAR",
+        "REST"
+      ],
+      "species": "EXPLOUD",
+      "species_token": "SPECIES_EXPLOUD"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTH_POWER",
+        "ROCK_TOMB",
+        "EXTRASENSORY",
+        "COSMIC_POWER"
+      ],
+      "species": "CLAYDOL",
+      "species_token": "SPECIES_CLAYDOL"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "ROCK_POLISH",
+        "BULLDOZE",
+        "ROCK_THROW"
+      ],
+      "species": "GRAVELER",
+      "species_token": "SPECIES_GRAVELER"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "CRUNCH",
+        "HOWL",
+        "FIRE_FANG",
+        "SUCKER_PUNCH"
+      ],
+      "species": "MIGHTYENA",
+      "species_token": "SPECIES_MIGHTYENA"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "CRUNCH",
+        "BRINE",
+        "BITE",
+        "BARB_BARRAGE"
+      ],
+      "species": "QWILFISH",
+      "species_token": "SPECIES_QWILFISH"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 670,
+  "trainer_id": 670,
+  "trainer_name": "Bruno",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

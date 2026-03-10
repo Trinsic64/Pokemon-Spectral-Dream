@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "THUNDER_PUNCH",
+        "DISCHARGE",
+        "SPARK",
+        "ROCK_THROW"
+      ],
+      "species": "GOLEM",
+      "species_token": "SPECIES_GOLEM"
+    },
+    {
+      "ability": "SURGE_SURFER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "AGILITY",
+        "THUNDER",
+        "THUNDERBOLT",
+        "PSYCHIC"
+      ],
+      "species": "RAICHU",
+      "species_token": "SPECIES_RAICHU"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "DISCHARGE",
+        "THRASH",
+        "COIL",
+        "ZAP_CANNON"
+      ],
+      "species": "EELEKTROSS",
+      "species_token": "SPECIES_EELEKTROSS"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "DISCHARGE",
+        "COVET",
+        "THUNDER_FANG",
+        "SWIFT"
+      ],
+      "species": "JOLTEON",
+      "species_token": "SPECIES_JOLTEON"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "CHLOROBLAST",
+        "CHARGE",
+        "ENERGY_BALL",
+        "DISCHARGE"
+      ],
+      "species": "ELECTRODE",
+      "species_token": "SPECIES_ELECTRODE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 46,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "SHOCK_WAVE",
+        "SPARK"
+      ],
+      "species": "MANECTRIC",
+      "species_token": "SPECIES_MANECTRIC"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 443,
+  "trainer_id": 443,
+  "trainer_name": "Jasmine",
+  "trainerclass": "TRAINERCLASS_LEADER_JASMINE",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

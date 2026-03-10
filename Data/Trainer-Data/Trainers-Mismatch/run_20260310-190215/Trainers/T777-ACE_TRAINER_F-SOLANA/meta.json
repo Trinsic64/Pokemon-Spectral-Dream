@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "ESPER_WING",
+        "CRUSH_CLAW",
+        "SUPERPOWER",
+        "SKY_ATTACK"
+      ],
+      "species": "BRAVIARY",
+      "species_token": "SPECIES_BRAVIARY"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "DRAGON_BREATH"
+      ],
+      "species": "KINGDRA",
+      "species_token": "SPECIES_KINGDRA"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "UPROAR",
+        "LEECH_SEED",
+        "PSYSHOCK",
+        "LEAF_STORM"
+      ],
+      "species": "EXEGGUTOR",
+      "species_token": "SPECIES_EXEGGUTOR"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "PETAL_DANCE",
+        "LEECH_SEED",
+        "PETAL_BLIZZARD",
+        "SEED_BOMB"
+      ],
+      "species": "VENUSAUR",
+      "species_token": "SPECIES_VENUSAUR"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "MEGAHORN",
+        "ROCK_CLIMB",
+        "STEAMROLLER",
+        "VENOSHOCK"
+      ],
+      "species": "SCOLIPEDE",
+      "species_token": "SPECIES_SCOLIPEDE"
+    },
+    {
+      "ability": "SOLAR_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "FLAMETHROWER",
+        "NASTY_PLOT",
+        "INFERNO",
+        "FOUL_PLAY"
+      ],
+      "species": "HOUNDOOM",
+      "species_token": "SPECIES_HOUNDOOM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 777,
+  "trainer_id": 777,
+  "trainer_name": "Solana",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

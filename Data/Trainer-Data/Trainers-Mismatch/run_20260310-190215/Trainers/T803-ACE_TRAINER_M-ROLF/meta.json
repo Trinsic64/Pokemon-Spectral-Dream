@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "LUNGE",
+        "LOW_SWEEP",
+        "STOMP",
+        "BULK_UP"
+      ],
+      "species": "SLITHER_WING",
+      "species_token": "SPECIES_SLITHER_WING"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "X_SCISSOR",
+        "AIR_SLASH",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "SCIZOR",
+      "species_token": "SPECIES_SCIZOR"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "MEGAHORN",
+        "THRASH",
+        "THROAT_CHOP",
+        "CLOSE_COMBAT"
+      ],
+      "species": "HERACROSS",
+      "species_token": "SPECIES_HERACROSS"
+    },
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "POLLEN_PUFF",
+        "DAZZLING_GLEAM",
+        "QUIVER_DANCE",
+        "AROMATHERAPY"
+      ],
+      "species": "RIBOMBEE",
+      "species_token": "SPECIES_RIBOMBEE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "FLAMETHROWER",
+        "PLAY_ROUGH",
+        "AGILITY",
+        "REVERSAL"
+      ],
+      "species": "ARCANINE",
+      "species_token": "SPECIES_ARCANINE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "THUNDERBOLT",
+        "AIR_SLASH",
+        "DIG",
+        "BUG_BUZZ"
+      ],
+      "species": "VIKAVOLT",
+      "species_token": "SPECIES_VIKAVOLT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 803,
+  "trainer_id": 803,
+  "trainer_name": "Rolf",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

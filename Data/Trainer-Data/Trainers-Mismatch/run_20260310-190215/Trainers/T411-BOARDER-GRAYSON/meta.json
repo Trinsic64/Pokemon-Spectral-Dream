@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "ROCK_THROW",
+        "WITHDRAW"
+      ],
+      "species": "SHUCKLE",
+      "species_token": "SPECIES_SHUCKLE"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "FUTURE_SIGHT",
+        "WAKE_UP_SLAP",
+        "NASTY_PLOT",
+        "SYNCHRONOISE"
+      ],
+      "species": "HYPNO",
+      "species_token": "SPECIES_HYPNO"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "HYDRO_PUMP",
+        "WATER_SPORT",
+        "WAKE_UP_SLAP",
+        "WATER_PULSE"
+      ],
+      "species": "ALOMOMOLA",
+      "species_token": "SPECIES_ALOMOMOLA"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "ROCK_SLIDE",
+        "ROCK_POLISH",
+        "ANCIENT_POWER",
+        "ROCK_THROW"
+      ],
+      "species": "CARBINK",
+      "species_token": "SPECIES_CARBINK"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "THUNDER_PUNCH",
+        "SPARK",
+        "CHARGE",
+        "ROCK_THROW"
+      ],
+      "species": "GRAVELER",
+      "species_token": "SPECIES_GRAVELER"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 411,
+  "trainer_id": 411,
+  "trainer_name": "Grayson",
+  "trainerclass": "TRAINERCLASS_BOARDER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

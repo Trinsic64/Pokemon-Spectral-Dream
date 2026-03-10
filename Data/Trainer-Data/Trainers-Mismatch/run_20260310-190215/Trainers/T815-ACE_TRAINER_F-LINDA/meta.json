@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "BUG_BUZZ",
+        "LUNGE",
+        "BUG_BITE",
+        "PSYCHIC"
+      ],
+      "species": "RABSCA",
+      "species_token": "SPECIES_RABSCA"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "CHLOROBLAST",
+        "CHARGE",
+        "ENERGY_BALL",
+        "DISCHARGE"
+      ],
+      "species": "ELECTRODE",
+      "species_token": "SPECIES_ELECTRODE"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FOCUS_PUNCH",
+        "STONE_EDGE",
+        "BULK_UP",
+        "ROCK_SLIDE"
+      ],
+      "species": "CONKELDURR",
+      "species_token": "SPECIES_CONKELDURR"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "OUTRAGE",
+        "POWER_WHIP",
+        "PROTECT",
+        "DRAGON_PULSE"
+      ],
+      "species": "GOODRA",
+      "species_token": "SPECIES_GOODRA"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FIRE_PUNCH",
+        "THRASH",
+        "SUPERPOWER",
+        "SWAGGER"
+      ],
+      "species": "DARMANITAN",
+      "species_token": "SPECIES_DARMANITAN"
+    },
+    {
+      "ability": "RECEIVER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "THRASH",
+        "BULK_UP",
+        "BEAT_UP",
+        "ROCK_SMASH"
+      ],
+      "species": "PASSIMIAN",
+      "species_token": "SPECIES_PASSIMIAN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 815,
+  "trainer_id": 815,
+  "trainer_name": "Linda",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

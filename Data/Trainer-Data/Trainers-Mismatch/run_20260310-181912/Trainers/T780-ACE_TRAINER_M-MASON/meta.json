@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "X_SCISSOR",
+        "ROCK_POLISH",
+        "ROCK_SLIDE",
+        "SAND_ATTACK"
+      ],
+      "species": "CRUSTLE",
+      "species_token": "SPECIES_CRUSTLE"
+    },
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "BURN_UP",
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "ROCK_POLISH"
+      ],
+      "species": "COALOSSAL",
+      "species_token": "SPECIES_COALOSSAL"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "ENERGY_BALL",
+        "MOONBLAST",
+        "HURRICANE",
+        "SUNNY_DAY"
+      ],
+      "species": "WHIMSICOTT",
+      "species_token": "SPECIES_WHIMSICOTT"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "EARTHQUAKE",
+        "THRASH",
+        "AMNESIA",
+        "BLIZZARD"
+      ],
+      "species": "MAMOSWINE",
+      "species_token": "SPECIES_MAMOSWINE"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "IRON_HEAD",
+        "SEED_BOMB",
+        "SMACK_DOWN",
+        "AIR_SLASH"
+      ],
+      "species": "CELESTEELA",
+      "species_token": "SPECIES_CELESTEELA"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "ENERGY_BALL",
+        "X_SCISSOR",
+        "AGILITY",
+        "DUAL_CHOP"
+      ],
+      "species": "SCEPTILE",
+      "species_token": "SPECIES_SCEPTILE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 780,
+  "trainer_id": 780,
+  "trainer_name": "Mason",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

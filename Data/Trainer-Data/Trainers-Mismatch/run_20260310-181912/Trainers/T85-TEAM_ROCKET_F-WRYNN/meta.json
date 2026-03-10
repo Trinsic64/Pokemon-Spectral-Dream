@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "HOWL",
+        "THUNDER_WAVE",
+        "TACKLE",
+        "QUICK_ATTACK"
+      ],
+      "species": "ELECTRIKE",
+      "species_token": "SPECIES_ELECTRIKE"
+    },
+    {
+      "ability": "MERCILESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "BITE",
+        "WIDE_GUARD",
+        "PECK",
+        "POISON_STING"
+      ],
+      "species": "MAREANIE",
+      "species_token": "SPECIES_MAREANIE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "HOWL",
+        "FLAME_WHEEL",
+        "BITE",
+        "EMBER"
+      ],
+      "species": "GROWLITHE",
+      "species_token": "SPECIES_GROWLITHE"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 3,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "GROWL",
+        "METAL_CLAW",
+        "FAKE_OUT",
+        "SCRATCH"
+      ],
+      "species": "MEOWTH",
+      "species_token": "SPECIES_MEOWTH"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 12,
+      "moves": [
+        "LEER",
+        "SHADOW_SNEAK",
+        "SCRATCH",
+        "ASTONISH"
+      ],
+      "species": "SABLEYE",
+      "species_token": "SPECIES_SABLEYE"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 85,
+  "trainer_id": 85,
+  "trainer_name": "Wrynn",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "SHADOW_BONE",
+        "STOMPING_TANTRUM",
+        "BONE_CLUB",
+        "FLAME_WHEEL"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    },
+    {
+      "ability": "FUR_COAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "POWER_GEM",
+        "QUASH",
+        "PLAY_ROUGH",
+        "BITE"
+      ],
+      "species": "PERSIAN",
+      "species_token": "SPECIES_PERSIAN"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "CRUNCH",
+        "ICE_FANG",
+        "FIRE_FANG",
+        "ACID"
+      ],
+      "species": "ARBOK",
+      "species_token": "SPECIES_ARBOK"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "FUTURE_SIGHT",
+        "KNOCK_OFF",
+        "NIGHT_SLASH",
+        "SLASH"
+      ],
+      "species": "ABSOL",
+      "species_token": "SPECIES_ABSOL"
+    },
+    {
+      "ability": "ROUGH_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "DRAGON_CLAW",
+        "DRAGON_TAIL",
+        "HONE_CLAWS",
+        "SLASH"
+      ],
+      "species": "DRUDDIGON",
+      "species_token": "SPECIES_DRUDDIGON"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 32,
+      "moves": [
+        "ICE_FANG",
+        "NIGHT_SLASH",
+        "SLASH",
+        "AQUA_JET"
+      ],
+      "species": "SHARPEDO",
+      "species_token": "SPECIES_SHARPEDO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 362,
+  "trainer_id": 362,
+  "trainer_name": "Orion",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

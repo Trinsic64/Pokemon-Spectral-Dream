@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WHITE_SMOKE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "HEAT_WAVE",
+        "BODY_SLAM",
+        "FLAMETHROWER",
+        "IRON_DEFENSE"
+      ],
+      "species": "TORKOAL",
+      "species_token": "SPECIES_TORKOAL"
+    },
+    {
+      "ability": "FLOWER_GIFT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "PETAL_DANCE",
+        "PETAL_BLIZZARD",
+        "MAGICAL_LEAF",
+        "SUNNY_DAY"
+      ],
+      "species": "CHERRIM",
+      "species_token": "SPECIES_CHERRIM"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "MEGA_KICK",
+        "FOCUS_ENERGY",
+        "WIDE_GUARD"
+      ],
+      "species": "HITMONLEE",
+      "species_token": "SPECIES_HITMONLEE"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "DRAGON_PULSE",
+        "ACID_ARMOR",
+        "WATER_PULSE",
+        "IRON_HEAD"
+      ],
+      "species": "SLIGGOO",
+      "species_token": "SPECIES_SLIGGOO"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "PSYCHIC",
+        "CRUNCH",
+        "ZEN_HEADBUTT",
+        "STOMP"
+      ],
+      "species": "GIRAFARIG",
+      "species_token": "SPECIES_GIRAFARIG"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "BUG_BUZZ",
+        "AIR_SLASH",
+        "QUIVER_DANCE",
+        "WATER_SPORT"
+      ],
+      "species": "MASQUERAIN",
+      "species_token": "SPECIES_MASQUERAIN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 502,
+  "trainer_id": 502,
+  "trainer_name": "MerrinA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

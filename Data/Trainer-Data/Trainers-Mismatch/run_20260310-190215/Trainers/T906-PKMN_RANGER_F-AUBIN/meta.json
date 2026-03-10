@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "ROCK_SLIDE",
+        "MAGNET_RISE"
+      ],
+      "species": "STAKATAKA",
+      "species_token": "SPECIES_STAKATAKA"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "FUTURE_SIGHT",
+        "AMNESIA",
+        "PSYCHIC",
+        "MEMENTO"
+      ],
+      "species": "UXIE",
+      "species_token": "SPECIES_UXIE"
+    },
+    {
+      "ability": "JUSTIFIED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "HYDRO_PUMP",
+        "WORK_UP",
+        "SECRET_SWORD",
+        "AQUA_TAIL"
+      ],
+      "species": "KELDEO",
+      "species_token": "SPECIES_KELDEO"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "ERUPTION",
+        "EXTREME_SPEED",
+        "CALM_MIND",
+        "FIRE_BLAST"
+      ],
+      "species": "ENTEI",
+      "species_token": "SPECIES_ENTEI"
+    },
+    {
+      "ability": "CHILLING_NEIGH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "ICICLE_CRASH",
+        "THRASH",
+        "IRON_DEFENSE",
+        "DOUBLE_KICK"
+      ],
+      "species": "GLASTRIER",
+      "species_token": "SPECIES_GLASTRIER"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "PETAL_DANCE",
+        "LEECH_SEED",
+        "PETAL_BLIZZARD",
+        "SEED_BOMB"
+      ],
+      "species": "VENUSAUR",
+      "species_token": "SPECIES_VENUSAUR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 906,
+  "trainer_id": 906,
+  "trainer_name": "Aubin",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

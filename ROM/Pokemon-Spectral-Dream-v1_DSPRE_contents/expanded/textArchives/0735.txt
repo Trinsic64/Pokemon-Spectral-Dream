@@ -1,0 +1,21 @@
+# Key: 0x5051
+Normal
+Fighting
+Flying
+Poison
+Ground
+Rock
+Bug
+Ghost
+Steel
+Fairy
+Fire
+Water
+Grass
+Electric
+Psychic
+Ice
+Dragon
+Dark
+???
+Stellar

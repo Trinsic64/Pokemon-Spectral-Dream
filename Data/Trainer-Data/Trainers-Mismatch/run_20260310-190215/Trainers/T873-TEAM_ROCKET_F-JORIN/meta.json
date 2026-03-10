@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "EARTHQUAKE",
+        "CRUNCH",
+        "LEECH_SEED",
+        "GIGA_DRAIN"
+      ],
+      "species": "TORTERRA",
+      "species_token": "SPECIES_TORTERRA"
+    },
+    {
+      "ability": "BEADS_OF_RUIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "DARK_PULSE",
+        "BOUNCE",
+        "INFERNO",
+        "NASTY_PLOT"
+      ],
+      "species": "CHI_YU",
+      "species_token": "SPECIES_CHI_YU"
+    },
+    {
+      "ability": "MERCILESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "LIQUIDATION",
+        "BANEFUL_BUNKER",
+        "BITE",
+        "POISON_JAB"
+      ],
+      "species": "TOXAPEX",
+      "species_token": "SPECIES_TOXAPEX"
+    },
+    {
+      "ability": "STANCE_CHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "IRON_HEAD",
+        "SACRED_SWORD",
+        "HEAD_SMASH",
+        "SHADOW_SNEAK"
+      ],
+      "species": "AEGISLASH",
+      "species_token": "SPECIES_AEGISLASH"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "WILDBOLT_STORM",
+        "THRASH",
+        "CHARGE",
+        "HAMMER_ARM"
+      ],
+      "species": "THUNDURUS",
+      "species_token": "SPECIES_THUNDURUS"
+    },
+    {
+      "ability": "TRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "FUTURE_SIGHT",
+        "CALM_MIND",
+        "PSYCHIC",
+        "PSYSHOCK"
+      ],
+      "species": "ALAKAZAM",
+      "species_token": "SPECIES_ALAKAZAM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 873,
+  "trainer_id": 873,
+  "trainer_name": "Jorin",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

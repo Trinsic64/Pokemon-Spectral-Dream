@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "DRILL_PECK",
+        "IRON_DEFENSE",
+        "STEEL_WING",
+        "PLUCK"
+      ],
+      "species": "CORVIKNIGHT",
+      "species_token": "SPECIES_CORVIKNIGHT"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "SKY_UPPERCUT",
+        "FIRE_FANG",
+        "POISON_JAB",
+        "ACROBATICS"
+      ],
+      "species": "GLISCOR",
+      "species_token": "SPECIES_GLISCOR"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "AIR_SLASH",
+        "LAST_RESORT",
+        "FAIRY_WIND",
+        "AURA_SPHERE"
+      ],
+      "species": "TOGEKISS",
+      "species_token": "SPECIES_TOGEKISS"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "STEEL_WING",
+        "AERIAL_ACE",
+        "ACROBATICS",
+        "FLARE_BLITZ"
+      ],
+      "species": "TALONFLAME",
+      "species_token": "SPECIES_TALONFLAME"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "DOUBLE_TEAM",
+        "CLOSE_COMBAT",
+        "AERIAL_ACE",
+        "TAKE_DOWN"
+      ],
+      "species": "STARAPTOR",
+      "species_token": "SPECIES_STARAPTOR"
+    },
+    {
+      "ability": "NO_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 64,
+      "moves": [
+        "AIR_SLASH",
+        "AGILITY",
+        "HURRICANE",
+        "QUICK_ATTACK"
+      ],
+      "species": "PIDGEOT",
+      "species_token": "SPECIES_PIDGEOT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 954,
+  "trainer_id": 954,
+  "trainer_name": "CHUCK",
+  "trainerclass": "TRAINERCLASS_LEADER_CHUCK",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

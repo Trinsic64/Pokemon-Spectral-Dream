@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "EARTHQUAKE",
+        "AMNESIA"
+      ],
+      "species": "SWAMPERT",
+      "species_token": "SPECIES_SWAMPERT"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "DRAGON_BREATH"
+      ],
+      "species": "KINGDRA",
+      "species_token": "SPECIES_KINGDRA"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "HYDRO_PUMP",
+        "SPACIAL_REND",
+        "AQUA_RING",
+        "DRAGON_CLAW"
+      ],
+      "species": "PALKIA",
+      "species_token": "SPECIES_PALKIA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 916,
+  "trainer_id": 916,
+  "trainer_name": "Kerra",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

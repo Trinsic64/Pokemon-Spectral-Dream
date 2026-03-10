@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHADOW_TAG",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "AMNESIA",
+        "CHARM",
+        "ENCORE",
+        "MIRROR_COAT"
+      ],
+      "species": "WOBBUFFET",
+      "species_token": "SPECIES_WOBBUFFET"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "AGILITY",
+        "SLAM",
+        "SUCKER_PUNCH",
+        "QUICK_ATTACK"
+      ],
+      "species": "FURRET",
+      "species_token": "SPECIES_FURRET"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "EARTH_POWER",
+        "TRI_ATTACK",
+        "BULLDOZE",
+        "IRON_HEAD"
+      ],
+      "species": "DUGTRIO",
+      "species_token": "SPECIES_DUGTRIO"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "HYDRO_PUMP",
+        "BRINE",
+        "AGILITY",
+        "HURRICANE"
+      ],
+      "species": "PELIPPER",
+      "species_token": "SPECIES_PELIPPER"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "LEECH_LIFE",
+        "STRUGGLE_BUG",
+        "BUG_BITE",
+        "FLAME_WHEEL"
+      ],
+      "species": "LARVESTA",
+      "species_token": "SPECIES_LARVESTA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 414,
+  "trainer_id": 414,
+  "trainer_name": "Isla",
+  "trainerclass": "TRAINERCLASS_SKIER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

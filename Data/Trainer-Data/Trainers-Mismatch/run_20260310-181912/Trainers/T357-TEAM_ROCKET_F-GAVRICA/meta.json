@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "SILVER_WIND",
+        "MOONLIGHT",
+        "VENOSHOCK",
+        "PSYBEAM"
+      ],
+      "species": "DUSTOX",
+      "species_token": "SPECIES_DUSTOX"
+    },
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "KNOCK_OFF",
+        "PLUCK",
+        "FEINT_ATTACK",
+        "IRON_DEFENSE"
+      ],
+      "species": "VULLABY",
+      "species_token": "SPECIES_VULLABY"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "ICE_BALL",
+        "RAPID_SPIN",
+        "SLASH",
+        "METAL_CLAW"
+      ],
+      "species": "SANDSHREW",
+      "species_token": "SPECIES_SANDSHREW"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 30,
+      "moves": [
+        "WATER_SPORT",
+        "SWIFT",
+        "WATER_GUN",
+        "AQUA_JET"
+      ],
+      "species": "BUIZEL",
+      "species_token": "SPECIES_BUIZEL"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 357,
+  "trainer_id": 357,
+  "trainer_name": "GavricA",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

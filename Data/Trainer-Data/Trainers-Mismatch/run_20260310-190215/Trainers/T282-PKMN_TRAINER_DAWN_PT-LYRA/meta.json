@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "AQUA_TAIL",
+        "PLAY_ROUGH",
+        "BOUNCE",
+        "WATER_SPORT"
+      ],
+      "species": "MARILL",
+      "species_token": "SPECIES_MARILL"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "CHARGE",
+        "THUNDER_SHOCK",
+        "TACKLE",
+        "COTTON_SPORE"
+      ],
+      "species": "FLAAFFY",
+      "species_token": "SPECIES_FLAAFFY"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "LEER",
+        "FLAME_BURST",
+        "FLAME_WHEEL",
+        "FEINT_ATTACK"
+      ],
+      "species": "MAGBY",
+      "species_token": "SPECIES_MAGBY"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "CHARM",
+        "ANCIENT_POWER",
+        "POUND",
+        "GROWL"
+      ],
+      "species": "TOGEPI",
+      "species_token": "SPECIES_TOGEPI"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "MAGICAL_LEAF",
+        "RAZOR_LEAF",
+        "TACKLE",
+        "REFLECT"
+      ],
+      "species": "BAYLEEF",
+      "species_token": "SPECIES_BAYLEEF"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 282,
+  "trainer_id": 282,
+  "trainer_name": "Lyra",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

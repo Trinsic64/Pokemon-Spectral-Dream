@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "DRAGON_CLAW",
+        "FLAMETHROWER",
+        "DRAGON_RUSH",
+        "THROAT_CHOP"
+      ],
+      "species": "ROARING_MOON",
+      "species_token": "SPECIES_ROARING_MOON"
+    },
+    {
+      "ability": "BULLETPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "OUTRAGE",
+        "BOOMBURST",
+        "DRAGON_DANCE",
+        "CLOSE_COMBAT"
+      ],
+      "species": "KOMMO_O",
+      "species_token": "SPECIES_KOMMO_O"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "DRAGON_BREATH"
+      ],
+      "species": "KINGDRA",
+      "species_token": "SPECIES_KINGDRA"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "BOLT_BEAK",
+        "ICICLE_CRASH",
+        "CHARGE",
+        "BLIZZARD"
+      ],
+      "species": "ARCTOZOLT",
+      "species_token": "SPECIES_ARCTOZOLT"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "DRAGON_PULSE",
+        "AIR_SLASH",
+        "DRAGON_RUSH",
+        "POISON_JAB"
+      ],
+      "species": "NAGANADEL",
+      "species_token": "SPECIES_NAGANADEL"
+    },
+    {
+      "ability": "PIXILATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 86,
+      "moves": [
+        "MOONBLAST",
+        "SKY_ATTACK",
+        "DRAGON_PULSE",
+        "TAKE_DOWN"
+      ],
+      "species": "ALTARIA",
+      "species_token": "SPECIES_ALTARIA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 968,
+  "trainer_id": 968,
+  "trainer_name": "WILL",
+  "trainerclass": "TRAINERCLASS_ELITE_FOUR_WILL",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

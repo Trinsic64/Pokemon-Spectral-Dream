@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FUTURE_SIGHT",
+        "MOONBLAST",
+        "CALM_MIND",
+        "PSYCHIC"
+      ],
+      "species": "GARDEVOIR",
+      "species_token": "SPECIES_GARDEVOIR"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "PETAL_DANCE",
+        "PETAL_BLIZZARD",
+        "GIGA_DRAIN",
+        "POISON_STING"
+      ],
+      "species": "ROSERADE",
+      "species_token": "SPECIES_ROSERADE"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "DRAGON_PULSE",
+        "MOONBLAST",
+        "DRAGON_BREATH",
+        "SKY_ATTACK"
+      ],
+      "species": "ALTARIA",
+      "species_token": "SPECIES_ALTARIA"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "HONE_CLAWS",
+        "NIGHT_SLASH",
+        "HEADBUTT",
+        "REST"
+      ],
+      "species": "LINOONE",
+      "species_token": "SPECIES_LINOONE"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SPLASH",
+        "TACKLE",
+        "FLAIL",
+        "TACKLE"
+      ],
+      "species": "FEEBAS",
+      "species_token": "SPECIES_FEEBAS"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BULK_UP",
+        "BLAZE_KICK",
+        "FLAMETHROWER"
+      ],
+      "species": "BLAZIKEN",
+      "species_token": "SPECIES_BLAZIKEN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 531,
+  "trainer_id": 531,
+  "trainer_name": "May",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

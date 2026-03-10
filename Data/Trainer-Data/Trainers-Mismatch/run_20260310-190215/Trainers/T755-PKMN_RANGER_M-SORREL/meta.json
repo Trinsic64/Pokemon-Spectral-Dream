@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FOREWARN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "FUTURE_SIGHT",
+        "MOONBLAST",
+        "CALM_MIND",
+        "DREAM_EATER"
+      ],
+      "species": "MUSHARNA",
+      "species_token": "SPECIES_MUSHARNA"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "BUG_BUZZ",
+        "IRON_DEFENSE",
+        "X_SCISSOR",
+        "IRON_HEAD"
+      ],
+      "species": "ESCAVALIER",
+      "species_token": "SPECIES_ESCAVALIER"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "DRAGON_PULSE",
+        "POWER_GEM",
+        "CHARGE",
+        "ZAP_CANNON"
+      ],
+      "species": "AMPHAROS",
+      "species_token": "SPECIES_AMPHAROS"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 755,
+  "trainer_id": 755,
+  "trainer_name": "Sorrel",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

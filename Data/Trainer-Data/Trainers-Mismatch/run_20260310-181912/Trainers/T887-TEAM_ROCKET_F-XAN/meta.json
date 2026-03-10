@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "PSYCHIC",
+        "KNOCK_OFF",
+        "ZEN_HEADBUTT",
+        "AMNESIA"
+      ],
+      "species": "DEOXYS_DEFENSE",
+      "species_token": "SPECIES_DEOXYS_DEFENSE"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "FIRE_BLAST",
+        "THRASH",
+        "QUIVER_DANCE",
+        "BUG_BUZZ"
+      ],
+      "species": "VOLCARONA",
+      "species_token": "SPECIES_VOLCARONA"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "HYDRO_PUMP",
+        "SPACIAL_REND",
+        "AQUA_RING",
+        "DRAGON_CLAW"
+      ],
+      "species": "PALKIA",
+      "species_token": "SPECIES_PALKIA"
+    },
+    {
+      "ability": "UNSEEN_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "FOCUS_PUNCH",
+        "IRON_HEAD",
+        "BRICK_BREAK",
+        "WICKED_BLOW"
+      ],
+      "species": "URSHIFU",
+      "species_token": "SPECIES_URSHIFU"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "EARTHQUAKE",
+        "OUTRAGE",
+        "LEER",
+        "STONE_EDGE"
+      ],
+      "species": "LANDORUS",
+      "species_token": "SPECIES_LANDORUS"
+    },
+    {
+      "ability": "TECHNICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "X_SCISSOR",
+        "AIR_SLASH",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "SCIZOR",
+      "species_token": "SPECIES_SCIZOR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 887,
+  "trainer_id": 887,
+  "trainer_name": "Xan",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

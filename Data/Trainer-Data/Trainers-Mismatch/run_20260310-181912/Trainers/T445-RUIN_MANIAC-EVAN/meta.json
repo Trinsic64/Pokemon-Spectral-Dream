@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "PSYCHIC",
+        "CALM_MIND",
+        "PSYBEAM",
+        "DISARMING_VOICE"
+      ],
+      "species": "INDEEDEE",
+      "species_token": "SPECIES_INDEEDEE"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "SOLAR_BLADE",
+        "AXE_KICK",
+        "VICTORY_DANCE",
+        "MEGA_KICK"
+      ],
+      "species": "LILLIGANT",
+      "species_token": "SPECIES_LILLIGANT"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 43,
+      "moves": [
+        "DRAGON_PULSE",
+        "WATER_PULSE",
+        "ACID_ARMOR",
+        "DRAGON_BREATH"
+      ],
+      "species": "SLIGGOO",
+      "species_token": "SPECIES_SLIGGOO"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 445,
+  "trainer_id": 445,
+  "trainer_name": "Evan",
+  "trainerclass": "TRAINERCLASS_RUIN_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

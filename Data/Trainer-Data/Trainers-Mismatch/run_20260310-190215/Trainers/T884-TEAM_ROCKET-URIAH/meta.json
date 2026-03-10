@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "OUTRAGE",
+        "FLAMETHROWER",
+        "DRAGON_RUSH",
+        "HYDRO_STEAM"
+      ],
+      "species": "WALKING_WAKE",
+      "species_token": "SPECIES_WALKING_WAKE"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "OUTRAGE",
+        "DRAGON_CLAW",
+        "DRAGON_RUSH",
+        "FIRE_BLAST"
+      ],
+      "species": "GOUGING_FIRE",
+      "species_token": "SPECIES_GOUGING_FIRE"
+    },
+    {
+      "ability": "DROUGHT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 2,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "HEAT_WAVE",
+        "DRAGON_CLAW",
+        "INFERNO",
+        "AIR_SLASH"
+      ],
+      "species": "CHARIZARD",
+      "species_token": "SPECIES_CHARIZARD"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 884,
+  "trainer_id": 884,
+  "trainer_name": "Uriah",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

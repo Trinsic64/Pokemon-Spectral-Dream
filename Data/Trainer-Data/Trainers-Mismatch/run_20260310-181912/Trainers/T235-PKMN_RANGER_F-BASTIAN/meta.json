@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHADOW_TAG",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "AMNESIA",
+        "CHARM",
+        "ENCORE",
+        "MIRROR_COAT"
+      ],
+      "species": "WOBBUFFET",
+      "species_token": "SPECIES_WOBBUFFET"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "MACH_PUNCH",
+        "LEECH_SEED",
+        "HEADBUTT",
+        "MEGA_DRAIN"
+      ],
+      "species": "BRELOOM",
+      "species_token": "SPECIES_BRELOOM"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "GROWL",
+        "SPARK",
+        "SWIFT",
+        "QUICK_ATTACK"
+      ],
+      "species": "PACHIRISU",
+      "species_token": "SPECIES_PACHIRISU"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "UPROAR",
+        "FOCUS_ENERGY",
+        "SLASH",
+        "SCRATCH"
+      ],
+      "species": "VIGOROTH",
+      "species_token": "SPECIES_VIGOROTH"
+    },
+    {
+      "ability": "DAMP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "WATER_SPORT",
+        "WATER_PULSE",
+        "CONFUSION"
+      ],
+      "species": "GOLDUCK",
+      "species_token": "SPECIES_GOLDUCK"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "LAST_RESORT",
+        "ZEN_HEADBUTT",
+        "GROWL",
+        "HYPER_VOICE"
+      ],
+      "species": "AUDINO",
+      "species_token": "SPECIES_AUDINO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 235,
+  "trainer_id": 235,
+  "trainer_name": "Bastian",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

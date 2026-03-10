@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "PSYCHIC",
+        "KNOCK_OFF",
+        "ZEN_HEADBUTT",
+        "COSMIC_POWER"
+      ],
+      "species": "DEOXYS",
+      "species_token": "SPECIES_DEOXYS"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "BRICK_BREAK",
+        "CLOSE_COMBAT"
+      ],
+      "species": "GREAT_TUSK",
+      "species_token": "SPECIES_GREAT_TUSK"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "KOWTOW_CLEAVE",
+        "IRON_DEFENSE",
+        "IRON_HEAD",
+        "NIGHT_SLASH"
+      ],
+      "species": "KINGAMBIT",
+      "species_token": "SPECIES_KINGAMBIT"
+    },
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "FIRE_BLAST",
+        "THRASH",
+        "QUIVER_DANCE",
+        "BUG_BUZZ"
+      ],
+      "species": "VOLCARONA",
+      "species_token": "SPECIES_VOLCARONA"
+    },
+    {
+      "ability": "BERSERK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "FIERY_WRATH",
+        "NASTY_PLOT",
+        "ANCIENT_POWER",
+        "HURRICANE"
+      ],
+      "species": "MOLTRES",
+      "species_token": "SPECIES_MOLTRES"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "HYDRO_PUMP",
+        "THRASH",
+        "HURRICANE",
+        "CRUNCH"
+      ],
+      "species": "GYARADOS",
+      "species_token": "SPECIES_GYARADOS"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 878,
+  "trainer_id": 878,
+  "trainer_name": "Orrin",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

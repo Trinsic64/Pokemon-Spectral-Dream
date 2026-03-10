@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "CRUNCH",
+        "HOWL",
+        "FIRE_FANG",
+        "RETALIATE"
+      ],
+      "species": "GROWLITHE",
+      "species_token": "SPECIES_GROWLITHE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "DOUBLE_TEAM",
+        "WING_ATTACK",
+        "AERIAL_ACE",
+        "QUICK_ATTACK"
+      ],
+      "species": "STARAVIA",
+      "species_token": "SPECIES_STARAVIA"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "BUG_BITE",
+        "IRON_DEFENSE",
+        "VENOSHOCK",
+        "POISON_TAIL"
+      ],
+      "species": "WHIRLIPEDE",
+      "species_token": "SPECIES_WHIRLIPEDE"
+    },
+    {
+      "ability": "PRANKSTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 34,
+      "moves": [
+        "FALSE_SURRENDER",
+        "SWAGGER",
+        "SUCKER_PUNCH",
+        "BITE"
+      ],
+      "species": "MORGREM",
+      "species_token": "SPECIES_MORGREM"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 375,
+  "trainer_id": 375,
+  "trainer_name": "Talon",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

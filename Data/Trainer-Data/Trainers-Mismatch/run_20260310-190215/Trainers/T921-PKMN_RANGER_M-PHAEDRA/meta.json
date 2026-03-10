@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TURBOBLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "OUTRAGE",
+        "HYPER_VOICE",
+        "FUSION_FLARE",
+        "DRAGON_PULSE"
+      ],
+      "species": "RESHIRAM",
+      "species_token": "SPECIES_RESHIRAM"
+    },
+    {
+      "ability": "PRISM_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "PHOTON_GEYSER",
+        "POWER_GEM",
+        "IRON_DEFENSE",
+        "MIRROR_SHOT"
+      ],
+      "species": "NECROZMA",
+      "species_token": "SPECIES_NECROZMA"
+    },
+    {
+      "ability": "DRIZZLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "ORIGIN_PULSE",
+        "ICE_BEAM",
+        "CALM_MIND",
+        "SHEER_COLD"
+      ],
+      "species": "KYOGRE",
+      "species_token": "SPECIES_KYOGRE"
+    },
+    {
+      "ability": "UNSEEN_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "FOCUS_PUNCH",
+        "IRON_HEAD",
+        "BRICK_BREAK",
+        "AQUA_JET"
+      ],
+      "species": "URSHIFU",
+      "species_token": "SPECIES_URSHIFU"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "FUTURE_SIGHT",
+        "MOONBLAST",
+        "DOUBLE_TEAM",
+        "PSYCHIC"
+      ],
+      "species": "CRESSELIA",
+      "species_token": "SPECIES_CRESSELIA"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "FUTURE_SIGHT",
+        "AURA_SPHERE",
+        "AMNESIA",
+        "ANCIENT_POWER"
+      ],
+      "species": "MEWTWO",
+      "species_token": "SPECIES_MEWTWO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 921,
+  "trainer_id": 921,
+  "trainer_name": "Phaedra",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

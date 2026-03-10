@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WHITE_SMOKE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "FLAMETHROWER",
+        "BODY_SLAM",
+        "LAVA_PLUME",
+        "IRON_DEFENSE"
+      ],
+      "species": "TORKOAL",
+      "species_token": "SPECIES_TORKOAL"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "FLAMETHROWER",
+        "PLAY_ROUGH",
+        "REVERSAL",
+        "AGILITY"
+      ],
+      "species": "ARCANINE",
+      "species_token": "SPECIES_ARCANINE"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "LAVA_PLUME",
+        "ASTONISH",
+        "INCINERATE",
+        "PSYSHOCK"
+      ],
+      "species": "ARMAROUGE",
+      "species_token": "SPECIES_ARMAROUGE"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 3,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "RAGING_BULL",
+        "ZEN_HEADBUTT",
+        "HEADBUTT",
+        "FLAME_CHARGE"
+      ],
+      "species": "TAUROS",
+      "species_token": "SPECIES_TAUROS"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "LAVA_PLUME",
+        "SHADOW_CLAW",
+        "INCINERATE",
+        "MYSTICAL_FIRE"
+      ],
+      "species": "CERULEDGE",
+      "species_token": "SPECIES_CERULEDGE"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 44,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BULK_UP",
+        "BLAZE_KICK",
+        "FLAMETHROWER"
+      ],
+      "species": "BLAZIKEN",
+      "species_token": "SPECIES_BLAZIKEN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 409,
+  "trainer_id": 409,
+  "trainer_name": "Pryce",
+  "trainerclass": "TRAINERCLASS_LEADER_PRYCE",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

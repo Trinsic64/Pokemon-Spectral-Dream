@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "REFRIGERATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "ICE_BEAM",
+        "BLIZZARD",
+        "FREEZE_DRY",
+        "ANCIENT_POWER"
+      ],
+      "species": "AURORUS",
+      "species_token": "SPECIES_AURORUS"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "LAST_RESORT",
+        "COVET",
+        "BLIZZARD",
+        "BARRIER"
+      ],
+      "species": "GLACEON",
+      "species_token": "SPECIES_GLACEON"
+    },
+    {
+      "ability": "SNOW_WARNING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "ICE_PUNCH",
+        "SWAGGER",
+        "WOOD_HAMMER",
+        "BLIZZARD"
+      ],
+      "species": "ABOMASNOW",
+      "species_token": "SPECIES_ABOMASNOW"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 825,
+  "trainer_id": 825,
+  "trainer_name": "Xyra",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

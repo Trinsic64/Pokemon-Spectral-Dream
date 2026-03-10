@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "PLAY_ROUGH",
+        "WORK_UP",
+        "CRUNCH",
+        "RETALIATE"
+      ],
+      "species": "LILLIPUP",
+      "species_token": "SPECIES_LILLIPUP"
+    },
+    {
+      "ability": "WIND_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "UPROAR",
+        "ROOST",
+        "SPARK",
+        "PLUCK"
+      ],
+      "species": "WATTREL",
+      "species_token": "SPECIES_WATTREL"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "AQUA_TAIL",
+        "AMNESIA",
+        "MUD_BOMB",
+        "WATER_PULSE"
+      ],
+      "species": "BARBOACH",
+      "species_token": "SPECIES_BARBOACH"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "LOW_KICK",
+        "COPYCAT",
+        "ROCK_TOMB",
+        "FEINT_ATTACK"
+      ],
+      "species": "BONSLY",
+      "species_token": "SPECIES_BONSLY"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 4,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "HONE_CLAWS",
+        "FEINT_ATTACK",
+        "METAL_CLAW",
+        "SWAGGER"
+      ],
+      "species": "MEOWTH",
+      "species_token": "SPECIES_MEOWTH"
+    },
+    {
+      "ability": "FOREWARN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 31,
+      "moves": [
+        "SYNCHRONOISE",
+        "CALM_MIND",
+        "ZEN_HEADBUTT",
+        "NIGHTMARE"
+      ],
+      "species": "MUNNA",
+      "species_token": "SPECIES_MUNNA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 303,
+  "trainer_id": 303,
+  "trainer_name": "Jack",
+  "trainerclass": "TRAINERCLASS_PKMN_BREEDER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "DRAGON_BREATH"
+      ],
+      "species": "KINGDRA",
+      "species_token": "SPECIES_KINGDRA"
+    },
+    {
+      "ability": "QUARK_DRIVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "ROCK_SLIDE",
+        "CHARGE",
+        "WILD_CHARGE",
+        "THUNDER_FANG"
+      ],
+      "species": "IRON_THORNS",
+      "species_token": "SPECIES_IRON_THORNS"
+    },
+    {
+      "ability": "ANGER_SHELL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "ROCK_SLIDE",
+        "HIGH_HORSEPOWER",
+        "SWORDS_DANCE",
+        "X_SCISSOR"
+      ],
+      "species": "KLAWF",
+      "species_token": "SPECIES_KLAWF"
+    },
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "EARTHQUAKE",
+        "MEGAHORN",
+        "SCARY_FACE",
+        "ROCK_WRECKER"
+      ],
+      "species": "RHYPERIOR",
+      "species_token": "SPECIES_RHYPERIOR"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 3,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "WAVE_CRASH",
+        "THRASH",
+        "RAGING_BULL",
+        "CLOSE_COMBAT"
+      ],
+      "species": "TAUROS",
+      "species_token": "SPECIES_TAUROS"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "DRAGON_CLAW",
+        "CRUNCH",
+        "SAND_ATTACK",
+        "DIG"
+      ],
+      "species": "GARCHOMP",
+      "species_token": "SPECIES_GARCHOMP"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 800,
+  "trainer_id": 800,
+  "trainer_name": "Grant",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STICKY_HOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "MUDDY_WATER",
+        "BODY_SLAM",
+        "MUD_SPORT",
+        "MUD_BOMB"
+      ],
+      "species": "GASTRODON",
+      "species_token": "SPECIES_GASTRODON"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "CRUNCH",
+        "ICE_FANG",
+        "SUCKER_PUNCH",
+        "DIVE"
+      ],
+      "species": "HUNTAIL",
+      "species_token": "SPECIES_HUNTAIL"
+    },
+    {
+      "ability": "ZERO_TO_HERO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "ACROBATICS",
+        "FOCUS_ENERGY",
+        "FLIP_TURN",
+        "JET_PUNCH"
+      ],
+      "species": "PALAFIN",
+      "species_token": "SPECIES_PALAFIN"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 3,
+      "index": 3,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "RAGING_BULL",
+        "ZEN_HEADBUTT",
+        "HEADBUTT",
+        "AQUA_JET"
+      ],
+      "species": "TAUROS",
+      "species_token": "SPECIES_TAUROS"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "AQUA_TAIL",
+        "THRASH",
+        "WATERFALL",
+        "LEER"
+      ],
+      "species": "GYARADOS",
+      "species_token": "SPECIES_GYARADOS"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 36,
+      "moves": [
+        "EARTHQUAKE",
+        "ROCK_SLIDE",
+        "SURF",
+        "MUD_BOMB"
+      ],
+      "species": "SWAMPERT",
+      "species_token": "SPECIES_SWAMPERT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 948,
+  "trainer_id": 948,
+  "trainer_name": "MORTY",
+  "trainerclass": "TRAINERCLASS_LEADER_MORTY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "AGILITY",
+        "AERIAL_ACE",
+        "ACROBATICS",
+        "FLAME_CHARGE"
+      ],
+      "species": "FLETCHINDER",
+      "species_token": "SPECIES_FLETCHINDER"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "BRINE",
+        "STOCKPILE",
+        "BITE",
+        "BARB_BARRAGE"
+      ],
+      "species": "QWILFISH",
+      "species_token": "SPECIES_QWILFISH"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "CRUNCH",
+        "KNOCK_OFF",
+        "RAZOR_SHELL",
+        "NIGHT_SLASH"
+      ],
+      "species": "CRAWDAUNT",
+      "species_token": "SPECIES_CRAWDAUNT"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "EARTHQUAKE",
+        "BULLDOZE",
+        "ROCK_POLISH",
+        "ROCK_THROW"
+      ],
+      "species": "GRAVELER",
+      "species_token": "SPECIES_GRAVELER"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "THROAT_CHOP",
+        "CIRCLE_THROW",
+        "STRUGGLE_BUG",
+        "HEADBUTT"
+      ],
+      "species": "SPIDOPS",
+      "species_token": "SPECIES_SPIDOPS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 484,
+  "trainer_id": 484,
+  "trainer_name": "Ashlyn",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

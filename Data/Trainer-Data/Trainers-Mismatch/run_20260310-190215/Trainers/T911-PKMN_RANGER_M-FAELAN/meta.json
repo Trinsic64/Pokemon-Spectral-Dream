@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "PETAL_DANCE",
+        "LEECH_SEED",
+        "PETAL_BLIZZARD",
+        "SEED_BOMB"
+      ],
+      "species": "VENUSAUR",
+      "species_token": "SPECIES_VENUSAUR"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "LEAF_BLADE",
+        "SACRED_SWORD",
+        "SWORDS_DANCE",
+        "PSYCHO_CUT"
+      ],
+      "species": "KARTANA",
+      "species_token": "SPECIES_KARTANA"
+    },
+    {
+      "ability": "NATURAL_CURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LEECH_SEED",
+        "ANCIENT_POWER",
+        "MAGICAL_LEAF"
+      ],
+      "species": "CELEBI",
+      "species_token": "SPECIES_CELEBI"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 911,
+  "trainer_id": 911,
+  "trainer_name": "Faelan",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

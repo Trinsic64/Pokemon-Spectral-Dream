@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "EARTH_POWER",
+        "FOCUS_ENERGY",
+        "LAVA_PLUME",
+        "FLAME_BURST"
+      ],
+      "species": "NUMEL",
+      "species_token": "SPECIES_NUMEL"
+    },
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "HYPER_VOICE",
+        "PLAY_ROUGH",
+        "HELPING_HAND",
+        "POUND"
+      ],
+      "species": "TANDEMAUS",
+      "species_token": "SPECIES_TANDEMAUS"
+    },
+    {
+      "ability": "MERCILESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BITE",
+        "TOXIC_SPIKES",
+        "VENOSHOCK",
+        "PECK"
+      ],
+      "species": "MAREANIE",
+      "species_token": "SPECIES_MAREANIE"
+    },
+    {
+      "ability": "STENCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "SLUDGE_WAVE",
+        "FLING",
+        "POISON_GAS",
+        "SLUDGE_BOMB"
+      ],
+      "species": "GRIMER",
+      "species_token": "SPECIES_GRIMER"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "BRICK_BREAK",
+        "BULK_UP",
+        "ROCK_SMASH",
+        "DETECT"
+      ],
+      "species": "CLOBBOPUS",
+      "species_token": "SPECIES_CLOBBOPUS"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 33,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "SURF",
+        "AMNESIA",
+        "CURSE"
+      ],
+      "species": "SLOWPOKE",
+      "species_token": "SPECIES_SLOWPOKE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 307,
+  "trainer_id": 307,
+  "trainer_name": "Layla",
+  "trainerclass": "TRAINERCLASS_POKE_MANIAC",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

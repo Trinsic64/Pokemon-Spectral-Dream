@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BATTERY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "MUD_SLAP",
+        "CHARGE",
+        "SPARK",
+        "BUG_BITE"
+      ],
+      "species": "CHARJABUG",
+      "species_token": "SPECIES_CHARJABUG"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "TELEPORT",
+        "PSYBEAM",
+        "PSYCHO_CUT",
+        "CONFUSION"
+      ],
+      "species": "KADABRA",
+      "species_token": "SPECIES_KADABRA"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "PSYBEAM",
+        "COPYCAT",
+        "DIZZY_PUNCH",
+        "FEINT_ATTACK"
+      ],
+      "species": "SPINDA",
+      "species_token": "SPECIES_SPINDA"
+    },
+    {
+      "ability": "ICE_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "UPROAR",
+        "MIST",
+        "ICY_WIND",
+        "AVALANCHE"
+      ],
+      "species": "VANILLISH",
+      "species_token": "SPECIES_VANILLISH"
+    },
+    {
+      "ability": "WANDERING_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 24,
+      "moves": [
+        "HEX",
+        "PROTECT",
+        "BRUTAL_SWING",
+        "ASTONISH"
+      ],
+      "species": "YAMASK",
+      "species_token": "SPECIES_YAMASK"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 232,
+  "trainer_id": 232,
+  "trainer_name": "Genesis",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

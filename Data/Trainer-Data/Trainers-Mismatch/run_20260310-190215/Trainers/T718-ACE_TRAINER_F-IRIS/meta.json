@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "DAZZLING_GLEAM",
+        "ACID_ARMOR",
+        "DRAINING_KISS",
+        "TACKLE"
+      ],
+      "species": "ALCREMIE",
+      "species_token": "SPECIES_ALCREMIE"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "FOUL_PLAY",
+        "ZEN_HEADBUTT",
+        "KNOCK_OFF",
+        "SHADOW_BALL"
+      ],
+      "species": "SABLEYE",
+      "species_token": "SPECIES_SABLEYE"
+    },
+    {
+      "ability": "WEAK_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "POWER_GEM",
+        "SPITE",
+        "HEX",
+        "ANCIENT_POWER"
+      ],
+      "species": "CURSOLA",
+      "species_token": "SPECIES_CURSOLA"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "CONFUSE_RAY",
+        "HEX",
+        "INFERNO"
+      ],
+      "species": "CHANDELURE",
+      "species_token": "SPECIES_CHANDELURE"
+    },
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "DREAM_EATER",
+        "CONFUSE_RAY",
+        "DARK_PULSE"
+      ],
+      "species": "GENGAR",
+      "species_token": "SPECIES_GENGAR"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 718,
+  "trainer_id": 718,
+  "trainer_name": "Iris",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TECHNICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "LAST_RESORT",
+        "AGILITY",
+        "SWIFT",
+        "SCRATCH"
+      ],
+      "species": "AMBIPOM",
+      "species_token": "SPECIES_AMBIPOM"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "GIGA_DRAIN",
+        "MEGA_DRAIN",
+        "U_TURN",
+        "BOUNCE"
+      ],
+      "species": "JUMPLUFF",
+      "species_token": "SPECIES_JUMPLUFF"
+    },
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "DRAGON_BREATH"
+      ],
+      "species": "KINGDRA",
+      "species_token": "SPECIES_KINGDRA"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "THRASH",
+        "PLAY_ROUGH",
+        "HAMMER_ARM",
+        "HEADLONG_RUSH"
+      ],
+      "species": "URSALUNA",
+      "species_token": "SPECIES_URSALUNA"
+    },
+    {
+      "ability": "TECHNICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "X_SCISSOR",
+        "AIR_SLASH",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "SCIZOR",
+      "species_token": "SPECIES_SCIZOR"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "ERUPTION",
+        "LEER",
+        "GYRO_BALL",
+        "INFERNO"
+      ],
+      "species": "TYPHLOSION",
+      "species_token": "SPECIES_TYPHLOSION"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 862,
+  "trainer_id": 862,
+  "trainer_name": "Ethan",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

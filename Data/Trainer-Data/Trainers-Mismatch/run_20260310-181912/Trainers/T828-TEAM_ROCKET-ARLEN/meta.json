@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SWIFT_SWIM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "WAVE_CRASH",
+        "THRASH",
+        "SOAK",
+        "PHANTOM_FORCE"
+      ],
+      "species": "BASCULEGION",
+      "species_token": "SPECIES_BASCULEGION"
+    },
+    {
+      "ability": "CLEAR_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "STONE_EDGE",
+        "MOONBLAST",
+        "ROCK_POLISH",
+        "POWER_GEM"
+      ],
+      "species": "DIANCIE",
+      "species_token": "SPECIES_DIANCIE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "SHOCK_WAVE",
+        "CHARGE"
+      ],
+      "species": "ROTOM_HEAT",
+      "species_token": "SPECIES_ROTOM_HEAT"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "LEAF_BLADE",
+        "TRIPLE_ARROWS",
+        "BULK_UP",
+        "U_TURN"
+      ],
+      "species": "DECIDUEYE",
+      "species_token": "SPECIES_DECIDUEYE"
+    },
+    {
+      "ability": "OVERCOAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "OUTRAGE",
+        "MOONBLAST",
+        "SUPERPOWER",
+        "IRON_DEFENSE"
+      ],
+      "species": "ENAMORUS",
+      "species_token": "SPECIES_ENAMORUS"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FUTURE_SIGHT",
+        "PSYCHO_CUT",
+        "NIGHT_SLASH",
+        "DOUBLE_TEAM"
+      ],
+      "species": "ABSOL",
+      "species_token": "SPECIES_ABSOL"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 828,
+  "trainer_id": 828,
+  "trainer_name": "Arlen",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

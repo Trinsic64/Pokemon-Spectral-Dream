@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "PURSUIT",
+        "LEER",
+        "ROCK_SMASH",
+        "BUBBLE"
+      ],
+      "species": "CRABRAWLER",
+      "species_token": "SPECIES_CRABRAWLER"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "METAL_CLAW",
+        "WORK_UP",
+        "QUICK_ATTACK",
+        "COUNTER"
+      ],
+      "species": "RIOLU",
+      "species_token": "SPECIES_RIOLU"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "ROCK_THROW",
+        "FOCUS_ENERGY",
+        "POUND",
+        "LOW_KICK"
+      ],
+      "species": "GURDURR",
+      "species_token": "SPECIES_GURDURR"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "LOW_SWEEP",
+        "REVENGE",
+        "KARATE_CHOP",
+        "FOCUS_ENERGY"
+      ],
+      "species": "MACHOKE",
+      "species_token": "SPECIES_MACHOKE"
+    },
+    {
+      "ability": "SKILL_LINK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 16,
+      "moves": [
+        "NIGHT_SLASH",
+        "CHIP_AWAY",
+        "HORN_ATTACK",
+        "ARM_THRUST"
+      ],
+      "species": "HERACROSS",
+      "species_token": "SPECIES_HERACROSS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 132,
+  "trainer_id": 132,
+  "trainer_name": "Bugsy",
+  "trainerclass": "TRAINERCLASS_LEADER_BUGSY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "PURSUIT",
+        "FOCUS_ENERGY",
+        "KARATE_CHOP",
+        "SCRATCH"
+      ],
+      "species": "PRIMEAPE",
+      "species_token": "SPECIES_PRIMEAPE"
+    },
+    {
+      "ability": "HONEY_GATHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "POLLEN_PUFF",
+        "ABSORB",
+        "STRUGGLE_BUG",
+        "SILVER_WIND"
+      ],
+      "species": "RIBOMBEE",
+      "species_token": "SPECIES_RIBOMBEE"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "ABSORB",
+        "FAIRY_WIND",
+        "TACKLE",
+        "SYNTHESIS"
+      ],
+      "species": "JUMPLUFF",
+      "species_token": "SPECIES_JUMPLUFF"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "CHARGE",
+        "CHARGE_BEAM",
+        "THUNDER_SHOCK",
+        "BULLET_SEED"
+      ],
+      "species": "VOLTORB",
+      "species_token": "SPECIES_VOLTORB"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 192,
+  "trainer_id": 192,
+  "trainer_name": "Zadie",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

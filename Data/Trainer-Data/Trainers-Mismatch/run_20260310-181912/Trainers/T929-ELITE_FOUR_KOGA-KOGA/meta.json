@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 88,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LAST_RESORT",
+        "COVET",
+        "BITE"
+      ],
+      "species": "ESPEON",
+      "species_token": "SPECIES_ESPEON"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 88,
+      "moves": [
+        "PSYCHIC_FANGS",
+        "PLAY_ROUGH",
+        "HOWL",
+        "CRUNCH"
+      ],
+      "species": "SCREAM_TAIL",
+      "species_token": "SPECIES_SCREAM_TAIL"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 88,
+      "moves": [
+        "METEOR_MASH",
+        "AGILITY",
+        "HAMMER_ARM",
+        "PSYCHIC"
+      ],
+      "species": "METAGROSS",
+      "species_token": "SPECIES_METAGROSS"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 929,
+  "trainer_id": 929,
+  "trainer_name": "KOGA",
+  "trainerclass": "TRAINERCLASS_ELITE_FOUR_KOGA",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

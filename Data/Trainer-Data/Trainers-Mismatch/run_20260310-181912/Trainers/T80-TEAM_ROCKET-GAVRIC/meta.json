@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "HOWL",
+        "BITE",
+        "TACKLE",
+        "SAND_ATTACK"
+      ],
+      "species": "POOCHYENA",
+      "species_token": "SPECIES_POOCHYENA"
+    },
+    {
+      "ability": "ANTICIPATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "ASTONISH",
+        "TAUNT",
+        "POISON_STING",
+        "MUD_SLAP"
+      ],
+      "species": "CROAGUNK",
+      "species_token": "SPECIES_CROAGUNK"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 11,
+      "moves": [
+        "LEER",
+        "SNARL",
+        "TACKLE",
+        "SAND_ATTACK"
+      ],
+      "species": "ZIGZAGOON",
+      "species_token": "SPECIES_ZIGZAGOON"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 80,
+  "trainer_id": 80,
+  "trainer_name": "Gavric",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

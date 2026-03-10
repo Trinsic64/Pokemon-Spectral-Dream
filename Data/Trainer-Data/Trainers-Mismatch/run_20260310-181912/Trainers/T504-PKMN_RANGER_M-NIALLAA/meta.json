@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "AIR_SLASH",
+        "BODY_SLAM",
+        "SYNTHESIS",
+        "LEAF_STORM"
+      ],
+      "species": "TROPIUS",
+      "species_token": "SPECIES_TROPIUS"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "MOONBLAST",
+        "PSYCHIC",
+        "DRAINING_KISS",
+        "CALM_MIND"
+      ],
+      "species": "AROMATISSE",
+      "species_token": "SPECIES_AROMATISSE"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "BRICK_BREAK",
+        "LOW_SWEEP",
+        "RETALIATE",
+        "BULK_UP"
+      ],
+      "species": "SAWK",
+      "species_token": "SPECIES_SAWK"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "ICICLE_CRASH",
+        "BLIZZARD",
+        "IRON_HEAD",
+        "IRON_DEFENSE"
+      ],
+      "species": "SANDSLASH",
+      "species_token": "SPECIES_SANDSLASH"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "SYNCHRONOISE",
+        "UPROAR",
+        "HEAL_PULSE",
+        "ASTONISH"
+      ],
+      "species": "CHIMECHO",
+      "species_token": "SPECIES_CHIMECHO"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "CALM_MIND",
+        "STOMP",
+        "TACKLE"
+      ],
+      "species": "STANTLER",
+      "species_token": "SPECIES_STANTLER"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 504,
+  "trainer_id": 504,
+  "trainer_name": "NiallaA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "METAL_CLAW",
+        "HONE_CLAWS",
+        "ICY_WIND",
+        "SCRATCH"
+      ],
+      "species": "SNEASEL",
+      "species_token": "SPECIES_SNEASEL"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "PSYCHIC",
+        "WAKE_UP_SLAP",
+        "COVET",
+        "ICE_PUNCH"
+      ],
+      "species": "JYNX",
+      "species_token": "SPECIES_JYNX"
+    },
+    {
+      "ability": "THERMAL_EXCHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "ICE_BEAM",
+        "DRAGON_CLAW",
+        "ICE_FANG",
+        "FOCUS_ENERGY"
+      ],
+      "species": "FRIGIBAX",
+      "species_token": "SPECIES_FRIGIBAX"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "DISCHARGE",
+        "SIGNAL_BEAM",
+        "BUBBLE_BEAM",
+        "CHARGE"
+      ],
+      "species": "LANTURN",
+      "species_token": "SPECIES_LANTURN"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 41,
+      "moves": [
+        "ICICLE_CRASH",
+        "UPROAR",
+        "WORK_UP",
+        "ICE_PUNCH"
+      ],
+      "species": "DARMANITAN",
+      "species_token": "SPECIES_DARMANITAN"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 427,
+  "trainer_id": 427,
+  "trainer_name": "Cora",
+  "trainerclass": "TRAINERCLASS_SKIER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

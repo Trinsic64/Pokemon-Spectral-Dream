@@ -1,0 +1,54 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 9,
+      "moves": [
+        "CHARGE",
+        "ROCK_POLISH",
+        "TACKLE",
+        "DEFENSE_CURL"
+      ],
+      "species": "GEODUDE",
+      "species_token": "SPECIES_GEODUDE"
+    },
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 9,
+      "moves": [
+        "RAPID_SPIN",
+        "TACKLE",
+        "SMOKESCREEN",
+        "RAPID_SPIN"
+      ],
+      "species": "ROLYCOLY",
+      "species_token": "SPECIES_ROLYCOLY"
+    }
+  ],
+  "nummons": 2,
+  "party_id": 67,
+  "trainer_id": 67,
+  "trainer_name": "Isabella",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

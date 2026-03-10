@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "CRABHAMMER",
+        "CRUNCH",
+        "RAZOR_SHELL",
+        "SWORDS_DANCE"
+      ],
+      "species": "CRAWDAUNT",
+      "species_token": "SPECIES_CRAWDAUNT"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "HYDRO_PUMP",
+        "THRASH",
+        "AQUA_TAIL",
+        "HURRICANE"
+      ],
+      "species": "GYARADOS",
+      "species_token": "SPECIES_GYARADOS"
+    },
+    {
+      "ability": "ROUGH_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "LIQUIDATION",
+        "FOCUS_ENERGY",
+        "ICE_FANG",
+        "CRUNCH"
+      ],
+      "species": "SHARPEDO",
+      "species_token": "SPECIES_SHARPEDO"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "RAZOR_SHELL",
+        "SWORDS_DANCE",
+        "MUD_SHOT",
+        "SLAM"
+      ],
+      "species": "KINGLER",
+      "species_token": "SPECIES_KINGLER"
+    },
+    {
+      "ability": "AERILATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 53,
+      "moves": [
+        "X_SCISSOR",
+        "THRASH",
+        "SUPERPOWER",
+        "FOCUS_ENERGY"
+      ],
+      "species": "PINSIR",
+      "species_token": "SPECIES_PINSIR"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 576,
+  "trainer_id": 576,
+  "trainer_name": "Wade",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

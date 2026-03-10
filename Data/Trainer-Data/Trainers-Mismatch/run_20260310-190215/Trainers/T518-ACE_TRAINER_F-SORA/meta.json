@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "PLAY_ROUGH",
+        "WORK_UP",
+        "CRUNCH",
+        "RETALIATE"
+      ],
+      "species": "STOUTLAND",
+      "species_token": "SPECIES_STOUTLAND"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "THRASH",
+        "ASSURANCE",
+        "RAGING_BULL",
+        "DOUBLE_KICK"
+      ],
+      "species": "TAUROS",
+      "species_token": "SPECIES_TAUROS"
+    },
+    {
+      "ability": "SWEET_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "DAZZLING_GLEAM",
+        "ACID_ARMOR",
+        "DRAINING_KISS",
+        "TACKLE"
+      ],
+      "species": "ALCREMIE",
+      "species_token": "SPECIES_ALCREMIE"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "ENERGY_BALL",
+        "X_SCISSOR",
+        "AGILITY",
+        "LEAF_BLADE"
+      ],
+      "species": "GROVYLE",
+      "species_token": "SPECIES_GROVYLE"
+    },
+    {
+      "ability": "IRON_BARBS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 51,
+      "moves": [
+        "ZING_ZAP",
+        "CHARGE",
+        "ROLLOUT",
+        "DISCHARGE"
+      ],
+      "species": "TOGEDEMARU",
+      "species_token": "SPECIES_TOGEDEMARU"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 518,
+  "trainer_id": 518,
+  "trainer_name": "Sora",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

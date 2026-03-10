@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "FISHIOUS_REND",
+        "DRAGON_PULSE",
+        "PROTECT",
+        "DRAGON_RUSH"
+      ],
+      "species": "DRACOVISH",
+      "species_token": "SPECIES_DRACOVISH"
+    },
+    {
+      "ability": "THERMAL_EXCHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "GLAIVE_RUSH",
+        "ICE_BEAM",
+        "FOCUS_ENERGY",
+        "ICICLE_CRASH"
+      ],
+      "species": "BAXCALIBUR",
+      "species_token": "SPECIES_BAXCALIBUR"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "OUTRAGE",
+        "AQUA_TAIL",
+        "DRAGON_RUSH",
+        "HURRICANE"
+      ],
+      "species": "DRAGONITE",
+      "species_token": "SPECIES_DRAGONITE"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "OUTRAGE",
+        "POWER_WHIP",
+        "PROTECT",
+        "DRAGON_PULSE"
+      ],
+      "species": "GOODRA",
+      "species_token": "SPECIES_GOODRA"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "OUTRAGE",
+        "NASTY_PLOT",
+        "DRAGON_RUSH",
+        "CRUNCH"
+      ],
+      "species": "HYDREIGON",
+      "species_token": "SPECIES_HYDREIGON"
+    },
+    {
+      "ability": "AERILATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 90,
+      "moves": [
+        "OUTRAGE",
+        "FLAMETHROWER",
+        "FLY",
+        "FOCUS_ENERGY"
+      ],
+      "species": "SALAMENCE",
+      "species_token": "SPECIES_SALAMENCE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 970,
+  "trainer_id": 970,
+  "trainer_name": "WILL",
+  "trainerclass": "TRAINERCLASS_ELITE_FOUR_WILL",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "FLAME_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "STEEL_WING",
+        "AERIAL_ACE",
+        "ACROBATICS",
+        "FLARE_BLITZ"
+      ],
+      "species": "TALONFLAME",
+      "species_token": "SPECIES_TALONFLAME"
+    },
+    {
+      "ability": "ZERO_TO_HERO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "WAVE_CRASH",
+        "FOCUS_PUNCH",
+        "FOCUS_ENERGY",
+        "ACROBATICS"
+      ],
+      "species": "PALAFIN",
+      "species_token": "SPECIES_PALAFIN"
+    },
+    {
+      "ability": "ICE_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "ICE_BEAM",
+        "UPROAR",
+        "MIRROR_SHOT",
+        "ACID_ARMOR"
+      ],
+      "species": "VANILLUXE",
+      "species_token": "SPECIES_VANILLUXE"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "DISCHARGE",
+        "THRASH",
+        "COIL",
+        "ZAP_CANNON"
+      ],
+      "species": "EELEKTROSS",
+      "species_token": "SPECIES_EELEKTROSS"
+    },
+    {
+      "ability": "SERENE_GRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "PSYCHIC",
+        "TEETER_DANCE",
+        "U_TURN",
+        "HYPER_VOICE"
+      ],
+      "species": "MELOETTA",
+      "species_token": "SPECIES_MELOETTA"
+    },
+    {
+      "ability": "SKILL_LINK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "MEGAHORN",
+        "THRASH",
+        "THROAT_CHOP",
+        "CLOSE_COMBAT"
+      ],
+      "species": "HERACROSS",
+      "species_token": "SPECIES_HERACROSS"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 896,
+  "trainer_id": 896,
+  "trainer_name": "Olette",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

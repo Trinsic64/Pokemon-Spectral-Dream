@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HELPING_HAND",
+        "POUND",
+        "DOUBLE_HIT",
+        "ECHOED_VOICE"
+      ],
+      "species": "TANDEMAUS",
+      "species_token": "SPECIES_TANDEMAUS"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "SPARK",
+        "CHARGE",
+        "ROCK_THROW",
+        "SMACK_DOWN"
+      ],
+      "species": "GEODUDE",
+      "species_token": "SPECIES_GEODUDE"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "CONFUSION",
+        "BARRIER",
+        "MEDITATE",
+        "COPYCAT"
+      ],
+      "species": "MIMEJR",
+      "species_token": "SPECIES_MIMEJR"
+    },
+    {
+      "ability": "HUSTLE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "AURORA_BEAM",
+        "FOCUS_ENERGY",
+        "WATER_PULSE",
+        "PSYBEAM"
+      ],
+      "species": "REMORAID",
+      "species_token": "SPECIES_REMORAID"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 185,
+  "trainer_id": 185,
+  "trainer_name": "Samantha",
+  "trainerclass": "TRAINERCLASS_PARASOL_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

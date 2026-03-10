@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SOLAR_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FLAMETHROWER",
+        "NASTY_PLOT",
+        "INFERNO",
+        "FOUL_PLAY"
+      ],
+      "species": "HOUNDOOM",
+      "species_token": "SPECIES_HOUNDOOM"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "AIR_SLASH",
+        "LEECH_LIFE",
+        "BITE",
+        "CROSS_POISON"
+      ],
+      "species": "CROBAT",
+      "species_token": "SPECIES_CROBAT"
+    },
+    {
+      "ability": "MOTOR_DRIVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "THUNDERBOLT",
+        "FIRE_PUNCH",
+        "CHARGE",
+        "THUNDER"
+      ],
+      "species": "ELECTIVIRE",
+      "species_token": "SPECIES_ELECTIVIRE"
+    },
+    {
+      "ability": "ADAPTABILITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "TRI_ATTACK",
+        "DISCHARGE",
+        "NASTY_PLOT",
+        "PSYBEAM"
+      ],
+      "species": "PORYGON_Z",
+      "species_token": "SPECIES_PORYGON_Z"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "EARTHQUAKE",
+        "KNOCK_OFF",
+        "FIRE_FANG",
+        "SLAM"
+      ],
+      "species": "DONPHAN",
+      "species_token": "SPECIES_DONPHAN"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "AQUA_TAIL",
+        "THRASH",
+        "AGILITY",
+        "ICE_FANG"
+      ],
+      "species": "FERALIGATR",
+      "species_token": "SPECIES_FERALIGATR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 863,
+  "trainer_id": 863,
+  "trainer_name": "Silver",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

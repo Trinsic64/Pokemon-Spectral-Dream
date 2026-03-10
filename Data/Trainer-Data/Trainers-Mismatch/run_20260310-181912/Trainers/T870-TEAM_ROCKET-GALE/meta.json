@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "DISCHARGE",
+        "SHIFT_GEAR",
+        "ZAP_CANNON",
+        "MIRROR_SHOT"
+      ],
+      "species": "KLINKLANG",
+      "species_token": "SPECIES_KLINKLANG"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "ENERGY_BALL",
+        "PLAY_ROUGH",
+        "HONE_CLAWS",
+        "NIGHT_SLASH"
+      ],
+      "species": "MEOWSCARADA",
+      "species_token": "SPECIES_MEOWSCARADA"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "OUTRAGE",
+        "FLAMETHROWER",
+        "DRAGON_CLAW",
+        "FLY"
+      ],
+      "species": "SALAMENCE",
+      "species_token": "SPECIES_SALAMENCE"
+    },
+    {
+      "ability": "TOXIC_CHAIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "POISON_JAB",
+        "CRUNCH",
+        "BULK_UP",
+        "SUPERPOWER"
+      ],
+      "species": "OKIDOGI",
+      "species_token": "SPECIES_OKIDOGI"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "THUNDERBOLT",
+        "AIR_SLASH",
+        "DIG",
+        "BUG_BUZZ"
+      ],
+      "species": "VIKAVOLT",
+      "species_token": "SPECIES_VIKAVOLT"
+    },
+    {
+      "ability": "SOLAR_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "FLAMETHROWER",
+        "NASTY_PLOT",
+        "INFERNO",
+        "FOUL_PLAY"
+      ],
+      "species": "HOUNDOOM",
+      "species_token": "SPECIES_HOUNDOOM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 870,
+  "trainer_id": 870,
+  "trainer_name": "Gale",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,14 @@
+# Key: 0xB44B
+Please Select
+Items
+Receive all Items!
+Pokeballs
+Recieve all Pokeballs!
+Potions
+Recieve all Potions!
+Rare Candies
+Recieve 999 Rare Candies!
+{STRVAR_1, 8, 0, 0} #{STRVAR_1, 50, 1, 0} ERROR
+Given all items!
+
+

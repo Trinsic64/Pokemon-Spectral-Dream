@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ZERO_TO_HERO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "WAVE_CRASH",
+        "FOCUS_PUNCH",
+        "FOCUS_ENERGY",
+        "ACROBATICS"
+      ],
+      "species": "PALAFIN",
+      "species_token": "SPECIES_PALAFIN"
+    },
+    {
+      "ability": "QUARK_DRIVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "ROCK_SLIDE",
+        "EARTHQUAKE",
+        "CHARGE",
+        "WILD_CHARGE"
+      ],
+      "species": "IRON_THORNS",
+      "species_token": "SPECIES_IRON_THORNS"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "LEAF_BLADE",
+        "COIL",
+        "GIGA_DRAIN",
+        "SLAM"
+      ],
+      "species": "SERPERIOR",
+      "species_token": "SPECIES_SERPERIOR"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "GIGATON_HAMMER",
+        "PLAY_ROUGH",
+        "KNOCK_OFF",
+        "FLASH_CANNON"
+      ],
+      "species": "TINKATON",
+      "species_token": "SPECIES_TINKATON"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "OUTRAGE",
+        "AQUA_TAIL",
+        "DRAGON_RUSH",
+        "HURRICANE"
+      ],
+      "species": "DRAGONITE",
+      "species_token": "SPECIES_DRAGONITE"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BULK_UP",
+        "BLAZE_KICK",
+        "SKY_UPPERCUT"
+      ],
+      "species": "BLAZIKEN",
+      "species_token": "SPECIES_BLAZIKEN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 904,
+  "trainer_id": 904,
+  "trainer_name": "Ysolda",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

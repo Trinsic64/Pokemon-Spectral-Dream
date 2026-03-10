@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "FLAME_CHARGE",
+        "SMACK_DOWN"
+      ],
+      "species": "CARKOL",
+      "species_token": "SPECIES_CARKOL"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BRICK_BREAK",
+        "CRUNCH",
+        "HEADBUTT"
+      ],
+      "species": "SCRAFTY",
+      "species_token": "SPECIES_SCRAFTY"
+    },
+    {
+      "ability": "WONDER_GUARD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "SHADOW_BALL",
+        "DIG",
+        "CONFUSE_RAY",
+        "SHADOW_CLAW"
+      ],
+      "species": "SHEDINJA",
+      "species_token": "SPECIES_SHEDINJA"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "SURF",
+        "BODY_SLAM",
+        "BRINE",
+        "AURORA_BEAM"
+      ],
+      "species": "SEALEO",
+      "species_token": "SPECIES_SEALEO"
+    },
+    {
+      "ability": "WEAK_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 47,
+      "moves": [
+        "POWER_GEM",
+        "HEX",
+        "SPITE",
+        "ANCIENT_POWER"
+      ],
+      "species": "CORSOLA",
+      "species_token": "SPECIES_CORSOLA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 488,
+  "trainer_id": 488,
+  "trainer_name": "Ember",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

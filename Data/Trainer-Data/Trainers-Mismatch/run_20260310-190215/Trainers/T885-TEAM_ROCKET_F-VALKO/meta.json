@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DROUGHT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "PRECIPICE_BLADES",
+        "FIRE_BLAST",
+        "BULK_UP",
+        "SOLAR_BEAM"
+      ],
+      "species": "GROUDON",
+      "species_token": "SPECIES_GROUDON"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "DRAGON_PULSE",
+        "DRAGON_HAMMER",
+        "CHARGE",
+        "ZAP_CANNON"
+      ],
+      "species": "RAGING_BOLT",
+      "species_token": "SPECIES_RAGING_BOLT"
+    },
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BULK_UP",
+        "BLAZE_KICK",
+        "SKY_UPPERCUT"
+      ],
+      "species": "BLAZIKEN",
+      "species_token": "SPECIES_BLAZIKEN"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 885,
+  "trainer_id": 885,
+  "trainer_name": "Valko",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

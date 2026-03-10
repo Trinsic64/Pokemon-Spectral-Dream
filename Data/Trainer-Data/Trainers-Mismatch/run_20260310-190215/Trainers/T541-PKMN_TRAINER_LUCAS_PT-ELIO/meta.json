@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "THUNDERBOLT",
+        "AIR_SLASH",
+        "DIG",
+        "BUG_BUZZ"
+      ],
+      "species": "VIKAVOLT",
+      "species_token": "SPECIES_VIKAVOLT"
+    },
+    {
+      "ability": "TOUGH_CLAWS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "ROCK_SLIDE",
+        "THRASH",
+        "DOUBLE_TEAM",
+        "COUNTER"
+      ],
+      "species": "LYCANROC",
+      "species_token": "SPECIES_LYCANROC"
+    },
+    {
+      "ability": "OWN_TEMPO",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "EARTHQUAKE",
+        "STRENGTH",
+        "IRON_DEFENSE",
+        "ROCK_SMASH"
+      ],
+      "species": "MUDSDALE",
+      "species_token": "SPECIES_MUDSDALE"
+    },
+    {
+      "ability": "MERCILESS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LIQUIDATION",
+        "TOXIC_SPIKES",
+        "BITE",
+        "POISON_JAB"
+      ],
+      "species": "MAREANIE",
+      "species_token": "SPECIES_MAREANIE"
+    },
+    {
+      "ability": "SHELL_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "SHELL_TRAP",
+        "DRAGON_PULSE",
+        "FLAMETHROWER",
+        "IRON_DEFENSE"
+      ],
+      "species": "TURTONATOR",
+      "species_token": "SPECIES_TURTONATOR"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LEAF_BLADE",
+        "SPIRIT_SHACKLE",
+        "PHANTOM_FORCE",
+        "NASTY_PLOT"
+      ],
+      "species": "DECIDUEYE",
+      "species_token": "SPECIES_DECIDUEYE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 541,
+  "trainer_id": 541,
+  "trainer_name": "Elio",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

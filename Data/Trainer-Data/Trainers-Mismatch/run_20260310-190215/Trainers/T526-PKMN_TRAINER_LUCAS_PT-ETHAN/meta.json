@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TECHNICIAN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "LAST_RESORT",
+        "AGILITY",
+        "SWIFT",
+        "SCRATCH"
+      ],
+      "species": "AMBIPOM",
+      "species_token": "SPECIES_AMBIPOM"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "FAIRY_WIND",
+        "MEGA_DRAIN",
+        "U_TURN",
+        "ACROBATICS"
+      ],
+      "species": "JUMPLUFF",
+      "species_token": "SPECIES_JUMPLUFF"
+    },
+    {
+      "ability": "POISON_POINT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRAGON_PULSE",
+        "FOCUS_ENERGY",
+        "BUBBLE_BEAM"
+      ],
+      "species": "SEADRA",
+      "species_token": "SPECIES_SEADRA"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "HIGH_HORSEPOWER",
+        "PLAY_ROUGH",
+        "SLASH",
+        "REST"
+      ],
+      "species": "URSARING",
+      "species_token": "SPECIES_URSARING"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "X_SCISSOR",
+        "DOUBLE_TEAM",
+        "AIR_SLASH",
+        "SLASH"
+      ],
+      "species": "SCYTHER",
+      "species_token": "SPECIES_SCYTHER"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "ERUPTION",
+        "LEER",
+        "GYRO_BALL",
+        "FLAMETHROWER"
+      ],
+      "species": "TYPHLOSION",
+      "species_token": "SPECIES_TYPHLOSION"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 526,
+  "trainer_id": 526,
+  "trainer_name": "Ethan",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BIG_PECKS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "AIR_SLASH",
+        "SWAGGER",
+        "AIR_CUTTER",
+        "RAZOR_WIND"
+      ],
+      "species": "UNFEZANT",
+      "species_token": "SPECIES_UNFEZANT"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_DEFENSE",
+        "MUD_SLAP",
+        "ROCK_SLIDE"
+      ],
+      "species": "GIGALITH",
+      "species_token": "SPECIES_GIGALITH"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "ICICLE_CRASH",
+        "THRASH",
+        "WORK_UP",
+        "BLIZZARD"
+      ],
+      "species": "DARMANITAN",
+      "species_token": "SPECIES_DARMANITAN"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "STONE_EDGE",
+        "BULK_UP",
+        "ROCK_SLIDE",
+        "DYNAMIC_PUNCH"
+      ],
+      "species": "GURDURR",
+      "species_token": "SPECIES_GURDURR"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "NIGHT_SLASH",
+        "SLASH"
+      ],
+      "species": "BISHARP",
+      "species_token": "SPECIES_BISHARP"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 52,
+      "moves": [
+        "AQUA_TAIL",
+        "MEGAHORN",
+        "FOCUS_ENERGY",
+        "FURY_CUTTER"
+      ],
+      "species": "SAMUROTT",
+      "species_token": "SPECIES_SAMUROTT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 535,
+  "trainer_id": 535,
+  "trainer_name": "Nate",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

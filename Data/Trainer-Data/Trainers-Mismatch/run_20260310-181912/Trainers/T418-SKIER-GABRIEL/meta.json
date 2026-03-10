@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "STRENGTH",
+        "KNOCK_OFF",
+        "LOW_SWEEP",
+        "VITAL_THROW"
+      ],
+      "species": "MACHOKE",
+      "species_token": "SPECIES_MACHOKE"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "SHADOW_BALL",
+        "KNOCK_OFF",
+        "SPITE",
+        "HEX"
+      ],
+      "species": "BANETTE",
+      "species_token": "SPECIES_BANETTE"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "THUNDER_PUNCH",
+        "SPARK",
+        "CHARGE",
+        "ROCK_THROW"
+      ],
+      "species": "GRAVELER",
+      "species_token": "SPECIES_GRAVELER"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 418,
+  "trainer_id": 418,
+  "trainer_name": "Gabriel",
+  "trainerclass": "TRAINERCLASS_SKIER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

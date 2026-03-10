@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "PLAY_ROUGH",
+        "GROWL",
+        "POWER_GEM",
+        "SWIFT"
+      ],
+      "species": "PERSIAN",
+      "species_token": "SPECIES_PERSIAN"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "BRICK_BREAK",
+        "LOW_SWEEP",
+        "RETALIATE",
+        "KARATE_CHOP"
+      ],
+      "species": "SAWK",
+      "species_token": "SPECIES_SAWK"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 38,
+      "moves": [
+        "ICICLE_CRASH",
+        "BLIZZARD",
+        "RAPID_SPIN",
+        "IRON_HEAD"
+      ],
+      "species": "SANDSLASH",
+      "species_token": "SPECIES_SANDSLASH"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 415,
+  "trainer_id": 415,
+  "trainer_name": "Everly",
+  "trainerclass": "TRAINERCLASS_SKIER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

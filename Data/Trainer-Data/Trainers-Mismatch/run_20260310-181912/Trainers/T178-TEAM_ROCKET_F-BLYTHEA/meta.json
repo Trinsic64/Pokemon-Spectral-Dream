@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HEADBUTT",
+        "FEINT_ATTACK",
+        "PAYBACK",
+        "LOW_KICK"
+      ],
+      "species": "SCRAGGY",
+      "species_token": "SPECIES_SCRAGGY"
+    },
+    {
+      "ability": "WANDERING_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "BRUTAL_SWING",
+        "PROTECT",
+        "ASTONISH",
+        "HAZE"
+      ],
+      "species": "YAMASK",
+      "species_token": "SPECIES_YAMASK"
+    },
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HYPER_FANG",
+        "FOCUS_ENERGY",
+        "BITE",
+        "QUICK_ATTACK"
+      ],
+      "species": "RATICATE",
+      "species_token": "SPECIES_RATICATE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 178,
+  "trainer_id": 178,
+  "trainer_name": "BlytheA",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

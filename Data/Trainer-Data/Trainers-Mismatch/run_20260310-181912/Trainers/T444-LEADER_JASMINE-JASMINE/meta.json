@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LIGHTNING_ROD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "ZING_ZAP",
+        "POISON_JAB",
+        "CHARGE",
+        "BUBBLE_BEAM"
+      ],
+      "species": "PINCURCHIN",
+      "species_token": "SPECIES_PINCURCHIN"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DISCHARGE",
+        "BITE",
+        "SLAM",
+        "CLOSE_COMBAT"
+      ],
+      "species": "PAWMOT",
+      "species_token": "SPECIES_PAWMOT"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "THUNDERBOLT",
+        "AIR_SLASH",
+        "DIG",
+        "BUG_BUZZ"
+      ],
+      "species": "VIKAVOLT",
+      "species_token": "SPECIES_VIKAVOLT"
+    },
+    {
+      "ability": "MOTOR_DRIVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "THUNDERBOLT",
+        "FIRE_PUNCH",
+        "CHARGE",
+        "THUNDER_PUNCH"
+      ],
+      "species": "ELECTIVIRE",
+      "species_token": "SPECIES_ELECTIVIRE"
+    },
+    {
+      "ability": "PUNK_ROCK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "BELCH",
+        "BOOMBURST",
+        "CHARGE",
+        "DISCHARGE"
+      ],
+      "species": "TOXTRICITY",
+      "species_token": "SPECIES_TOXTRICITY"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "DRAGON_PULSE",
+        "POWER_GEM",
+        "CHARGE",
+        "ZAP_CANNON"
+      ],
+      "species": "AMPHAROS",
+      "species_token": "SPECIES_AMPHAROS"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 444,
+  "trainer_id": 444,
+  "trainer_name": "Jasmine",
+  "trainerclass": "TRAINERCLASS_LEADER_JASMINE",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

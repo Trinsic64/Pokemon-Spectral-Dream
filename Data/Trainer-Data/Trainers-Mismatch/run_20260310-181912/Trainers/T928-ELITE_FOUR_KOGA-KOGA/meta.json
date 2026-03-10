@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CONTRARY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 85,
+      "moves": [
+        "FOUL_PLAY",
+        "SWAGGER",
+        "PLUCK",
+        "PSYCHO_CUT"
+      ],
+      "species": "MALAMAR",
+      "species_token": "SPECIES_MALAMAR"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 85,
+      "moves": [
+        "HYDRO_PUMP",
+        "PSYCHIC",
+        "COSMIC_POWER",
+        "POWER_GEM"
+      ],
+      "species": "STARMIE",
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 85,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LEAF_BLADE",
+        "NIGHT_SLASH",
+        "CLOSE_COMBAT"
+      ],
+      "species": "GALLADE",
+      "species_token": "SPECIES_GALLADE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 928,
+  "trainer_id": 928,
+  "trainer_name": "KOGA",
+  "trainerclass": "TRAINERCLASS_ELITE_FOUR_KOGA",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

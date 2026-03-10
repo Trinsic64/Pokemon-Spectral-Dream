@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "GLUTTONY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "FOCUS_ENERGY",
+        "BITE",
+        "TACKLE",
+        "QUICK_ATTACK"
+      ],
+      "species": "RATTATA",
+      "species_token": "SPECIES_RATTATA"
+    },
+    {
+      "ability": "IRON_FIST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "LEER",
+        "TACKLE",
+        "ARM_THRUST",
+        "TAUNT"
+      ],
+      "species": "PANCHAM",
+      "species_token": "SPECIES_PANCHAM"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "BITE",
+        "LEER",
+        "POISON_STING",
+        "WRAP"
+      ],
+      "species": "EKANS",
+      "species_token": "SPECIES_EKANS"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "FIRE_FANG",
+        "CHARM",
+        "ICE_FANG",
+        "THUNDER_FANG"
+      ],
+      "species": "SNUBBULL",
+      "species_token": "SPECIES_SNUBBULL"
+    },
+    {
+      "ability": "SAND_SPIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 10,
+      "moves": [
+        "SAND_ATTACK",
+        "BRUTAL_SWING",
+        "MINIMIZE",
+        "WRAP"
+      ],
+      "species": "SILICOBRA",
+      "species_token": "SPECIES_SILICOBRA"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 79,
+  "trainer_id": 79,
+  "trainer_name": "Flint",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

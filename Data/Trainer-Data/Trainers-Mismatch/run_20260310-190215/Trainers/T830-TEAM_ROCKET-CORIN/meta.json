@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "HYDRO_PUMP",
+        "MEGAHORN",
+        "AERIAL_ACE",
+        "SUCKER_PUNCH"
+      ],
+      "species": "SAMUROTT",
+      "species_token": "SPECIES_SAMUROTT"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "ERUPTION",
+        "LEER",
+        "INFERNAL_PARADE",
+        "INFERNO"
+      ],
+      "species": "TYPHLOSION",
+      "species_token": "SPECIES_TYPHLOSION"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "DISCHARGE",
+        "UPROAR",
+        "CHARGE",
+        "TRICK"
+      ],
+      "species": "ROTOM_MOW",
+      "species_token": "SPECIES_ROTOM_MOW"
+    },
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "SKY_UPPERCUT",
+        "FIRE_FANG",
+        "POISON_JAB",
+        "ACROBATICS"
+      ],
+      "species": "GLISCOR",
+      "species_token": "SPECIES_GLISCOR"
+    },
+    {
+      "ability": "LIGHT_METAL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "FLASH_CANNON",
+        "IRON_DEFENSE",
+        "DRAGON_CLAW",
+        "BREAKING_SWIPE"
+      ],
+      "species": "DURALUDON",
+      "species_token": "SPECIES_DURALUDON"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 830,
+  "trainer_id": 830,
+  "trainer_name": "Corin",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

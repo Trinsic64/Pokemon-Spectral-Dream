@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MISTY_SURGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "HYDRO_PUMP",
+        "MOONBLAST",
+        "MUDDY_WATER",
+        "HAZE"
+      ],
+      "species": "TAPU_FINI",
+      "species_token": "SPECIES_TAPU_FINI"
+    },
+    {
+      "ability": "QUARK_DRIVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "FUTURE_SIGHT",
+        "CLOSE_COMBAT",
+        "LEAF_BLADE",
+        "DOUBLE_TEAM"
+      ],
+      "species": "IRON_VALIANT",
+      "species_token": "SPECIES_IRON_VALIANT"
+    },
+    {
+      "ability": "PIXILATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "MOONBLAST",
+        "SKY_ATTACK",
+        "DRAGON_PULSE",
+        "TAKE_DOWN"
+      ],
+      "species": "ALTARIA",
+      "species_token": "SPECIES_ALTARIA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 912,
+  "trainer_id": 912,
+  "trainer_name": "Grier",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

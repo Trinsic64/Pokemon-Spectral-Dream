@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "HOWL",
+        "SHOCK_WAVE",
+        "SPARK",
+        "THUNDER_FANG"
+      ],
+      "species": "ELECTRIKE",
+      "species_token": "SPECIES_ELECTRIKE"
+    },
+    {
+      "ability": "POISON_TOUCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "POISON_GAS",
+        "BITE",
+        "POISON_FANG",
+        "POUND"
+      ],
+      "species": "GRIMER",
+      "species_token": "SPECIES_GRIMER"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "BULLDOZE",
+        "ROCK_POLISH",
+        "ROCK_THROW",
+        "SMACK_DOWN"
+      ],
+      "species": "GEODUDE",
+      "species_token": "SPECIES_GEODUDE"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 26,
+      "moves": [
+        "IRON_HEAD",
+        "HARDEN",
+        "ROCK_SLIDE",
+        "HEADBUTT"
+      ],
+      "species": "ARON",
+      "species_token": "SPECIES_ARON"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 244,
+  "trainer_id": 244,
+  "trainer_name": "Iris",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

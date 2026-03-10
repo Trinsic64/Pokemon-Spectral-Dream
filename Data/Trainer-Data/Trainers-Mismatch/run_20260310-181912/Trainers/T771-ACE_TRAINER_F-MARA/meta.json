@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OVERCOAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "FUTURE_SIGHT",
+        "REFLECT",
+        "HAMMER_ARM",
+        "PSYCHIC"
+      ],
+      "species": "REUNICLUS",
+      "species_token": "SPECIES_REUNICLUS"
+    },
+    {
+      "ability": "MARVEL_SCALE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "AQUA_TAIL",
+        "COIL"
+      ],
+      "species": "MILOTIC",
+      "species_token": "SPECIES_MILOTIC"
+    },
+    {
+      "ability": "DEFIANT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "IRON_HEAD",
+        "IRON_DEFENSE",
+        "NIGHT_SLASH",
+        "SLASH"
+      ],
+      "species": "BISHARP",
+      "species_token": "SPECIES_BISHARP"
+    },
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "PETAL_DANCE",
+        "AROMATHERAPY",
+        "MOONBLAST",
+        "PETAL_BLIZZARD"
+      ],
+      "species": "FLORGES",
+      "species_token": "SPECIES_FLORGES"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "MOONBLAST",
+        "PSYCHIC",
+        "DRAINING_KISS",
+        "CALM_MIND"
+      ],
+      "species": "AROMATISSE",
+      "species_token": "SPECIES_AROMATISSE"
+    },
+    {
+      "ability": "PIXILATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "FUTURE_SIGHT",
+        "DREAM_EATER",
+        "CALM_MIND",
+        "PSYCHIC"
+      ],
+      "species": "GARDEVOIR",
+      "species_token": "SPECIES_GARDEVOIR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 771,
+  "trainer_id": 771,
+  "trainer_name": "Mara",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

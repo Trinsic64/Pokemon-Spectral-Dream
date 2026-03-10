@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "HYPER_CUTTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "IRON_HEAD",
+        "PLAY_ROUGH",
+        "IRON_DEFENSE",
+        "CRUNCH"
+      ],
+      "species": "MAWILE",
+      "species_token": "SPECIES_MAWILE"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "HONE_CLAWS",
+        "NIGHT_SLASH",
+        "HEADBUTT",
+        "REST"
+      ],
+      "species": "LINOONE",
+      "species_token": "SPECIES_LINOONE"
+    },
+    {
+      "ability": "RIPEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 48,
+      "moves": [
+        "ENERGY_BALL",
+        "DRAGON_PULSE",
+        "IRON_DEFENSE",
+        "APPLE_ACID"
+      ],
+      "species": "APPLETUN",
+      "species_token": "SPECIES_APPLETUN"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 463,
+  "trainer_id": 463,
+  "trainer_name": "Luna",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

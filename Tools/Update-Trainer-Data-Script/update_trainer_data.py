@@ -321,6 +321,36 @@ def parse_trainers_s(path: Path) -> Tuple[List[str], Dict[int, Trainer]]:
 
 GRID_ROWS = ["Species", "Level", "Ability", "Held Item", "Move", "Move", "Move", "Move"]
 
+def _read_optional_moves_from_csv(path: Path) -> Optional[List[Tuple[int, List[str]]]]:
+    """
+    Read existing CSV and extract all Optional Move N rows if present.
+    Returns list of (num, vals) sorted by num, or None if not in expanded format.
+    """
+    if not path.exists():
+        return None
+    with path.open(newline="", encoding="utf-8-sig") as f:
+        rows = list(csv.reader(f))
+    if not rows or len(rows[0]) < 2:
+        return None
+    optional: List[Tuple[int, List[str]]] = []
+    for r in rows[1:]:
+        if not r:
+            continue
+        label = (r[0] or "").strip().lower()
+        if label.startswith("optional move "):
+            try:
+                num = int(label.split()[-1])
+                if num >= 1:
+                    vals = [(c or "").strip() for c in r[1:7]]
+                    while len(vals) < 6:
+                        vals.append("")
+                    optional.append((num, vals))
+            except (ValueError, IndexError):
+                pass
+    if not optional:
+        return None
+    return sorted(optional, key=lambda x: x[0])
+
 
 def write_trainer_grid_csv(path: Path, trainer_id: int, mons: List[Mon]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -371,10 +401,16 @@ def write_trainer_grid_csv(path: Path, trainer_id: int, mons: List[Mon]) -> None
     rows.append(["Level"] + row_values("Level"))
     rows.append(["Ability"] + row_values("Ability"))
     rows.append(["Held Item"] + row_values("Held Item"))
-    rows.append(["Move"] + [mon_cells[i]["Move1"] for i in range(6)])
-    rows.append(["Move"] + [mon_cells[i]["Move2"] for i in range(6)])
-    rows.append(["Move"] + [mon_cells[i]["Move3"] for i in range(6)])
-    rows.append(["Move"] + [mon_cells[i]["Move4"] for i in range(6)])
+    rows.append(["Move 1"] + [mon_cells[i]["Move1"] for i in range(6)])
+    rows.append(["Move 2"] + [mon_cells[i]["Move2"] for i in range(6)])
+    rows.append(["Move 3"] + [mon_cells[i]["Move3"] for i in range(6)])
+    rows.append(["Move 4"] + [mon_cells[i]["Move4"] for i in range(6)])
+
+    # Preserve all Optional Move rows from existing file if present
+    optional_moves = _read_optional_moves_from_csv(path)
+    if optional_moves:
+        for num, vals in optional_moves:
+            rows.append([f"Optional Move {num}"] + vals)
 
     with path.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -403,8 +439,25 @@ def read_trainer_grid_csv(path: Path) -> Optional[List[Mon]]:
             continue
         label = (r[0] or "").strip()
         vals = [(c or "").strip() for c in r[1:7]]
-        if label.lower() == "move":
+        while len(vals) < 6:
+            vals.append("")
+        label_lower = label.lower()
+        if label_lower == "move":
             move_rows.append(vals)
+        elif label_lower.startswith("move ") and "optional" not in label_lower:
+            try:
+                num = int(label.split()[-1])
+                if 1 <= num <= 4:
+                    while len(move_rows) < num:
+                        move_rows.append([""] * 6)
+                    if len(move_rows) < num:
+                        move_rows.append(vals)
+                    else:
+                        move_rows[num - 1] = vals
+            except (ValueError, IndexError):
+                pass
+        elif label_lower.startswith("optional move "):
+            pass  # skip; write_trainer_grid_csv preserves via _read_optional_moves_from_csv
         else:
             data[label.lower()] = vals
 

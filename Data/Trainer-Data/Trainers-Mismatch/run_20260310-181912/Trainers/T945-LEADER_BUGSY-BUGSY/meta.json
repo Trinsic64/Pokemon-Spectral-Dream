@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "LOW_SWEEP",
+        "KARATE_CHOP",
+        "ROCK_SMASH",
+        "FOCUS_ENERGY"
+      ],
+      "species": "SAWK",
+      "species_token": "SPECIES_SAWK"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "FOCUS_ENERGY",
+        "REVENGE",
+        "CIRCLE_THROW",
+        "MAT_BLOCK"
+      ],
+      "species": "THROH",
+      "species_token": "SPECIES_THROH"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "FOCUS_ENERGY",
+        "HEADBUTT",
+        "ROCK_SMASH",
+        "TACKLE"
+      ],
+      "species": "FALINKS",
+      "species_token": "SPECIES_FALINKS"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "CHARGE",
+        "SCRATCH",
+        "QUICK_ATTACK",
+        "ARM_THRUST"
+      ],
+      "species": "PAWMO",
+      "species_token": "SPECIES_PAWMO"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "FURY_CUTTER",
+        "SAND_ATTACK",
+        "ROCK_SMASH",
+        "PECK"
+      ],
+      "species": "FARFETCHD",
+      "species_token": "SPECIES_FARFETCHD"
+    },
+    {
+      "ability": "PURE_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "ZEN_HEADBUTT",
+        "ICE_PUNCH",
+        "DETECT",
+        "FORCE_PALM"
+      ],
+      "species": "MEDICHAM",
+      "species_token": "SPECIES_MEDICHAM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 945,
+  "trainer_id": 945,
+  "trainer_name": "BUGSY",
+  "trainerclass": "TRAINERCLASS_LEADER_BUGSY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

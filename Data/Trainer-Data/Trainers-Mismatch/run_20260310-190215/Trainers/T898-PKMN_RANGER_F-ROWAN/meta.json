@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "JUSTIFIED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "LEAF_BLADE",
+        "SACRED_SWORD",
+        "WORK_UP",
+        "CLOSE_COMBAT"
+      ],
+      "species": "VIRIZION",
+      "species_token": "SPECIES_VIRIZION"
+    },
+    {
+      "ability": "FLOWER_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "PETAL_DANCE",
+        "AROMATHERAPY",
+        "MOONBLAST",
+        "PETAL_BLIZZARD"
+      ],
+      "species": "FLORGES",
+      "species_token": "SPECIES_FLORGES"
+    },
+    {
+      "ability": "MARVEL_SCALE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "AQUA_TAIL",
+        "COIL"
+      ],
+      "species": "MILOTIC",
+      "species_token": "SPECIES_MILOTIC"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "ARMOR_CANNON",
+        "FLAMETHROWER",
+        "CALM_MIND",
+        "PSYSHOCK"
+      ],
+      "species": "ARMAROUGE",
+      "species_token": "SPECIES_ARMAROUGE"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "DRILL_PECK",
+        "IRON_DEFENSE",
+        "STEEL_WING",
+        "PLUCK"
+      ],
+      "species": "CORVIKNIGHT",
+      "species_token": "SPECIES_CORVIKNIGHT"
+    },
+    {
+      "ability": "TRACE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "FUTURE_SIGHT",
+        "CALM_MIND",
+        "PSYCHIC",
+        "PSYSHOCK"
+      ],
+      "species": "ALAKAZAM",
+      "species_token": "SPECIES_ALAKAZAM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 898,
+  "trainer_id": 898,
+  "trainer_name": "Rowan",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

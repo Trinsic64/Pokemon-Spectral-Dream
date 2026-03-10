@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ELECTRIC_SURGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "SPARK",
+        "AGILITY"
+      ],
+      "species": "TAPU_KOKO",
+      "species_token": "SPECIES_TAPU_KOKO"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "ZAP_CANNON",
+        "RAIN_DANCE"
+      ],
+      "species": "RAIKOU",
+      "species_token": "SPECIES_RAIKOU"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER",
+        "SHOCK_WAVE"
+      ],
+      "species": "MANECTRIC",
+      "species_token": "SPECIES_MANECTRIC"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 908,
+  "trainer_id": 908,
+  "trainer_name": "Coraline",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

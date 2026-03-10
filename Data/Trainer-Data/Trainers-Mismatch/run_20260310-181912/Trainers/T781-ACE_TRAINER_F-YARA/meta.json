@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RECEIVER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "THRASH",
+        "BULK_UP",
+        "BEAT_UP",
+        "ROCK_SMASH"
+      ],
+      "species": "PASSIMIAN",
+      "species_token": "SPECIES_PASSIMIAN"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "BUG_BUZZ",
+        "BLIZZARD",
+        "AURORA_BEAM",
+        "QUIVER_DANCE"
+      ],
+      "species": "FROSMOTH",
+      "species_token": "SPECIES_FROSMOTH"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "FUTURE_SIGHT",
+        "EXTRASENSORY",
+        "IRON_DEFENSE",
+        "GYRO_BALL"
+      ],
+      "species": "BRONZONG",
+      "species_token": "SPECIES_BRONZONG"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "SOLAR_BLADE",
+        "AXE_KICK",
+        "VICTORY_DANCE",
+        "MEGA_KICK"
+      ],
+      "species": "LILLIGANT",
+      "species_token": "SPECIES_LILLIGANT"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HYDRO_PUMP",
+        "THRASH",
+        "AQUA_TAIL",
+        "HURRICANE"
+      ],
+      "species": "GYARADOS",
+      "species_token": "SPECIES_GYARADOS"
+    },
+    {
+      "ability": "REFRIGERATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "CRUNCH",
+        "DOUBLE_TEAM",
+        "BLIZZARD",
+        "FREEZE_DRY"
+      ],
+      "species": "GLALIE",
+      "species_token": "SPECIES_GLALIE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 781,
+  "trainer_id": 781,
+  "trainer_name": "Yara",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

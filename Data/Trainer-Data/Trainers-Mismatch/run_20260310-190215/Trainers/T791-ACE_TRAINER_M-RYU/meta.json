@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "CROSS_CHOP",
+        "THRASH",
+        "FOCUS_ENERGY",
+        "SHADOW_PUNCH"
+      ],
+      "species": "ANNIHILAPE",
+      "species_token": "SPECIES_ANNIHILAPE"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "DRAGON_PULSE",
+        "AIR_SLASH",
+        "FELL_STINGER",
+        "POISON_JAB"
+      ],
+      "species": "NAGANADEL",
+      "species_token": "SPECIES_NAGANADEL"
+    },
+    {
+      "ability": "LIMBER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "FLYING_PRESS",
+        "SUBMISSION",
+        "SKY_ATTACK"
+      ],
+      "species": "HAWLUCHA",
+      "species_token": "SPECIES_HAWLUCHA"
+    },
+    {
+      "ability": "SWARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "X_SCISSOR",
+        "AIR_SLASH",
+        "IRON_DEFENSE",
+        "IRON_HEAD"
+      ],
+      "species": "SCIZOR",
+      "species_token": "SPECIES_SCIZOR"
+    },
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "METEOR_MASH",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "CLOSE_COMBAT"
+      ],
+      "species": "LUCARIO",
+      "species_token": "SPECIES_LUCARIO"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "HEAT_WAVE",
+        "DRAGON_CLAW",
+        "GROWL",
+        "DRAGON_BREATH"
+      ],
+      "species": "CHARIZARD",
+      "species_token": "SPECIES_CHARIZARD"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 791,
+  "trainer_id": 791,
+  "trainer_name": "Ryu",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

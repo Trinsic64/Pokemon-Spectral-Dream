@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "JUSTIFIED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "STONE_EDGE",
+        "SACRED_SWORD",
+        "WORK_UP",
+        "CLOSE_COMBAT"
+      ],
+      "species": "TERRAKION",
+      "species_token": "SPECIES_TERRAKION"
+    },
+    {
+      "ability": "JUSTIFIED",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "SACRED_SWORD",
+        "WORK_UP",
+        "IRON_HEAD",
+        "RETALIATE"
+      ],
+      "species": "COBALION",
+      "species_token": "SPECIES_COBALION"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "FUTURE_SIGHT",
+        "PSYCHIC",
+        "EXTRASENSORY",
+        "FLATTER"
+      ],
+      "species": "MESPRIT",
+      "species_token": "SPECIES_MESPRIT"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "HYDRO_PUMP",
+        "SURF",
+        "CALM_MIND",
+        "AURORA_BEAM"
+      ],
+      "species": "SUICUNE",
+      "species_token": "SPECIES_SUICUNE"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "OUTRAGE",
+        "ICE_BEAM",
+        "NOBLE_ROAR",
+        "BLIZZARD"
+      ],
+      "species": "KYUREM",
+      "species_token": "SPECIES_KYUREM"
+    },
+    {
+      "ability": "PARENTAL_BOND",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 76,
+      "moves": [
+        "LAST_RESORT",
+        "OUTRAGE",
+        "FOCUS_ENERGY",
+        "MEGA_PUNCH"
+      ],
+      "species": "KANGASKHAN",
+      "species_token": "SPECIES_KANGASKHAN"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 905,
+  "trainer_id": 905,
+  "trainer_name": "Zephyr",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

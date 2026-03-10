@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "DRAGON_PULSE",
+        "POWER_GEM",
+        "CHARGE",
+        "ZAP_CANNON"
+      ],
+      "species": "AMPHAROS",
+      "species_token": "SPECIES_AMPHAROS"
+    },
+    {
+      "ability": "QUARK_DRIVE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "ROCK_SLIDE",
+        "EARTHQUAKE",
+        "CHARGE",
+        "WILD_CHARGE"
+      ],
+      "species": "IRON_THORNS",
+      "species_token": "SPECIES_IRON_THORNS"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "PLASMA_FISTS",
+        "CHARGE",
+        "THUNDER_PUNCH",
+        "DISCHARGE"
+      ],
+      "species": "ZERAORA",
+      "species_token": "SPECIES_ZERAORA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 909,
+  "trainer_id": 909,
+  "trainer_name": "Darion",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "BURN_UP",
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "ROCK_POLISH"
+      ],
+      "species": "COALOSSAL",
+      "species_token": "SPECIES_COALOSSAL"
+    },
+    {
+      "ability": "HUNGER_SWITCH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "AURA_WHEEL",
+        "THRASH",
+        "AGILITY",
+        "CRUNCH"
+      ],
+      "species": "MORPEKO",
+      "species_token": "SPECIES_MORPEKO"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "BUG_BUZZ",
+        "BLIZZARD",
+        "AURORA_BEAM",
+        "QUIVER_DANCE"
+      ],
+      "species": "FROSMOTH",
+      "species_token": "SPECIES_FROSMOTH"
+    },
+    {
+      "ability": "HEALER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "PSYCHIC",
+        "DAZZLING_GLEAM",
+        "CALM_MIND",
+        "PSYBEAM"
+      ],
+      "species": "HATTERENE",
+      "species_token": "SPECIES_HATTERENE"
+    },
+    {
+      "ability": "STAMINA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FLASH_CANNON",
+        "IRON_DEFENSE",
+        "DRAGON_CLAW",
+        "BREAKING_SWIPE"
+      ],
+      "species": "ARCHALUDON",
+      "species_token": "SPECIES_ARCHALUDON"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "DRUM_BEATING",
+        "BOOMBURST",
+        "KNOCK_OFF",
+        "UPROAR"
+      ],
+      "species": "RILLABOOM",
+      "species_token": "SPECIES_RILLABOOM"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 845,
+  "trainer_id": 845,
+  "trainer_name": "Gloria",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

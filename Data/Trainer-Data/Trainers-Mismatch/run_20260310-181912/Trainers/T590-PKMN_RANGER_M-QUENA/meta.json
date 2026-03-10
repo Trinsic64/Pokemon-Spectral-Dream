@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MIMICRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "MUDDY_WATER",
+        "BOUNCE",
+        "SUCKER_PUNCH",
+        "METAL_CLAW"
+      ],
+      "species": "STUNFISK",
+      "species_token": "SPECIES_STUNFISK"
+    },
+    {
+      "ability": "FUR_COAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "GROWL",
+        "HEADBUTT",
+        "RETALIATE",
+        "SUCKER_PUNCH"
+      ],
+      "species": "FURFROU",
+      "species_token": "SPECIES_FURFROU"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "FIRST_IMPRESSION",
+        "BULK_UP",
+        "HEADBUTT",
+        "ROCK_SMASH"
+      ],
+      "species": "FALINKS",
+      "species_token": "SPECIES_FALINKS"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "PSYCHIC",
+        "BELCH",
+        "MAGIC_COAT",
+        "POWER_GEM"
+      ],
+      "species": "GRUMPIG",
+      "species_token": "SPECIES_GRUMPIG"
+    },
+    {
+      "ability": "KEEN_EYE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "AIR_SLASH",
+        "DEFOG",
+        "BUBBLE_BEAM",
+        "WING_ATTACK"
+      ],
+      "species": "SWANNA",
+      "species_token": "SPECIES_SWANNA"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER",
+        "SHOCK_WAVE"
+      ],
+      "species": "MANECTRIC",
+      "species_token": "SPECIES_MANECTRIC"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 590,
+  "trainer_id": 590,
+  "trainer_name": "QuenA",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

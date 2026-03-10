@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "LEECH_SEED",
+        "NEEDLE_ARM",
+        "FEINT_ATTACK",
+        "SAND_ATTACK"
+      ],
+      "species": "CACNEA",
+      "species_token": "SPECIES_CACNEA"
+    },
+    {
+      "ability": "SOUNDPROOF",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "CHARGE",
+        "SWIFT",
+        "CHARGE_BEAM",
+        "BULLET_SEED"
+      ],
+      "species": "VOLTORB",
+      "species_token": "SPECIES_VOLTORB"
+    },
+    {
+      "ability": "EFFECT_SPORE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "ABSORB",
+        "STUN_SPORE",
+        "CROSS_POISON",
+        "FURY_CUTTER"
+      ],
+      "species": "PARASECT",
+      "species_token": "SPECIES_PARASECT"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 20,
+      "moves": [
+        "INGRAIN",
+        "MEGA_DRAIN",
+        "ABSORB",
+        "FLASH"
+      ],
+      "species": "MORELULL",
+      "species_token": "SPECIES_MORELULL"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 206,
+  "trainer_id": 206,
+  "trainer_name": "Quinn",
+  "trainerclass": "TRAINERCLASS_AROMA_LADY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "CRUNCH",
+        "X_SCISSOR",
+        "ICE_FANG",
+        "CROSS_POISON"
+      ],
+      "species": "DRAPION",
+      "species_token": "SPECIES_DRAPION"
+    },
+    {
+      "ability": "MEGA_LAUNCHER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "CRABHAMMER",
+        "DRAGON_PULSE",
+        "HONE_CLAWS",
+        "BOUNCE"
+      ],
+      "species": "CLAWITZER",
+      "species_token": "SPECIES_CLAWITZER"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 54,
+      "moves": [
+        "HYDRO_PUMP",
+        "THRASH",
+        "HURRICANE",
+        "CRUNCH"
+      ],
+      "species": "GYARADOS",
+      "species_token": "SPECIES_GYARADOS"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 693,
+  "trainer_id": 693,
+  "trainer_name": "Ulric",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

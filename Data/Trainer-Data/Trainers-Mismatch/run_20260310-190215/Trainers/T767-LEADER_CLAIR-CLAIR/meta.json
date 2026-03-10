@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "CROSS_CHOP",
+        "THRASH",
+        "FOCUS_ENERGY",
+        "SHADOW_PUNCH"
+      ],
+      "species": "ANNIHILAPE",
+      "species_token": "SPECIES_ANNIHILAPE"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "LEAF_BLADE",
+        "SPIRIT_SHACKLE",
+        "PHANTOM_FORCE",
+        "NASTY_PLOT"
+      ],
+      "species": "DECIDUEYE",
+      "species_token": "SPECIES_DECIDUEYE"
+    },
+    {
+      "ability": "GOOD_AS_GOLD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "MAKE_IT_RAIN",
+        "SHADOW_BALL",
+        "NASTY_PLOT",
+        "POWER_GEM"
+      ],
+      "species": "GHOLDENGO",
+      "species_token": "SPECIES_GHOLDENGO"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "ERUPTION",
+        "LEER",
+        "INFERNAL_PARADE",
+        "INFERNO"
+      ],
+      "species": "TYPHLOSION",
+      "species_token": "SPECIES_TYPHLOSION"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "SHADOW_BALL",
+        "FUTURE_SIGHT",
+        "CONFUSE_RAY",
+        "SHADOW_PUNCH"
+      ],
+      "species": "DUSKNOIR",
+      "species_token": "SPECIES_DUSKNOIR"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "SHADOW_BALL",
+        "KNOCK_OFF",
+        "PHANTOM_FORCE",
+        "SUCKER_PUNCH"
+      ],
+      "species": "BANETTE",
+      "species_token": "SPECIES_BANETTE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 767,
+  "trainer_id": 767,
+  "trainer_name": "Clair",
+  "trainerclass": "TRAINERCLASS_LEADER_CLAIR",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

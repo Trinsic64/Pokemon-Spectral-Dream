@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "DISGUISE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "PLAY_ROUGH",
+        "DOUBLE_TEAM",
+        "SHADOW_CLAW",
+        "SLASH"
+      ],
+      "species": "MIMIKYU",
+      "species_token": "SPECIES_MIMIKYU"
+    },
+    {
+      "ability": "WANDERING_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "EARTHQUAKE",
+        "SHADOW_BALL",
+        "CURSE",
+        "SHADOW_CLAW"
+      ],
+      "species": "RUNERIGUS",
+      "species_token": "SPECIES_RUNERIGUS"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "THRASH",
+        "HONE_CLAWS",
+        "OUTRAGE",
+        "FOUL_PLAY"
+      ],
+      "species": "KROOKODILE",
+      "species_token": "SPECIES_KROOKODILE"
+    },
+    {
+      "ability": "SYNCHRONIZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "DARK_PULSE",
+        "LAST_RESORT",
+        "BITE",
+        "GUARD_SWAP"
+      ],
+      "species": "UMBREON",
+      "species_token": "SPECIES_UMBREON"
+    },
+    {
+      "ability": "MUMMY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "OMINOUS_WIND",
+        "HEX"
+      ],
+      "species": "COFAGRIGUS",
+      "species_token": "SPECIES_COFAGRIGUS"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "SHADOW_BALL",
+        "KNOCK_OFF",
+        "PHANTOM_FORCE",
+        "SUCKER_PUNCH"
+      ],
+      "species": "BANETTE",
+      "species_token": "SPECIES_BANETTE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 772,
+  "trainer_id": 772,
+  "trainer_name": "Corvus",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

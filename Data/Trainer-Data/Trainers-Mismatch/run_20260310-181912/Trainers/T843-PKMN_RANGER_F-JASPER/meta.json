@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "LAST_RESORT",
+        "MOONBLAST",
+        "SWIFT",
+        "SAND_ATTACK"
+      ],
+      "species": "SYLVEON",
+      "species_token": "SPECIES_SYLVEON"
+    },
+    {
+      "ability": "RIPEN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "ENERGY_BALL",
+        "DRAGON_PULSE",
+        "IRON_DEFENSE",
+        "APPLE_ACID"
+      ],
+      "species": "APPLETUN",
+      "species_token": "SPECIES_APPLETUN"
+    },
+    {
+      "ability": "MOLD_BREAKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "DRAGON_PULSE",
+        "POWER_GEM",
+        "CHARGE",
+        "ZAP_CANNON"
+      ],
+      "species": "AMPHAROS",
+      "species_token": "SPECIES_AMPHAROS"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 843,
+  "trainer_id": 843,
+  "trainer_name": "Jasper",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "DRAGON_PULSE",
+        "MUDDY_WATER",
+        "SHELTER",
+        "IRON_TAIL"
+      ],
+      "species": "GOODRA",
+      "species_token": "SPECIES_GOODRA"
+    },
+    {
+      "ability": "SHEER_FORCE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "IRON_HEAD",
+        "HIGH_HORSEPOWER",
+        "IRON_DEFENSE",
+        "DIG"
+      ],
+      "species": "COPPERAJAH",
+      "species_token": "SPECIES_COPPERAJAH"
+    },
+    {
+      "ability": "PLUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "DISCHARGE",
+        "SHIFT_GEAR",
+        "ZAP_CANNON",
+        "MIRROR_SHOT"
+      ],
+      "species": "KLINKLANG",
+      "species_token": "SPECIES_KLINKLANG"
+    },
+    {
+      "ability": "SAND_RUSH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "EARTHQUAKE",
+        "DRILL_RUN",
+        "DIG",
+        "METAL_CLAW"
+      ],
+      "species": "EXCADRILL",
+      "species_token": "SPECIES_EXCADRILL"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "FLASH_CANNON",
+        "TRI_ATTACK",
+        "BARRIER",
+        "ZAP_CANNON"
+      ],
+      "species": "MAGNEZONE",
+      "species_token": "SPECIES_MAGNEZONE"
+    },
+    {
+      "ability": "FILTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 84,
+      "moves": [
+        "IRON_HEAD",
+        "ROCK_SLIDE",
+        "IRON_DEFENSE",
+        "ROCK_TOMB"
+      ],
+      "species": "AGGRON",
+      "species_token": "SPECIES_AGGRON"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 960,
+  "trainer_id": 960,
+  "trainer_name": "BRUNO",
+  "trainerclass": "TRAINERCLASS_ELITE_FOUR_BRUNO",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

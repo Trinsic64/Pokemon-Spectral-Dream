@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "STRING_SHOT",
+        "TACKLE",
+        "TACKLE",
+        "TACKLE"
+      ],
+      "species": "CATERPIE",
+      "species_token": "SPECIES_CATERPIE"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "SAND_ATTACK",
+        "SCRATCH",
+        "HARDEN",
+        "SCRATCH"
+      ],
+      "species": "NINCADA",
+      "species_token": "SPECIES_NINCADA"
+    },
+    {
+      "ability": "INSOMNIA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 6,
+      "moves": [
+        "STRUGGLE_BUG",
+        "TACKLE",
+        "STRING_SHOT",
+        "STRUGGLE_BUG"
+      ],
+      "species": "TAROUNTULA",
+      "species_token": "SPECIES_TAROUNTULA"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 20,
+  "trainer_id": 20,
+  "trainer_name": "Sofia",
+  "trainerclass": "TRAINERCLASS_BUG_CATCHER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

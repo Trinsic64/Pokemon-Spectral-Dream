@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SLOW_START",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "MEGA_PUNCH",
+        "BODY_PRESS",
+        "KNOCK_OFF",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "REGIGIGAS",
+      "species_token": "SPECIES_REGIGIGAS"
+    },
+    {
+      "ability": "SWORD_OF_RUIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "ICICLE_CRASH",
+        "SACRED_SWORD",
+        "SWORDS_DANCE",
+        "THROAT_CHOP"
+      ],
+      "species": "CHIEN_PAO",
+      "species_token": "SPECIES_CHIEN_PAO"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "MIND_BLOWN",
+        "SHADOW_BALL",
+        "INCINERATE",
+        "CALM_MIND"
+      ],
+      "species": "BLACEPHALON",
+      "species_token": "SPECIES_BLACEPHALON"
+    },
+    {
+      "ability": "ORICHALCUM_PULSE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "OUTRAGE",
+        "COLLISION_COURSE",
+        "FLAMETHROWER",
+        "AGILITY"
+      ],
+      "species": "KORAIDON",
+      "species_token": "SPECIES_KORAIDON"
+    },
+    {
+      "ability": "CUTE_CHARM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "OUTRAGE",
+        "SPRINGTIDE_STORM",
+        "SUPERPOWER",
+        "IRON_DEFENSE"
+      ],
+      "species": "ENAMORUS",
+      "species_token": "SPECIES_ENAMORUS"
+    },
+    {
+      "ability": "FILTER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "IRON_HEAD",
+        "ROCK_SLIDE",
+        "IRON_DEFENSE",
+        "ROCK_TOMB"
+      ],
+      "species": "AGGRON",
+      "species_token": "SPECIES_AGGRON"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 883,
+  "trainer_id": 883,
+  "trainer_name": "Taryn",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

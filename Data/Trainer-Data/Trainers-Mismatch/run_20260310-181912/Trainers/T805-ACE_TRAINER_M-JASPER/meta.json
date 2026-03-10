@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "ERUPTION",
+        "LEER",
+        "INFERNAL_PARADE",
+        "INFERNO"
+      ],
+      "species": "TYPHLOSION",
+      "species_token": "SPECIES_TYPHLOSION"
+    },
+    {
+      "ability": "FLASH_FIRE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "SHADOW_BALL",
+        "CONFUSE_RAY",
+        "HEX",
+        "INFERNO"
+      ],
+      "species": "CHANDELURE",
+      "species_token": "SPECIES_CHANDELURE"
+    },
+    {
+      "ability": "WHITE_SMOKE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "ERUPTION",
+        "BODY_SLAM",
+        "INFERNO",
+        "IRON_DEFENSE"
+      ],
+      "species": "TORKOAL",
+      "species_token": "SPECIES_TORKOAL"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "FLAMETHROWER",
+        "PLAY_ROUGH",
+        "AGILITY",
+        "REVERSAL"
+      ],
+      "species": "ARCANINE",
+      "species_token": "SPECIES_ARCANINE"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "HEAT_WAVE",
+        "DRAGON_CLAW",
+        "INFERNO",
+        "AIR_SLASH"
+      ],
+      "species": "CHARIZARD",
+      "species_token": "SPECIES_CHARIZARD"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 68,
+      "moves": [
+        "CALM_MIND",
+        "FLAME_WHEEL",
+        "ACROBATICS",
+        "CLOSE_COMBAT"
+      ],
+      "species": "INFERNAPE",
+      "species_token": "SPECIES_INFERNAPE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 805,
+  "trainer_id": 805,
+  "trainer_name": "Jasper",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

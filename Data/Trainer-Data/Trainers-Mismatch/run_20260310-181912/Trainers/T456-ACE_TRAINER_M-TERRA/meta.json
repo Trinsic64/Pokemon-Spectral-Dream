@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "HYPER_FANG",
+        "CRUNCH",
+        "FOCUS_ENERGY",
+        "SUCKER_PUNCH"
+      ],
+      "species": "RATICATE",
+      "species_token": "SPECIES_RATICATE"
+    },
+    {
+      "ability": "SHED_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "THRASH",
+        "IRON_DEFENSE",
+        "STONE_EDGE"
+      ],
+      "species": "PUPITAR",
+      "species_token": "SPECIES_PUPITAR"
+    },
+    {
+      "ability": "STEAM_ENGINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "INCINERATE",
+        "ANCIENT_POWER",
+        "SMACK_DOWN",
+        "ROCK_POLISH"
+      ],
+      "species": "CARKOL",
+      "species_token": "SPECIES_CARKOL"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "EARTHQUAKE",
+        "TRI_ATTACK",
+        "EARTH_POWER",
+        "SANDSTORM"
+      ],
+      "species": "DUGTRIO",
+      "species_token": "SPECIES_DUGTRIO"
+    },
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 50,
+      "moves": [
+        "SHADOW_BONE",
+        "THRASH",
+        "STOMPING_TANTRUM",
+        "FLAME_WHEEL"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 456,
+  "trainer_id": 456,
+  "trainer_name": "Terra",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

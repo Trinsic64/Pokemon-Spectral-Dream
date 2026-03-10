@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 23,
+      "moves": [
+        "GROWL",
+        "RAZOR_LEAF",
+        "BRANCH_POKE",
+        "SCRATCH"
+      ],
+      "species": "THWACKEY",
+      "species_token": "SPECIES_THWACKEY"
+    },
+    {
+      "ability": "FLOWER_GIFT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 23,
+      "moves": [
+        "PETAL_DANCE",
+        "MAGICAL_LEAF",
+        "LEAFAGE",
+        "SUNNY_DAY"
+      ],
+      "species": "CHERRIM",
+      "species_token": "SPECIES_CHERRIM"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 23,
+      "moves": [
+        "INGRAIN",
+        "BITE",
+        "VINE_WHIP",
+        "GROWTH"
+      ],
+      "species": "CARNIVINE",
+      "species_token": "SPECIES_CARNIVINE"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 23,
+      "moves": [
+        "LEAF_STORM",
+        "MAGICAL_LEAF",
+        "STOMP",
+        "GUST"
+      ],
+      "species": "TROPIUS",
+      "species_token": "SPECIES_TROPIUS"
+    },
+    {
+      "ability": "SNOW_WARNING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 23,
+      "moves": [
+        "ICE_PUNCH",
+        "ICY_WIND",
+        "SWAGGER",
+        "RAZOR_LEAF"
+      ],
+      "species": "ABOMASNOW",
+      "species_token": "SPECIES_ABOMASNOW"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 207,
+  "trainer_id": 207,
+  "trainer_name": "Whitney",
+  "trainerclass": "TRAINERCLASS_LEADER_WHITNEY",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

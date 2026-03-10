@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "WANDERING_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "SHADOW_BALL",
+        "CURSE",
+        "SHADOW_CLAW"
+      ],
+      "species": "RUNERIGUS",
+      "species_token": "SPECIES_RUNERIGUS"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "THUNDERBOLT",
+        "MUDDY_WATER",
+        "DISCHARGE",
+        "MUD_BOMB"
+      ],
+      "species": "STUNFISK",
+      "species_token": "SPECIES_STUNFISK"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "TRI_ATTACK",
+        "EARTH_POWER",
+        "SANDSTORM"
+      ],
+      "species": "DUGTRIO",
+      "species_token": "SPECIES_DUGTRIO"
+    },
+    {
+      "ability": "MIMICRY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "MUDDY_WATER",
+        "BOUNCE",
+        "SUCKER_PUNCH",
+        "METAL_CLAW"
+      ],
+      "species": "STUNFISK",
+      "species_token": "SPECIES_STUNFISK"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "EARTH_POWER",
+        "DIG",
+        "IRON_HEAD"
+      ],
+      "species": "DUGTRIO",
+      "species_token": "SPECIES_DUGTRIO"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 675,
+  "trainer_id": 675,
+  "trainer_name": "Flint",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

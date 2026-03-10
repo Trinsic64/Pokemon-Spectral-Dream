@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SPEED_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BULK_UP",
+        "BLAZE_KICK",
+        "SKY_UPPERCUT"
+      ],
+      "species": "BLAZIKEN",
+      "species_token": "SPECIES_BLAZIKEN"
+    },
+    {
+      "ability": "HYDRATION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "TAIL_GLOW",
+        "BUBBLE_BEAM",
+        "WATER_PULSE",
+        "ACID_ARMOR"
+      ],
+      "species": "MANAPHY",
+      "species_token": "SPECIES_MANAPHY"
+    },
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "FOCUS_PUNCH",
+        "LEECH_LIFE",
+        "BULK_UP",
+        "LUNGE"
+      ],
+      "species": "BUZZWOLE",
+      "species_token": "SPECIES_BUZZWOLE"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "FUTURE_SIGHT",
+        "HYDRO_PUMP",
+        "ANCIENT_POWER",
+        "AEROBLAST"
+      ],
+      "species": "LUGIA",
+      "species_token": "SPECIES_LUGIA"
+    },
+    {
+      "ability": "INTREPID_SWORD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "SACRED_SWORD",
+        "HOWL",
+        "CLOSE_COMBAT",
+        "MOONBLAST"
+      ],
+      "species": "ZACIAN",
+      "species_token": "SPECIES_ZACIAN"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 80,
+      "moves": [
+        "ROAR_OF_TIME",
+        "EARTH_POWER",
+        "SCARY_FACE",
+        "IRON_TAIL"
+      ],
+      "species": "DIALGA",
+      "species_token": "SPECIES_DIALGA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 918,
+  "trainer_id": 918,
+  "trainer_name": "Mireille",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PSYCHIC_SURGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "PSYSHOCK",
+        "MOONBLAST",
+        "PSYCHIC_TERRAIN",
+        "EXTRASENSORY"
+      ],
+      "species": "TAPU_LELE",
+      "species_token": "SPECIES_TAPU_LELE"
+    },
+    {
+      "ability": "AS_ONE_GLASTRIER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "GLACIAL_LANCE",
+        "THRASH",
+        "ENERGY_BALL",
+        "PSYCHIC"
+      ],
+      "species": "CALYREX",
+      "species_token": "SPECIES_CALYREX"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "LUSTER_PURGE",
+        "DRAGON_PULSE",
+        "DRAGON_DANCE",
+        "DRAGON_BREATH"
+      ],
+      "species": "LATIOS",
+      "species_token": "SPECIES_LATIOS"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 914,
+  "trainer_id": 914,
+  "trainer_name": "Isolde",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

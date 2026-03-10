@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ILLUSION",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "FOUL_PLAY",
+        "NIGHT_DAZE",
+        "HONE_CLAWS",
+        "AGILITY"
+      ],
+      "species": "ZOROARK",
+      "species_token": "SPECIES_ZOROARK"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "THRASH",
+        "HONE_CLAWS",
+        "OUTRAGE",
+        "FOUL_PLAY"
+      ],
+      "species": "KROOKODILE",
+      "species_token": "SPECIES_KROOKODILE"
+    },
+    {
+      "ability": "ROUGH_SKIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "OUTRAGE",
+        "ROCK_CLIMB",
+        "HONE_CLAWS",
+        "SUPERPOWER"
+      ],
+      "species": "DRUDDIGON",
+      "species_token": "SPECIES_DRUDDIGON"
+    },
+    {
+      "ability": "RKS_SYSTEM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "MULTI_ATTACK",
+        "IRON_HEAD",
+        "SCARY_FACE",
+        "AIR_SLASH"
+      ],
+      "species": "SILVALLY",
+      "species_token": "SPECIES_SILVALLY"
+    },
+    {
+      "ability": "STATIC",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "DRAGON_PULSE",
+        "CHARGE",
+        "ZAP_CANNON",
+        "COTTON_SPORE"
+      ],
+      "species": "AMPHAROS",
+      "species_token": "SPECIES_AMPHAROS"
+    },
+    {
+      "ability": "ADAPTABILITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "METEOR_MASH",
+        "DRAGON_PULSE",
+        "NASTY_PLOT",
+        "CLOSE_COMBAT"
+      ],
+      "species": "LUCARIO",
+      "species_token": "SPECIES_LUCARIO"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 785,
+  "trainer_id": 785,
+  "trainer_name": "Bram",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

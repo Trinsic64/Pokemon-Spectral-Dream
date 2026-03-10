@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "GIGA_DRAIN",
+        "MOONBLAST",
+        "INGRAIN",
+        "DAZZLING_GLEAM"
+      ],
+      "species": "SHIINOTIC",
+      "species_token": "SPECIES_SHIINOTIC"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "PETAL_DANCE",
+        "GIGA_DRAIN",
+        "RAZOR_LEAF",
+        "SUNNY_DAY"
+      ],
+      "species": "SUNFLORA",
+      "species_token": "SPECIES_SUNFLORA"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "PLAY_ROUGH",
+        "SLASH",
+        "HEADBUTT",
+        "REST"
+      ],
+      "species": "LINOONE",
+      "species_token": "SPECIES_LINOONE"
+    },
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "EARTHQUAKE",
+        "TRI_ATTACK",
+        "EARTH_POWER",
+        "SANDSTORM"
+      ],
+      "species": "DUGTRIO",
+      "species_token": "SPECIES_DUGTRIO"
+    },
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "SHADOW_BONE",
+        "THRASH",
+        "STOMPING_TANTRUM",
+        "FLAME_WHEEL"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    },
+    {
+      "ability": "UNAWARE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 49,
+      "moves": [
+        "FUTURE_SIGHT",
+        "ASSURANCE",
+        "PSYCHIC",
+        "AIR_SLASH"
+      ],
+      "species": "SWOOBAT",
+      "species_token": "SPECIES_SWOOBAT"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 494,
+  "trainer_id": 494,
+  "trainer_name": "Hollis",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

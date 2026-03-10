@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BEAST_BOOST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "POWER_GEM",
+        "TOXIC_SPIKES",
+        "VENOSHOCK",
+        "HEADBUTT"
+      ],
+      "species": "NIHILEGO",
+      "species_token": "SPECIES_NIHILEGO"
+    },
+    {
+      "ability": "TABLETS_OF_RUIN",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "POWER_WHIP",
+        "FOUL_PLAY",
+        "DARK_PULSE",
+        "POISON_POWDER"
+      ],
+      "species": "WO_CHIEN",
+      "species_token": "SPECIES_WO_CHIEN"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "PSYCHIC_FANGS",
+        "PLAY_ROUGH",
+        "HOWL",
+        "CRUNCH"
+      ],
+      "species": "SCREAM_TAIL",
+      "species_token": "SPECIES_SCREAM_TAIL"
+    },
+    {
+      "ability": "PROTOSYNTHESIS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "FIRST_IMPRESSION",
+        "LUNGE",
+        "LOW_SWEEP",
+        "BULK_UP"
+      ],
+      "species": "SLITHER_WING",
+      "species_token": "SPECIES_SLITHER_WING"
+    },
+    {
+      "ability": "THERMAL_EXCHANGE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "GLAIVE_RUSH",
+        "ICICLE_CRASH",
+        "FOCUS_ENERGY",
+        "ICE_BEAM"
+      ],
+      "species": "BAXCALIBUR",
+      "species_token": "SPECIES_BAXCALIBUR"
+    },
+    {
+      "ability": "BATTLE_BOND",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 5,
+      "ivs": 250,
+      "level": 78,
+      "moves": [
+        "HYDRO_PUMP",
+        "EXTRASENSORY",
+        "DOUBLE_TEAM",
+        "NIGHT_SLASH"
+      ],
+      "species": "GRENINJA",
+      "species_token": "SPECIES_GRENINJA"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 876,
+  "trainer_id": 876,
+  "trainer_name": "Morin",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

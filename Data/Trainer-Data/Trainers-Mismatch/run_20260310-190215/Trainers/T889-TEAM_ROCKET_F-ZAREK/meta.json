@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "PSYCHIC",
+        "COSMIC_POWER",
+        "SUPERPOWER",
+        "ZAP_CANNON"
+      ],
+      "species": "DEOXYS_ATTACK",
+      "species_token": "SPECIES_DEOXYS_ATTACK"
+    },
+    {
+      "ability": "FULL_METAL_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "SUNSTEEL_STRIKE",
+        "COSMIC_POWER",
+        "SOLAR_BEAM",
+        "ZEN_HEADBUTT"
+      ],
+      "species": "SOLGALEO",
+      "species_token": "SPECIES_SOLGALEO"
+    },
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "DRAGON_CLAW",
+        "EARTH_POWER",
+        "OMINOUS_WIND",
+        "SHADOW_FORCE"
+      ],
+      "species": "GIRATINA_ORIGIN",
+      "species_token": "SPECIES_GIRATINA_ORIGIN"
+    },
+    {
+      "ability": "DARK_AURA",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "FOUL_PLAY",
+        "PSYCHIC",
+        "FOCUS_BLAST",
+        "HURRICANE"
+      ],
+      "species": "YVELTAL",
+      "species_token": "SPECIES_YVELTAL"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "DYNAMAX_CANNON",
+        "FLAMETHROWER",
+        "DRAGON_PULSE",
+        "VENOSHOCK"
+      ],
+      "species": "ETERNATUS",
+      "species_token": "SPECIES_ETERNATUS"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 82,
+      "moves": [
+        "STONE_EDGE",
+        "THRASH",
+        "EARTHQUAKE",
+        "CRUNCH"
+      ],
+      "species": "TYRANITAR",
+      "species_token": "SPECIES_TYRANITAR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 889,
+  "trainer_id": 889,
+  "trainer_name": "Zarek",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

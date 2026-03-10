@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "CRUNCH",
+        "FIRE_FANG",
+        "HOWL",
+        "BITE"
+      ],
+      "species": "MIGHTYENA",
+      "species_token": "SPECIES_MIGHTYENA"
+    },
+    {
+      "ability": "IMMUNITY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "HONE_CLAWS",
+        "SCRATCH",
+        "QUICK_ATTACK",
+        "FURY_CUTTER"
+      ],
+      "species": "ZANGOOSE",
+      "species_token": "SPECIES_ZANGOOSE"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "FUTURE_SIGHT",
+        "KNOCK_OFF",
+        "BITE",
+        "PURSUIT"
+      ],
+      "species": "ABSOL",
+      "species_token": "SPECIES_ABSOL"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 183,
+  "trainer_id": 183,
+  "trainer_name": "Lennox",
+  "trainerclass": "TRAINERCLASS_TEAM_ROCKET",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

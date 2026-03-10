@@ -1,0 +1,90 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "LEVITATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "LAST_RESORT",
+        "ASTONISH",
+        "GROWL",
+        "CONFUSION"
+      ],
+      "species": "CHINGLING",
+      "species_token": "SPECIES_CHINGLING"
+    },
+    {
+      "ability": "WATER_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "NIGHT_SHADE",
+        "WATER_SPORT",
+        "BUBBLE_BEAM",
+        "WATER_PULSE"
+      ],
+      "species": "FRILLISH",
+      "species_token": "SPECIES_FRILLISH"
+    },
+    {
+      "ability": "PICKUP",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "GROWL",
+        "BITE",
+        "FAKE_OUT",
+        "SCRATCH"
+      ],
+      "species": "MEOWTH",
+      "species_token": "SPECIES_MEOWTH"
+    },
+    {
+      "ability": "VOLT_ABSORB",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 18,
+      "moves": [
+        "CHARGE",
+        "SCRATCH",
+        "QUICK_ATTACK",
+        "ARM_THRUST"
+      ],
+      "species": "PAWMO",
+      "species_token": "SPECIES_PAWMO"
+    }
+  ],
+  "nummons": 4,
+  "party_id": 186,
+  "trainer_id": 186,
+  "trainer_name": "Aria",
+  "trainerclass": "TRAINERCLASS_PSYCHIC_F",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "CURIOUS_MEDICINE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "FUTURE_SIGHT",
+        "SURF",
+        "WATER_PULSE",
+        "ACID"
+      ],
+      "species": "SLOWKING",
+      "species_token": "SPECIES_SLOWKING"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "PETAL_DANCE",
+        "MOONBLAST",
+        "PETAL_BLIZZARD",
+        "ACID"
+      ],
+      "species": "VILEPLUME",
+      "species_token": "SPECIES_VILEPLUME"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "UPROAR",
+        "LEECH_SEED",
+        "PSYSHOCK",
+        "LEAF_STORM"
+      ],
+      "species": "EXEGGUTOR",
+      "species_token": "SPECIES_EXEGGUTOR"
+    },
+    {
+      "ability": "COMPOUND_EYES",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "BUG_BUZZ",
+        "AGILITY",
+        "ABSORB",
+        "DISCHARGE"
+      ],
+      "species": "GALVANTULA",
+      "species_token": "SPECIES_GALVANTULA"
+    },
+    {
+      "ability": "EARLY_BIRD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "LAST_RESORT",
+        "OUTRAGE",
+        "FOCUS_ENERGY",
+        "MEGA_PUNCH"
+      ],
+      "species": "KANGASKHAN",
+      "species_token": "SPECIES_KANGASKHAN"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 66,
+      "moves": [
+        "PETAL_DANCE",
+        "LEECH_SEED",
+        "PETAL_BLIZZARD",
+        "SEED_BOMB"
+      ],
+      "species": "VENUSAUR",
+      "species_token": "SPECIES_VENUSAUR"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 786,
+  "trainer_id": 786,
+  "trainer_name": "Hugo",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

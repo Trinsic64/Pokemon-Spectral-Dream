@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "BERSERK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "OUTRAGE",
+        "DRAGON_PULSE",
+        "PLAY_NICE",
+        "HYPER_VOICE"
+      ],
+      "species": "DRAMPA",
+      "species_token": "SPECIES_DRAMPA"
+    },
+    {
+      "ability": "OVERGROW",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "LEAF_BLADE",
+        "TRIPLE_ARROWS",
+        "BULK_UP",
+        "U_TURN"
+      ],
+      "species": "DECIDUEYE",
+      "species_token": "SPECIES_DECIDUEYE"
+    },
+    {
+      "ability": "ILLUMINATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "HYDRO_PUMP",
+        "PSYCHIC",
+        "COSMIC_POWER",
+        "POWER_GEM"
+      ],
+      "species": "STARMIE",
+      "species_token": "SPECIES_STARMIE"
+    },
+    {
+      "ability": "SAP_SIPPER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "OUTRAGE",
+        "POWER_WHIP",
+        "PROTECT",
+        "DRAGON_PULSE"
+      ],
+      "species": "GOODRA",
+      "species_token": "SPECIES_GOODRA"
+    },
+    {
+      "ability": "SHIELD_DUST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "BUG_BUZZ",
+        "BLIZZARD",
+        "AURORA_BEAM",
+        "QUIVER_DANCE"
+      ],
+      "species": "FROSMOTH",
+      "species_token": "SPECIES_FROSMOTH"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 74,
+      "moves": [
+        "DISCHARGE",
+        "CHARGE",
+        "THUNDER",
+        "SHOCK_WAVE"
+      ],
+      "species": "MANECTRIC",
+      "species_token": "SPECIES_MANECTRIC"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 895,
+  "trainer_id": 895,
+  "trainer_name": "Nolan",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

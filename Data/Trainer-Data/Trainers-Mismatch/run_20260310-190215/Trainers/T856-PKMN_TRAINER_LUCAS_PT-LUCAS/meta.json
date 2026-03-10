@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "DOUBLE_TEAM",
+        "CLOSE_COMBAT",
+        "AERIAL_ACE",
+        "TAKE_DOWN"
+      ],
+      "species": "STARAPTOR",
+      "species_token": "SPECIES_STARAPTOR"
+    },
+    {
+      "ability": "SAND_STREAM",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "EARTHQUAKE",
+        "CRUNCH",
+        "SAND_ATTACK",
+        "FIRE_FANG"
+      ],
+      "species": "HIPPOWDON",
+      "species_token": "SPECIES_HIPPOWDON"
+    },
+    {
+      "ability": "SNOW_WARNING",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "ICE_PUNCH",
+        "SWAGGER",
+        "WOOD_HAMMER",
+        "BLIZZARD"
+      ],
+      "species": "ABOMASNOW",
+      "species_token": "SPECIES_ABOMASNOW"
+    },
+    {
+      "ability": "MAGNET_PULL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FLASH_CANNON",
+        "TRI_ATTACK",
+        "BARRIER",
+        "ZAP_CANNON"
+      ],
+      "species": "MAGNEZONE",
+      "species_token": "SPECIES_MAGNEZONE"
+    },
+    {
+      "ability": "BATTLE_ARMOR",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "CRUNCH",
+        "X_SCISSOR",
+        "ICE_FANG",
+        "CROSS_POISON"
+      ],
+      "species": "DRAPION",
+      "species_token": "SPECIES_DRAPION"
+    },
+    {
+      "ability": "BLAZE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "CALM_MIND",
+        "FLAME_WHEEL",
+        "ACROBATICS",
+        "CLOSE_COMBAT"
+      ],
+      "species": "INFERNAPE",
+      "species_token": "SPECIES_INFERNAPE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 856,
+  "trainer_id": 856,
+  "trainer_name": "Lucas",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_LUCAS_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

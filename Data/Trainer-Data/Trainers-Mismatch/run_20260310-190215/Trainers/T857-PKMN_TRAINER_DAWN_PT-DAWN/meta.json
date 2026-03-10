@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "STEADFAST",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "FUTURE_SIGHT",
+        "LEAF_BLADE",
+        "NIGHT_SLASH",
+        "CLOSE_COMBAT"
+      ],
+      "species": "GALLADE",
+      "species_token": "SPECIES_GALLADE"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "ATTACK_ORDER",
+        "POWER_GEM",
+        "AIR_SLASH",
+        "SWAGGER"
+      ],
+      "species": "VESPIQUEN",
+      "species_token": "SPECIES_VESPIQUEN"
+    },
+    {
+      "ability": "SCRAPPY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "HIGH_JUMP_KICK",
+        "BOUNCE",
+        "JUMP_KICK",
+        "HEADBUTT"
+      ],
+      "species": "LOPUNNY",
+      "species_token": "SPECIES_LOPUNNY"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "EARTHQUAKE",
+        "THRASH",
+        "AMNESIA",
+        "BLIZZARD"
+      ],
+      "species": "MAMOSWINE",
+      "species_token": "SPECIES_MAMOSWINE"
+    },
+    {
+      "ability": "CHLOROPHYLL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "POWER_WHIP",
+        "KNOCK_OFF",
+        "ANCIENT_POWER",
+        "GIGA_DRAIN"
+      ],
+      "species": "TANGROWTH",
+      "species_token": "SPECIES_TANGROWTH"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 5,
+      "ivs": 250,
+      "level": 75,
+      "moves": [
+        "HYDRO_PUMP",
+        "DRILL_PECK",
+        "BUBBLE_BEAM",
+        "METAL_CLAW"
+      ],
+      "species": "EMPOLEON",
+      "species_token": "SPECIES_EMPOLEON"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 857,
+  "trainer_id": 857,
+  "trainer_name": "Dawn",
+  "trainerclass": "TRAINERCLASS_PKMN_TRAINER_DAWN_PT",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

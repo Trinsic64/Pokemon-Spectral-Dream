@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "INNER_FOCUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "DOUBLE_TEAM",
+        "ICE_FANG",
+        "HEADBUTT",
+        "FROST_BREATH"
+      ],
+      "species": "SNORUNT",
+      "species_token": "SPECIES_SNORUNT"
+    },
+    {
+      "ability": "VITAL_SPIRIT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 1,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "DAZZLING_GLEAM",
+        "SUCKER_PUNCH",
+        "PSYBEAM",
+        "ICY_WIND"
+      ],
+      "species": "MR_MIME",
+      "species_token": "SPECIES_MR_MIME"
+    },
+    {
+      "ability": "THICK_FAT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 42,
+      "moves": [
+        "BODY_SLAM",
+        "BRINE",
+        "SWAGGER",
+        "AURORA_BEAM"
+      ],
+      "species": "SEALEO",
+      "species_token": "SPECIES_SEALEO"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 431,
+  "trainer_id": 431,
+  "trainer_name": "Genesis",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M_GS",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "THRASH",
+        "AMNESIA",
+        "BLIZZARD"
+      ],
+      "species": "MAMOSWINE",
+      "species_token": "SPECIES_MAMOSWINE"
+    },
+    {
+      "ability": "GUTS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "THRASH",
+        "PLAY_ROUGH",
+        "HIGH_HORSEPOWER",
+        "REST"
+      ],
+      "species": "URSALUNA",
+      "species_token": "SPECIES_URSALUNA"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "EARTHQUAKE",
+        "KNOCK_OFF",
+        "FIRE_FANG",
+        "SLAM"
+      ],
+      "species": "DONPHAN",
+      "species_token": "SPECIES_DONPHAN"
+    },
+    {
+      "ability": "STURDY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "STONE_EDGE",
+        "IRON_DEFENSE",
+        "MUD_SLAP",
+        "ROCK_SLIDE"
+      ],
+      "species": "GIGALITH",
+      "species_token": "SPECIES_GIGALITH"
+    },
+    {
+      "ability": "PRESSURE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 4,
+      "ivs": 250,
+      "level": 58,
+      "moves": [
+        "DRAGON_CLAW",
+        "CRUNCH",
+        "SAND_ATTACK",
+        "DIG"
+      ],
+      "species": "GARCHOMP",
+      "species_token": "SPECIES_GARCHOMP"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 688,
+  "trainer_id": 688,
+  "trainer_name": "Zane",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

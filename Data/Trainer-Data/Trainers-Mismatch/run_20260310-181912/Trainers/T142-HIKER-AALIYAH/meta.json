@@ -1,0 +1,72 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "SAND_VEIL",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "MUD_SLAP",
+        "SAND_ATTACK",
+        "METAL_CLAW",
+        "ASTONISH"
+      ],
+      "species": "DIGLETT",
+      "species_token": "SPECIES_DIGLETT"
+    },
+    {
+      "ability": "ROCK_HEAD",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "ROCK_TOMB",
+        "ROCK_POLISH",
+        "ROCK_THROW",
+        "SMACK_DOWN"
+      ],
+      "species": "ONIX",
+      "species_token": "SPECIES_ONIX"
+    },
+    {
+      "ability": "OBLIVIOUS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 2,
+      "ivs": 250,
+      "level": 15,
+      "moves": [
+        "CURSE",
+        "CONFUSION",
+        "TACKLE",
+        "WATER_GUN"
+      ],
+      "species": "SLOWPOKE",
+      "species_token": "SPECIES_SLOWPOKE"
+    }
+  ],
+  "nummons": 3,
+  "party_id": 142,
+  "trainer_id": 142,
+  "trainer_name": "Aaliyah",
+  "trainerclass": "TRAINERCLASS_HIKER",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

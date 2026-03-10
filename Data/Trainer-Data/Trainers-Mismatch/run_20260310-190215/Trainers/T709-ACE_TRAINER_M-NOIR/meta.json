@@ -1,0 +1,108 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "MUMMY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 0,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "DARK_PULSE",
+        "OMINOUS_WIND",
+        "HEX"
+      ],
+      "species": "COFAGRIGUS",
+      "species_token": "SPECIES_COFAGRIGUS"
+    },
+    {
+      "ability": "AFTERMATH",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "PHANTOM_FORCE",
+        "HEX",
+        "GUST"
+      ],
+      "species": "DRIFBLIM",
+      "species_token": "SPECIES_DRIFBLIM"
+    },
+    {
+      "ability": "CURSED_BODY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BONE",
+        "THRASH",
+        "STOMPING_TANTRUM",
+        "FLARE_BLITZ"
+      ],
+      "species": "MAROWAK",
+      "species_token": "SPECIES_MAROWAK"
+    },
+    {
+      "ability": "STEELWORKER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "ENERGY_BALL",
+        "ANCHOR_SHOT",
+        "RAPID_SPIN",
+        "PHANTOM_FORCE"
+      ],
+      "species": "DHELMISE",
+      "species_token": "SPECIES_DHELMISE"
+    },
+    {
+      "ability": "SNOW_CLOAK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 4,
+      "ivs": 250,
+      "level": 60,
+      "moves": [
+        "SHADOW_BALL",
+        "CRUNCH",
+        "WAKE_UP_SLAP",
+        "BLIZZARD"
+      ],
+      "species": "FROSLASS",
+      "species_token": "SPECIES_FROSLASS"
+    }
+  ],
+  "nummons": 5,
+  "party_id": 709,
+  "trainer_id": 709,
+  "trainer_name": "Noir",
+  "trainerclass": "TRAINERCLASS_ACE_TRAINER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}

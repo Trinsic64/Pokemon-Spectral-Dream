@@ -1,0 +1,126 @@
+{
+  "aiflags": "F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | 0",
+  "battletype": "SINGLE_BATTLE",
+  "items": [
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE",
+    "ITEM_NONE"
+  ],
+  "mons": [
+    {
+      "ability": "RUN_AWAY",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 0,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "PSYCHIC",
+        "MEGAHORN",
+        "AGILITY",
+        "PSYCHO_CUT"
+      ],
+      "species": "RAPIDASH",
+      "species_token": "SPECIES_RAPIDASH"
+    },
+    {
+      "ability": "TORRENT",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 1,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "WAVE_CRASH",
+        "AIR_SLASH",
+        "WING_ATTACK",
+        "CLOSE_COMBAT"
+      ],
+      "species": "QUAQUAVAL",
+      "species_token": "SPECIES_QUAQUAVAL"
+    },
+    {
+      "ability": "FRISK",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 2,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "DRAGON_HAMMER",
+        "UPROAR",
+        "LEECH_SEED",
+        "LEAF_STORM"
+      ],
+      "species": "EXEGGUTOR",
+      "species_token": "SPECIES_EXEGGUTOR"
+    },
+    {
+      "ability": "INTIMIDATE",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": null,
+      "index": 3,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "LAST_RESORT",
+        "PLAY_ROUGH",
+        "WORK_UP",
+        "CRUNCH"
+      ],
+      "species": "STOUTLAND",
+      "species_token": "SPECIES_STOUTLAND"
+    },
+    {
+      "ability": "TOUGH_CLAWS",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 2,
+      "index": 4,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "STONE_EDGE",
+        "THRASH",
+        "DOUBLE_TEAM",
+        "COUNTER"
+      ],
+      "species": "LYCANROC",
+      "species_token": "SPECIES_LYCANROC"
+    },
+    {
+      "ability": "HUGE_POWER",
+      "abilityslot": 0,
+      "additionalflags": "0",
+      "ballseal": "0",
+      "form_index": 1,
+      "index": 5,
+      "ivs": 250,
+      "level": 70,
+      "moves": [
+        "IRON_HEAD",
+        "PLAY_ROUGH",
+        "IRON_DEFENSE",
+        "CRUNCH"
+      ],
+      "species": "MAWILE",
+      "species_token": "SPECIES_MAWILE"
+    }
+  ],
+  "nummons": 6,
+  "party_id": 839,
+  "trainer_id": 839,
+  "trainer_name": "Fenris",
+  "trainerclass": "TRAINERCLASS_PKMN_RANGER_M",
+  "trainermontype": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS"
+}
