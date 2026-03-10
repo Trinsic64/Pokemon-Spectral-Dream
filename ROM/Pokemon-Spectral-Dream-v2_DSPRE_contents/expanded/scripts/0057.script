@@ -3,7 +3,7 @@
  * Rom ID: Pokemon-Spectral-Dream-v2
  * Game: HGSS
  * File: 0057
- * Generated: 10/03/2026 5:57:30 PM
+ * Generated: 10/03/2026 7:18:15 PM
  */
 
 //===== SCRIPTS =====//
@@ -39,15 +39,15 @@ End
 
 //===== ACTIONS =====//
 Action 1:
-	WalkSouth8 0xA
-	SetInvisible 0x1
+		WalkSouth8 0xA
+		SetInvisible 0x1
 End
 
 Action 2:
-	WalkWest8 0x1
-	WalkSouth8 0x7
-	WalkEast8 0x1
-	WalkSouth8 0x3
-	SetInvisible 0x1
+		WalkWest8 0x1
+		WalkSouth8 0x7
+		WalkEast8 0x1
+		WalkSouth8 0x3
+		SetInvisible 0x1
 End
 
