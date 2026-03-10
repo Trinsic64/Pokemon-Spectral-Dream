@@ -1,0 +1,260 @@
+# Key: 0x0A06
+Mystery Zone
+Maunceston Town
+Hampbell Town
+Lobart City
+Melton City
+Danberra City
+Sydtree City
+Bairns Town
+Shredsnow Town
+Cave City
+Oocia City
+Radelaide City
+Dalice Strings
+Troome City
+Terth City
+Pokémon League
+Route 1 Area 1
+Route 2 Area 1
+Route 2 Area 2
+Navel Cave West F1
+Navel Cave West F2
+Navel Cave West F3
+Navel Cave West F4
+Navel Cave West F5
+Navel Rock
+Route 3 Area 1
+Route 3 Area 2
+Navel Cave East F1
+Route 3 Area 3
+Route 3 Area 4
+Bell Tower
+Lobart Forest Area 1
+Lobart Forest Area 2
+Lobart Forest Area 3
+Lobart Forest Area 4
+Lobart Forest Area 5
+Lobart Forest Area 6
+Lobart Forest Area 7
+Lobart Forest Area 8
+Lobart Forest Area 9
+Alliance HQ F1
+Alliance HQ F2
+Alliance HQ F3
+Alliance HQ F4
+Alliance HQ F5
+Alliance HQ F6
+Defiance HQ F1
+Defiance HQ F2
+Defiance HQ F3
+Defiance HQ F4
+Defiance HQ F5
+Defiance HQ F6
+Route 4 Area 1
+Route 5 Area 1
+Route 5 Area 2
+Route 5 Area 3
+Route 5 Area 4
+Route 5 Area 5
+Lobart Cavern
+Subterranean Cave
+Subterranean Path
+Rock Cavern
+Ice Cavern
+Steel Cavern
+Sandstone Cove
+Route 6 Area 1
+Route 6 Area 2
+Route 6 Area 3
+Route 6 Area 4
+Molten Cavern
+Floral Fissure
+Route 7 Area 1
+Route 7 Area 2
+Route 7 Area 3
+Calamity Cave
+Well Cave F1
+Well Cave F2
+Well Cave F3
+Well Cave F4
+Route 8 Area 1
+Route 8 Area 2
+Route 8 Area 3
+Route 8 Area 4
+Voltic Cave Area 1
+Voltic Cave Area 2
+Voltic Cave Area 3
+Voltic Cave Area 4
+Voltic Cave Area 5
+Voltic Cave Area 6
+Shredsnow Temple
+Sydtree Forest Area 1
+Sydtree Forest Area 2
+Sydtree Forest Area 3
+Sydtree Forest Area 4
+Sydtree Forest Area 5
+Sydtree Forest Area 6
+Sydtree Forest Area 7
+Sydtree Forest Area 8
+Route 9 Area 1
+Route 9 Area 2
+Route 9 Area 3
+Route 9 Area 4
+Route 9 Area 5
+Route 10 Area 1
+Route 10 Area 2
+Bike Road
+Route 11 Area 1
+Route 11 Area 2
+Route 11 Area 3
+Route 11 Area 4
+Route 11 Area 5
+Route 12 Area 1
+Route 12 Area 2
+Route 12 Area 3
+Route 13 Area 1
+Route 13 Area 2
+Route 13 Area 3
+Route 13 Area 4
+Route 13 Area 5
+Route 13 Area 6
+Route 13 Area 7
+ROTOM’s Room
+Burnt Tower
+Uluru F1 Area 1
+Uluru F1 Area 2
+Uluru F1 Area 3
+Uluru F2 Area 1
+Uluru F2 Area 2
+Uluru F3 Area 1
+Uluru F3 Area 2
+Route 14 Area 1
+Route 14 Area 2
+Route 14 Area 3
+Route 14 Area 4
+Route 14 Area 5
+Route 14 Area 6
+Ice Path F1
+Ice Path F2
+Ice Path F3
+Relic Ruins F1
+Relic Ruins F2
+Relic Ruins F3
+Dragon’s Den
+Mt. Undara Area 1
+Mt. Undara Area 2
+Mt. Undara Area 3
+Mt. Undara Area 4
+Mt. Undara Conduit
+Mt. Undara Chamber
+Primal Cavern
+Shallow Cave Area 1
+Shallow Cave Area 2
+Shallow Cave Area 3
+Shallow Cave Area 4
+Route 15 Area 1
+Sky Pillar
+Haunted Forest Area 1
+Haunted Forest Area 2
+Haunted Forest Area 3
+Haunted Forest Area 4
+Haunted Forest Area 5
+Haunted Mansion
+Haunted Kitchen
+Haunted Offices
+Haunted Hallway
+Haunted Rooms
+Route 16 Area
+Route 16 Area
+Route 16 Area
+Route 16 Area
+Route 16 Area
+Route 16 Area
+Route 17 Area 1
+Route 17 Area 2
+Route 17 Area 3
+Route 17 Area 4
+Route 17 Area 5
+Route 17 Area 6
+Route 17 Area 7
+Route 17 Area 8
+Route 18 Area 1
+Route 18 Area 2
+Route 18 Area 3
+Route 18 Area 4
+Troome Cave F1
+Troome Cave F2
+Route 19 Area 1
+Route 19 Area 2
+Route 19 Area 3
+Route 20 Area 1
+Route 20 Area 2
+Route 20 Area 3
+Route 20 Area 4
+Route 20 Area 5
+Route 20 Area 6
+Route 20 Area 7
+Route 20 Area 8
+Route 20 Area 9
+Route 20 Area 10
+Route 20 Area 11
+Route 20 Area 12
+Route 20 Area 13
+Safari Zone
+Seafoam Islands
+Sprout Tower
+Bell Tower
+Burned Tower
+National Park
+Radio Tower
+Route 5 Area 4
+Route 5 Area 3
+Route 5 Area 2
+Route 5 Area 1
+Route 4
+Flora Fields
+Lobart Forest Area 8
+Lobart Forest Area 7
+Lobart Forest Area 6
+Lobart Forest Area 5
+Lobart Forest Area 4
+Lobart Forest Area 3
+Lobart Forest Area 2
+Lobart Forest Area 1
+Blazing Forest
+Amber Grove
+Puddle Grove
+Navel Cave Area 4
+Navel Cave Area 3
+Navel Cave Area 2
+Navel Cave Area 1
+Route 3 Area 2
+Route 3 Area 1
+Route 2 Area 2
+Route 2 Area 1
+Route 1
+ROUTE
+INDOOR GATE
+INDOOR POKECENTRE
+INDOOR POKECENTRE ROOM
+INDOOR POKEMART
+INDOOR HOUSE
+INDOOR EVENT
+INDOOR EVENT MAIN
+INDOOR EVENT SIDE
+INDOOR EVENT TRANSPORT
+INDOOR EVENT ENCOUNTER 
+INDOOR BUILDING
+INDOOR BUILDING HOUSE
+UNUSED
+-
+-
+GYM 8
+GYM 7
+GYM 6
+GYM 5
+GYM 4
+GYM 3
+GYM 2
+GYM 1

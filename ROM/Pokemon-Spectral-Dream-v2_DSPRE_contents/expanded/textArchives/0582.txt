@@ -1,0 +1,15 @@
+# Key: 0x59E5
+Hi!\r Gym Leader 1!
+Battle 1! Team 1!
+Battle 1! Team 2!
+Battle 1! Team 3!
+Battle 2! Team 1!
+Battle 2! Team 2!
+Battle 2! Team 3!
+Gym Leader 1!\r Again!
+Bonus Battle?
+Only 1 Battle
+You Won Both Battles!
+You won? Great! I was busy admiring\nthe powerful Trainers here.
+Goldenrod City Pokémon Gym
+Goldenrod City Pokémon Gym\rLeader: Whitney\nCertified Trainer!\f{STRVAR_1, 3, 0, 0}

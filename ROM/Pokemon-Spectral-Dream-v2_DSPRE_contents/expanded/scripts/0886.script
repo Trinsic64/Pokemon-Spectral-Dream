@@ -1,0 +1,197 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream-v2
+ * Game: HGSS
+ * File: 0886
+ * Generated: 10/03/2026 5:57:30 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	CheckFlag 126
+	JumpIf EQUAL Function#1
+	Message 0
+	WaitButton
+	CloseMessage
+	GetRandom 0x800C 2
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#2
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#3
+	CompareVarValue 0x800C 2
+	JumpIf EQUAL Function#4
+	ReleaseAll
+End
+
+Script 2:
+	PlayFanfare SEQ_SE_CONFIRM
+	LockAll
+	FacePlayer
+	CheckFlag 2600
+	JumpIf EQUAL Function#3
+	Message 4
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Script 3:
+	PlayFanfare SEQ_SE_CONFIRM
+	Message 6
+	WaitButton
+	CloseMessage
+End
+
+Script 4:
+	PlayFanfare SEQ_SE_CONFIRM
+	Message 7
+	WaitButton
+	CloseMessage
+End
+
+Script 5:
+End
+
+//===== FUNCTIONS =====//
+Function 1:
+	CheckFlag 153
+	JumpIf EQUAL Function#5
+	Message 7
+	WaitButton
+	CloseMessage
+Jump Function#6
+
+Function 2:
+	Message 1
+	WaitButton
+	CloseMessage
+	TrainerBattle TRAINER_KYLE_059 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#7
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	GiveBadge 0
+	AddTrainerScore 22
+	IncrementVar 0x4134 1
+	IncrementVar 0x4135 1
+	SetFlag 126
+Jump Function#6
+
+Function 3:
+	Message 2
+	WaitButton
+	CloseMessage
+	TrainerBattle 938 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#7
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	GiveBadge 0
+	AddTrainerScore 22
+	IncrementVar 0x4134 1
+	IncrementVar 0x4135 1
+	SetFlag 126
+Jump Function#6
+
+Function 4:
+	Message 3
+	WaitButton
+	CloseMessage
+	TrainerBattle 939 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#7
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	GiveBadge 0
+	AddTrainerScore 22
+	IncrementVar 0x4134 1
+	IncrementVar 0x4135 1
+	SetFlag 126
+Jump Function#6
+
+Function 5:
+	Message 10
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 6:
+	Message 8
+	YesNoBox 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#8
+	CloseMessage
+Jump Function#9
+
+Function 7:
+	LostBattle
+	ReleaseAll
+End
+
+Function 8:
+	CloseMessage
+	GetRandom 0x800C 2
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#10
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#11
+	CompareVarValue 0x800C 2
+	JumpIf EQUAL Function#12
+	ReleaseAll
+End
+
+Function 9:
+	Message 9
+	WaitButton
+	CloseMessage
+	ReleaseAll
+End
+
+Function 10:
+	Message 4
+	WaitButton
+	CloseMessage
+	TrainerBattle TRAINER_HENRY_060 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#7
+Jump Function#13
+
+Function 11:
+	Message 5
+	WaitButton
+	CloseMessage
+	TrainerBattle 940 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#7
+Jump Function#13
+
+Function 12:
+	Message 6
+	WaitButton
+	CloseMessage
+	TrainerBattle 941 TRAINER_NONE 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#7
+Jump Function#13
+
+Function 13:
+	PlaySound SEQ_ME_BADGE
+	WaitSound
+	GiveBadge 8
+	AddTrainerScore 22
+	IncrementVar 0x4134 1
+	IncrementVar 0x4135 1
+	SetFlag 153
+Jump Function#5
+
+//===== ACTIONS =====//

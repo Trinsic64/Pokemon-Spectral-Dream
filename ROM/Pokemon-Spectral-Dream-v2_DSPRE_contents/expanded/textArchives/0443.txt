@@ -1,0 +1,10 @@
+# Key: 0x307C
+HP
+Attack
+Defense
+Speed
+Sp. Atk
+Sp. Def
+accuracy
+evasiveness
+Max. HP

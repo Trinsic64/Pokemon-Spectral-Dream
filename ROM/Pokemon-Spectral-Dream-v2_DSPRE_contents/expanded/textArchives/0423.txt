@@ -1,0 +1,18 @@
+# Key: 0xB5A8
+{COLOR, 0, 1}{STRVAR_1, 4, 0, 0}{COLOR, 0, 0}
+            
+               
+              
+                 
+PLAYER:
+BADGES:
+POKéDEX:
+TIME:
+{STRVAR_1, 3, 1, 0}
+{STRVAR_1, 50, 2, 0}
+{STRVAR_1, 52, 3, 0}
+{STRVAR_1, 52, 4, 0}:{STRVAR_1, 51, 5, 0}
+{STRVAR_1, 3, 1, 0}
+{STRVAR_1, 50, 2, 0}
+{STRVAR_1, 52, 3, 0}
+{STRVAR_1, 52, 4, 0}:{STRVAR_1, 51, 5, 0}

@@ -1,0 +1,23 @@
+/*
+ * DSPRE Script File
+ * Rom ID: Pokemon-Spectral-Dream-v2
+ * Game: HGSS
+ * File: 0168
+ * Generated: 9/03/2026 8:33:00 PM
+ */
+
+//===== SCRIPTS =====//
+Script 1:
+	Movement Player Action#1
+	WaitMovement
+End
+
+//===== FUNCTIONS =====//
+//===== ACTIONS =====//
+Action 1:
+	EmoteExclamation 0x1
+	JumpFarSouth 0x1
+	JumpSouth8 0x1
+	JumpOnSpotSouth8 0x1
+End
+

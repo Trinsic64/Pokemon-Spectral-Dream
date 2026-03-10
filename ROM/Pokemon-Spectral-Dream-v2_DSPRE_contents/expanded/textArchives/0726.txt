@@ -1,0 +1,5 @@
+# Key: 0x3A9C
+Battle? {YESNO, 0, 0}
+Fine--next time!
+You got 1 Battle Point!
+Cal

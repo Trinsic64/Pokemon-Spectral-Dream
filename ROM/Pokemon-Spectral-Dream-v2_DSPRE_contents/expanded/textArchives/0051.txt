@@ -1,0 +1,7 @@
+# Key: 0x1416
+CLEFAIRY: Pip Pip!
+This is Mt. Moon Square.\rPlease don’t litter. Put trash\nwhere it belongs!
+{STRVAR_1, 3, 0, 0} found\n{STRVAR_1, 8, 1, 0}!
+{STRVAR_1, 3, 0, 0} put the {STRVAR_1, 8, 1, 0}\nin the {COLOR, 0, 2}{STRVAR_1, 31, 2, 0}{COLOR, 0, 0} Pocket.
+Obtained the {STRVAR_1, 8, 0, 0}!\rToo bad!\nThe Bag is full...
+We are closed for the day.
